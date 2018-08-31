@@ -1,21 +1,23 @@
 conda
 =====
 
-`conda <https://conda.io/docs/>`_ is used for "package, dependency and environment managing" that is cross
-platform and enables reproducibility of old code, even when some packages and
-dependencies have been updated in the meantime. conda can be used for any
-language and can even act as a manager for bioinformatic software such as bwa,
-bcftools, minimap, etc., but we will be using it to manage our Python
-environments.
+`conda <https://conda.io/docs/>`_ is used for "package, dependency and
+environment managing" that is cross platform and enables reproducibility of old
+code, even when some packages and dependencies have been updated in the
+meantime. conda can be used for any language and can even act as a manager for
+bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will be
+using it to manage our Python environments.
 
-While most our plotting and some data analysis uses R, our image and video
-analysis uses Python. There are certain similarities to these languages, and
+While most of our plotting and some data analysis uses R, our image and video
+analyses use Python. There are certain similarities to these languages, and
 most bioinformatic data analyses can be performed using one or the other (or
 both). However, R development is more streamlined and centralized, and we only
 use a few third-party packages, while Python includes two major versions (2 and
-3) that are still regularly used, and the packages that we use are diverse and
+3) that are still regularly used (I write in Python 3 while many developers
+still prefer Python 2, and scripts written in one version often won't work when
+run with the other version), and the packages that we use are diverse and
 maintained by a large crowd of different developers. Thus, we don't need
-package and environment management for R, but out Python pipelines are greatly
+package and environment management for R, but our Python pipelines are greatly
 enhanced with such management.
 
 conda has several features that make it a powerful tool, but the main feature
@@ -58,10 +60,10 @@ Here is a list of current environments on my machine (the asterisk marks the
 current environment)::
 
  zamanian-3108:~ njwheeler$ conda env list
-  # conda environments:
-  #
-  base                  *  /Users/njwheeler/software/miniconda3
-  motility_analysis        /Users/njwheeler/software/miniconda3/envs/motility_analysis
+ # conda environments:
+ #
+ base                  *  /Users/njwheeler/software/miniconda3
+ motility_analysis        /Users/njwheeler/software/miniconda3/envs/motility_analysis
 
 To activate the ``test_environment`` that you just created:
 
@@ -80,8 +82,7 @@ package, but the two main ways are using ``conda install {package name}`` and
 try to use the conda package manager. If that doesn't work, you will receive an
 error such as::
 
- PackagesNotFoundError: The following packages are not available from current
-  channels
+ PackagesNotFoundError: The following packages are not available from current channels
 
 If you receive this error, use Google to try to find a way to install the
 package with conda. You may need to use a different channel such as ``bioconda``
@@ -90,7 +91,7 @@ package is not available via conda, you will need to use ``pip install {package
 name}``.
 
 As an example, we will use conda to install numpy. Numpy is a popular package
-used for scientific computing, typically computations that involve matrices.
+used for scientific computing, typically computing that involve matrices.
 First make sure you are in the correct environment, then run:
 
 ``conda install numpy``
@@ -106,7 +107,7 @@ you will see::
 To demonstrate the utility of the conda virtual environment, first deactivate
 the ``test_environment`` with ``source deactivate test_environment``. Then
 repeat the commands ``python`` and ``>>> import numpy as np``. If done correctly,
-you will see that numpy isn't available outside of the environment. This way you
+you will see that numpy isn't available outside of the ``test_environment``. This way you
 can keep your base environment clean from unnecessary packages, and you can make
 sure the packages within a given environment aren't updated unless you explicitly
 make it so.
