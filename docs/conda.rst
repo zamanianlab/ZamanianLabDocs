@@ -121,3 +121,7 @@ those scripts. Instructions for creating this environment should be included in
 the README file on the mainpage of the GitHub repo. See my
 `BrugiaMotilityAnalysis <https://github.com/zamanianlab/BrugiaMotilityAnalysis>`_
 repo as an example.
+
+Useful Resources
+----------------
+`conda cheatsheet <https://conda.io/docs/_downloads/conda-cheatsheet.pdf>`_
