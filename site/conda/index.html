@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Conda - Zamanian Lab Documentation</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Conda";
+    var mkdocs_page_input_path = "conda.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Zamanian Lab Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Conda</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#conda">conda</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#installation">Installation</a></li>
+        
+            <li><a class="toctree-l3" href="#usage_and_an_example">Usage and an Example</a></li>
+        
+            <li><a class="toctree-l3" href="#zamanian_lab_environments">Zamanian Lab Environments</a></li>
+        
+            <li><a class="toctree-l3" href="#useful_resources">Useful Resources</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Zamanian Lab Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Conda</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/conda.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="conda">conda<a class="headerlink" href="#conda" title="Permanent link">&para;</a></h1>
+<p><code>conda &lt;https://conda.io/docs/&gt;</code>_ is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will be using it to manage our Python environments.</p>
+<p>While most of our plotting and some data analysis uses R, our image and video analyses use Python. There are certain similarities to these languages, and most bioinformatic data analyses can be performed using one or the other (or both). However, R development is more streamlined and centralized, and we only use a few third-party packages, while Python includes two major versions (2 and 3) that are still regularly used (I write in Python 3 while many developers still prefer Python 2, and scripts written in one version often won't work when run with the other version), and the packages that we use are diverse and maintained by a large crowd of different developers. Thus, we don't need package and environment management for R, but our Python pipelines are greatly enhanced with such management.</p>
+<p>conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a discrete, contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<p>There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes.</p>
+<pre><code class="bash">wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda
+</code></pre>
+
+<p>These commands will download the miniconda installer, run it, and install it to your <code>$HOME</code> folder. It will also add the path <code>/Users/[user]/software/miniconda3/bin</code> to your lookup <code>$PATH</code>, which allows you to run conda executables without referring explicitly to their location.</p>
+<h2 id="usage_and_an_example">Usage and an Example<a class="headerlink" href="#usage_and_an_example" title="Permanent link">&para;</a></h2>
+<p>Now that conda is installed, let's look at how virtual environments work.</p>
+<p>First, let's create a new environment that uses Python 3.5:</p>
+<p><code>conda create --name test_environment python=3.5</code></p>
+<p>The environment has now been created. You can see a list of all the environments that you have ever created with <code>conda env list</code>.</p>
+<p>Here is a list of current environments on my machine (the asterisk marks the current environment):</p>
+<pre><code class="bash">zamanian-3108:~ njwheeler$ conda env list
+# conda environments:
+#
+base                  *  /Users/njwheeler/software/miniconda3
+motility_analysis        /Users/njwheeler/software    
+miniconda3/envs/motility_analysis
+</code></pre>
+
+<p>To activate the <code>test_environment</code> that you just created:</p>
+<p><code>source activate test_environment</code></p>
+<p>Now you are in the virtual environment, using Python 3.5 as a default. You can check to make sure this is the case with <code>python --version</code>.</p>
+<p>You can also see the path to your environment's Python with <code>which python</code>.</p>
+<p>Now that you are in the correct environment, you can begin adjusting it to suit your purposes. The main way to do this is by installing certain Python packages that you may use in your analysis. There are multiple ways to install a Python package, but the two main ways are using <code>conda install {package name}</code> and <code>pip install {package name}</code>. When installing a new package, you should first try to use the conda package manager. If that doesn't work, you will receive an error such as:</p>
+<pre><code>PackagesNotFoundError: The following packages are not available from current channels
+</code></pre>
+<p>If you receive this error, use Google to try to find a way to install the package with conda. You may need to use a different channel such as <code>bioconda</code>, and then use <code>conda install --channel bioconda {package name}</code>. If the package is not available via conda, you will need to use <code>pip install {package name}</code>.</p>
+<p>As an example, we will use conda to install numpy. Numpy is a popular package used for scientific computing, typically computing that involve matrices.
+First make sure you are in the correct environment, then run:</p>
+<p><code>conda install numpy</code></p>
+<p>You should receive a message reporting the successful installation of the package. You can ensure successful installation by running Python with <code>python</code> and then attempting to load the package with <code>&gt;&gt;&gt; import numpy as np</code>. If the package was successfully loaded, you will get no message. If it was unsuccessful, you will see:</p>
+<pre><code class="python"> ModuleNotFoundError: No module named 'numpy'
+</code></pre>
+
+<p>To demonstrate the utility of the conda virtual environment, first deactivate the <code>test_environment</code> with <code>source deactivate test_environment</code>. Then repeat the commands <code>python</code> and <code>&gt;&gt;&gt; import numpy as np</code>. If done correctly, you will see that numpy isn't available outside of the <code>test_environment</code>. This way you can keep your base environment clean from unnecessary packages, and you can make sure the packages within a given environment aren't updated unless you explicitly make it so.</p>
+<h2 id="zamanian_lab_environments">Zamanian Lab Environments<a class="headerlink" href="#zamanian_lab_environments" title="Permanent link">&para;</a></h2>
+<p>Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See my
+<a href="https://github.com/zamanianlab/BrugiaMotilityAnalysis">BrugiaMotilityAnalysis</a>
+repo as an example.</p>
+<h2 id="useful_resources">Useful Resources<a class="headerlink" href="#useful_resources" title="Permanent link">&para;</a></h2>
+<p><a href="https://conda.io/docs/_downloads/conda-cheatsheet.pdf">conda cheatsheet</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/zamanianlab/ZamanianLabDocs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
