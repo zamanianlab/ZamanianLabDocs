@@ -1,5 +1,5 @@
 site_name: Zamanian Lab Documentation
-theme: readthedocs
+theme: 'material'
 repo_url: https://github.com/zamanianlab/ZamanianLabDocs
 
 

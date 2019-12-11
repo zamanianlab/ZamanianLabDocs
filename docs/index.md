@@ -6,10 +6,10 @@ This resource is both an introduction and documentation for the computational as
 
 There are four main tools we will use to accomplish the above goals:
 
-1. `GitHub <https://github.com>`_
-2. `Homebrew <https://brew.sh/>`_
-3. `Box Sync <https://box.com>`_
-4. `conda <https://conda.io/docs/>`_
+1. [GitHub](https://github.com)
+2. [Homebrew](https://brew.sh/)
+3. [Box Sync](https://box.com)
+4. [conda](https://conda.io/docs/)
 
 ## Usage
 
