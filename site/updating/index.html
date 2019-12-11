@@ -285,17 +285,23 @@
                 
                 <h1 id="adding-new-documentation">Adding New Documentation</h1>
 <ol>
-<li>Install MkDocs</li>
-</ol>
-<p><code>bash
-  pip install mkdocs</code></p>
-<ol>
-<li>Clone the ZamanianLabDocs repo:</li>
-</ol>
-<p><code>bash
-  git clone https://github.com/zamanianlab/ZamanianLabDocs.git</code></p>
-<ol>
-<li>Create and edit a Markdown file</li>
+<li>
+<p>Install MkDocs</p>
+<div class="codehilite"><pre><span></span><span class="err">pip install mkdocs</span>
+</pre></div>
+
+
+</li>
+<li>
+<p>Clone the ZamanianLabDocs repo:</p>
+<div class="codehilite"><pre><span></span><span class="err">git clone https://github.com/zamanianlab/ZamanianLabDocs.git</span>
+</pre></div>
+
+
+</li>
+<li>
+<p>Create and edit a Markdown file</p>
+</li>
 <li>Use previous documentation as a guide</li>
 <li>
 <p>Save in <code>/docs/</code> with the <code>.md</code> extension</p>
@@ -305,14 +311,18 @@
 </li>
 <li>
 <p>Build and deploy site</p>
+<div class="codehilite"><pre><span></span><span class="err">mkdocs build  </span>
+<span class="err">mkdocs gh-deploy</span>
+</pre></div>
+
+
+<ul>
+<li>Optional: before deplying with <code>gh-deploy</code>, view the site locally with <code>mkdocs serve</code> and copy/paste http://127.0.0.1:8000/ into your browser</li>
+</ul>
 </li>
-</ol>
-<p><code>bash
-  mkdocs build
-  mkdocs gh-deploy</code>
-  - Optional: before deplying with <code>gh-deploy</code>, view the site locally with <code>mkdocs serve</code> and copy/paste http://127.0.0.1:8000/ into your browser</p>
-<ol>
-<li>After deploying, check to ensure everything deployed as expected by visiting http://www.zamanianlab.org/ZamanianLabDocs/</li>
+<li>
+<p>After deploying, check to ensure everything deployed as expected by visiting http://www.zamanianlab.org/ZamanianLabDocs/</p>
+</li>
 </ol>
                 
                   
