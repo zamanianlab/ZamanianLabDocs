@@ -1,11 +1,13 @@
 # Adding New Documentation
 
 1. Install MkDocs
-  ```bash
+
+  ``` bash
   pip install mkdocs
   ```
 
 2. Clone the ZamanianLabDocs repo:
+
   ```bash
   git clone https://github.com/zamanianlab/ZamanianLabDocs.git
   ```
@@ -17,6 +19,7 @@
 4. Push to GitHub
 
 5. Build and deploy site
+
   ```bash
   mkdocs build
   mkdocs gh-deploy
