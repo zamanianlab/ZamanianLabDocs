@@ -1,0 +1,15 @@
+site_name: Andersen Lab Dry Guide
+theme: readthedocs
+repo_url: https://github.com/zamanianlab/ZamanianLabDocs
+
+
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: True
+        separator: "_"
+    - fenced_code
+
+nav:
+  - Home: index.md
+  - Conda: conda.md

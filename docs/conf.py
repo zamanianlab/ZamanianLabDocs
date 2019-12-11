@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Zamanian Lab Docs'
-copyright = '2018, Nic Wheeler'
+copyright = '2020, Nic Wheeler'
 author = 'Nic Wheeler'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = 'September 2018'
+release = 'January 2018'
 
 
 # -- General configuration ---------------------------------------------------
