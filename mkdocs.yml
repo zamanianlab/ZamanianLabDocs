@@ -1,6 +1,6 @@
-site_name: Zamanian Lab Documentation
-theme: 'material'
-repo_url: https://github.com/zamanianlab/ZamanianLabDocs
+site_name:             Zamanian Lab Documentation
+theme:                 'material'
+repo_url:              https://github.com/zamanianlab/ZamanianLabDocs
 
 
 markdown_extensions:
@@ -8,6 +8,5 @@ markdown_extensions:
     - codehilite
 
 nav:
-  - Home: index.md
-  - Conda: conda.md
+  - Home:                 index.md
   - Adding Documentation: updating.md
