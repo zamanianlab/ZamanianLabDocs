@@ -10,7 +10,13 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/">
+      
+      
+        <meta name="author" content="Nic Wheeler">
       
       
         <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -31,7 +37,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="assets/images/dna.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
@@ -86,7 +92,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -154,7 +160,7 @@
     </div>
   
   <div class="md-source__repository">
-    GitHub
+    zamanianlab/ZamanianLabDocs
   </div>
 </a>
           </div>
@@ -178,7 +184,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title="Zamanian Lab Documentation" class="md-nav__button md-logo">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -201,7 +207,7 @@
     </div>
   
   <div class="md-source__repository">
-    GitHub
+    zamanianlab/ZamanianLabDocs
   </div>
 </a>
     </div>
@@ -312,8 +318,32 @@
 
 
   <li class="md-nav__item">
+    <a href="onboarding/" title="New Users Onboarding" class="md-nav__link">
+      New Users Onboarding
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="updating/" title="Adding Documentation" class="md-nav__link">
       Adding Documentation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="reference/" title="Index" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -434,7 +464,7 @@
 </ul>
 </li>
 <li>
-<p>Simple Pipelines (performed entirely locally)</p>
+<p><a href="simple/">Simple Pipelines</a> (performed entirely locally)</p>
 <ul>
 <li>qPCR</li>
 <li>EPG</li>
@@ -447,7 +477,7 @@
 <h3 id="software">Software</h3>
 <ol>
 <li><a href="github.md">GitHub</a> (<a href="https://github.com/">https://github.com/</a>)</li>
-<li><a href="homebrew.md">Homebrew</a> (<a href="https://brew.sh">https://brew.sh</a>)</li>
+<li><a href="homebrew/">Homebrew</a> (<a href="https://brew.sh">https://brew.sh</a>)</li>
 <li><a href="box.md">Box Sync</a> (<a href="https://box.com">https://box.com</a>)</li>
 <li><a href="conda/">conda</a> (<a href="https://docs.conda.io/en/latest/">https://docs.conda.io/en/latest/</a>)</li>
 </ol>
@@ -461,11 +491,20 @@
 <h2 id="usage">Usage</h2>
 <p>This repository is primarily imagined as a first introduction to the Zamanian Lab organization, but it can also be used as a reference for veteran users. New lab members should follow the <a href="onboarding/">onboarding guide</a>.</p>
 <p>Throughout the docs, you will see certain types of code blocks. Code to be run in bash will not include a prompt sequence, for instance:</p>
-<p><code>python L3_motility_analysis.py 20180830</code></p>
+<div class="codehilite"><pre><span></span>python L3_motility_analysis.py <span class="m">20180830</span>
+</pre></div>
+
+
 <p>Code to be run in Python will include the Python prompt:</p>
-<p><code>&gt;&gt;&gt; import numpy as np</code></p>
+<div class="codehilite"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+
 <p>And code to be run in R will include the R prompt:</p>
-<p><code>&gt; install.packages('tidyverse')</code></p>
+<div class="codehilite"><pre><span></span><span class="o">&gt;</span> <span class="nf">install.packages</span><span class="p">(</span><span class="s">&#39;tidyverse&#39;</span><span class="p">)</span>
+</pre></div>
+
+
 <h2 id="updating">Updating</h2>
 <p>This resource is by nature an open, living, and collaborative document. We are using <a href="https://www.mkdocs.org/">MkDocs</a> as our site generator which uses a simply structured GitHub repository that includes Markdown files as the documentation and a few ancillary files to help in generation. You will need to have your own <a href="https://github.com/">GitHub</a> account and will need to be a member of the <a href="https://github.com/orgs/zamanianlab/dashboard">@zamanianlab</a> organization in order to gain editing privileges. To edit this document, please follow the instructions in the <a href="updating/">Updating</a> page.</p>
                 
@@ -490,13 +529,13 @@
       <nav class="md-footer-nav__inner md-grid">
         
         
-          <a href="updating/" title="Adding Documentation" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="onboarding/" title="New Users Onboarding" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Adding Documentation
+                New Users Onboarding
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -518,6 +557,15 @@
           Material for MkDocs</a>
       </div>
       
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/zamanianlab" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/zamanian_" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
     </div>
   </div>
 </footer>

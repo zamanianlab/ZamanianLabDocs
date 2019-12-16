@@ -21,7 +21,7 @@ We organize our pipelines into 3 tiers, each of which be structued in slightly d
     -   WormViz
     -   Tierpsy
 
-3.  Simple Pipelines (performed entirely locally)
+3.  [Simple Pipelines](simple.md) (performed entirely locally)
     -   qPCR
     -   EPG
     -   Sensory assays
@@ -50,15 +50,21 @@ This repository is primarily imagined as a first introduction to the Zamanian La
 
 Throughout the docs, you will see certain types of code blocks. Code to be run in bash will not include a prompt sequence, for instance:
 
-`python L3_motility_analysis.py 20180830`
+``` bash
+python L3_motility_analysis.py 20180830
+```
 
 Code to be run in Python will include the Python prompt:
 
-`>>> import numpy as np`
+``` python
+>>> import numpy as np
+```
 
 And code to be run in R will include the R prompt:
 
-`> install.packages('tidyverse')`
+``` r
+> install.packages('tidyverse')
+```
 
 ## Updating
 
