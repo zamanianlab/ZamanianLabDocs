@@ -10,7 +10,13 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/conda/">
+      
+      
+        <meta name="author" content="Nic Wheeler">
       
       
         <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -31,7 +37,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/dna.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
@@ -86,7 +92,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -154,7 +160,7 @@
     </div>
   
   <div class="md-source__repository">
-    GitHub
+    zamanianlab/ZamanianLabDocs
   </div>
 </a>
           </div>
@@ -178,7 +184,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href=".." title="Zamanian Lab Documentation" class="md-nav__button md-logo">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -201,7 +207,7 @@
     </div>
   
   <div class="md-source__repository">
-    GitHub
+    zamanianlab/ZamanianLabDocs
   </div>
 </a>
     </div>
@@ -226,8 +232,32 @@
 
 
   <li class="md-nav__item">
+    <a href="../onboarding/" title="New Users Onboarding" class="md-nav__link">
+      New Users Onboarding
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../updating/" title="Adding Documentation" class="md-nav__link">
       Adding Documentation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../reference/" title="Index" class="md-nav__link">
+      Index
     </a>
   </li>
 
@@ -331,7 +361,7 @@ miniconda3/envs/motility_analysis
 <p>Now you are in the virtual environment, using Python 3.5 as a default. You can check to make sure this is the case with <code>python --version</code>.</p>
 <p>You can also see the path to your environment's Python with <code>which python</code>.</p>
 <p>Now that you are in the correct environment, you can begin adjusting it to suit your purposes. The main way to do this is by installing certain Python packages that you may use in your analysis. There are multiple ways to install a Python package, but the two main ways are using <code>conda install {package name}</code> and <code>pip install {package name}</code>. When installing a new package, you should first try to use the conda package manager. If that doesn't work, you will receive an error such as:</p>
-<div class="codehilite"><pre><span></span><span class="n">PackagesNotFoundError</span><span class="o">:</span> <span class="n">The</span> <span class="n">following</span> <span class="n">packages</span> <span class="n">are</span> <span class="n">not</span> <span class="n">available</span> <span class="n">from</span> <span class="n">current</span> <span class="n">channels</span>
+<div class="codehilite"><pre><span></span>PackagesNotFoundError: The following packages are not available from current channels
 </pre></div>
 
 
@@ -380,6 +410,15 @@ repo as an example.</p>
           Material for MkDocs</a>
       </div>
       
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/zamanianlab" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/zamanian_" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
     </div>
   </div>
 </footer>
