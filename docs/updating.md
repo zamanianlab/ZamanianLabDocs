@@ -9,8 +9,9 @@
       `git clone https://github.com/zamanianlab/ZamanianLabDocs.git`
 
 3. Create and edit a Markdown file
-  - Use previous documentation as a guide
-  - Save in `/docs/` with the `.md` extension
+    - Use previous documentation as a guide
+    - Save in `/docs/` with the `.md` extension
+    - Use the GitHub [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) for reference
 
 4. Push to GitHub
 
