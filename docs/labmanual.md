@@ -3,11 +3,11 @@
 ## I. Lab Mission and Philosophy
 
 ### A. Research Mission
-Our laboratory studies Neglected Tropical Diseases (NTDs) caused by helminths (parasitic worms). The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of parasite biology and our ability to treat globally important human and animal parasitic infections. This includes discovering new drug targets, elucidating mechanisms of drug resistance, and developing new tools for parasite manipulation. Our work primarily involves the direct study of helminths, including mosquito-borne and soil-transmitted filarial nematode parasites (e.g., *Brugia malayi*). To complement these efforts, we also exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We will strive to place all of our work in the context of a growing appreciation for and understanding of parasite genetic diversity.
+The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth (parasitic worm) biology and our ability to treat globally important human and animal parasitic infections. This includes discovering new drug targets, elucidating mechanisms of drug resistance, and developing new tools for parasite manipulation. Our work involves the direct study of mosquito-borne and soil-transmitted nematode parasites. To complement these efforts, we also exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We will strive to place all of our work in the context of a growing appreciation for and understanding of parasite genetic diversity.
 
-### B. Philosophy and Mentorship
+### B. Philosophy
 
-We look to recruit lab members who share our scientific curiosity and who wish to challenge themselves as they grow their scientific independence. We welcome students and trainees from a variety of training backgrounds and with different career ambitions. I take my role as a mentor and advisor very seriously and it is therefore important to me that all members of the lab: (1) remain excited about the science we do, (2) challenge themselves to improve their base of knowledge and technical skills, and (3) engage in meaningful self-reflection about their progress and goals. We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences that provide opportunities to professionally network. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language (e.g., R or Python) useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those that are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
+We look to recruit individuals who share our curiosity and who wish to challenge themselves as they grow their scientific independence. We welcome students and trainees from a variety of backgrounds and with different career ambitions. I take my role as a mentor and advisor very seriously and it is therefore important to me that all members of the lab: (1) remain excited about the science we do, (2) challenge themselves to improve their base of knowledge and technical skills, and (3) engage in meaningful self-reflection about their progress and goals.
 
 **Axioms:** Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
 
@@ -19,7 +19,12 @@ We look to recruit lab members who share our scientific curiosity and who wish t
 
 - **Axiom 4.** Every student deserves to be treated with dignity and respect.
 
-### C. Lab Citizenship
+### C. Mentorship
+
+We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language (e.g., R or Python) useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those that are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
+
+
+### D. Lab Citizenship
 
 My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.
 
@@ -30,13 +35,12 @@ My commitment to your success in research and professional growth is coupled to 
      5. Follow all the rules in this guide for ordering and inventorying items
      6. Carry out your lab tasks in a timely manner
      7. Be helpful to others - this is a team effort!
-     8. Clean up after yourselves
-     9. Always put things back into assigned locations
-     10. Keep track of items we are low on and place orders in advance
-     11. Follow all the rules when interacting with other spaces (e.g., the insectary)
-     12. Stay at least two weeks ahead of parasite orders and plan their use
-     13. Be here during normal work hours so that you can maximize interactions
-     14. Make sure the lab is properly shut down (communicate before leaving)
+     8. Clean up after yourselves and put things back in assigned locations
+     9. Keep track of items we are low on and place orders in advance
+     10. Follow all the rules when interacting with other spaces (e.g., the insectary)
+     11. Stay at least two weeks ahead of parasite orders and plan their use
+     12. Be here during normal work hours so that you can maximize interactions
+     13. Make sure the lab is properly shut down (communicate before leaving)
 
 **Lab dress code:** For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   
 
@@ -64,11 +68,11 @@ The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared elec
 
 All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive unlimited Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
-``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``, ``/GPCR_assays/``, ``/RNAi_experiments/``, and ``/ISH/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
+- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``, ``/GPCR_assays/``, ``/RNAi_experiments/``, and ``/ISH/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
 
-``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
+- ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
-``/Protocols/``  All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``/Source/`` sub-subfolder and are exported as PDF files whenever they are updated.
+- ``/Protocols/``  All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``/Source/`` sub-subfolder and are exported as PDF files whenever they are updated.
 
 ### D. Lab Meetings
 
@@ -84,7 +88,9 @@ I will hold weekly one-on-meetings with every graduate student and postdoc, exce
 
 ### A. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff and defined in the *UndergradTasks.pdf* and *StaffTasks.pdf* documents found in ``/LabTasks/``.
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff:
+
+- ``/LabTasks/``: *UndergradTasks.pdf* and *StaffTasks.pdf*
 
 ### B. Lab inventory
 
@@ -102,6 +108,7 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
     * **Rm 230:** molecular biology main lab
     * **Rm 229D:** microinjection room
     * Third floor: offices, gel imaging station, insectary
+
 * **Operations:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor. Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
 
 * **Physical storage:** Each graduate student and postdoc will have their own rack spaces in the -80C freezer for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
@@ -117,18 +124,17 @@ Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for or
 
 **Primers:** Make **100 uM** lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
 
-### B. Lab Plasmids                
-**Naming: pMZ####** | **Storage: "Lab Plasmids" box (-80C)**
+### B. Plasmids                
 
-Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Place one tube of purified plasmic (label: **pMZ####**, **Concentration**, and **Date**) in the Lab Plasmids box (-80C) and another in the Plasmids box (-20C). Update Quartzy with the location of the plasmid and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
+**Lab Plasmids** | **Naming: pMZ####** | **Storage: "Lab Plasmids" box (-80C)**
 
-### C. Commercial Plasmids     
-**Naming: Original Name ** | **Storage: "Commercial Plasmids" box (-80C)**                
+Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Place one tube of purified plasmic (label: **pMZ####**, **Concentration**, and **Date**) in the "Lab Plasmids" box (-80C) and another in the "Lab Plasmids" box (-20C). Update Quartzy with the location of the plasmid and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
 
-Commercial (external) plasmids are plasmids we have received as gifts or ordered from vendors. Place one tube of purified plasmic (label: **Original Name**, **Concentration**, and **Date**) in the Commercial Plasmids box (-80C) and another in the Commerical Plasmids box (-20C). Update Quartzy with the location of the plasmid, origin of the plasmid (journal or lab citation), URL to the vector sequence if possible, and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C.
+**Commercial Plasmids** | **Naming: Original Name ** | **Storage: "Commercial Plasmids" box (-80C)**                
 
-### D. Plasmids note
-All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to ```/LabInventory/Plasmid_Export/```.
+Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors. Place one tube of purified plasmic (label: **Original Name**, **Concentration**, and **Date**) in the "Commercial Plasmids" box (-80C) and another in the "Commercial Plasmids" box (-20C). Update Quartzy with the location of the plasmid, origin of the plasmid (journal or lab citation), URL to the vector sequence if possible, and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C.
+
+**Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to ```/LabInventory/Plasmid_Export/```.
 
 ### E. Transformed Bacteria
 **Storage: 2 copies (-80C) + 1 copy (liquid N2)**
@@ -162,11 +168,13 @@ It is your responsibility to monitor injected lines and select for stable lines 
 **Lab strain designation: ZAM#**  
 **Lab allele designation: maz#**
 
-*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. **Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the *WormStrains.xlsx* spreadsheet in ``/LabInventory/``.**
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. **Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the strain spreadsheet:**
+
+- ``/LabInventory/``: *WormStrains.xlsx*
 
 ### C. Strain Maintenance
 
-Maintain strains in your assigned areas of the 15C and 20C incubators, or above your lab bench if incubating at room temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. **Your contaminated plates (containing bacteria, fungi, or mites) can jeopardize the experiments of others!** Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
+Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. **Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!** Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
 
 ## VII. Parasite and Insectary Operations
 
@@ -178,7 +186,7 @@ We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, a
 
 General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate spreadsheets:
 
--``/LabInventory/``: *Bmalayi_Materials.xlsx*, *Bpahangi_Materials.xlsx*, *Dimmitis_Materials.xlsx*
+- ``/LabInventory/``: *Bmalayi_Materials.xlsx*, *Bpahangi_Materials.xlsx*, *Dimmitis_Materials.xlsx*
 
 **Tissue:** each tube should be labeled with the **Species**, **Stage**, **Date** it was frozen, and the **Number of worms** frozen. **RNA and gDNA:** each tube should be labeled with **Species**, **Stage**, **Date** of nucleic acid extraction, and **Concentration** . Each files has three sheets (Tissue, RNA, and gDNA).
 
