@@ -64,11 +64,11 @@ The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared elec
 
 All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive unlimited Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
-``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``Gels``, ``Sanger``, ``qPCR``, ``Microscopy``, ``GPCR_assays``, ``RNAi_experiments``, and ``ISH``), as well as minimally processed 'big' data outputs (e.g., subfolders ``Genomics`` and ``RNAseq``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
+``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``, ``/GPCR_assays/``, ``/RNAi_experiments/``, and ``/ISH/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
 
 ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
-``/Protocols/``  All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``Source`` sub-subfolder and are exported as PDF files whenever they are updated.
+``/Protocols/``  All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``/Source/`` sub-subfolder and are exported as PDF files whenever they are updated.
 
 ### D. Lab Meetings
 
@@ -111,7 +111,7 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
 ### A. Oligos   
-**Naming: oMZ####** | **Storage: Oligo Stocks box (-20C)**
+**Naming: oMZ####** | **Storage: "Oligo Stocks" box (-20C)**
 
 Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (label: **Species**, **Oligo Pairing**, **Molecular Target**, **Amplicon Length**, and **Tm**) before requesting order. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
 
@@ -141,9 +141,9 @@ Each Lab and Commercial Plasmid should have three bacterial glycerol stocks made
 
 Boxes specific to each bacteria (OP50, HB101, NA22) are in the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
 
-## *Caenorhabditis elegans* Strains
+## VI. *Caenorhabditis elegans* Strains
 
-### A. *C. elegans* Strain Creation
+### A. Strain Creation
 
 Only the lab manager (Kathy) is allowed to use the microinjection apparatus to create transgenic strains. It will be the responsibility of any person who wishes for a strain to be made to:
 
@@ -154,71 +154,65 @@ Only the lab manager (Kathy) is allowed to use the microinjection apparatus to c
       - Including any fluorescent or phenotypic marker that should be followed
     4. Provide all required information in the inventory spreadsheet (see below)
 
-It is your responsibility to monitor injected lines and select for stable lines. You will receive plates from these lines and are responsible for confirming genotypes (through PCR and other approaches) and for strain maintenance. Kathy will use the original plates and chunk and freeze from them only if you decide to keep the strain.
-
-## Parasite and Insectary Operations
-
-## Writing and Reference Management
-
-## Lab Safety
+It is your responsibility to monitor injected lines and select for stable lines and confirming genotypes (through PCR and other approaches). Provide Kathy with the F1 plates to chunk from and cryogenically preserve once you have decide to keep any transgenic lines.
 
 
-We organize our pipelines into 3 tiers, each of which be structued in slightly different ways. Pipelines are categorized into one of the following:
+### B. Strain Inventory
 
-1.  Core Pipelines (performed entirely on our BRC server)
+**Lab strain designation: ZAM#**  
+**Lab allele designation: maz#**
 
-    -   ImageXpress
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. **Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the *WormStrains.xlsx* spreadsheet in ``/LabInventory/``.**
 
-2.  Mixed Pipelines (performed using a mix of local machines and the server)
+### C. Strain Maintenance
 
-    -   WormViz
-    -   Tierpsy
+Maintain strains in your assigned areas of the 15C and 20C incubators, or above your lab bench if incubating at room temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. **Your contaminated plates (containing bacteria, fungi, or mites) can jeopardize the experiments of others!** Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
 
-3.  [Simple Pipelines](simple.md) (performed entirely locally)
-    -   qPCR
-    -   EPG
-    -   Sensory assays
+## VII. Parasite and Insectary Operations
 
-## Tools
+### A. Parasite Delivery Schedule
 
-There are four pieces of software and four languages we will use to accomplish the above goals (each link will take you to our internal documentation for using these tools and languages):
+We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected delivery schedule of all parasite stage and materials will be updated in ``/LabOrdering/Parasite_Orders/``. Shipments do not always arrive as expected, and you should have a detailed list of future experiments planned and should be prepared to go when or if parasites arrive on schedule. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
 
-### Software
+### B. Storage of General Parasite Materials
 
-1.  [GitHub](github.md) (<https://github.com/>)
-2.  [Homebrew](homebrew.md) (<https://brew.sh>)
-3.  [Box Sync](box.md) (<https://box.com>)
-4.  [conda](conda.md) (<https://docs.conda.io/en/latest/>)
+General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate spreadsheets:
 
-### Languages
+-``/LabInventory/``: *Bmalayi_Materials.xlsx*, *Bpahangi_Materials.xlsx*, *Dimmitis_Materials.xlsx*
 
-1.  Python
-2.  R
-3.  Bash
-4.  NextFlow
+**Tissue:** each tube should be labeled with the **Species**, **Stage**, **Date** it was frozen, and the **Number of worms** frozen. **RNA and gDNA:** each tube should be labeled with **Species**, **Stage**, **Date** of nucleic acid extraction, and **Concentration** . Each files has three sheets (Tissue, RNA, and gDNA).
 
-## Usage
+The spreadsheets should include additional information, including the origin of the parasites, the method of RNA or DNA extraction, and the method used to spec purity and concentration. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
-This repository is primarily imagined as a first introduction to the Zamanian Lab organization, but it can also be used as a reference for veteran users. New lab members should follow the [onboarding guide](onboarding.md).
+### C. Parasite Infections (Insectary)
 
-Throughout the docs, you will see certain types of code blocks. Code to be run in bash will not include a prompt sequence, for instance:
+The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs.
 
-``` bash
-python L3_motility_analysis.py 20180830
-```
+Detailed protocols for filarial parasite infection and L3 isolation can be found in:
 
-Code to be run in Python will include the Python prompt:
+- ``/Protocols/Parasites/``: *BloodFeedingMosquitoes.pdf*, *L3Extraction.pdf*
 
-``` python
->>> import numpy as np
-```
+Mosquito strains available for parasite infection:
 
-And code to be run in R will include the R prompt:
+- ***Ae. aegypti LVP*** strain: used for *B. malayi* and *B. pahangi* infections
+- ***Ae. aegypti SD*** strain: used for *D. immitis* infections
 
-``` r
-> install.packages('tidyverse')
-```
+Strains must be ordered in advance for infection. Expect a minimum of 1 L3 per infected mosquito. Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden.
 
-## Updating
+Information on active and planned mosquito infections can be found in:
 
-This resource is by nature an open, living, and collaborative document. We are using [MkDocs](https://www.mkdocs.org/) as our site generator which uses a simply structured GitHub repository that includes Markdown files as the documentation and a few ancillary files to help in generation. You will need to have your own [GitHub](https://github.com/) account and will need to be a member of the [@zamanianlab](https://github.com/orgs/zamanianlab/dashboard) organization in order to gain editing privileges. To edit this document, please follow the instructions in the [Updating](updating.md) page.
+- ``/Infections/``: *LocalInfectionSchedule.xlsx*
+
+
+## VIII. Writing and Reference Management
+
+To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/``.
+
+
+## IX. Lab Safety
+
+All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. As a starting point, all lab members should register for and complete the course titled **"Biosafety Required Training"** through the Learn@UW portal. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
+
+**E-mail both the Bartholomay and Zamanian lab list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.**
+
+Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
