@@ -28,6 +28,7 @@ extra:
 
 nav:
   - Home:                 index.md
-  - New Users Onboarding: onboarding.md
+  - Lab Manual:           labmanual.md
+  - Computational:        onboarding.md
   - Adding Documentation: updating.md
   - Index:                reference.md
