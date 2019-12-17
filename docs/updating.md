@@ -2,15 +2,11 @@
 
 1. Install MkDocs
 
-        ``` bash
-        pip install mkdocs && pip install mkdocs-material
-        ```
+      `pip install mkdocs && pip install mkdocs-material`
 
 2. Clone the ZamanianLabDocs repo:
 
-        ```bash
-        git clone https://github.com/zamanianlab/ZamanianLabDocs.git
-        ```
+      `git clone https://github.com/zamanianlab/ZamanianLabDocs.git`
 
 3. Create and edit a Markdown file
   - Use previous documentation as a guide
@@ -20,10 +16,9 @@
 
 5. Build and deploy site
 
-        mkdocs build  
-        mkdocs gh-deploy
+      `mkdocs build && mkdocs gh-deploy`
 
-    - Optional: before deplying with `gh-deploy`, view the site locally with `mkdocs serve` and copy/paste http://127.0.0.1:8000/ into your browser
+  - Optional: before deplying with `gh-deploy`, view the site locally with `mkdocs serve` and copy/paste <https://127.0.0.1:8000/> into your browser
 
 
-6. After deploying, check to ensure everything deployed as expected by visiting http://www.zamanianlab.org/ZamanianLabDocs/
+6. After deploying, check to ensure everything deployed as expected by visiting <http://www.zamanianlab.org/ZamanianLabDocs/>

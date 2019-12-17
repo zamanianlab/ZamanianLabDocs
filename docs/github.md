@@ -2,9 +2,9 @@
 
 If you're new to git and/or version control, the first step is to learn what exactly we're talking about when we use these terms. There is no need for this resource to reinvent the wheel, so *please* check out the tutorials from the following sources:
 
-    - [HubSpot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-    - [GitHub](https://guides.github.com/activities/hello-world/)
-    - [Karl Broman (UW-M biostats professor)](https://kbroman.org/github_tutorial/)
+  - [HubSpot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+  - [GitHub](https://guides.github.com/activities/hello-world/)
+  - [Karl Broman (UW-M biostats professor)](https://kbroman.org/github_tutorial/)
 
 ## Use Cases in the Zamanian Lab
 
