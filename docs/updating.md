@@ -2,13 +2,16 @@
 
 1. Install MkDocs
 
-        pip install mkdocs
-
+        ``` bash
+        pip install mkdocs && pip install mkdocs-material
+        ```
 
 2. Clone the ZamanianLabDocs repo:
 
+        ```bash
         git clone https://github.com/zamanianlab/ZamanianLabDocs.git
-    
+        ```
+
 3. Create and edit a Markdown file
   - Use previous documentation as a guide
   - Save in `/docs/` with the `.md` extension

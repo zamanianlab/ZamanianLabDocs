@@ -11,7 +11,7 @@
     - [Sourcetree](https://www.sourcetreeapp.com/) (GUI for managing and interacting with GitHub repos)
     - [RStudio](https://rstudio.com/) (primary IDE for R scripting and plotting)
     - [Fiji](https://fiji.sc/) (primary software used for image analysis)
-    - [NextFlow](https://www.nextflow.io/) (programming language for building complex computational pipelines)
+    - [Sublime Text](https://www.sublimetext.com/) (lightweight but extensible text editor)
 
 5. Follow instructions for gaining access to our [BRC server](server.md).
 
