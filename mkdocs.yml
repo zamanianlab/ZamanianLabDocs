@@ -11,12 +11,15 @@ repo_url:              'https://github.com/zamanianlab/ZamanianLabDocs'
 
 # Configuration
 theme:
-    name: 'material'
-    favicon: 'assets/images/dna.ico'
+  name: 'material'
+  favicon: 'assets/images/dna.ico'
+  pallete:
+    primary: 'black'
+    accent: 'red'
 markdown_extensions:
-    - admonition
-    - codehilite:
-        guess_lang: false
+  - admonition
+  - codehilite:
+      guess_lang: false
 
 # Customization
 extra:
@@ -27,8 +30,8 @@ extra:
       link: 'https://twitter.com/zamanian_'
 
 nav:
-  - Home:                 index.md
-  - Lab Manual:           labmanual.md
-  - Computational:        onboarding.md
-  - Adding Documentation: updating.md
-  - Index:                reference.md
+  - Home:                     index.md
+  - Lab Manual:               labmanual.md
+  - Computational Onboarding: onboarding.md
+  - Lab Pipelines:            pipelines.md
+  - Adding Documentation:     updating.md

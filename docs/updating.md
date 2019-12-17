@@ -1,6 +1,6 @@
 # Adding New Documentation
 
-1. Install MkDocs
+1. Install MkDocs and the [Material](https://squidfunk.github.io/mkdocs-material/) theme
 
       `pip install mkdocs && pip install mkdocs-material`
 

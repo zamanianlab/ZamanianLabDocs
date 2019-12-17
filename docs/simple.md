@@ -14,4 +14,4 @@ Simple pipelines will not have version control and thus will not use GitHub, but
 
     Each experiment will have its own CSV file with an accompanying `notes.txt` file explaining the assay.
 
-4. All lab members will be required to maintain a consistent R environment by installing and periodically updating the Zamanian Lab R Environment package.
+4. All lab members will be required to maintain a consistent R environment by installing and periodically updating the Zamanian Lab R Package.

@@ -254,47 +254,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pipeline-organization" class="md-nav__link">
-    Pipeline Organization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools" class="md-nav__link">
-    Tools
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#software" class="md-nav__link">
-    Software
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#languages" class="md-nav__link">
-    Languages
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
-    Usage
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#updating" class="md-nav__link">
     Updating
   </a>
@@ -330,8 +289,20 @@
 
 
   <li class="md-nav__item">
-    <a href="onboarding/" title="Computational" class="md-nav__link">
-      Computational
+    <a href="onboarding/" title="Computational Onboarding" class="md-nav__link">
+      Computational Onboarding
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="pipelines/" title="Lab Pipelines" class="md-nav__link">
+      Lab Pipelines
     </a>
   </li>
 
@@ -344,18 +315,6 @@
   <li class="md-nav__item">
     <a href="updating/" title="Adding Documentation" class="md-nav__link">
       Adding Documentation
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="reference/" title="Index" class="md-nav__link">
-      Index
     </a>
   </li>
 
@@ -388,47 +347,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pipeline-organization" class="md-nav__link">
-    Pipeline Organization
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tools" class="md-nav__link">
-    Tools
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#software" class="md-nav__link">
-    Software
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#languages" class="md-nav__link">
-    Languages
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
-    Usage
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#updating" class="md-nav__link">
     Updating
   </a>
@@ -454,54 +372,12 @@
                   <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="introduction">Introduction</h1>
+                <p><img alt="Tropical Diseases" src="http://www.zamanianlab.org/images/parasites/tropicaldiseases.png" title="Tropical Diseases" /></p>
+<h1 id="introduction">Introduction</h1>
 <p>This resource is both an introduction and documentation for the computational aspects of the Zamanian Lab at the University of Wisconsin-Madison. Here you will find a general explanation for how we organize our computational pipelines, as well as steps to take to maintain cross-machine compatibility, reproducibility, and a commitment to open source code.</p>
 <h2 id="how-to-use-this-guide">How to Use this Guide</h2>
-<p>Below there will be a short explanation of how we think about all of our internal pipelines. There will be a brief defense of this organization and an explanation for how to use the pipelines, update them, and collaborate with other lab members.</p>
-<p>The rest of this resource will be a brief and not comprehensive explanation of tools that the Zamanian lab uses. The user will need to do a good amount of background reading and trialing, but this guide will provide the resources needed in order to gain a thorough and working knowledge of all the tools we use.</p>
-<h2 id="pipeline-organization">Pipeline Organization</h2>
-<p>We organize our pipelines into 3 tiers, each of which be structued in slightly different ways. Pipelines are categorized into one of the following:</p>
-<ol>
-<li>
-<p>Core Pipelines (performed entirely on our BRC server)</p>
-<ul>
-<li>ImageXpress</li>
-</ul>
-</li>
-<li>
-<p>Mixed Pipelines (performed using a mix of local machines and the server)</p>
-<ul>
-<li>WormViz</li>
-<li>Tierpsy</li>
-</ul>
-</li>
-<li>
-<p><a href="simple/">Simple Pipelines</a> (performed entirely locally)</p>
-<ul>
-<li>qPCR</li>
-<li>EPG</li>
-<li>Sensory assays</li>
-</ul>
-</li>
-</ol>
-<h2 id="tools">Tools</h2>
-<p>There are four pieces of software and four languages we will use to accomplish the above goals (each link will take you to our internal documentation for using these tools and languages):</p>
-<h3 id="software">Software</h3>
-<ol>
-<li><a href="github/">GitHub</a> (<a href="https://github.com/">https://github.com/</a>)</li>
-<li><a href="homebrew/">Homebrew</a> (<a href="https://brew.sh">https://brew.sh</a>)</li>
-<li><a href="box.md">Box Sync</a> (<a href="https://box.com">https://box.com</a>)</li>
-<li><a href="conda/">conda</a> (<a href="https://docs.conda.io/en/latest/">https://docs.conda.io/en/latest/</a>)</li>
-</ol>
-<h3 id="languages">Languages</h3>
-<ol>
-<li>Python</li>
-<li>R</li>
-<li>Bash</li>
-<li>NextFlow</li>
-</ol>
-<h2 id="usage">Usage</h2>
-<p>This repository is primarily imagined as a first introduction to the Zamanian Lab organization, but it can also be used as a reference for veteran users. New lab members should follow the <a href="onboarding/">onboarding guide</a>.</p>
+<p>This resource is a brief and not comprehensive explanation of tools that the Zamanian lab uses. The user will need to do a good amount of background reading and trialing, but this guide will provide the resources needed in order to gain a thorough and working knowledge of all the tools we use.</p>
+<p>This is primarily imagined as a first introduction to the Zamanian Lab organization, but it can also be used as a reference for veteran users. New lab members should follow the computational onboarding <a href="onboarding/">guide</a>.</p>
 <p>Throughout the docs, you will see certain types of code blocks. Code to be run in bash will not include a prompt sequence, for instance:</p>
 <div class="codehilite"><pre><span></span>python L3_motility_analysis.py <span class="m">20180830</span>
 </pre></div>
