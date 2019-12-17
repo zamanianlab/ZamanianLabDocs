@@ -1,4 +1,4 @@
-# Simple Pipelines
+# Local Pipelines
 
 Simple pipelines are those that are entirely local - they run on a local machine and access data on that same machine. The vast majority of these pipelines will consist of 1-3 R scripts with intermediary Rds files.
 
