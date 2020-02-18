@@ -1,32 +1,12 @@
-![Tropical Diseases](http://www.zamanianlab.org/images/parasites/tropicaldiseases.png "Tropical Diseases")
+# Lab Docs
 
-# Introduction
+This resource provides documentation for general wet lab and dry lab organization and pipelines for the Zamanian Lab at the University of Wisconsin-Madison. This is an evolving resource.
 
-This resource is both an introduction and documentation for the computational aspects of the Zamanian Lab at the University of Wisconsin-Madison. Here you will find a general explanation for how we organize our computational pipelines, as well as steps to take to maintain cross-machine compatibility, reproducibility, and a commitment to open source code.
 
 ## How to Use this Guide
 
-This resource is a brief and not comprehensive explanation of tools that the Zamanian lab uses. The user will need to do a good amount of background reading and trialing, but this guide will provide the resources needed in order to gain a thorough and working knowledge of all the tools we use.
+New lab members should first orient themselves with our [lab manual](labmanual.md) and [computational onboarding](onboarding.md) documents. [Lab sheets](labsheets.md) provides links to important Google sheets that are maintained by the laboratory. [Pipelines](pipelines.md) provides more detailed information on how to run established computational (phenotyping and sequencing) pipelines locally or using established servers. This resource complements and describes our use of other systems in place for lab organization and management (i.e., Quartzy, Benchling, and Box).
 
-This is primarily imagined as a first introduction to the Zamanian Lab organization, but it can also be used as a reference for veteran users. New lab members should follow the computational onboarding [guide](onboarding.md).
-
-Throughout the docs, you will see certain types of code blocks. Code to be run in bash will not include a prompt sequence, for instance:
-
-``` bash
-python L3_motility_analysis.py 20180830
-```
-
-Code to be run in Python will include the Python prompt:
-
-``` python
->>> import numpy as np
-```
-
-And code to be run in R will include the R prompt:
-
-``` r
-> install.packages('tidyverse')
-```
 
 ## Updating
 

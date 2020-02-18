@@ -1,7 +1,7 @@
 # Project information
 site_name:             'Zamanian Lab Documentation'
 site_description:      'An internal resource explaining and documenting lab pipelines'
-site_author:           'Nic Wheeler'
+site_author:           'Zamanian Lab'
 site_url:              'https://zamanianlab.org/ZamanianLabDocs'
 
 
@@ -33,6 +33,7 @@ extra:
 nav:
   - Home:                     index.md
   - Lab Manual:               labmanual.md
+  - Lab Sheets:               labsheets.md
   - Computational Onboarding: onboarding.md
   - Pipelines:
     - Overview:               pipelines.md
