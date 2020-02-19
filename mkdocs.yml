@@ -39,4 +39,4 @@ nav:
     - Overview:               pipelines.md
     - Local Pipelines:        local.md
     - Core Pipelines:         core.md
-  - Adding Documentation:     updating.md
+  - Editing:                  editing.md

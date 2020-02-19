@@ -3,7 +3,7 @@
 ## I. Lab Mission and Philosophy
 
 ### A. Research Mission
-The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth (parasitic worm) biology and our ability to treat globally important human and animal parasitic infections. This includes discovering new drug targets, elucidating mechanisms of drug resistance, and developing new tools for parasite manipulation. Our work involves the direct study of mosquito-borne and soil-transmitted nematode parasites. To complement these efforts, we also exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We will strive to place all of our work in the context of a growing appreciation for and understanding of parasite genetic diversity.
+The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth (parasitic worm) biology and our ability to treat globally important human and animal parasitic infections. This includes discovering new drug targets, elucidating mechanisms of drug resistance, and developing new tools for parasite manipulation. Our current work involves the study of mosquito-borne and soil-transmitted nematode parasites, as well as snail (vector) biology in relation to schistosome control. To complement some of our efforts, we exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We strive to place all of our work in the context of a growing appreciation for and understanding of parasite genetic diversity.
 
 ### B. Philosophy
 
@@ -38,7 +38,7 @@ My commitment to your success in research and professional growth is coupled to 
      8. Clean up after yourselves and put things back in assigned locations
      9. Keep track of items we are low on and place orders in advance
      10. Follow all the rules when interacting with other spaces (e.g., the insectary)
-     11. Stay at least two weeks ahead of parasite orders and plan their use
+     11. Stay ahead of parasite orders and plan their use accordingly
      12. Be here during normal work hours so that you can maximize interactions
      13. Make sure the lab is properly shut down (communicate before leaving)
 
@@ -66,23 +66,21 @@ The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared elec
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive unlimited Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
+All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``, ``/GPCR_assays/``, ``/RNAi_experiments/``, and ``/ISH/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
 
 - ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
-- ``/Protocols/``  All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``/Source/`` sub-subfolder and are exported as PDF files whenever they are updated.
+- ``/Protocols/`` All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``/Source/`` sub-subfolder and are to be exported as PDF files whenever they are updated.
 
 ### D. Lab Meetings
 
 Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` subfolder. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. You should be prepared to present your progress in this short format every week when called upon. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
 
-
 ### E. One-on-One Meetings
 
 I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
-
 
 ## IV. Lab Tasks and Organization
 
@@ -111,55 +109,65 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
 
 * **Operations:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor. Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
 
-* **Physical storage:** Each graduate student and postdoc will have their own rack spaces in the -80C freezer for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
+* **Physical storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
 ## V. Lab Stocks
 
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
 ### A. Oligos   
-**Oligo Naming: oMZ####** | **Storage boxes (-20C): "Oligo Stocks #"** <br/>
-(starting with oMZ0001 and "Oligo Stocks 1")
+
+```
+Oligo Naming: oMZ####
+Storage box labels (-20C): "Oligo Stocks #"
+```
 
 Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (**Species**, **Oligo Pairing**, **Molecular Target**, **Amplicon Length**, and **Tm**) within the spreadsheet order form. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
 
 **Primers:** Make **100 uM** lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
 
-### B. Lab Plasmids                
+### B. Lab and Commercial Plasmids                
 
-**Plasmid Naming: pMZ####** (start: pMZ0001) <br/>
-**Storage boxes (-80C & -20C): "Lab Plasmids #"** (start: "Lab Plasmids 1") <br/>
-**Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)** <br/>
-**Tube Labels:** **pMZ####**, **Concentration**, and **Date** <br/>
+Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors.
 
-Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Place **one tube** of purified plasmic in the -80C "Lab Plasmids" box AND **one (or more) tubes** in the -20C "Lab Plasmids" box. Update Quartzy with the exact -80C location of the plasmid and antibiotic resistance information. Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
+#### Lab Plasmid inventory
 
-### C. Commercial Plasmids
+```
+Plasmid Naming: pMZ####
+Storage box labels (-80C & -20C): "Lab Plasmids #"
+Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
+Tube Labels: pMZ####, Concentration, and Date
+```
 
-**Plasmid Naming: Original Name** <br/>
-**Storage boxes (-80C & -20C): "Commercial Plasmids #"** (start: "Commercial Plasmids 1") <br/>
-**Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)** <br/>
-**Tube Labels:** **Original Name**, **Concentration**, and **Date** <br/>
+#### Commercial Plasmid inventory
 
-Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors. Place **one tube** of purified plasmic in the "Commercial Plasmids" box (-80C) AND **one (or more) tubes** in the "Commercial Plasmids" box (-20C). Update Quartzy with the exact -80C location of the plasmid, origin of the plasmid (journal or lab citation), URL to the vector sequence if possible, and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C.
+```
+Plasmid Naming: Original Name
+Storage box labels (-80C & -20C): "Commercial Plasmids #"
+Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
+Tube Labels: Original Name, Concentration, and Date
+```
 
-**Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
+Update Quartzy with the exact -80C location of all plasmids and antibiotic resistance information. Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed. **Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
 
-### D. Transformed Bacteria
+### C. Transformed Bacteria
 
-**Storage boxes (-80C & N2): "Lab Plasmid Bacterial Stock #"** | **"Commercial Plasmid Bacterial Stock #"**<br/> (start: "Lab Plasmid Bacterial Stock 1" and "Commercial Plasmid Bacterial Stock 1")<br/>
-**Tube Counts: 2 copies (-80C) + 1 copy (N2)** <br/>
-**Tube Labels:** **Plasmid ID**, **Bacteria** (e.g., DH5alpha), and **Date** <br/>
+```
+Storage box labels (-80C & N2):
+  "Lab Plasmid Bacterial Stock #" and "Commercial Plasmid Bacterial Stock #"
+Tube Counts: 2 copies (-80C) + 1 copy (N2)
+Tube Labels: Plasmid Name, Bacteria (eg., DH5a), and Date
+```
 
 Each Lab and Commercial Plasmid should have three bacterial glycerol stocks made (see: *PreparationOfBacterialFrozenStocks.pdf* in ```/Protocols/General/```). Additional labeling instructions can be found in ```/Protocols/FreezerLabels/```. Update Quartzy with the Location, Date frozen, Number of units (tubes), Genotype, and Antibiotic resistance.
 
-### E. *C. elegans* Bacterial Stocks
+### D. *C. elegans* Bacterial Stocks
 
 Boxes specific to each bacteria (e.g., OP50, HB101, NA22) used for *C. elegans* feeding should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
 
-### F. Competent Bacterial Stocks
+### E. Competent Bacterial Stocks
 
-Boxes specific to each competent bacteria (DH5a, JM101) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy.
+Boxes specific to each competent bacteria (DH5a, JM101) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
 
 ## VI. *Caenorhabditis elegans* Strains
 
@@ -194,7 +202,7 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Delivery Schedule
 
-We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected delivery schedule of all parasite stage and materials will be updated in ``/LabOrdering/Parasite_Orders/``. Shipments do not always arrive as expected, and you should have a detailed list of future experiments planned and should be prepared to go when or if parasites arrive on schedule. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
+We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Google Sheet** linked in [Lab Sheets](labsheets.md). Shipments do not always arrive as expected, and you should have a detailed list of future experiments planned and should be prepared to go when or if parasites arrive on schedule. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
 
 ### B. Storage of General Parasite Materials
 
@@ -202,9 +210,12 @@ General use (non-experimental) parasite materials should be catalogued and store
 
 - ``/LabInventory/``: *Bmalayi_Materials.xlsx*, *Bpahangi_Materials.xlsx*, *Dimmitis_Materials.xlsx*
 
-**Tissue:** each tube should be labeled with the **Species**, **Stage**, **Date** it was frozen, and the **Number of worms** frozen. **RNA and gDNA:** each tube should be labeled with **Species**, **Stage**, **Date** of nucleic acid extraction, and **Concentration** . Each files has three sheets (Tissue, RNA, and gDNA).
+```
+Tissue tube label: Species, Stage, Date frozen, Number of worms
+RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
+```
 
-The spreadsheets should include additional information, including the origin of the parasites, the method of RNA or DNA extraction, and the method used to spec purity and concentration. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
+Each files has three sheets (Tissue, RNA, and gDNA). The spreadsheets should be filled out with additional information, including the origin of the parasites, the method of RNA or DNA extraction, and the method used to spec purity and concentration. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
 ### C. Parasite Infections (Insectary)
 

@@ -1,4 +1,4 @@
-# Adding New Documentation
+# Editing or Adding New Documentation
 
 1. Install MkDocs and the [Material](https://squidfunk.github.io/mkdocs-material/) theme
 
