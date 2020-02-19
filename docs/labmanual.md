@@ -118,34 +118,48 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
 ### A. Oligos   
-**Naming: oMZ####** | **Storage: "Oligo Stocks" box (-20C)**
+**Oligo Naming: oMZ####** | **Storage boxes (-20C): "Oligo Stocks #"** <br/>
+(starting with oMZ0001 and "Oligo Stocks 1")
 
-Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (label: **Species**, **Oligo Pairing**, **Molecular Target**, **Amplicon Length**, and **Tm**) before requesting order. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
+Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (**Species**, **Oligo Pairing**, **Molecular Target**, **Amplicon Length**, and **Tm**) within the spreadsheet order form. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
 
 **Primers:** Make **100 uM** lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
 
-### B. Plasmids                
+### B. Lab Plasmids                
 
-**Lab Plasmids** | **Naming: pMZ####** | **Storage: "Lab Plasmids" box (-80C)**
+**Plasmid Naming: pMZ####** (start: pMZ0001) <br/>
+**Storage boxes (-80C & -20C): "Lab Plasmids #"** (start: "Lab Plasmids 1") <br/>
+**Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)** <br/>
+**Tube Labels:** **pMZ####**, **Concentration**, and **Date** <br/>
 
-Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Place one tube of purified plasmic (label: **pMZ####**, **Concentration**, and **Date**) in the "Lab Plasmids" box (-80C) and another in the "Lab Plasmids" box (-20C). Update Quartzy with the location of the plasmid and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
+Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Place **one tube** of purified plasmic in the -80C "Lab Plasmids" box AND **one (or more) tubes** in the -20C "Lab Plasmids" box. Update Quartzy with the exact -80C location of the plasmid and antibiotic resistance information. Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
 
-**Commercial Plasmids** | **Naming: Original Name ** | **Storage: "Commercial Plasmids" box (-80C)**                
+### C. Commercial Plasmids
 
-Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors. Place one tube of purified plasmic (label: **Original Name**, **Concentration**, and **Date**) in the "Commercial Plasmids" box (-80C) and another in the "Commercial Plasmids" box (-20C). Update Quartzy with the location of the plasmid, origin of the plasmid (journal or lab citation), URL to the vector sequence if possible, and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C.
+**Plasmid Naming: Original Name** <br/>
+**Storage boxes (-80C & -20C): "Commercial Plasmids #"** (start: "Commercial Plasmids 1") <br/>
+**Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)** <br/>
+**Tube Labels:** **Original Name**, **Concentration**, and **Date** <br/>
 
-**Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to ```/LabInventory/Plasmid_Export/```.
+Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors. Place **one tube** of purified plasmic in the "Commercial Plasmids" box (-80C) AND **one (or more) tubes** in the "Commercial Plasmids" box (-20C). Update Quartzy with the exact -80C location of the plasmid, origin of the plasmid (journal or lab citation), URL to the vector sequence if possible, and antibiotic resistance information. Use the stock in -20C for all molecular biology purposes. When that stock has been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C.
 
-### E. Transformed Bacteria
-**Storage: 2 copies (-80C) + 1 copy (liquid N2)**
+**Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
 
-**"Lab Plasmid Bacterial Stock"** or **"Commercial Plasmid Bacterial Stock"**
+### D. Transformed Bacteria
 
-Each Lab and Commercial Plasmid should have three bacterial glycerol stocks made (see: *PreparationOfBacterialFrozenStocks.pdf* in ```/Protocols/General/```). Tube label: **Plasmid ID**, **Bacteria** (e.g., DH5alpha), and **Date** (instructions in ```/Protocols/FreezerLabels/```). Update Quartzy with the Location, Date frozen, Number of units (tubes), Genotype, and Antibiotic resistance.
+**Storage boxes (-80C & N2): "Lab Plasmid Bacterial Stock #"** | **"Commercial Plasmid Bacterial Stock #"**<br/> (start: "Lab Plasmid Bacterial Stock 1" and "Commercial Plasmid Bacterial Stock 1")<br/>
+**Tube Counts: 2 copies (-80C) + 1 copy (N2)** <br/>
+**Tube Labels:** **Plasmid ID**, **Bacteria** (e.g., DH5alpha), and **Date** <br/>
 
-### F. *C. elegans* Bacterial Stocks
+Each Lab and Commercial Plasmid should have three bacterial glycerol stocks made (see: *PreparationOfBacterialFrozenStocks.pdf* in ```/Protocols/General/```). Additional labeling instructions can be found in ```/Protocols/FreezerLabels/```. Update Quartzy with the Location, Date frozen, Number of units (tubes), Genotype, and Antibiotic resistance.
 
-Boxes specific to each bacteria (OP50, HB101, NA22) are in the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
+### E. *C. elegans* Bacterial Stocks
+
+Boxes specific to each bacteria (e.g., OP50, HB101, NA22) used for *C. elegans* feeding should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
+
+### F. Competent Bacterial Stocks
+
+Boxes specific to each competent bacteria (DH5a, JM101) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy.
 
 ## VI. *Caenorhabditis elegans* Strains
 
