@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/labmanual/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/labsheets/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/onboarding/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://zamanianlab.org/ZamanianLabDocs/pipelines/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://zamanianlab.org/ZamanianLabDocs/osx/</loc>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://zamanianlab.org/ZamanianLabDocs/local/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://zamanianlab.org/ZamanianLabDocs/github/</loc>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
@@ -36,8 +36,23 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://zamanianlab.org/ZamanianLabDocs/updating/</loc>
-     <lastmod>2020-02-18</lastmod>
+     <loc>https://zamanianlab.org/ZamanianLabDocs/pipelines/</loc>
+     <lastmod>2020-02-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://zamanianlab.org/ZamanianLabDocs/local/</loc>
+     <lastmod>2020-02-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://zamanianlab.org/ZamanianLabDocs/editing/</loc>
+     <lastmod>2020-02-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
