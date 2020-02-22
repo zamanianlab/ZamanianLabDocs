@@ -439,7 +439,7 @@
 <p>For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.</p>
 <ol>
 <li>Update your macOS version to Catalina (v10.15.1)</li>
-<li>Install core software:</li>
+<li>Install core software:<ul>
 <li><a href="https://kb.wisc.edu/69772.">Adobe products</a></li>
 <li><a href="https://cyberduck.io/">Cyberduck</a> (SFTP client)</li>
 <li><a href="https://iterm2.com/">iTerm</a> (feature-rich terminal replacement)</li>
@@ -447,12 +447,18 @@
 <li><a href="https://rstudio.com/">RStudio</a> (IDE for R scripting and plotting)</li>
 <li><a href="https://fiji.sc/">Fiji</a> (primary software used for image analysis)</li>
 <li><a href="https://www.sublimetext.com/">Sublime Text</a> (lightweight but extensible text editor)</li>
+</ul>
+</li>
 <li>Replace your <code>~/.bash_profile</code> with the lab <code>.bash_profile</code> found in the <code>resources</code> directory of the GitHub repo that hosts this site.</li>
-<li>Create your R environment:</li>
+<li>Create your R environment:<ul>
 <li>Use <a href="https://cloud.r-project.org/">CRAN</a> to install or update R to version 3.6.2</li>
 <li>Install the <a href="https://github.com/wheelern/ZamanianLabREnvironment">ZamanianLabREnvironment</a> R package to create a consistent, unified environment across machines.</li>
-<li>Create your Python environment:</li>
-<li>Install <a href="https://docs.conda.io/en/latest/miniconda.html">miniconda3</a></li>
+</ul>
+</li>
+<li>Create your Python environment:<ul>
+<li>Install <a href="../conda/">miniconda3</a></li>
+</ul>
+</li>
 <li>Use Homebrew to <a href="../homebrew/">install other core command-line software</a></li>
 </ol>
                 
