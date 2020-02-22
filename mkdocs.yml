@@ -34,7 +34,10 @@ nav:
   - Home:                     index.md
   - Lab Manual:               labmanual.md
   - Lab Sheets:               labsheets.md
-  - Computational Onboarding: onboarding.md
+  - Computational Guide:      onboarding.md
+    - Local Environment:      osx.md
+    - GitHub:                 github.md
+    - Server:                 server.md
   - Pipelines:
     - Overview:               pipelines.md
     - Local Pipelines:        local.md
