@@ -34,7 +34,12 @@ nav:
   - Home:                     index.md
   - Lab Manual:               labmanual.md
   - Lab Protocols:
-    - Optical Flow:           'protocols/optical_flow/optical_flow.md'
+#    - C. elegans:
+    - Filarial Nematodes:
+      - Protein Release: 'protocols/protein_release/protein_release.md'
+#    - Molecular Biology:
+    - WormViz:           'protocols/wormviz/wormviz.md'
+
   - Lab Sheets:               labsheets.md
   - Computational Guide:
     - Overview:               onboarding.md

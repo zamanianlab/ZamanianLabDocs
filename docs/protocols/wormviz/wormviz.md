@@ -1,8 +1,6 @@
-# Motility analysis of parasites and *C. elegans*
+# WormViz
 
-Motility of live worms is analyzed with an optical flow algorithm developed by Dr. Nic Wheeler in the Zamanian Lab. The code can be found in a [repository](https://github.com/zamanianlab/BrugiaMotilityAnalysis) in the Zamanian Lab GitHub. Videos can come from a variety of sources, and it is imperative that the proper protocol is used for each recording setup.
-
-## WormViz
+Motility of live worms is analyzed with an optical flow algorithm developed by Dr. Nic Wheeler in the Zamanian Lab. The code can be found in a [repository](https://github.com/zamanianlab/BrugiaMotilityAnalysis) in the Zamanian Lab GitHub, and instructions to run the analytical pipeline can be found in the [Pipelines](../../pipelines.md) section.
 
 The WormViz is primarily used for recording of adult filarial parasites in 24-well plates. An entire plate is recorded at one time, and then separate videos from each well are manually cropped.
 
@@ -10,11 +8,11 @@ The WormViz is primarily used for recording of adult filarial parasites in 24-we
 
 2. Adjust the camera on the stand so that the bottom of the camera holder is even with the red mark labeled "24 WP"
 
-3. Open the camera aperture all the allow as much light in as possible. The camera will be focused later.
+3. Open the camera aperture all the way to allow as much light in as possible. The camera will be focused later.
 
-2. Turn on the red LED power source to the highest setting.
+2. Turn on the red LED power source and adjust it to the highest intensity.
 
-3. In IC Capture, select the camera which should open an image pane and show a new set of toolbars.
+3. In IC Capture, select the camera to use; this should open an image pane and show a new set of toolbars.
 
     ![Toolbar Settings](img/toolbar.png)
 
