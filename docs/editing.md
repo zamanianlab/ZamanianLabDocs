@@ -19,7 +19,7 @@
 
       `mkdocs build && mkdocs gh-deploy`
 
-  - Optional: before deploying with `gh-deploy`, view the site locally with `mkdocs serve` and copy/paste <https://127.0.0.1:8000/> into your browser
+  - Optional: before deploying with `gh-deploy`, view the site locally with `mkdocs serve` and copy/paste <http://127.0.0.1:8000/> into your browser
 
 
 6. After deploying, check to ensure everything deployed as expected by visiting <http://www.zamanianlab.org/ZamanianLabDocs/>
