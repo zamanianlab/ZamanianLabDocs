@@ -35,10 +35,9 @@ nav:
   - Lab Manual:               labmanual.md
   - Lab Protocols:
 #    - C. elegans:
-    - Filarial Nematodes:
-      - Protein Release: 'protocols/protein_release/protein_release.md'
+    - Filarial Nematodes:     'protocols/parasite_protocols.md'
 #    - Molecular Biology:
-    - WormViz:           'protocols/wormviz/wormviz.md'
+    - WormViz:                'protocols/wormviz/wormviz.md'
 
   - Lab Sheets:               labsheets.md
   - Computational Guide:

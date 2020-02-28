@@ -13,7 +13,7 @@
         <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
       
-        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/optical_flow/optical_flow/">
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/wormviz/wormviz/">
       
       
         <meta name="author" content="Zamanian Lab">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Optical Flow - Zamanian Lab Documentation</title>
+        <title>WormViz - Zamanian Lab Documentation</title>
       
     
     
@@ -83,7 +83,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#motility-analysis-of-parasites-and-c-elegans" tabindex="0" class="md-skip">
+      <a href="#wormviz" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -109,7 +109,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Optical Flow
+                WormViz
               
             </span>
           
@@ -263,6 +263,42 @@
           
           
 
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Filarial Nematodes
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Filarial Nematodes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../protein_release/protein_release/" title="Protein Release" class="md-nav__link">
+      Protein Release
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -273,38 +309,9 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Optical Flow
-      </label>
-    
-    <a href="./" title="Optical Flow" class="md-nav__link md-nav__link--active">
-      Optical Flow
+    <a href="./" title="WormViz" class="md-nav__link md-nav__link--active">
+      WormViz
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wormviz" class="md-nav__link">
-    WormViz
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -487,22 +494,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wormviz" class="md-nav__link">
-    WormViz
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -513,12 +504,11 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/optical_flow/optical_flow.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/wormviz/wormviz.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="motility-analysis-of-parasites-and-c-elegans">Motility analysis of parasites and <em>C. elegans</em></h1>
-<p>Motility of live worms is analyzed with an optical flow algorithm developed by Dr. Nic Wheeler in the Zamanian Lab. The code can be found in a <a href="https://github.com/zamanianlab/BrugiaMotilityAnalysis">repository</a> in the Zamanian Lab GitHub. Videos can come from a variety of sources, and it is imperative that the proper protocol is used for each recording setup.</p>
-<h2 id="wormviz">WormViz</h2>
+                <h1 id="wormviz">WormViz</h1>
+<p>Motility of live worms is analyzed with an optical flow algorithm developed by Dr. Nic Wheeler in the Zamanian Lab. The code can be found in a <a href="https://github.com/zamanianlab/BrugiaMotilityAnalysis">repository</a> in the Zamanian Lab GitHub, and instructions to run the analytical pipeline can be found in the <a href="../../../pipelines/">Pipelines</a> section.</p>
 <p>The WormViz is primarily used for recording of adult filarial parasites in 24-well plates. An entire plate is recorded at one time, and then separate videos from each well are manually cropped.</p>
 <ol>
 <li>
@@ -528,13 +518,13 @@
 <p>Adjust the camera on the stand so that the bottom of the camera holder is even with the red mark labeled "24 WP"</p>
 </li>
 <li>
-<p>Open the camera aperture all the allow as much light in as possible. The camera will be focused later.</p>
+<p>Open the camera aperture all the way to allow as much light in as possible. The camera will be focused later.</p>
 </li>
 <li>
-<p>Turn on the red LED power source to the highest setting.</p>
+<p>Turn on the red LED power source and adjust it to the highest intensity.</p>
 </li>
 <li>
-<p>In IC Capture, select the camera which should open an image pane and show a new set of toolbars.</p>
+<p>In IC Capture, select the camera to use; this should open an image pane and show a new set of toolbars.</p>
 <p><img alt="Toolbar Settings" src="../img/toolbar.png" /></p>
 </li>
 <li>
@@ -657,7 +647,7 @@ There are a few primary considerations when preparing to record videos:
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../../labmanual/" title="Lab Manual" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../protein_release/protein_release/" title="Protein Release" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -666,7 +656,7 @@ There are a few primary considerations when preparing to record videos:
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Lab Manual
+                Protein Release
               </span>
             </div>
           </a>
