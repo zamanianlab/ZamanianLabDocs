@@ -42,7 +42,7 @@
     
     
       
-        <title>Protein Release - Zamanian Lab Documentation</title>
+        <title>Parasite Protein Release - Zamanian Lab Documentation</title>
       
     
     
@@ -109,7 +109,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Protein Release
+                Parasite Protein Release
               
             </span>
           
@@ -242,12 +242,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Lab Protocols
@@ -263,82 +261,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
-    
-    <label class="md-nav__link" for="nav-3-1">
+  <li class="md-nav__item">
+    <a href="../../parasite_protocols/" title="Filarial Nematodes" class="md-nav__link">
       Filarial Nematodes
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-1">
-        Filarial Nematodes
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Protein Release
-      </label>
-    
-    <a href="./" title="Protein Release" class="md-nav__link md-nav__link--active">
-      Protein Release
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#adults" class="md-nav__link">
-    Adults
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#l3-and-mf" class="md-nav__link">
-    L3 and mf
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
         
@@ -599,7 +526,7 @@
 <p>Upon receipt, adult parasites must be washed in fresh RPMI 1640 and incubated overnight in fresh complete media (RPMI 1640 + 10% FBS + P/S).</p>
 </li>
 <li>
-<p>After overnight incubation, prepare a 24-well plate with 500 μL of warm incomplete media (RPMI 1640 + P/S) per well (<strong>NOTE</strong>: do <strong>not</strong> use FBS, as this will be picked up when later quantifying protein release).</p>
+<p>After overnight incubation, prepare a 24-well plate with 500 μL of warm incomplete media (RPMI 1640 + P/S) per well (<strong>NOTE</strong>: do <strong>not</strong> use FBS, as this will be a contaminant when later quantifying protein release).</p>
 </li>
 <li>
 <p>Using a probe, forceps, or similar device, sort parasites individually into wells, taking care not to injure the worms or damage the cuticle. Damaged/injured parasites should be discarded. Return the plates to the 37°C incubator; it is imperative to make every effort to not allow the parasites to cool to room temperature.</p>
@@ -608,7 +535,7 @@
 <p>Prepare 2X drug stocks. Generally, this means making 200X stocks in water, DMSO, or ethanol, and then performing a 1:100 dilution in sufficient volume of incomplete media (&gt;500 μL per replicate). Warm the 2X stocks to 37°C prior to adding to the parasites.</p>
 </li>
 <li>
-<p>Prepare a spreadsheet (<code>plate_design.csv</code>) that outlines the drug, concentration, and replicate number for each well of the 24-well plates. Use the following syntax: <code>DRG_10-3_1</code> where DRG is a three digit abbreviation for the drug, 10-3 is the concentration (10-3 is equal to 10^-3) and 1 is the replicate number.</p>
+<p>Prepare a spreadsheet (<code>N_plate_design.csv</code>), where N is the plate number, that outlines the drug, concentration, and replicate number for each well of the 24-well plates. Use the following syntax: <code>DRG_10-3_1</code> where DRG is a three digit abbreviation for the drug, 10-3 is the concentration (10-3 is equal to 10^-3) and 1 is the replicate number.</p>
 </li>
 <li>
 <p>Note the time in your lab notebook, and then add 500 μL of each drug stock to the proper well. If the protein release experiment is to be linked to motility analysis, immediately record the plate after adding the drugs before moving on to the next plate (see the <a href="../../wormviz/wormviz/">WormViz</a> protocol for the protocol for video recording adult parasites). Return the parasites to 37°C.</p>
@@ -638,27 +565,7 @@
 <p>L3s can be washed by "settling" - allowing worms to sink to the bottom at room temperature.</p>
 </li>
 <li>
-<p>Mf can be washed with a combination of syringe filters.</p>
-<ol>
-<li>
-<p>Upon receipt, push mf through a 30 μm syringe filter (this filters out debris).</p>
-</li>
-<li>
-<p>Push the flow-through through a 5 μm. Do not force the media and worms through the filter, but use a new filter whenever you begin experiencing strong pressure against the syringe plunger.</p>
-</li>
-<li>
-<p>Transfer the filter to a Petri dish filled with 5-10 mL of warm incomplete media. Continue to add filters to the same dish.</p>
-</li>
-<li>
-<p>Use a pasteur pipette to gently free the mf from the filters. <strong>NOTE</strong>: many worms will remain stuck to the filter and are unable to be removed.</p>
-</li>
-<li>
-<p>Transfer clean mf to a 15 mL conical tube, and take three 0.5 μL aliquots for counting at 20X on the Zeiss Axioscope.</p>
-</li>
-<li>
-<p><strong>NOTE</strong>: we typically experience &gt;50% loss during this washing protocol, so be sure to account for loss when initially planning the number of treatments and wells.</p>
-</li>
-</ol>
+<p>Mf can be washed with a <a href="../../parasite_culture/mf_cleaning/">filtering protocol</a>.</p>
 </li>
 </ul>
 </li>
@@ -666,7 +573,7 @@
 <p>After washing, transfer the desired number of worms to a 24-well plate in 500 μL incomplete media per well.</p>
 </li>
 <li>
-<p>Follow steps 3-9 in the adult protocol; remove worms in step 8 via settling of L3s or centrifuging mf for 2 minuts at 2000 x g.</p>
+<p>Follow steps 3-9 in the adult protocol; remove worms in step 8 via settling of L3s or centrifuging mf for 2 minutes at 2000 x g.</p>
 </li>
 </ul>
                 
@@ -686,41 +593,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../../../labmanual/" title="Lab Manual" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Lab Manual
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../../wormviz/wormviz/" title="WormViz" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                WormViz
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
