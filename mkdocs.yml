@@ -14,9 +14,11 @@ theme:
   name: 'material'
   favicon: 'images/dna_black.png'
   logo: 'images/dna.svg'
-  pallete:
-    primary: black
-    accent: red
+  feature:
+    tabs: false
+  palette:
+    primary: 'black'
+    accent: 'red'
 markdown_extensions:
   - admonition
   - codehilite:
@@ -30,15 +32,36 @@ extra:
     - type: 'twitter'
       link: 'https://twitter.com/zamanian_'
 
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
 nav:
   - Home:                     index.md
   - Lab Manual:               labmanual.md
-  - Lab Protocols:
+  - Lab Protocols:            'protocols/protocols.md'
 #    - C. elegans:
-    - Filarial Nematodes:     'protocols/parasite_protocols.md'
+#    - Filarial Nematodes:     'protocols/parasite_protocols.md'
 #    - Molecular Biology:
-    - WormViz:                'protocols/wormviz/wormviz.md'
-
+#    - WormViz:                'protocols/wormviz/wormviz.md'
   - Lab Sheets:               labsheets.md
   - Computational Guide:
     - Overview:               onboarding.md
