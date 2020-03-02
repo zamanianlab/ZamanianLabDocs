@@ -48,6 +48,12 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
       
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
       
     
     
@@ -69,7 +75,9 @@
     
   </head>
   
-    <body dir="ltr">
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="red">
   
     <svg class="md-svg">
       <defs>
@@ -243,46 +251,10 @@
       
 
 
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
+  <li class="md-nav__item">
+    <a href="../protocols/protocols/" title="Lab Protocols" class="md-nav__link">
       Lab Protocols
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        Lab Protocols
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/parasite_protocols/" title="Filarial Nematodes" class="md-nav__link">
-      Filarial Nematodes
     </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/wormviz/wormviz/" title="WormViz" class="md-nav__link">
-      WormViz
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
     
@@ -495,8 +467,12 @@
 <p>Create and edit a Markdown file</p>
 <ul>
 <li>Use previous documentation as a guide</li>
-<li>Save in <code>/docs/</code> with the <code>.md</code> extension</li>
-<li>Use the GitHub <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">cheatsheet</a> for reference</li>
+<li>Save in <code>/docs/</code> with the <code>.md</code> extension<ul>
+<li><strong>NOTE</strong>: if adding/editing a protocol, make a new folder <code>/docs/protocols</code> titled <code>{protocol_name}</code> (without the {}); if adding images, make a new folder called <code>img</code> in <code>/docs/protocols/{protocol_name}</code></li>
+</ul>
+</li>
+<li>Use the <a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/" target="blank">cheatsheet</a> for reference</li>
+<li>Use an online editor (like <a href="http://markdown.pioul.fr/" target="blank">this</a> one) or use <a href="../osx/">Atom</a> combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension</li>
 </ul>
 </li>
 <li>
@@ -581,6 +557,10 @@
       <script src="../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.1",url:{base:".."}})</script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>

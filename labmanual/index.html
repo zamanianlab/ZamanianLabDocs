@@ -48,6 +48,12 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
       
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
       
     
     
@@ -69,7 +75,9 @@
     
   </head>
   
-    <body dir="ltr">
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="red">
   
     <svg class="md-svg">
       <defs>
@@ -581,46 +589,10 @@
       
 
 
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
+  <li class="md-nav__item">
+    <a href="../protocols/protocols/" title="Lab Protocols" class="md-nav__link">
       Lab Protocols
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        Lab Protocols
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/parasite_protocols/" title="Filarial Nematodes" class="md-nav__link">
-      Filarial Nematodes
     </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/wormviz/wormviz/" title="WormViz" class="md-nav__link">
-      WormViz
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
     
@@ -1151,7 +1123,7 @@
 <p>We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language (e.g., R or Python) useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those that are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.</p>
 <h3 id="d-lab-citizenship">D. Lab Citizenship</h3>
 <p>My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.</p>
-<div class="codehilite"><pre><span></span><code> 1. Do not borrow things without asking
+<pre><code> 1. Do not borrow things without asking
  2. Keep your own items to your own bench space
  3. Use your own pipettes, tips, and gloves (except where designated)
  4. Use only your assigned spaces in fridges and freezers
@@ -1164,9 +1136,7 @@
  11. Stay ahead of parasite orders and plan their use accordingly
  12. Be here during normal work hours so that you can maximize interactions
  13. Make sure the lab is properly shut down (communicate before leaving)
-</code></pre></div>
-
-
+</code></pre>
 <p><strong>Lab dress code:</strong> For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   </p>
 <h2 id="ii-communication-and-calendar">II. Communication and Calendar</h2>
 <h3 id="a-slack">A. Slack</h3>
@@ -1227,39 +1197,35 @@
 <h2 id="v-lab-stocks">V. Lab Stocks</h2>
 <p>Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.</p>
 <h3 id="a-oligos">A. Oligos</h3>
-<div class="codehilite"><pre><span></span><code>Oligo Naming: oMZ####
+<div class="highlight"><pre><span></span><code>Oligo Naming: oMZ####
 Storage box labels (-20C): &quot;Oligo Stocks #&quot;
 </code></pre></div>
-
 
 <p>Use <code>IDT_oligos.xls</code> in <code>/LabOrdering/Oligos/</code> to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (<strong>Species</strong>, <strong>Oligo Pairing</strong>, <strong>Molecular Target</strong>, <strong>Amplicon Length</strong>, and <strong>Tm</strong>) within the spreadsheet order form. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.</p>
 <p><strong>Primers:</strong> Make <strong>100 uM</strong> lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.</p>
 <h3 id="b-lab-and-commercial-plasmids">B. Lab and Commercial Plasmids</h3>
 <p>Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors.</p>
 <h4 id="lab-plasmid-inventory">Lab Plasmid inventory</h4>
-<div class="codehilite"><pre><span></span><code>Plasmid Naming: pMZ####
+<div class="highlight"><pre><span></span><code>Plasmid Naming: pMZ####
 Storage box labels (-80C &amp; -20C): &quot;Lab Plasmids #&quot;
 Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
 Tube Labels: pMZ####, Concentration, and Date
 </code></pre></div>
 
-
 <h4 id="commercial-plasmid-inventory">Commercial Plasmid inventory</h4>
-<div class="codehilite"><pre><span></span><code>Plasmid Naming: Original Name
+<div class="highlight"><pre><span></span><code>Plasmid Naming: Original Name
 Storage box labels (-80C &amp; -20C): &quot;Commercial Plasmids #&quot;
 Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
 Tube Labels: Original Name, Concentration, and Date
 </code></pre></div>
 
-
 <p>Update Quartzy with the exact -80C location of all plasmids and antibiotic resistance information. Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed. <strong>Plasmids note:</strong> All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder <code>/LabInventory/Plasmid_Export/</code>.</p>
 <h3 id="c-transformed-bacteria">C. Transformed Bacteria</h3>
-<div class="codehilite"><pre><span></span><code>Storage box labels (-80C &amp; N2):
+<div class="highlight"><pre><span></span><code>Storage box labels (-80C &amp; N2):
   &quot;Lab Plasmid Bacterial Stock #&quot; and &quot;Commercial Plasmid Bacterial Stock #&quot;
 Tube Counts: 2 copies (-80C) + 1 copy (N2)
 Tube Labels: Plasmid Name, Bacteria (eg., DH5a), and Date
 </code></pre></div>
-
 
 <p>Each Lab and Commercial Plasmid should have three bacterial glycerol stocks made (see: <em>PreparationOfBacterialFrozenStocks.pdf</em> in <code>/Protocols/General/</code>). Additional labeling instructions can be found in <code>/Protocols/FreezerLabels/</code>. Update Quartzy with the Location, Date frozen, Number of units (tubes), Genotype, and Antibiotic resistance.</p>
 <h3 id="d-c-elegans-bacterial-stocks">D. <em>C. elegans</em> Bacterial Stocks</h3>
@@ -1269,15 +1235,13 @@ Tube Labels: Plasmid Name, Bacteria (eg., DH5a), and Date
 <h2 id="vi-caenorhabditis-elegans-strains">VI. <em>Caenorhabditis elegans</em> Strains</h2>
 <h3 id="a-strain-creation">A. Strain Creation</h3>
 <p>Only the lab manager (Kathy) is allowed to use the microinjection apparatus to create transgenic strains. It will be the responsibility of any person who wishes for a strain to be made to:</p>
-<div class="codehilite"><pre><span></span><code>1. Coordinate with Kathy at least two weeks in advance
+<pre><code>1. Coordinate with Kathy at least two weeks in advance
 2. Provide necessary background strain for injection (if not N2)
 3. Provide injection mixes in the Plasmids box in the top freezer in room 223
   - Mark the tube with the date and all plasmids included in the mix
   - Including any fluorescent or phenotypic marker that should be followed
 4. Provide all required information in the inventory spreadsheet (see below)
-</code></pre></div>
-
-
+</code></pre>
 <p>It is your responsibility to monitor injected lines and select for stable lines and confirming genotypes (through PCR and other approaches). Provide Kathy with the F1 plates to chunk from and cryogenically preserve once you have decide to keep any transgenic lines.</p>
 <h3 id="b-strain-inventory">B. Strain Inventory</h3>
 <p><strong>Lab strain designation: ZAM#</strong><br />
@@ -1296,10 +1260,9 @@ Tube Labels: Plasmid Name, Bacteria (eg., DH5a), and Date
 <ul>
 <li><code>/LabInventory/</code>: <em>Bmalayi_Materials.xlsx</em>, <em>Bpahangi_Materials.xlsx</em>, <em>Dimmitis_Materials.xlsx</em></li>
 </ul>
-<div class="codehilite"><pre><span></span><code>Tissue tube label: Species, Stage, Date frozen, Number of worms
+<div class="highlight"><pre><span></span><code>Tissue tube label: Species, Stage, Date frozen, Number of worms
 RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
 </code></pre></div>
-
 
 <p>Each files has three sheets (Tissue, RNA, and gDNA). The spreadsheets should be filled out with additional information, including the origin of the parasites, the method of RNA or DNA extraction, and the method used to spec purity and concentration. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.</p>
 <h3 id="c-parasite-infections-insectary">C. Parasite Infections (Insectary)</h3>
@@ -1360,13 +1323,13 @@ RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
           </a>
         
         
-          <a href="../protocols/parasite_protocols/" title="Filarial Nematodes" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../protocols/protocols/" title="Lab Protocols" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Filarial Nematodes
+                Lab Protocols
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -1406,6 +1369,10 @@ RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
       <script src="../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.1",url:{base:".."}})</script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>
