@@ -32,6 +32,8 @@ Experiments typically are performed using a 24 hour incubation, after which medi
 
 8. After removing worms, aspirate all of the conditioned media (there should be >850 μL remaining) and transfer to the correct labeled tubes.
 
+# 9. Spin the samples for 2 minutes at 2000 x g; take the top 90% 
+
 9. Store the media in a labeled box (species, life stage, treatments, date) in -20°C.
 
 ### L3 and mf

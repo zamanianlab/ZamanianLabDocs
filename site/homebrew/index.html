@@ -48,6 +48,12 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
       
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
       
     
     
@@ -69,7 +75,9 @@
     
   </head>
   
-    <body dir="ltr">
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="red">
   
     <svg class="md-svg">
       <defs>
@@ -243,46 +251,10 @@
       
 
 
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
+  <li class="md-nav__item">
+    <a href="../protocols/protocols/" title="Lab Protocols" class="md-nav__link">
       Lab Protocols
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        Lab Protocols
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/parasite_protocols/" title="Filarial Nematodes" class="md-nav__link">
-      Filarial Nematodes
     </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/wormviz/wormviz/" title="WormViz" class="md-nav__link">
-      WormViz
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
     
@@ -474,14 +446,12 @@
                 
                 <h1 id="homebrew">Homebrew</h1>
 <p><a href="https://brew.sh">Homebrew</a> is a package manager for macOS. Many of the core software used in bioinformatics and development can be installed using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:</p>
-<div class="codehilite"><pre><span></span><code>/usr/bin/ruby -e <span class="s2">&quot;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">&quot;</span>
+<div class="highlight"><pre><span></span><code>/usr/bin/ruby -e <span class="s2">&quot;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">&quot;</span>
 </code></pre></div>
-
 
 <p>Most of the core software used in the Zamanian Lab can be installed via Homebrew. If you need a piece of software, a good first step is to check if it has been implemented in Homebrew and install it from the source only if absolutely necessary. Below is a list of software that we recommend installing right off that bat. Run the following to automatically install these on your machine:</p>
-<div class="codehilite"><pre><span></span><code>sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
+<div class="highlight"><pre><span></span><code>sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 </code></pre></div>
-
 
 <ul>
 <li><a href="https://github.com/wting/autojump">autojump</a></li>
@@ -564,6 +534,10 @@
       <script src="../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.1",url:{base:".."}})</script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
     
   </body>

@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/labmanual/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://zamanianlab.org/ZamanianLabDocs/protocols/parasite_protocols/</loc>
-     <lastmod>2020-02-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://zamanianlab.org/ZamanianLabDocs/protocols/wormviz/wormviz/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <loc>https://zamanianlab.org/ZamanianLabDocs/protocols/protocols/</loc>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/labsheets/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/onboarding/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/osx/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/github/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/pipelines/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/local/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://zamanianlab.org/ZamanianLabDocs/editing/</loc>
-     <lastmod>2020-02-28</lastmod>
+     <lastmod>2020-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

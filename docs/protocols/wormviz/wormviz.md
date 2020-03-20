@@ -69,27 +69,3 @@ The WormViz is primarily used for recording of adult filarial parasites in 24-we
 11. Adjust the placement of the plate so that the entire plate is in view and well A1 is on the top left of the image.
 
 12. When everything looks good, click the red record icon in the recording control dialog.
-
-
-
-<!--
-## Zeiss Stemi 508
-
-## ImageXpress
-
-
-
-
-
-
-
-There are a few primary considerations when preparing to record videos:
-
-1. Video size: Generally, files are stored as raw AVI files or with JPEG compression. JPEG compressed videos are much smaller but the compression is lossy (i.e. lower resolution than the raw version), but in our experience this does not significantly hinder analyses. File size is a direct correlation between video format (i.e. 1600x1200) and the number of total frames, which is controlled by the frame rate (frames per second, FPS) and video length. One needs to consider all these factors prior to recording. A good place to start:
-
-    - 1600x1200 pixels
-    - 15-30 seconds
-    - 16-30 FPS
-
-2.
--->
