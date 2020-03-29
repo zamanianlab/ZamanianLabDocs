@@ -1,14 +1,28 @@
 # Zamanian Lab Protocols
 
-## General
+## Molecular Biology
 
-- [Confocal Microscope](General/Confocal_Microscope/Confocal_Microscope.md)
+- [General Lab Recipes](Molecular_Biology/General_Recipes/General_Recipes.md)
 
-- [Connecting CO<sub>2</sub> Tanks](General/Connecting_CO2_Tanks/Connecting_CO2_Tanks_to_Incubators.md)
+- [Bacterial Freezer Stocks](Molecular_Biology/Bacterial_Freezer_Stocks/Bacterial_Freezer_Stocks.md)
 
-- [Uploading NCBI Data](General/NCBI_Data_Upload/NCBI_Data_Upload.md)
+- [Bacterial Transformation](Molecular_Biology/Bacterial_Transformation/Bacterial_Transformation.md)
 
-- [Shipping Biomaterials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
+- [Ethanol Precipitation](Molecular_Biology/Ethanol_Precipitation/Ethanol_Precipitation.md)
+
+- [DNA Ladder Creation](Molecular_Biology/Ladder_Creation/Ladder_Creation.md)
+
+- [Making Agarose Gels](Molecular_Biology/Making_Agarose_Gel/Making_Agarose_Gel.md)
+
+- [NEB HiFi Assembly](Molecular_Biology/NEB_HiFi_Assembly/NEB_HiFi_Assembly.md)
+
+- [Partial Digest](Molecular_Biology/Partial_Digest/Partial_Digest.md)
+
+- [qPCR](Molecular_Biology/qPCR/qPCR.md)
+
+- [RNA to cDNA](Molecular_Biology/RNA_to_cDNA/RNA_to_cDNA.md)
+
+- [dsRNA Synthesis (RNAi)](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
 
 
 ## Parasitic nematodes
@@ -46,32 +60,19 @@
 
 - [Single Worm Genotyping](Caenorhabditis_elegans/Single_Worm_Genotyping/Single_Worm_Genotyping.md)
 
-## Molecular Biology
-
-- [General Lab Recipes](Molecular_Biology/General_Recipes/General_Recipes.md)
-
-- [Bacterial Freezer Stocks](Molecular_Biology/Bacterial_Freezer_Stocks/Bacterial_Freezer_Stocks.md)
-
-- [Bacterial Transformation](Molecular_Biology/Bacterial_Transformation/Bacterial_Transformation.md)
-
-- [Ethanol Precipitation](Molecular_Biology/Ethanol_Precipitation/Ethanol_Precipitation.md)
-
-- [Ladder Creation](Molecular_Biology/Ladder_Creation/Ladder_Creation.md)
-
-- [Making Agarose Gels](Molecular_Biology/Making_Agarose_Gel/Making_Agarose_Gel.md)
-
-- [NEB HiFi Assembly](Molecular_Biology/NEB_HiFi_Assembly/NEB_HiFi_Assembly.md)
-
-- [Partial Digest](Molecular_Biology/Partial_Digest/Partial_Digest.md)
-
-- [qPCR](Molecular_Biology/Partial_Digest/qPCR.md)
-
-- [RNA to cDNA](Molecular_Biology/RNA_to_cDNA/RNA_to_cDNA.md)
-
-- [dsRNA Synthesis for RNAi](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
-
 
 ## Microinjection
+
+## General
+
+- [Confocal Microscope](General/Confocal_Microscope/Confocal_Microscope.md)
+
+- [Connecting CO<sub>2</sub> Tanks](General/Connecting_CO2_Tanks/Connecting_CO2_Tanks_to_Incubators.md)
+
+- [Uploading NCBI Data](General/NCBI_Data_Upload/NCBI_Data_Upload.md)
+
+- [Shipping Biomaterials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
+
 
 ## Lab Operations
 
