@@ -74,6 +74,6 @@
 
 ## Lab Operations
 
-[BSC Operation](Lab_Operations/BSC_Operation/BSC_Operation.md)
+- [BSC Operation](Lab_Operations/BSC_Operation/BSC_Operation.md)
 
-[Liquid N<sub>2</sub> Tank Maintenance](Lab_Operations/LiquidN2_Tank_Maintenance/LiquidN2_Tank_Maintenance.md)
+- [Liquid N<sub>2</sub> Tank Maintenance](Lab_Operations/LiquidN2_Tank_Maintenance/LiquidN2_Tank_Maintenance.md)
