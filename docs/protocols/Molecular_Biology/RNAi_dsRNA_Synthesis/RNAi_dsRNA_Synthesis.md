@@ -1,7 +1,8 @@
 # dsRNA Generation for RNAi Experiments
 
 ## Methods
-**General Note**: Clone ~400-600 base pairs of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).
+
+**General Note**: Clone ~400-600 base pairs of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).
 
 ### Adding T7 sites and scaling up the T7 template
 1. Assemble master mix according to table below:

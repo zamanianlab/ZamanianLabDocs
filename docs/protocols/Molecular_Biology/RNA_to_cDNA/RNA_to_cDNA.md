@@ -1,4 +1,5 @@
 # Total Parasite RNA to cDNA Synthesis
+
 **General Note**: Thermo Fisher Scientific SuperScript™ III First-Strand Synthesis System will be used and followed to generate cDNA from total parasite RNA. A description of this protocol is below.
 
 ## Methods

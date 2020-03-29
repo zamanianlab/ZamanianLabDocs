@@ -10,7 +10,7 @@
 
 ## Protocol
 
-4. Transfer nucleic acid to a container where it occupies less than one quarter of the total volume (For example, a 1.5 mL tube should have no more than 375 μL of nucleic acid solution).
+4. Transfer nucleic acid to a container where it occupies less than one quarter of the total volume (e.g., a 1.5 mL tube should have no more than 375 μL of nucleic acid solution).
 
 5. Add one tenth of the nucleic acid volume of sodium acetate buffer to equalize the ion concentrations.
 

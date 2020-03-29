@@ -1,5 +1,7 @@
 # Preparation of pPSU1/2 100 bp and 1 kb ladders
 
+This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
+
 1. Mix the following in 1.5 mL tubes:
 
 | Reagent              | Amount    |       
@@ -18,7 +20,7 @@
 | 20 units/μL PstI-HF  | 4 μL      |
 | Water                | To 200 μL |
 
-2. Digest at 37°C overnight.
+2. Digest overnight at 37°C.
 
 3. Check 0.5 μL of digest on a 1% agarose gel.
 

@@ -8,7 +8,7 @@
 
 4. When working in the BSC, move arms in and out slowly, make slow movements inside the cabinet as to not disrupt the airflow.
 
-5. Perform all operations at least 4 inches from the front grille on the work surface.
+5. Perform all operations at least 4 inches from the front grill on the work surface.
 
 6. The workflow inside the cabinet should be from “clean” materials to “dirty” (contaminated). Minimize movement of dirty items over clean ones.
 
@@ -18,4 +18,4 @@
 
 9. When finished, decontaminate all surfaces and materials with 70% ethanol, any waste should also be decontaminated and placed in biohazard bin.
 
-10. When finished, Close the sash, turn off the blower, then press and hold the UV light button for a few second until it beeps. This should turn on the UV light for ~20 minutes (be careful with the UV light when others are present in the room).
+10. Close the sash, turn off the blower, then press and hold the UV light button for a few second until it beeps. This should turn on the UV light for ~20 minutes (be careful with the UV light when others are present in the room).

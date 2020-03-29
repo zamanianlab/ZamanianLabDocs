@@ -1,31 +1,25 @@
 # Confocal Microscopy
 
-1. Reserve confocal time on the Confocal Microscope calendar (email leandro.teixeira@wisc.edu to be added).
+1. Reserve confocal time on the Confocal Microscope calendar. When adding your time to the calendar, you must include which lasers you will be using in the description section of the calendar event. This will allow the user before you to know which lasers to leave on when they depart.
 
-    a. When adding your time to the calendar, you must include which lasers you will be using in the description section of the calendar event. This will allow the user before you to know which lasers to leave on when they depart.
+2. Get key to the confocal room (labeled in black) from Kathy or Kendra. The confocal is housed at SVM Room #2433.
 
-2. Get key to the confocal room (labeled in black) from Kathy or Kendra.
+3. Turn on the 5 buttons/switches in order (1-5).
 
-3. Go to confocal room (#2433) in SVM.
-
-4. Turn on the 5 buttons/switches in order (1-5).
-
-5. Login using your SVM login information (email
+4. Login using your SVM login information (email
 leandro.teixeira@wisc.edu beforehand to ensure you have access to
 the computer).
 
-6. Open LAS X
+5. Open LAS X
 
-7. Retain the default settings (Config: machine; Microscope: DMI9000;
+6. Retain the default settings (Config: machine; Microscope: DMI9000;
 Resonant: Off; Customized Settings: Off). Press OK.
 
-8. Select “No” when asked to initialize the stage (unless you are doing
-tile-scanning).
+7. Select “No” when asked to initialize the stage (unless you are doing tile-scanning).
 
-9. To load your slide onto the microscope, push the top of the microscope
-back and adjust the stage to lock in the slide.
+8. To load your slide onto the microscope, push the top of the microscope back and adjust the stage to lock in the slide.
 
-10. Microscope use:
+9. Microscope use:
 
     a. Change the objective using LAS X (40x and 60x are oil immersion).
 
@@ -33,20 +27,17 @@ back and adjust the stage to lock in the slide.
 
     c. Move the stage with the knobs to the right of the scope.
 
-    d. Buttons on the front of the scope allow you to open or close the
-shutter, as well as change the wavelength of the epifluorescence.
+    d. Buttons on the front of the scope allow you to open or close the shutter, as well as change the wavelength of the epifluorescence.
 
-    e. Before initializing the laser and confocal settings, manually use the
-ocular to locate the region to be imaged.
+    e. Before initializing the laser and confocal settings, manually use the ocular to locate the region to be imaged.
 
-11. Initialize the laser:
+10. Initialize the laser:
 
     a. In the top toolbar, click the Configuration button (red arrow).
 
-    b. Turn all four lasers ON (you should hear the laser boot up and the
-fan begin to spin), and the argon laser power between 40-60%.
+    b. Turn all four lasers ON (you should hear the laser boot up and the fan begin to spin), and the argon laser power between 40-60%.
 
-12. To change the laser settings, click Acquire (green arrow).
+11. To change the laser settings, click Acquire (green arrow).
 
     a. Press the third button to the right of Specimen (blue arrow) to open the laser settings.
 
@@ -56,7 +47,7 @@ fan begin to spin), and the argon laser power between 40-60%.
 
     ![Image](img/1_Lasers.PNG)
 
-13. To begin to acquire an image, return to the Acquire panel and click Live (orange arrow).
+12. To begin to acquire an image, return to the Acquire panel and click Live (orange arrow).
 
     a. To see DIC in addition to DAPI and Cy3, change Fluo Turret (pink arrow) to include DIC.
 
@@ -76,14 +67,13 @@ fan begin to spin), and the argon laser power between 40-60%.
 
     i. Turn off Live.
 
-14. Click Capture Image (red arrow).
+13. Click Capture Image (red arrow).
 
 ![Image](img/2_Aquire.PNG)
 
-15. To perform optical slicing (z-stack):
+14. To perform optical slicing (z-stack):
 
-    a. First reduce the format and remove averaging (to allow for faster
-optimization of settings).
+    a. First reduce the format and remove averaging (to allow for faster optimization of settings).
 
     b. Change Acquisition Mode to xzy (magenta arrow).
 
@@ -91,11 +81,9 @@ optimization of settings).
 
     d. Change Acquisition Mode back to xyz.
 
-    e. Move a dotted line to the top of the fluorescence and click Begin
-(red arrow).
+    e. Move a dotted line to the top of the fluorescence and click Begin (red arrow).
 
-    f. Move a dotted line to the bottom of the fluorescence and click End
-(yellow arrow).
+    f. Move a dotted line to the bottom of the fluorescence and click End (yellow arrow).
 
     g. Click Live.
 
@@ -103,31 +91,27 @@ optimization of settings).
 
     i. Change back to the desired format and averaging.
 
-    j. Click Start (orange arrow) and back away from the microscope (or
-step out of the room, this may take a few minutes). Bumping the microscope can ruin the entire stack if the images don’t properly align.
+    j. Click Start (orange arrow) and back away from the microscope (or step out of the room, this may take a few minutes). Bumping the microscope can ruin the entire stack if the images don’t properly align.
 
 ![Image](img/3_ZStack.PNG)
 
-16. Click Project at the top-left toolbar to see all the images captured and save those you would like to keep.
+15. Click Project at the top-left toolbar to see all the images captured and save those you would like to keep.
 
 ## Clean-Up and Shutdown Procedure
 
-17. Clean the oil off of the objectives by allowing the paper to soak; DO NOT RUB. and spin the objectives all the way down (with the focus knob).
+16. Clean the oil off of the objectives by allowing the paper to soak; DO NOT RUB. and spin the objectives all the way down (with the focus knob).
 
-18. Check the Google calendar to see which lasers the next user will need.
+17. Check the Google calendar to see which lasers the next user will need.
 
-19. If someone is scheduled within the next two hours:
+18. If someone is scheduled within the next two hours:
 
-    a. Open the Configuration tap, go to Laser Config, set the argon laser
-power to 0%, and turn off any lesser that won’t be used for the next
-person.
+    a. Open the Configuration tap, go to Laser Config, set the argon laser power to 0%, and turn off any laser that won’t be used for the next person.
 
-    b. Exit LAS X and logoff of the computer, but do not turn the computer
-off.
+    b. Exit LAS X and logoff of the computer, but do not turn the computer off.
 
     c. Leave switches 1-5 on.
 
-20. If you are the last person of the day or no one is scheduled within the next two hours:
+19. If you are the last person of the day or no one is scheduled within the next two hours:
 
     a. Open the Configuration tap, go to Laser Config, set the argon laser power to 0%, and turn off all lasers.
 

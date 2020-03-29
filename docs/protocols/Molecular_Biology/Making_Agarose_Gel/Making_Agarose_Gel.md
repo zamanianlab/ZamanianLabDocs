@@ -26,17 +26,19 @@
 11. Fill gel rig to the max line with 1X TAE buffer. Carefully remove comb, so as not to destroy any wells.
 
 ## Loading and Running the Gel
-1. Load 10 μL of DNA ladder into well furthest to left.
+
+1. Load 10 μL of DNA ladder into well(s) furthest to left.
 
 2. Add 5 µL of one tube of PCR product into a well. Repeat this until all PCR product has its own well. Make sure to note where you placed which PCR product in which well.
 
-  - It may be necessary to mix PCR product with loading dye prior to placement into gel well.
+  - Mix PCR product with loading dye prior to placement into gel well, if not a component of the PCR reaction.
 
 3. Always store leftover nucleic acids at 4ºC until gel is finished running in case the gel fails to work.
 
 4. Run gel at 80-150V for 1-1.5 hrs. or until dye line is 75% down the gel.
 
 ## Imaging the Gel
+
 1. Bring the gel and gel tray to the AlphaImager HP machine in room 326.
 
 2. Open the door to the imager and slide gel onto the black stage.
