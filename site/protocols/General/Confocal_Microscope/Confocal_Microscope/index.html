@@ -1,0 +1,643 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
+      
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/General/Confocal_Microscope/Confocal_Microscope/">
+      
+      
+        <meta name="author" content="Zamanian Lab">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../../images/dna_black.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Confocal Microscopy - Zamanian Lab Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="red">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#confocal-microscopy" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" aria-label="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../../../../images/dna.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Zamanian Lab Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Confocal Microscopy
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../../../../images/dna.svg" width="48" height="48">
+      
+    </a>
+    Zamanian Lab Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labmanual/" title="Lab Manual" class="md-nav__link">
+      Lab Manual
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../protocols/" title="Lab Protocols" class="md-nav__link">
+      Lab Protocols
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labsheets/" title="Lab Sheets" class="md-nav__link">
+      Lab Sheets
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Computational Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Computational Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../onboarding/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../osx/" title="Local Environment" class="md-nav__link">
+      Local Environment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../github/" title="GitHub" class="md-nav__link">
+      GitHub
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../server.md" title="Server" class="md-nav__link">
+      Server
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pipelines
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pipelines
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../local/" title="Local Pipelines" class="md-nav__link">
+      Local Pipelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../core.md" title="Core Pipelines" class="md-nav__link">
+      Core Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../editing/" title="Editing" class="md-nav__link">
+      Editing
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#clean-up-and-shutdown-procedure" class="md-nav__link">
+    Clean-Up and Shutdown Procedure
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/General/Confocal_Microscope/Confocal_Microscope.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="confocal-microscopy">Confocal Microscopy</h1>
+<ol>
+<li>
+<p>Reserve confocal time on the Confocal Microscope calendar (email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#101;&#97;&#110;&#100;&#114;&#111;&#46;&#116;&#101;&#105;&#120;&#101;&#105;&#114;&#97;&#64;&#119;&#105;&#115;&#99;&#46;&#101;&#100;&#117;">&#108;&#101;&#97;&#110;&#100;&#114;&#111;&#46;&#116;&#101;&#105;&#120;&#101;&#105;&#114;&#97;&#64;&#119;&#105;&#115;&#99;&#46;&#101;&#100;&#117;</a> to be added).</p>
+<p>a. When adding your time to the calendar, you must include which lasers you will be using in the description section of the calendar event. This will allow the user before you to know which lasers to leave on when they depart.</p>
+</li>
+<li>
+<p>Get key to the confocal room (labeled in black) from Kathy or Kendra.</p>
+</li>
+<li>
+<p>Go to confocal room (#2433) in SVM.</p>
+</li>
+<li>
+<p>Turn on the 5 buttons/switches in order (1-5).</p>
+</li>
+<li>
+<p>Login using your SVM login information (email
+<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#101;&#97;&#110;&#100;&#114;&#111;&#46;&#116;&#101;&#105;&#120;&#101;&#105;&#114;&#97;&#64;&#119;&#105;&#115;&#99;&#46;&#101;&#100;&#117;">&#108;&#101;&#97;&#110;&#100;&#114;&#111;&#46;&#116;&#101;&#105;&#120;&#101;&#105;&#114;&#97;&#64;&#119;&#105;&#115;&#99;&#46;&#101;&#100;&#117;</a> beforehand to ensure you have access to
+the computer).</p>
+</li>
+<li>
+<p>Open LAS X</p>
+</li>
+<li>
+<p>Retain the default settings (Config: machine; Microscope: DMI9000;
+Resonant: Off; Customized Settings: Off). Press OK.</p>
+</li>
+<li>
+<p>Select “No” when asked to initialize the stage (unless you are doing
+tile-scanning).</p>
+</li>
+<li>
+<p>To load your slide onto the microscope, push the top of the microscope
+back and adjust the stage to lock in the slide.</p>
+</li>
+<li>
+<p>Microscope use:</p>
+<p>a. Change the objective using LAS X (40x and 60x are oil immersion).</p>
+<p>b. If using an oil immersion objective, add a SMALL amount of Leica type F immersion oil to the lens or the cover glass (3 mm diameter dot)</p>
+<p>c. Move the stage with the knobs to the right of the scope.</p>
+<p>d. Buttons on the front of the scope allow you to open or close the
+shutter, as well as change the wavelength of the epifluorescence.</p>
+<p>e. Before initializing the laser and confocal settings, manually use the
+ocular to locate the region to be imaged.</p>
+</li>
+<li>
+<p>Initialize the laser:</p>
+<p>a. In the top toolbar, click the Configuration button (red arrow).</p>
+<p>b. Turn all four lasers ON (you should hear the laser boot up and the
+fan begin to spin), and the argon laser power between 40-60%.</p>
+</li>
+<li>
+<p>To change the laser settings, click Acquire (green arrow).</p>
+<p>a. Press the third button to the right of Specimen (blue arrow) to open the laser settings.</p>
+<p>b. In Laser Settings, add DAPI and Cy3 (or other) wavelengths. Always use both HyD detectors (much higher sensitivity). If you have more than 2 fluorophores, prioritize the two weakest for HyD and use PMT for DAPI.</p>
+<p>c. Click Apply for Line sequential. This will capture images for each laser sequentially to limit bleed through.</p>
+<p><img alt="Image" src="../img/1_Lasers.PNG" /></p>
+</li>
+<li>
+<p>To begin to acquire an image, return to the Acquire panel and click Live (orange arrow).</p>
+<p>a. To see DIC in addition to DAPI and Cy3, change Fluo Turret (pink arrow) to include DIC.</p>
+<p>b. Ensure all detectors are ON (DAPI PMT, Cy3 HyD, PMT Trans for DIC).</p>
+<p>c. Laser intensity (orange box) should be about 5% for DAPI and 0.5% for all other colors.</p>
+<p>d. To help with adjusting gain, click Live (orange arrow) to visualize the tissue and click “saturation control” (cyan arrow). Blue pixels are saturated. Adjust the gain so that only a few saturated pixels remain in each detector.</p>
+<p>e. Increase Format and Frame Average (red box) to increase the amount of data per area of the image and number of images taken per slice. Can also click “Optimize XY Format” to get the theoretical maximum resolution.</p>
+<p>f. To reduce field of view and increase resolution, click “Zoom In” and draw a box around the region of interest.</p>
+<p>g. If the signal is low, increase frame accumulation. You can also decrease laser power and increase frame accumulation if you are worried of photobleaching.</p>
+<p>h. Turn on “Bidirectional X” to increase scan speed.</p>
+<p>i. Turn off Live.</p>
+</li>
+<li>
+<p>Click Capture Image (red arrow).</p>
+</li>
+</ol>
+<p><img alt="Image" src="../img/2_Aquire.PNG" /></p>
+<ol>
+<li>
+<p>To perform optical slicing (z-stack):</p>
+<p>a. First reduce the format and remove averaging (to allow for faster
+optimization of settings).</p>
+<p>b. Change Acquisition Mode to xzy (magenta arrow).</p>
+<p>c. Adjust the dotted line to cross through an area of fluorescence.</p>
+<p>d. Change Acquisition Mode back to xyz.</p>
+<p>e. Move a dotted line to the top of the fluorescence and click Begin
+(red arrow).</p>
+<p>f. Move a dotted line to the bottom of the fluorescence and click End
+(yellow arrow).</p>
+<p>g. Click Live.</p>
+<p>h. Adjust number (Nr.) of steps or Z-Step Size to change how many images should be in the stack.</p>
+<p>i. Change back to the desired format and averaging.</p>
+<p>j. Click Start (orange arrow) and back away from the microscope (or
+step out of the room, this may take a few minutes). Bumping the microscope can ruin the entire stack if the images don’t properly align.</p>
+</li>
+</ol>
+<p><img alt="Image" src="../img/3_ZStack.PNG" /></p>
+<ol>
+<li>Click Project at the top-left toolbar to see all the images captured and save those you would like to keep.</li>
+</ol>
+<h2 id="clean-up-and-shutdown-procedure">Clean-Up and Shutdown Procedure</h2>
+<ol>
+<li>
+<p>Clean the oil off of the objectives by allowing the paper to soak; DO NOT RUB. and spin the objectives all the way down (with the focus knob).</p>
+</li>
+<li>
+<p>Check the Google calendar to see which lasers the next user will need.</p>
+</li>
+<li>
+<p>If someone is scheduled within the next two hours:</p>
+<p>a. Open the Configuration tap, go to Laser Config, set the argon laser
+power to 0%, and turn off any lesser that won’t be used for the next
+person.</p>
+<p>b. Exit LAS X and logoff of the computer, but do not turn the computer
+off.</p>
+<p>c. Leave switches 1-5 on.</p>
+</li>
+<li>
+<p>If you are the last person of the day or no one is scheduled within the next two hours:</p>
+<p>a. Open the Configuration tap, go to Laser Config, set the argon laser power to 0%, and turn off all lasers.</p>
+<p>b. Exit LAS X and shutdown the computer.</p>
+<p>c. Turn off #1, #2, #3.</p>
+<p>d. Wait for the argon laser cooling fan to turn off, then turn off #4. 21. Turn off the buttons/switches in the opposite manner. Make sure the computer shuts all the way down.</p>
+</li>
+<li>
+<p>Lock the room when you leave and return the key!</p>
+</li>
+</ol>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/zamanianlab" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/zamanian_" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
+      
+        <script src="../../../../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>

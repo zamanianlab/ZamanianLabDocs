@@ -1,0 +1,761 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
+      
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Molecular_Biology/NEB_HiFi_Assembly/NEB_HiFi_Assembly/">
+      
+      
+        <meta name="author" content="Zamanian Lab">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../../images/dna_black.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>NEB HiFi Assembly - Zamanian Lab Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="red">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#neb-hifi-assembly" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" aria-label="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../../../../images/dna.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Zamanian Lab Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                NEB HiFi Assembly
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../../../../images/dna.svg" width="48" height="48">
+      
+    </a>
+    Zamanian Lab Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labmanual/" title="Lab Manual" class="md-nav__link">
+      Lab Manual
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../protocols/" title="Lab Protocols" class="md-nav__link">
+      Lab Protocols
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labsheets/" title="Lab Sheets" class="md-nav__link">
+      Lab Sheets
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Computational Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Computational Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../onboarding/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../osx/" title="Local Environment" class="md-nav__link">
+      Local Environment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../github/" title="GitHub" class="md-nav__link">
+      GitHub
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../server.md" title="Server" class="md-nav__link">
+      Server
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pipelines
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pipelines
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../local/" title="Local Pipelines" class="md-nav__link">
+      Local Pipelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../core.md" title="Core Pipelines" class="md-nav__link">
+      Core Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../editing/" title="Editing" class="md-nav__link">
+      Editing
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-design" class="md-nav__link">
+    Assembly design
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assembly-reactions" class="md-nav__link">
+    Assembly reactions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformation" class="md-nav__link">
+    Transformation
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/Molecular_Biology/NEB_HiFi_Assembly/NEB_HiFi_Assembly.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="neb-hifi-assembly">NEB HiFi Assembly</h1>
+<h2 id="assembly-design">Assembly design</h2>
+<ol>
+<li>
+<p>To design primers for the pre-assembly PCRs, navigate to the <a href="https://nebuilder.neb.com/#!/">NEBuilder Assembly Tool</a>.</p>
+</li>
+<li>
+<p>Click Settings on the main page.</p>
+</li>
+</ol>
+<p><img alt="Main Page" src="../img/main_page.png" /></p>
+<ol>
+<li>Ensure the settings are as expected and that the PCR Polymerase/Kit is set to what you plan to use (we typically use Q5). Click Done.</li>
+</ol>
+<p><img alt="Main Page" src="../img/settings.png" /></p>
+<ol>
+<li>
+<p>Click NEW FRAGMENT.</p>
+<p>a. From Benchling, paste in the sequence of the ENTIRE vector backbone that you plan to clone into, even if you will be performing a double-digest to open it.</p>
+<p>b. Give the sequence a name, click PROCESS TEXT, and check VECTOR and CIRCULAR.</p>
+<p>c. Select which way you will be linearizing the backbone. If you choose Restriction Digest, select the 5’ and 3’ restriction sites you will be using.</p>
+<p>d. Click Add.</p>
+</li>
+</ol>
+<p><img alt="Backbone" src="../img/vector.png" /></p>
+<ol>
+<li>
+<p>Click NEW FRAGMENT.</p>
+<p>a. It is likely that you will be generating the rest of your fragments via PCR. If this is the case, paste in <strong>only the sequence to be amplified</strong>. Give the sequence a name and check "Autogenerate primers."</p>
+<p>b. Click Add.</p>
+</li>
+<li>
+<p>Repeat step 5 for as many fragments as necessary. When finished, the Build page should look something like below:</p>
+</li>
+</ol>
+<p><img alt="Assembly" src="../img/assembly.png" /></p>
+<ol>
+<li>
+<p>Now is our chance to add spacers or cut sites in between each fragment. First off, click the pencil icon (edit) on the backbone vector (in this case, pPD95.75).</p>
+<p>a. Choose whether or not you want to regenerate the restriction sites. Generally, "Min" is the best choice, but be careful not to change the reading frame if you are assembling a fusion protein.</p>
+</li>
+</ol>
+<p><img alt="Site Regeneration" src="../img/site_regeneration.png" /></p>
+<ol>
+<li>
+<p>Repeat step 7 if you want to add spacers between other fragments (i.e., you want to generate new cut sites between fragments).</p>
+</li>
+<li>
+<p>Click Done to get the final assembly. Copy the "Assembled Color-coded Sequence" and import it into Benchling for markup and annotation. Ensure the sequence is what you expect it to be and that the junctions between fragments aren't generating new cut sites or abolishing the cut sites you wanted to retain.</p>
+</li>
+<li>
+<p>If all is satisfactory, order the designed oligos. Be sure to include the 3′ Tm and 3′ Ta temperatures, as the 3’ Ta will
+be used for the PCRs that generate the fragment.</p>
+</li>
+</ol>
+<h2 id="assembly-reactions">Assembly reactions</h2>
+<ol>
+<li>
+<p>Prior to assembly, generate all the fragments to be assembled - this may be by either synthesis, restriction digest of a plasmid, or PCR. Things to note:</p>
+<p>a. Restriction digest - ensure the digest completed by running an aliquot on a gel. In my experience, you do NOT need to gel purify the correct sized band - the off-target band will not impede the assembly. However, you DO need to inactivate the restriction enzymes. Some NEB enzymes can be heat inactivated at 65°C for 20 minutes, but check the specifications of the enzymes to be used. If you can’t heat inactivate, you will need to purify using the PCR purification kit.</p>
+<p>b. PCR - use a high-fidelity polymerase from NEB, typically Q5. The polymerase you choose should correspond to the polymerase you selected when using the NEBuilder Assembly Tool. For these PCR reactions, do 25 μL reactions for 35 cycles, and use the Tm that the Assembly Tool provided (3’ Ta). If the combined PCR products make up greater than &#8533; of the final assembly reaction, you should purify the PCR reactions. In general, it’s probably better to purify.</p>
+</li>
+<li>
+<p>Thaw the reaction constituents on ice. Use the Qubit dsDNA BR kit to quantify every fragment.</p>
+</li>
+<li>
+<p>Calculate how the molar amount of each fragment to include. See the HiFI assembly manual for details on this calculation, which will change depending on the number for fragments being assembled. Use the <a href="https://nebiocalculator.neb.com/#!/dsdnaamt">NEB Calculator</a> for mass to moles conversions.</p>
+<p>a. Here is an example of two recent reactions:</p>
+<table>
+<thead>
+<tr>
+<th>Fragment</th>
+<th>Ratio</th>
+<th>Assembly #1</th>
+<th>Assembly #2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vector backbone</strong></td>
+<td>50 ng</td>
+<td>3500 bp (XbaI/EcoRI pPD95.75 fragment) = 0.023 pmol</td>
+<td>3500 bp (XbaI/EcoRI pPD95.75 fragment) = 0.023 pmol</td>
+</tr>
+<tr>
+<td><strong>Fragment 2</strong></td>
+<td>2:1 Insert:Vector Molar Ratio</td>
+<td>0.046 pmol = 46.76 ng of 1645 bp cel-osm-9p</td>
+<td>0.046 pmol = 89.23 ng of 3139 bp cel-tax-4p</td>
+</tr>
+<tr>
+<td><strong>Fragment 3</strong></td>
+<td>2:1 Insert:Vector Molar Ratio</td>
+<td>0.046 pmol = 79.79 ng of 2807 bma-osm-9</td>
+<td>0.046 pmol = 44.43 ng of 1563 bp bma-tax-4</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>0.03-0.2 pmols</strong></td>
+<td><strong>0.115 pmol</strong></td>
+<td><strong>0.115 pmol</strong></td>
+</tr>
+</tbody>
+</table>
+<p>b. In this case, I started with 50 ng of the backbone and calculated the number of pmols that would be based on the size of the cut fragment that would be assembled. I then multiplied that amount (0.023 pmol) by two to get the 2:1 vector:insert ratio. 0.046 pmol of the 1645 bp cel-osm-9p is 46.76 ng.</p>
+<p>c. Using the calculated ng of each fragment and the measured concentration from the Qubit, calculate the volume to be added for a final volume of 5 μL (<strong>Note: this is less than the final volume given in the NEB manual, in order to save reagents.</strong>) In other words, perform the calculations as recommended in the manual, and then divide all the constituents by 4.</p>
+</li>
+<li>
+<p>Assemble the final reaction in a PCR tube.</p>
+<p>a. The example continued:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Fragment</strong></th>
+<th><strong>Concentration</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>XbaI/EcoRI pPD95.75</strong></td>
+<td>11.8 ng/μL</td>
+</tr>
+<tr>
+<td><strong>cel-osm-9p</strong></td>
+<td>120</td>
+</tr>
+<tr>
+<td><strong>bma-osm-9</strong></td>
+<td>117</td>
+</tr>
+<tr>
+<td><strong>cel-tax-4p</strong></td>
+<td>95.4</td>
+</tr>
+<tr>
+<td><strong>bma-tax-4</strong></td>
+<td>95.8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note: the product coming from the digestion will be much less concentrated than the product from the PCRs unless you cleanup the reaction and elute in a volume of much less than 50 μL.</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Fragment</strong></th>
+<th><strong>Assembly #1</strong></th>
+<th><strong>Assembly #2</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vector Backbone</strong></td>
+<td>50 ng / 11.8 ng/μL / 4 = 1.06 μL XbaI/EcoRI pPD95.75 fragment</td>
+<td>50 ng / 11.8 ng/μL / 4 = 1.06 μL XbaI/EcoRI pPD95.75 fragment</td>
+</tr>
+<tr>
+<td><strong>Fragment 2</strong></td>
+<td>46.76 ng / 120 ng/μL / 4 = 0.10 μL cel-osm-9p</td>
+<td>89.23 ng / 95.4 ng/μL / 4 = 0.23 μL cel-tax-4p</td>
+</tr>
+<tr>
+<td><strong>Fragment 3</strong></td>
+<td>79.79 ng / 117 ng / μL / 4 = 0.17 μL bma-osm-9</td>
+<td>44.43 ng / 95.8 ng/μL / 4 = 0.12 μL bma-tax-4</td>
+</tr>
+<tr>
+<td><strong>NEBuilder MasterMix</strong></td>
+<td>2.5 μL</td>
+<td>2.5 μL</td>
+</tr>
+<tr>
+<td><strong>H<sub>2</sub>O</strong></td>
+<td>1.17 μL</td>
+<td>1.09 μL</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>5 μL</strong></td>
+<td><strong>5 μL</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Set the thermocycler to incubate at 50°C for 15 minutes for 2-3 fragments, or 60 minutes for 4-6 fragments. Store assembly at -20°C or ice for immediate transformation.</p>
+</li>
+</ol>
+<h2 id="transformation">Transformation</h2>
+<p>Prior to transformation:</p>
+<ul>
+<li>
+<p>Heat water bath to 42°C</p>
+</li>
+<li>
+<p>Remove from 4°C 1 LB/Amp/IPTG/X-gal plate (or other selection plate) per assembly reaction</p>
+</li>
+<li>
+<p>Move SOC to room temperature</p>
+</li>
+<li>
+<p>Remove the NEB 5-alpha chemically-competent from the -80°C freezer to ice.</p>
+</li>
+<li>
+<p>Aliquot 50 μL of the cells to a chilled 1.5 mL tube. Return the competent cells to the -80°C freezer.</p>
+</li>
+<li>
+<p>Add 2 μL of the chilled assembled product to the competent cells. Mix gently by pipetting up and down or by flicking the tube 4–5 times. Do not vortex.</p>
+</li>
+<li>
+<p>Place the mixture on ice for 30 minutes. Do not mix.</p>
+</li>
+<li>
+<p>Heat shock at 42°C for 30 seconds. Do not mix.</p>
+</li>
+<li>
+<p>Transfer tubes to ice for 2 minutes.</p>
+</li>
+<li>
+<p>Add 950 μL of room-temperature SOC media to the tube.</p>
+</li>
+<li>
+<p>Incubate the tube at 37°C for 60 minutes. Shake vigorously (250 rpm) or rotate.</p>
+</li>
+<li>
+<p>Spread 100 μL of the cells onto the selection plates.</p>
+</li>
+<li>
+<p>Incubate overnight at 37°C.</p>
+</li>
+</ul>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/zamanianlab" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/zamanian_" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
+      
+        <script src="../../../../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
