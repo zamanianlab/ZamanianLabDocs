@@ -8,7 +8,7 @@
 
 - [Uploading NCBI Data](General/NCBI_Data_Upload/NCBI_Data_Upload.md)
 
-- [Shipping Biomaterrials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
+- [Shipping Biomaterials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
 
 
 ## Parasitic nematodes
@@ -64,7 +64,7 @@
 
 - [Partial Digest](Molecular_Biology/Partial_Digest/Partial_Digest.md)
 
-- [qPCR](Molecular_Biology/Partial_Digest/Partial_Digest.md)
+- [qPCR](Molecular_Biology/Partial_Digest/qPCR.md)
 
 - [RNA to cDNA](Molecular_Biology/RNA_to_cDNA/RNA_to_cDNA.md)
 
