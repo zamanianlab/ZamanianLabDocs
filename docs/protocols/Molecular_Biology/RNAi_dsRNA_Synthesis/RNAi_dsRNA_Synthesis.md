@@ -22,20 +22,17 @@
 
 **Thermal Cycler Parameters**:    
 
-[Stage 1] x1   
- 	Step 1, 95ºC, 0:02:00  
-  [Stage 2] x5  
- 	  Step 1, 95ºC, 0:00:30  
-   	Step 2, Tm (GSP), 0:00:30  
-   	Step 3, 72ºC, 0:01:00  
-	[Stage 3] x30   
-   	Step 1, 95ºC, 0:00:30  
-   	Step 2, Tm (GSP+T7 -5 degrees), 0:00:30  
- 	Step 3, 72ºC, 0:01:00  
-	[Stage 4] x1  
-	Step 1, 72ºC, 0:05:00  
-   	Step 2, 4ºC, ∞  
-
+|  Time  | Temperature | Cycles |
+|--------|-------------|--------|
+| 2 min  | 95ºC        | 1      |
+| 30 s   | 95°C        | 5      |
+| 30 s   | Tm (GSP)    | 5      |
+| 1 min  | 72°C        | 5      |
+| 30 s   | 95ºC        | 30     |
+| 30 s   | Tm (GSP+T7 -5 degrees)| 30 |
+| 1 min  | 72ºC        | 30     |
+| 5 min  | 72ºC        | 1      |
+| Hold   | 6°C         | 1      |
 
 2. Pool PCR products for each target. Run a gel using 5 uL of product to verify that the PCR worked.
 
