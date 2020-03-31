@@ -503,7 +503,7 @@
                 
                 <h1 id="dsrna-generation-for-rnai-experiments">dsRNA Generation for RNAi Experiments</h1>
 <h2 id="methods">Methods</h2>
-<p><strong>General Note</strong>: Clone ~400-600 base pairs of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).</p>
+<p><strong>General Note</strong>: Clone ~400-600 base pairs of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).</p>
 <h3 id="adding-t7-sites-and-scaling-up-the-t7-template">Adding T7 sites and scaling up the T7 template</h3>
 <ol>
 <li>Assemble master mix according to table below:</li>
@@ -552,19 +552,62 @@
 </table>
 <p>The above master mix is for a single T7 reaction. Scale as needed.</p>
 <p><strong>Thermal Cycler Parameters</strong>:    </p>
-<p>[Stage 1] x1 <br />
-    Step 1, 95ºC, 0:02:00<br />
-  [Stage 2] x5<br />
-      Step 1, 95ºC, 0:00:30<br />
-    Step 2, Tm (GSP), 0:00:30<br />
-    Step 3, 72ºC, 0:01:00<br />
-    [Stage 3] x30 <br />
-    Step 1, 95ºC, 0:00:30<br />
-    Step 2, Tm (GSP+T7 -5 degrees), 0:00:30<br />
-    Step 3, 72ºC, 0:01:00<br />
-    [Stage 4] x1<br />
-    Step 1, 72ºC, 0:05:00<br />
-    Step 2, 4ºC, ∞  </p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Temperature</th>
+<th>Cycles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2 min</td>
+<td>95ºC</td>
+<td>1</td>
+</tr>
+<tr>
+<td>30 s</td>
+<td>95°C</td>
+<td>5</td>
+</tr>
+<tr>
+<td>30 s</td>
+<td>Tm (GSP)</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1 min</td>
+<td>72°C</td>
+<td>5</td>
+</tr>
+<tr>
+<td>30 s</td>
+<td>95ºC</td>
+<td>30</td>
+</tr>
+<tr>
+<td>30 s</td>
+<td>Tm (GSP+T7 -5 degrees)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>1 min</td>
+<td>72ºC</td>
+<td>30</td>
+</tr>
+<tr>
+<td>5 min</td>
+<td>72ºC</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Hold</td>
+<td>6°C</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 <ol>
 <li>Pool PCR products for each target. Run a gel using 5 uL of product to verify that the PCR worked.</li>
 </ol>
