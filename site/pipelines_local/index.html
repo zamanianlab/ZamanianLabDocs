@@ -13,7 +13,7 @@
         <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
       
-        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/osx/">
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/pipelines_local/">
       
       
         <meta name="author" content="Zamanian Lab">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Local Environment - Zamanian Lab Documentation</title>
+        <title>Local Pipelines - Zamanian Lab Documentation</title>
       
     
     
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#local-os-x-environment" tabindex="0" class="md-skip">
+      <a href="#local-pipelines" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -117,7 +117,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Local Environment
+                Local Pipelines
               
             </span>
           
@@ -274,12 +274,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
     <label class="md-nav__link" for="nav-5">
       Computational Guide
@@ -297,7 +295,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../onboarding/" title="Overview" class="md-nav__link">
+    <a href="../onboarding.md" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -307,20 +305,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Local Environment" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../osx.md" title="Local Environment" class="md-nav__link">
       Local Environment
     </a>
-    
   </li>
 
         
@@ -330,7 +319,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../github/" title="GitHub" class="md-nav__link">
+    <a href="../github.md" title="GitHub" class="md-nav__link">
       GitHub
     </a>
   </li>
@@ -378,7 +367,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../pipelines/" title="Overview" class="md-nav__link">
+    <a href="../pipelines.md" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -390,7 +379,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../local/" title="Local Pipelines" class="md-nav__link">
+    <a href="../local.md" title="Local Pipelines" class="md-nav__link">
       Local Pipelines
     </a>
   </li>
@@ -452,34 +441,27 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/osx.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/pipelines_local.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="local-os-x-environment">Local OS X Environment</h1>
-<p>For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.</p>
+                <h1 id="local-pipelines">Local Pipelines</h1>
+<p>Simple pipelines are those that are entirely local - they run on a local machine and access data on that same machine. The vast majority of these pipelines will consist of 1-3 R scripts with intermediary Rds files.</p>
+<p>Simple pipelines will not have version control and thus will not use GitHub, but they may often be collaborative. For this reason there are few standard practices that we will employ:</p>
 <ol>
-<li>Update your macOS version to Catalina (v10.15.1)</li>
-<li>Install core software:<ul>
-<li><a href="https://kb.wisc.edu/69772.">Adobe products</a></li>
-<li><a href="https://cyberduck.io/">Cyberduck</a> (SFTP client)</li>
-<li><a href="https://iterm2.com/">iTerm</a> (feature-rich terminal replacement)</li>
-<li><a href="https://atom.io/">Atom</a> (GitHub-owned integrated development environment (IDE)</li>
-<li><a href="https://rstudio.com/">RStudio</a> (IDE for R scripting and plotting)</li>
-<li><a href="https://fiji.sc/">Fiji</a> (primary software used for image analysis)</li>
-<li><a href="https://www.sublimetext.com/">Sublime Text</a> (lightweight but extensible text editor)</li>
-</ul>
+<li>
+<p>Data wrangling will be performed in scripts that are separate from those that perform analysis and visualization.</p>
 </li>
-<li>Replace your <code>~/.bash_profile</code> with the lab <code>.bash_profile</code> found in the <code>resources</code> directory of the GitHub repo that hosts this site.</li>
-<li>Create your R environment:<ul>
-<li>Use <a href="https://cloud.r-project.org/">CRAN</a> to install or update R to version 3.6.2</li>
-<li>Install the <a href="https://github.com/wheelern/ZamanianLabREnvironment">ZamanianLabREnvironment</a> R package to create a consistent, unified environment across machines.</li>
-</ul>
+<li>
+<p>Raw data will be stored in CSV files and wrangled/tidied data will be stored in Rds files.</p>
 </li>
-<li>Create your Python environment:<ul>
-<li>Install <a href="../conda/">miniconda3</a></li>
-</ul>
+<li>
+<p>All data will be stored on the shared Box drive using the following directory structure:</p>
+<p><code>Box/ZamanianLab/Data/{Experiment Type}/Species/Name/Date</code></p>
+<p>Each experiment will have its own CSV file with an accompanying <code>notes.txt</code> file explaining the assay.</p>
 </li>
-<li>Use Homebrew to <a href="../homebrew/">install other core command-line software</a></li>
+<li>
+<p>All lab members will be required to maintain a consistent R environment by installing and periodically updating the Zamanian Lab R Package.</p>
+</li>
 </ol>
                 
                   
@@ -498,41 +480,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../onboarding/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Overview
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../github/" title="GitHub" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                GitHub
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

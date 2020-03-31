@@ -63,13 +63,12 @@ nav:
 #    - Molecular Biology:
 #    - WormViz:                'protocols/wormviz/wormviz.md'
   - Lab Sheets:               labsheets.md
-  - Computational Guide:
-    - Overview:               onboarding.md
-    - Local Environment:      osx.md
-    - GitHub:                 github.md
-    - Server:                 server.md
+  - Computational Guide:      comp_overview.md
+    - Overview:               comp_overview.md
+    - Local Environment:      comp_osx.md
+    - GitHub:                 comp_github.md
   - Pipelines:
-    - Overview:               pipelines.md
-    - Local Pipelines:        local.md
-    - Core Pipelines:         core.md
+    - Overview:               pipelines_overview.md
+    - Local Pipelines:        pipelines_local.md
+    - Core Pipelines:         pipelines_server.md
   - Editing:                  editing.md
