@@ -4,11 +4,13 @@ If you're new to git and/or version control, the first step is to learn what exa
 
   - [HubSpot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
   - [GitHub](https://guides.github.com/activities/hello-world/)
-  - [Karl Broman (UW-M biostats professor)](https://kbroman.org/github_tutorial/)
+  - [Karl Broman (UW-Madison)](https://kbroman.org/github_tutorial/)
+
+Create an account at [GitHub.com](https://www.github.com/) and you will receive an invite to join the [ZamanianLab Github](https://github.com/zamanianlab) organization.
 
 ## Use Cases in the Zamanian Lab
 
-Thought GitHub is primarily used for software development, there are in fact many other such use cases. The Zamanian Lab uses GitHub in the following ways:
+Though GitHub is primarily used for software development, there are in fact many other such use cases. The Zamanian Lab uses GitHub in the following ways:
 
 1. **Code development** - i.e. RNA-seq pipelines, machine learning algorithms, phenotyping software, etc.
 

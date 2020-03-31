@@ -11,7 +11,6 @@ Most of the core software used in the Zamanian Lab can be installed via Homebrew
 ``` bash
 sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 ```
-
 - [autojump](https://github.com/wting/autojump)
 - [SAMtools](http://www.htslib.org/)
 - [blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
