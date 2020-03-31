@@ -65,7 +65,7 @@ nav:
   - Lab Sheets:               labsheets.md
   - Computational Guide:
     - Overview:               comp_overview.md
-    - Local Environment:      comp_osx.md
+    - Local Environment:      comp_local.md
     - GitHub:                 comp_github.md
   - Pipelines:
     - Overview:               pipelines_overview.md

@@ -21,8 +21,8 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://zamanianlab.org/ZamanianLabDocs/comp_overview/</loc>
+     <lastmod>2020-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
@@ -31,28 +31,23 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://zamanianlab.org/ZamanianLabDocs/comp_github/</loc>
+     <lastmod>2020-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://zamanianlab.org/ZamanianLabDocs/pipelines_overview/</loc>
+     <lastmod>2020-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://zamanianlab.org/ZamanianLabDocs/pipelines_local/</loc>
+     <lastmod>2020-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc></loc>
-     
+     <loc>https://zamanianlab.org/ZamanianLabDocs/pipelines_server/</loc>
+     <lastmod>2020-03-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
