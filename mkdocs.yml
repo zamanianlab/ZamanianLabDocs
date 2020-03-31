@@ -63,7 +63,7 @@ nav:
 #    - Molecular Biology:
 #    - WormViz:                'protocols/wormviz/wormviz.md'
   - Lab Sheets:               labsheets.md
-  - Computational Guide:      comp_overview.md
+  - Computational Guide:
     - Overview:               comp_overview.md
     - Local Environment:      comp_osx.md
     - GitHub:                 comp_github.md
