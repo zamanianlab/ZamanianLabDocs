@@ -24,36 +24,33 @@
 
 |  Time  | Temperature | Cycles |
 |--------|-------------|--------|
-| 2 min  | 95ºC        | 1      |
-| 30 s   | 95°C        | 5      |
-| 30 s   | Tm (GSP)    | 5      |
-| 1 min  | 72°C        | 5      |
-| 30 s   | 95ºC        | 30     |
-| 30 s   | Tm (GSP+T7 -5 degrees)| 30 |
-| 1 min  | 72ºC        | 30     |
-| 5 min  | 72ºC        | 1      |
-| Hold   | 6°C         | 1      |
+| 2 min      | 95ºC        | 1      |
+| 30 s <br> 30 s <br> 1 min | 95°C <br> Tm (GSP) <br> 72°C | <br> 5 <br> <br>|
+| 30 s <br> 30 s <br> 1 min | 95°C <br> Tm (GSP+T7 -5 degrees) <br> 72°C | <br> 30 <br> <br>|
+| 5 min      | 72ºC        | 1      |
+| Hold       | 6°C         | 1      |
 
 2. Pool PCR products for each target. Run a gel using 5 uL of product to verify that the PCR worked.
 
 ### Purification and concentration of DNA
-1. Concentrate the DNA using the Qiagen MinElute PCR Purification Kit (Room 230):
+Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
-  a. Add 5 volumes of Buffer PB to 1 volume of the PCR reaction and mix.
+1. Add 5 volumes of Buffer PB to 1 volume of the PCR reaction and mix.
 
-  b. If total PCR reaction+Buffer exceeds 750 µL, split mixture accordingly and run through column in succession. Discard flow-through after each 750 µL sample has passed through column. (Max of four, 750 µL samples per column)
+2. If total PCR reaction+Buffer exceeds 750 µL, split mixture accordingly and run through column in succession. Discard flow-through after each 750 µL sample has passed through column. (Max of four, 750 µL samples per column)
 
-  c. Add 750 µL Buffer PE to the MinElute columns and centrifuge for 1 minute. Discard flow-through.
+3. Add 750 µL Buffer PE to the MinElute columns and centrifuge for 1 minute. Discard flow-through.
 
-  d. Centrifuge the column for two minutes.
+4. Centrifuge the column for two minutes.
 
-  e. Place each MinElute column in a clean 1.5 mL microcentrifuge tube.
+5. Place each MinElute column in a clean 1.5 mL microcentrifuge tube.
 
-  f. Add 10 µL of sterile water to the center of the MinElute column. Let the column stand for 1 min, and then centrifuge the column for one minute.
+6. Add 10 µL of sterile water to the center of the MinElute column. Let the column stand for 1 min, and then centrifuge the column for one minute.
 
-2. Measure DNA concentration using Nanodrop.
+7. Measure DNA concentration using Nanodrop.
 
 ### T7 *in vitro* transcription (IVT)
+
 1. Within the BSC, clean all barrier pipette tips and pipettes, gloves, and bench space with RNase Zap or Eliminase (chemical shelf in Room 230). Use the MegaScript RNAi kit (-20ºC Stagmoose) to assemble the IVT reaction.
 
     |  Component | Volume |
@@ -78,16 +75,16 @@
 
 1. In the same tube as the IVT reaction, assemble the following digestion reaction in order to digest template DNA and any ssRNA:
 
-|  Component | Volume |
-|--------------|------|
-|dsRNA (from IVT rxn) | 20 µL |
-|Nuclease-free H2O|21 µL |
-|10X Digestion Buffer| 5 µL |
-|DNase I| 2 µL |
-|RNase| 2 µL |
-|**TOTAL**| 50 µL |
+  |  Component | Volume |
+  |--------------|------|
+  |dsRNA (from IVT rxn) | 20 µL |
+  |Nuclease-free H2O|21 µL |
+  |10X Digestion Buffer| 5 µL |
+  |DNase I| 2 µL |
+  |RNase| 2 µL |
+  |**TOTAL**  | 50 µL |
 
-  The reaction above is for a single digestion reaction. Scale the reaction as needed.
+    The reaction above is for a single digestion reaction. Scale the reaction as needed.
 
 2. Incubate at 37ºC for 1 hr.
 
@@ -95,13 +92,13 @@
 
 1. Add the following to the previous 50 µL reaction:
 
-|  Component | Volume |
-|--------------|---------|
-|dsRNA (from digestion rxn) | 50 µL |
-|Nuclease-free H<sub>2</sub>O|150 µL |
-|Phenol| 100 µL |
-|Chloroform| 100 µL |
-|**TOTAL**| 400 µL |
+  |  Component | Volume |
+  |--------------|---------|
+  |dsRNA (from digestion rxn) | 50 µL |
+  |Nuclease-free H<sub>2</sub>O|150 µL |
+  |Phenol| 100 µL |
+  |Chloroform| 100 µL |
+  | **TOTAL** | 400 µL |
 
   The reaction above is for a single phenol/chloroform purification reaction. Scale as needed.
 
@@ -110,15 +107,15 @@
 3. Spin at 15,000 x g for 10 min. at 4ºC.
 
 4. Transfer top phase (aqueous) to a new RNase-free tube.
-  - **Note**: If previous reactions were highly successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer
-is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, then it means you had a great reaction.
+  - **Note**: If previous reactions were highly successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, then it means you had a great reaction.
+
 
 5. To aqueous dsRNA, add ~500 µL isopropanol.
 
   - Optional: Add 0.1 volume of 3M sodium acetate and 2-3 volumes of cold 100% EtOH.
 
 
-6. Store at -80ºC for 30 min.
+6. Place tube at -80ºC for 30 min.
 
 7. Spin at 15,000 x g for 15 min. at 4ºC. You should see pellet after centrifugation (gelatinous blob).
 

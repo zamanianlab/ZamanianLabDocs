@@ -202,13 +202,11 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Delivery Schedule
 
-We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Google Sheet** linked in [Lab Sheets](labsheets.md). Shipments do not always arrive as expected, and you should have a detailed list of future experiments planned and should be prepared to go when or if parasites arrive on schedule. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
+We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Google Sheet** linked in [Lab Sheets](labsheets.md). Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
 
 ### B. Storage of General Parasite Materials
 
-General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate spreadsheets:
-
-- ``/LabInventory/``: *Bmalayi_Materials.xlsx*, *Bpahangi_Materials.xlsx*, *Dimmitis_Materials.xlsx*
+General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tisue Materials Sheet** linked in [Lab Sheets](labsheets.md).
 
 ```
 Tissue tube label: Species, Stage, Date frozen, Number of worms
