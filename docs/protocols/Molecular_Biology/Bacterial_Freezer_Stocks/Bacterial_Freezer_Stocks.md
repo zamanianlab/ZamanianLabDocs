@@ -1,6 +1,6 @@
 # Preparation of Bacterial Freezer Stocks
 
-1. Pipette 5-10 mL LB (with appropriate antibiotic) into 15mL tube. For instructions on preparing LB broth, refer to [Zamanian Lab Recipes](../General_Recipes.md).
+1. Pipette 5-10 mL LB (with appropriate antibiotic) into 15mL tube. For instructions on preparing LB broth, refer to [Zamanian Lab Recipes](../General_Recipes/General_Recipes.md).
 
 2. Inoculate a single colony from the streak or transformation plate.
 

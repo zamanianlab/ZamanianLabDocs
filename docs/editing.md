@@ -13,7 +13,7 @@
     - Save in `/docs/` with the `.md` extension
         - **NOTE**: if adding/editing a protocol, make a new folder `/docs/protocols` titled `{protocol_name}` (without the {}); if adding images, make a new folder called `img` in `/docs/protocols/{protocol_name}`
     - Use the <a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/" target="blank">cheatsheet</a> for reference
-    - Use an online editor (like <a href="http://markdown.pioul.fr/" target="blank">this</a> one) or use [Atom](osx.md) combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension
+    - Use an online editor (like <a href="http://markdown.pioul.fr/" target="blank">this</a> one) or use [Atom](comp_local.md) combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension
 
 4. Push to GitHub
 

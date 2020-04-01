@@ -44,7 +44,7 @@
 
 ## *Caenorhabditis elegans*
 
-- [Chunking Worms](Caenorhabditis_elegans/Chunkning_Worms/Chunkning_Worms.md)
+- [Chunking Worms](Caenorhabditis_elegans/Chunking_Worms/Chunking_Worms.md)
 
 - [Cleaning Worms](Caenorhabditis_elegans/Cleaning_Worms/Cleaning_Worms.md)
 
