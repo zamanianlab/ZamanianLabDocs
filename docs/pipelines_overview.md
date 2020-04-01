@@ -15,3 +15,4 @@ We organize our pipelines into two groups, structured in slightly different ways
     -   ImageXpress
     -   WormViz
     -   Tierpsy
+    -   RNA-seq

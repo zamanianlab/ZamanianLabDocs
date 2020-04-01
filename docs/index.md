@@ -5,7 +5,7 @@ This resource provides documentation for general wet lab and dry lab organizatio
 
 ## How to Use this Guide
 
-New lab members should first orient themselves with our [Lab Manual](labmanual.md) and [Computational Onboarding](comp_overview.md) documents. All finalized lab protocols are maintained on the [Protocols](protocols/protocols.md) page. [Lab Sheets](labsheets.md) provides links to important Google sheets that are maintained by the laboratory. [Pipelines](pipelines_overview.md) provides more detailed information on how to run established computational (phenotyping and sequencing) pipelines locally or using available servers. This resource complements and describes our use of other systems in place for lab organization and management (i.e., Quartzy, Benchling, and Box).
+New lab members should first orient themselves with our [Lab Manual](labmanual.md) and [Computational Onboarding](comp_overview.md) documents. All finalized lab protocols are maintained on the [Protocols](protocols/protocols.md) page. [Lab Sheets](labsheets.md) provides links to important Google sheets that are maintained by the laboratory. [Pipelines](pipelines_overview.md) provides more detailed information on how to run established computational (e.g., phenotyping and sequencing) pipelines locally or using available servers. This resource complements and describes our use of other systems in place for lab organization and management (i.e., Quartzy, Benchling, and Box).
 
 
 ## Updating
