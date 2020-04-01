@@ -72,7 +72,6 @@ All grad students and postdocs should install the **[Box Drive](<http://www.box.
 
 - ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
-- ``/Protocols/`` All major lab protocols and recipes are categorized and contained within this folder, as well as operational protocols relating to the maintenance of lab equipment and use of general services (e.g., shipping). Protocols are divided by species (e.g., *C. elegans* and Parasites) where appropriate. Within each subfolder, the original protocol files (doc or pages) are contained in a ``/Source/`` sub-subfolder and are to be exported as PDF files whenever they are updated.
 
 ### D. Lab Meetings
 
@@ -106,6 +105,7 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
     * **Rm 230:** molecular biology main lab
     * **Rm 229D:** microinjection room
     * Third floor: offices, gel imaging station, insectary
+
 
 * **Operations:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor. Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
 
@@ -190,9 +190,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 **Lab strain designation: ZAM#**  
 **Lab allele designation: maz#**
 
-*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. **Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the strain spreadsheet:**
-
-- ``/LabInventory/``: *WormStrains.xlsx*
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with **COMPLETE genotypic information** (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the **C. elegans Strain Database** linked in [Lab Sheets](labsheets.md).
 
 ### C. Strain Maintenance
 
@@ -202,11 +200,11 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Delivery Schedule
 
-We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Google Sheet** linked in [Lab Sheets](labsheets.md). Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
+We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md). Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
 
 ### B. Storage of General Parasite Materials
 
-General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tisue Materials Sheet** linked in [Lab Sheets](labsheets.md).
+General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tissue and Nucleic Acid Inventory** sheet linked in [Lab Sheets](labsheets.md).
 
 ```
 Tissue tube label: Species, Stage, Date frozen, Number of worms
@@ -217,11 +215,7 @@ Each files has three sheets (Tissue, RNA, and gDNA). The spreadsheets should be 
 
 ### C. Parasite Infections (Insectary)
 
-The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs.
-
-Detailed protocols for filarial parasite infection and L3 isolation can be found in:
-
-- ``/Protocols/Parasites/``: *BloodFeedingMosquitoes.pdf*, *L3Extraction.pdf*
+The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for filarial parasite infection and L3 isolation can be found on our [Protocols](protocols/protocols.md) page.
 
 Mosquito strains available for parasite infection:
 
