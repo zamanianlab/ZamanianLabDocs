@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../images/dna_black.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -57,7 +57,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#conda" tabindex="0" class="md-skip">
+      <a href="#conda" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -100,9 +100,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" aria-label="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
           
-            <img alt="logo" src="../images/dna.svg" width="24" height="24">
+            <img src="../images/dna.svg" width="24" height="24">
           
         </a>
       </div>
@@ -131,7 +131,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="__search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
         &#xE5CD;
@@ -194,7 +194,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
       
-        <img alt="logo" src="../images/dna.svg" width="48" height="48">
+        <img src="../images/dna.svg" width="48" height="48">
       
     </a>
     Zamanian Lab Documentation
@@ -475,9 +475,9 @@
 <p>conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a discrete, contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.</p>
 <h2 id="installation">Installation</h2>
 <p>There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes.</p>
-<div class="highlight"><pre><span></span><code>wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+<div class="highlight"><pre><span></span>wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
 bash ~/miniconda.sh -b -p <span class="nv">$HOME</span>/miniconda
-</code></pre></div>
+</pre></div>
 
 <p>These commands will download the miniconda installer, run it, and install it to your <code>$HOME</code> folder. It will also add the path <code>/Users/[user]/software/miniconda3/bin</code> to your lookup <code>$PATH</code>, which allows you to run conda executables without referring explicitly to their location.</p>
 <h2 id="usage-and-an-example">Usage and an Example</h2>
@@ -486,13 +486,13 @@ bash ~/miniconda.sh -b -p <span class="nv">$HOME</span>/miniconda
 <p><code>conda create --name test_environment python=3.5</code></p>
 <p>The environment has now been created. You can see a list of all the environments that you have ever created with <code>conda env list</code>.</p>
 <p>Here is a list of current environments on my machine (the asterisk marks the current environment):</p>
-<div class="highlight"><pre><span></span><code>zamanian-3108:~ njwheeler$ conda env list
+<div class="highlight"><pre><span></span>zamanian-3108:~ njwheeler$ conda env list
 <span class="c1"># conda environments:</span>
 <span class="c1">#</span>
 base                  *  /Users/njwheeler/software/miniconda3
 motility_analysis        /Users/njwheeler/software    
 miniconda3/envs/motility_analysis
-</code></pre></div>
+</pre></div>
 
 <p>To activate the <code>test_environment</code> that you just created:</p>
 <p><code>source activate test_environment</code></p>
@@ -506,12 +506,12 @@ miniconda3/envs/motility_analysis
 First make sure you are in the correct environment, then run:</p>
 <p><code>conda install numpy</code></p>
 <p>You should receive a message reporting the successful installation of the package. You can ensure successful installation by running Python with <code>python</code> and then attempting to load the package with <code>&gt;&gt;&gt; import numpy as np</code>. If the package was successfully loaded, you will get no message. If it was unsuccessful, you will see:</p>
-<div class="highlight"><pre><span></span><code> <span class="n">ModuleNotFoundError</span><span class="p">:</span> <span class="n">No</span> <span class="n">module</span> <span class="n">named</span> <span class="s1">&#39;numpy&#39;</span>
-</code></pre></div>
+<div class="highlight"><pre><span></span> <span class="n">ModuleNotFoundError</span><span class="p">:</span> <span class="n">No</span> <span class="n">module</span> <span class="n">named</span> <span class="s1">&#39;numpy&#39;</span>
+</pre></div>
 
 <p>To demonstrate the utility of the conda virtual environment, first deactivate the <code>test_environment</code> with <code>source deactivate test_environment</code>. Then repeat the commands <code>python</code> and <code>&gt;&gt;&gt; import numpy as np</code>. If done correctly, you will see that numpy isn't available outside of the <code>test_environment</code>. This way you can keep your base environment clean from unnecessary packages, and you can make sure the packages within a given environment aren't updated unless you explicitly make it so.</p>
 <h2 id="zamanian-lab-environments">Zamanian Lab Environments</h2>
-<p>Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See my
+<p>Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See Nic's
 <a href="https://github.com/zamanianlab/BrugiaMotilityAnalysis">BrugiaMotilityAnalysis</a>
 repo as an example.</p>
 <h2 id="useful-resources">Useful Resources</h2>
@@ -539,18 +539,18 @@ repo as an example.</p>
       <div class="md-footer-copyright">
         
         powered by
-        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        <a href="https://www.mkdocs.org">MkDocs</a>
         and
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
   <div class="md-footer-social">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/zamanianlab" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/zamanianlab" class="md-footer-social__link fa fa-github"></a>
     
-      <a href="https://twitter.com/zamanian_" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
+      <a href="https://twitter.com/zamanian_" class="md-footer-social__link fa fa-twitter"></a>
     
   </div>
 
@@ -560,7 +560,7 @@ repo as an example.</p>
       
     </div>
     
-      <script src="../assets/javascripts/application.c33a9706.js"></script>
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
