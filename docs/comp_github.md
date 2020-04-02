@@ -6,7 +6,7 @@ If you're new to git and/or version control, the first step is to learn what exa
   - [GitHub](https://guides.github.com/activities/hello-world/)
   - [Karl Broman (UW-Madison)](https://kbroman.org/github_tutorial/)
 
-Create an account at [GitHub.com](https://www.github.com/) and you will receive an invite to join the [ZamanianLab Github](https://github.com/zamanianlab) organization.
+Create an account at [GitHub.com](https://www.github.com/) and ask Mostafa or Nic to invite you to join the [Zamanian Lab Github](https://github.com/zamanianlab) organization.
 
 ## Use Cases in the Zamanian Lab
 

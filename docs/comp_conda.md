@@ -67,7 +67,7 @@ To demonstrate the utility of the conda virtual environment, first deactivate th
 
 ## Zamanian Lab Environments
 
-Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See my
+Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See Nic's
 [BrugiaMotilityAnalysis](https://github.com/zamanianlab/BrugiaMotilityAnalysis)
 repo as an example.
 

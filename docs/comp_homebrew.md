@@ -11,20 +11,20 @@ Most of the core software used in the Zamanian Lab can be installed via Homebrew
 ``` bash
 sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 ```
-- [autojump](https://github.com/wting/autojump)
-- [SAMtools](http://www.htslib.org/)
-- [blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
-- [fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)
-- [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
-- [snpeff](http://snpeff.sourceforge.net/)
-- [vcftools](https://vcftools.github.io/index.html)
-- [bcftools](http://samtools.github.io/bcftools/)
-- [hmmer](http://hmmer.org/)
-- [igv](https://software.broadinstitute.org/software/igv/)
-- [hisat2](https://ccb.jhu.edu/software/hisat2/index.shtml)
-- [trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
-- [bwa](http://bio-bwa.sourceforge.net/)
-- [nextflow](https://www.nextflow.io/)
+- [autojump](https://github.com/wting/autojump)  
+- [SAMtools](http://www.htslib.org/)  
+- [blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  
+- [fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)  
+- [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)  
+- [snpeff](http://snpeff.sourceforge.net/)  
+- [vcftools](https://vcftools.github.io/index.html)  
+- [bcftools](http://samtools.github.io/bcftools/)  
+- [hmmer](http://hmmer.org/)  
+- [igv](https://software.broadinstitute.org/software/igv/)  
+- [hisat2](https://ccb.jhu.edu/software/hisat2/index.shtml)  
+- [trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)  
+- [bwa](http://bio-bwa.sourceforge.net/)  
+- [nextflow](https://www.nextflow.io/)  
 
 The following are GNU versions of command line tools that macOS already contains out-of-the-box, but the GNU versions are often faster and will play nicer with software developed in Linux:
 

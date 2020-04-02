@@ -10,8 +10,11 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Cyberduck](https://cyberduck.io/) (SFTP client)
     - [iTerm](https://iterm2.com/) (feature-rich terminal replacement)
     - [Atom](https://atom.io/) (Versatile GitHub-owned IDE)
+      - Feel free to install this [list of useful packages](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/package-list.txt) using the command `apm install --packages-file {/path/to/repo}/resources/package-list.txt` where `{/path/to/repo}` is the path to the ZamanianLabDocs repository on your machine.  
+      - The packages in that list will allow you to select text by column using the ⌥ key, "beautify" text and code according to universal syntax rules, highlight all occurrences of a selection, and preview the HTML version of .md files, among others  
+      - You can also browse and install [Atom themes](https://atom.io/themes)  
     - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
-    - [Sublime Text](https://www.sublimetext.com/) (lightweight but extensible text editor)
+    - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
     - [Slack](<http://www.slack.com>) (primary lab communication tool)
     - [UW VPN](https://kb.wisc.edu/helpdesk/page.php?id=90370) (VPN for off-campus resource access)
     - [Zoom](https://zoom.us/download) (video meeting software)
