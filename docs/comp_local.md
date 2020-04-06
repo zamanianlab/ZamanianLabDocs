@@ -11,7 +11,8 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Cyberduck](https://cyberduck.io/) (SFTP client)
     - [iTerm](https://iterm2.com/) (feature-rich terminal replacement)
     - [Atom](https://atom.io/) (Versatile GitHub-owned IDE)
-      - Feel free to install this [list of useful packages](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/atom-package-list.txt) using the command `apm install --packages-file {path}/package-list.txt`. The packages in this list will allow you to select text by column using the ⌥ key, "beautify" text and code according to universal syntax rules, highlight all occurrences of a selection, and preview the HTML version of .md files, among others. You can also browse and install [Atom themes](https://atom.io/themes).
+      * Feel free to install this [list of useful packages](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/atom-package-list.txt) using the command `apm install --packages-file {path}/package-list.txt`. The packages in this list will allow you to select text by column using the ⌥ key, "beautify" text and code according to universal syntax rules, highlight all occurrences of a selection, and preview the HTML version of .md files, among others. You can also browse and install [Atom themes](https://atom.io/themes).
+
     - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
     - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
     - [Slack](<http://www.slack.com>) (primary lab communication tool)
