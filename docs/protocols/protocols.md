@@ -46,6 +46,8 @@
 
 ## *Caenorhabditis elegans*
 
+- [*C. elegans Recipes*](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)
+
 - [Chunking Worms](Caenorhabditis_elegans/Chunking_Worms/Chunking_Worms.md)
 
 - [Cleaning Worms](Caenorhabditis_elegans/Cleaning_Worms/Cleaning_Worms.md)
