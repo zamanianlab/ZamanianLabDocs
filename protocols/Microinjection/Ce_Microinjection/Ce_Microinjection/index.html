@@ -1,0 +1,811 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
+      
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Microinjection/Ce_Microinjection/Ce_Microinjection/">
+      
+      
+        <meta name="author" content="Zamanian Lab">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../../images/dna_black.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>Microinjection - Zamanian Lab Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="black" data-md-color-accent="red">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#microinjection" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" aria-label="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+          
+            <img alt="logo" src="../../../../images/dna.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Zamanian Lab Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Microinjection
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
+      
+        <img alt="logo" src="../../../../images/dna.svg" width="48" height="48">
+      
+    </a>
+    Zamanian Lab Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labmanual/" title="Lab Manual" class="md-nav__link">
+      Lab Manual
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../protocols/" title="Lab Protocols" class="md-nav__link">
+      Lab Protocols
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labsheets/" title="Lab Sheets" class="md-nav__link">
+      Lab Sheets
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Computational Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Computational Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_local/" title="Local Environment" class="md-nav__link">
+      Local Environment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_github/" title="GitHub" class="md-nav__link">
+      GitHub
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pipelines
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pipelines
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_overview/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_local/" title="Local Pipelines" class="md-nav__link">
+      Local Pipelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_server/" title="Core Pipelines" class="md-nav__link">
+      Core Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../editing/" title="Editing" class="md-nav__link">
+      Editing
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agarose-pads" class="md-nav__link">
+    Agarose Pads
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery-buffer" class="md-nav__link">
+    Recovery Buffer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microinjection-needles" class="md-nav__link">
+    Microinjection Needles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#needle-puller" class="md-nav__link">
+    Needle Puller
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microinjection-oil" class="md-nav__link">
+    Microinjection oil
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-the-dna-solution" class="md-nav__link">
+    Making the DNA Solution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-the-scope-loading-the-needle-mounting-and-breaking-the-needle" class="md-nav__link">
+    Setting up the scope, loading the needle, mounting, and breaking the needle
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-up-the-scope" class="md-nav__link">
+    Set up the scope
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-the-needle" class="md-nav__link">
+    Loading the needle
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mount-the-needle-on-the-scope" class="md-nav__link">
+    Mount the needle on the scope
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#breaking-the-needle" class="md-nav__link">
+    Breaking the needle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mounting-worms-on-an-injection-pad" class="md-nav__link">
+    Mounting worms on an injection pad
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#injection" class="md-nav__link">
+    Injection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    Recovery
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    Results
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/Microinjection/Ce_Microinjection/Ce_Microinjection.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="microinjection">Microinjection</h1>
+<p>by Michael Koelle (08/23/94), edited by Erik Andersen (08/10/09), Troy Meikle (04/24/18), and Kathy Vaccaro (03/09/20)</p>
+<p>You will have a couple frustrating sessions when you first attempt this technique. Everyone seems to master injection after a few days, and it works quickly and reliably once you have some experience.</p>
+<h2 id="materials">Materials</h2>
+<h3 id="agarose-pads">Agarose Pads</h3>
+<p>Make a lot of these at a time; they last forever.
+1. Using a transfer pipette, drop melted 2% agarose in sterile water on a 24x50 mm coverslip. The size of the droplet should be moderate - not too large, not too small, though this isn't precise nor a rigid requirement.</p>
+<ol>
+<li>Drop a second coverslip on top, which will flatten the agarose into a thin pad. Try to avoid air bubbles, but a few won't hurt anything.</li>
+<li>When the agarose has hardened (&gt; 5 s.) slide off the top coverslip.</li>
+<li>Breathe on the coverslip to see on what side the pad stuck. Use this top coverslip as the bottom coverslip to make the next pad; its thin coating of agarose will make the pad stick to it instead of the fresh top coverslip.</li>
+</ol>
+<p><em>Note: This process can be made into an assembly line by lining up many coverslips on the edge of a bench (so you can quickly pick them up) and an equal number of coverslips perpendicular to the first set behind them. Spot the perpendicular coverslip, pick up the one at the edge of the bench, and drop it on top. Drop on the next coverslip to repeat on down the line. You can make 200 coverslips in about a half an hour.</em></p>
+<ol>
+<li>Place the coverslips flat in a box and cover the box with aluminum foil to dry. The box can be left out on the bench overnight, or bake in an oven at 65°C for 1 hr., or bake in an 80°C oven for 15 min.</li>
+<li>Once dried, you can store the pads in the original coverslip box.</li>
+</ol>
+<h3 id="recovery-buffer">Recovery Buffer</h3>
+<ul>
+<li>M9</li>
+</ul>
+<h3 id="microinjection-needles">Microinjection Needles</h3>
+<p>We use "Glass 1BBL w/FIL 1.0 mm 4 IN" filaments, item #1B100F-4 from World Precision Instruments, Inc. Keep these clean and always immediately recap the tube after removing a filament.</p>
+<h3 id="needle-puller">Needle Puller</h3>
+<p>We use a Sutter Instruments, model P-87 needle puller.
+1. Turn the machine on (switch at left side, front).</p>
+<ol>
+<li>We use program 0 to pull needles for <em>C. elegans</em> microinjection. Press 0 on the keypad to use program 0.
+Program 0: Pressure = 500</li>
+<li>Heat 970, Pull 0, Velocity 30, Time 250</li>
+<li>Heat 960, Pull 0, Velocity 40, Time 250</li>
+<li>Heat 960, Pull 27-30<sup>1</sup>, Velocity 60, Time 252</li>
+</ol>
+<p><sup>1</sup> Depending how long the machine has been running, it will pull needles a little differently (how "hot" it is). It is recommended to turn on the machine ~20 min. before pulling needles for injections. Sometimes it is needed to pull a couple of "fake" needles before the machine gets it right.</p>
+<ol>
+<li>Insert a glass filament into the groove of one of the pullers without touching your fingers to the part that will be heated or the filament. Loosen the clamping knob if necessary to allow the glass through.</li>
+</ol>
+<p><img alt="Image" src="img/NeedlePullDiagram.png" /></p>
+<ol>
+<li>
+<p>Tighten the knob of the clamp to hold the needle in place.</p>
+</li>
+<li>
+<p>Depress the spring stop on each puller bar to release them from their catch position (shown above).</p>
+</li>
+<li>
+<p>Pull both bars towards each other using the finger bars. Hold bars in position using the thumb an index finger from one hand. The hex head screw should be touching the end slot in both puller bars.</p>
+</li>
+<li>
+<p>Loosen both clamping knobs, carefully slide the glass through the holes in the side of the heater chamber and into the groove of the opposite puller bar.</p>
+</li>
+<li>
+<p>Tighten down the clamping knobs.</p>
+</li>
+<li>
+<p>Press the green "PULL" button on the keypad to pull the needle using Program 0. The program should loop only once and finish at the last line of the program (Line 3). If it finishes early, try pulling a needle once or twice more to warm up the machine.</p>
+</li>
+</ol>
+<h3 id="microinjection-oil">Microinjection oil</h3>
+<ul>
+<li>Halocarbon oil series HC-700, 8 oz. bottle (Sigma-Aldrich, H8898-50ML)</li>
+</ul>
+<h2 id="making-the-dna-solution">Making the DNA Solution</h2>
+<p>For injecting worms, one needs a purified DNA solution. This can be achieved by Phenol Extraction + Ethanol Purification, or by using a DNA purification column (for example a QIAGEN QIAquick Purification Kit). The DNA should be resuspended in distilled water.</p>
+<p><strong>Single Arrays:</strong> the DNA construct is mixed only with a specific marker. This will originate extrachromosomal arrays/copies of the injected construct (if the transformation is successful), and expression of the marker in specific cells. The marker will confirm if the injections worked or not, even if the construct is not expressed. Extrachromosomal arrays are the predominant form in which a nontoxic DNA can be inherited beyond the F1 generation. <strong>The final concentration of DNA in the solution should be 200  ng/μL.</strong> For example, 100 ng/μL of the final construct DNA and 100 ng/μL of the marker (prepared in distilled water).</p>
+<p><em>Note: DNA concentration drastically affects the results of a transformation experiment. Some plasmids, cosmids, or fosmids are lethal at high concentrations. Start with plasmids at around 80 μg/mL and cosmids of fosmids at around 20 μg/mL. We also use carrier DNA to make the transgene arrays more complex. DNA ladder or</em> Arabidopsis <em>genomic DNA at 100 μg/mL can be used. Co-injection markers help identify transformants. There are many co-injection markers. Here is a partial list: pRF4 (contains the dominant rol-6 mutation), pL15EK (lin-15AB rescuing construct), myo-2::RFP or myo-2::GFP (red or green pharynges, respectively - use at 5 μg/mL), pTG96 (sur-5::GFP, expressed in all somatic cells - use at 20 μg/mL), ttx-3::GFP (expressed in one cell in the head), unc-119 rescuing plasmid, myo-3::GFP (red or green body wall muscle, respectively - use at 5 ng/μL).</em></p>
+<h2 id="setting-up-the-scope-loading-the-needle-mounting-and-breaking-the-needle">Setting up the scope, loading the needle, mounting, and breaking the needle</h2>
+<h3 id="set-up-the-scope">Set up the scope</h3>
+<p>We use a Zeiss AX10 microscope with 10X and 40X objectives. Mounted on the scope is a Narishige micromanipulator. Pressure is generated by an Eppendor FemtoJet and an air compressor. Turn on the microscope using the wheel button to the right of the body. Turn on the air compressor (on the floor) by switching the switch from "OFF" to "AUTO". The FemtoJet can handle pressures no more than 120 psi so ensure the air compressor's pressure gauge is set below that.</p>
+<p>Turn on the Eppendorf FemtoJet (on the table, next to the microscope) using the switch on the back right.</p>
+<p>The pressure should be set to: Pi is set to ~600-1800 hPa (injection pressure - depends on how large the needle broke- if the tip is very small, use a higher pressure to ensure you are injecting enough volume, if it is large, use a smaller pressure so you don't load too much volume into the worm and kill it); it will take some practice to know what works best for you.</p>
+<p>Pc is set to 180 hPa (compensation pressure). This will also change depending on how large the tip has been broken (larger tip = smaller Pc, don't go lower than ~70 hPa).</p>
+<p>The foot pedal is set to inject when depressed (time is blank on screen). It will stop when released. If the needle gets clogged, you can use the clean button to blast high pressure through the needle. Refer to "InjectionRigPreparation.pdf" in Protocols/Microinjection for more instructions on set-up, shut down, and maintenance of the air compressor and the FemtoJet.</p>
+<h3 id="loading-the-needle">Loading the needle</h3>
+<ol>
+<li>
+<p>Before loading the needle, add a very small amount of green food coloring to the DNA and centrifuge the DNA solution for 10 minutes at maximum speed to pellet particulate matter that might clog the needle.</p>
+</li>
+<li>
+<p>While the solution is spinning, take Drummond Scientific 10 μL calibrated glass pipette and pull it out to a fine tip over a Bunsen burner (about &#8533; is original thickness). This step takes a little practice.</p>
+</li>
+<li>
+<p>Break the end of the pulled out pipette.</p>
+</li>
+<li>
+<p>Once the spin is done, use the mouth aspirator and your pulled pipette to aspirate a tiny amount of DNA solution. Insert the tip into the pulled needle and puff out a little bit of DNA solution into the needle.</p>
+</li>
+<li>
+<p>Put the needle in a large petri dish with a strip of clay running down the dish with grooves in it for the needles, and wait 2-3 min. for the DNA solution to move to the tip via capillary action.</p>
+</li>
+<li>
+<p>Examine the needles under a dissecting microscope to ensure that none have particles or bubbles in the tip (these will clog the needle). Bubbles sometimes clear from the tip.</p>
+</li>
+</ol>
+<p>OR</p>
+<ol>
+<li>Use a pipette to pipette DNA into the back of the needle. Wait 2-3 minutes for the DNA solution to move to the tip via capillary action.</li>
+</ol>
+<h3 id="mount-the-needle-on-the-scope">Mount the needle on the scope</h3>
+<ol>
+<li>
+<p>Press menu/enter on the FemtoJet. Press menu/enter again on the "change capillary" option (do this only if you are replacing a clogged/broken needle during use).</p>
+</li>
+<li>
+<p>Remove the old needle by unscrewing the clear grip head assembly that holds the needle.</p>
+</li>
+<li>Insert your needle with the back end first so as not to break the tip. Make sure about 1 cm of the needles comes out past the back of the needle holder head.</li>
+<li>Tighten the needle by screwing the assembly onto the manipulator arm.</li>
+<li>Ensure the needle is in the micromanipulator at an angle of ~15-30 degrees to the stage.</li>
+<li>Turn the three knobs on the fine and coarse control of the micromanipulator to the  middle of their range.</li>
+<li>Using the course controls (knobs on the part of the micromanipulator mounted on the stage), move the needle tip left/right and forward/backward until it is just above the objective. You will see it glowing in the light shining down from the condenser.</li>
+</ol>
+<h3 id="breaking-the-needle">Breaking the needle</h3>
+<ol>
+<li>
+<p>Break a coverslip in half and put it onto a slide with the broken edge facing the needle.</p>
+</li>
+<li>
+<p>Place a drop of halocarbon oil on the broken edge of the slide.</p>
+</li>
+<li>Focus on the edge of the broken coverslip with the halocarbon oil on it.</li>
+<li>Using the fine controls, carefully lower the injection needle towards the stage until it is in the same focal plane as the coverslip. At this low power, you can't see the actual tip, so you may have to try the 40X objective.</li>
+<li>Using the fine controls or the gliding stage (your preference), slowly move the injection needle along the edge of the coverslip to break the needle on a angle. Be VERY careful and gentle. The needle pulled using program 0 has very little leeway to be broken. Break a very tiny piece off to open the needle. Any larger and it will be too big to be used (as it will kill the worms).</li>
+<li>To check the needle, press the foot pedal to look for flow out of the needle. You should see rapid laminar flow out of the needle and back towards the shaft, but no flow out at resting pressure. If there is no flow when you press the pedal, the needle isn't broken. Try again. You will have to see by experience what the optimal flow rate is. You want to be able to flood the gonad in about 3 seconds of flow at Pi.</li>
+<li>When done breaking the needle, use the fine control to lift the needle up out of the oil in preparation for injection.</li>
+</ol>
+<h2 id="mounting-worms-on-an-injection-pad">Mounting worms on an injection pad</h2>
+<ol>
+<li>
+<p>Take out an agarose pad and breathe on it (about 1 long breath) to moisten it. If it is too dry, the worms will dry out and die - too wet and the worms won't stick well.</p>
+</li>
+<li>
+<p>Place a drop of halocarbon oil on the pad. Lay the coverslip on the top of an upside down lid of a small worm plate. The pad should be at about the same height as the worms on a plate so you don't have to focus around too much when switching back and forth.</p>
+</li>
+<li>Place a small dot of halocarbon oil on a part of the worm plate with no bacteria. Pick some worms from the bacterial lawn to the oil. This just makes it easier to get the worms off the pick when transferring them to the agarose pad. Most people like to use the adults 24-36 hr. post-L4. These animals have large robust gonads.</li>
+<li>Using a worm pick with oil as glue, transfer adult hermaphrodites from the oil dot on the worm plate to the oil drop on the agarose pad. If there is still adhering bacteria, push the worms around in the oil with a pick until the bacteria come off.</li>
+<li>Use a strand of eyebrow hair taped to a glass pipette to orient the worm and stick it to the agarose pad.</li>
+</ol>
+<p><em>Note: As a beginner, stick a single animal on a pad. The trick is to stick the animals down in the same orientation so that each animal's vulva is pointed to the same side. You don't want the syncytial gonad to be on top or underneath the animal. When the animal is in the oil, the syncytial gonad is visible as two clear areas towards the anterior and posterior of the animal. To stick the animal right, wait until it is floating in the oil so that it's body flexures go sideways, not up and down, and pat the animal down on the agarose pad with your pick until it is stuck to the pad. Avoid storking or patting the animal on the head, which can kill it. Ideally, the animal will be fully immobilized except for ti's head, which will still be free and wiggling. the animals stick best when they first touch the pad. If you fail to stick them on the first try, the pad will not stick to the same part of the animal again. Practice sticking down a whole set of animals in a line in the same orientation for assembly line injecting. Once the animals are in the oil, work reasonably fast to get the procedure over with before the animals dehydrate (roughly 10 min.).</em></p>
+<h2 id="injection">Injection</h2>
+<ol>
+<li>
+<p>Raise the injection needle off of the stage to allow room to put the injection pad with worms on the floating stage.</p>
+</li>
+<li>
+<p>Using the 10X objective find the worm, make sure it is in the correct orientation (vulva away from the needle). You can move or rotate the entire stage to move the worm, although some like to move the coverslip itself. It is best to have the worm at a 45° angle to the needle; this maximizes the path length for the needle inside the gonad, helping to make sure you get the tip in the gonad instead of going all the way through and out the other side.</p>
+</li>
+<li>Carefully lower the needle into the focal plane with the fine adjuster. At this point, you only need to move the needle up and down with the micromanipulator; <strong>you always move the worm, not the needle, up/down left/right, by moving the whole stage.</strong></li>
+<li>Change to the 40X objective and focus on a syncytial gonad arm. This structure looks like a sausage-shaped clear area surrounded by nice round nuclei. The clear area has tiny speckles (See Figure 1 below).</li>
+<li>Focus on the center of the gonad (in the Z plane) so that you see a nice row of nuclei on either side of the sausage. Using the fine adjuster, move the needle up/down until its very tip is in focus.</li>
+</ol>
+<p><img alt="Image" src="img/Figure1.png" /></p>
+<ol>
+<li>Gently move the needle so that it is pressing against the worm at a point where the syncytial gonad is pressed up against the body wall, and so that the needle tip will end up inside the gonad after it penetrates the body wall.</li>
+<li>
+<p>There are many techniques to penetrate the body wall and enter the gonad. Here are two: (1) use your right index finger to gently tap the micromanipulator on the little box with the ball joint in it (just above where the arm the needle is on is attached). This vibrates the needle a little so that it punctures the worm. (2) slowly move the floating stage until the needle presses up against the body wall. Push slightly harder to enter the gonad. Hopefully, the tip of the needle is in the gonad now.</p>
+</li>
+<li>
+<p>Press the pedal to start the flow of DNA solution. If you're in the gonad it should be obvious; as the gonad is flooded it bloats like you're filling a sausage, and you can sometimes see the nuclei in the syncytium reacting to the flow. You want to put as much liquid in the gonad as possible; hopefully it will flow all the way around turn of the gonad. You will be able to see the green dye filling the gonad. A good rule of thumb is to inject until you see a good amount of liquid has made the turn and has flowed into the proximal gonad, and then shut off the flow.</p>
+</li>
+<li>To stop the flow press the pedal again and move the animal away to get the needle out. Mello <em>et al.</em> (EMBO J. 10:3959-3970, 1991) show excellent photographs of a gonadal flood.</li>
+</ol>
+<p><em>Note: Usually one gonad arm is much easier to see than the other, so some people only inject the easy gonad arm. Others try to inject both. If you miss the gonad, you will see green liquid filling the pseudocoelom. Usually, the animal will survive, and you can just try again. It is surprisingly hard to kill the worm by jabbing and injecting it incorrectly.</em></p>
+<ol>
+<li>After you finish a worm, use the fine controls to lift the needle out of the oil before moving the stage to find a new worm, or removing the pad.</li>
+</ol>
+<p><em>Note: Eventually needles tend to clog and must be changed.</em></p>
+<p><img alt="Image" src="img/Injection.png" /></p>
+<h2 id="recovery">Recovery</h2>
+<ol>
+<li>
+<p>Put the pad under the dissecting scope (on the inverted plate lid) and using a mouth pipette place a drop of recovery buffer on the worm.</p>
+</li>
+<li>
+<p>This action will form a channel, and the recovery buffer will form a layer underneath the oil in which the worm will float.</p>
+</li>
+<li>Mouth pipette the worms in recovery buffer onto a fresh plate.</li>
+</ol>
+<p><em>Note: I put six worms (from the same injection) onto the same plate.</em></p>
+<h2 id="results">Results</h2>
+<ol>
+<li>
+<p>Three to four days later, score the progeny of the injected worms for the co-injection marker phenotype. Each animal in the F<sub>1</sub> is considered an independent transformant (even if they come from the same injected P<sub>0</sub>). Therefore, each F<sub>1</sub> should be picked to a different plate to try to get independent lines.</p>
+</li>
+<li>
+<p>Three days after picking individual F<sub>1</sub> transformants, check the plates to see if these have transmitted the co-injection marker to the next generation at a high rate (ideally, up to 90-100% of progeny for really good injections, but over 50% can be good enough for some strains). Continue to propagate these plates to the F2 generation and beyond (to ensure they don't suddenly lose the marker). Perform lysis reactions and PCRs to check for the desired transgenes in these lines. Once confirmed via PCR, pick the three highest transmitted independent lines to freeze and name with the lab naming convention "ZAM#". Chunk from the F2 plates (we want to freeze strains at the "earliest" point of their birth).</p>
+</li>
+</ol>
+<p><em>Note: Typically, people inject 10-20 P<sub>0</sub>'s, and you should expect to get 0-300 F<sub>1</sub> transformants. Of the F<sub>1</sub> transformants, typically about 5-70% will transmit the array, allowing a line to be established. These lines transmit the array to 30-100% of their progeny. There is variation among lines transformed with the same DNA. For example, only a fraction of lines transformed with a cosmid/co-injection marker might give rescue of a mutant phenotype, and the strength of the rescue (the penetrance and/or expressivity) will vary among lines that show rescue. For a conservative analysis of gene function, one should look at six lines before they tentatively believe any result. Additionally, GFP fusion constructs can be used to identify the tissue or cell where your favorite gene is expressed. Transgene arrays are composed of concatemers of whatever was injected in random order, orientation, and composition. For example, transgenes can combine the co-injection marker promoter to GFP. Be careful when interpreting transgenic lines, either rescue or expression. Some lines transmit at only a few percent per generation. The frequency of transmission varies from animal to animal. Keep lines with low transmission, as they are more useful than high transmitting lines for integrating the transgene (integration creates 100% transmission). Also, transmission, rescue, and expression from some transgenes change over time, likely due to changes in chromatin structure.</em></p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/zamanianlab" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/zamanian_" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
+      
+        <script src="../../../../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
