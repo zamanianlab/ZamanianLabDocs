@@ -1,6 +1,6 @@
 # Zamanian Lab Protocols
 
-## Molecular Biology
+## **Molecular Biology**
 
 - [General Lab Recipes](Molecular_Biology/General_Recipes/General_Recipes.md)
 
@@ -25,7 +25,7 @@
 - [dsRNA Synthesis (RNAi)](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
 
 
-## Parasitic nematodes
+## **Parasitic nematodes**
 
 - [Mosquito Blood Feeding](Parasitic_Nematodes/Mosquito_Blood_Feeding/Mosquito_Blood_Feeding.md)
 
@@ -44,7 +44,7 @@
 - [Exosome Isolation](Parasitic_Nematodes/Exosome_Isolation/Exosome_Isolation.md)
 
 
-## *Caenorhabditis elegans*
+## ***Caenorhabditis elegans***
 
 - [*C. elegans Recipes*](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)
 
@@ -67,14 +67,14 @@
 - [Plate Pouring: Cholesterol](Caenorhabditis_elegans/PlatePouring_Cholesterol/PlatePouring_Cholesterol.md)
 
 
-## Microinjection
+## **Microinjection**
 
 - [*C. elegans* Microinjection](Microinjection/Ce_Microinjection/Ce_Microinjection.md)
 
 - [Injection Rig Preparation](Microinjection/Injection_Rig_Preparation/Injection_Rig_Preparation.md)
 
 
-## General
+## **General**
 
 - [Confocal Microscope](General/Confocal_Microscope/Confocal_Microscope.md)
 
@@ -85,7 +85,7 @@
 - [Shipping Biomaterials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
 
 
-## Lab Operations
+## **Lab Operations**
 
 - [BSC Operation](Lab_Operations/BSC_Operation/BSC_Operation.md)
 
