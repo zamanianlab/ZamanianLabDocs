@@ -9,12 +9,15 @@ Make a lot of these at a time; they last forever.
 1. Using a transfer pipette, drop melted 2% agarose in sterile water on a 24x50 mm coverslip. The size of the droplet should be moderate - not too large, not too small, though this isn't precise nor a rigid requirement.
 
 2. Drop a second coverslip on top, which will flatten the agarose into a thin pad. Try to avoid air bubbles, but a few won't hurt anything.
+
 3. When the agarose has hardened (> 5 s.) slide off the top coverslip.
+
 4. Breathe on the coverslip to see on what side the pad stuck. Use this top coverslip as the bottom coverslip to make the next pad; its thin coating of agarose will make the pad stick to it instead of the fresh top coverslip.
 
-_Note: This process can be made into an assembly line by lining up many coverslips on the edge of a bench (so you can quickly pick them up) and an equal number of coverslips perpendicular to the first set behind them. Spot the perpendicular coverslip, pick up the one at the edge of the bench, and drop it on top. Drop on the next coverslip to repeat on down the line. You can make 200 coverslips in about a half an hour._
+  _Note: This process can be made into an assembly line by lining up many coverslips on the edge of a bench (so you can quickly pick them up) and an equal number of coverslips perpendicular to the first set behind them. Spot the perpendicular coverslip, pick up the one at the edge of the bench, and drop it on top. Drop on the next coverslip to repeat on down the line. You can make 200 coverslips in about a half an hour._
 
 5. Place the coverslips flat in a box and cover the box with aluminum foil to dry. The box can be left out on the bench overnight, or bake in an oven at 65°C for 1 hr., or bake in an 80°C oven for 15 min.
+
 6. Once dried, you can store the pads in the original coverslip box.
 
 ### Recovery Buffer
@@ -28,7 +31,7 @@ We use a Sutter Instruments, model P-87 needle puller.
 1. Turn the machine on (switch at left side, front).
 
 2. We use program 0 to pull needles for *C. elegans* microinjection. Press 0 on the keypad to use program 0.
-Program 0: Pressure = 500
+Program 0: Pressure = 500.
  - Heat 970, Pull 0, Velocity 30, Time 250
  - Heat 960, Pull 0, Velocity 40, Time 250
  - Heat 960, Pull 27-30<sup>1</sup>, Velocity 60, Time 252
