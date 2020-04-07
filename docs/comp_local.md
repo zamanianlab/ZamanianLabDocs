@@ -34,7 +34,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 5. Create your R environment:
     - Use [CRAN](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.2.pkg) to install or update R to version 3.6.2  
     **NOTE: If you already have a more recent version of R installed, you will need to completely uninstall R and install the correct 3.6.2 version.**
-    - Install the [ZamanianLabREnvironment](https://github.com/wheelern/ZamanianLabREnvironment) R package (`devtools::install_github("wheelern/ZamanianLabREnvironment")`) to create a consistent, unified environment across machines.
+    - Install the [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment) R package (`devtools::install_github("wheelern/ZamanianLabREnvironment")`) to create a consistent, unified environment across machines.
 
 6. Create your Python environment:
 
