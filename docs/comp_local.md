@@ -11,8 +11,9 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Cyberduck](https://cyberduck.io/) (SFTP client)
     - [iTerm](https://iterm2.com/) (feature-rich terminal replacement)
     - [Atom](https://atom.io/) (Versatile GitHub-owned IDE)
-      * Feel free to install this [list of useful packages](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/atom-package-list.txt) using the command `apm install --packages-file {path}/package-list.txt`. The packages in this list will allow you to select text by column using the ⌥ key, "beautify" text and code according to universal syntax rules, highlight all occurrences of a selection, and preview the HTML version of .md files, among others. You can also browse and install [Atom themes](https://atom.io/themes).
-
+        - Feel free to install this [list of useful packages](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/atom-package-list.txt) using the command `apm install --packages-file {path}/package-list.txt`. The packages in this list will allow you to select text by column using the ⌥ key, "beautify" text and code according to universal syntax rules, highlight all occurrences of a selection, and preview the HTML version of .md files, among others. You can also browse and install [Atom themes](https://atom.io/themes).
+    - [XQuartz](https://www.xquartz.org/) (open-source window system on which some apps rely)
+    - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS)
     - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
     - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
     - [Slack](<http://www.slack.com>) (primary lab communication tool)
@@ -25,17 +26,15 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
     - [Fiji](https://fiji.sc/) (primary software used for image analysis)
     - [FigTree](https://github.com/rambaut/figtree/releases) (graphical viewer of phylogenetic trees)
-    - [ClustalX](http://www.clustal.org/download/current/) (GUI-based sequence aligner)
     - [4Peaks](https://nucleobytes.com/4peaks/index.html) (editing of sequence trace files)
 
 
 4. Replace your `~/.bash_profile` with the lab `.bash_profile` found in the `resources` directory of the GitHub repo that hosts this site (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
 
 5. Create your R environment:
-
-    - Use [CRAN](https://cloud.r-project.org/) to install or update R to version 3.6.2
-    - Install the [ZamanianLabREnvironment](https://github.com/wheelern/ZamanianLabREnvironment) R package to create a consistent environment across machines.
-
+    - Use [CRAN](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.2.pkg) to install or update R to version 3.6.2  
+    **NOTE: If you already have a more recent version of R installed, you will need to completely uninstall R and install the correct 3.6.2 version.**
+    - Install the [ZamanianLabREnvironment](https://github.com/wheelern/ZamanianLabREnvironment) R package (`devtools::install_github("wheelern/ZamanianLabREnvironment")`) to create a consistent, unified environment across machines.
 
 6. Create your Python environment:
 
