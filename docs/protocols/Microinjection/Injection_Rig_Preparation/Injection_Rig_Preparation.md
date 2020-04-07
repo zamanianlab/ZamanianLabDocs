@@ -1,20 +1,23 @@
 # Injection Rig Preparation
+
 ## Compressor
-Adapted from [Panther Air Compressor](../Injection_Rig_Preparation/PantherairCompressor.pdf)
+
+Adapted from [Panther Air Compressor](../Injection_Rig_Preparation/PantherairCompressor.pdf)  
 
 1. Turn the knob on the automatic ON/OFF - Pressure Switch to the ON position. The compressor will automatically start and stop to maintain the preset pressure level, but the compressor should remain ON until you are finished using the compressor.
 
-  ![PressureSwitch](img/PressureSwitch.png)
+    ![PressureSwitch](img/PressureSwitch.PNG)
 
 2. After the compressor has run for a complete cycle to pressurize the tank and then shut off (you will hear the motor stop when it automatically shuts off; tank pressure should be ~120 psi), set the desired pressure on the Filter/Regulator (see image below) by lifting the knob until it clicks/unlocks and the adjust the pressure by turning the knob clockwise (increased pressure) or counterclockwise (decreased pressure). Ensure the read valve is flipped to "ON" to allow air to travel from the tank to the Filter/Regulator. Once the desired pressure is reached, push the knob back down to lock it.
 
-  **NOTE:** Never completely open (turn all the way clockwise) the Filter/Regulator. The FemtoJet can only handle pressures from 60-120 psi, so do not allow the pressure to exceed 120 psi.
+    **NOTE:** Never completely open (turn all the way clockwise) the Filter/Regulator. The FemtoJet can only handle pressures from 60-120 psi, so do not allow the pressure to exceed 120 psi.
 
 3. When injections are complete, turn the compressor off and release the pressure by adjusting the Filter/Regulator to 0 psi and depressurizing through the drain valve (see **Maintenance**).
 
-  ![FilterRegulator](img/FilterRegulator.png)
+    ![FilterRegulator](img/FilterRegulator.PNG)
 
 ## FemtoJet 4x
+
 Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
 1. Ensure the compressor is properly setup and connected.
@@ -27,7 +30,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
 5. Perform a test injection:
 
-  a. Fill the capillary with fluorescent dye.
+    a. Fill the capillary with fluorescent dye.
 
     - i. Fill the microloader with fluorescent liquid.
 
@@ -35,7 +38,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     - iii. Insert the capillary into the universal capillary holder.
 
- b. Carry out a test injection.
+    b. Carry out a test injection.
 
     - i. Connect the injection tube.
 
@@ -51,11 +54,11 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     - vii. Troubleshoot until the injection parameters are optimized.
 
-  c. After troubleshooting and optimizing, set the compensation pressure p<sub>c</sub> with Rotary Knob 3.
+    c. After troubleshooting and optimizing, set the compensation pressure p<sub>c</sub> with Rotary Knob 3.
 
-  d. Set the injection pressure p<sub>i</sub> with the Rotary Knob 1.
+    d. Set the injection pressure p<sub>i</sub> with the Rotary Knob 1.
 
-  e. Set the injection time t<sub>i</sub> with Rotary Knob 2.
+    e. Set the injection time t<sub>i</sub> with Rotary Knob 2.
 
 6. Perform the injections.
 
@@ -65,9 +68,10 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     b. To completely turn off the machine, use the main power switch in the back.
 
-    ![FemtoJetInterface](img/FemtoJetInterface.png)
+    ![FemtoJetInterface](img/FemtoJetInterface.PNG)
 
 ## Maintenance
+
 1. Air Intake Filter
 
     a. Unplug the power cord.
@@ -78,7 +82,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     d. Reinstall the Air Intake Filter.
 
-    ![AirIntakeFilter](img/AirIntakeFilter.png)
+    ![AirIntakeFilter](img/AirIntakeFilter.PNG)
 
 2. Moisture Trap
 
@@ -88,7 +92,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     c. Before cleaning the bowl, ensure the Filter/Regulator is depressurized.
 
-  ![MoistureTrap](img/MoistureTrap.png)
+    ![MoistureTrap](img/MoistureTrap.PNG)
 
 3. Pressure Tank
 
@@ -96,7 +100,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     b. Tilt the unit towards the plug to allow the water to drain.
 
-    ![PressureTank](img/PressureTank.png)
+    ![PressureTank](img/PressureTank.PNG)
 
 4. Oil Change
 
@@ -112,7 +116,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     f. Reinstall the Air Intake Filter.
 
-    ![OilChange](img/OilChange.png)
+    ![OilChange](img/OilChange.PNG)
 
 ## Periodic Maintenance
 

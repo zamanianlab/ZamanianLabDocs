@@ -10,7 +10,7 @@
 
 ## Preparation
 
-- Two-step qPCR starts with RNA that has been DNase-treated and quantified with NanoDrop. Follow the the RNA extraction protocol for [*C. elegans*](../../Caenorhabditis_elegans/Celegans_RNA_Extraction/Celegans_RNA_Extraction.md) or [parasites](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md).
+- Two-step qPCR starts with RNA that has been DNase-treated and quantified with NanoDrop. Follow the the RNA extraction protocol for [*C. elegans*](../../Caenorhabditis_elegans/RNA_Extraction/RNA_Extraction.md) or [parasites](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md).
 
 - Use the Invitrogen SuperScript III kit to perform first-strand cDNA synthesis.
 

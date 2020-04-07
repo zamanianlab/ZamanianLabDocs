@@ -40,7 +40,7 @@ Program 0: Pressure = 500.
 
 3. Insert a glass filament into the groove of one of the pullers without touching your fingers to the part that will be heated or the filament. Loosen the clamping knob if necessary to allow the glass through.
 
-![Image](img/NeedlePullDiagram.png)
+![Image](img/NeedlePullDiagram.PNG)
 
 4. Tighten the knob of the clamp to hold the needle in place.
 
@@ -58,11 +58,21 @@ Program 0: Pressure = 500.
 - Halocarbon oil series HC-700, 8 oz. bottle (Sigma-Aldrich, H8898-50ML)
 
 ## Making the DNA Solution
-For injecting worms, one needs a purified DNA solution. This can be achieved by Phenol Extraction + Ethanol Purification, or by using a DNA purification column (for example a QIAGEN QIAquick Purification Kit). The DNA should be resuspended in distilled water.
 
-**Single Arrays:** the DNA construct is mixed only with a specific marker. This will originate extrachromosomal arrays/copies of the injected construct (if the transformation is successful), and expression of the marker in specific cells. The marker will confirm if the injections worked or not, even if the construct is not expressed. Extrachromosomal arrays are the predominant form in which a nontoxic DNA can be inherited beyond the F1 generation. **The final concentration of DNA in the solution should be 200  ng/μL.** For example, 100 ng/μL of the final construct DNA and 100 ng/μL of the marker (prepared in distilled water).
+A few notes:
 
-_Note: DNA concentration drastically affects the results of a transformation experiment. Some plasmids, cosmids, or fosmids are lethal at high concentrations. Start with plasmids at around 80 μg/mL and cosmids of fosmids at around 20 μg/mL. We also use carrier DNA to make the transgene arrays more complex. DNA ladder or_ Arabidopsis _genomic DNA at 100 μg/mL can be used. Co-injection markers help identify transformants. There are many co-injection markers. Here is a partial list: pRF4 (contains the dominant rol-6 mutation), pL15EK (lin-15AB rescuing construct), myo-2::RFP or myo-2::GFP (red or green pharynges, respectively - use at 5 μg/mL), pTG96 (sur-5::GFP, expressed in all somatic cells - use at 20 μg/mL), ttx-3::GFP (expressed in one cell in the head), unc-119 rescuing plasmid, myo-3::GFP (red or green body wall muscle, respectively - use at 5 ng/μL)._
+- All plasmid DNA to be injected should be suspended in distilled water.
+
+- The final concentration of plasmid DNA should be 100 ng/μL
+
+    - Generally our receptor transgenes are injected at 30-50 ng/μL
+    - Co-injection markers are typically 5-15 ng/μL (except *rol-6(su1006)* which needs to be >50 ng/μL)
+    - use pPD95.75 to achieve a final concentration of 100 ng/μL
+
+- Possible co-injection markers:
+    - *myo-2p::GFP* (5 ng/μL)
+    - *unc-122p::GFP* (aka *coel::GFP*)
+    - pRF4 (*rol-6(su1006)*) - we have this genetype in pjCeKC10
 
 ## Setting up the scope, loading the needle, mounting, and breaking the needle
 ### Set up the scope
@@ -131,7 +141,7 @@ _Note: As a beginner, stick a single animal on a pad. The trick is to stick the 
 4. Change to the 40X objective and focus on a syncytial gonad arm. This structure looks like a sausage-shaped clear area surrounded by nice round nuclei. The clear area has tiny speckles (See Figure 1 below).
 5. Focus on the center of the gonad (in the Z plane) so that you see a nice row of nuclei on either side of the sausage. Using the fine adjuster, move the needle up/down until its very tip is in focus.
 
-![Image](img/Figure1.png)
+![Image](img/Figure1.PNG)
 
 6. Gently move the needle so that it is pressing against the worm at a point where the syncytial gonad is pressed up against the body wall, and so that the needle tip will end up inside the gonad after it penetrates the body wall.
 7. There are many techniques to penetrate the body wall and enter the gonad. Here are two: (1) use your right index finger to gently tap the micromanipulator on the little box with the ball joint in it (just above where the arm the needle is on is attached). This vibrates the needle a little so that it punctures the worm. (2) slowly move the floating stage until the needle presses up against the body wall. Push slightly harder to enter the gonad. Hopefully, the tip of the needle is in the gonad now.
@@ -145,7 +155,7 @@ _Note: Usually one gonad arm is much easier to see than the other, so some peopl
 
 _Note: Eventually needles tend to clog and must be changed._
 
-![Image](img/Injection.png)
+![Image](img/Injection.PNG)
 
 ## Recovery
 1. Put the pad under the dissecting scope (on the inverted plate lid) and using a mouth pipette place a drop of recovery buffer on the worm.
