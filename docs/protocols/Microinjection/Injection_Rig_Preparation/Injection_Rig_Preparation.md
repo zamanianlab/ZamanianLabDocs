@@ -2,7 +2,7 @@
 
 ## Compressor
 
-Adapted from [Panther Air Compressor](../Injection_Rig_Preparation/PantherairCompressor.pdf)  
+Adapted from [Panther Air Compressor](../Injection_Rig_Preparation/PantherAirCompressor.pdf)  
 
 1. Turn the knob on the automatic ON/OFF - Pressure Switch to the ON position. The compressor will automatically start and stop to maintain the preset pressure level, but the compressor should remain ON until you are finished using the compressor.
 

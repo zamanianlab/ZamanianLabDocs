@@ -62,7 +62,7 @@
 
 - [Plate Pouring: Growing OP50](Caenorhabditis_elegans/PlatePouring_GrowingOP50/PlatePouring_GrowingOP50.md)
 
-- [Plate Pouring: Seeding plates](Caenorhabditis_elegans/PlatePouring_GrowingOP50/PlatePouring_SeedingPlates.md)
+- [Plate Pouring: Seeding plates](Caenorhabditis_elegans/PlatePouring_SeedingPlates/PlatePouring_SeedingPlates.md)
 
 - [Plate Pouring: Cholesterol](Caenorhabditis_elegans/PlatePouring_Cholesterol/PlatePouring_Cholesterol.md)
 
