@@ -28,4 +28,4 @@
 
 12. Remove supernatant with a 200 μL pipette; evaporate remaining ethanol in a 37°C heat block. Do not do this for too long because overdrying the pellet can make it difficult to resuspend.
 
-13. Resuspend pellet in desired volume of water or TE buffer
+13. Resuspend pellet in desired volume of water or TE buffer.

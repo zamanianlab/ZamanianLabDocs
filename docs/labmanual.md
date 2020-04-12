@@ -130,25 +130,26 @@ Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for or
 
 Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors.
 
-#### Lab Plasmid inventory
+#### Lab and Commercial Plasmid inventory
 
 ```
-Plasmid Naming: pMZ####
-Storage box labels (-80C & -20C): "Lab Plasmids #"
+Plasmid Naming: pMZ#### (lab) or Original Plasmid Name
+Storage box labels (-80C & -20C):
+    "Lab Plasmids #" or "Commercial Plasmids #"
 Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
-Tube Labels: pMZ####, Concentration, and Date
+* Tube Labels
+    Plasmid Name
+    Concentration
+    Date Frozen
+* Quartzy Update (Iventory Type = 'Plasmids'):
+    Item Name (=Plasmid Name)
+    Date Frozen
+    Location
+    Resistance Marker
+    Use (e.g., "gene X RNAi" or "C. elegans transgene")
 ```
 
-#### Commercial Plasmid inventory
-
-```
-Plasmid Naming: Original Name
-Storage box labels (-80C & -20C): "Commercial Plasmids #"
-Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
-Tube Labels: Original Name, Concentration, and Date
-```
-
-Update Quartzy with the exact -80C location of all plasmids and antibiotic resistance information. Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed. **Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
+Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed. **Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
 
 ### C. Transformed Bacteria
 
@@ -156,10 +157,17 @@ Update Quartzy with the exact -80C location of all plasmids and antibiotic resis
 Storage box labels (-80C & N2):
   "Lab Plasmid Bacterial Stock #" and "Commercial Plasmid Bacterial Stock #"
 Tube Counts: 2 copies (-80C) + 1 copy (N2)
-Tube Labels: Plasmid Name, Bacteria (eg., DH5a), and Date
+* Tube Labels
+    Plasmid Name
+    Bacteria (eg., DH5a)
+    Date Frozen
+* Quartzy Update (Iventory Type = 'Bacterial Stock'):
+    Item Name (=Plasmid Name)
+    Bacteria (eg., DH5a)
+    Date Frozen
+    Location
+    Resistance Marker
 ```
-
-Each Lab and Commercial Plasmid should have three bacterial glycerol stocks made (see: *PreparationOfBacterialFrozenStocks.pdf* in ```/Protocols/General/```). Additional labeling instructions can be found in ```/Protocols/FreezerLabels/```. Update Quartzy with the Location, Date frozen, Number of units (tubes), Genotype, and Antibiotic resistance.
 
 ### D. *C. elegans* Bacterial Stocks
 

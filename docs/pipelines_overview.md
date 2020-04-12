@@ -4,11 +4,12 @@
 
 We organize our pipelines into two groups, structured in slightly different ways:
 
-1.  [Local Pipelines](pipelines_local.md) (performed entirely locally)
+1.  [Local Pipelines](pipelines_local.md) (simple local pipelines)
 
     -   qPCR
     -   EPG
     -   Sensory assays
+
 
 2.  [Core Pipelines](pipelines_server.md) (contain a remote server component)
 

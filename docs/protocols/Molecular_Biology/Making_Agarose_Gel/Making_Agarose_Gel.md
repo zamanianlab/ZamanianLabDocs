@@ -1,4 +1,4 @@
-# Agarose Gels: Making, Loading, & Imaging
+# Agarose Gels: making, loading, and imaging
 
 **Note:** Avoid skin contact with Ethidium Bromide and UV exposure.
 

@@ -40,7 +40,7 @@ Program 0: Pressure = 500.
 
 3. Insert a glass filament into the groove of one of the pullers without touching your fingers to the part that will be heated or the filament. Loosen the clamping knob if necessary to allow the glass through.
 
-![Image](img/NeedlePullDiagram.PNG)
+    ![Image](img/NeedlePullDiagram.PNG)
 
 4. Tighten the knob of the clamp to hold the needle in place.
 
@@ -141,7 +141,7 @@ _Note: As a beginner, stick a single animal on a pad. The trick is to stick the 
 4. Change to the 40X objective and focus on a syncytial gonad arm. This structure looks like a sausage-shaped clear area surrounded by nice round nuclei. The clear area has tiny speckles (See Figure 1 below).
 5. Focus on the center of the gonad (in the Z plane) so that you see a nice row of nuclei on either side of the sausage. Using the fine adjuster, move the needle up/down until its very tip is in focus.
 
-![Image](img/Figure1.PNG)
+    ![Image](img/Figure1.PNG)
 
 6. Gently move the needle so that it is pressing against the worm at a point where the syncytial gonad is pressed up against the body wall, and so that the needle tip will end up inside the gonad after it penetrates the body wall.
 7. There are many techniques to penetrate the body wall and enter the gonad. Here are two: (1) use your right index finger to gently tap the micromanipulator on the little box with the ball joint in it (just above where the arm the needle is on is attached). This vibrates the needle a little so that it punctures the worm. (2) slowly move the floating stage until the needle presses up against the body wall. Push slightly harder to enter the gonad. Hopefully, the tip of the needle is in the gonad now.

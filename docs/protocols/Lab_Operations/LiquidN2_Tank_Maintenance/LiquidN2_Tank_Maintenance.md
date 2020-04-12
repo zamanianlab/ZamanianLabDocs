@@ -6,13 +6,13 @@ Locator Jr. Plus Specifications:
 
 **WARNINGS:**
 
-  1. The tank uses a vacuum to ensure temperature control and care must be taken to prevent premature vacuum loss.
+1. The tank uses a vacuum to ensure temperature control and care must be taken to prevent premature vacuum loss.
 
-  2. **Do not tamper with or remove the vacuum port** (covered by a black plastic cap on the side of the vessel).
+2. **Do not tamper with or remove the vacuum port** (covered by a black plastic cap on the side of the vessel).
 
-  3. **When inserting or removing racks, be careful not to come into contact with the neck tube area of the vessel. Remove them slowly in a vertical manner. Scratches on the neck tube area can cause premature vacuum failure.**
+3. **When inserting or removing racks, be careful not to come into contact with the neck tube area of the vessel. Remove them slowly in a vertical manner. Scratches on the neck tube area can cause premature vacuum failure.**
 
-  4. Do not use the tank for transport. Use an intermediate liquid N<sub>2</sub> vessel to transport liquid N<sub>2</sub> from the dock to the tank. Cracks in the floor and bumping into objects can disrupt the vacuum.
+4. Do not use the tank for transport. Use an intermediate liquid N<sub>2</sub> vessel to transport liquid N<sub>2</sub> from the dock to the tank. Cracks in the floor and bumping into objects can disrupt the vacuum.
 
 ## Adding liquid N<sub>2</sub> to a warm vessel:
 
@@ -21,7 +21,9 @@ Locator Jr. Plus Specifications:
 2. Allow this small amount of liquid N<sub>2</sub> to sit in the covered vessel for at least 2 hr. to allow the vessel to equilibrate to the temperature change.
 
 3. Add an additional 15 liters of liquid N<sub>2</sub> to the vessel and allow the vessel to sit for 48 hr. Monitor the liquid N<sub>2</sub> consumption with a wooden yardstick (never a hollow tube or plastic dipstick).
+
 4. Fill the vessel with liquid N<sub>2</sub> **no higher than the top of the racks (approximately 12 inches with racks inserted).**
+
 5. Insert and remove racks slowly. Allow the liquid N<sub>2</sub> to run out of boxes and off racks before completely removing from the Locator.
 
 ## Maintenance

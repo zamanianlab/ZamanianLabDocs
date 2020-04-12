@@ -1,36 +1,33 @@
 # dsRNA Generation for RNAi Experiments
 
-## Methods
-
-**General Note**: Clone ~400-600 base pairs of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).
+**General Note**: This protocol assumes you have already cloned a ~400-600 base pair fragment of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).
 
 ### Adding T7 sites and scaling up the T7 template
-1. Assemble master mix according to table below:
 
-  |  Component | Volume |
-  |--------------|---------|
-  |Nuclease-free H<sub>2</sub>O | 16.25 µL |
-  |Colorless GoTaq Buffer |5 µL |
-  |10 mM dNTPs| 0.5 µL |
-  |GoTaq Polymerase| 0.25 µL |
-  |1:100 Plasmid Dilution| 1 µL |
-  |Forward Primer (GSP+T7)| 1 µL |
-  |Reverse Primer (GSP+T7)| 1 µL |
-  |**TOTAL** | 25 µL |
+1. Assemble master mix according to table below (this is for a single T7 reaction, scale as needed).
 
-  The above master mix is for a single T7 reaction. Scale as needed.
+    |  Component | Volume |
+    |--------------|---------|
+    |Nuclease-free H<sub>2</sub>O | 16.25 µL |
+    |Colorless GoTaq Buffer |5 µL |
+    |10 mM dNTPs| 0.5 µL |
+    |GoTaq Polymerase| 0.25 µL |
+    |1:100 Plasmid Dilution| 1 µL |
+    |Forward Primer (GSP+T7)| 1 µL |
+    |Reverse Primer (GSP+T7)| 1 µL |
+    |**TOTAL** | 25 µL |
 
-**Thermal Cycler Parameters**:    
+2. Run with the following **Thermal Cycler Parameters**
 
-|  Time  | Temperature | Cycles |
-|--------|-------------|--------|
-| 2 min      | 95ºC        | 1      |
-| 30 s <br> 30 s <br> 1 min | 95°C <br> Tm (GSP) <br> 72°C | <br> 5 <br> <br>|
-| 30 s <br> 30 s <br> 1 min | 95°C <br> Tm (GSP+T7 -5 degrees) <br> 72°C | <br> 30 <br> <br>|
-| 5 min      | 72ºC        | 1      |
-| Hold       | 6°C         | 1      |
+    |  Time  | Temperature | Cycles |
+    |--------|-------------|--------|
+    | 2 min      | 95ºC        | 1      |
+    | 30 s <br> 30 s <br> 1 min | 95°C <br> Tm (GSP) <br> 72°C | <br> 5 <br> <br>|
+    | 30 s <br> 30 s <br> 1 min | 95°C <br> Tm (GSP+T7 -5 degrees) <br> 72°C | <br> 30 <br> <br>|
+    | 5 min      | 72ºC        | 1      |
+    | Hold       | 6°C         | 1      |
 
-2. Pool PCR products for each target. Run a gel using 5 uL of product to verify that the PCR worked.
+3. Pool PCR products for each target. Run 5 uL of product on an agarose gel to verify that the PCR worked.
 
 ### Purification and concentration of DNA
 Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
@@ -73,47 +70,41 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 ### Nuclease digestion to remove DNA and ssRNA
 
-1. In the same tube as the IVT reaction, assemble the following digestion reaction in order to digest template DNA and any ssRNA:
+1. In the same tube as the IVT reaction, assemble the following digestion reaction in order to digest template DNA and any ssRNA (scale as needed):
 
-  |  Component | Volume |
-  |--------------|------|
-  |dsRNA (from IVT rxn) | 20 µL |
-  |Nuclease-free H2O|21 µL |
-  |10X Digestion Buffer| 5 µL |
-  |DNase I| 2 µL |
-  |RNase| 2 µL |
-  |**TOTAL**  | 50 µL |
-
-    The reaction above is for a single digestion reaction. Scale the reaction as needed.
+    |  Component | Volume |
+    |--------------|------|
+    |dsRNA (from IVT rxn) | 20 µL |
+    |Nuclease-free H2O|21 µL |
+    |10X Digestion Buffer| 5 µL |
+    |DNase I| 2 µL |
+    |RNase| 2 µL |
+    |**TOTAL**  | 50 µL |
 
 2. Incubate at 37ºC for 1 hr.
 
 ### Phenol/chloroform purification
 
-1. Add the following to the previous 50 µL reaction:
+1. Add the following to the previous 50 µL reaction (scale as needed):
 
-  |  Component | Volume |
-  |--------------|---------|
-  |dsRNA (from digestion rxn) | 50 µL |
-  |Nuclease-free H<sub>2</sub>O|150 µL |
-  |Phenol| 100 µL |
-  |Chloroform| 100 µL |
-  | **TOTAL** | 400 µL |
-
-  The reaction above is for a single phenol/chloroform purification reaction. Scale as needed.
+    |  Component | Volume |
+    |--------------|---------|
+    |dsRNA (from digestion rxn) | 50 µL |
+    |Nuclease-free H<sub>2</sub>O|150 µL |
+    |Phenol| 100 µL |
+    |Chloroform| 100 µL |
+    | **TOTAL** | 400 µL |
 
 2. Shake for 15 s. (don't allow foam to form).
 
 3. Spin at 15,000 x g for 10 min. at 4ºC.
 
 4. Transfer top phase (aqueous) to a new RNase-free tube.
-  - **Note**: If previous reactions were highly successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, then it means you had a great reaction.
-
+    - **Note**: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, that is a good indication.
 
 5. To aqueous dsRNA, add ~500 µL isopropanol.
 
-  - Optional: Add 0.1 volume of 3M sodium acetate and 2-3 volumes of cold 100% EtOH.
-
+    - Optional: Add 0.1 volume of 3M sodium acetate and 2-3 volumes of cold 100% EtOH.
 
 6. Place tube at -80ºC for 30 min.
 
@@ -125,18 +116,16 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 10. Spin at 5,000 x g for 5 min. at 4ºC.
 
-  - Optional: Wash again if the pellet appears salty (white instead of clear)
+    - Optional: Wash again if the pellet appears salty (white instead of clear).
 
-
-11. Remove ~500 µL of supernatant, briefly spin in the minicentifuge. Using p20 remove as much of the supernatant as possible. Briefly spin in mini-centrifuge. Using p2.5 remove the remaining supernatant.
+11. Remove ~500 µL of supernatant, briefly spin in the minicentifuge. Use p20 remove as much of the supernatant as possible. Briefly spin in minicentrifuge. Use p2.5 remove the remaining supernatant.
 
 12. You can use the p2.5 tip to move the gelatinous pellet up the side of the tube to facilitate drying and collect any remaining supernatant that is in tube.
 
 13. Air dry, and resuspend in RNase-free water at a volume of 1-2 µg/µL.
 
-  - **Note:** If pellet is at bottom etching = 100 µg. Visible pellets form when there is 5 µg of dsRNA. When you add water, the pellet will fall into solution and begin to zip around the top of the water until it goes into solution. If it doesn't, this means there may be too much salt in your RNA, or there is no RNA present.
-
+    - **Note:** If pellet is at bottom etching = 100 µg. Visible pellets form when there is 5 µg of dsRNA. When you add water, the pellet will fall into solution and begin to zip around the top of the water until it goes into solution. If it doesn't, this means there may be too much salt in your RNA, or there is no RNA present.
 
 14. Make a 1:10 dilution of original product by taking 1 µL dsRNA and 9 µL nuclease-free water. This will be used for a gel and to asses amount and purity of dsRNA using Nanodrop.
 
-15. Record concentration, date, and initials on tube and place in the appropriate box located in the -80ºC (Mammoth).
+15. Record concentration, date, and initials on tube and store in the appropriate box in the -80ºC.
