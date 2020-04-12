@@ -107,28 +107,41 @@ OR
 1. Press menu/enter on the FemtoJet. Press menu/enter again on the "change capillary" option (do this only if you are replacing a clogged/broken needle during use).
 
 2. Remove the old needle by unscrewing the clear grip head assembly that holds the needle.
+
 3. Insert your needle with the back end first so as not to break the tip. Make sure about 1 cm of the needles comes out past the back of the needle holder head.
+
 4. Tighten the needle by screwing the assembly onto the manipulator arm.
+
 5. Ensure the needle is in the micromanipulator at an angle of ~15-30 degrees to the stage.
+
 6. Turn the three knobs on the fine and coarse control of the micromanipulator to the  middle of their range.
+
 7. Using the course controls (knobs on the part of the micromanipulator mounted on the stage), move the needle tip left/right and forward/backward until it is just above the objective. You will see it glowing in the light shining down from the condenser.
 
 ### Breaking the needle
 1. Break a coverslip in half and put it onto a slide with the broken edge facing the needle.
 
 2. Place a drop of halocarbon oil on the broken edge of the slide.
+
 3. Focus on the edge of the broken coverslip with the halocarbon oil on it.
+
 4. Using the fine controls, carefully lower the injection needle towards the stage until it is in the same focal plane as the coverslip. At this low power, you can't see the actual tip, so you may have to try the 40X objective.
+
 5. Using the fine controls or the gliding stage (your preference), slowly move the injection needle along the edge of the coverslip to break the needle on a angle. Be VERY careful and gentle. The needle pulled using program 0 has very little leeway to be broken. Break a very tiny piece off to open the needle. Any larger and it will be too big to be used (as it will kill the worms).
+
 6. To check the needle, press the foot pedal to look for flow out of the needle. You should see rapid laminar flow out of the needle and back towards the shaft, but no flow out at resting pressure. If there is no flow when you press the pedal, the needle isn't broken. Try again. You will have to see by experience what the optimal flow rate is. You want to be able to flood the gonad in about 3 seconds of flow at Pi.
+
 7. When done breaking the needle, use the fine control to lift the needle up out of the oil in preparation for injection.
 
 ## Mounting worms on an injection pad
 1. Take out an agarose pad and breathe on it (about 1 long breath) to moisten it. If it is too dry, the worms will dry out and die - too wet and the worms won't stick well.
 
 2. Place a drop of halocarbon oil on the pad. Lay the coverslip on the top of an upside down lid of a small worm plate. The pad should be at about the same height as the worms on a plate so you don't have to focus around too much when switching back and forth.
+
 3. Place a small dot of halocarbon oil on a part of the worm plate with no bacteria. Pick some worms from the bacterial lawn to the oil. This just makes it easier to get the worms off the pick when transferring them to the agarose pad. Most people like to use the adults 24-36 hr. post-L4. These animals have large robust gonads.
+
 4. Using a worm pick with oil as glue, transfer adult hermaphrodites from the oil dot on the worm plate to the oil drop on the agarose pad. If there is still adhering bacteria, push the worms around in the oil with a pick until the bacteria come off.
+
 5. Use a strand of eyebrow hair taped to a glass pipette to orient the worm and stick it to the agarose pad.
 
 _Note: As a beginner, stick a single animal on a pad. The trick is to stick the animals down in the same orientation so that each animal's vulva is pointed to the same side. You don't want the syncytial gonad to be on top or underneath the animal. When the animal is in the oil, the syncytial gonad is visible as two clear areas towards the anterior and posterior of the animal. To stick the animal right, wait until it is floating in the oil so that it's body flexures go sideways, not up and down, and pat the animal down on the agarose pad with your pick until it is stuck to the pad. Avoid storking or patting the animal on the head, which can kill it. Ideally, the animal will be fully immobilized except for ti's head, which will still be free and wiggling. the animals stick best when they first touch the pad. If you fail to stick them on the first try, the pad will not stick to the same part of the animal again. Practice sticking down a whole set of animals in a line in the same orientation for assembly line injecting. Once the animals are in the oil, work reasonably fast to get the procedure over with before the animals dehydrate (roughly 10 min.)._
@@ -137,13 +150,17 @@ _Note: As a beginner, stick a single animal on a pad. The trick is to stick the 
 1. Raise the injection needle off of the stage to allow room to put the injection pad with worms on the floating stage.
 
 2. Using the 10X objective find the worm, make sure it is in the correct orientation (vulva away from the needle). You can move or rotate the entire stage to move the worm, although some like to move the coverslip itself. It is best to have the worm at a 45° angle to the needle; this maximizes the path length for the needle inside the gonad, helping to make sure you get the tip in the gonad instead of going all the way through and out the other side.
+
 3. Carefully lower the needle into the focal plane with the fine adjuster. At this point, you only need to move the needle up and down with the micromanipulator; **you always move the worm, not the needle, up/down left/right, by moving the whole stage.**
+
 4. Change to the 40X objective and focus on a syncytial gonad arm. This structure looks like a sausage-shaped clear area surrounded by nice round nuclei. The clear area has tiny speckles (See Figure 1 below).
+
 5. Focus on the center of the gonad (in the Z plane) so that you see a nice row of nuclei on either side of the sausage. Using the fine adjuster, move the needle up/down until its very tip is in focus.
 
     ![Image](img/Figure1.PNG)
 
 6. Gently move the needle so that it is pressing against the worm at a point where the syncytial gonad is pressed up against the body wall, and so that the needle tip will end up inside the gonad after it penetrates the body wall.
+
 7. There are many techniques to penetrate the body wall and enter the gonad. Here are two: (1) use your right index finger to gently tap the micromanipulator on the little box with the ball joint in it (just above where the arm the needle is on is attached). This vibrates the needle a little so that it punctures the worm. (2) slowly move the floating stage until the needle presses up against the body wall. Push slightly harder to enter the gonad. Hopefully, the tip of the needle is in the gonad now.
 
 8. Press the pedal to start the flow of DNA solution. If you're in the gonad it should be obvious; as the gonad is flooded it bloats like you're filling a sausage, and you can sometimes see the nuclei in the syncytium reacting to the flow. You want to put as much liquid in the gonad as possible; hopefully it will flow all the way around turn of the gonad. You will be able to see the green dye filling the gonad. A good rule of thumb is to inject until you see a good amount of liquid has made the turn and has flowed into the proximal gonad, and then shut off the flow.
@@ -161,6 +178,7 @@ _Note: Eventually needles tend to clog and must be changed._
 1. Put the pad under the dissecting scope (on the inverted plate lid) and using a mouth pipette place a drop of recovery buffer on the worm.
 
 2. This action will form a channel, and the recovery buffer will form a layer underneath the oil in which the worm will float.
+
 3. Mouth pipette the worms in recovery buffer onto a fresh plate.
 
 _Note: I put six worms (from the same injection) onto the same plate._
