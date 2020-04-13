@@ -46,11 +46,13 @@
 
 ## ***Caenorhabditis elegans***
 
-- [*C. elegans Recipes*](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)
+- [*C. elegans* Recipes](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)
 
 - [Chunking Worms](Caenorhabditis_elegans/Chunking_Worms/Chunking_Worms.md)
 
 - [Cleaning Worms](Caenorhabditis_elegans/Cleaning_Worms/Cleaning_Worms.md)
+
+- [Freezing Worms](Caenorhabditis_elegans/Freezing_Worms/Freezing_Worms.md)
 
 - [Freezing Worms in Agar](Caenorhabditis_elegans/Freezing_Worms_Agar/Freezing_Worms_Agar.md)
 
@@ -74,19 +76,25 @@
 - [Injection Rig Preparation](Microinjection/Injection_Rig_Preparation/Injection_Rig_Preparation.md)
 
 
-## **General**
-
-- [Confocal Microscope](General/Confocal_Microscope/Confocal_Microscope.md)
-
-- [Connecting CO<sub>2</sub> Tanks](General/Connecting_CO2_Tanks/Connecting_CO2_Tanks_to_Incubators.md)
-
-- [Uploading NCBI Data](General/NCBI_Data_Upload/NCBI_Data_Upload.md)
-
-- [Shipping Biomaterials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
-
-
 ## **Lab Operations**
+
+- [Autoclave Operation](Lab_Operations/Autoclave_Operation/Autoclave_Operation.md)
+
+- [Glass/Plastic Washing](Lab_Operations/Washing_Protocols/Washing_Protocols.md)
 
 - [BSC Operation](Lab_Operations/BSC_Operation/BSC_Operation.md)
 
 - [Liquid N<sub>2</sub> Tank Maintenance](Lab_Operations/LiquidN2_Tank_Maintenance/LiquidN2_Tank_Maintenance.md)
+
+- [Water-jacketed Incubators](Lab_Operations/Waterjacketed_Incubator/Waterjacketed_Incubator.md)
+
+- [Connecting CO<sub>2</sub> Tanks](Lab_Operations/Connecting_CO2_Tanks/Connecting_CO2_Tanks_to_Incubators.md)
+
+
+## **General**
+
+- [Confocal Microscope](General/Confocal_Microscope/Confocal_Microscope.md)
+
+- [Uploading NCBI Data](General/NCBI_Data_Upload/NCBI_Data_Upload.md)
+
+- [Shipping Biomaterials](General/Shipping_Biomaterials/Shipping_Biomaterials.md)
