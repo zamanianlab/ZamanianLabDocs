@@ -1,20 +1,19 @@
 # conda
 
-`conda <https://conda.io/docs/>`\_ is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will be using it to manage our Python environments.
+[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will be using it to manage our Python environments.
 
-While most of our plotting and some data analysis uses R, our image and video analyses use Python. There are certain similarities to these languages, and most bioinformatic data analyses can be performed using one or the other (or both). However, R development is more streamlined and centralized, and we only use a few third-party packages, while Python includes two major versions (2 and 3) that are still regularly used (I write in Python 3 while many developers still prefer Python 2, and scripts written in one version often won't work when run with the other version), and the packages that we use are diverse and maintained by a large crowd of different developers. Thus, we don't need package and environment management for R, but our Python pipelines are greatly enhanced with such management.
+While most of our plotting and data analysis uses R, our image and video analyses use Python. R development is more streamlined and centralized (at least for the packages we use), while Python includes two major versions (2 and 3) that are still regularly used (I write in Python 3 while many developers still prefer Python 2, and scripts written in one version often won't work when run with the other version), and the packages that we use are diverse and maintained by a large crowd of different developers. Thus, we don't need package and environment management for R, but our Python pipelines are greatly enhanced with such management.
 
 conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a discrete, contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
 
 ## Installation
 
-There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes.
+There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes. We recommend you use Miniconda, which can be installed on macOS using the commands below:
 
 ```bash
-wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
 bash ~/miniconda.sh -b -p $HOME/miniconda
 ```
-
 These commands will download the miniconda installer, run it, and install it to your `$HOME` folder. It will also add the path `/Users/[user]/software/miniconda3/bin` to your lookup `$PATH`, which allows you to run conda executables without referring explicitly to their location.
 
 ## Usage and an Example
@@ -30,12 +29,12 @@ The environment has now been created. You can see a list of all the environments
 Here is a list of current environments on my machine (the asterisk marks the current environment):
 
 ```bash
-zamanian-3108:~ njwheeler$ conda env list
 # conda environments:
 #
-base                  *  /Users/njwheeler/software/miniconda3
-motility_analysis        /Users/njwheeler/software    
-miniconda3/envs/motility_analysis
+base                  *  /Users/nic/miniconda3
+dev                      /Users/nic/miniconda3/envs/dev
+test_environment         /Users/nic/miniconda3/envs/test_environment
+tierpsy                  /Users/nic/miniconda3/envs/tierpsy
 ```
 
 To activate the `test_environment` that you just created:
