@@ -110,13 +110,13 @@
 
 2. Place the qPCR plate in the machine.
 
-![Thermocycler](img/thermocycler.png)
+    ![Thermocycler](img/thermocycler.png)
 
 3. Begin the StepOne v2.3 program and login as a guest.
 
 4. Click “Advanced Setup, which will open the following screen.
 
-![Plate Setup2](img/plate_setup2.png)
+    ![Plate Setup2](img/plate_setup2.png)
 
 5. Fill out the metadata and match the selections shown above.
 
@@ -136,9 +136,9 @@
 
 6. Click the “Plate Setup” menu (orange arrow).
 
-  a. In the “Define Targets and Samples” tab, add your targets and samples to the appropriate panes. For primer optimization runs, the “Sample Names” should be the different primer dilutions (i.e. 300, 500, and 800).
+    a. In the “Define Targets and Samples” tab, add your targets and samples to the appropriate panes. For primer optimization runs, the “Sample Names” should be the different primer dilutions (i.e. 300, 500, and 800).
 
-  b. Ignore the “Biological Replicates” pane even if you have biological replicates.
+    b. Ignore the “Biological Replicates” pane even if you have biological replicates.
 
 7. Click the “Assign Targets and Samples” tab.
 
@@ -162,7 +162,7 @@
 
       v. Change the percentage of the ramp rate to 10%.
 
-    ![Run Method](img/run_method.png)
+      ![Run Method](img/run_method.png)
 
 9. When finished setting up the run, click “Start Run” (green button).
 
