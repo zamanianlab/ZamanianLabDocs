@@ -1,6 +1,7 @@
 # Liquid Nitrogen Tank Operation and Maintenance
 
 Locator Jr. Plus Specifications:
+
   - Liquid N<sub>2</sub> capacity: 71 L
   - Liquid N<sub>2</sub> evaporation rate: 0.85 L/day
 

@@ -58,7 +58,7 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
     d. Set the injection pressure p<sub>i</sub> with the Rotary Knob 1.
 
-    e. Set the injection time t<sub>i</sub> with Rotary Knob 2.
+    e. Set the injection time t<sub>i</sub> with Rotary Knob 
 
 6. Perform the injections.
 

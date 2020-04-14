@@ -1,14 +1,19 @@
 # Freeze/Thawing Worms
+
 (Adapted from Judith Kimble's Lab, December 2018)
 
 This protocol is used to generate and maintain large stocks of common strains (e.g., N2).
 
 ## Freezing Worms
+
 1. Pick worms to six 6 cm plates you wish to freeze for each strain.
+
 - For most strains, 4-6 plates is enough. For sick strains, more plates will result in a higher titter and therefore a better thaw rate.
+
 - Check the genotype of the strain so you can follow any phenotypes to make sure the animals are correct.
 
 2. Store the plates at the optimal temperature for your strain (20°C for most strains) until the 6 cm plates are starved.
+
 - The strain is ready to freeze when there is no bacteria on the plate and there are few or no embryos remaining on the plate. Most of the animals should be L1 or L2.
 
 3. Prepare the number of cryovial tubes (Room 223, Shelf 2) with cryo-safe labels (Printed on Label maker) with the appropriate information (e.g. - strain name, date frozen) that you want to freeze. Use "Cryovials Label Template" for printing labels with the correct information.
@@ -41,7 +46,7 @@ This protocol is used to generate and maintain large stocks of common strains (e
 
 14. Place tubes in a 1.5 mL tube styrofoam container in the -80°C.
 
-![Image](img/StyrofoamRack.png)
+    ![Image](img/StyrofoamRack.png)
 
 15. Cover the 1.5 mL tube styrofoam container with the lid and secure with a rubber band.
 
@@ -51,7 +56,7 @@ This protocol is used to generate and maintain large stocks of common strains (e
 
 18. Move four tubes to the next available position in the Worm Stock Boxes (check Quartzy for the last strain put in position), move one tube to the next available position in the Liquid Nitrogen Stock  boxes (check Quartzy). Put a space in between each strain that you freeze.
 
-![Image](img/WorkingStockBox.png)
+    ![Image](img/WorkingStockBox.png)
 
 19. If the strain information is not already in Quartzy, make sure to enter that information (any plasmids/ genotypes of the strain, where we got the strain, if it was lab-made or received from another lab or the CGC, growing temperature, etc.). After the tubes have been to the final Worm Stock and Liquid Nitrogen Stock positions (Step 12), indicate that information for that strain in Quartzy (and how many are in stock).
 
@@ -77,32 +82,32 @@ This protocol is used to generate and maintain large stocks of common strains (e
 
 1. Mix the following reagents:
 
-| Reagent | Amount Needed |
-| ------- | :-----------: |
-| KH<sub>2</sub>PO<sub>4</sub> | 6 g |
-| Na<sub>2</sub>HPO<sub>4</sub> | 12 g |
-| NaCl | 10 g |
-| dH<sub>2</sub>O | up to 2 L |
+    | Reagent | Amount Needed |
+    | ------- | :-----------: |
+    | KH<sub>2</sub>PO<sub>4</sub> | 6 g |
+    | Na<sub>2</sub>HPO<sub>4</sub> | 12 g |
+    | NaCl | 10 g |
+    | dH<sub>2</sub>O | up to 2 L |
 
 2. Autoclave on liquid cycle for 30 min.
 
   - Make sure the volume is maintained during autoclaving by autoclaving in the large autoclave (the autoclave on the left).
-
 
 3. When the M9 is cool, add: MgSO<sub>4</sub> 0.5 mL for 500 mL
 
 4. Store in 2 L aliquots.
 
 ### Peggy's Freezing Solution
+
 1. Mix the following:
 
-| Reagent | Amount Needed |
-| ------- | :-----------: |
-| KH<sub>2</sub>PO<sub>4</sub> ,  1M pH 6| 3 g |
-| NaCl, 5 M | 5 g |
-| Na<sub>2</sub>HPO<sub>4</sub>.7H<sub>2</sub>O | 11.3 g |
-| MgSO<sub>4</sub>, 1 M | 1 mL |
-| dH<sub>2</sub>O | up to 1 L |
+    | Reagent | Amount Needed |
+    | ------- | :-----------: |
+    | KH<sub>2</sub>PO<sub>4</sub> ,  1M pH 6| 3 g |
+    | NaCl, 5 M | 5 g |
+    | Na<sub>2</sub>HPO<sub>4</sub>.7H<sub>2</sub>O | 11.3 g |
+    | MgSO<sub>4</sub>, 1 M | 1 mL |
+    | dH<sub>2</sub>O | up to 1 L |
 
 2. In a 1 L flask, add 300 g of glycerol and 4 g of bacto agar.
 
@@ -118,10 +123,12 @@ This protocol is used to generate and maintain large stocks of common strains (e
 
 ### Bleach solution
 
-| Reagent | Amount Needed |
-| ------- | :-----------: |
-| NaOCl (from Fisher, cat #SS290-1) | 2 mL |
-| 10 M NaOH | 0.5 mL |
-| dH<sub>2</sub>O | up to 10 mL |
+1. Mix the following:
+
+    | Reagent | Amount Needed |
+    | ------- | :-----------: |
+    | NaOCl (from Fisher, cat #SS290-1) | 2 mL |
+    | 10 M NaOH | 0.5 mL |
+    | dH<sub>2</sub>O | up to 10 mL |
 
 Store at 4°C.

@@ -7,6 +7,7 @@ Zamanian Lab, adapted from Andersen Lab
 Use the unfiltered but sterile 5 mg/mL cholesterol in ethanol.
 
 To make this cholesterol,
+
 1. Take an autoclaved sterile 250 mL bottle.
 
 2. Add 1 g of powdered cholesterol (VWR Cat #0433-250G) to the bottle.

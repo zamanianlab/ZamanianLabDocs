@@ -14,7 +14,7 @@ Make a lot of these at a time; they last forever.
 
 4. Breathe on the coverslip to see on what side the pad stuck. Use this top coverslip as the bottom coverslip to make the next pad; its thin coating of agarose will make the pad stick to it instead of the fresh top coverslip.
 
-  _Note: This process can be made into an assembly line by lining up many coverslips on the edge of a bench (so you can quickly pick them up) and an equal number of coverslips perpendicular to the first set behind them. Spot the perpendicular coverslip, pick up the one at the edge of the bench, and drop it on top. Drop on the next coverslip to repeat on down the line. You can make 200 coverslips in about a half an hour._
+    _Note: This process can be made into an assembly line by lining up many coverslips on the edge of a bench (so you can quickly pick them up) and an equal number of coverslips perpendicular to the first set behind them. Spot the perpendicular coverslip, pick up the one at the edge of the bench, and drop it on top. Drop on the next coverslip to repeat on down the line. You can make 200 coverslips in about a half an hour._
 
 5. Place the coverslips flat in a box and cover the box with aluminum foil to dry. The box can be left out on the bench overnight, or bake in an oven at 65°C for 1 hr., or bake in an 80°C oven for 15 min.
 
@@ -28,15 +28,17 @@ We use "Glass 1BBL w/FIL 1.0 mm 4 IN" filaments, item #1B100F-4 from World Preci
 
 ### Needle Puller
 We use a Sutter Instruments, model P-87 needle puller.
+
 1. Turn the machine on (switch at left side, front).
 
 2. We use program 0 to pull needles for *C. elegans* microinjection. Press 0 on the keypad to use program 0.
-Program 0: Pressure = 500.
+
+  Program 0: Pressure = 500.
  - Heat 970, Pull 0, Velocity 30, Time 250
  - Heat 960, Pull 0, Velocity 40, Time 250
  - Heat 960, Pull 27-30<sup>1</sup>, Velocity 60, Time 252
 
-<sup>1</sup> Depending how long the machine has been running, it will pull needles a little differently (how "hot" it is). It is recommended to turn on the machine ~20 min. before pulling needles for injections. Sometimes it is needed to pull a couple of "fake" needles before the machine gets it right.
+  <sup>1</sup> Depending how long the machine has been running, it will pull needles a little differently (how "hot" it is). It is recommended to turn on the machine ~20 min. before pulling needles for injections. Sometimes it is needed to pull a couple of "fake" needles before the machine gets it right.
 
 3. Insert a glass filament into the groove of one of the pullers without touching your fingers to the part that will be heated or the filament. Loosen the clamping knob if necessary to allow the glass through.
 
@@ -166,7 +168,7 @@ _Note: As a beginner, stick a single animal on a pad. The trick is to stick the 
 8. Press the pedal to start the flow of DNA solution. If you're in the gonad it should be obvious; as the gonad is flooded it bloats like you're filling a sausage, and you can sometimes see the nuclei in the syncytium reacting to the flow. You want to put as much liquid in the gonad as possible; hopefully it will flow all the way around turn of the gonad. You will be able to see the green dye filling the gonad. A good rule of thumb is to inject until you see a good amount of liquid has made the turn and has flowed into the proximal gonad, and then shut off the flow.
 9. To stop the flow press the pedal again and move the animal away to get the needle out. Mello _et al._ (EMBO J. 10:3959-3970, 1991) show excellent photographs of a gonadal flood.
 
-_Note: Usually one gonad arm is much easier to see than the other, so some people only inject the easy gonad arm. Others try to inject both. If you miss the gonad, you will see green liquid filling the pseudocoelom. Usually, the animal will survive, and you can just try again. It is surprisingly hard to kill the worm by jabbing and injecting it incorrectly._
+    _Note: Usually one gonad arm is much easier to see than the other, so some people only inject the easy gonad arm. Others try to inject both. If you miss the gonad, you will see green liquid filling the pseudocoelom. Usually, the animal will survive, and you can just try again. It is surprisingly hard to kill the worm by jabbing and injecting it incorrectly._
 
 10. After you finish a worm, use the fine controls to lift the needle out of the oil before moving the stage to find a new worm, or removing the pad.
 
