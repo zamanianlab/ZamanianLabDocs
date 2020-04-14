@@ -6,11 +6,11 @@
 
 2. Click Settings on the main page.
 
-![Main Page](img/main_page.png)
+    ![Main Page](img/main_page.png)
 
 3. Ensure the settings are as expected and that the PCR Polymerase/Kit is set to what you plan to use (we typically use Q5). Click Done.
 
-![Main Page](img/settings.png)
+    ![Main Page](img/settings.png)
 
 4. Click NEW FRAGMENT.
 
@@ -22,7 +22,7 @@
 
     d. Click Add.
 
-![Backbone](img/vector.png)
+    ![Backbone](img/vector.png)
 
 5. Click NEW FRAGMENT.
 
@@ -32,13 +32,13 @@
 
 6. Repeat step 5 for as many fragments as necessary. When finished, the Build page should look something like below:
 
-![Assembly](img/assembly.png)
+    ![Assembly](img/assembly.png)
 
 7. Now is our chance to add spacers or cut sites in between each fragment. First off, click the pencil icon (edit) on the backbone vector (in this case, pPD95.75).
 
     a. Choose whether or not you want to regenerate the restriction sites. Generally, "Min" is the best choice, but be careful not to change the reading frame if you are assembling a fusion protein.
 
-![Site Regeneration](img/site_regeneration.png)
+      ![Site Regeneration](img/site_regeneration.png)
 
 8. Repeat step 7 if you want to add spacers between other fragments (i.e., you want to generate new cut sites between fragments).
 
