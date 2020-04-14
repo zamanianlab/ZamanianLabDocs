@@ -27,6 +27,7 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
 4. Mix the following in a 15 mL Falcon tube:
 
     **1 kb ladder stock**
+
     | Reagent                           | Amount  |
     |-----------------------------------|---------|
     | 10 mM Tris-Cl pH 8.0, 0.1 mM EDTA | 1.98 mL |
@@ -34,6 +35,7 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
     | 6x gel loading buffer             | 0.42 mL |
 
     **100 bp ladder stock**
+    
     | Reagent                           | Amount  |
     |-----------------------------------|---------|
     | 10 mM Tris-Cl pH 8.0, 0.1 mM EDTA | 1.98 mL |

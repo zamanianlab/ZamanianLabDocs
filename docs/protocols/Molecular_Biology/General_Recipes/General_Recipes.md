@@ -76,11 +76,11 @@
 ---
 ## EDTA 0.5 M (for 50X TAE, TE Buffer)
 
-    | Reagent | Amount |
-    |----------|--------|
-    EDTA, disodium salt	| 93 g
-    NaOH pellets | ~ 10g
-    dH2O | up to 500 mL
+  | Reagent | Amount |
+  |----------|--------|
+  EDTA, disodium salt	| 93 g
+  NaOH pellets | ~ 10g
+  dH2O | up to 500 mL
 
 1. Add EDTA powder to ~450 ml of dH2O with stirring and monitoring pH
 2. Slowly add the NaOH pellets until solution is at pH 8
@@ -91,11 +91,11 @@
 ---
 ## TRIS 1M pH 8 (for 50x TAE, TE Buffer)
 
-    | Reagent | Amount |
-    |----------|--------|
-    Tris Base | 121.14 g
-    HCl | ~ 80-85 mL
-    dH2O | up to 1L
+  | Reagent | Amount |
+  |----------|--------|
+  Tris Base | 121.14 g
+  HCl | ~ 80-85 mL
+  dH2O | up to 1L
 
 1. Dissolve Tris Base in 800 ml dH2O, while monitoring pH.
 2. Slowly add HCl until the solution is pH 8
