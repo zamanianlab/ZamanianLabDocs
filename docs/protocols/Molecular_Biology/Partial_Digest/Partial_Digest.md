@@ -2,21 +2,21 @@
 
 1. Add the following to a 1.5 mL tube:
 
-| Reagent      | Amount   |
-|--------------|----------|
-| Plasmid DNA  | 1 μg     |
-| 10X Buffer   | 2 μl     |
-| First enzyme | 1 μL     |
-| Water        | To 20 μL |
+    | Reagent      | Amount   |
+    |--------------|----------|
+    | Plasmid DNA  | 1 μg     |
+    | 10X Buffer   | 2 μl     |
+    | First enzyme | 1 μL     |
+    | Water        | To 20 μL |
 
 2. Incubate at the recommended temperature for 1 hour (or to completion).
 
 3. To the completed digest, add:
 
-| Reagent      | Amount   |
-|--------------|----------|
-| 10X Buffer   | 8 μl     |
-| Water        | 72 μL    |
+    | Reagent      | Amount   |
+    |--------------|----------|
+    | 10X Buffer   | 8 μl     |
+    | Water        | 72 μL    |
 
 4. Label the tube “A” and place on ice.
 
