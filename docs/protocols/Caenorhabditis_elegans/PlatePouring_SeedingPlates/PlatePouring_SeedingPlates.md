@@ -14,9 +14,9 @@
 
 1. Transfer the OP50 from the Stock Flask to the conical tube.
 
-- ONLY POUR AS MUCH AS YOU NEED FOR YOUR NUMBER OF PLATES (Once dispensed, extra bacteria should *not* be used later, but bleached and disposed of).
+    - ONLY POUR AS MUCH AS YOU NEED FOR YOUR NUMBER OF PLATES (Once dispensed, extra bacteria should *not* be used later, but bleached and disposed of).
 
-  ***NOTE:***_ Use a flame for sterile technique- sterilize the Glass Flask edge before and after dispensing into the tube. ***But DON'T flame the plastic tube!***
+    ***NOTE:*** Use a flame for sterile technique- sterilize the Glass Flask edge before and after dispensing into the tube. ***But DON'T flame the plastic tube!***
 
 2. Work where plates are normally poured. Set up the plates in stacks that are not too high, about 4 plates high.
 

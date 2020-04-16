@@ -82,13 +82,13 @@ Adapted from Robyn Tanny December 2013
 
 4. If there is contamination:
 
-a. Once there are gravid animals on the 10 cm plate, bleach the animals to clean any bacterial contaminants:
+  a. Once there are gravid animals on the 10 cm plate, bleach the animals to clean any bacterial contaminants:
 
-  i. Place 15 µL of bleach solution (recipe below) on the edge of a labeled 6 cm plate.
+    i. Place 15 µL of bleach solution (recipe below) on the edge of a labeled 6 cm plate.
 
-  ii. Place a minimum of 6 gravid animals into the bleach (10-15 animals is good). The bleach should dissolve the cuticle of the adult worms, releasing the embryos. Leave the plate lid-side up until all the bleach has soaked into the plate. After the bleach has soaked in, move the plate, lid-side down, to the optimal temperature for the worms.
+    ii. Place a minimum of 6 gravid animals into the bleach (10-15 animals is good). The bleach should dissolve the cuticle of the adult worms, releasing the embryos. Leave the plate lid-side up until all the bleach has soaked into the plate. After the bleach has soaked in, move the plate, lid-side down, to the optimal temperature for the worms.
 
-  iii. After ~24 hr., move L1s from the bleach plate to 4 separate clean, labeled 6 cm plates. You want between 10-20 L1s per plate- the more, the better.
+    iii. After ~24 hr., move L1s from the bleach plate to 4 separate clean, labeled 6 cm plates. You want between 10-20 L1s per plate- the more, the better.
 
   b. Parafilm the clean plates to keep at 15°C.
 

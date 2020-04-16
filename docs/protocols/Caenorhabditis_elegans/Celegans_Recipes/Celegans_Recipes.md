@@ -44,12 +44,12 @@
 
 1. Mix the following:
 
-  | Reagent | Amount Needed |
-  | ------- | :-----------: |
-  | NaCl, 5 M | 20 mL |
-  | Potassium Phosphate Buffer, 1 M pH 6| 50 mL |
-  |Cholesterol, 5 mg/mL in ethanol | 1 mL |
-  | dH<sub>2</sub>O | 930 mL |
+    | Reagent | Amount Needed |
+    | ------- | :-----------: |
+    | NaCl, 5 M | 20 mL |
+    | Potassium Phosphate Buffer, 1 M pH 6| 50 mL |
+    |Cholesterol, 5 mg/mL in ethanol | 1 mL |
+    | dH<sub>2</sub>O | 930 mL |
 
 2. Autoclave on liquid cycle for 1 hr. (Note that the solution will be cloudy)
 
@@ -196,7 +196,7 @@
     | NaOH Pellets* | 0.2 g | 4 g |
     | dH<sub>2</sub>O | up to 10 mL | up to 200 mL |
 
-*Note: If using a 10 M NaOH solution, add 0.5 mL to 10 mL Total Bleach Solution*
+    *Note: If using a 10 M NaOH solution, add 0.5 mL to 10 mL Total Bleach Solution*
 
 2. Store at 4°C.
 

@@ -1,12 +1,12 @@
 # Growing OP50 Cultures for Seeding NGMA Plates
+
 1. First locate your supplies:
-- Fresh LB streak plate of OP50 (no more than 2 weeks old) stored at 4°C
-- 250 mL LB in 500 mL flask(s) (usually every Monday)
 
-***NOTE:*** _This may already be prepared, but if not, prepare by autoclaving LB in flasks._
+  - Fresh LB streak plate of OP50 (no more than 2 weeks old) stored at 4°C
+  - 250 mL LB in 500 mL flask(s) (usually every Monday) ***NOTE:*** _This may already be prepared, but if not, prepare by autoclaving LB in flasks._
 
-- 6 cm unseeded NGMA plates
-- Plastic inoculating loops
+  - 6 cm unseeded NGMA plates
+  - Plastic inoculating loops
 
 2. Label the autoclaved, sterile 250 mL of LB with "OP50", your initials, and the date.
 

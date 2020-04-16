@@ -26,10 +26,10 @@
 ## Bleach Solution
 Bleach solution should be stored at 4°C.
 
-    | Reagent | Amount Needed |
-    | ------- | :-----------: |
-    | NaOCl (from Fisher, cat #SS290-1) | 2 mL |
-    | 10 M NaOH* | 0.5 mL |
-    | dH<sub>2</sub>O | up to 10 mL |
+  | Reagent | Amount Needed |
+  | ------- | :-----------: |
+  | NaOCl (from Fisher, cat #SS290-1) | 2 mL |
+  | 10 M NaOH* | 0.5 mL |
+  | dH<sub>2</sub>O | up to 10 mL |
 
 *can also use 0.2 g NaOH pellets per 10 mL of total bleach solution.
