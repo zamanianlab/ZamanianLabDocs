@@ -1,5 +1,11 @@
 # Zamanian Lab Protocols
 
+## **Lab Tasks**
+
+- [Staff Tasks](Tasks/Staff_Tasks/Staff_Tasks.md)
+
+- [Undergraduate Tasks](Tasks/UG_Tasks/UG_Tasks.md)
+
 ## **Molecular Biology**
 
 - [General Lab Recipes](Molecular_Biology/General_Recipes/General_Recipes.md)
