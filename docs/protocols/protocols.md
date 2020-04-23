@@ -94,7 +94,7 @@
 
 - [Water-jacketed Incubators](Lab_Operations/Waterjacketed_Incubator/Waterjacketed_Incubator.md)
 
-- [Connecting CO<sub>2</sub> Tanks](Lab_Operations/Connecting_CO2_Tanks/Connecting_CO2_Tanks_to_Incubators.md)
+- [Connecting CO<sub>2</sub> Tanks](Lab_Operations/Connecting_CO2_Tanks/Connecting_CO2_Tanks.md)
 
 
 ## **General**
