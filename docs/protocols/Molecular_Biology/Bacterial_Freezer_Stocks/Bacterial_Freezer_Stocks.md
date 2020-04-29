@@ -4,7 +4,7 @@
 
 2. Inoculate a single colony from the streak or transformation plate.
 
-3. Shake the tube at 37°C overnight.
+3. Set tube to shake in 37°C incubator overnight.
 
 4. After ~16 hours, take culture tubes out of the incubator and make freezer stocks as directed below.
 

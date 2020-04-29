@@ -21,22 +21,21 @@
 ### Preparation of Culture Media
 1. In an autoclaved glass bottle, add the following in the exact order listed:
 
-| Culture Media Component    | Volume/Quantity (250 mL)        |
-|----------------------------|----------------------------------------|
-|NCTC-135 Powder                   |1.16 g                                   |
-|NaHCO<sub>3</sub>                   |0.28 g                                    |
-|H<sub>2</sub>O                  |125 mL                                   |
-|IMDM                   |125 mL                                   |
-|Pen-Strep (10000 U/mL)   |2.5 mL |
-|Gentamicin |2.5 mL        |
-|Fungin                   |250 µL                                   |
-|Ciprofloxacin                  |250 µL                                   |
-|FBS       |50 mL                                    |
+    | Culture Media Component    | Volume/Quantity (250 mL)        |
+    |----------------------------|----------------------------------------|
+    |NCTC-135 Powder                   |1.16 g                                   |
+    |NaHCO<sub>3</sub>                   |0.28 g                                    |
+    |H<sub>2</sub>O                  |125 mL                                   |
+    |IMDM                   |125 mL                                   |
+    |Pen-Strep (10000 U/mL)   |2.5 mL |
+    |Gentamicin |2.5 mL        |
+    |Fungin                   |250 µL                                   |
+    |Ciprofloxacin                  |250 µL                                   |
+    |FBS       |50 mL                                    |
 
 2. Replace cap on media bottle and shake to mix. Filter the media using a 0.22 um filter.
 
-3. Label filtered media with: name of media, volume, date prepared, and initials.
-  - Media is good for 1 mo. post-preparation.
+3. Label filtered media with: name of media, volume, date prepared, and initials. Media is good for 1 month post-preparation.
 
 ### Extraction of *D. immitis* L3 from Mosquitoes
 

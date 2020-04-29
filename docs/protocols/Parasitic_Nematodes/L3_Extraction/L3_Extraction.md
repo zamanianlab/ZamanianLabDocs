@@ -1,6 +1,6 @@
 # Extraction of *Brugia* or *Dirofilaria* L3 from Infected Mosquitoes
 
-**General Note**: If working with *Brugia* infected mosquitoes, all members of the Zamanian and Bartholomay lab need to be notified 24 hours in advance. Screened-in room will need to be reserved and scheduled on the Google calendar Injection Schedule prior to BSL2 work. Before bringing out the mosquitoes from the insectary, place BSL2 signs on all entrances to the lab and to the screened dissection room. Put on lab coat, goggles and gloves.
+**General Note**: If working with *Brugia* infected mosquitoes, all members of the Zamanian and Bartholomay lab need to be notified 24 hours in advance. Screened-in room will need to be reserved and scheduled on the Google calendar Injection Schedule prior to BSL2 work. Before bringing out the mosquitoes from the insectary, place BSL2 signs on all entrances to the lab and to the screened dissection room. Put on PPE (lab coat, goggles and gloves).
 
 ## A. Bulk Extraction of L3
 ### Materials
@@ -17,7 +17,7 @@
     ![Image1](img/img1.png)
 
 ### Methods
-1. Aliquot 500 mL of RPMI-1640 into two bottles, with equal volume in each (2 x 250 mL). Add 2.5 mL of Pen/Strep stock solution and 2.5 mL Gentamicin to each aliquot. Then separate the RPMI into 2 separate bottles. Place one bottle in the fridge or on ice to cool and the other in a 37°C incubator.
+1. Aliquot 500 mL of RPMI-1640 into two bottles, with equal volume in each (2 x 250 mL). Add 2.5 mL of Pen-Strep stock solution and 2.5 mL Gentamicin to each aliquot. Then separate the RPMI into 2 separate bottles. Place one bottle in the fridge or on ice to cool and the other in a 37°C incubator.
 
 2. Cold anesthetize the mosquitoes in the cartons (place the cartons in -20°C refrigerator for about 20-30 s., or until knocked down). You can put up to ~600 mosquitoes in the mortar, so combine the cartons as needed (2 cartons into 1 or 3 cartons into 2). When ready, quickly transfer, at once, all mosquitoes in the carton to the mortar.
 

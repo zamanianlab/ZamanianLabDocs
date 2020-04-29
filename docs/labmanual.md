@@ -68,7 +68,7 @@ The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared elec
 
 All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
-- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``, ``/GPCR_assays/``, ``/RNAi_experiments/``, and ``/ISH/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
+- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
 
 - ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
@@ -85,13 +85,11 @@ I will hold weekly one-on-meetings with every graduate student and postdoc, exce
 
 ### A. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff:
-
-- ``/LabTasks/``: *UndergradTasks.pdf* and *StaffTasks.pdf*
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks.md).
 
 ### B. Lab inventory
 
-The locations of **all reagents and consumables** will be stored on **[Quartzy](<http://www.quartzy.com>)**. Lab members will be expected to return **ALL** items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, and parasite materials.
+The locations of **all reagents and consumables** will be stored on **[Quartzy](<http://www.quartzy.com>)**. Lab members will be expected to return **ALL** items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
 
 ### C. General Lab Ordering
 
@@ -115,25 +113,30 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
 
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
-### A. Oligos   
-
-```
-Oligo Naming: oMZ####
-Storage box labels (-20C): "Oligo Stocks #"
-```
+### A. Oligo Stocks
 
 Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (**Species**, **Oligo Pairing**, **Molecular Target**, **Amplicon Length**, and **Tm**) within the spreadsheet order form. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
 
+```
+Oligo Name: oMZ####
+Storage box labels (-20C): "Oligo Stocks #"
+* Quartzy Update (Type = 'Oligo or Primer'):
+    Item Name (=Oligo Name)
+    Species
+    Sequence
+    Resistance Marker
+    Use (e.g., " ")
+    Location
+```
+
 **Primers:** Make **100 uM** lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
 
-### B. Lab and Commercial Plasmids                
+### B. Plasmids (Lab and Commercial)                
 
 Lab Plasmids are plasmids created or designed by our lab for long-term use and storage. Commercial (external) Plasmids are plasmids we have received as gifts or ordered from vendors.
 
-#### Lab and Commercial Plasmid inventory
-
 ```
-Plasmid Naming: pMZ#### (lab) or Original Plasmid Name
+Plasmid Name: pMZ#### (lab) or Original Name
 Storage box labels (-80C & -20C):
     "Lab Plasmids #" or "Commercial Plasmids #"
 Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
@@ -141,10 +144,11 @@ Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
     Plasmid Name
     Concentration
     Date Frozen
-* Quartzy Update (Iventory Type = 'Plasmids'):
+* Quartzy Update (Type = 'Plasmids'):
     Item Name (=Plasmid Name)
-    Date Frozen
+    Amount In Stock (units)
     Location
+    Date Frozen
     Resistance Marker
     Use (e.g., "gene X RNAi" or "C. elegans transgene")
 ```
@@ -161,21 +165,51 @@ Tube Counts: 2 copies (-80C) + 1 copy (N2)
     Plasmid Name
     Bacteria (eg., DH5a)
     Date Frozen
-* Quartzy Update (Iventory Type = 'Bacterial Stock'):
+* Quartzy Update (Type = 'Transformed Bacteria'):
     Item Name (=Plasmid Name)
+    Amount In Stock (units)
+    Location
     Bacteria (eg., DH5a)
     Date Frozen
-    Location
+    Plasmid (=Plasmid name)
     Resistance Marker
 ```
 
-### D. *C. elegans* Bacterial Stocks
+### D. Feeding (*C. elegans*) Bacteria
 
 Boxes specific to each bacteria (e.g., OP50, HB101, NA22) used for *C. elegans* feeding should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
 
-### E. Competent Bacterial Stocks
+```
+Storage box labels (-80C):
+  "Bacteria Name"
+Tube Counts: Variable
+* Tube Labels
+    Bacteria (e.g., OP50)
+    Date Frozen
+* Quartzy Update (Type = 'Feeding Bacteria'):
+    Item Name (=Bacteria Name)
+    Amount In Stock (units)
+    Location
+    Date Frozen
+```
+
+
+### E. Competent Bacteria
 
 Boxes specific to each competent bacteria (DH5a, JM101) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
+
+```
+Storage box labels (-80C):
+  "Bacteria Name"
+Tube Counts: Variable
+* Tube Labels
+    Bacteria (e.g., DH5a)
+    Date Frozen
+* Quartzy Update (Type = 'Competent Bacteria'):
+    Item Name (=Bacteria Name)
+    Location
+    Date Frozen
+```
 
 ## VI. *Caenorhabditis elegans* Strains
 
@@ -208,18 +242,16 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Delivery Schedule
 
-We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md). Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
+We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
 
 ### B. Storage of General Parasite Materials
 
-General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tissue and Nucleic Acid Inventory** sheet linked in [Lab Sheets](labsheets.md).
+General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tissue and Nucleic Acid Inventory** sheet linked in [Lab Sheets](labsheets.md). The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
 ```
 Tissue tube label: Species, Stage, Date frozen, Number of worms
 RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
 ```
-
-Each files has three sheets (Tissue, RNA, and gDNA). The spreadsheets should be filled out with additional information, including the origin of the parasites, the method of RNA or DNA extraction, and the method used to spec purity and concentration. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
 ### C. Parasite Infections (Insectary)
 

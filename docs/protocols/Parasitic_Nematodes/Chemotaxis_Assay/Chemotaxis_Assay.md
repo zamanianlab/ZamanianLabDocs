@@ -5,7 +5,8 @@
 - Make 0.8% (w/v) agarose plates. Microwave to dissolve (mix intermittently). Pour ~10 mL of agarose into each 6 cm plate.
 
 - Once plates are solidified, measure and label the chemotaxis plate like the image below:
-![Image1](img/img1.png)
+
+    ![Image1](img/img1.png)
 
 ## Assay Setup
 
@@ -13,13 +14,13 @@
 
 2. Place 2 µL of DI H2O in the M-area, and then pick 8-10 L3s/L4s and place in the DI H2O in M-area
 
-![Image2](img/img2.png)
+    ![Image2](img/img2.png)
 
 3. After L3s are placed, add 3 µl of test compound into the T-zone and 3 µl of DI H2O into the C-zone
 
 4. Place plates in 37°C incubator monitor the L3 migration every 10 min.
 
-![Image3](img/img3.png)
+    ![Image3](img/img3.png)
 
 5. Once majority of L3 have begun to migrate, count the L3s in each zone/area. This includes counting the L3s that have not left the center.
 

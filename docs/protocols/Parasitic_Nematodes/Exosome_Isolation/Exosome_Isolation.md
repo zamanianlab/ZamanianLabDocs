@@ -9,7 +9,7 @@ This protocol is used to purify exosome-like vesicles (ELVs) from nematode cultu
 - Ultracentrifuge metal tubes
 - Beckman centrifuge tubes
 
-**Note:** All spins occur at 4°C. Place tubes containing supernatant on ice.
+**Note:** All centrifugation should be carried out at 4°C. Keep tubes on ice.
 
 1. Transfer culture media to 30 mL screw cap centrifuge tubes and fill with 1x PBS until ~ 2cm from the top of the tube (do not fill to the brim). If you do not have an even number of tubes, fill a screw cap tube with water. Balance your tubes using PBS on the scale.
 
