@@ -85,7 +85,7 @@ I will hold weekly one-on-meetings with every graduate student and postdoc, exce
 
 ### A. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks.md).
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md).
 
 ### B. Lab inventory
 
@@ -255,16 +255,12 @@ RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
 
 ### C. Parasite Infections (Insectary)
 
-The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for filarial parasite infection and L3 isolation can be found on our [Protocols](protocols/protocols.md) page.
-
-Mosquito strains available for parasite infection:
+The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for filarial parasite infection and L3 isolation can be found on our [Protocols](protocols/protocols.md) page. Mosquito strains available for parasite infection:
 
 - ***Ae. aegypti LVP*** strain: used for *B. malayi* and *B. pahangi* infections
 - ***Ae. aegypti SD*** strain: used for *D. immitis* infections
 
-Strains must be ordered in advance for infection. Expect a minimum of 1 L3 per infected mosquito. Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden.
-
-Information on active and planned mosquito infections can be found in:
+Strains must be ordered in advance for infection. Expect a minimum of 1 L3 per infected mosquito. Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden. Information on active and planned mosquito infections can be found in:
 
 - ``/Infections/``: *LocalInfectionSchedule.xlsx*
 
@@ -276,8 +272,8 @@ To streamline collaborative writing and/or editing of manuscripts and fellowship
 
 ## IX. Lab Safety
 
-All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. As a starting point, all lab members should register for and complete the course titled **"Biosafety Required Training"** through the Learn@UW portal. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
+All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. As a starting point, all lab members should register for and complete the course titled "Biosafety Required Training" through the Learn@UW portal. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
 
-**E-mail both the Bartholomay and Zamanian lab list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.**
+**E-mail both the Bartholomay and Zamanian lab** list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.**
 
 Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
