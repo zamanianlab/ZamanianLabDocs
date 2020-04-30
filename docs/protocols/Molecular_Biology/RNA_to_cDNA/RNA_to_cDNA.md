@@ -1,8 +1,12 @@
-# Total Parasite RNA to cDNA Synthesis
+# Total Nematode RNA to cDNA Synthesis
 
-**General Note**: Thermo Fisher Scientific SuperScript™ III First-Strand Synthesis System will be used and followed to generate cDNA from total parasite RNA. A description of this protocol is below.
+## Materials
 
-## Methods
+  - SuperScript™ III First-Strand Synthesis Kit (Invitrogen #18080051)
+
+## Protocol
+
+*Note:* Follow the kit protocol, with minor modifications that include the mixing of Oligo dT and Random Hexamer primers. 
 
 1. Mix and centrifuge each component of the SuperScript III kit (-20°C Stag-moose).
 
@@ -16,7 +20,7 @@
     |10 mM dNTP mix| 1 µL |
     |Molecular Grade H<sub>2</sub>O| to 10 µL |
 
-3. Incubate the tube at 65ºC for 5 minutes, then place on ice for at least 1 min.
+3. Incubate the tube at 65ºC for 5 minutes using the thermocycler, then place on ice for at least 1 min.
 
 4. Prepare the following cDNA Synthesis Mix, adding each component in the indicated order. Synthesis Mix is enough for one reaction (scale accordingly).
 

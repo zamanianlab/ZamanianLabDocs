@@ -16,9 +16,9 @@
 
     | Antibiotic | Stock | Dilution | Final | Volume (for 500 mL media)
     |----------|--------|--------|--------|--------|
-    Ampicillin | 100 mg/ml | 1:1000 | 100 μg/ml | 0.5 ml
-    Kanamycin | 50 mg/ml | 1:1000 | 50 μg/ml | 0.5 ml
-    Chloramphenicol | 50 mg/ml | 1:3333 | 15 μg/ml | 0.15 ml
+    Ampicillin | 100 mg/mL | 1:1000 | 100 μg/mL | 0.5 mL
+    Kanamycin | 50 mg/mL | 1:1000 | 50 μg/mL | 0.5 mL
+    Chloramphenicol | 50 mg/mL | 1:3333 | 15 μg/mL | 0.15 mL
 
 4. Store media with antibiotics at 4°C
 
@@ -42,17 +42,17 @@
 
     | Antibiotic | Stock | Final | Volume (for 500 mL media)
     |----------|--------|--------|--------|
-    Ampicillin | 100 mg/ml | 100 μg/ml | 0.5 ml
-    Kanamycin | 50 mg/ml | 50 μg/ml | 0.5 ml
-    Chloramphenicol | 50 mg/ml | 15 μg/ml | 0.15 ml
+    Ampicillin | 100 mg/mL | 100 μg/mL | 0.5 mL
+    Kanamycin | 50 mg/mL | 50 μg/mL | 0.5 mL
+    Chloramphenicol | 50 mg/mL | 15 μg/mL | 0.15 mL
 
 5. Mix well after adding antiobiotic and then pour
 6. Optional: If needed for blue/white screening, add X-Gal and IPTG:
 
     | Antibiotic | Stock | Final | Volume (for 500 mL media)
     |----------|--------|--------|--------|
-    X-Gal (reconstituted in DMSO) | 50 mg/ml | 200 μg/ml | 2 ml
-    IPTG (reconstituted in Water) | 100 mM | 1 mM | 5 ml
+    X-Gal (reconstituted in DMSO) | 50 mg/mL | 200 μg/mL | 2 mL
+    IPTG (reconstituted in Water) | 100 mM | 1 mM | 5 mL
 
 7. Store plates at 4°C
 
@@ -65,8 +65,8 @@
     | Reagent | Amount |
     |----------|--------|
     Tris Base	| 242 g
-    EDTA (0.5 M pH 8) | 100 ml
-    Glacial Acetic Acid | 57.1 ml
+    EDTA (0.5 M pH 8) | 100 mL
+    Glacial Acetic Acid | 57.1 mL
     dH2O | up to 1 L
 
 * Be **very careful** when pipetting the glacial acetic acid, as it is very caustic.
@@ -79,11 +79,11 @@
   | Reagent | Amount |
   |----------|--------|
   EDTA, disodium salt	| 93 g
-  NaOH pellets | ~ 10g
+  NaOH pellets | ~ 10 g
   dH2O | up to 500 mL
 
-1. Add EDTA powder to ~450 ml of dH2O with stirring and monitoring pH
-2. Slowly add the NaOH pellets until solution is at pH 8
+1. Add EDTA powder to ~450 mL of dH2O while stirring and monitoring pH
+2. Slowly add the NaOH pellets until pH = 8
 3. Bring the volume up to 500 mL
 4. Filter sterilize
 
@@ -95,12 +95,12 @@
   |----------|--------|
   Tris Base | 121.14 g
   HCl | ~ 80-85 mL
-  dH2O | up to 1L
+  dH2O | up to 1 L
 
-1. Dissolve Tris Base in 800 ml dH2O, while monitoring pH.
-2. Slowly add HCl until the solution is pH 8
-3. Bring final volume to 1L
-4. Aliquot 200 ml into 250 ml bottles
+1. Dissolve Tris Base in 800 mL dH2O, while monitoring pH.
+2. Slowly add HCl until pH = 8
+3. Bring final volume to 1 L
+4. Aliquot 200 mL into 250 mL bottles
 5. Autoclave on liquid cycle for 30 minutes
 
 

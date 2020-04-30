@@ -35,11 +35,11 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
     | 6x gel loading buffer             | 0.42 mL |
 
     **100 bp ladder stock**
-    
+
     | Reagent                           | Amount  |
     |-----------------------------------|---------|
     | 10 mM Tris-Cl pH 8.0, 0.1 mM EDTA | 1.98 mL |
     | PstI digest                       | 0.1 mL  |
     | 6x gel loading buffer             | 0.42 mL |
 
-5. Aliquot 1.25 mL into 1.5 mL tubes.
+5. Aliquot 1.25 mL into 1.5 mL tubes. Store aliquots in the -20°C freezer.

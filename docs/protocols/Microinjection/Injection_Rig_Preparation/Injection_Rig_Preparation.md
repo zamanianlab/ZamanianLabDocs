@@ -16,9 +16,9 @@ Adapted from [Panther Air Compressor](../Injection_Rig_Preparation/PantherAirCom
 
     ![FilterRegulator](img/FilterRegulator.PNG)
 
-## FemtoJet 4x
+## FemtoJet 4X
 
-Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
+Adapted from [FemtoJet 4X](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
 1. Ensure the compressor is properly setup and connected.
 
@@ -133,4 +133,4 @@ Adapted from [FemtoJet 4x](../Injection_Rig_Preparation/FemtoJet4x.pdf)
 
   - Check the air filter.
 
-  - Wipe down the FemtoJet 4x
+  - Wipe down the FemtoJet 4X

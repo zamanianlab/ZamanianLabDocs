@@ -1,8 +1,13 @@
-# dsRNA Generation for RNAi Experiments
+# dsRNA Synthesis for RNAi
 
 **General Note**: This protocol assumes you have already cloned a ~400-600 base pair fragment of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).
 
-### Adding T7 sites and scaling up the T7 template
+## Materials
+
+  - MegaScript RNAi kit (Ambion AM1626)
+  - Eliminase
+
+## Adding T7 sites and scaling up the T7 template
 
 1. Assemble master mix according to table below (this is for a single T7 reaction, scale as needed).
 
@@ -29,7 +34,7 @@
 
 3. Pool PCR products for each target. Run 5 uL of product on an agarose gel to verify that the PCR worked.
 
-### Purification and concentration of DNA
+## Purification and concentration of DNA
 Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 1. Add 5 volumes of Buffer PB to 1 volume of the PCR reaction and mix.
@@ -46,9 +51,9 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 7. Measure DNA concentration using Nanodrop.
 
-### T7 *in vitro* transcription (IVT)
+## T7 *in vitro* transcription (IVT)
 
-1. Within the BSC, clean all barrier pipette tips and pipettes, gloves, and bench space with RNase Zap or Eliminase (chemical shelf in Room 230). Use the MegaScript RNAi kit (-20ºC Stagmoose) to assemble the IVT reaction.
+1. Within the BSC, clean all barrier pipette tips and pipettes, gloves, and bench space with RNase Zap or Eliminase. Use the MegaScript RNAi kit to assemble the IVT reaction.
 
     |  Component | Volume |
     |--------------|---------|
@@ -66,9 +71,9 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 2. Mix throughly by gently flicking the tube or pipette the mixture up and down, then briefly microcentrifuge to collect the reaction mixture at the bottom of the tube.
 
-3. Incubate at 37ºC for 4 hrs.
+3. Incubate at 37ºC for 4 hr.
 
-### Nuclease digestion to remove DNA and ssRNA
+## Nuclease digestion to remove DNA and ssRNA
 
 1. In the same tube as the IVT reaction, assemble the following digestion reaction in order to digest template DNA and any ssRNA (scale as needed):
 
@@ -83,7 +88,9 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 2. Incubate at 37ºC for 1 hr.
 
-### Phenol/chloroform purification
+## dsRNA Purification (cartridge or phenol/chloroform)
+
+*Note: You can use either the filter cartridges associated with this kit or carry out a phenol/chloroform purification.*
 
 1. Add the following to the previous 50 µL reaction (scale as needed):
 

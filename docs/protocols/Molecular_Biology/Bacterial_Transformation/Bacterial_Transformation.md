@@ -14,7 +14,7 @@
 
 3. Place the competent cell and DNA mixture on ice for 20-30 min.
 
-4. Heat-shock mixture by placing the bottom 1/2 to 2/3 of the tube into a 42°C water bath for 30-60s (45s is probably best).
+4. Heat-shock mixture by placing the bottom 1/2 to 2/3 of the tube into a 42°C water bath for 30-60 s. (45 s. is probably best).
 
 7. Place on ice for 2 min.
 
@@ -22,7 +22,7 @@
 
 9. Incubate at 37°C with shaking for 45 min.
 
-10. Plate bacteria on agar plates, usually 3 plates with 100 uL, 200 uL, and 300 uL each. Pipette bacteria onto the plate, add ~10 glass beads, put the lid on the plate and slowly roll the beads through the liquid and around the entire surface area of the plate.
+10. Plate bacteria on agar plates, typically 3 plates with 100 uL, 200 uL, and 300 uL each. Pipette bacteria onto the plate, add ~10 glass beads, put the lid on the plate and slowly roll the beads through the liquid and around the entire surface area of the plate.
 
 11. Dump used beads into a glass bottle with 100% ethanol for later re-use.
 

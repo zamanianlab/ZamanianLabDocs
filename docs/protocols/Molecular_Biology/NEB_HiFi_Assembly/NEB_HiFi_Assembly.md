@@ -77,9 +77,9 @@ be used for the PCRs that generate the fragment.
 
     a. The example continued:
 
-    | **Fragment**            | **Concentration** |
+    | **Fragment**            | **Concentration (ng/μL)** |
     |-------------------------|-------------------|
-    | **XbaI/EcoRI pPD95.75** | 11.8 ng/μL        |
+    | **XbaI/EcoRI pPD95.75** | 11.8              |
     | **cel-osm-9p**          | 120               |
     | **bma-osm-9**           | 117               |
     | **cel-tax-4p**          | 95.4              |

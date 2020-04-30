@@ -28,7 +28,7 @@
 
 - Before optimizing your primers, validate that they work and produce the expected amplicon length by performing normal PCR on a plasmid template and/or cDNA template.
 
-- Book the qPCR machine (room 311) on the morning of the reaction.
+- Book the qPCR machine on the morning of the reaction.
 
 ## Primer optimization
 
@@ -44,25 +44,23 @@
 
 1. Use the table below to calculate qPCR primer stock concentrations:
 
-| C<sub>f</sub> (qPCR primers, nM) | V<sub>f</sub (qPCR Reaction) | V<sub>i</sub> (Primer + Water Input) | C<sub>i</sub> (Primer Input) |
-|----------------------------------|------------------------------|--------------------------------------|------------------------------|
-| 300                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | = A1 * B1 / C1 = 750         |
-| 500                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | = A2 * B2 / C2 = 1250        |
-| 800                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | = A3 * B3 / C3 = 2000        |
+  | C<sub>f</sub> (Primers, nM) | V<sub>f</sub> (Reaction, μL) | V<sub>i</sub> (Primer + Water Input, μL) | C<sub>i</sub> (Primer Input, nM) |
+  |----------------------------------|------------------------------|--------------------------------------|------------------------------|
+  | 300                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | = A1 * B1 / C1 = 750         |
+  | 500                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | = A2 * B2 / C2 = 1250        |
+  | 800                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | = A3 * B3 / C3 = 2000        |
 
-**NOTE: volumes in D are calculated using a cDNA input of 2 μL and will need to be adjust for different inputs.**
+  **NOTE: volumes in D are calculated using a cDNA input of 2 μL and will need to be adjust for different inputs.**
 
-2. Use a separate freezer box for qPCR primer and make a new 10 μM working stock that contains both the forward and the reverse primer.
-
-    a. Add 20 μL of each primer and 160 μL water.
+2. Mix 20 uL of each stock qPCR primer (100 μM) and 160 μL water to achieve final primer concentrations of 10 μM.
 
 3. Use the table below to calculate the dilutions for qPCR primer stocks. Add the appropriate volume of 10 μM working stock to water for a final volume of 50 μL.
 
-| C<sub>f</sub> (qPCR primer stock, nM) | V<sub>f</sub (qPCR Primer Stock) | C<sub>i</sub> (Primer Stock) | V<sub>i</sub> (Primer Stock Input) |
-|---------------------------------------|----------------------------------|------------------------------|------------------------------------|
-| 750                                   | 50                               | 10                           | = A1 / 1000 * B1 / C1 = 3.75       |
-| 1250                                  | 50                               | 10                           | = A2 / 1000 * B2 / C2 = 6.25       |
-| 2000                                  | 50                               | 10                           | = A3 / 1000 * B3 / C3 = 10         |
+  | C<sub>f</sub> (qPCR primer stock, nM) | V<sub>f</sub> (qPCR Primer Stock, μL) | C<sub>i</sub> (Primer Stock, nM) | V<sub>i</sub> (Primer Stock Input, μL) |
+  |---------------------------------------|----------------------------------|------------------------------|------------------------------------|
+  | 750                                   | 50                               | 10                           | = A1 / 1000 * B1 / C1 = 3.75       |
+  | 1250                                  | 50                               | 10                           | = A2 / 1000 * B2 / C2 = 6.25       |
+  | 2000                                  | 50                               | 10                           | = A3 / 1000 * B3 / C3 = 10         |
 
 ### Plate setup
 

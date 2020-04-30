@@ -1,11 +1,19 @@
 # Microinjection
-by Michael Koelle (08/23/94), edited by Erik Andersen (08/10/09), Troy Meikle (04/24/18), and Kathy Vaccaro (03/09/20)
+
+*History:* Protocol adapted from Michael Koelle (08/23/94), edited by Erik Andersen (08/10/09), Troy Meikle (04/24/18), and Kathy Vaccaro (03/09/20).
 
 You will have a couple frustrating sessions when you first attempt this technique. Everyone seems to master injection after a few days, and it works quickly and reliably once you have some experience.
 
 ## Materials
-### Agarose Pads
+  - Agarose Pads
+  - M9 (recovery buffer)
+  - Sutter Instruments P-87 needle puller
+  - Glass 1BBL w/FIL 1.0 mm 4 IN filaments (WPI #1B100F-4)
+  - Halocarbon oil series HC-700, 8 oz. bottle (Sigma-Aldrich, H8898-50ML)
+
+#### Agarose Pads
 Make a lot of these at a time; they last forever.
+
 1. Using a transfer pipette, drop melted 2% agarose in sterile water on a 24x50 mm coverslip. The size of the droplet should be moderate - not too large, not too small, though this isn't precise nor a rigid requirement.
 
 2. Drop a second coverslip on top, which will flatten the agarose into a thin pad. Try to avoid air bubbles, but a few won't hurt anything.
@@ -20,13 +28,10 @@ Make a lot of these at a time; they last forever.
 
 6. Once dried, you can store the pads in the original coverslip box.
 
-### Recovery Buffer
-- M9
+#### Microinjection Needles
+We use "Glass 1BBL w/FIL 1.0 mm 4 IN" filaments (#1B100F-4) from World Precision Instruments, Inc. Keep these clean and always immediately recap the tube after removing a filament.
 
-### Microinjection Needles
-We use "Glass 1BBL w/FIL 1.0 mm 4 IN" filaments, item #1B100F-4 from World Precision Instruments, Inc. Keep these clean and always immediately recap the tube after removing a filament.
-
-### Needle Puller
+#### Needle Puller
 We use a Sutter Instruments, model P-87 needle puller.
 
 1. Turn the machine on (switch at left side, front).
@@ -56,8 +61,7 @@ We use a Sutter Instruments, model P-87 needle puller.
 
 9. Press the green "PULL" button on the keypad to pull the needle using Program 0. The program should loop only once and finish at the last line of the program (Line 3). If it finishes early, try pulling a needle once or twice more to warm up the machine.
 
-### Microinjection oil
-- Halocarbon oil series HC-700, 8 oz. bottle (Sigma-Aldrich, H8898-50ML)
+---
 
 ## Making the DNA Solution
 
@@ -101,7 +105,7 @@ The foot pedal is set to inject when depressed (time is blank on screen). It wil
 
 6. Examine the needles under a dissecting microscope to ensure that none have particles or bubbles in the tip (these will clog the needle). Bubbles sometimes clear from the tip.
 
-OR
+  OR
 
 1. Use a pipette to pipette DNA into the back of the needle. Wait 2-3 minutes for the DNA solution to move to the tip via capillary action.
 
@@ -146,7 +150,7 @@ OR
 
 5. Use a strand of eyebrow hair taped to a glass pipette to orient the worm and stick it to the agarose pad.
 
-_Note: As a beginner, stick a single animal on a pad. The trick is to stick the animals down in the same orientation so that each animal's vulva is pointed to the same side. You don't want the syncytial gonad to be on top or underneath the animal. When the animal is in the oil, the syncytial gonad is visible as two clear areas towards the anterior and posterior of the animal. To stick the animal right, wait until it is floating in the oil so that it's body flexures go sideways, not up and down, and pat the animal down on the agarose pad with your pick until it is stuck to the pad. Avoid storking or patting the animal on the head, which can kill it. Ideally, the animal will be fully immobilized except for ti's head, which will still be free and wiggling. the animals stick best when they first touch the pad. If you fail to stick them on the first try, the pad will not stick to the same part of the animal again. Practice sticking down a whole set of animals in a line in the same orientation for assembly line injecting. Once the animals are in the oil, work reasonably fast to get the procedure over with before the animals dehydrate (roughly 10 min.)._
+  _Note: As a beginner, stick a single animal on a pad. The trick is to stick the animals down in the same orientation so that each animal's vulva is pointed to the same side. You don't want the syncytial gonad to be on top or underneath the animal. When the animal is in the oil, the syncytial gonad is visible as two clear areas towards the anterior and posterior of the animal. To stick the animal right, wait until it is floating in the oil so that it's body flexures go sideways, not up and down, and pat the animal down on the agarose pad with your pick until it is stuck to the pad. Avoid storking or patting the animal on the head, which can kill it. Ideally, the animal will be fully immobilized except for its head, which will still be free and wiggling. the animals stick best when they first touch the pad. If you fail to stick them on the first try, the pad will not stick to the same part of the animal again. Practice sticking down a whole set of animals in a line in the same orientation for assembly line injecting. Once the animals are in the oil, work reasonably fast to get the procedure over with before the animals dehydrate (roughly 10 min.)._
 
 ## Injection
 1. Raise the injection needle off of the stage to allow room to put the injection pad with worms on the floating stage.
@@ -172,9 +176,9 @@ _Note: As a beginner, stick a single animal on a pad. The trick is to stick the 
 
 10. After you finish a worm, use the fine controls to lift the needle out of the oil before moving the stage to find a new worm, or removing the pad.
 
-_Note: Eventually needles tend to clog and must be changed._
+  _Note: Eventually needles tend to clog and must be changed._
 
-![Image](img/Injection.PNG)
+  ![Image](img/Injection.PNG)
 
 ## Recovery
 1. Put the pad under the dissecting scope (on the inverted plate lid) and using a mouth pipette place a drop of recovery buffer on the worm.
@@ -183,11 +187,11 @@ _Note: Eventually needles tend to clog and must be changed._
 
 3. Mouth pipette the worms in recovery buffer onto a fresh plate.
 
-_Note: I put six worms (from the same injection) onto the same plate._
+  _Note: I put six worms (from the same injection) onto the same plate._
 
 ## Results
 1. Three to four days later, score the progeny of the injected worms for the co-injection marker phenotype. Each animal in the F<sub>1</sub> is considered an independent transformant (even if they come from the same injected P<sub>0</sub>). Therefore, each F<sub>1</sub> should be picked to a different plate to try to get independent lines.
 
 2. Three days after picking individual F<sub>1</sub> transformants, check the plates to see if these have transmitted the co-injection marker to the next generation at a high rate (ideally, up to 90-100% of progeny for really good injections, but over 50% can be good enough for some strains). Continue to propagate these plates to the F2 generation and beyond (to ensure they don't suddenly lose the marker). Perform lysis reactions and PCRs to check for the desired transgenes in these lines. Once confirmed via PCR, pick the three highest transmitted independent lines to freeze and name with the lab naming convention "ZAM#". Chunk from the F2 plates (we want to freeze strains at the "earliest" point of their birth).
 
-_Note: Typically, people inject 10-20 P<sub>0</sub>'s, and you should expect to get 0-300 F<sub>1</sub> transformants. Of the F<sub>1</sub> transformants, typically about 5-70% will transmit the array, allowing a line to be established. These lines transmit the array to 30-100% of their progeny. There is variation among lines transformed with the same DNA. For example, only a fraction of lines transformed with a cosmid/co-injection marker might give rescue of a mutant phenotype, and the strength of the rescue (the penetrance and/or expressivity) will vary among lines that show rescue. For a conservative analysis of gene function, one should look at six lines before they tentatively believe any result. Additionally, GFP fusion constructs can be used to identify the tissue or cell where your favorite gene is expressed. Transgene arrays are composed of concatemers of whatever was injected in random order, orientation, and composition. For example, transgenes can combine the co-injection marker promoter to GFP. Be careful when interpreting transgenic lines, either rescue or expression. Some lines transmit at only a few percent per generation. The frequency of transmission varies from animal to animal. Keep lines with low transmission, as they are more useful than high transmitting lines for integrating the transgene (integration creates 100% transmission). Also, transmission, rescue, and expression from some transgenes change over time, likely due to changes in chromatin structure._
+  _Note: Typically, people inject 10-20 P<sub>0</sub>'s, and you should expect to get 0-300 F<sub>1</sub> transformants. Of the F<sub>1</sub> transformants, typically about 5-70% will transmit the array, allowing a line to be established. These lines transmit the array to 30-100% of their progeny. There is variation among lines transformed with the same DNA. For example, only a fraction of lines transformed with a cosmid/co-injection marker might give rescue of a mutant phenotype, and the strength of the rescue (the penetrance and/or expressivity) will vary among lines that show rescue. For a conservative analysis of gene function, one should look at six lines before they tentatively believe any result. Additionally, GFP fusion constructs can be used to identify the tissue or cell where your favorite gene is expressed. Transgene arrays are composed of concatemers of whatever was injected in random order, orientation, and composition. For example, transgenes can combine the co-injection marker promoter to GFP. Be careful when interpreting transgenic lines, either rescue or expression. Some lines transmit at only a few percent per generation. The frequency of transmission varies from animal to animal. Keep lines with low transmission, as they are more useful than high transmitting lines for integrating the transgene (integration creates 100% transmission). Also, transmission, rescue, and expression from some transgenes change over time, likely due to changes in chromatin structure._
