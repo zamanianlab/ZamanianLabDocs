@@ -33,7 +33,7 @@
     |Ciprofloxacin                  |250 µL                                   |
     |FBS       |50 mL                                    |
 
-2. Replace cap on media bottle and shake to mix. Filter the media using a 0.22 um filter.
+2. Replace cap on media bottle and shake to mix. Filter the media using a 0.22 µm filter.
 
 3. Label filtered media with: name of media, volume, date prepared, and initials. Media is good for 1 month post-preparation.
 

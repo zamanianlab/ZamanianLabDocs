@@ -1,6 +1,6 @@
 # Infecting Mosquitoes with Microfilaremic Blood
 
-General Note: Remove the sucrose pad(s) the night before feeding for LVP or 2 hrs. before feeding for AaSD.
+General Note: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr. before feeding for AaSD.
 
 ## Preparing blood for blood feeding
 - Appropriate concentrations for blood feeding:
@@ -13,14 +13,13 @@ General Note: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr
 
 1. Invert the tube of infected blood to mix the microfilariae (mf).  
 
-2. Remove 20 µL of infected blood and put it into 50 µL of dH2O on a slide and mix with a pipette tip.
+2. Add 20 µL of infected blood to 50 µL of dH2O on a slide and mix with a pipette tip.
 
-3. Place the slide on a compound scope and count the mf. Start at a corner of the cover slip and count the mf in the fluid outside of the coverslip. Once the perimeter has been counted, count the mf using an s-pattern.
+3. Place the slide on a compound microscope and count the mf. Start at a corner of the cover slip and count the mf in the fluid outside of the coverslip. Once the perimeter has been counted, count the mf using an s-pattern.
 
 4. Calculate the mf number in the stock solution. Dilute the infected blood, using C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub> to determine how much control blood (Defibrinated Sheep’s Blood—Hemostat Laboratories DSB100) to add to get the desired blood feeding concentration.
 
     **General Note:** The blood feeders used for feeding hold 10 mL of blood. When calculating final volume use 11 mL for 1 mL overage. Multiply this by number of feeders you will need.
-
 
 5. Re-enumerate the mf in the diluted stock blood in duplicate.  
 

@@ -5,11 +5,11 @@ This protocol is used to purify exosome-like vesicles (ELVs) from nematode cultu
 ## Materials
 
 - 1x PBS
-- 0.22 u syring filters
+- 0.22 µm syring filters
 - Ultracentrifuge metal tubes
 - Beckman centrifuge tubes
 
-**Note:** All centrifugation should be carried out at 4°C. Keep tubes on ice.
+**Note:** All centrifugation setps should be carried out at 4°C. Keep tubes on ice.
 
 1. Transfer culture media to 30 mL screw cap centrifuge tubes and fill with 1x PBS until ~ 2cm from the top of the tube (do not fill to the brim). If you do not have an even number of tubes, fill a screw cap tube with water. Balance your tubes using PBS on the scale.
 

@@ -1,13 +1,15 @@
 # Total Parasite RNA Extraction
 
 ### Materials
-- RPMI-1640  
-- 2.5 inch strainer (tiny mesh, local hardware store)  
-- Ziploc disposable plastic dishes 8oz (top cut off)  
-- 50 mL tubes   
-- Gentamicin  
-- Pen-Strep
-- Ice bucket
+- Eliminase  
+- TRIzol LS (Ambion, #10296010)
+- Safelock Tubes (Eppendorf, #022600044)
+- Qiagen Stainless Steel 5 mm Beads (#69989)
+- Nuclease-free Water
+- Zymo Direct-zol RNA Miniprep (#R2051) (for option A)
+- 100% Molecular Grade Ethanol (for option A)
+- Chloroform (for option B)
+- Isopropanol (for option B)
 
 ## Tissue storage
 
@@ -46,9 +48,9 @@ To be used if RNA integrity and purity are critical, or tissue input is limited 
 
     - Transfer thawed samples to Safelock tubes.
 
-    - Lock tubes tightly, transfer to TissueLyser LT. Balance tubes. Lyse at 30/s for 3 mins., then incubate for 3 mins. on ice, then another 30/s for 3 mins.
+    - Lock tubes tightly, transfer to TissueLyser LT. Balance tubes. Lyse at 30/s for 3 min., then incubate for 3 min. on ice, then another 30/s. for 3 min.
 
-    - Beads may not ‘bash’ using the system at 30/s, if no sound is heard, increase the speed to 36/s for 10 seconds then drop it back to 30/s.
+    - Beads may not ‘bash’ using the system at 30/s., if no sound is heard, increase the speed to 36/s. for 10 seconds then drop it back to 30/s.
 
 3. Zymo Column Purification
 
@@ -66,15 +68,16 @@ To be used if RNA integrity and purity are critical, or tissue input is limited 
 
     - QC by Nanodrop if yield is high (single adult, >200 L3) or by BioAnalyzer for low input samples (single cell preps, FACS prep).
 
+
 ### B. Alternative RNA extraction and purification protocol
 
 To be used if RNA integrity & purity are less critical.
 
 1. Use new filter tips, clean work area in cell culture hood with Eliminase. Make a stock of 100% molecular grade ethanol (flammable cabinet).
 
-2. Cool centrifuge to 4°C
+2. Cool centrifuge to 4°C.
 
-3. Tissue lysis via TissueLyser
+3. Tissue lysis via TissueLyser:
 
     - Clean TissueLyser LT and centrifuge with Eliminase prior to use.
 
@@ -84,21 +87,21 @@ To be used if RNA integrity & purity are less critical.
 
     - Transfer thawed samples to Safelock tubes.
 
-    - Lock tubes tightly, transfer to TissueLyser LT. Balance tubes. Lyse at 30/s for 3 mins., then incubate for 3 mins. on ice, then another 30/s for 3 mins.
+    - Lock tubes tightly, transfer to TissueLyser LT. Balance tubes. Lyse at 30/s. for 3 min., then incubate for 3 mins. on ice, then another 30/s. for 3 mins.
 
     - Beads may not ‘bash’ using the system at 30/s, if no sound is heard, increase the speed to 36/s for 10 seconds then drop it back to 30/s.
 
 3. Add 200 µL chloroform (flammable cabinet) per 0.8 m: TRIzol mix. Shake for 15 seconds, do not over shake just ensure the mix is opaque pink.
 
-4. Spin at 12,000 rcf for 10 mins. at 4°C.
+4. Spin at 12,000 rcf for 10 min. at 4°C.
 
-5. Remove tubes carefully and pipette off top aqueous phase. Add 1 mL 100% isopropanol (flammable cabinet Room 230), mix and incubate at room temp for 10 minutes.
+5. Remove tubes carefully and pipette off top aqueous phase. Add 1 mL 100% isopropanol (flammable cabinet), mix and incubate at room temp for 10 minutes.
 
-6. Spin at 15,000 rcf for 15 mins. at 4°C.
+6. Spin at 15,000 rcf for 15 min. at 4°C.
 
 7. Remove supernatant and wash in 70% ethanol (check for visible pellet).
 
-8. Spin again for 5 mins.
+8. Spin again for 5 min.
 
 9. Remove ethanol with P1000, spin again, remove ethanol with p100, spin again, remove ethanol with P10, until no ethanol is visible. Air dry for 5 minutes.
 
@@ -108,4 +111,4 @@ To be used if RNA integrity & purity are less critical.
 
     - Expect a 260:280 reading of ~2.0. 1.8 means DNA contamination, >2.2 suggests salt contamination.
 
-12. Snap freeze, label with appropriate sample ID and store at -80°C.
+12. Snap freeze, label appropriately and store at -80°C.

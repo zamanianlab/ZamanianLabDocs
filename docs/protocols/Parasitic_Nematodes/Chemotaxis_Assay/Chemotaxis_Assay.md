@@ -1,5 +1,10 @@
 # L3 Filarial Parasite Chemotaxis Assay
 
+## Materials
+
+- Agarose (Molecular Grade)
+- 6 cm Petri Dishes
+
 ## Preparing Chemotaxis Plates
 
 - Make 0.8% (w/v) agarose plates. Microwave to dissolve (mix intermittently). Pour ~10 mL of agarose into each 6 cm plate.

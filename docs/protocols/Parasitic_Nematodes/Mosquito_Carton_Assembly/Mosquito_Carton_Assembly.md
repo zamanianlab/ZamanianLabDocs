@@ -12,7 +12,7 @@
     ![Materials](img/img1.png)
 
 ### Carton Assembly
-1. Using a razor blade, cut out a 13 cm x 13 cm square on the side of the large carton. Cartons are located to the left of the side-by-side 4C in room 235.
+1. Using a razor blade, cut out a 13 cm x 13 cm square on the side of the large carton.
 
     ![Materials](img/img2.png)
 
