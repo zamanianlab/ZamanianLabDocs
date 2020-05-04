@@ -4,20 +4,18 @@
 
 ## A. Bulk Extraction of L3
 ### Materials
-- RPMI-1640  
-- 2.5 inch strainer (tiny mesh, local hardware store)  
-- Porcelain mortar/pestle  
-- 37°C (*Brugia*) or 39°C (*Dirofilaria*) incubator    
-- Ziploc disposable plastic dishes 8oz (top cut off)  
-- 50 mL tubes   
-- Gentamicin  
-- Pen-Strep
+- RPMI-1640 (Sigma-Aldrich R8758)
+- 2.5 inch strainer (B00428M7OI)
+- Porcelain mortar/pestle
+- Ziploc disposable plastic dishes 8oz (top cut off)
+- Gentamicin 100X stock (0.4 mg/µL, Sigma G1272-100ML)
+- Pen-Strep 100X stock (10,000 U/mL)
 - Ice bucket
 
     ![Image1](img/img1.png)
 
 ### Methods
-1. Aliquot 500 mL of RPMI-1640 into two bottles, with equal volume in each (2 x 250 mL). Add 2.5 mL of Pen-Strep stock solution and 2.5 mL Gentamicin to each aliquot. Then separate the RPMI into 2 separate bottles. Place one bottle in the fridge or on ice to cool and the other in a 37°C incubator.
+1. Aliquot 500 mL of RPMI-1640 into two bottles, with equal volume in each (2 x 250 mL). Add 2.5 mL of 100X Pen-Strep stock solution and 2.5 mL of 100X Gentamicin stock. Then separate the RPMI into 2 separate bottles. Place one bottle in the fridge or on ice to cool and the other in a 37°C incubator.
 
 2. Cold anesthetize the mosquitoes in the cartons (place the cartons in -20°C refrigerator for about 20-30 s., or until knocked down). You can put up to ~600 mosquitoes in the mortar, so combine the cartons as needed (2 cartons into 1 or 3 cartons into 2). When ready, quickly transfer, at once, all mosquitoes in the carton to the mortar.
 
@@ -45,7 +43,7 @@
 
 ## B. Extraction of L3 via Dissections
 ### Materials
-- 1x Aedes saline  
+- 1X *Aedes* saline  
 - Slides  
 - Dissection Probes  
 - Disposable transfer pipettes   
@@ -55,21 +53,21 @@
 - Forceps  
 - KimWipes   
 - Eppendorf tubes   
-- Small Petri dish containing pre-warmed RPMI + 1% Pen/Strep (P/S)
+- Small Petri dish containing pre-warmed RPMI + 1% Pen-Strep (v/v)
 
 ### Methods
 1. Clean and ethanol the work area, stage of dissecting scope, and tools prior to starting.
 
 2. Turn on warm plate to 37°C and allow to warm up.
 
-3. Aliquot 1x Aedes saline into 1.5 mL eppendorf tubes. Place tubes in warming plate to allow to come to 37°C.
+3. Aliquot 1X *Aedes* saline into 1.5 mL eppendorf tubes. Place tubes in warming plate to allow to come to 37°C.
 
 4. Under sterile conditions, Aliquot ~10 mL of pre-warmed RPMI amended with P/S and Gentamicin into a small Petri dish. Place the Petri dish on top of the warmer to keep RPMI warm.
 
 5. On ice, place a large glass Petri dish lined with filter paper.
 Cold anesthetize the mosquitoes in the cartons (place the cartons in 4°C refrigerator until knocked down). Once knocked down, put mosquitoes on top of the filter paper in the Petri dish.
 
-6. Take a clean slide and in the center add a puddle of 1x Aedes saline using a transfer pipette.
+6. Take a clean slide and in the center add a puddle of 1X *Aedes* saline using a transfer pipette.
 
 7. Using a dissecting probe or a forceps, transfer one adult female mosquito to the pool of saline. Using dissecting probes decapitate mosquito. You may notice L3 beginning to migrate out of the back of the head.
 

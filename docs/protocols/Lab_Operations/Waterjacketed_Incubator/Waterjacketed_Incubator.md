@@ -1,4 +1,4 @@
-# Maintenance of Water-jacketed Incubators
+# Maintenance of Water-Jacketed Incubators
 
 ## Important Reminders
 
@@ -12,14 +12,14 @@
 
 ## Maintenance Tasks
 
-| Action | Daily | Weekly | Monthly |  6 Months | Yearly |  2 Years |
-| ------ | :---: | :----: | :-----: | :------: | :----: | :-----: |
-| Inspect door latch hinges and door gasket seal | | | | | X | |
-| Check water level in humidity pan, 1/2" from top | | X | | | | |
-| Verify and document CO<sub>2</sub>, humidity, temp calibration | | | | | X | |
-| Perform complete decontamination procedure | As Needed | | | | | | |
-| Change HEPA and gas filters | | | | X | | | |
-| Replenish rust inhibitor in water jacket | | | | | | X |
+  | Action | Daily | Weekly | Monthly |  6 Months | Yearly |  2 Years |
+  | ------ | :---: | :----: | :-----: | :------: | :----: | :-----: |
+  | Inspect door latch hinges and door gasket seal | | | | | X | |
+  | Check water level in humidity pan, 1/2" from top | | X | | | | |
+  | Verify and document CO<sub>2</sub>, humidity, temp calibration | | | | | X | |
+  | Perform complete decontamination procedure | As Needed | | | | | | |
+  | Change HEPA and gas filters | | | | X | | | |
+  | Replenish rust inhibitor in water jacket | | | | | | X |
 
 ### Filling humidity pan
 

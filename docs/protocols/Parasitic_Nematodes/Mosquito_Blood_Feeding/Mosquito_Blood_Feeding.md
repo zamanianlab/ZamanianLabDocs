@@ -1,6 +1,6 @@
 # Infecting Mosquitoes with Microfilaremic Blood
 
-General Note: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr. before feeding for AaSD.
+**General Note**: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr. before feeding for AaSD.
 
 ## Preparing blood for blood feeding
 - Appropriate concentrations for blood feeding:
@@ -19,7 +19,7 @@ General Note: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr
 
 4. Calculate the mf number in the stock solution. Dilute the infected blood, using C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub> to determine how much control blood (Defibrinated Sheep’s Blood—Hemostat Laboratories DSB100) to add to get the desired blood feeding concentration.
 
-    **General Note:** The blood feeders used for feeding hold 10 mL of blood. When calculating final volume use 11 mL for 1 mL overage. Multiply this by number of feeders you will need.
+    **Note:** The blood feeders used for feeding hold 10 mL of blood. When calculating final volume use 11 mL for 1 mL overage. Multiply this by number of feeders you will need.
 
 5. Re-enumerate the mf in the diluted stock blood in duplicate.  
 
@@ -29,7 +29,7 @@ General Note: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr
 
 2. Use the concentration printed on the outside of the tube containing the IP fluid. Determine how much volume of IP fluid you will need to get the desired mf concentration for blood feeding by using C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub>.
 
-  **General Note:**  The blood feeders used for feeding hold 10 mL of blood. When calculating final volume use 11 mL for 1 mL overage. Multiply this by number of feeders you will need.
+    **Note:**  The blood feeders used for feeding hold 10 mL of blood. When calculating final volume use 11 mL for 1 mL overage. Multiply this by number of feeders you will need.
 
 3. Add the calculated amount of IP fluid to a 15 mL conical tube. Spin at 900 rpm for 10 min. You should see a pellet of mf at the bottom of the tube. Remove all supernatant without disturbing pellet. Add the final volume of blood you desire (11 mL x the number o feeders).
 

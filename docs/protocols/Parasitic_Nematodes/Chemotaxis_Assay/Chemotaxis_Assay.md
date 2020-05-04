@@ -7,11 +7,14 @@
 
 ## Preparing Chemotaxis Plates
 
-- Make 0.8% (w/v) agarose plates. Microwave to dissolve (mix intermittently). Pour ~10 mL of agarose into each 6 cm plate.
+**Note:** Make chemotaxis plates at least 48 hours in advance of assay. Humidity plays a significant role in plate optimization for this assay.
 
-- Once plates are solidified, measure and label the chemotaxis plate like the image below:
+- Make 0.8% (w/v) agarose plates. Microwave to dissolve (mix intermittently). Pour ~10 mL of agarose into each 6 cm plate. Leave plates at room temperature with lids cracked for 24 hours.
 
-    ![Image1](img/img1.png)
+- Measure (using stencil) and label the chemotaxis plate as in the image below:
+
+    <!-- [Image1](img/img1.png?s=100) -->
+    <img src="../img/img1.png" width="40%">
 
 ## Assay Setup
 
@@ -19,7 +22,8 @@
 
 2. Place 2 µL of DI H2O in the M-area, and then pick 8-10 L3s/L4s and place in the DI H2O in M-area
 
-    ![Image2](img/img2.png)
+    <!-- ![Image2](img/img2.png) -->
+    <img src="../img/img2.png" width="60%">
 
 3. After L3s are placed, add 3 µl of test compound into the T-zone and 3 µl of DI H2O into the C-zone
 
@@ -31,6 +35,4 @@
 
 6. Run each condition in at least triplicates.
 
-7. Calculate the chemotaxis index (CI) for each experiment using the formula found in the plate image above.
-
-8. Record chemotaxis data in an excel spreadsheet and save as a .csv file (example: 20181019.csv). Save file under ZamanianLab ▸ Data ▸ Chemotaxis ▸ Parasite spp.
+7. Store data using template .csv files in the appropriate Box directory and use existing scripts to calculate the chemotaxis index (CI).

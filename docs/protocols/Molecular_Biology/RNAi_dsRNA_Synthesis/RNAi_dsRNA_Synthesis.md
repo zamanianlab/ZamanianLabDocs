@@ -90,7 +90,7 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 ## dsRNA Purification (cartridge or phenol/chloroform)
 
-*Note: You can use either the filter cartridges associated with this kit or carry out a phenol/chloroform purification.*
+**Note:** You can use either the filter cartridges associated with this kit or carry out a phenol/chloroform purification.
 
 1. Add the following to the previous 50 µL reaction (scale as needed):
 

@@ -6,7 +6,7 @@
 
 ## Protocol
 
-*Note:* Follow the kit protocol, with minor modifications that include the mixing of Oligo dT and Random Hexamer primers. 
+**Note:** Follow the kit protocol, with minor modifications that include the mixing of Oligo dT and Random Hexamer primers. 
 
 1. Mix and centrifuge each component of the SuperScript III kit (-20°C Stag-moose).
 

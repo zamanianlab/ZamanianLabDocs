@@ -69,7 +69,7 @@ To be used if RNA integrity and purity are critical, or tissue input is limited 
     - QC by Nanodrop if yield is high (single adult, >200 L3) or by BioAnalyzer for low input samples (single cell preps, FACS prep).
 
 
-### B. Alternative RNA extraction and purification protocol
+## B. Alternative RNA extraction and purification protocol
 
 To be used if RNA integrity & purity are less critical.
 
@@ -91,24 +91,22 @@ To be used if RNA integrity & purity are less critical.
 
     - Beads may not ‘bash’ using the system at 30/s, if no sound is heard, increase the speed to 36/s for 10 seconds then drop it back to 30/s.
 
-3. Add 200 µL chloroform (flammable cabinet) per 0.8 m: TRIzol mix. Shake for 15 seconds, do not over shake just ensure the mix is opaque pink.
+4. Add 200 µL chloroform (flammable cabinet) per 0.8 m: TRIzol mix. Shake for 15 seconds, do not over shake just ensure the mix is opaque pink.
 
-4. Spin at 12,000 rcf for 10 min. at 4°C.
+5. Spin at 12,000 rcf for 10 min. at 4°C.
 
-5. Remove tubes carefully and pipette off top aqueous phase. Add 1 mL 100% isopropanol (flammable cabinet), mix and incubate at room temp for 10 minutes.
+6. Remove tubes carefully and pipette off top aqueous phase. Add 1 mL 100% isopropanol (flammable cabinet), mix and incubate at room temp for 10 minutes.
 
-6. Spin at 15,000 rcf for 15 min. at 4°C.
+7. Spin at 15,000 rcf for 15 min. at 4°C.
 
-7. Remove supernatant and wash in 70% ethanol (check for visible pellet).
+8. Remove supernatant and wash in 70% ethanol (check for visible pellet).
 
-8. Spin again for 5 min.
+9. Spin again for 5 min.
 
-9. Remove ethanol with P1000, spin again, remove ethanol with p100, spin again, remove ethanol with P10, until no ethanol is visible. Air dry for 5 minutes.
+10. Remove ethanol with P1000, spin again, remove ethanol with p100, spin again, remove ethanol with P10, until no ethanol is visible. Air dry for 5 minutes.
 
-10. Add 10-20 µL nuclease free water.
+11. Add 10-20 µL nuclease free water.
 
-11. Nanodrop and gel QC checks should be performed.
+12. Nanodrop and gel QC checks should be performed. Expect a 260:280 reading of ~2.0. 1.8 means DNA contamination, >2.2 suggests salt contamination.
 
-    - Expect a 260:280 reading of ~2.0. 1.8 means DNA contamination, >2.2 suggests salt contamination.
-
-12. Snap freeze, label appropriately and store at -80°C.
+13. Snap freeze, label appropriately and store at -80°C.

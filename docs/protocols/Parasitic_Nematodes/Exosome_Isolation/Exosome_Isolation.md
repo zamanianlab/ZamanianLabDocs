@@ -4,10 +4,13 @@ This protocol is used to purify exosome-like vesicles (ELVs) from nematode cultu
 
 ## Materials
 
-- 1x PBS
-- 0.22 µm syring filters
+- 1X PBS
+- 0.22 µm syringe filters
 - Ultracentrifuge metal tubes
 - Beckman centrifuge tubes
+
+
+## Protocol
 
 **Note:** All centrifugation setps should be carried out at 4°C. Keep tubes on ice.
 
