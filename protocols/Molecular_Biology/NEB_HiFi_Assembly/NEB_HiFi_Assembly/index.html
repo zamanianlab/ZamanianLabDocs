@@ -485,17 +485,14 @@
 <p><img alt="Backbone" src="../img/vector.png" /></p>
 </li>
 <li>
-<p>Click NEW FRAGMENT.</p>
-<p>a. It is likely that you will be generating the rest of your fragments via PCR. If this is the case, paste in <strong>only the sequence to be amplified</strong>. Give the sequence a name and check "Autogenerate primers."</p>
-<p>b. Click Add.</p>
+<p>Click NEW FRAGMENT. It is likely that you will be generating the rest of your fragments via PCR. If this is the case, paste in <strong>only the sequence to be amplified</strong>. Give the sequence a name and check "Autogenerate primers." Click Add.</p>
 </li>
 <li>
 <p>Repeat step 5 for as many fragments as necessary. When finished, the Build page should look something like below:</p>
 <p><img alt="Assembly" src="../img/assembly.png" /></p>
 </li>
 <li>
-<p>Now is our chance to add spacers or cut sites in between each fragment. First off, click the pencil icon (edit) on the backbone vector (in this case, pPD95.75).</p>
-<p>a. Choose whether or not you want to regenerate the restriction sites. Generally, "Min" is the best choice, but be careful not to change the reading frame if you are assembling a fusion protein.</p>
+<p>Now you can choose to add spacers or cut sites in between each fragment. Click the pencil icon (edit) on the backbone vector (in this case, pPD95.75). Select whether or not you want to regenerate the restriction sites. Generally, "Min" is the best choice, but be careful not to change the reading frame if you are assembling a fusion protein.</p>
 <p><img alt="Site Regeneration" src="../img/site_regeneration.png" /></p>
 </li>
 <li>
@@ -513,15 +510,21 @@ be used for the PCRs that generate the fragment.</p>
 <ol>
 <li>
 <p>Prior to assembly, generate all the fragments to be assembled - this may be by either synthesis, restriction digest of a plasmid, or PCR. Things to note:</p>
-<p>a. Restriction digest - ensure the digest completed by running an aliquot on a gel. In my experience, you do NOT need to gel purify the correct sized band - the off-target band will not impede the assembly. However, you DO need to inactivate the restriction enzymes. Some NEB enzymes can be heat inactivated at 65°C for 20 minutes, but check the specifications of the enzymes to be used. If you can’t heat inactivate, you will need to purify using the PCR purification kit.</p>
-<p>b. PCR - use a high-fidelity polymerase from NEB, typically Q5. The polymerase you choose should correspond to the polymerase you selected when using the NEBuilder Assembly Tool. For these PCR reactions, do 25 μL reactions for 35 cycles, and use the Tm that the Assembly Tool provided (3’ Ta). If the combined PCR products make up greater than &#8533; of the final assembly reaction, you should purify the PCR reactions. In general, it’s probably better to purify.</p>
+<ul>
+<li>
+<p><strong>Restriction digest:</strong> ensure the digest completed by running an aliquot on a gel. In our experience, you do NOT need to gel purify the correct sized band - the off-target band will not impede the assembly. However, you DO need to inactivate the restriction enzymes. Some NEB enzymes can be heat inactivated at 65°C for 20 minutes, but check the specifications of the enzymes to be used. If you can’t heat inactivate, you will need to purify using the PCR purification kit.</p>
+</li>
+<li>
+<p><strong>PCR:</strong> use a high-fidelity polymerase from NEB, typically Q5. The polymerase you choose should correspond to the polymerase you selected when using the NEBuilder Assembly Tool. For these PCR reactions, do 25 μL reactions for 35 cycles, and use the Tm that the Assembly Tool provided (3’ Ta). If the combined PCR products make up greater than &#8533; of the final assembly reaction, you should purify the PCR reactions. In general, it’s probably better to purify.</p>
+</li>
+</ul>
 </li>
 <li>
 <p>Thaw the reaction constituents on ice. Use the Qubit dsDNA BR kit to quantify every fragment.</p>
 </li>
 <li>
 <p>Calculate how the molar amount of each fragment to include. See the HiFI assembly manual for details on this calculation, which will change depending on the number for fragments being assembled. Use the <a href="https://nebiocalculator.neb.com/#!/dsdnaamt">NEB Calculator</a> for mass to moles conversions.</p>
-<p>a. Here is an example of two recent reactions:</p>
+<p>Here is an example of two recent reactions:</p>
 <table>
 <thead>
 <tr>
@@ -558,8 +561,8 @@ be used for the PCRs that generate the fragment.</p>
 </tr>
 </tbody>
 </table>
-<p>b. In this case, I started with 50 ng of the backbone and calculated the number of pmols that would be based on the size of the cut fragment that would be assembled. I then multiplied that amount (0.023 pmol) by two to get the 2:1 vector:insert ratio. 0.046 pmol of the 1645 bp cel-osm-9p is 46.76 ng.</p>
-<p>c. Using the calculated ng of each fragment and the measured concentration from the Qubit, calculate the volume to be added for a final volume of 5 μL (<strong>Note: this is less than the final volume given in the NEB manual, in order to save reagents.</strong>) In other words, perform the calculations as recommended in the manual, and then divide all the constituents by 4.</p>
+<p>In this case, we start with 50 ng of the backbone and calculated the number of pmols that would be based on the size of the cut fragment that would be assembled. Multiply that amount (0.023 pmol) by two to get the 2:1 vector:insert ratio. 0.046 pmol of the 1645 bp cel-osm-9p is 46.76 ng.</p>
+<p>Using the calculated ng of each fragment and the measured concentration from the Qubit, calculate the volume to be added for a final volume of 5 μL (<strong>Note: this is less than the final volume given in the NEB manual, in order to save reagents.</strong>) In other words, perform the calculations as recommended in the manual, and then divide all the constituents by 4.</p>
 </li>
 <li>
 <p>Assemble the final reaction in a PCR tube.</p>
@@ -594,7 +597,7 @@ be used for the PCRs that generate the fragment.</p>
 </tr>
 </tbody>
 </table>
-<p><strong>Note: the product coming from the digestion will be much less concentrated than the product from the PCRs unless you cleanup the reaction and elute in a volume of much less than 50 μL.</strong></p>
+<p><strong>Note:</strong> the product coming from the digestion will be much less concentrated than the product from the PCRs unless you cleanup the reaction and elute in a volume of much less than 50 μL.</p>
 <table>
 <thead>
 <tr>
@@ -642,20 +645,8 @@ be used for the PCRs that generate the fragment.</p>
 </li>
 </ol>
 <h2 id="transformation">Transformation</h2>
-<p>Prior to transformation:</p>
-<ul>
-<li>
-<p>Heat water bath to 42°C</p>
-</li>
-<li>
-<p>Remove from 4°C 1 LB/Amp/IPTG/X-gal plate (or other selection plate) per assembly reaction</p>
-</li>
-<li>
-<p>Move SOC to room temperature</p>
-</li>
-<li>
-<p>Remove the NEB 5-alpha chemically-competent from the -80°C freezer to ice.</p>
-</li>
+<p><strong>Note</strong>: Prior to transformation: heat water bath to 42°C, remove 1 LB/Amp/IPTG/X-gal plate (or other selection plate) per assembly reaction from 4ºC incubator, move SOC to room temperature, move NEB 5-alpha chemically-competent from the -80°C freezer to ice.</p>
+<ol>
 <li>
 <p>Aliquot 50 μL of the cells to a chilled 1.5 mL tube. Return the competent cells to the -80°C freezer.</p>
 </li>
@@ -683,7 +674,7 @@ be used for the PCRs that generate the fragment.</p>
 <li>
 <p>Incubate overnight at 37°C.</p>
 </li>
-</ul>
+</ol>
                 
                   
                 
