@@ -67,7 +67,7 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
     |T7 Enzyme Mix| 2 µL |
     |**TOTAL** | 20 µL |
 
-    The reaction above is for a single 20 uL transcription reaction. Each IVT reaction produces 100-200 µg of dsRNA. Scale the reaction as needed.
+    The reaction above is for a single 20 uL transcription reaction. **Each IVT reaction typically produces 100-200 µg of dsRNA**. Scale the reaction as needed.
 
 2. Mix throughly by gently flicking the tube or pipette the mixture up and down, then briefly microcentrifuge to collect the reaction mixture at the bottom of the tube.
 
@@ -107,6 +107,7 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 3. Spin at 15,000 x g for 10 min. at 4ºC.
 
 4. Transfer top phase (aqueous) to a new RNase-free tube.
+
     - **Note**: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, that is a good indication.
 
 5. To aqueous dsRNA, add ~500 µL isopropanol.

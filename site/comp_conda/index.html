@@ -42,7 +42,7 @@
     
     
       
-        <title>conda - Zamanian Lab Documentation</title>
+        <title>Conda - Zamanian Lab Documentation</title>
       
     
     
@@ -117,7 +117,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                conda
+                Conda
               
             </span>
           
@@ -274,10 +274,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
     <label class="md-nav__link" for="nav-5">
       Computational Guide
@@ -321,6 +323,89 @@
   <li class="md-nav__item">
     <a href="../comp_github/" title="GitHub" class="md-nav__link">
       GitHub
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Conda
+      </label>
+    
+    <a href="./" title="Conda" class="md-nav__link md-nav__link--active">
+      Conda
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-and-an-example" class="md-nav__link">
+    Usage and an Example
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zamanian-lab-environments" class="md-nav__link">
+    Zamanian Lab Environments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-resources" class="md-nav__link">
+    Useful Resources
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comp_homebrew/" title="Homebrew" class="md-nav__link">
+      Homebrew
     </a>
   </li>
 
@@ -470,9 +555,8 @@
                 
                 
                 <h1 id="conda">conda</h1>
-<p><a href="https://conda.io/docs/">conda</a> is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will be using it to manage our Python environments.</p>
-<p>While most of our plotting and data analysis uses R, our image and video analyses use Python. R development is more streamlined and centralized (at least for the packages we use), while Python includes two major versions (2 and 3) that are still regularly used (I write in Python 3 while many developers still prefer Python 2, and scripts written in one version often won't work when run with the other version), and the packages that we use are diverse and maintained by a large crowd of different developers. Thus, we don't need package and environment management for R, but our Python pipelines are greatly enhanced with such management.</p>
-<p>conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a discrete, contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.</p>
+<p><a href="https://conda.io/docs/">conda</a> is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will also be using it to manage our Python environments. Conda will make it easy to invoke different Python versions as needed for different tasks.</p>
+<p>conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.</p>
 <h2 id="installation">Installation</h2>
 <p>There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes. We recommend you use Miniconda, which can be installed on macOS using the commands below:</p>
 <p><div class="highlight"><pre><span></span><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
@@ -484,25 +568,22 @@ These commands will download the miniconda installer, run it, and install it to 
 <p>First, let's create a new environment that uses Python 3.5:</p>
 <p><code>conda create --name test_environment python=3.5</code></p>
 <p>The environment has now been created. You can see a list of all the environments that you have ever created with <code>conda env list</code>.</p>
-<p>Here is a list of current environments on my machine (the asterisk marks the current environment):</p>
+<p>Here is a list of current environments on my machine (* marks current environment):</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># conda environments:</span>
 <span class="c1">#</span>
-base                  *  /Users/nic/miniconda3
-dev                      /Users/nic/miniconda3/envs/dev
-test_environment         /Users/nic/miniconda3/envs/test_environment
-tierpsy                  /Users/nic/miniconda3/envs/tierpsy
+base                  *  /Users/<span class="nv">$username</span>/miniconda3
+dev                      /Users/<span class="nv">$username</span>/miniconda3/envs/dev
+test_environment         /Users/<span class="nv">$username</span>/miniconda3/envs/test_environment
+tierpsy                  /Users/<span class="nv">$username</span>/miniconda3/envs/tierpsy
 </code></pre></div>
 
 <p>To activate the <code>test_environment</code> that you just created:</p>
 <p><code>source activate test_environment</code></p>
 <p>Now you are in the virtual environment, using Python 3.5 as a default. You can check to make sure this is the case with <code>python --version</code>.</p>
 <p>You can also see the path to your environment's Python with <code>which python</code>.</p>
-<p>Now that you are in the correct environment, you can begin adjusting it to suit your purposes. The main way to do this is by installing certain Python packages that you may use in your analysis. There are multiple ways to install a Python package, but the two main ways are using <code>conda install {package name}</code> and <code>pip install {package name}</code>. When installing a new package, you should first try to use the conda package manager. If that doesn't work, you will receive an error such as:</p>
-<pre><code>PackagesNotFoundError: The following packages are not available from current channels
-</code></pre>
-<p>If you receive this error, use Google to try to find a way to install the package with conda. You may need to use a different channel such as <code>bioconda</code>, and then use <code>conda install --channel bioconda {package name}</code>. If the package is not available via conda, you will need to use <code>pip install {package name}</code>.</p>
-<p>As an example, we will use conda to install numpy. Numpy is a popular package used for scientific computing, typically computing that involve matrices.
-First make sure you are in the correct environment, then run:</p>
+<p>Now that you are in the correct environment, you can begin adjusting it to suit your purposes. The main way to do this is by installing certain Python packages that you may use in your analysis. There are multiple ways to install a Python package. The primary means of installation <code>conda install {package name}</code>. If you receive a <code>PackagesNotFoundError</code>, search to identify other means of conda installation. This may include tapping different channels such as <a href="https://bioconda.github.io/user/install.html">bioconda</a> or <a href="https://conda-forge.org/docs/user/introduction.html">conda-forge</a> (e.g., <code>conda install --channel bioconda {package name}</code>).</p>
+<p>If a package is not available from conda, you may use <code>pip install {package name}</code>. While conda attempts to be compatible with pip, you may occasionally run into issues with packages installed through this route.</p>
+<p><strong>Package installation example:</strong> As an example, we will use conda to install numpy. Numpy is a popular package used for scientific computing, typically computing that involve matrices. First make sure you are in the correct environment, then run:</p>
 <p><code>conda install numpy</code></p>
 <p>You should receive a message reporting the successful installation of the package. You can ensure successful installation by running Python with <code>python</code> and then attempting to load the package with <code>&gt;&gt;&gt; import numpy as np</code>. If the package was successfully loaded, you will get no message. If it was unsuccessful, you will see:</p>
 <div class="highlight"><pre><span></span><code> <span class="n">ModuleNotFoundError</span><span class="p">:</span> <span class="n">No</span> <span class="n">module</span> <span class="n">named</span> <span class="s1">&#39;numpy&#39;</span>
@@ -510,9 +591,7 @@ First make sure you are in the correct environment, then run:</p>
 
 <p>To demonstrate the utility of the conda virtual environment, first deactivate the <code>test_environment</code> with <code>source deactivate test_environment</code>. Then repeat the commands <code>python</code> and <code>&gt;&gt;&gt; import numpy as np</code>. If done correctly, you will see that numpy isn't available outside of the <code>test_environment</code>. This way you can keep your base environment clean from unnecessary packages, and you can make sure the packages within a given environment aren't updated unless you explicitly make it so.</p>
 <h2 id="zamanian-lab-environments">Zamanian Lab Environments</h2>
-<p>Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See Nic's
-<a href="https://github.com/zamanianlab/BrugiaMotilityAnalysis">BrugiaMotilityAnalysis</a>
-repo as an example.</p>
+<p>Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the main page of the associated GitHub repo.</p>
 <h2 id="useful-resources">Useful Resources</h2>
 <p><a href="https://conda.io/docs/_downloads/conda-cheatsheet.pdf">conda cheatsheet</a></p>
                 
@@ -532,6 +611,41 @@ repo as an example.</p>
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../comp_github/" title="GitHub" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                GitHub
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../comp_homebrew/" title="Homebrew" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Homebrew
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

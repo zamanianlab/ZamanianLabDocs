@@ -20,7 +20,7 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
     └── plots/                    [plot outputs]
   ```
 
-  - Raw data will either be stored in CSV files or natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., `YYYYMMDDa` and `YYYYMMDDb`).
+  - Raw data will either be stored in CSV files or as natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., `YYYMMDDa` and `YYYMMDDb`).
 
   - Data tidying will be performed in scripts that are separate from those that perform analysis and visualization. Tidy data will be stored in Rds files (space-saving compared to Rda format).
 
@@ -38,10 +38,9 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
 ***Assay-specific column examples***
 ```
 - treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
-- conc: [e.g., one conc: uM, two conc: 5uM_10uM]
-- strain [N2 for Cel, NA or gene_id(dsRNA) for parasites]
+- conc [e.g., one conc: 5uM, two conc: 5uM_10u]
 - worm_num
 - plate_num
 - cue
 ```
-*Our lab maintains [dictionary](link) of full drug names and plot abbreviations.*
+*Our lab maintains a common [dictionary](link) of full drug names and plot abbreviations.*
