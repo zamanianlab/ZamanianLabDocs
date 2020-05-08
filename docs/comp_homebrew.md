@@ -11,7 +11,9 @@ Most of the core software used in the Zamanian Lab can be installed via Homebrew
 ``` bash
 sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 ```
+([Link](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/zl_brew.sh) to bash installation script)
 
+```
 - [autojump](https://github.com/wting/autojump)  
 - [SAMtools](http://www.htslib.org/)  
 - [blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  
@@ -26,9 +28,10 @@ sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 - [trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)  
 - [bwa](http://bio-bwa.sourceforge.net/)  
 - [nextflow](https://www.nextflow.io/)  
+```
 
 The following are GNU versions of command line tools that macOS already contains out-of-the-box, but the GNU versions are often faster and will play nicer with software developed in Linux:
-
+```
 - coreutils
 - binutils
 - diffutils
@@ -44,3 +47,4 @@ The following are GNU versions of command line tools that macOS already contains
 - watch
 - wdiff
 - wget
+```

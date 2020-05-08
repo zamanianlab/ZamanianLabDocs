@@ -8,12 +8,10 @@ If you're new to git and/or version control, the first step is to learn what exa
 
 Create an account at [GitHub.com](https://www.github.com/) and ask Mostafa or Nic to invite you to join the [Zamanian Lab Github](https://github.com/zamanianlab) organization.
 
-## Use Cases in the Zamanian Lab
-
 Though GitHub is primarily used for software development, there are in fact many other such use cases. The Zamanian Lab uses GitHub in the following ways:
 
 1. **Code development** - i.e. RNA-seq pipelines, machine learning algorithms, phenotyping software, etc.
 
-2. **Open source publications** - Every publication coming out of the Zamanian lab will have an associated GitHub repo that includes the data and code used to create all the manuscript figures, allowing reviewers and readers to reproduce all analyses (check out the [repo](https://github.com/zamanianlab/BrugiaChemo-ms) for our most recent [preprint](https://www.biorxiv.org/content/10.1101/683060v2)).
+2. **Open source publications** - Every publication coming out of our lab will have an associated GitHub repo that includes the data and code used to create all the manuscript figures, allowing reviewers and readers to reproduce all analyses (check out the [repo](https://github.com/zamanianlab/BrugiaChemo-ms) for our most recent [preprint](https://www.biorxiv.org/content/10.1101/683060v2)).
 
-3. **Websites** - Postdocs and senior graduate students often develop a personal website as a companion to a CV, and many labs/PIs have their own website for perusal by funding bodies, prospective students/staff, and the public (check out [Nic](https://wheelern.github.io/) and [Mostafa's](https://zamanianlab.org) websites and the repos ([N](https://github.com/wheelern/academic-kickstart)/[M](https://github.com/zamanianlab/zamanianlab.github.io)) associated with them). This documentation website is also hosted and deployed via GitHub.
+3. **Websites** - Postdocs and senior graduate students often develop a personal website as a companion to a CV, and many labs/PIs have their own website for improved visibility. See our [lab website](https://zamanianlab.org) ([GitHub Repo](https://github.com/zamanianlab/zamanianlab.github.io)) or [Nic's website](https://wheelern.github.io/) ([GitHub Repo](https://github.com/wheelern/academic-kickstart)) for examples. This documentation website is also hosted and deployed via GitHub.

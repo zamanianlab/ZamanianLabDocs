@@ -29,7 +29,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [4Peaks](https://nucleobytes.com/4peaks/index.html) (editing of sequence trace files)
 
 
-4. Replace your `~/.bash_profile` with the lab `.bash_profile` found in the `resources` directory of the GitHub repo that hosts this site (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
+4. Replace your `~/.bash_profile` with the lab `.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
 
 5. Create your R environment:
     - Use [CRAN](https://cloud.r-project.org/bin/macosx/el-capitan/base/R-3.6.2.pkg) to install or update R to version 3.6.2
@@ -38,6 +38,6 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
     - Install the [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment) R package (`devtools::install_github("zamanianlab/ZamanianLabREnvironment")`) to create a consistent, unified environment across machines.
 
-6. Create your Python environment using [Miniconda](comp_conda.md).
+6. Manage your Python environment using [Miniconda](comp_conda.md).
 
-6. Use Homebrew to [install other command-line software](comp_homebrew.md).
+6. Use [Homebrew](comp_homebrew.md) to install other command-line software.

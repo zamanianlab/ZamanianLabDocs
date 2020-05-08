@@ -67,6 +67,8 @@ nav:
     - Overview:               comp_overview.md
     - Local Environment:      comp_local.md
     - GitHub:                 comp_github.md
+    - Conda:                  comp_conda.md
+    - Homebrew:               comp_homebrew.md
   - Pipelines:
     - Overview:               pipelines_overview.md
     - Local Pipelines:        pipelines_local.md

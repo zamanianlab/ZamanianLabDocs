@@ -1,10 +1,8 @@
 # conda
 
-[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will be using it to manage our Python environments.
+[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will also be using it to manage our Python environments. Conda will make it easy to invoke different Python versions as needed for different tasks.
 
-While most of our plotting and data analysis uses R, our image and video analyses use Python. R development is more streamlined and centralized (at least for the packages we use), while Python includes two major versions (2 and 3) that are still regularly used (I write in Python 3 while many developers still prefer Python 2, and scripts written in one version often won't work when run with the other version), and the packages that we use are diverse and maintained by a large crowd of different developers. Thus, we don't need package and environment management for R, but our Python pipelines are greatly enhanced with such management.
-
-conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a discrete, contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
+conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
 
 ## Installation
 
@@ -26,15 +24,15 @@ First, let's create a new environment that uses Python 3.5:
 
 The environment has now been created. You can see a list of all the environments that you have ever created with `conda env list`.
 
-Here is a list of current environments on my machine (the asterisk marks the current environment):
+Here is a list of current environments on my machine (* marks current environment):
 
 ```bash
 # conda environments:
 #
-base                  *  /Users/nic/miniconda3
-dev                      /Users/nic/miniconda3/envs/dev
-test_environment         /Users/nic/miniconda3/envs/test_environment
-tierpsy                  /Users/nic/miniconda3/envs/tierpsy
+base                  *  /Users/$username/miniconda3
+dev                      /Users/$username/miniconda3/envs/dev
+test_environment         /Users/$username/miniconda3/envs/test_environment
+tierpsy                  /Users/$username/miniconda3/envs/tierpsy
 ```
 
 To activate the `test_environment` that you just created:
@@ -45,14 +43,11 @@ Now you are in the virtual environment, using Python 3.5 as a default. You can c
 
 You can also see the path to your environment's Python with `which python`.
 
-Now that you are in the correct environment, you can begin adjusting it to suit your purposes. The main way to do this is by installing certain Python packages that you may use in your analysis. There are multiple ways to install a Python package, but the two main ways are using `conda install {package name}` and `pip install {package name}`. When installing a new package, you should first try to use the conda package manager. If that doesn't work, you will receive an error such as:
+Now that you are in the correct environment, you can begin adjusting it to suit your purposes. The main way to do this is by installing certain Python packages that you may use in your analysis. There are multiple ways to install a Python package. The primary means of installation `conda install {package name}`. If you receive a `PackagesNotFoundError`, search to identify other means of conda installation. This may include tapping different channels such as [bioconda](https://bioconda.github.io/user/install.html) or [conda-forge](https://conda-forge.org/docs/user/introduction.html) (e.g., `conda install --channel bioconda {package name}`).
 
-    PackagesNotFoundError: The following packages are not available from current channels
+If a package is not available from conda, you may use `pip install {package name}`. While conda attempts to be compatible with pip, you may occasionally run into issues with packages installed through this route.
 
-If you receive this error, use Google to try to find a way to install the package with conda. You may need to use a different channel such as `bioconda`, and then use `conda install --channel bioconda {package name}`. If the package is not available via conda, you will need to use `pip install {package name}`.
-
-As an example, we will use conda to install numpy. Numpy is a popular package used for scientific computing, typically computing that involve matrices.
-First make sure you are in the correct environment, then run:
+**Package installation example:** As an example, we will use conda to install numpy. Numpy is a popular package used for scientific computing, typically computing that involve matrices. First make sure you are in the correct environment, then run:
 
 `conda install numpy`
 
@@ -66,9 +61,7 @@ To demonstrate the utility of the conda virtual environment, first deactivate th
 
 ## Zamanian Lab Environments
 
-Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the mainpage of the GitHub repo. See Nic's
-[BrugiaMotilityAnalysis](https://github.com/zamanianlab/BrugiaMotilityAnalysis)
-repo as an example.
+Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the main page of the associated GitHub repo.
 
 ## Useful Resources
 

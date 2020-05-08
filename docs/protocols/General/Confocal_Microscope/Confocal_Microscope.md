@@ -45,7 +45,7 @@ Resonant: Off; Customized Settings: Off). Press OK.
 
     c. Click Apply for Line sequential. This will capture images for each laser sequentially to limit bleed through.
 
-    ![Image](img/1_Lasers.PNG)
+      ![Image](img/1_Lasers.PNG)
 
 12. To begin to acquire an image, return to the Acquire panel and click Live (orange arrow).
 
@@ -69,7 +69,7 @@ Resonant: Off; Customized Settings: Off). Press OK.
 
 13. Click Capture Image (red arrow).
 
-![Image](img/2_Aquire.PNG)
+    ![Image](img/2_Aquire.PNG)
 
 14. To perform optical slicing (z-stack):
 
@@ -93,7 +93,7 @@ Resonant: Off; Customized Settings: Off). Press OK.
 
     j. Click Start (orange arrow) and back away from the microscope (or step out of the room, this may take a few minutes). Bumping the microscope can ruin the entire stack if the images don’t properly align.
 
-![Image](img/3_ZStack.PNG)
+      ![Image](img/3_ZStack.PNG)
 
 15. Click Project at the top-left toolbar to see all the images captured and save those you would like to keep.
 
