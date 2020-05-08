@@ -1,7 +1,6 @@
 # How to Make Cholesterol
-Zamanian Lab, adapted from Andersen Lab
 
-*C. elegans* requires cholesterol to progress through the four larval stages. Previously, we found that some filters were removing cholesterol from K medium and S medium. Most worms arrested in larval development. For this reason, we add cholesterol after filtration or autoclaving media for NGMA plates.
+**Note:** *C. elegans* requires cholesterol to progress through the four larval stages. The Andersen lab found that some filters were removing cholesterol from K medium and S medium. Most worms arrested in larval development. For this reason, we add cholesterol after filtration or autoclaving of media for NGMA plates.
 
 **For NGM/HGM plates:**
 Use the unfiltered but sterile 5 mg/mL cholesterol in ethanol.

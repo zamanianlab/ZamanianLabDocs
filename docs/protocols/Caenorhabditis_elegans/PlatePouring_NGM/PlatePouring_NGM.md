@@ -3,16 +3,20 @@
 ## General notes:
 
   - 6 cm plates take 13.5 mL of solution
-
   - 10 cm plates take 32.5 mL of solution
 
-## Protocol  
+  - **Number of plates poured per volume of NGM**
 
-1. Prepare media using the following recipe:
+     | 1 L of NGM | 2 L of NGM |
+     | ---------- | ---------- |
+     | ~60 6 cm plates | ~160 6 cm plates |
+     | ~40 10 cm plates | ~60 10 cm plates |
 
-    **Note:** The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: The type of media and final volume (e.g. NGM-1 L) or NGM-2 L), date of preparation, and your initials.
+## Preparing NGM Media Mixes
 
-    NGM recipe:
+- The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: type of media and final volume (e.g. NGM-1L or NGM-2L), date of preparation, and your initials.
+
+- **NGM recipe**
 
     | Reagent | 1 L | 2 L |
     | ------- | --- | --- |
@@ -21,9 +25,11 @@
     | Agar | 17 g | 34 g |
     | Sterile water | 975 mL | 1950 mL |
 
-    - Note: if pouring NGMA plates, add 7 g of Agarose and 10 g of Agar per 1 L of media.
+    **Note:** if pouring NGMA plates, add 7 g of Agarose and 10 g of Agar per 1 L of media.
 
-2. Combine all reagents in a flask that can hold 2X the volume of your media.
+## Preparing NGM Media for Pouring
+
+1. Combine all reagents in a flask that can hold 2X the volume of your media.
 
       a. Put a plastic funnel in the mouth of the flask.
 
@@ -35,7 +41,7 @@
 
       e. Repeat steps c and d until you've poured in all the sterile water.
 
-3. Cover the mouth of the flask with foil and tape in place with autoclave tape (autoclave room). Use label tape to label the flask with: media (e.g. NGM or HGM), date of pour, and your initials. **NOTE:** you can simply move the tape label from the plastic bottle to the flask, making sure to also write the date of pour on the label.
+1. Cover the mouth of the flask with foil and tape in place with autoclave tape (autoclave room). Use label tape to label the flask with: media (e.g. NGM or HGM), date of pour, and your initials. **NOTE:** you can simply move the tape label from the plastic bottle to the flask, making sure to also write the date of pour on the label.
 
 4. Add stir bar.
 
@@ -56,14 +62,9 @@
     | 1 M CaCl<sub>2</sub> | 1 mL | 2 mL |
     | 1 M MgSO<sub>4</sub> | 1 mL | 2 mL |
 
-If these solutions are already made, make sure they are autoclaved (except Cholesterol) or filter-sterilized before adding to the media.
+    **Note:** If these solutions are already made, make sure they are autoclaved (except Cholesterol) or filter-sterilized before adding to the media.
 
-**Number of plates poured per volume of NGM:**
 
- | 1 L of NGM | 2 L of NGM |
- | ---------- | ---------- |
- | ~60 6 cm plates | ~160 6 cm plates |
- | ~40 10 cm plates | ~60 10 cm plates |
 
 ## Operating the PourBoy
 
