@@ -486,7 +486,7 @@
 
 <ul>
 <li>
-<p>Raw data will either be stored in CSV files or natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., <code>YYYMMDDa</code> and <code>YYYMMDDb</code>).</p>
+<p>Raw data will either be stored in CSV files or as natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., <code>YYYMMDDa</code> and <code>YYYMMDDb</code>).</p>
 </li>
 <li>
 <p>Data tidying will be performed in scripts that are separate from those that perform analysis and visualization. Tidy data will be stored in Rds files (space-saving compared to Rda format).</p>
@@ -502,13 +502,12 @@
 </code></pre></div></p>
 <p><strong><em>Assay-specific column examples</em></strong>
 <div class="highlight"><pre><span></span><code>- treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
-- conc: [e.g., one conc: uM, two conc: 5uM_10u]
-- strain [N2 for Cel, NA or gene_id(dsRNA) for parasites]
+- conc [e.g., one conc: 5uM, two conc: 5uM_10u]
 - worm_num
 - plate_num
 - cue
 </code></pre></div>
-<em>Our lab maintains <a href="link">dictionary</a> of full drug names and plot abbreviations.</em></p>
+<em>Our lab maintains a common <a href="link">dictionary</a> of full drug names and plot abbreviations.</em></p>
                 
                   
                 

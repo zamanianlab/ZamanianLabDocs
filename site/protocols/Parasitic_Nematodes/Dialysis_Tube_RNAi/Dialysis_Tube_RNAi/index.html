@@ -13,7 +13,7 @@
         <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
       
-        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis/">
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Parasitic_Nematodes/Dialysis_Tube_RNAi/Dialysis_Tube_RNAi/">
       
       
         <meta name="author" content="Zamanian Lab">
@@ -42,7 +42,7 @@
     
     
       
-        <title>dsRNA Synthesis for RNAi - Zamanian Lab Documentation</title>
+        <title>Dialysis Tube RNAi - Zamanian Lab Documentation</title>
       
     
     
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#dsrna-synthesis-for-rnai" tabindex="0" class="md-skip">
+      <a href="#dialysis-tube-rnai" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -117,7 +117,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                dsRNA Synthesis for RNAi
+                Dialysis Tube RNAi
               
             </span>
           
@@ -454,37 +454,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-t7-sites-and-scaling-up-the-t7-template" class="md-nav__link">
-    Adding T7 sites and scaling up the T7 template
+  <a href="#protocol" class="md-nav__link">
+    Protocol
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#24-hours-prior-to-rnai-experiment" class="md-nav__link">
+    24-hours prior to RNAi experiment
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#purification-and-concentration-of-dna" class="md-nav__link">
-    Purification and concentration of DNA
+        
+          <li class="md-nav__item">
+  <a href="#day-of-rnai-experiment" class="md-nav__link">
+    Day of RNAi Experiment
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#t7-in-vitro-transcription-ivt" class="md-nav__link">
-    T7 in vitro transcription (IVT)
+        
+          <li class="md-nav__item">
+  <a href="#72-hours-post-soaking-knock-down-check" class="md-nav__link">
+    72-hours Post-Soaking (Knock-down check)
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#nuclease-digestion-to-remove-dna-and-ssrna" class="md-nav__link">
-    Nuclease digestion to remove DNA and ssRNA
+        
+          <li class="md-nav__item">
+  <a href="#rnai-assay-optimization" class="md-nav__link">
+    RNAi Assay Optimization
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#dsrna-purification-cartridge-or-phenolchloroform" class="md-nav__link">
-    dsRNA Purification (cartridge or phenol/chloroform)
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -504,324 +510,87 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/Parasitic_Nematodes/Dialysis_Tube_RNAi/Dialysis_Tube_RNAi.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="dsrna-synthesis-for-rnai">dsRNA Synthesis for RNAi</h1>
-<p><strong>General Note</strong>: This protocol assumes you have already cloned a ~400-600 base pair fragment of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).</p>
+                <h1 id="dialysis-tube-rnai">Dialysis Tube RNAi</h1>
 <h2 id="materials">Materials</h2>
 <ul>
-<li>MegaScript RNAi kit (Ambion AM1626)</li>
-<li>Eliminase</li>
+<li>Pur-A-Lyzer™ Midi Dialysis Kit (Sigma Aldrich #PURD60050-1KT)</li>
 </ul>
-<h2 id="adding-t7-sites-and-scaling-up-the-t7-template">Adding T7 sites and scaling up the T7 template</h2>
+<h2 id="protocol">Protocol</h2>
+<p>Prepare gene-specific dsRNAs as described in the <a href="../../../Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis/">dsRNA synthesis</a> protocol. <strong>Note:</strong> Include a non-specific dsRNA control and a negative (no dsRNA) control.</p>
+<p>Prepare parasite culture media as described in the <a href="../../General_Parasite_Culture/General_Parasite_Culture/">Parasite Culture</a> protocol. <strong>Note:</strong> You will need to scale in accordance with your experimental needs and parasites used. It is recommended to make at least 400 mL of culture media (CM).</p>
+<h3 id="24-hours-prior-to-rnai-experiment">24-hours prior to RNAi experiment</h3>
 <ol>
 <li>
-<p>Assemble master mix according to table below (this is for a single T7 reaction, scale as needed).</p>
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Volume</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nuclease-free H<sub>2</sub>O</td>
-<td>16.25 µL</td>
-</tr>
-<tr>
-<td>Colorless GoTaq Buffer</td>
-<td>5 µL</td>
-</tr>
-<tr>
-<td>10 mM dNTPs</td>
-<td>0.5 µL</td>
-</tr>
-<tr>
-<td>GoTaq Polymerase</td>
-<td>0.25 µL</td>
-</tr>
-<tr>
-<td>1:100 Plasmid Dilution</td>
-<td>1 µL</td>
-</tr>
-<tr>
-<td>Forward Primer (GSP+T7)</td>
-<td>1 µL</td>
-</tr>
-<tr>
-<td>Reverse Primer (GSP+T7)</td>
-<td>1 µL</td>
-</tr>
-<tr>
-<td><strong>TOTAL</strong></td>
-<td>25 µL</td>
-</tr>
-</tbody>
-</table>
+<p>Parasites will typically arrive in 50 mL conical tubes. Remove nearly all of the shipping media. Pour the remaining contents of tube including parasites into a clean 10 cm Petri plate containing sterile, pre-warmed CM. Using clean worm hooks, sort 3 adult parasites per well of a 12-well culture plate containing 3 mL CM per well. Label each culture plate with the date, sex and species of parasite, and your initials. Place culture plates at 37ºC + 5% CO<sub>2</sub> for 24 hours prior to use.</p>
 </li>
 <li>
-<p>Run with the following <strong>Thermal Cycler Parameters</strong></p>
-<table>
-<thead>
-<tr>
-<th>Time</th>
-<th>Temperature</th>
-<th>Cycles</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2 min</td>
-<td>95ºC</td>
-<td>1</td>
-</tr>
-<tr>
-<td>30 s <br> 30 s <br> 1 min</td>
-<td>95°C <br> Tm (GSP) <br> 72°C</td>
-<td><br> 5 <br> <br></td>
-</tr>
-<tr>
-<td>30 s <br> 30 s <br> 1 min</td>
-<td>95°C <br> Tm (GSP+T7 -5 degrees) <br> 72°C</td>
-<td><br> 30 <br> <br></td>
-</tr>
-<tr>
-<td>5 min</td>
-<td>72ºC</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Hold</td>
-<td>6°C</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Pool PCR products for each target. Run 5 uL of product on an agarose gel to verify that the PCR worked.</p>
-</li>
-</ol>
-<h2 id="purification-and-concentration-of-dna">Purification and concentration of DNA</h2>
-<p>Concentrate the DNA using the Qiagen MinElute PCR Purification Kit</p>
-<ol>
-<li>
-<p>Add 5 volumes of Buffer PB to 1 volume of the PCR reaction and mix.</p>
-</li>
-<li>
-<p>If total PCR reaction+Buffer exceeds 750 µL, split mixture accordingly and run through column in succession. Discard flow-through after each 750 µL sample has passed through column. (Max of four, 750 µL samples per column)</p>
-</li>
-<li>
-<p>Add 750 µL Buffer PE to the MinElute columns and centrifuge for 1 minute. Discard flow-through.</p>
-</li>
-<li>
-<p>Centrifuge the column for two minutes.</p>
-</li>
-<li>
-<p>Place each MinElute column in a clean 1.5 mL microcentrifuge tube.</p>
-</li>
-<li>
-<p>Add 10 µL of sterile water to the center of the MinElute column. Let the column stand for 1 min, and then centrifuge the column for one minute.</p>
-</li>
-<li>
-<p>Measure DNA concentration using Nanodrop.</p>
-</li>
-</ol>
-<h2 id="t7-in-vitro-transcription-ivt">T7 <em>in vitro</em> transcription (IVT)</h2>
-<ol>
-<li>
-<p>Within the BSC, clean all barrier pipette tips and pipettes, gloves, and bench space with RNase Zap or Eliminase. Use the MegaScript RNAi kit to assemble the IVT reaction.</p>
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Volume</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nuclease-free H<sub>2</sub>O</td>
-<td>to 20 µL</td>
-</tr>
-<tr>
-<td>Template DNA (T7 PCR Product)</td>
-<td>1 µg</td>
-</tr>
-<tr>
-<td>10X T7 Reaction Buffer</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td>ATP Solution</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td>CTP Solution</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td>GTP Solution</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td>UTP Solution</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td>T7 Enzyme Mix</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td><strong>TOTAL</strong></td>
-<td>20 µL</td>
-</tr>
-</tbody>
-</table>
-<p>The reaction above is for a single 20 uL transcription reaction. <strong>Each IVT reaction typically produces 100-200 µg of dsRNA</strong>. Scale the reaction as needed.</p>
-</li>
-<li>
-<p>Mix throughly by gently flicking the tube or pipette the mixture up and down, then briefly microcentrifuge to collect the reaction mixture at the bottom of the tube.</p>
-</li>
-<li>
-<p>Incubate at 37ºC for 4 hr.</p>
-</li>
-</ol>
-<h2 id="nuclease-digestion-to-remove-dna-and-ssrna">Nuclease digestion to remove DNA and ssRNA</h2>
-<ol>
-<li>
-<p>In the same tube as the IVT reaction, assemble the following digestion reaction in order to digest template DNA and any ssRNA (scale as needed):</p>
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Volume</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>dsRNA (from IVT rxn)</td>
-<td>20 µL</td>
-</tr>
-<tr>
-<td>Nuclease-free H2O</td>
-<td>21 µL</td>
-</tr>
-<tr>
-<td>10X Digestion Buffer</td>
-<td>5 µL</td>
-</tr>
-<tr>
-<td>DNase I</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td>RNase</td>
-<td>2 µL</td>
-</tr>
-<tr>
-<td><strong>TOTAL</strong></td>
-<td>50 µL</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Incubate at 37ºC for 1 hr.</p>
-</li>
-</ol>
-<h2 id="dsrna-purification-cartridge-or-phenolchloroform">dsRNA Purification (cartridge or phenol/chloroform)</h2>
-<p><strong>Note:</strong> You can use either the filter cartridges associated with this kit or carry out a phenol/chloroform purification.</p>
-<ol>
-<li>
-<p>Add the following to the previous 50 µL reaction (scale as needed):</p>
-<table>
-<thead>
-<tr>
-<th>Component</th>
-<th>Volume</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>dsRNA (from digestion rxn)</td>
-<td>50 µL</td>
-</tr>
-<tr>
-<td>Nuclease-free H<sub>2</sub>O</td>
-<td>150 µL</td>
-</tr>
-<tr>
-<td>Phenol</td>
-<td>100 µL</td>
-</tr>
-<tr>
-<td>Chloroform</td>
-<td>100 µL</td>
-</tr>
-<tr>
-<td><strong>TOTAL</strong></td>
-<td>400 µL</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Shake for 15 s. (don't allow foam to form).</p>
-</li>
-<li>
-<p>Spin at 15,000 x g for 10 min. at 4ºC.</p>
-</li>
-<li>
-<p>Transfer top phase (aqueous) to a new RNase-free tube.</p>
+<p>Assemble and prepare the Sigma Aldrich Pur-A-Lyzer Midi Dialysis tubes (PURD60050-1KT)</p>
 <ul>
-<li><strong>Note</strong>: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, that is a good indication.</li>
+<li>
+<p>Fill the Pur-A-Lyzer tube with 0.8 mL of sterile milliQ water. Incubate for at least 5 minutes. Empty the tube. Ensure there is no water leaking from the tube. Absorption of water by the dry membrane will cause a decrease in water level.</p>
+</li>
+<li>
+<p>Load 800 µL of sterile, pre-warmed CM into the Pur-A-Lyzer tube. Add the desired volume of dsRNA to the tube for a final dsRNA concentration of anywhere from 50 µg/mL - 2 mg/mL (consult literature). Close the tube with the provided caps (do not apply force).</p>
+</li>
+<li>
+<p>Place the loaded Pur-A-Lyzer tube in the supplied floating rack and then place the rack in a clean, autoclaved beaker containing 50 mL of sterile, pre-warmed CM. Place up to 3 tubes in a beaker, grouped by treatment condition. Place a foil cover over the tops of the beakers, and place in the 37ºC + 5% CO<sub>2</sub> incubator overnight prior to use in RNAi experiment.</p>
+</li>
 </ul>
-</li>
-<li>
-<p>To aqueous dsRNA, add ~500 µL isopropanol.</p>
-<ul>
-<li>Optional: Add 0.1 volume of 3M sodium acetate and 2-3 volumes of cold 100% EtOH.</li>
-</ul>
-</li>
-<li>
-<p>Place tube at -80ºC for 30 min.</p>
-</li>
-<li>
-<p>Spin at 15,000 x g for 15 min. at 4ºC. You should see pellet after centrifugation (gelatinous blob).</p>
-</li>
-<li>
-<p>Remove supernatant.</p>
-</li>
-<li>
-<p>Wash pellet with ~600 µL cold 70% ethanol.</p>
-</li>
-<li>
-<p>Spin at 5,000 x g for 5 min. at 4ºC.</p>
-<ul>
-<li>Optional: Wash again if the pellet appears salty (white instead of clear).</li>
-</ul>
-</li>
-<li>
-<p>Remove ~500 µL of supernatant, briefly spin in the minicentifuge. Use p20 remove as much of the supernatant as possible. Briefly spin in minicentrifuge. Use p2.5 remove the remaining supernatant.</p>
-</li>
-<li>
-<p>You can use the p2.5 tip to move the gelatinous pellet up the side of the tube to facilitate drying and collect any remaining supernatant that is in tube.</p>
-</li>
-<li>
-<p>Air dry, and resuspend in RNase-free water at a volume of 1-2 µg/µL.</p>
-<ul>
-<li><strong>Note:</strong> If pellet is at bottom etching = 100 µg. Visible pellets form when there is 5 µg of dsRNA. When you add water, the pellet will fall into solution and begin to zip around the top of the water until it goes into solution. If it doesn't, this means there may be too much salt in your RNA, or there is no RNA present.</li>
-</ul>
-</li>
-<li>
-<p>Make a 1:10 dilution of original product by taking 1 µL dsRNA and 9 µL nuclease-free water. This will be used for a gel and to asses amount and purity of dsRNA using Nanodrop.</p>
-</li>
-<li>
-<p>Record concentration, date, and initials on tube and store in the appropriate box in the -80ºC.</p>
 </li>
 </ol>
+<h3 id="day-of-rnai-experiment">Day of RNAi Experiment</h3>
+<ol>
+<li>
+<p>Fill a 6 cm Petri plate by placing sterile, pre-warmed CM. Remove beaker containing Pur-A-Lyzer and culture plates containing groups of adult parasites from the incubator.</p>
+</li>
+<li>
+<p>Rinse the adult parasites under sterile conditions, by using worm hooks to gather one group of 3 adult parasites and transfer to the small Petri dish containing CM. Allow to rinse for a few seconds.</p>
+</li>
+<li>
+<p>Remove foil cover from dialysis beaker, remove tube holder from the beaker using clean, sterile forceps. Remove the cap to a Pur-A-Lyzer tube. Gather the group of adults that have been soaking in the Petri dish using the worm hooks. Transfer the parasites to the Pur-A-Lyzer tube. Ensure all parasites are submerged in the CM/dsRNA within the tube. Close the tube with the cap. Do not put more than 3 adults in each Pur-A-Lyzer tube.</p>
+</li>
+<li>
+<p>Repeat steps 1-3 until each desired group of 3 adult parasites have been added to a Pur-A-Lyzer tube.</p>
+</li>
+<li>
+<p>Discard the CM in the beaker. Replace with 100 mL of sterile, pre-warmed CM. Place the loaded Pur-A-Lyzer tubes containing parasites in the supplied floating rack back into the beaker. Place a foil cover over the top of the beaker, and place in the 37ºC + 5% CO<sub>2</sub> incubator.</p>
+</li>
+<li>
+<p>Allow the tubes and parasites to incubate for 72 hours. Check the beaker and media for signs of contamination or color change.</p>
+<p><strong>Note:</strong> If contamination is noted, obtain a new autoclaved beaker. Fill with 100 mL of sterile, pre-warmed CM. Transfer the rack containing the Pur-A-Lyzer tubes to this new beaker using sterile forceps. Place a new foil cover over the top of the beaker, and place back in the 37ºC + 5% CO<sub>2</sub> incubator. If the CM surrounding the tubes changes color, this is a sign of pH change, and the CM will need to be changed. Discard old CM and replace with sterile, pre-warmed CM.</p>
+</li>
+</ol>
+<h3 id="72-hours-post-soaking-knock-down-check">72-hours Post-Soaking (Knock-down check)</h3>
+<ol>
+<li>
+<p>Remove the beaker from the incubator and move to BSC. Remove holder containing the tubes. Remove the cap from the Pur-A-Lyzer tube. Remove the parasites from the tubes using worm hooks. Wash the adults in a Petri dish containing sterile, pre-warmed RPMI amended with 1% (v/v) P/S.</p>
+</li>
+<li>
+<p>After washing, using worm hooks, transfer the adults to a sterile, labelled 1.5 mL Eppendorf tube. The adults should stick to the inside of the tube. Using a p1000 pipettor, quickly pipette 100 µL of sterile RPMI on the group of adults on the inside wall of the tube. This should draw all the adults to the bottom of the tube. A brief spin in a benchtop centrifuge can also help if adults have not been drawn to the bottom.</p>
+</li>
+<li>
+<p>Repeat the above steps until all desired groups of adult parasites have been washed and transferred to a sterile, labelled 1.5 mL Eppendorf tube.</p>
+</li>
+<li>
+<p>Snap freeze the tubes in liquid nitrogen. Store at -80ºC.</p>
+<p><strong>Note:</strong> If time allows, perform RNA extraction immediately.</p>
+</li>
+<li>
+<p>Measure gene knock-down using <a href="../../../Molecular_Biology/qPCR/qPCR/">qPCR protocol</a>.</p>
+</li>
+</ol>
+<h3 id="rnai-assay-optimization">RNAi Assay Optimization</h3>
+<ul>
+<li>
+<p>If significant transcript knock-down (&gt; 50%) is not achieved within 72 hours, you can consider increasing dsRNA concentration, repeated exposure to dsRNAs (replenishing every other day), or increasing dsRNA exposure through extending the timeline of culture.</p>
+</li>
+<li>
+<p>If significant transcript knock-down (&gt; 50%) is achieved, you will need to align the dynamics and timing of this knock-down to measuring your phenotypic endpoint(s) of interest.</p>
+</li>
+</ul>
                 
                   
                 
