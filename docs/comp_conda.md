@@ -63,6 +63,12 @@ To demonstrate the utility of the conda virtual environment, first deactivate th
 
 Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the main page of the associated GitHub repo.
 
+## Cleaning
+
+conda environments can tend to take up a lot of disk space unless you tend to use the same package versions across environments. It's good practice to delete environments that aren't being actively used or updated (but keep notes on what packages and versions you would need to reproduce this environment). conda also has its own cleanup command that should be regularly run:
+
+`conda clean -ay`
+
 ## Useful Resources
 
 [conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)

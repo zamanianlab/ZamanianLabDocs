@@ -10,8 +10,8 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
   {Data Type}/
     ├── Master_summary.csv        [date, experimenter, other descriptive columns]
     ├── data/                     [data organized by day]
-    │   └── YYYMMDD/          
-    │   │   ├── YYYMMDD.csv       [raw instrument output or csv data]
+    │   └── YYYYMMDD/          
+    │   │   ├── YYYYMMDD.csv      [raw instrument output or csv data]
     │   │   └── Notes.txt         [assay description and additional details]
     │   └── (assay)_tidy.rds      [tidy/processed data]
     ├── R/                        [R script folder]
@@ -20,7 +20,7 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
     └── plots/                    [plot outputs]
   ```
 
-  - Raw data will either be stored in CSV files or natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., `YYYMMDDa` and `YYYMMDDb`).
+  - Raw data will either be stored in CSV files or natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., `YYYYMMDDa` and `YYYYMMDDb`).
 
   - Data tidying will be performed in scripts that are separate from those that perform analysis and visualization. Tidy data will be stored in Rds files (space-saving compared to Rda format).
 
@@ -38,7 +38,7 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
 ***Assay-specific column examples***
 ```
 - treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
-- conc: [e.g., one conc: uM, two conc: 5uM_10u]
+- conc: [e.g., one conc: uM, two conc: 5uM_10uM]
 - strain [N2 for Cel, NA or gene_id(dsRNA) for parasites]
 - worm_num
 - plate_num
