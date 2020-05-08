@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../images/dna_black.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
       
@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -57,7 +57,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#local-pipelines" tabindex="0" class="md-skip">
+      <a href="#local-pipelines" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -100,9 +100,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" aria-label="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
           
-            <img alt="logo" src="../images/dna.svg" width="24" height="24">
+            <img src="../images/dna.svg" width="24" height="24">
           
         </a>
       </div>
@@ -131,7 +131,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="__search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
         &#xE5CD;
@@ -194,7 +194,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
       
-        <img alt="logo" src="../images/dna.svg" width="48" height="48">
+        <img src="../images/dna.svg" width="48" height="48">
       
     </a>
     Zamanian Lab Documentation
@@ -471,22 +471,22 @@
 <p>Simple pipelines are those that are entirely local - they run on a local machine and access data on that same machine. The vast majority of these pipelines will consist of 1-3 R scripts with intermediary Rds files. Simple pipelines will not have version control and thus will not use GitHub, but they may often be collaborative. For this reason there are few standard practices that we will employ, as outlined below.</p>
 <p>With few defined exceptions, data and pipelines associated with a specific data type will be stored on the lab Box <code>Data</code> folder using a common structure.</p>
 <p>Within designated <code>Box/ZamanianLab/Data/</code> sub-directory,</p>
-<div class="highlight"><pre><span></span><code>{Data Type}/
+<div class="highlight"><pre><span></span>{Data Type}/
   ├── Master_summary.csv        [date, experimenter, other descriptive columns]
   ├── data/                     [data organized by day]
-  │   └── YYYMMDD/          
-  │   │   ├── YYYMMDD.csv       [raw instrument output or csv data]
+  │   └── YYYYMMDD/          
+  │   │   ├── YYYYMMDD.csv      [raw instrument output or csv data]
   │   │   └── Notes.txt         [assay description and additional details]
   │   └── (assay)_tidy.rds      [tidy/processed data]
   ├── R/                        [R script folder]
   │   ├── (assay)_tidy.R        [raw data &gt; (assay)_tidy.rds]
   │   └── (assay)_analysis.R    [template: tidy data &gt; analysis and plots]
   └── plots/                    [plot outputs]
-</code></pre></div>
+</pre></div>
 
 <ul>
 <li>
-<p>Raw data will either be stored in CSV files or as natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., <code>YYYMMDDa</code> and <code>YYYMMDDb</code>).</p>
+<p>Raw data will either be stored in CSV files or as natively-exported instrument files within dated folders. Append lettered subscripts to the end of the folder name if multiple unrelated outputs of that data type were generated on the same day (e.g., <code>YYYYMMDDa</code> and <code>YYYYMMDDb</code>).</p>
 </li>
 <li>
 <p>Data tidying will be performed in scripts that are separate from those that perform analysis and visualization. Tidy data will be stored in Rds files (space-saving compared to Rda format).</p>
@@ -494,19 +494,19 @@
 </ul>
 <p><strong>Tidying Instructions:</strong> These instructions apply to establishing templates for raw tabular (csv) files that are manually generated in the course of assays, and the Rds files generated from tidying all raw data (manually-generated csv or instrument-generated files in various formats). <strong>Pay close attention to column order and case sensitivity</strong>. The purpose of setting common standards is to make manipulation of these data easier across the lab.</p>
 <p><strong><em>Required column names and entries</em></strong>
-<div class="highlight"><pre><span></span><code>- date [YYYY-MM-DD]
+<div class="highlight"><pre><span></span>- date [YYYY-MM-DD]
 - species [e.g., Cel, Bma, Bpa, Dim]
 - strain [e.g., N2 for Cel, NA or gene_id(dsRNA) for parasites]
 - stage [Embryo, mf, L1, L2, L3, L4, AM, AF, Adult]
 - experimenter [e.g., KJG]
-</code></pre></div></p>
+</pre></div></p>
 <p><strong><em>Assay-specific column examples</em></strong>
-<div class="highlight"><pre><span></span><code>- treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
-- conc [e.g., one conc: 5uM, two conc: 5uM_10u]
+<div class="highlight"><pre><span></span>- treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
+- conc [e.g., one conc: 5uM, two conc: 5uM_10uM]
 - worm_num
 - plate_num
 - cue
-</code></pre></div>
+</pre></div>
 <em>Our lab maintains a common <a href="link">dictionary</a> of full drug names and plot abbreviations.</em></p>
                 
                   
@@ -566,18 +566,18 @@
       <div class="md-footer-copyright">
         
         powered by
-        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        <a href="https://www.mkdocs.org">MkDocs</a>
         and
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
   <div class="md-footer-social">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/zamanianlab" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/zamanianlab" class="md-footer-social__link fa fa-github"></a>
     
-      <a href="https://twitter.com/zamanian_" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
+      <a href="https://twitter.com/zamanian_" class="md-footer-social__link fa fa-twitter"></a>
     
   </div>
 
@@ -587,7 +587,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.c33a9706.js"></script>
+      <script src="../assets/javascripts/application.808e90bb.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
