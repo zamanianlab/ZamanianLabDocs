@@ -325,6 +325,30 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comp_conda/" title="Conda" class="md-nav__link">
+      Conda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comp_homebrew/" title="Homebrew" class="md-nav__link">
+      Homebrew
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -365,38 +389,9 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Overview
-      </label>
-    
     <a href="./" title="Overview" class="md-nav__link md-nav__link--active">
       Overview
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pipeline-organization" class="md-nav__link">
-    Pipeline Organization
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -459,22 +454,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pipeline-organization" class="md-nav__link">
-    Pipeline Organization
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -489,27 +468,18 @@
                 
                 
                 <h1 id="pipelines-overview-and-tools">Pipelines Overview and Tools</h1>
-<h2 id="pipeline-organization">Pipeline Organization</h2>
 <p>We organize our pipelines into two groups, structured in slightly different ways:</p>
 <ol>
 <li>
-<p><a href="../pipelines_local/">Local Pipelines</a> (simple local pipelines)</p>
-<ul>
-<li>qPCR</li>
-<li>EPG</li>
-<li>Sensory assays</li>
-</ul>
+<p><a href="../pipelines_local/">Local Pipelines</a> (simple local scripts)</p>
+<p>These are pipelines involving common assay and data processing tasks that can be modified and run on local computers. These pipelines have a common structure and are housed in dedicated sub-directories on Box (<code>~/Box/ZamanianLab/Data</code>). These include pipelines to process instrument output files (e.g., qPCR and EPG) or tabular phenotypic assay data.</p>
 </li>
 <li>
 <p><a href="../pipelines_server/">Core Pipelines</a> (contain a remote server component)</p>
-<ul>
-<li>ImageXpress</li>
-<li>WormViz</li>
-<li>Tierpsy</li>
-<li>RNA-seq</li>
-</ul>
+<p>These are pipelines that tap into the computational power of remote servers, typically involving larger datasets and more complex processing. These include image processing (ImageXpress, WormViz, Tierpsy), DNA and RNA sequence processing, and comparative genomics pipelines.</p>
 </li>
 </ol>
+<p>We maintain basic rules on how to properly store raw data and process common data types within these folders. The structures of these pipelines are detailed on the <a href="../pipelines_local/">Local Pipelines</a> and <a href="../pipelines_server/">Core Pipelines</a> pages.</p>
                 
                   
                 
@@ -531,7 +501,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../comp_github/" title="GitHub" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../comp_homebrew/" title="Homebrew" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -540,7 +510,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                GitHub
+                Homebrew
               </span>
             </div>
           </a>
