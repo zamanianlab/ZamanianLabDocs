@@ -17,9 +17,9 @@
 - TE buffer (optional)
 - Centrifuge cooled to 4°C
 
-## Washing and Feeze-Cracking Worms
+## Washing and Freeze-Cracking Worms
 
-1. Grow up desired number of 10 cm plates for eventual RNA extraction. As a general estimate, each 10 cm plate of adult worms yields at least 10 ug of RNA. Scale accordingly across strains.
+1. Grow up desired number of 10 cm plates for eventual RNA extraction. As a general estimate, each 10 cm plate of adult worms yields at least 10 μg of RNA. Scale accordingly across strains.
 
     **Example schedule for bleach-synchronized population**
 
@@ -54,7 +54,7 @@
 
     b. Aspirate off M9.
 
-    c. Tansfer worms to a 1.5 mL tube.
+    c. Transfer worms to a 1.5 mL tube.
 
 5. Add 1 mL M9.
 

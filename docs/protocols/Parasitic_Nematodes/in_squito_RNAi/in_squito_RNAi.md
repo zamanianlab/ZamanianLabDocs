@@ -1,6 +1,6 @@
 # *in squito* RNAi
 
-**NOTE: Handling of infected mosquitoes should be performed in defined BSL-2 spaces.**
+**Handling of infected mosquitoes should be performed in defined BSL-2 spaces.**
 
 ## Materials
 
@@ -8,7 +8,6 @@
 - dsRNA
 - Ice
 - Glass petri dish with a Whatman filter inside
-- Mosquito injection rig
 - Clean small mosquito cartons
 - P2.5 pipette
 - Forceps
@@ -27,7 +26,7 @@
 
 ## Protocol
 
-**NOTE: the following protocol is best performed with two people, one loading needles and the other injecting mosquitoes.**
+**NOTE:** the following protocol is best performed with two people, one loading needles and the other injecting mosquitoes.**
 
 1. Dilute dsRNA to 1 μg/μL.
 
@@ -43,7 +42,7 @@
 
 3. Once you are prepared for injection, take a carton of mosquitoes and place it in the 4° fridge for 3-5 minutes or until the mosquitoes are all anesthetized.
 
-    - **NOTE: Mosquito survival rate is dependent upon the amount of time they are anesthetized, so be careful not to leave them in the fridge or on the ice for too long.**
+    **NOTE:** Mosquito survival rate is dependent upon the amount of time they are anesthetized, so be careful not to leave them in the fridge or on the ice for too long.
 
 4. Transfer anesthetized mosquitoes to the glass dish, placing the lid on top.
 
@@ -57,7 +56,7 @@
 
     d. Line the needles up to be used by the individual performing the injections.
 
-    **NOTE: Typically needle filling will go much faster than mosquito injections, so be careful not to get too ahead of the person doing injections; dsRNA will evaporate from the needle if left sitting at room temperature for too long.**
+    **NOTE:** Typically needle filling will go much faster than mosquito injections, so be careful not to get too ahead of the person doing injections; dsRNA will evaporate from the needle if left sitting at room temperature for too long.**
 
 6. Inject a mosquito:
 
