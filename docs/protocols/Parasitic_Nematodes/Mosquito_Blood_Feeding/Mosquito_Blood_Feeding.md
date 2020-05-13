@@ -1,6 +1,6 @@
 # Infecting Mosquitoes with Microfilaremic Blood
 
-**General Note**: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr. before feeding for AaSD.
+**Note**: Remove the sucrose pad(s) the night before feeding for LVP or 2 hr. before feeding for AaSD.
 
 ## Preparing blood for blood feeding
 - Appropriate concentrations for blood feeding:

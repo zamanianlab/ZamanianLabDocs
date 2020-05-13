@@ -1,6 +1,6 @@
 # Extraction of *Brugia* or *Dirofilaria* L3 from Infected Mosquitoes
 
-**General Note**: If working with *Brugia* infected mosquitoes, all members of the Zamanian and Bartholomay lab need to be notified 24 hours in advance. Screened-in room will need to be reserved and scheduled on the Google calendar Injection Schedule prior to BSL2 work. Before bringing out the mosquitoes from the insectary, place BSL2 signs on all entrances to the lab and to the screened dissection room. Put on PPE (lab coat, goggles and gloves).
+**Note**: If working with *Brugia* infected mosquitoes, all members of the Zamanian and Bartholomay lab need to be notified 24 hours in advance. Screened-in room will need to be reserved and scheduled on the Google calendar Injection Schedule prior to BSL2 work. Before bringing out the mosquitoes from the insectary, place BSL2 signs on all entrances to the lab and to the screened dissection room. Put on PPE (lab coat, goggles and gloves).
 
 ## A. Bulk Extraction of L3
 ### Materials

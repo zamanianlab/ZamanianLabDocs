@@ -20,7 +20,7 @@ The following protocol is to be used for washing plastic and glass bottles, flas
 
 - Press "1" for normal use and press "4" for glassware with agar that needs to be removed. Then press "START" to initiate the wash cycle. Each cycle is about ~2 hr.
 
-    **NOTE:** Liquid detergent and acid rinse are pumping into the machine from bottles in the drawer at the bottom of the washer. When the bottles have 2 inches or less of fluid, make more:
+    **Note:** Liquid detergent and acid rinse are pumping into the machine from bottles in the drawer at the bottom of the washer. When the bottles have 2 inches or less of fluid, make more:
 
     - Liquid detergent: Pour most of 1 gallon of Super Q water (in Room 210, ask for assistance from a lab member) in the container, add 70 mL Contrad 70, and add the rest of the Super Q water (to avoid foaming).
 

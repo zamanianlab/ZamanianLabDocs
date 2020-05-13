@@ -57,7 +57,7 @@ well in 24-well plates (total volume = 1 mL). Total of 600 larvae is typically u
 
 6. L3 molting should be monitored daily using a compound scope at 40x-200x total magnification.
 
-**General Note**: A majority of *D. immitis* L3 should molt within the first 2-3 days in culture.
+**Note**: A majority of *D. immitis* L3 should molt within the first 2-3 days in culture.
 
 
 ### Preparing Parasites and Culture Plates (96-well individual culture)

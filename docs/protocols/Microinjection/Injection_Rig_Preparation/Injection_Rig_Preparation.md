@@ -10,7 +10,7 @@ Adapted from [Panther Air Compressor](../Injection_Rig_Preparation/PantherAirCom
 
 2. After the compressor has run for a complete cycle to pressurize the tank and then shut off (you will hear the motor stop when it automatically shuts off; tank pressure should be ~120 psi), set the desired pressure on the Filter/Regulator (see image below) by lifting the knob until it clicks/unlocks and the adjust the pressure by turning the knob clockwise (increased pressure) or counterclockwise (decreased pressure). Ensure the read valve is flipped to "ON" to allow air to travel from the tank to the Filter/Regulator. Once the desired pressure is reached, push the knob back down to lock it.
 
-    **NOTE:** Never completely open (turn all the way clockwise) the Filter/Regulator. The FemtoJet can only handle pressures from 60-120 psi, so do not allow the pressure to exceed 120 psi.
+    **Note:** Never completely open (turn all the way clockwise) the Filter/Regulator. The FemtoJet can only handle pressures from 60-120 psi, so do not allow the pressure to exceed 120 psi.
 
 3. When injections are complete, turn the compressor off and release the pressure by adjusting the Filter/Regulator to 0 psi and depressurizing through the drain valve (see **Maintenance**).
 

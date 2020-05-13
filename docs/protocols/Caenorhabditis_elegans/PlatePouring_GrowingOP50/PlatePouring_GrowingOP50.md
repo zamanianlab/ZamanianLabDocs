@@ -5,7 +5,7 @@
 - Fresh LB streak plate of OP50 (no more than 2 weeks old) stored at 4°C
 - 250 mL LB in 500 mL flask(s) (usually every Monday)
 
-    **NOTE:** This may already be prepared, but if not, prepare by autoclaving LB in flasks.
+    **Note:** This may already be prepared, but if not, prepare by autoclaving LB in flasks.
 
 - 6 cm unseeded NGMA plates (test plates)
 - Plastic inoculating loops

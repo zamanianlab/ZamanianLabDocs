@@ -41,7 +41,7 @@
 
       e. Repeat steps c and d until you've poured in all the sterile water.
 
-1. Cover the mouth of the flask with foil and tape in place with autoclave tape (autoclave room). Use label tape to label the flask with: media (e.g. NGM or HGM), date of pour, and your initials. **NOTE:** you can simply move the tape label from the plastic bottle to the flask, making sure to also write the date of pour on the label.
+1. Cover the mouth of the flask with foil and tape in place with autoclave tape (autoclave room). Use label tape to label the flask with: media (e.g. NGM or HGM), date of pour, and your initials. **Note:** you can simply move the tape label from the plastic bottle to the flask, making sure to also write the date of pour on the label.
 
 4. Add stir bar.
 
@@ -80,7 +80,7 @@
 
 4. Check PourBoy settings. Use the "POUR" up and down buttons to set the volume that must be dispensed into each plate Press and release the "MODE/CAL" button to switch between Manual mode (dispenses once per foot pedal operation) and Auto mode (dispenses indefinitely, with a pause interval between dispensing operations). Use the "PAUSE" up and down buttons to increase and decrease the interval between dispensing operations in auto mode. Foot pedal is hard-wired to the PourBoy pump and you should not attempt to remove it.
 
-    **NOTE: Be very careful with the ends of the tubes from this point forward. They are sterile and must be kept sterile while pouring plates. Do not allow them to touch anything but the inside of the autoclaved media, water, or aluminum foil.**
+    **Note:** Be very careful with the ends of the tubes from this point forward. They are sterile and must be kept sterile while pouring plates. Do not allow them to touch anything but the inside of the autoclaved media, water, or aluminum foil.
 
 5. Place the autoclaved bottle of water on the hot plate (setting 4/5).
 
@@ -112,7 +112,7 @@
 
 14. Store the box in the 4°C deli-style fridge.
 
-  **NOTE:** When pouring many plates, there is not enough room on the bench to fit all of the plates in the media. To maximize space, you can stack 3-4 plates on top of each other and pour from the bottom up of each stack. When done with a stack, place the flask of media back in the 60°C water bath, and wait for the plates to dry (20-30 min.). Once dry, stack all of the plates on the right end of the bench and place out more stacks of plates to pour. Continue and repeat until all of the media has been poured.
+  **Note:** When pouring many plates, there is not enough room on the bench to fit all of the plates in the media. To maximize space, you can stack 3-4 plates on top of each other and pour from the bottom up of each stack. When done with a stack, place the flask of media back in the 60°C water bath, and wait for the plates to dry (20-30 min.). Once dry, stack all of the plates on the right end of the bench and place out more stacks of plates to pour. Continue and repeat until all of the media has been poured.
 
   | Plate Storage |
   | ------------- |

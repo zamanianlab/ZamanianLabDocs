@@ -67,4 +67,4 @@
 
 - Add water to 100 mL
 
-- **NOTE: Tween 20 and IGEPAL are difficult to pipette, so you may choose to make a 50% solution in water and double the input amount.**
+- **Note**: Tween 20 and IGEPAL are difficult to pipette, so you may choose to make a 50% solution in water and double the input amount.

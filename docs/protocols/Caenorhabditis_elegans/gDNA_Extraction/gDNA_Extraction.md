@@ -48,7 +48,7 @@
 
 9. Add 200 μl EtOH and vortex to mix. Transfer contents to a labeled spin column in a collection tube.
 
-10. Spin at 10,000 rpm for one minute. **NOTE: if all the contents did not go through the column, repeat the spin.**
+10. Spin at 10,000 rpm for one minute. **Note**: if all the contents did not go through the column, repeat the spin.
 
 11. Remove spin column and transfer to a new collection tube. Add 500 μl Buffer AW1.
 

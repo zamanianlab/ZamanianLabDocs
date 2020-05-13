@@ -65,7 +65,7 @@ be used for the PCRs that generate the fragment.
 
     In this case, we start with 50 ng of the backbone and calculated the number of pmols that would be based on the size of the cut fragment that would be assembled. Multiply that amount (0.023 pmol) by two to get the 2:1 vector:insert ratio. 0.046 pmol of the 1645 bp cel-osm-9p is 46.76 ng.
 
-    Using the calculated ng of each fragment and the measured concentration from the Qubit, calculate the volume to be added for a final volume of 5 μL (**Note: this is less than the final volume given in the NEB manual, in order to save reagents.**) In other words, perform the calculations as recommended in the manual, and then divide all the constituents by 4.
+    Using the calculated ng of each fragment and the measured concentration from the Qubit, calculate the volume to be added for a final volume of 5 μL (**Note**: this is less than the final volume given in the NEB manual, in order to save reagents.) In other words, perform the calculations as recommended in the manual, and then divide all the constituents by 4.
 
 4. Assemble the final reaction in a PCR tube.
 

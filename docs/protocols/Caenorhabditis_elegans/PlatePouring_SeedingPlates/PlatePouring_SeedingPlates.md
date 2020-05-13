@@ -7,7 +7,7 @@
 - Repeat pipette
     - 5 mL tips to seed 6 cm plates
     - 25 mL tips to seed 10 cm plates
-    - **NOTE:** you will need the red adapter piece for 25 mL tip!
+    - **Note:** you will need the red adapter piece for 25 mL tip!
 
 ## Protocol
 
@@ -15,7 +15,7 @@
 
     - ONLY POUR AS MUCH AS YOU NEED FOR YOUR NUMBER OF PLATES (Once dispensed, extra bacteria should *not* be used later, but bleached and disposed of).
 
-    **NOTE:** Use a flame for sterile technique- sterilize the Glass Flask edge before and after dispensing into the tube, **But DON'T flame the plastic tube!**
+    **Note:** Use a flame for sterile technique- sterilize the Glass Flask edge before and after dispensing into the tube, **But DON'T flame the plastic tube!**
 
 2. Work where plates are normally poured. Set up the plates in stacks that are not too high, about 4 plates high.
 
