@@ -46,6 +46,8 @@
 
 - [*Dirofilaria immits* L3 to L4 Molt](Parasitic_Nematodes/Di_L3toL4_Molt/Di_L3toL4_Molt.md)
 
+- [in squito RNAi](Parasitic_Nematodes/in_squito_RNAi/in_squito_RNAi.md)
+
 - [Adult RNAi (Dialysis)](Parasitic_Nematodes/Dialysis_Tube_RNAi/Dialysis_Tube_RNAi.md)
 
 - [RNA Extraction](Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md)
