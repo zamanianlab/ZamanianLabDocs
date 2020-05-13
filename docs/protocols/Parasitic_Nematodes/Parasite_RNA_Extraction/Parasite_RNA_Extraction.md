@@ -1,7 +1,7 @@
 # Total Parasite RNA Extraction
 
 ### Materials
-- Eliminase  
+- Eliminase or RNase Zap  
 - TRIzol LS (Ambion, #10296010)
 - Safelock Tubes (Eppendorf, #022600044)
 - Qiagen Stainless Steel 5 mm Beads (#69989)

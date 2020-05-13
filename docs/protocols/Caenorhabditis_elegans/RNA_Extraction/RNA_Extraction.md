@@ -10,35 +10,36 @@
 - Heat block set to 37°C
 - Vortexer
 - RNase-free 1.5 mL tubes
+- Eliminase or RNase Zap
 - Chloroform
 - Cold isopropanol
 - 75% ethanol
-- TE buffer or RNase-free water
+- TE buffer (optional)
 - Centrifuge cooled to 4°C
 
 ## Washing and Feeze-Cracking Worms
 
 1. Grow up desired number of 10 cm plates for eventual RNA extraction. As a general estimate, each 10 cm plate of adult worms yields at least 10 ug of RNA. Scale accordingly across strains.
 
-  **Example schedule for bleach-synchronized population**
-    - **D1** pick 3 x 6 cm plates (5 worms/plate)
-    - **D4** pick 3 x 10 cm plates (30-50 worms/plate)
-    - **D8** Bleach gravid population from 10 cm plates (< 6 plates per tube). Expect ~5k embryos per 10 cm plate.
-    - **D8** Combine, titer, and plate out 2k embryos per plate on 6 x 10 cm plates. You can usually plate out twice as many 10 cm plates as went into the bleach.
-    - Monitor plates closely until intended developmental milestone(s) are reached.
-    ```
-    N2 estimates
-    0 hrs (L1, not plated - straight from tubes)
-    28 hrs (L2)
-    35 hrs (L3)
-    48 hrs (L4)
-    60 hrs (Young Adults)
-    70 hrs (Adults)
-    ```  
+    **Example schedule for bleach-synchronized population**
 
-  **Example for mixed population**
-    - **D1** chunk 3-6 x 10 cm plates
-    - Monitor plates closely until intended developmental milestone(s) are reached.    
+      - **D1** pick 3 x 6 cm plates (5 worms/plate)
+      - **D4** pick 3 x 10 cm plates (30-50 worms/plate)
+      - **D8** Bleach gravid population from 10 cm plates (< 6 plates per tube). Expect ~5k embryos per 10 cm plate.
+      - **D8** Combine, titer, and plate out 2k embryos per plate on 6 x 10 cm plates. You can usually plate out twice as many 10 cm plates as went into the bleach.
+      - Monitor plates closely until intended developmental milestone(s) are reached.
+
+        ```
+        N2 estimates
+        0 hrs (L1, not plated - straight from tubes)
+        28 hrs (L2)
+        35 hrs (L3)
+        48 hrs (L4)
+        60 hrs (Young Adults)
+        70 hrs (Adults)
+        ```  
+
+    **For mixed population,**  can chunk 3-6 x 10 cm plates and monitor until intended developmental milestone(s) are reached.    
 
 
 2. When plates are ready, wash worms off of plates with M9 and pool by strain into nearly-filled 15 mL tubes of M9.
@@ -47,31 +48,31 @@
 
 4. Add 5 mL of fresh M9.
 
-5. Let settle on ice for ~15 minutes.
+    a. Let settle on ice for ~15 minutes.
 
-6. Aspirate off M9.
+    b. Aspirate off M9.
 
-7. Tansfer worms to a 1.5 mL tube.
+    c. Tansfer worms to a 1.5 mL tube.
 
-8. Add 1 mL M9.
+5. Add 1 mL M9.
 
-9. Spin on minicentrifuge or let settle on ice.
+    a. Spin on minicentrifuge or let settle on ice.
 
-10. Aspirate off M9.
+    b. Aspirate off M9.
 
-11. Add 1 mL Trizol.
+6. Add 1 mL Trizol.
 
-12. Flash-freeze each tube by dropping the tubes bottom first into liquid nitrogen, remove with a ladle or forceps.
+7. Flash-freeze each tube by dropping the tubes bottom first into liquid nitrogen, remove with a ladle or forceps.
 
-13. Thaw tubes in a heat block set to 37°C.
+8. Thaw tubes in a heat block set to 37°C.
 
-14. *Repeat steps 12-13 four additional times.*
+9. *Repeat steps 7-8 four additional times.*
 
-15. After the final thaw, vortex at 3200 for 30 seconds, then rest for 30 seconds.
+10. After the final thaw, vortex at 3200 for 30 seconds, then rest for 30 seconds.
 
-16. *Repeat step 15 four additional times.*
+11. *Repeat step 10 four additional times.*
 
-    **Note:** Some debris may remain, especially eggs in a mixed population; these will not interfere with RNA extraction yield or purity.
+    **Note:** Some debris may remain if isolating from eggs or processing mixed population; these will not interfere with RNA extraction yield or purity.
 
 **Optional: store samples at -80°C or continue with protocol**
 
