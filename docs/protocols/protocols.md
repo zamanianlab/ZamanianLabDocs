@@ -6,6 +6,7 @@
 
 - [Undergraduate Tasks](Tasks/UG_Tasks/UG_Tasks.md)
 
+
 ## **Molecular Biology**
 
 - [General Lab Recipes](Molecular_Biology/General_Recipes/General_Recipes.md)
@@ -54,12 +55,15 @@
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
 
 
-
 ## ***Caenorhabditis elegans***
+
+*Many protocols adapted from the Andersen Lab (NU)*
 
 - [*C. elegans* Recipes](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)
 
 - [Chunking Worms](Caenorhabditis_elegans/Chunking_Worms/Chunking_Worms.md)
+
+- [Bleach Synchronization](Caenorhabditis_elegans/Bleach_Synchronization/Bleach_Synchronization.md)
 
 - [Cleaning Worms](Caenorhabditis_elegans/Cleaning_Worms/Cleaning_Worms.md)
 

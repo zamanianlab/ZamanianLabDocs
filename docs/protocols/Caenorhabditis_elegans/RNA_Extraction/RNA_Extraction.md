@@ -39,7 +39,9 @@
         70 hrs (Adults)
         ```  
 
-    **For mixed population,**  can chunk 3-6 x 10 cm plates and monitor until intended developmental milestone(s) are reached.    
+    **Alternatively,** can chunk 3-6 x 10 cm plates and bleach gravid population (continue with D8 above).
+
+    **For mixed population,** can chunk 3-6 x 10 cm plates and monitor until intended developmental milestone(s) are reached.    
 
 
 2. When plates are ready, wash worms off of plates with M9 and pool by strain into nearly-filled 15 mL tubes of M9.
@@ -82,9 +84,7 @@
 
 1. Prior to RNA extraction, wipe down your working space, pipettes, and gloves with Eliminase or RNase Zap.
 
-    **Note:** Ensure that your gloves remain RNase-free; if you touch a contaminated surface (i.e. skin, hair, other lab equipment) or breath on the gloves, they are no longer RNase-free.
-
-    **Note:** This procedure has been performed on personal bench tops, but the BSC will provide further sterility if RNA degradation or RNase contamination is a fear.
+    **Note:** Ensure that your gloves remain RNase-free; if you touch a contaminated surface (i.e. skin, hair, other lab equipment) or breath on the gloves, they are no longer RNase-free. This procedure has been performed on personal bench tops, but the BSC will provide further sterility if RNA degradation or RNase contamination is a fear.
 
 2. Add 200 μL chloroform per 1 mL Trizol.
 
