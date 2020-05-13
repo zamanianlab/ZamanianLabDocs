@@ -14,7 +14,7 @@
 
 ## Preparation
 
-- Infect *Ae. aegypti* LVP mosquitoes with filarial nematodes (follow the [Mosquito blood feeding protocol](../parasitic_nematodes/Mosquito_blood_feeding/Mosquito_blood_feeding.md)).
+- Infect *Ae. aegypti* LVP mosquitoes with filarial nematodes (follow the [Mosquito blood feeding protocol](../Mosquito_Blood_Feeding/Mosquito_Blood_Feeding.md)).
 
   - Sort fed females into small cartons of 25 mosquitoes per carton
 
