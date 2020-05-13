@@ -67,7 +67,9 @@
 
 - [Freezing Worms in Agar](Caenorhabditis_elegans/Freezing_Worms_Agar/Freezing_Worms_Agar.md)
 
-- [gDNA Extractions](Caenorhabditis_elegans/gDNA_Extraction/gDNA_Extraction.md)
+- [RNA Extraction](Caenorhabditis_elegans/RNA_Extraction/RNA_Extraction.md)
+
+- [gDNA Extraction](Caenorhabditis_elegans/gDNA_Extraction/gDNA_Extraction.md)
 
 - [Single Worm Genotyping](Caenorhabditis_elegans/Single_Worm_Genotyping/Single_Worm_Genotyping.md)
 
