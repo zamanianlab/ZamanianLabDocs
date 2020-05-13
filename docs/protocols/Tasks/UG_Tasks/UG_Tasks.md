@@ -26,9 +26,9 @@
 
   - **LB-AMP-Xgal-IPTG plates.** Pour one sleeve of 10 cm plates following the recipe in [General Lab Recipes](../../Molecular_Biology/General_Recipes/General_Recipes.md). Place them in the 4°C in Room 230.
 
-    - X-gal stocks (408.64 g/mol) recipe: Weigh 1 g of X-gal and dilute it in 20 mL of DMSO. Aliquot in 1 mL volumes into 1.5 mL tubes (makes 20).
+    - X-gal stocks (50 mg/mL) recipe: Weigh 1 g of X-gal (MW: 408.64 g/mol) and dilute it in 20 mL of DMSO. Aliquot in 1 mL volumes into 1.5 mL tubes (makes 20).
 
-    - IPTG stocks (238.31 g/mol) recipe: Weigh 5 g IPTG and dilute it in 210 mL distilled water. Aliquot in 10 mL volumes into 15 mL conical tubes (makes 21).
+    - IPTG stocks (100 mM) recipe: Weigh 5 g IPTG (MW: 238.31 g/mol) and dilute it in 210 mL distilled water. Aliquot in 10 mL volumes into 15 mL conical tubes (makes 21).
 
 ## MONTHLY Lab Tasks
 
