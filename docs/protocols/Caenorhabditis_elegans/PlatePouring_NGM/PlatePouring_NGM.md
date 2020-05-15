@@ -9,12 +9,12 @@
 
      | 1 L of NGM | 2 L of NGM |
      | ---------- | ---------- |
-     | ~60 6 cm plates | ~160 6 cm plates |
-     | ~40 10 cm plates | ~60 10 cm plates |
+     | ~65 6 cm plates | ~130 6 cm plates |
+     | ~30 10 cm plates | ~60 10 cm plates |
 
 ## Preparing NGM Media Mixes
 
-- The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: type of media and final volume (e.g. NGM-1L or NGM-2L), date of preparation, and your initials.
+- The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: type of media and final volume (e.g., NGM-1L or NGM-2L), date of preparation, and your initials.
 
 - **NGM recipe**
 
