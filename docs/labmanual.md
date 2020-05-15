@@ -249,21 +249,33 @@ We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, a
 General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tissue and Nucleic Acid Inventory** sheet linked in [Lab Sheets](labsheets.md). The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
 ```
-Tissue tube label: Species, Stage, Date frozen, Number of worms
-RNA/gDNA tube label: Species, Stage, Date of extraction, Concentration
+* Tube Labels (combine the following into a single string)
+  1) Species (First letter of genus + first letter of species)
+  2) Date (YYYYMMDD)
+  3) Sample Type (T=tissue, R=RNA, CD=cDNA, GD=gDNA)
+  4) Number ID (T###)
+  Example: Bm20190530.T001
 ```
+
 
 ### C. Parasite Infections (Insectary)
 
-The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for filarial parasite infection and L3 isolation can be found on our [Protocols](protocols/protocols.md) page. Mosquito strains available for parasite infection:
+The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for insectary operations, filarial parasite infection, and L3 isolation can be found on our [Protocols](protocols/protocols.md) page. Mosquito strains available for parasite infection:
 
 - ***Ae. aegypti LVP*** strain: used for *B. malayi* and *B. pahangi* infections
 - ***Ae. aegypti SD*** strain: used for *D. immitis* infections
 
-Strains must be ordered in advance for infection. Expect a minimum of 1 L3 per infected mosquito. Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden. Information on active and planned mosquito infections can be found in:
+Strains must be ordered in advance for infection. Expect a minimum of 1 L3 per infected mosquito. Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden. Place Orders as instructed in the Insectary Protocol and update the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md) to associate parasite batches with mosquito infections
 
-- ``/Infections/``: *LocalInfectionSchedule.xlsx*
-
+```
+Mosquito Carton Labels
+  Mosquito spp.:
+  Parasite spp.:
+  Parasite Source:
+  Date Infected:
+  Titer:
+  Extraction Date:
+```
 
 ## VIII. Writing and Reference Management
 

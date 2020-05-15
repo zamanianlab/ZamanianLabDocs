@@ -35,3 +35,7 @@
 - Type in the desired information for your label by double-clicking the center of the label. Input the number of copies being printed by adjusting the quantity located to the left of the blue **Print** button.
 
 - Print by clicking the blue **Print** button once.
+
+## Representative Examples of Lab Labeling Scheme
+
+  ![labels](img/img1.png)

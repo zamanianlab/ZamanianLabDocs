@@ -17,7 +17,7 @@ Prepare parasite culture media as described in the [Parasite Culture](../../Para
 
     - Fill the Pur-A-Lyzer tube with 0.8 mL of sterile milliQ water. Incubate for at least 5 minutes. Empty the tube. Ensure there is no water leaking from the tube. Absorption of water by the dry membrane will cause a decrease in water level.
 
-    - Load 800 µL of sterile, pre-warmed CM into the Pur-A-Lyzer tube. Add the desired volume of dsRNA to the tube for a final dsRNA concentration of anywhere from 50 µg/mL - 2 mg/mL (consult literature). Close the tube with the provided caps (do not apply force).
+    - Load 800 µL of sterile, pre-warmed CM into the Pur-A-Lyzer tube. Close the tube with the provided caps (do not apply force).
 
     - Place the loaded Pur-A-Lyzer tube in the supplied floating rack and then place the rack in a clean, autoclaved beaker containing 50 mL of sterile, pre-warmed CM. Place up to 3 tubes in a beaker, grouped by treatment condition. Place a foil cover over the tops of the beakers, and place in the 37ºC + 5% CO<sub>2</sub> incubator overnight prior to use in RNAi experiment.
 
@@ -27,13 +27,17 @@ Prepare parasite culture media as described in the [Parasite Culture](../../Para
 
 2. Rinse the adult parasites under sterile conditions, by using worm hooks to gather one group of 3 adult parasites and transfer to the small Petri dish containing CM. Allow to rinse for a few seconds.
 
-3. Remove foil cover from dialysis beaker, remove tube holder from the beaker using clean, sterile forceps. Remove the cap to a Pur-A-Lyzer tube. Gather the group of adults that have been soaking in the Petri dish using the worm hooks. Transfer the parasites to the Pur-A-Lyzer tube. Ensure all parasites are submerged in the CM/dsRNA within the tube. Close the tube with the cap. Do not put more than 3 adults in each Pur-A-Lyzer tube.
+3. Remove foil cover from dialysis beaker, remove tube holder from the beaker using clean, sterile forceps. Remove the cap to a Pur-A-Lyzer tube.
 
-4. Repeat steps 1-3 until each desired group of 3 adult parasites have been added to a Pur-A-Lyzer tube.
+4. Add the desired volume of dsRNA to the tube for a final dsRNA concentration of anywhere from 50 µg/mL - 2 mg/mL (consult literature).
 
-5. Discard the CM in the beaker. Replace with 100 mL of sterile, pre-warmed CM. Place the loaded Pur-A-Lyzer tubes containing parasites in the supplied floating rack back into the beaker. Place a foil cover over the top of the beaker, and place in the 37ºC + 5% CO<sub>2</sub> incubator.
+5. Gather the group of adults that have been soaking in the Petri dish using the worm hooks. Transfer the parasites to the Pur-A-Lyzer tube. Ensure all parasites are submerged in the CM/dsRNA within the tube. Close the tube with the cap. Do not put more than 3 adults in each Pur-A-Lyzer tube.
 
-6. Allow the tubes and parasites to incubate for 72 hours. Check the beaker and media for signs of contamination or color change.
+6. Repeat steps 2-5 until each desired group of 3 adult parasites have been added to a Pur-A-Lyzer tube.
+
+7. Discard the CM in the beaker. Replace with 100 mL of sterile, pre-warmed CM. Place the loaded Pur-A-Lyzer tubes containing parasites in the supplied floating rack back into the beaker. Place a foil cover over the top of the beaker, and place in the 37ºC + 5% CO<sub>2</sub> incubator.
+
+8. Allow the tubes and parasites to incubate for 72 hours. Check the beaker and media for signs of contamination or color change.
 
     **Note:** If contamination is noted, obtain a new autoclaved beaker. Fill with 100 mL of sterile, pre-warmed CM. Transfer the rack containing the Pur-A-Lyzer tubes to this new beaker using sterile forceps. Place a new foil cover over the top of the beaker, and place back in the 37ºC + 5% CO<sub>2</sub> incubator. If the CM surrounding the tubes changes color, this is a sign of pH change, and the CM will need to be changed. Discard old CM and replace with sterile, pre-warmed CM.
 
