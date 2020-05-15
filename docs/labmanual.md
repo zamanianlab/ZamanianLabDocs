@@ -196,7 +196,7 @@ Tube Counts: Variable
 
 ### E. Competent Bacteria
 
-Boxes specific to each competent bacteria (DH5a, JM101) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
+Boxes specific to each competent bacteria (DH5a, NE5a, JM109) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
 
 ```
 Storage box labels (-80C):
