@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../../images/dna_black.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.3">
     
     
       
@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/application.1b62728e.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/application.adb8469c.css">
       
         <link rel="stylesheet" href="../../../../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -57,7 +57,7 @@
       
     
     
-      <script src="../../../../assets/javascripts/modernizr.268332fc.js"></script>
+      <script src="../../../../assets/javascripts/modernizr.86422ebf.js"></script>
     
     
       
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#transformation-of-competent-cells" tabindex="1" class="md-skip">
+      <a href="#transformation-of-competent-cells" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -100,9 +100,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
+        <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" aria-label="Zamanian Lab Documentation" class="md-header-nav__button md-logo">
           
-            <img src="../../../../images/dna.svg" width="24" height="24">
+            <img alt="logo" src="../../../../images/dna.svg" width="24" height="24">
           
         </a>
       </div>
@@ -131,7 +131,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="__search"></label>
       <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
         &#xE5CD;
@@ -194,7 +194,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo">
       
-        <img src="../../../../images/dna.svg" width="48" height="48">
+        <img alt="logo" src="../../../../images/dna.svg" width="48" height="48">
       
     </a>
     Zamanian Lab Documentation
@@ -454,8 +454,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#protocol" class="md-nav__link">
-    Protocol
+  <a href="#competent-cell-choice" class="md-nav__link">
+    Competent Cell Choice
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protocol-jm109-and-dh5-alpha" class="md-nav__link">
+    Protocol (JM109 and DH5-alpha)
   </a>
   
 </li>
@@ -486,7 +493,14 @@
 <li>Agar plates with appropriate antibiotic, cooled to room temperature</li>
 <li>SOC media</li>
 </ul>
-<h2 id="protocol">Protocol</h2>
+<h2 id="competent-cell-choice">Competent Cell Choice</h2>
+<ul>
+<li>NEB 5-alpha (NEB, # C2987I) for HiFi Assemblies</li>
+<li>JM109 (Promega, # L2001) for cloning in pGEM-T Easy Vector (Promega, # A1360)</li>
+<li>DH5-alpha (made in-house) for other purposes (e.g., <em>C. elegans</em> Fire Lab plasmids)</li>
+</ul>
+<p><strong>Note:</strong> Follow the kit protocols for commercial cell transformation.</p>
+<h2 id="protocol-jm109-and-dh5-alpha">Protocol (JM109 and DH5-alpha)</h2>
 <ol>
 <li>
 <p>Take competent cells out of -80°C and thaw on ice.</p>
@@ -498,7 +512,7 @@
 <p>Place the competent cell and DNA mixture on ice for 20-30 min.</p>
 </li>
 <li>
-<p>Heat-shock mixture by placing the bottom &frac12; to &#8532; of the tube into a 42°C water bath for 30-60 s. (45 s. is probably best).</p>
+<p>Heat-shock in a 42°C water bath for 30-60 s. (45 s. is best). Do Not Shake.</p>
 </li>
 <li>
 <p>Place on ice for 2 min.</p>
@@ -507,7 +521,7 @@
 <p>Add 900 μL of SOC.</p>
 </li>
 <li>
-<p>Incubate at 37°C with shaking for 45 min.</p>
+<p>Incubate at 37°C with shaking (225 RPM) for 45 min.</p>
 </li>
 <li>
 <p>Plate bacteria on agar plates, typically 3 plates with 100 uL, 200 uL, and 300 uL each. Pipette bacteria onto the plate, add ~10 glass beads, put the lid on the plate and slowly roll the beads through the liquid and around the entire surface area of the plate.</p>
@@ -542,18 +556,18 @@
       <div class="md-footer-copyright">
         
         powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
         and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs</a>
       </div>
       
   <div class="md-footer-social">
     <link rel="stylesheet" href="../../../../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/zamanianlab" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/zamanianlab" target="_blank" rel="noopener" title="github" class="md-footer-social__link fa fa-github"></a>
     
-      <a href="https://twitter.com/zamanian_" class="md-footer-social__link fa fa-twitter"></a>
+      <a href="https://twitter.com/zamanian_" target="_blank" rel="noopener" title="twitter" class="md-footer-social__link fa fa-twitter"></a>
     
   </div>
 
@@ -563,7 +577,7 @@
       
     </div>
     
-      <script src="../../../../assets/javascripts/application.808e90bb.js"></script>
+      <script src="../../../../assets/javascripts/application.c33a9706.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:"../../../.."}})</script>
       
