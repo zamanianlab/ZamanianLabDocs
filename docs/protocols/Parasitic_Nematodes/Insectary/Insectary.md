@@ -22,25 +22,25 @@ This document describes insectary operations for the maintenance and infection o
 
 ### Overview of *Ae. aegypti* (LVP) Schedule
 
-|Day                    |Task                    |
-|-----------------------|------------------------|
-|0 (Wednesday)          |Hatch and pan out larvae|
-|1-3 (Thursday-Saturday)|Monitor larvae growth, feed double-ground food twice daily or PRN|
-|4-7 (Sunday-Wednesday) |Monitor larvae growth, feed once ground food twice daily or PRN|
-|8 (Thursday)           |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
-|9-11 (Friday-Sunday)   |Adult mosquitoes emerge 2-3 days after pupation|
-|12- (Monday-)          |Monitor adult health, survival, and refresh sucrose pads daily|
+  |Day                    |Task                    |
+  |-----------------------|------------------------|
+  |0 (Wednesday)          |Hatch and pan out larvae|
+  |1-3 (Thursday-Saturday)|Monitor larvae growth, feed double-ground food twice daily or PRN|
+  |4-7 (Sunday-Wednesday) |Monitor larvae growth, feed once ground food twice daily or PRN|
+  |8 (Thursday)           |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
+  |9-11 (Friday-Sunday)   |Adult mosquitoes emerge 2-3 days after pupation|
+  |12- (Monday-)          |Monitor adult health, survival, and refresh sucrose pads daily|
 
 ### Overview of *Aedes aegypti* (AaSD) Schedule
 
-|Day                    |Task                    |
-|-----------------------|------------------------|
-|0 (Thursday)           |Hatch and pan out larvae|
-|1-3 (Friday-Sunday)    |Monitor larvae growth, feed double-ground food twice daily or PRN|
-|4-5 (Monday-Tuesday)   |Monitor larvae growth, feed once ground food twice daily or PRN|
-|6 (Wednesday)          |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
-|7-9 (Thursday-Saturday)|Adult mosquitoes emerge 2-3 days after pupation|
-|10- (Sunday-)          |Monitor adult health, survival, and refresh sucrose pads daily|
+  |Day                    |Task                    |
+  |-----------------------|------------------------|
+  |0 (Thursday)           |Hatch and pan out larvae|
+  |1-3 (Friday-Sunday)    |Monitor larvae growth, feed double-ground food twice daily or PRN|
+  |4-5 (Monday-Tuesday)   |Monitor larvae growth, feed once ground food twice daily or PRN|
+  |6 (Wednesday)          |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
+  |7-9 (Thursday-Saturday)|Adult mosquitoes emerge 2-3 days after pupation|
+  |10- (Sunday-)          |Monitor adult health, survival, and refresh sucrose pads daily|
 
 ## I. Collection of Egg Sheets
 
@@ -60,17 +60,17 @@ This document describes insectary operations for the maintenance and infection o
 
 1. Take all black egg cups out of colony cages.
 
-    [img1 & img2]
+    <img src="../img/img1.jpeg" width="35%">
 
 2. Take out each egg sheet from black egg cups.
 
 3. Lay egg sheets out on paper towel and cover with another sheet of paper towel, to avoid contamination or egg laying by rogue mosquitoes.
 
-    [img3]
+    <img src="../img/img3.jpeg" width="35%">
 
 4. Place in a old larvae pan with a glass lid and place in the insectary chamber overnight.
 
-    [img4]
+    <img src="../img/img4.jpeg" width="35%">
 
 5. The egg paper should be almost completely dry (if too dry eggs fall off, but want dry enough so mold doesn’t grow).
 
@@ -78,7 +78,7 @@ This document describes insectary operations for the maintenance and infection o
 
 7. Label a Whirlpak bag with species name, date that egg sheets were placed in the cages, and initials.
 
-    [img5]
+    <img src="../img/img5.jpeg" width="35%">
 
 8. Place Whirlpak bag in proper species storage container located within the large insectary.
 
@@ -94,7 +94,7 @@ This document describes insectary operations for the maintenance and infection o
 
 4. Place egg sheet in a “hatch jar” that has DISTILLED water and has been autoclaved properly (aka jar top is popped) and ensure egg sheet is immersed in water.
 
-    [img6]
+    <img src="../img/img6.jpeg" width="35%">
 
 5. Once larvae have hatched, you can begin panning out larvae.
 
@@ -120,13 +120,14 @@ This document describes insectary operations for the maintenance and infection o
 
 4. Using a glass Pasteur pipette, count approximately 300 larvae into a plastic larvae cup.
 
-    [img7]
+    <img src="../img/img7.jpeg" width="35%">
 
 5. Once all larvae have been counted, dump one cup of 300 larvae per pan.
 
 6. Feed larvae a few drops of food slurry. Place pans on the appropriate labelled shelf in the large walk-in insectary.
 
-    [img8 & 9]
+    <img src="../img/img8.jpeg" width="32.2%">
+    <img src="../img/img9.jpeg" width="40%">
 
     Tips for panning larvae:
 
@@ -143,13 +144,19 @@ This document describes insectary operations for the maintenance and infection o
 
 1. Obtain a carton (for experimental orders) or a clean, glass pupae dish (for the cage) and label with correct colored tape and todays date.
 
-2. Fill up with distilled water (a little more than ¼ the cup).
+2. Collect larvae pans and check for adequate pupation (> 75%).
 
-3. Obtain a clean pupae picker.
+    <img src="../img/img11.jpg" width="35%">
 
-4. Pick pupae. Fill orders if needed or place directly into the cage. If placing in the cage, label the pupae dish using the appropriate colored tape (pink: LVP, lime green: AaSD) and  include the following information on the label: species name, date, date of emergence (two days from the current date), number of pupae in the cup, and your initials.
+3. Fill up with distilled water (a little more than ¼ the cup).
 
-5. Use a new picker or clean currently used picker before switching to the next species. Make sure your picker is clean and no tiny larvae are on it.
+4. Obtain a clean pupae picker.
+
+    <img src="../img/img13.jpg" width="35%">
+
+5. Pick pupae. Fill orders if needed or place directly into the cage. If placing in the cage, label the pupae dish using the appropriate colored tape (pink: LVP, lime green: AaSD) and  include the following information on the label: species name, date, date of emergence (two days from the current date), number of pupae in the cup, and your initials.
+
+6. Use a new picker or clean currently used picker before switching to the next species. Make sure your picker is clean and no tiny larvae are on it.
 
   Tips for picking pupae:
 
@@ -170,7 +177,7 @@ This document describes insectary operations for the maintenance and infection o
 
 3. Place a large pan under the separator.
 
-    [img10]
+    <img src="../img/img10.jpeg" width="35%">
 
 4. Fill one beaker with water and rinse and clean the separator by forcefully pouring water over each of the four knobs and down the main panel of the separator. Do this thrice to ensure the separator is clean and no contaminating larvae or pupae are caught in the separator.
 
@@ -187,6 +194,8 @@ This document describes insectary operations for the maintenance and infection o
 10. Carefully and slowly dump the beaker of larvae/pupae/distilled water down through the top of the separator between the two glass plates. Only pour a small number of pupae/larvae at a time.
 
 11. Now loosen both the bottom nobs a very small amount and use gentle hand pressure to pull the front glass panel away from the back-glass panel (this moves the mosquitoes down the separator and allows them to keep in a straight line).
+
+    <img src="../img/img14.jpg" width="35%">
 
 12. Pour the beaker of distilled water down through the top of the separator slowly until the mosquitoes are an even line.
 
@@ -210,7 +219,10 @@ This document describes insectary operations for the maintenance and infection o
 
   **Note:** If placing pupae in the colony cage, label the pupae dish using the appropriate colored tape (pink: LVP, lime green: AaSD) and  include the following information on the label: species name, date, date of emergence (two days from the current date), number of pupae in the cup, and your initials.
 
+  <img src="../img/img16.jpg" width="35%">
+
   Make sure to check and clean the separator thoroughly before and after use as pupae and larvae tend to get stuck in it and come out the sides of the glass (this is a possible way for contamination of pans and experimental cartons).
+
 
 ## IV. Filling Mosquito Orders
 
@@ -309,6 +321,12 @@ both sides to prevent mosquitoes from sticking to the tape).
     - Label the cage with the date it was established.
 
     - Make mesh sleeve for accessibility when adding and removing pupae dishes and egg cups.
+
+- Adding and removing pupae dishes:
+
+    - TODO
+
+    <img src="../img/img17.jpg" width="35%"> <img src="../img/img18.jpg" width="35%">
 
 ## VIII. Mosquito Rearing Troubleshooting
 

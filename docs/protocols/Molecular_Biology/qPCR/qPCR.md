@@ -36,27 +36,29 @@
 
 *Note:* qPCR primers must be optimized for each new RNA/cDNA template. Primer optimization involves primer dilutions to find the optimal primer concentration for each primer set + template combination. Depending on your experiments, you should probably use the **same stage, non-experimental** cDNA sample that is at the **same concentration** as your experimental samples (the best practice is to include this sample in your cDNA synthesis reaction). The PowerUp SYBR Green Master Mix kit recommends trying 300, 500, and 800 nM final concentrations, but you can add additional (lower) concentrations as well.
 
-1. Mix 20 uL of the paired stock qPCR primers (100 μM) and 160 μL water to achieve final primer concentrations of 10 μM.
+1. Mix 20 uL of each of the paired stock qPCR primers (100 μM) and add 160 μL water to achieve final paired stock concentrations of 10 μM.
 
-2. Use the table below to calculate qPCR primer stock concentrations. The C<sub>i</sub> is calculated using a cDNA input of 2 μL and will need to be adjusted for different inputs.
+2. Use the table below to calculate primer dilutions required to achieve final primer concentrations of 300, 500, and 800 nM in your eventual 20 μL qPCR reactions. Dilute the volume of 10 μM primer stock shown below in bold to a final volume of 50 μL in water.
 
-    | C<sub>f</sub> (Primers, nM) | V<sub>f</sub> (Reaction, μL) | V<sub>i</sub> (Primer + Water Input, μL) | C<sub>i</sub> (Primer Input, nM) <br> = C<sub>f</sub> * V<sub>f</sub> / V<sub>i</sub> |
-    |----------------------------------|------------------------------|--------------------------------------|------------------------------|
-    | 300                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | 750         |
-    | 500                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | 1250        |
-    | 800                              | 20                           | **8** = 20 μL - 10 μL MM - 2 μL cDNA | 2000        |
-
-3. Use the table below to calculate the dilutions for qPCR primer stocks. Add the appropriate volume of 10 μM working stock to water for a final volume of 50 μL.
-
-    | C<sub>f</sub> (qPCR primer stock, nM) | V<sub>f</sub> (qPCR Primer Stock, μL) | C<sub>i</sub> (Primer Stock, nM) | V<sub>i</sub> (Primer Stock Input, μL) |
+    | C<sub>i</sub> (Primer Stock, μM) | V<sub>i</sub> (Primer Stock Input, μL) <br> = C<sub>f</sub> * V<sub>f</sub> / C<sub>i</sub>  | V<sub>f</sub> (μL) | C<sub>f</sub> (nM) |
     |---------------------------------------|----------------------------------|------------------------------|------------------------------------|
-    | 750                                   | 50                               | 10                           | = A1 / 1000 * B1 / C1 = 3.75       |
-    | 1250                                  | 50                               | 10                           | = A2 / 1000 * B2 / C2 = 6.25       |
-    | 2000                                  | 50                               | 10                           | = A3 / 1000 * B3 / C3 = 10         |
+    | 10    | **3.75**      | 50      | 750       |
+    | 10    | **6.25**      | 50      | 1250      |
+    | 10    | **10.00**     | 50      | 2000      |
+
+
+    **Note:** These primer dilutions (750, 1250, and 2000 nM) will achieve intented qPCR reaction concentrations (300, 500, and 800 nM), as shown below. 8 μL of diluted primer stocks from above will be mixed with 2 μL of cDNA and 10 μL of Master Mix (MM) for a final reaction volume of 20 μL. Scale primer volumes above as necessary, depending on the number of reactions you are planning.
+
+    | C<sub>i</sub> (C<sub>f</sub> from above, nM) | V<sub>i</sub> (μL) | V<sub>f</sub> (μL) | C<sub>f</sub> (Primers, nM) |
+    |----------------------------------|------------------------------|--------------------------------------|------------------------------|
+    | 750    | **8**   | 20 | 300       |
+    | 1250   | **8**   | 20 | 500      |
+    | 2000   | **8**  | 20 | 800        |
+
 
 ### Plate setup
 
-*Note:* Each qPCR experiment should contain a minimum of 5 ng RNA/cDNA (10 ng is preferable). If possible, each primer dilution should be run in duplicate. Use a non-experimental cDNA sample that has the same concentration and is from the same life stage as your experimental samples.
+**Note:** Each qPCR reaction should use a minimum of 5 ng RNA/cDNA (10 ng is preferable). If possible, each primer dilution should be run in duplicate. Ideally, use a non-experimental cDNA sample that has the same concentration and is from the same life stage as your experimental samples.
 
 1. Design the plate setup on Benchling (example below).
 
