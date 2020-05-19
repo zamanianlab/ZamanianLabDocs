@@ -5,7 +5,8 @@
 - OCT
 - Metal embedding cryomold
 - Dry ice
-- Micro-needle holder
+- Minutien Needles 0.2mm, Stainless Steel (Roboz, # RS-6083-20)
+- Micro Dissecting Needle Holder, 4 3/4" (Roboz, # RS-6061)
 - Pipette tip box cover
 - 0.05% Methylene Blue in RPMI
 - Zeiss Stemi 508 with a monochrome CMOS camera (DMK 33UX178)

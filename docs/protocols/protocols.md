@@ -54,6 +54,8 @@
 
 - [Cryoembedding](Parasitic_Nematodes/Cryoembedding/Cryoembedding.md)
 
+- [Cryosectioning (general)](Parasitic_Nematodes/Cryostat/Cryostat.md)
+
 - [Exosome Isolation](Parasitic_Nematodes/Exosome_Isolation/Exosome_Isolation.md)
 
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
