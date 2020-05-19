@@ -265,7 +265,7 @@ The Bartholomay Lab insectary is a powerful resource that comes with major respo
 - ***Ae. aegypti LVP*** strain: used for *B. malayi* and *B. pahangi* infections
 - ***Ae. aegypti SD*** strain: used for *D. immitis* infections
 
-Strains must be ordered in advance for infection. Expect a minimum of 1 L3 per infected mosquito. Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden. Place Orders as instructed in the Insectary Protocol and update the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md) to associate parasite batches with mosquito infections
+Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the [Insectary Protocol](protocols/Parasitic_Nematodes/Insectary/Insectary.md) and update the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md) to associate parasite batches with mosquito infections
 
 ```
 Mosquito Carton Labels

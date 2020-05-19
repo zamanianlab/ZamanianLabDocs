@@ -47,7 +47,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
     - Lab Primer IDs: oMZ0257/58
 
-    - Expected Ct:  ~24 from 10 ng of RNA (edited)
+    - Expected Ct: ~24 from 10 ng of RNA
 
 ### Primer stock dilutions
 

@@ -9,7 +9,9 @@ This document describes insectary operations for the maintenance and infection o
 
 - Orders should be placed on the experimental mosquito order log found in the mosquito order binder, which is located in the insectary. Ensure that all fields of the log are filled out in order for your request to be fulfilled in a timely and accurate manner.
 
-- Mosquito orders are to be placed **THREE WEEKS** before they are needed for experimental use! Overestimate the number of mosquitoes you will need to account for death throughout the rearing process
+- Mosquito orders are to be placed **THREE WEEKS** before they are needed for experimental use!
+
+- Expect a minimum of 1 L3 per infected mosquito (more typically 5 Bp L3 per mosquito, 1-3 Di L3 per mosquito). Keep in mind that ~20% may not blood-feed and ~20-50% may die off before extraction, which is not uncommon with high parasite burden. Overestimate the number of mosquitoes you will need to account for death throughout the rearing process
 
 - Standard mosquito orders are filled in the following quantities (can be adjusted according to your experimental needs):
 
