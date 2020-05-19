@@ -32,7 +32,7 @@
 - [dsRNA Synthesis](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
 
 
-## **Parasitic nematodes and mosquitoes**
+## **Mosquito-Stage Parasite Protocols**
 
 - [Insectary Operations](Parasitic_Nematodes/Insectary/Insectary.md)
 
@@ -42,23 +42,29 @@
 
 - [L3 Extraction from Mosquitoes](Parasitic_Nematodes/L3_Extraction/L3_Extraction.md)
 
+- [*in squito* RNAi](Parasitic_Nematodes/in_squito_RNAi/in_squito_RNAi.md)
+
+## **Parasitic Nematodes**
+
 - [Parasite Culture](Parasitic_Nematodes/General_Parasite_Culture/General_Parasite_Culture.md)
 
 - [*Dirofilaria immits* L3 to L4 Molt](Parasitic_Nematodes/Di_L3toL4_Molt/Di_L3toL4_Molt.md)
-
-- [*in squito* RNAi](Parasitic_Nematodes/in_squito_RNAi/in_squito_RNAi.md)
 
 - [Adult RNAi (Dialysis)](Parasitic_Nematodes/Dialysis_Tube_RNAi/Dialysis_Tube_RNAi.md)
 
 - [RNA Extraction](Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md)
 
-- [Cryoembedding](Parasitic_Nematodes/Cryoembedding/Cryoembedding.md)
-
-- [Cryosectioning (general)](Parasitic_Nematodes/Cryostat/Cryostat.md)
-
 - [Exosome Isolation](Parasitic_Nematodes/Exosome_Isolation/Exosome_Isolation.md)
 
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
+
+
+## **Nematode Embedding and Sectioning**
+
+- [Cryoembedding](Parasitic_Nematodes/Cryoembedding/Cryoembedding.md)
+
+- [Cryosectioning](Parasitic_Nematodes/Cryostat/Cryostat.md)
+
 
 
 ## ***Caenorhabditis elegans***
