@@ -100,13 +100,13 @@ This document describes insectary operations for the maintenance and infection o
 
     Tips for hatching mosquito eggs:
 
-    - *A. aegypti* typically lay eggs quite densely on the sheet, therefore, you typically will only use a strip of the egg sheet.
+    - *A. aegypti* typically lay eggs quite densely on the sheet and you will therefore only need one strip of the egg sheet.
 
-    - Try to use the oldest egg sheets first. This is because they don’t hatch well or at all after several months (past 3–6 months).
+    - Try to use the oldest egg sheets first, as the eggs hatch poorly after 3–6 months months.
 
     - *A. aegypti* typically take 1 hr. to hatch out.
 
-    - If larvae do not hatch out, you can try switching jars (taking out egg sheet and putting in new autoclaved jar).
+    - If larvae do not hatch, you can try switching jars (taking out egg sheet and putting in new autoclaved jar).
 
     - ONLY feed first instar larvae a few drops MAXIMUM of food (Tetramin slurry) as they will die with an excess of food.
 
@@ -217,11 +217,11 @@ This document describes insectary operations for the maintenance and infection o
 
 21. Dump female pupae into a large glass pupae dish (if counting for orders) or a regular sized pupae dish (if placing in the colony cage).
 
-  **Note:** If placing pupae in the colony cage, label the pupae dish using the appropriate colored tape (pink: LVP, lime green: AaSD) and  include the following information on the label: species name, date, date of emergence (two days from the current date), number of pupae in the cup, and your initials.
+    **Note:** If placing pupae in the colony cage, label the pupae dish using the appropriate colored tape (pink: LVP, lime green: AaSD) and  include the following information on the label: species name, date, date of emergence (two days from the current date), number of pupae in the cup, and your initials.
 
-  <img src="../img/img16.jpg" width="35%">
+    <img src="../img/img16.jpg" width="35%">
 
-  Make sure to check and clean the separator thoroughly before and after use as pupae and larvae tend to get stuck in it and come out the sides of the glass (this is a possible way for contamination of pans and experimental cartons).
+    Make sure to check and clean the separator thoroughly before and after use as pupae and larvae tend to get stuck in it and come out the sides of the glass (this is a possible way for contamination of pans and experimental cartons).
 
 
 ## IV. Filling Mosquito Orders
@@ -324,9 +324,13 @@ both sides to prevent mosquitoes from sticking to the tape).
 
 - Adding and removing pupae dishes:
 
-    - TODO
+    - Once pupae are in pupae dish, open the mesh sleeve to the colony cage and place the pupae cup in the cage. Add a piece of mesh to cover the top of the pupae dish. Once the pupae dish has been situated and covered, knot the mesh sleeve to prevent mosquitoes from escaping the colony cage.
 
-    <img src="../img/img17.jpg" width="35%"> <img src="../img/img18.jpg" width="35%">
+    <img src="../img/img17.jpg" width="35%">
+
+    - Check the pupae dish every day and release the emerged adults, by removing the mesh and waving the mesh and lightly blowing on the pupae dish to disperse the adults into the cage. Once a majority of the adults have emerged (2-3 days after introducing the pupae dish), you can remove the pupae cup from the cage. To do so, remove the mesh from on top of the pupae dish. Place a small mosquito carton lid (used to fulfill orders) over the top of the cup. Quickly remove the dish from the cage through the mesh sleeve. Try to minimize the adults that escape from the cage throughout this process. Once the dish is removed and mesh sleeve is knotted, place the pupae cup in the freezer for 24-48 hours.
+
+    <img src="../img/img18.jpg" width="35%">
 
 ## VIII. Mosquito Rearing Troubleshooting
 

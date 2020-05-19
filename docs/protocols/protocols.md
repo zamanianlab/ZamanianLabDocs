@@ -27,9 +27,9 @@
 
 - [qPCR](Molecular_Biology/qPCR/qPCR.md)
 
-- [RNA to cDNA](Molecular_Biology/RNA_to_cDNA/RNA_to_cDNA.md)
+- [cDNA Synthesis](Molecular_Biology/RNA_to_cDNA/RNA_to_cDNA.md)
 
-- [dsRNA Synthesis (RNAi)](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
+- [dsRNA Synthesis](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
 
 
 ## **Parasitic nematodes and mosquitoes**

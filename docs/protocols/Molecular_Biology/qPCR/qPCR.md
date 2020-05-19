@@ -2,7 +2,6 @@
 
 ## Materials
 
-- Direct-zol RNA Miniprep Plus (Zymo Research R2070S)
 - SuperScript III (Thermo Fisher Scientific 18080051)
 - PowerUp SYBR Green MasterMix (Fisher Scientific A25741)
 - qPCR sub-skirted plate (MIDSCI AVT3890)
@@ -34,7 +33,23 @@
 
 ### Primer stock dilutions
 
-*Note:* qPCR primers must be optimized for each new RNA/cDNA template. Primer optimization involves primer dilutions to find the optimal primer concentration for each primer set + template combination. Depending on your experiments, you should probably use the **same stage, non-experimental** cDNA sample that is at the **same concentration** as your experimental samples (the best practice is to include this sample in your cDNA synthesis reaction). The PowerUp SYBR Green Master Mix kit recommends trying 300, 500, and 800 nM final concentrations, but you can add additional (lower) concentrations as well.
+qPCR primers must be optimized for each new RNA/cDNA template. Primer optimization involves primer dilutions to find the optimal primer concentration for each primer set + template combination. Depending on your experiments, you should probably use the **same stage, non-experimental** cDNA sample that is at the **same concentration** as your experimental samples (the best practice is to include this sample in your cDNA synthesis reaction). The PowerUp SYBR Green Master Mix kit recommends trying 300, 500, and 800 nM final concentrations, but you can add additional (lower) concentrations as well.
+
+### Reference Genes
+
+- *C. elegans* Reference Gene: Y45F10D.4 ([Citation](https://link.springer.com/article/10.1186/1471-2199-9-9))
+
+    - Lab Primer IDs: oMZ0516/17
+
+    - Expected Ct: 24 from 10 ng of RNA (see figure S10 in Wheeler et al. 2020)
+
+- *B. malayi* Reference Gene: WBGene00225960 (Bm5699) ([Citation](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004311#sec005))
+
+    - Lab Primer IDs: oMZ0257/58
+
+    - Expected Ct:  ~24 from 10 ng of RNA (edited)
+
+### Primer stock dilutions
 
 1. Mix 20 uL of each of the paired stock qPCR primers (100 μM) and add 160 μL water to achieve final paired stock concentrations of 10 μM.
 
