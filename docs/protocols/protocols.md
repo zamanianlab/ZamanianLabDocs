@@ -54,16 +54,17 @@
 
 - [RNA Extraction](Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md)
 
+- [Cryoembedding](Parasitic_Nematodes/Cryoembedding/Cryoembedding.md)
+
+- [Cryosectioning](Parasitic_Nematodes/Cryostat/Cryostat.md)
+
+- [LCM](Parasitic_Nematodes/LCM/LCM.md)
+
 - [Exosome Isolation](Parasitic_Nematodes/Exosome_Isolation/Exosome_Isolation.md)
 
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
 
 
-## **Nematode Embedding and Sectioning**
-
-- [Cryoembedding](Parasitic_Nematodes/Cryoembedding/Cryoembedding.md)
-
-- [Cryosectioning](Parasitic_Nematodes/Cryostat/Cryostat.md)
 
 
 
