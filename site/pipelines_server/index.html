@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#local-pipelines" tabindex="0" class="md-skip">
+      <a href="#server-pipelines" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -467,25 +467,7 @@
                   <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/pipelines_server.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="local-pipelines">Local Pipelines</h1>
-<p>Simple pipelines are those that are entirely local - they run on a local machine and access data on that same machine. The vast majority of these pipelines will consist of 1-3 R scripts with intermediary Rds files.</p>
-<p>Simple pipelines will not have version control and thus will not use GitHub, but they may often be collaborative. For this reason there are few standard practices that we will employ:</p>
-<ol>
-<li>
-<p>Data wrangling will be performed in scripts that are separate from those that perform analysis and visualization.</p>
-</li>
-<li>
-<p>Raw data will be stored in CSV files and wrangled/tidied data will be stored in Rds files.</p>
-</li>
-<li>
-<p>All data will be stored on the shared Box drive using the following directory structure:</p>
-<p><code>Box/ZamanianLab/Data/{Experiment Type}/Species/Name/Date</code></p>
-<p>Each experiment will have its own CSV file with an accompanying <code>notes.txt</code> file explaining the assay.</p>
-</li>
-<li>
-<p>All lab members will be required to maintain a consistent R environment by installing and periodically updating the Zamanian Lab R Package.</p>
-</li>
-</ol>
+                <h1 id="server-pipelines">Server Pipelines</h1>
                 
                   
                 

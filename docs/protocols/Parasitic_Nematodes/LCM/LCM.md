@@ -21,7 +21,7 @@
 
 ### Embedding
 
-Follow the [Cryoembedding](../Parasitic_Nematodes/Cryoembedding/Cryoembedding.md) protocol to embed parasites into OCT for subsequent sectioning.
+Follow the [Cryoembedding](../Cryoembedding/Cryoembedding.md) protocol to embed parasites into OCT for subsequent sectioning.
 
 ### Preparing PEN Membrane Slides for Cryosectioning
 
@@ -34,7 +34,7 @@ Air-dry for 5–10 min.
 
 ### Cryosectioning
 
-Follow Follow the [Cryosectioning](../Parasitic_Nematodes/Cryostat/Cryostat.md) to produce tissue sections for LCM. 20 µm sections are typically collected for all stages of filarial parasites.
+Follow Follow the [Cryosectioning](../Cryostat/Cryostat.md) to produce tissue sections for LCM. 20 µm sections are typically collected for all stages of filarial parasites.
 
 ### Transferring sections from cryostat onto PEN membrane
 
