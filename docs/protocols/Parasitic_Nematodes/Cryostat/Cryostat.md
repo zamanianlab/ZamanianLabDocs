@@ -1,6 +1,6 @@
 # Cryosectioning Protocol
 
-## Materials:
+## Materials
 
 - Kimwipes  
 - OCT  
@@ -12,7 +12,7 @@
 - Eliminase
 - Embedded Parasite Samples
 
-### General Cryostat Operation:
+## General Cryostat Operation
 
 1. Press the circle button on the top panel of the machine to set temperature. Set the temperature to -26ºC with the up and down arrows.
 
@@ -68,14 +68,10 @@
 
 19. Using a new razor blade, trim the OCT above and below the area containing the worm(s) as needed. This will create a smaller cutting block to eliminate excess OCT when collecting the sections.
 
-### Cryosectioning for Spatial RNA-Sequencing
+## Downstream Endpoints
 
-  [Link to RNA Tomography Protocol]
+ - **LCM:** Follow instructions for [LCM using PEN Membrane Slides](../LCM/LCM.md)
 
-### Cryosectioning for RNA Localization Using Charged Slides
+ - **Spatial RNA-Seq:** Follow instructions in [RNA Tomography Protocol] (in progress)
 
-  [Link to Charged Slides for RNA Localization Protocol]
-
-### Cryosectioning for LCM using PEN Membrane Slides
-
-  [Link to LCM Protocol]
+ - **RNA localization via FISH:** Follow instructions in [RNA FISH Protocol] (in progress)

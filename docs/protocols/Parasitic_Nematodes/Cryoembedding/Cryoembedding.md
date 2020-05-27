@@ -1,6 +1,6 @@
 # Parasite Cryo-Embedding Protocol
 
-## Materials:
+## Materials
 
 - OCT
 - Metal embedding cryomold

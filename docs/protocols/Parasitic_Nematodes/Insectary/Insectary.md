@@ -334,7 +334,55 @@ both sides to prevent mosquitoes from sticking to the tape).
 
     <img src="../img/img18.jpg" width="35%">
 
-## VIII. Mosquito Rearing Troubleshooting
+
+## VIII. Autoclaving Jars and Pans
+
+**Autoclaving Hatch Jars**
+
+1. Wash hatch jars thoroughly with soap and warm water. Rinse thoroughly with distilled water.
+
+2. Fill jars about 1/2 to 2/3 the way up with distilled water. Place a lid cover and band on jars. Place autoclave tape on the top of the lid cover.
+
+    **Note:** Do not tighten jar lids completely. Make sure they are loose.
+
+3. Place in [autoclave](../../Lab_Operations/Autoclave_Operation/Autoclave_Operation.md).
+
+4. Screw tops on tight immediately after they are taken out of the autoclave. Allow to cool completely before using to hatch larvae.  
+
+    **Note:** You know the jars have been sterilized properly and sealed correctly if they make a popping sound when you go to open them. If it does not pop, do not use and use a new jar.  
+
+**Autoclaving Larval Rearing Pans**
+
+1. Wash pans thoroughly with unscented dish washing soap and rinse thoroughly with distilled water. Let pans dry completely.
+
+2. Stack pans no more than 14 high. Cover the bottom pan with foil so that none of the pans are exposed. Foil does not need to go all the way around the stack, just cover the entire bottom pan.
+
+3. Place autoclave tape on the foil covering the bottom pan.
+
+4. Place in [autoclave](../../Lab_Operations/Autoclave_Operation/Autoclave_Operation.md).
+
+5. Allow pans to cool completely before use.
+
+## IX. Insectary Cleaning
+
+- Wash jars thoroughly to ensure there are no eggs or larvae left behind.
+
+- Wash pans thoroughly to ensure there are no larvae or pupae left behind. Use all-natural unscented dish soap when you wash larvae pans.
+
+- Wash plastic lids used for sucrose pads, larvae counting cups used for counting pans, and pupae dishes and hatch jars with normal dish soap. Ensure there are no eggs or larvae left behind in the hatch jars or larvae cups.
+
+- Wash and re-use mesh and spline used for cage making. If there are small holes in the mesh, use epoxy to cover the holes.
+
+- Sweep and mop the insectary space at least once every other week or as needed.
+
+- Wipe down shelves in the insectary incubator every other week or as needed using all-natural unscented dish soap.
+
+- Use gloves to clean colony cages. Vacuum out the dead mosquitoes from all the colony cages once a week (usually done right after blood feeding). Empty the vacuum once a month of as needed and clean off filter.
+
+- Wipe down the inside bottom, inside edges and outside of cages with a towel and warm water. **DO NOT** use soap or cleaning products.
+
+
+## X. Mosquito Rearing Troubleshooting
 
 **Water**
 
