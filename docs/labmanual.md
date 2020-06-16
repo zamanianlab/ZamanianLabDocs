@@ -122,10 +122,8 @@ Oligo Name: oMZ####
 Storage box labels (-20C): "Oligo Stocks #"
 * Quartzy Update (Type = 'Oligo or Primer'):
     Item Name (=Oligo Name)
-    Species
     Sequence
-    Resistance Marker
-    Use (e.g., " ")
+    Technical Details (Species, Target, Tm, Pairing)
     Location
 ```
 
