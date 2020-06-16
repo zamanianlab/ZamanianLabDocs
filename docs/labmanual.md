@@ -68,10 +68,11 @@ The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared elec
 
 All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
-- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``, ``/Microscopy/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). For the former, create a folder with your first name and save files and images using the date (format: ``YYYYMMDD``) at the beginning of the file name. Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature.
+- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.  
 
 - ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
+The uses of other Box folders are described in subsequent sections.
 
 ### D. Lab Meetings
 
@@ -79,7 +80,7 @@ Lab meetings will be held once a week. Every member of the lab should have an up
 
 ### E. One-on-One Meetings
 
-I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. Each trainee and I will share a Google Doc to keep track of weekly and long-term goals. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
+I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. Each trainee and I will share a **Google Doc** to keep track of weekly and long-term goals. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
 
 ## IV. Lab Tasks and Organization
 
@@ -98,12 +99,11 @@ Lab order requests should be made through Quartzy. Lab orders will be reviewed a
 ### D. General Lab Organization
 
 * **Locations**
-    * **Rm 235:** consumables storage, 4C plate/media storage, liquid N2 stocks
-    * **Rm 223:** parasite and cell culture, plate pouring, glassware, and cleaning
-    * **Rm 230:** molecular biology main lab
-    * **Rm 229D:** microinjection room
+    * Rm 235: consumables storage, 4C plate/media storage, liquid N2 stocks
+    * Rm 223: parasite and cell culture, plate pouring, glassware, and cleaning
+    * Rm 230: molecular biology main lab
+    * Rm 229D: microinjection room
     * Third floor: offices, gel imaging station, insectary
-
 
 * **Operations:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor. Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
 
@@ -242,7 +242,7 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Delivery Schedule
 
-We receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and supplement these with local infections. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
+We generate parasites through local infections and receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
 
 ### B. Storage of General Parasite Materials
 
@@ -279,7 +279,7 @@ Mosquito Carton Labels
 
 ## VIII. Writing and Reference Management
 
-To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/``.
+To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
 
 
 ## IX. Lab Safety
