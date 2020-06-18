@@ -65,9 +65,6 @@
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
 
 
-
-
-
 ## ***Caenorhabditis elegans***
 
 *Many protocols adapted from the Andersen Lab (NU)*
@@ -104,6 +101,11 @@
 - [*C. elegans* Microinjection](Microinjection/Ce_Microinjection/Ce_Microinjection.md)
 
 - [Injection Rig Preparation](Microinjection/Injection_Rig_Preparation/Injection_Rig_Preparation.md)
+
+
+## **Schistosome Protocols**
+
+- [*B. glabrata* Maintenance](Schistosomes/Snail_Maintenance/Snail_Maintenance.md)
 
 
 ## **Lab Operations**
