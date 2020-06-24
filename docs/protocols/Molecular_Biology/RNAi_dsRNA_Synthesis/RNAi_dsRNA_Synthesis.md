@@ -108,7 +108,7 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 4. Transfer top phase (aqueous) to a new RNase-free tube.
 
-    - **Note**: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, that is a good indication.
+    - **Note**: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, that is a good indication of a successful IVT reaction.
 
 5. To aqueous dsRNA, add ~500 µL isopropanol.
 
