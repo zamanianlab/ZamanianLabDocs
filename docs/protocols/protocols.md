@@ -105,7 +105,15 @@
 
 ## **Schistosome Protocols**
 
+- [Schistosome Recipes](Schistosomes/Schistosome_Recipes/Schistosome_Recipes.md)
+
 - [*B. glabrata* Maintenance](Schistosomes/Snail_Maintenance/Snail_Maintenance.md)
+
+- [Bge Cryopreservation](Schistosomes/Bge_Cryopreservation/Bge_Cryopreservation.md)
+
+- [Harvesting Miracidia](Schistosomes/Harvesting_Miracidia/Harvesting_Miracidia.md)
+
+- [*B. glabrata* Infections](Schistosomes/Snail_Infections/Snail_Infections.md)
 
 
 ## **Lab Operations**
