@@ -1,8 +1,8 @@
 # conda
 
-[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software such as bwa, bcftools, MrBayes, etc., but we will also be using it to manage our Python environments. Conda will make it easy to invoke different Python versions as needed for different tasks.
+[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software. We will also be using it to manage our Python environments. Conda will make it easy to invoke different Python versions as needed for different tasks.
 
-conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code and makes debugging extremely difficult. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
+conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
 
 ## Installation
 
@@ -10,8 +10,12 @@ There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and co
 
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
+```
+
+```bash
 bash ~/miniconda.sh -b -p $HOME/miniconda
 ```
+
 These commands will download the miniconda installer, run it, and install it to your `$HOME` folder. It will also add the path `/Users/[user]/software/miniconda3/bin` to your lookup `$PATH`, which allows you to run conda executables without referring explicitly to their location.
 
 ## Usage and an Example
