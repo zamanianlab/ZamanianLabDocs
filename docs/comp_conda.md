@@ -13,10 +13,10 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~
 ```
 
 ```bash
-bash ~/miniconda.sh -b -p $HOME/miniconda
+bash ~/miniconda.sh -p $HOME/miniconda3
 ```
 
-These commands will download the miniconda installer, run it, and install it to your `$HOME` folder. It will also add the path `/Users/[user]/software/miniconda3/bin` to your lookup `$PATH`, which allows you to run conda executables without referring explicitly to their location.
+These commands will download the miniconda installer, run it, and install it to your `$HOME` folder by following the prompts. It will also add the path `$HOME/miniconda3/bin` to your lookup `$PATH`, which allows you to run conda executables without referring explicitly to their location.
 
 ## Usage and an Example
 
