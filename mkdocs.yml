@@ -10,27 +10,28 @@ repo_name:             'zamanianlab/ZamanianLabDocs'
 repo_url:              'https://github.com/zamanianlab/ZamanianLabDocs'
 
 # Configuration
+
 theme:
-  name: 'material'
-  favicon: 'images/dna_black.png'
-  logo: 'images/dna.svg'
-  feature:
-    tabs: false
+  name: material
+  language: en
   palette:
-    primary: 'black'
-    accent: 'red'
-markdown_extensions:
-  - admonition
-  - codehilite:
-      guess_lang: false
+    primary: indigo
+    accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - instant
+  markdown_extensions:
+    - admonition
 
 # Customization
 extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/zamanianlab'
-    - type: 'twitter'
-      link: 'https://twitter.com/zamanian_'
+    social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/zamanianlab
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/zamanian_
 
 markdown_extensions:
   - pymdownx.arithmatex
