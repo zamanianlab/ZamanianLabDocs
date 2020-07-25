@@ -20,9 +20,7 @@ These commands will download the miniconda installer, run it, and install it to 
 
 ## Usage and an Example
 
-Now that conda is installed, let's look at how virtual environments work.
-
-First, let's create a new environment that uses Python 3.5:
+Now that conda is installed, let's look at how virtual environments work. First, let's create a new environment that uses Python 3.5:
 
 `conda create --name test_environment python=3.5`
 
