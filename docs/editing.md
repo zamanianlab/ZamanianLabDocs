@@ -2,7 +2,8 @@
 
 1. Install MkDocs and the [Material](https://squidfunk.github.io/mkdocs-material/) theme
 
-      `pip install mkdocs && pip install mkdocs-material`
+      `conda install -c conda-forge mkdocs`
+      `conda install -c conda-forge mkdocs-material`
 
 2. Clone the ZamanianLabDocs repo:
 
