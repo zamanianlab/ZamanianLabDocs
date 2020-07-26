@@ -82,34 +82,34 @@ Lab meetings will be held once a week. Every member of the lab should have an up
 
 I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. Each trainee and I will share a **Google Doc** to keep track of weekly and long-term goals. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
 
-## IV. Lab Tasks and Organization
+## IV. Lab Tasks
 
-### A. Lab Tasks
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: **[Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md)** and **[Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md)**.
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md).
 
-### B. Lab inventory
+## V. General Lab Organization
+
+### A. Lab Inventory
 
 The locations of **all reagents and consumables** will be stored on **[Quartzy](<http://www.quartzy.com>)**. Lab members will be expected to return **ALL** items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
 
-### C. General Lab Ordering
+### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders will be reviewed and placed by the lab manager. **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** All oligo order requests should be placed through the relevant spreadsheets in the lab ``/LabOrdering/Oligos/`` Box folder. All other consumables and reagent orders should be placed through Quartzy. Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and immediately associated with a location on Quartzy.**
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW **[MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>)** system or lab purchasing card. **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and immediately associated with a location on Quartzy.**
 
-### D. General Lab Organization
+### C. Physical Organization
 
-* **Locations**
-    * Rm 235: consumables storage, 4C plate/media storage, liquid N2 stocks
-    * Rm 223: parasite and cell culture, plate pouring, glassware, and cleaning
-    * Rm 230: molecular biology main lab
-    * Rm 229D: microinjection room
-    * Third floor: offices, gel imaging station, insectary
+    Rm 235: consumables storage, 4C plate/media storage, liquid N2 stocks
+    Rm 223: parasite and cell culture, plate pouring, glassware, and cleaning
+    Rm 230: molecular biology main lab
+    Rm 229D: microinjection room
+    Third floor: offices, gel imaging station, insectary
 
 * **Operations:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor. Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
 
 * **Physical storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
-## V. Lab Stocks
+## VI. Lab Stocks
 
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
@@ -230,7 +230,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 **Lab strain designation: ZAM#**  
 **Lab allele designation: maz#**
 
-*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with **COMPLETE genotypic information** (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the **C. elegans Strain Database** linked in [Lab Sheets](labsheets.md).
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the **C. elegans Strain Database** linked in **[Lab Sheets](labsheets.md)**.
 
 ### C. Strain Maintenance
 
@@ -282,8 +282,22 @@ To streamline collaborative writing and/or editing of manuscripts and fellowship
 
 ## IX. Lab Safety
 
-All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. As a starting point, all lab members should register for and complete the course titled "Biosafety Required Training" through the Learn@UW portal. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
+All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
 
-**E-mail both the Bartholomay and Zamanian lab** list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.**
+- Training required for everyone
+
+    - "Biosafety Required Training" ([EHS](<https://ehs.wisc.edu/biosafety-training/>))
+
+- Animal-related training for IACUC-approved work
+
+    - "Animal User Orientation" ([RARC](<https://www.rarc.wisc.edu/services/training/getting_started.html>))
+    - "Safety for Personnel with Animal Contact" ([EHS](<https://ehs.wisc.edu/animal-safety-training/>))
+    - "Animal Contact Risk Questionnaire (ACRQ)" ([UHS](<https://www.uhs.wisc.edu/eoh/animal-contact/>))
+    - Additional 1-in-1 Training Offered through RARC (e.g., Mouse Training)
+
+- For work with human cell lines and potentially infectious materials
+    - "Biosafety 102: Bloodborne Pathogens for Laboratory and Research" ([EHS](<https://ehs.wisc.edu/biosafety-training/>))
+
+**E-mail both the Bartholomay and Zamanian lab** list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.
 
 Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
