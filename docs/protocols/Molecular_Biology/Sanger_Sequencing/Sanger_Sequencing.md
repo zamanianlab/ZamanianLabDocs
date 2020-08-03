@@ -37,7 +37,7 @@ See the [Biotech Center website](https://www.biotech.wisc.edu/services/dnaseq/se
     | Temperature | Time | Cycles |
     |-------------|------|--------|
     | 96°C        | 3 min | NA    |
-    | 96°C <br> 52°C <br> 60°C | 15 s <br> 15 s <br> 3 min | 35 |
+    | 96°C <br> 52°C <br> 60°C | 15 s <br> 15 s <br> 3 min | <br> 35 |
     | 72°C        | 1 min | NA    |
     | 4°C         | Store |       |
 

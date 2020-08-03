@@ -31,6 +31,8 @@
 
 - [dsRNA Synthesis](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
 
+- [Sanger Sequencing](Molecular_Biology/Sanger_Sequencing/Sanger_Sequencing.md)
+
 
 ## **Mosquito-Stage Parasite Protocols**
 
