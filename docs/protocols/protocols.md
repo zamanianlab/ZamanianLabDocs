@@ -142,3 +142,5 @@
 - [Confocal Microscope](General/Confocal_Microscope/Confocal_Microscope.md)
 
 - [Uploading NCBI Data](General/NCBI_Data_Upload/NCBI_Data_Upload.md)
+
+- [Dissection Probe Assembly](General/Dissection_Probes/Dissection_Probes.md)
