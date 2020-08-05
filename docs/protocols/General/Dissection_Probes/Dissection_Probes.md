@@ -4,7 +4,7 @@
 
 - Long wooden q tips (at least 6 inches long)
 - Water
-- Minuten pins (15 mm)
+- Minuten Pins, 0.15 mm diameter (BioQuip #1208SA)
 - Loctite two part epoxy
 - Forceps (#3)
 - Scissors
