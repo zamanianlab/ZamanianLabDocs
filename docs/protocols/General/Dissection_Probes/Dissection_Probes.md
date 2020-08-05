@@ -6,7 +6,7 @@
 - Water
 - Minuten pins (15 mm)
 - Loctite two part epoxy
-- #3 Forceps
+- Forceps (#3)
 - Scissors
 - Parafilm
 
@@ -20,15 +20,15 @@
 
 4. Use forceps to embed the other half of the minuten pin in the center of the damp end of a wooden dowel.
 
-  a. Make sure the pointed end of the pin is not the end that you embed in the dowel.
+    a. Make sure the pointed end of the pin is not the end that you embed in the dowel.
 
-  b. Push the pin down about 2/5<sup>ths</sup> the length of the pin. The length of the probe is generally a matter of personal preference. It is easier to bend and ruin longer probes, but they can be easier to manipulate. Remember when placing the pin that you will be covering a portion of it with epoxy, which will make the usable length shorter.
+    b. Push the pin down about 2/5<sup>ths</sup> the length of the pin. The length of the probe is generally a matter of personal preference. It is easier to bend and ruin longer probes, but they can be easier to manipulate. Remember when placing the pin that you will be covering a portion of it with epoxy, which will make the usable length shorter.
 
 5. Follow the directions of the two part epoxy to mix it together on a sheet of parafilm.
 
 6. Use another dowel to apply the epoxy around the base of the wooden dowel to secure the minuten pin.
 
-  a. Make sure the entire base of the dowel is covered.
+    a. Make sure the entire base of the dowel is covered.
 
 7. Leave probes to harden while sticking up in a tube rack overnight before storing them.
 
