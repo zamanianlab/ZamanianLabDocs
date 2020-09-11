@@ -69,5 +69,5 @@ nav:
   - Pipelines:
     - Overview:               pipelines_overview.md
     - Local Pipelines:        pipelines_local.md
-    - Core Pipelines:         pipelines_server.md
+    - Server Pipelines:         pipelines_server.md
   - Editing:                  editing.md
