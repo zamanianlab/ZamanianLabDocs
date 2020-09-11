@@ -8,8 +8,11 @@ conda has several features that make it a powerful tool, but the main feature we
 
 There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes. We recommend you use Miniconda, which can be installed on macOS using the commands below:
 
-`wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
-bash ~/miniconda.sh -p $HOME/miniconda3`
+``` bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
+```
+
+`bash ~/miniconda.sh -p $HOME/miniconda3`
 
 These commands will download the miniconda installer, run it, and install it to your `$HOME` folder by following the prompts. It will also add the path `$HOME/miniconda3/bin` to your lookup `$PATH`, which allows you to run conda executables without referring explicitly to their location.
 
