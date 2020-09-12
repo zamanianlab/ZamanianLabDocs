@@ -16,17 +16,17 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 ### CHTC Hardware and File System
 
-**Compute nodes:** The CHTC has an extensive set of compute nodes that can be accessed for free. To establish priority access for certain pipelines, our lab has secured a dedicated node that can be accessed using a designated flag.
+The CHTC has an extensive set of **compute nodes** that can be accessed for free. To establish priority access for certain pipelines, our lab has secured a dedicated node that can be accessed using a designated flag.
 
   - Typical nodes: 20 cores, 128 GB RAM
   - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
   - Dedicated lab node: 40 cores, 512 GB RAM, 3.8 TB HD
 
-**Submit nodes:** Jobs on the CHTC are deployed from submit nodes. You can `ssh` into your assigned submit node to run and monitor jobs using your UW net-id and password.
+Jobs on the CHTC are deployed from **submit nodes**. You can `ssh` into your assigned submit node to run and monitor jobs using your UW net-id and password.
 
   	ssh {net-id}@submit3.chtc.wisc.edu
 
-**File System:** The CHTC does not make use of a shared file system, but you can request the storage you need for any given job. Each net-id will be associated with a `home` folder, where you will manage your job submission scripts (.sub and .sh files). Each net-id will also be associated with a `staging` folder, for transfer of input files into the CHTC system and transfer of output files out of the CHTC system.
+The CHTC does not use a shared file system, but you can request the storage you need for any given job. Each net-id will be associated with a `home` folder, where you will manage your job submission scripts. Each net-id will also be associated with a `staging` folder, for transfer of input files into the CHTC system and transfer of output files out of the CHTC system.
 
 ```
 /
@@ -48,7 +48,7 @@ Transfer a single folder containing your job input files to the staging director
 
 CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).
 
-Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/data/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` at are small log files.
+Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/data/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
 <details>
   <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
@@ -129,29 +129,129 @@ Submit job from submit node using `condor_submit`,
 
 `condor_submit Core_RNAseq-nf.sub data=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
 
-Other useful commands for monitoring and managing jobs
+<details>
+  <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
+    ```
+    # check on job status
+      condor_q
 
-```
-# check on job status
-  condor_q
+    # remove a specific job
+      condor_rm [job id]
 
-# remove a specific job
-  condor_rm [job id]
+    # remove all jobs for user
+      condor_rm $USER
 
-# remove all jobs for user
-  condor_rm $USER
+    # interative shell to running job on remote machine
+      condor_ssh_to_job [job id]
+      exit
+    ```
+</details>
 
-# innterative shell to running job on remote machine
-  condor_ssh_to_job [job id]
-  exit
-```
 
 **4. Transferring output data**
 
 ## 2. Docker
 
-### Docker Basics
+We will user Docker to establish consistent environments (containers) for our established pipelines. We will maintaining Docker images on [Docker Hub](https://hub.docker.com/orgs/zamanianlab) under the organization name 'zamanianlab'. These images can be directly loaded from Docker Hub in our CHTC submit scripts. Install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/) and create a Dockerhub account to be associated with our organization Docker Hub (zamanianlab).
 
 ### Building Docker Images
+
+1. Create a lab Docker Hub repo (e.g., zamanianlab/chtc-rnaseq)
+
+2. Create Dockerfile and auxillary (e.g., yaml) files in a folder
+
+    The Dockerfile provides instructions to build a Docker image. In this case, we are starting with the official miniconda Docker image and then installing necessary conda packages into this image. You can search for existing Docker images on [Docker Hub](https://hub.docker.com/orgs/zamanianlab) to build on, instead of starting from scratch.
+
+    <details>
+      <summary>Dockerfile (Click to Expand)</summary>
+      ```
+      FROM continuumio/miniconda3
+      MAINTAINER mzamanian@wisc.edu
+
+      # install (nf tracing)
+      RUN apt-get update && apt-get install -y procps
+
+      # install conda packages
+      COPY conda_env.yml .
+      RUN \
+         conda env update -n root -f conda_env.yml \
+      && conda clean -a
+      ```
+    </details>
+
+    yml file containing `conda` packages to be installed. You can search for packages on [Anaconda cloud](https://anaconda.org/).
+
+    <details>
+      <summary>conda_env.yml (Click to Expand)</summary>
+      ```
+      conda_env.yaml
+        name: rnaseq-nf
+
+        channels:
+          - bioconda
+          - conda-forge
+          - defaults
+
+        dependencies:
+          - python=3.8.5
+          - nextflow=20.07.1
+          - bwa=0.7.17
+          - hisat2=2.2.1
+          - stringtie=2.1.2
+          - fastqc=0.11.9
+          - multiQC=1.9
+          - fastp=0.20.1
+          - bedtools=2.29.2
+          - bedops=2.4.39
+          - sambamba=0.7.0
+          - samtools=1.9
+          - picard=2.20.6
+          - bcftools=1.9
+          - snpeff=4.3.1t
+          - mrbayes=3.2.7
+          - trimal=1.4.1
+          - mafft=7.471
+          - muscle=3.8.1551
+          - seqtk=1.3
+          - raxml=8.2.12
+      ```
+    </details>
+
+3. Build Docker image
+
+    ```
+    cd [/path/to/Dockerfile]
+    docker build -t zamanianlab/chtc-rnaseq .
+    ```
+
+4. Test Docker image interactively
+
+    ```
+  	docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
+  	ctrl+D to exit
+    ```
+
+5. Push Docker image to Docker Hub
+
+    ```
+    docker push zamanianlab/chtc-rnaseq
+    ```
+
+    <details>
+      <summary>Some useful Docker commands (Click to Expand)</summary>
+        ```
+        # list docker images
+          docker image ls (= docker images)
+
+        # remove images
+          docker rmi [image]
+
+        ## remove all docker containers
+        # run first because images are attached to containers
+          docker rm -f $(docker ps -a -q)
+        # remove every Docker image
+          docker rmi -f $(docker images -q)
+        ```
+    </details>
 
 ### Testing Docker Pipelines
