@@ -4,7 +4,7 @@ Our lab has access to virtual servers through the UW Biotechnology Center, attac
 
 In general, pipelines will be run in three steps:
 
-  - **Input:** input files will be transferred to the CHTC server (staging)
+  - **Staging:** input files will be transferred to the CHTC server
   - **Pipeline:** files will be processed using established pipelines
   - **Output:** desired outputs will be transferred from the CHTC server to lab storage
 
@@ -20,26 +20,138 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
   - Typical nodes: 20 cores, 128 GB RAM
   - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
-  - Dedicated lab node: 40 cores, 512 GB RAM, 3.5 TB HD
+  - Dedicated lab node: 40 cores, 512 GB RAM, 3.8 TB HD
 
 **Submit nodes:** Jobs on the CHTC are deployed from submit nodes. You can `ssh` into your assigned submit node to run and monitor jobs using your UW net-id and password.
 
-  	ssh [net-id]@submit3.chtc.wisc.edu
+  	ssh {net-id}@submit3.chtc.wisc.edu
 
-**File System:** The CHTC does not make use of a shared file system, but you can request the storage you need for any given job.
+**File System:** The CHTC does not make use of a shared file system, but you can request the storage you need for any given job. Each net-id will be associated with a `home` folder, where you will manage your job submission scripts (.sub and .sh files). Each net-id will also be associated with a `staging` folder, for transfer of input files into the CHTC system and transfer of output files out of the CHTC system.
 
 ```
 /
-  ├── home/net-id/              [initial quota: 20 GB, submit script dir]
-  └── staging/net-id/           [initial quota: 200 GB | 1000 files]
-      └── data/                   [data input dir]
-      └── output/                 [job output dir]
+├── home/{net-id}/              [initial quota: 20 GB, submit script dir]
+└── staging/{net-id}/           [initial quota: 200 GB | 1000 files]
+    └── data/                   [data input dir]
+    └── output/                 [job output dir]
 ```
 
 ### Deploying Pipelines
 
-Transfer folder containing job input files to staging directory `data` folder. You can run transfer commands from lab file server or BRC server (sequencing data).
+**1. Staging input data for processing**
 
-`scp [dir] [net-id]@transfer.chtc.wisc.edu:/staging/[net-id]/data/`
+Transfer a single folder containing your job input files to the staging directory `/staging/{net-id}/data`. You can run transfer commands from the lab file server or BRC server (sequencing data).
 
-**Creating and submitting jobs**:
+`scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/data/`
+
+**2. Creating job submit scripts**
+
+CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).
+
+Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/data/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` at are small log files.
+
+<details>
+  <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
+  ```
+  # Core_RNAseq-nf.sub
+  # Submit scripts (.sub/.sh) in /home/{net-id}/; Data in /staging/{net-id}/data/$(data)
+  # Run: condor_submit Core_RNAseq-nf.sub data=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
+
+  # load docker image and request nodes with access to staging directory
+  universe = docker
+  docker_image = zamanianlab/chtc-rnaseq:latest
+
+  # require execute servers that have large data staging
+  Requirements = (Target.HasCHTCStaging == true)
+
+  # executable (/home/{net-id}/) and arguments
+  executable = $(script)
+  arguments = $(data)
+
+  # log, error, and st output files
+  log = $(data)_$(Cluster)_$(Process).log
+  error = $(data)_$(Cluster)_$(Process).err
+  output = $(data)_$(Cluster)_$(Process).out
+
+  # transfer files in/out of /home/{net-id}/
+  transfer_input_files =
+  should_transfer_files = YES
+  when_to_transfer_output = ON_EXIT
+
+  # memory, disk and CPU requests
+  request_cpus = 4
+  request_memory = 32GB
+  request_disk = 20GB
+
+  # submit 1 job
+  queue 1
+  ### END
+
+  ```
+</details>
+
+The submit script runs the annotated bash script below on the execute server. This pipeline creates `data`, `work`, and `output` dirs in the loaded Docker environment. It transfers the input data from `staging` into `data`, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses `work` for intermediary processing and spits out any files we have marked for retention into `output`, which gets transferred back to `staging`. `data` and `work` are deleted before job completion.
+
+<details>
+  <summary>Core_RNAseq-nf.sh (Click to Expand)</summary>
+  ```
+  #!/bin/bash
+
+  # set home () and mk dirs
+  export HOME=$PWD
+  mkdir data work output
+
+  # transfer data from staging
+  cp -r /staging/{net-id}/data/$1 data
+
+  # clone nextflow git repo
+  git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+
+  # run nextflow
+  export NXF_OPTS='-Xms1g -Xmx4g'
+  nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1 --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+
+  # rm files you don't want transferred back to /home/{net-id}
+  rm -r work
+  rm -r data
+
+  # mv large output files to staging to avoid their transfer back to /home/{net-id}
+  mv output/$1/ /staging/{net-id}/output/
+
+
+  ```
+</details>
+
+
+**3. Submitting and managing jobs**
+
+Submit job from submit node using `condor_submit`,
+
+`condor_submit Core_RNAseq-nf.sub data=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
+
+Other useful commands for monitoring and managing jobs
+
+```
+# check on job status
+  condor_q
+
+# remove a specific job
+  condor_rm [job id]
+
+# remove all jobs for user
+  condor_rm $USER
+
+# innterative shell to running job on remote machine
+  condor_ssh_to_job [job id]
+  exit
+```
+
+**4. Transferring output data**
+
+## 2. Docker
+
+### Docker Basics
+
+### Building Docker Images
+
+### Testing Docker Pipelines
