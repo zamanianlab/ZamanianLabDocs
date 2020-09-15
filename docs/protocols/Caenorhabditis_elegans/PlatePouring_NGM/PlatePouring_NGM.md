@@ -1,4 +1,4 @@
-# NGM Plate Pouring Protocol
+# Plate Pouring Protocol: NGM and HGMA
 
 ## General notes:
 
@@ -12,22 +12,32 @@
      | ~65 6 cm plates | ~130 6 cm plates |
      | ~30 10 cm plates | ~60 10 cm plates |
 
-## Preparing NGM Media Mixes
+## Preparing NGM and HGMA Media Mixes
 
-- The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: type of media and final volume (e.g., NGM-1L or NGM-2L), date of preparation, and your initials.
+- The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: Type of media and final volume (e.g., NGM-1L or NGM-2L), date of preparation, and your initials.
 
 - **NGM recipe**
 
     | Reagent | 1 L | 2 L |
     | ------- | --- | --- |
-    | Peptone | 2.5g | 5 g |
+    | Peptone | 2.5 g | 5 g |
     | NaCl | 3 g | 6 g |
     | Agar | 17 g | 34 g |
     | Sterile water | 975 mL | 1950 mL |
 
     **Note:** if pouring NGMA plates, add 7 g of Agarose and 10 g of Agar per 1 L of media.
 
-## Preparing NGM Media for Pouring
+- **HGMA recipe**
+
+    | Reagent | 1 L | 2 L |
+    | ------- | --- | --- |
+    | Peptone | 20 g | 40 g |
+    | NaCl | 3 g | 6 g |
+    | Agarose | 20 g | 40 g |
+    | Sterile water | 975 mL | 1950 mL |
+
+
+## Preparing Media for Pouring
 
 1. Combine all reagents in a flask that can hold 2X the volume of your media.
 
@@ -47,7 +57,7 @@
 
 5. Autoclave the following with a 60 min. liquid cycle:
 
-    a. 500 mL H<sub>2</sub>O in a 500 mL bottle.
+    a. 1 L H<sub>2</sub>O in a 1 L bottle.
 
     b. Liquid dispenser hoses capped and wrapped with aluminum foil.
 
@@ -106,13 +116,13 @@
 
 12. Once all plates are **solidified** (~15 min. for 6 cm plates and ~30 min. for 10 cm plates) stack them up (**lid-side up**) and use labelling tape to label them with the name of media, name of the person that poured the plates, time, and date.
 
-    ![Image](img/UpsidedownPlate.png)
-
 13. Leave plates stacked on benchtop for two days. Place in a clean a plastic box wiped down with 70% ethanol (wipe down all sides of the box until dry). Then stack the poured plates in the box, **lid-side down**. Transfer the labelling tape form step 9 to the box.
+
+    ![Image](img/UpsidedownPlate.png)
 
 14. Store the box in the 4°C deli-style fridge.
 
-  **Note:** When pouring many plates, there is not enough room on the bench to fit all of the plates in the media. To maximize space, you can stack 3-4 plates on top of each other and pour from the bottom up of each stack. When done with a stack, place the flask of media back in the 60°C water bath, and wait for the plates to dry (20-30 min.). Once dry, stack all of the plates on the right end of the bench and place out more stacks of plates to pour. Continue and repeat until all of the media has been poured.
+  **Note:** When pouring many plates, there is not enough room on the bench to fit all of the plates in the media. To maximize space, you can stack 3-4 plates on top of each other and pour from the bottom up of each stack. When done with a stack, place the flask of media back in the 55°C water bath, and wait for the plates to dry (20-30 min.). Once dry, stack all of the plates on the right end of the bench and place out more stacks of plates to pour. Continue and repeat until all of the media has been poured.
 
   | Plate Storage |
   | ------------- |
