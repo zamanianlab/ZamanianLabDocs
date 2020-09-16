@@ -12,7 +12,7 @@
      | ~65 6 cm plates | ~130 6 cm plates |
      | ~30 10 cm plates | ~60 10 cm plates |
 
-## Preparing NGM and HGMA Media Mixes
+## Preparing NGM and HGM Media Mixes
 
 - The dry ingredients for the media can be pre-measured into the plastic bottles labeled "For NGM Prep" (Shelf 2). Label the bottle with a piece of tape stating: Type of media and final volume (e.g., NGM-1L or NGM-2L), date of preparation, and your initials.
 
@@ -27,15 +27,16 @@
 
     **Note:** if pouring NGMA plates, add 7 g of Agarose and 10 g of Agar per 1 L of media.
 
-- **HGMA recipe**
+- **HGM recipe**
 
     | Reagent | 1 L | 2 L |
     | ------- | --- | --- |
     | Peptone | 20 g | 40 g |
     | NaCl | 3 g | 6 g |
-    | Agarose | 20 g | 40 g |
+    | Agar | 20 g | 40 g |
     | Sterile water | 975 mL | 1950 mL |
 
+    **Note:** if pouring HGMA plates, add 8 g of Agarose and 12 g of Agar per 1 L of media.
 
 ## Preparing Media for Pouring
 
