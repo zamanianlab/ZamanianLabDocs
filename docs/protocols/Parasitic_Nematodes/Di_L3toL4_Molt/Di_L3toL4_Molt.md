@@ -1,10 +1,10 @@
 # *In vitro* Culturing of *Dirofilaria immitis* L3 - L4 Molt
 
 ## Materials
-- NaHCO<sub>3</sub>
-- Millipore Water
 - IMDM (Sigma I3390)
 - NCTC-135 Powder (Sigma N3262-10X1L) or NCTC-135 L-glutamine/ HEPES (Sigma N3262)
+- NaHCO<sub>3</sub>
+- Millipore Water
 - Fetal Bovine Serum (Heat Inactivated)
 - Fungin 1000X Stock (10 mg/mL, Invitrogen ANT-FN-1)
 - Pen/Strep 100X Stock (10,000 U/mL, Sigma P4333-100ML)
@@ -18,7 +18,7 @@
 ### Preparation of Culture Media
 1. In an autoclaved glass bottle, prepare the following:
 
-    Preparing NCTC if using powder form (1/8th the packet). Store at 4C for up to one month.
+    Preparing NCTC if using powder form (1/8th the packet). Store at 4°C for up to one month.
 
       | NCTC Media Component    | Volume/Quantity (125 mL) |
       |----------------------------|------------------------|
