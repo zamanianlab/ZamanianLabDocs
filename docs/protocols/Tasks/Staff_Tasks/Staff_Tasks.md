@@ -8,7 +8,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **100 bp and 1000 bp ladders (from vectors).** See [Ladder Creation](../../Molecular_Biology/Ladder_Creation/Ladder_Creation.md) for instructions.
 
-  - **Loading dye.** Make aliquots of 6x orange loading dye into 1.5 mL tubes. See the loading dye recipe in [General Recipes](../../Molecular_Biology/General_Recipes/General_Recipes.md).
+  - **Loading dye.** Make 6x orange loading dye and aliquot into 1.5 mL tubes. See the loading dye recipe in [General Recipes](../../Molecular_Biology/General_Recipes/General_Recipes.md).
 
   - **dNTP stocks preparation.** Combine individual commercial 100 mM dNTP stocks (dATP, dTTP, dCTP, dGTP) to make 10 mM working stock aliquots for lab member personal use. Add 10 μL of each dNTP to 60 μL of dH<sub>2</sub>O to make 100 μL aliquots of 10 mM dNTP working stocks.
 
@@ -24,7 +24,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
 ## Equipment Maintenance
 
-(See [Equipment Checklist](?))
+(See [Equipment Checklist](https://docs.google.com/spreadsheets/d/105wRa2LR-GTH3VU8zLL56xt3Yf_2ar2fpYS3Zfp01bU/edit?usp=sharing))
 
   - **Injection setup maintenance.** See [Injection Rig Preparation](../../Microinjection/Injection_Rig_Preparation/Injection_Rig_Preparation.md) for maintenance instructions.
 
@@ -41,8 +41,8 @@ The items below occur **as needed**. Lab members should warn the assigned person
   | 50x TAE and 1x TAE refill | KD |
   | 100 bp and 1000 bp ladder reaction | NW |
   | Loading dye stocks | KD |
-  | dNTP preparation | KD/ZH |
-  | M9 stock refill | ZH |
+  | dNTP preparation | KD/CH |
+  | M9 stock | CH |
   | SOC Media | KV |
   | Making competent cells (DH5alpha) | KV |
   | Injection setup and needle puller maintenance | KV |
