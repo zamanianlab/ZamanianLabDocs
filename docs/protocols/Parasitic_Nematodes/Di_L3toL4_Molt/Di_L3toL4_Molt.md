@@ -10,34 +10,36 @@
 - Pen/Strep 100X Stock (10,000 U/mL, Sigma P4333-100ML)
 - Gentamicin 100X Stock (10 mg/mL, Sigma G1272-100ML)
 - Ciprofloxacin 1000X Stock (10 mg/mL, Sigma 17850)
-- Optional (n place of P/S and Fungin): Antibiotic-Antimycotic (100X, Gibco 15240096)
+- Optional: Antibiotic-Antimycotic (100X, Gibco 15240096)
+- Optional: HEPES (1M) if using NCTC-135 powder
 - 0.22 µm filter (500 mL, example: VWR 10040-436)
 
 ## Protocol
 ### Preparation of Culture Media
 1. In an autoclaved glass bottle, prepare the following:
 
-Preparing NCTC if using powder form (using 1/8th the packet):
-    | NCTC Media Component    | Volume/Quantity (125 mL) |
-    |----------------------------|------------------------|
-    |NCTC-135 Powder             |1.16 g                  |
-    |NaHCO<sub>3</sub>           |0.28 g                  |
-    |H<sub>2</sub>O              |125 mL                  |
-    |HEPES (1M) - optional       |3.125 mL                |
-Store at 4C for up to one month.
+    Preparing NCTC if using powder form (1/8th the packet). Store at 4C for up to one month.
 
-Preparing Molting Media (NCTC-IMDM):
-    | NI Media Component    | Volume/Quantity (100 mL) |
-    |----------------------------|------------------------|
-    |NCTC                        |40 mL                  |
-    |IMDM                        |40 mL                  |
-    |Pen-Strep (100X)            |1 mL (10 U/mL final)                 |
-    |Gentamicin (100X)           |1 mL (100 ug/mL final)               |
-    |Fungin (1000X)              |100 µL (10 ug/mL final)               |
-    |Ciprofloxacin (1000X) - optional      |100 µL (10 ug/mL final)                |
-    |FBS                         |20 mL (20% final)        |
+      | NCTC Media Component    | Volume/Quantity (125 mL) |
+      |----------------------------|------------------------|
+      |NCTC-135 Powder             |1.16 g                  |
+      |NaHCO<sub>3</sub>           |0.28 g                  |
+      |H<sub>2</sub>O              |125 mL                  |
+      |HEPES (1M) - optional       |3.125 mL                |
 
-Alternatively, replace P/S and Fungin with 100X Antibiotic-Antimycotic.
+    Preparing Molting Media (NCTC-IMDM)
+
+      | NI Media Component    | Volume/Quantity (100 mL) |
+      |----------------------------|------------------------|
+      |NCTC                        |40 mL                  |
+      |IMDM                        |40 mL                  |
+      |Pen-Strep (100X)            |1 mL (10 U/mL final)                 |
+      |Gentamicin (100X)           |1 mL (100 ug/mL final)               |
+      |Fungin (1000X)              |100 µL (10 ug/mL final)               |
+      |Ciprofloxacin (1000X) - optional      |100 µL (10 ug/mL final)                |
+      |FBS                         |20 mL (20% final)        |
+
+    Alternatively, replace P/S and Fungin with 100X Antibiotic-Antimycotic.
 
 2. Replace cap on media bottle and shake to mix. Filter the media using a 0.22 µm filter.
 
