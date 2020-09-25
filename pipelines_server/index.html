@@ -697,6 +697,8 @@ smb://research.drive.wisc.edu/mzamanian
 <p>Transfer a single folder containing your job input files to the staging data directory. You can run transfer commands from the lab file server or BRC server (sequencing data).</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/data/</code></p>
 <p>More typically, you will be <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">transferring directly</a> between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:</p>
+<p><details>
+<summary> ResearchDrive -&gt; CHTC transfer (Click to Expand)</summary>
 <div class="highlight"><pre><span></span># log into CHTC staging server and navigate to input folder
 ssh {net-id}@transfer.chtc.wisc.edu
 cd /staging/{net-id}/input/
@@ -714,7 +716,7 @@ smb: \&gt; recurse
 # transfer raw data folder (example)
 smb: \&gt; mget 20200922-p01-NJW_114
 </pre></div>
-
+</details></p>
 </li>
 <li>
 <p>Creating job submit scripts</p>
