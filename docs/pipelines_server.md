@@ -84,7 +84,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/data/`
 
-    More typically, you will be [transferring directly]((http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:
+    More typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:
 
     ```
     # log into CHTC staging server and navigate to input folder
