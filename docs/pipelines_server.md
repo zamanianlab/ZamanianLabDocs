@@ -86,6 +86,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     More typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:
 
+    <details>
+    <summary> ResearchDrive -> CHTC transfer (Click to Expand)</summary>
     ```
     # log into CHTC staging server and navigate to input folder
     ssh {net-id}@transfer.chtc.wisc.edu
@@ -105,6 +107,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     smb: \> mget 20200922-p01-NJW_114
 
     ```
+    </details>
 
 2. Creating job submit scripts
 
