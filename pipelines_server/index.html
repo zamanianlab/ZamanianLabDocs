@@ -637,7 +637,18 @@
 </li>
 <li>
 <p>UW ResearchDrive</p>
-<p><a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a> provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="http://www.box.com">Box</a> account for post-processing, analysis and plotting.</p>
+<p><a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a> provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="http://www.box.com">Box</a> account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:</p>
+<div class="highlight"><pre><span></span>/
+├── ImageXpress/                          [IX storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── data/                             [CHTC-processed data]
+|  
+└── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+    └── Bioinformatics Resource Center/   [Sequencing Data]
+    └── DNA Sequencing Sanger/            [Sanger Data]
+</pre></div>
+
 <p>To connect to ResearchDrive on an Apple Computer,</p>
 <div class="highlight"><pre><span></span>Finder &gt; Go &gt; &quot;Connect to server... &gt;
 smb://research.drive.wisc.edu/mzamanian
@@ -646,7 +657,7 @@ smb://research.drive.wisc.edu/mzamanian
 </li>
 <li>
 <p>SVM Research Data Storage</p>
-<p>SVM PIs will soon have access to secure and backed-up research data storage through the school, stocked initially with 335 TB of storage capacity. Once this storage solution is in place, we will migrate from UW ResearchDrive to the on-premise storage solution provided by SVM IT.</p>
+<p>SVM PIs will soon have access to secure and backed-up research data storage through the school, stocked initially with 335 TB of storage capacity. Once this storage solution is in place, we will migrate from UW ResearchDrive to the on-premise storage solution.</p>
 </li>
 </ul>
 <h2 id="2-center-for-high-throughput-computing-chtc">2. Center for High-throughput Computing (CHTC)</h2>
@@ -673,7 +684,7 @@ smb://research.drive.wisc.edu/mzamanian
 <div class="highlight"><pre><span></span>/
 ├── home/{net-id}/              [initial quota: 20 GB, submit script dir]
 └── staging/{net-id}/           [initial quota: 200 GB | 1000 files]
-    └── data/                   [input dir: unprocessed data]
+    └── input/                  [input dir: unprocessed (raw) data]
     └── output/                 [output dir: processed job outputs]
 </pre></div>
 
@@ -685,6 +696,25 @@ smb://research.drive.wisc.edu/mzamanian
 <p>Staging input data for processing</p>
 <p>Transfer a single folder containing your job input files to the staging data directory. You can run transfer commands from the lab file server or BRC server (sequencing data).</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/data/</code></p>
+<p>More typically, you will be [transferring directly]((<a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml</a>) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:</p>
+<div class="highlight"><pre><span></span># log into CHTC staging server and navigate to input folder
+ssh {net-id}@transfer.chtc.wisc.edu
+cd /staging/{net-id}/input/
+
+# connect to lab ResearchDrive
+smbclient -k //research.drive.wisc.edu/mzamanian
+
+# navigate to ResearchDrive dir with raw data (example)
+smb: \&gt; cd /ImageXpress/raw/
+
+# turn off prompting and turn on recursive
+smb: \&gt; prompt
+smb: \&gt; recurse
+
+# transfer raw data folder (example)
+smb: \&gt; mget 20200922-p01-NJW_114
+</pre></div>
+
 </li>
 <li>
 <p>Creating job submit scripts</p>
