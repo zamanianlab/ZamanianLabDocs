@@ -18,7 +18,19 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
 
 - UW ResearchDrive
 
-    [ResearchDrive](https://it.wisc.edu/services/researchdrive) provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting.
+    [ResearchDrive](https://it.wisc.edu/services/researchdrive) provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
+
+    ```
+    /
+    ├── ImageXpress/                          [IX storage]
+    |   └── raw/                              [Raw exported data]
+    |   └── metadata/                         [Experiment metadata]    
+    |   └── data/                             [CHTC-processed data]
+    |  
+    └── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+        └── Bioinformatics Resource Center/   [Sequencing Data]
+        └── DNA Sequencing Sanger/            [Sanger Data]
+    ```
 
     To connect to ResearchDrive on an Apple Computer,
 
@@ -29,7 +41,7 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
 
 - SVM Research Data Storage
 
-    SVM PIs will soon have access to secure and backed-up research data storage through the school, stocked initially with 335 TB of storage capacity. Once this storage solution is in place, we will migrate from UW ResearchDrive to the on-premise storage solution provided by SVM IT.
+    SVM PIs will soon have access to secure and backed-up research data storage through the school, stocked initially with 335 TB of storage capacity. Once this storage solution is in place, we will migrate from UW ResearchDrive to the on-premise storage solution.
 
 
 ## 2. Center for High-throughput Computing (CHTC)
@@ -60,7 +72,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       /
       ├── home/{net-id}/              [initial quota: 20 GB, submit script dir]
       └── staging/{net-id}/           [initial quota: 200 GB | 1000 files]
-          └── data/                   [input dir: unprocessed data]
+          └── input/                  [input dir: unprocessed (raw) data]
           └── output/                 [output dir: processed job outputs]
       ```
 
@@ -72,11 +84,33 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/data/`
 
+    More typically, you will be [transferring directly]((http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:
+
+    ```
+    # log into CHTC staging server and navigate to input folder
+    ssh {net-id}@transfer.chtc.wisc.edu
+    cd /staging/{net-id}/input/
+
+    # connect to lab ResearchDrive
+    smbclient -k //research.drive.wisc.edu/mzamanian
+
+    # navigate to ResearchDrive dir with raw data (example)
+    smb: \> cd /ImageXpress/raw/
+
+    # turn off prompting and turn on recursive
+    smb: \> prompt
+    smb: \> recurse
+
+    # transfer raw data folder (example)
+    smb: \> mget 20200922-p01-NJW_114
+
+    ```
+
 2. Creating job submit scripts
 
     CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).
 
-      Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/data/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
+    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/data/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
     <details>
       <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
