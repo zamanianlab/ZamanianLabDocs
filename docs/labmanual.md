@@ -28,19 +28,18 @@ We will hold weekly lab meetings as a springboard for open and critical scientif
 
 My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.
 
-     1. Do not borrow things without asking
-     2. Keep your own items to your own bench space
-     3. Use your own pipettes, tips, and gloves (except where designated)
-     4. Use only your assigned spaces in fridges and freezers
-     5. Follow all the rules in this guide for ordering and inventorying items
-     6. Carry out your lab tasks in a timely manner
-     7. Be helpful to others - this is a team effort!
-     8. Clean up after yourselves and put things back in assigned locations
-     9. Keep track of items we are low on and place orders in advance
+     1. Follow all the rules in this guide for ordering and inventorying items
+     2. Carry out your lab tasks in a timely manner
+     3. Be helpful to others - this is a team effort!
+     4. Keep track of items we are low on and place orders in advance
+     5. Be here during normal work hours so that you can maximize interactions
+     6. Do not borrow things without asking
+     7. Clean up after yourselves and put things back in assigned locations
+     8. Use your own pipettes, tips, and gloves (except where designated)
+     9. Keep your items confined to assigned bench, freezer, and fridge spaces
      10. Follow all the rules when interacting with other spaces (e.g., the insectary)
      11. Stay ahead of parasite orders and plan their use accordingly
-     12. Be here during normal work hours so that you can maximize interactions
-     13. Make sure the lab is properly shut down (communicate before leaving)
+     12. Make sure the lab is properly shut down (communicate before leaving)
 
 **Lab dress code:** For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   
 
@@ -66,9 +65,9 @@ The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared elec
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store lab protocols in a common format and reading materials and resources relating to our research. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
+All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
-- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolders ``/Genomics/`` and ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.  
+- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
 - ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
@@ -95,7 +94,9 @@ The locations of **all reagents and consumables** will be stored on **[Quartzy](
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW **[MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>)** system or lab purchasing card. **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and immediately associated with a location on Quartzy.**
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW **[MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>)** system or lab purchasing card. **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy.**
+
+* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
 
 ### C. Physical Organization
 
@@ -254,7 +255,6 @@ General use (non-experimental) parasite materials should be catalogued and store
   4) Number ID (T###)
   Example: Bm20190530.T001
 ```
-
 
 ### C. Parasite Infections (Insectary)
 
