@@ -13,7 +13,7 @@
 
 ## Preparing blood for blood feeding
 
-All pipette tips, slides, serological pipettes, tubes, and other materials that come into contact with blood throughout this protocol must be treated with bleach prior to disposal. A bleach solution can be prepared in the bleach-specific pitcher in the insectory (labeled with yellow tape) by adding ~1/2 cup of bleach and 1 L of tap water.
+All pipette tips, slides, serological pipettes, tubes, and other materials that come into contact with blood throughout this protocol must be treated with bleach prior to disposal. A bleach solution can be prepared in the bleach-specific pitcher in the insectary (labeled with yellow tape) by adding ~1/2 cup of bleach and 1 L of tap water.
 
 **Important**: Remove the sucrose pad(s) at least 2 hr before feeding for LVP and AaSD mosquito species.
 
@@ -31,7 +31,7 @@ All pipette tips, slides, serological pipettes, tubes, and other materials that 
 
 5. Place the slide on a compound microscope and count the mf. Start at a corner of the cover slip and count the mf in the fluid outside of the coverslip. Once the perimeter has been counted, count the mf underneath the cover slip area using an s-pattern. (See figure below)
 
-  <img src="img/mf_counting.png" width="300" />
+  <img src="../img/mf_counting.png" width="300" />
 
 
 6. Calculate the mf concentration in the microfilaremic blood stock.
@@ -64,21 +64,21 @@ All pipette tips, slides, serological pipettes, tubes, and other materials that 
 
 1. Use the large glass blood feeders. Stretch a 2-square piece of parafilm pulled once in both directions and place it on the bottom of the glass feeder. Avoid wrinkles in the parafilm and secure the parafilm by smoothing it along the glass rim.
 
-  <img src="img/first_parafilm.png" width="500" />
+  <img src="../img/first_parafilm.png" width="500" />
 
 2. Cut a second piece of parafilm (2 squares wide, half square tall) and stretch it around the bottom edge of the glass feeder.
 
-  <img src="img/second_parafilm.png" width="500" />
+  <img src="../img/second_parafilm.png" width="500" />
 
-3. Secure the parafilmed glass feeder upside down on a metal ring stand and place on a cart in the insectory.
+3. Secure the parafilmed glass feeder upside down on a metal ring stand and place on a cart in the insectary.
 
-  <img src="img/securing_feeder.png" width="300" />
+  <img src="../img/securing_feeder.png" width="300" />
 
-4. Setup the water circulator on a cart in the insectory by filling it with dH<sub>2</sub>O to the black fill line.
+4. Setup the water circulator on a cart in the insectary by filling it with dH<sub>2</sub>O to the black fill line.
 
 5. Attach the water circulator tubes to each inlet and outlet arm on the side of the glass feeders and wrap a piece of parafilm (2 squares wide, half square tall) around the connecting points. This will help control any water leaks.
 
-  <img src="img/circulation_setup.png" width="300" />
+  <img src="../img/circulation_setup.png" width="300" />
 
 6. Turn the water circulator on and set the temperature to 37°C.
 
@@ -86,20 +86,20 @@ All pipette tips, slides, serological pipettes, tubes, and other materials that 
 
 8. Place a small strip of parafilm over the opening to the inner chamber where the infected blood was loaded into the glass feeder.
 
-  <img src="img/filled_feeder.png" width="300" />
+  <img src="../img/filled_feeder.png" width="300" />
 
 
 9. Let the water, glass feeders, and blood equilibrate to 37°C prior to feeding.
 
 10. Place a carton of mosquitoes under a membrane feeder and slowly lower the feeder so that it rests atop the carton and is flush with the mesh of the carton.
 
-  <img src="img/lowered_feeder.png" width="300" />
+  <img src="../img/lowered_feeder.png" width="300" />
 
 11. Allow the carton of females to feed for 30 – 45 min. or until a majority of females have fed.
 
 12. While the mosquitoes are feeding, print out a carton label according to the example below:
 
-  <img src="img/label_example.png" width="200" />
+  <img src="../img/label_example.png" width="200" />
 
 13. When feeding is complete, remove an aliquot of blood to confirm that the mf are still alive and active. Do not separate blood fed from non-blood fed mosquitoes at conclusion of feeding.
 
@@ -108,7 +108,7 @@ All pipette tips, slides, serological pipettes, tubes, and other materials that 
 15. Allow the infection to incubate for 14-15 days before you extract L3 from the mosquitoes.
 
 16. Other important notes:
-  - Maintain the sucrose pads on the cartons **daily**. It will be important to communicate with the insectory manager or undergraduates to make sure sucrose pads are moistened every day including on the weekends.
+  - Maintain the sucrose pads on the cartons **daily**. It will be important to communicate with the insectary manager or undergraduates to make sure sucrose pads are moistened every day including on the weekends.
 
   - If you notice an accumulation of dead mosquitoes in the bottom of the carton, suck out the dead mosquitoes, empty the suction device into a plastic container and freeze the container overnight. The mosquitoes can then be placed in the trash the next day after freezing.
 
