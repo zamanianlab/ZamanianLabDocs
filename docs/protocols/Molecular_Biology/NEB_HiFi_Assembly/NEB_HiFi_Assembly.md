@@ -51,7 +51,7 @@ be used for the PCRs that generate the fragment.
 
 2. Thaw the reaction constituents on ice. Use the Qubit dsDNA BR kit to quantify every fragment.
 
-3. Calculate how the molar amount of each fragment to include. See the HiFI assembly manual for details on this calculation, which will change depending on the number for fragments being assembled. Use the [NEB Calculator](https://nebiocalculator.neb.com/#!/dsdnaamt) for mass to moles conversions.
+3. Calculate the molar amount of each fragment to include. See the HiFi assembly manual for details on this calculation, which will change depending on the number for fragments being assembled. Use the [NEB Calculator](https://nebiocalculator.neb.com/#!/dsdnaamt) for mass to moles conversions.
 
     Here is an example of two recent reactions:
 
@@ -90,11 +90,11 @@ be used for the PCRs that generate the fragment.
     | **H<sub>2</sub>O** | 1.17 μL | 1.09 μL |
     | **Total** | **5 μL** | **5 μL** |
 
-5. Set the thermocycler to incubate at 50°C for 15 minutes for 2-3 fragments, or 60 minutes for 4-6 fragments. Store assembly at -20°C or ice for immediate transformation.
+5. Set the thermocycler to incubate at 50°C for 15 minutes for 2-3 fragments, or 60 minutes for 4-6 fragments. Store assembly at -20°C or on ice for immediate transformation.
 
 ## Transformation
 
-**Note**: Prior to transformation: heat water bath to 42°C, remove 1 LB/Amp/IPTG/X-gal plate (or other selection plate) per assembly reaction from 4ºC incubator, move SOC to room temperature, move NEB 5-alpha chemically-competent from the -80°C freezer to ice.
+**Note**: Prior to transformation: heat water bath to 42°C, remove 1 LB/Amp/IPTG/X-gal plate (or other selection plate) per assembly reaction from 4°C incubator, move SOC to room temperature, move NEB 5-alpha chemically-competent from the -80°C freezer to ice.
 
 1. Aliquot 50 μL of the cells to a chilled 1.5 mL tube. Return the competent cells to the -80°C freezer.
 
