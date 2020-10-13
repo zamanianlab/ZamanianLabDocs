@@ -22,11 +22,13 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
 
 2. Digest overnight at 37°C.
 
-3. Check 0.5 μL of digest on a 1% agarose gel.
+3. Check 0.5 μL of digest on a 1% agarose gel. Confirm the ladder is the correct configuration using the key below for both 100 bp and 1kb ladders.
+
+  <img src="../img/pPSU_ladders.jpg" width="400" />
 
 4. Mix the following in a 15 mL Falcon tube:
 
-    **1 kb ladder stock**
+    **1 kb Ladder Stock**
 
     | Reagent                           | Amount  |
     |-----------------------------------|---------|
@@ -34,7 +36,7 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
     | EcoRV digest                      | 0.1 mL  |
     | 6x gel loading buffer             | 0.42 mL |
 
-    **100 bp ladder stock**
+    **100 bp Ladder Stock**
 
     | Reagent                           | Amount  |
     |-----------------------------------|---------|
@@ -42,4 +44,4 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
     | PstI digest                       | 0.1 mL  |
     | 6x gel loading buffer             | 0.42 mL |
 
-5. Aliquot 1.25 mL into 1.5 mL tubes. Store aliquots in the -20°C freezer.
+5. Make 500 μL aliquots in 1.5 mL tubes. Keep 1 aliquot at 4°C for regular use and store the remaining aliquots in the -20°C freezer.
