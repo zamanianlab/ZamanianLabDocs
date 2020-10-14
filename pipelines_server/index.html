@@ -645,13 +645,20 @@
 |   └── data/                             [CHTC-processed data]
 |  
 └── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
-    └── Bioinformatics Resource Center/   [Sequencing Data]
-    └── DNA Sequencing Sanger/            [Sanger Data]
+|   └── Bioinformatics Resource Center/   [Sequencing Data]
+|   └── DNA Sequencing Sanger/            [Sanger Data]
+|
+└── Box/                                  [Box backup]
+|
+└── External/                             [External data]
 </pre></div>
 
-<p>To connect to ResearchDrive on an Apple Computer,</p>
+<p>Instructions can be found for <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998#connect">connecting</a> to and <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998#transferdata">transferring</a> files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of <a href="https://kb.wisc.edu/researchdata/96641">approaches</a>, including simple drag-and-drop or command-line <code>rsync</code> or <code>cp</code>.</p>
+<p>Example on a Mac OS X system:</p>
 <div class="highlight"><pre><span></span>Finder &gt; Go &gt; &quot;Connect to server... &gt;
 smb://research.drive.wisc.edu/mzamanian
+
+rsync -rltv ~/Desktop/Data/[project] /Volumes/mzamanian/Sequencing/[project]
 </pre></div>
 
 </li>
