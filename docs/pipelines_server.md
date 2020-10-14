@@ -28,15 +28,23 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
     |   └── data/                             [CHTC-processed data]
     |  
     └── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
-        └── Bioinformatics Resource Center/   [Sequencing Data]
-        └── DNA Sequencing Sanger/            [Sanger Data]
+    |   └── Bioinformatics Resource Center/   [Sequencing Data]
+    |   └── DNA Sequencing Sanger/            [Sanger Data]
+    |
+    └── Box/                                  [Box backup]
+    |
+    └── External/                             [External data]
     ```
 
-    To connect to ResearchDrive on an Apple Computer,
+    Instructions can be found for [connecting](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#connect) to and [transferring](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#transferdata) files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of [approaches](https://kb.wisc.edu/researchdata/96641), including simple drag-and-drop or command-line `rsync` or `cp`.
+
+    Example on a Mac OS X system:
 
       ```
       Finder > Go > "Connect to server... >
       smb://research.drive.wisc.edu/mzamanian
+
+      rsync -rltv ~/Desktop/Data/[project] /Volumes/mzamanian/Sequencing/[project]
       ```
 
 - SVM Research Data Storage
