@@ -25,7 +25,7 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
     ├── ImageXpress/                          [IX storage]
     |   └── raw/                              [Raw exported data]
     |   └── metadata/                         [Experiment metadata]    
-    |   └── data/                             [CHTC-processed data]
+    |   └── proc/                             [CHTC-processed data]
     |  
     └── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
     |   └── Bioinformatics Resource Center/   [Sequencing Data]
@@ -60,11 +60,11 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. Compute Nodes
 
-    The CHTC has an extensive set of execute nodes that can be accessed for free. To establish priority access for certain pipelines, our lab has secured a dedicated node that can be accessed using a designated flag.
+    The CHTC has an extensive set of execute nodes that can be accessed for free. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
 
     - Typical nodes: 20 cores, 128 GB RAM
     - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
-    - Dedicated lab node: 40 cores, 512 GB RAM, 3.8 TB HD
+    - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD
 
 2. Submit nodes
 
@@ -90,7 +90,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     Transfer a single folder containing your job input files to the staging data directory. You can run transfer commands from the lab file server or BRC server (sequencing data).
 
-    `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/data/`
+    `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/input/`
 
     More typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:
 
@@ -121,30 +121,31 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).
 
-    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/data/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
+    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/input/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
     <details>
       <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
       ```
       # Core_RNAseq-nf.sub
-      # Submit scripts (.sub/.sh) in /home/{net-id}/; Data in /staging/{net-id}/data/$(data)
-      # Run: condor_submit Core_RNAseq-nf.sub data=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
+      # Submit scripts (.sub/.sh) in /home/{net-id}/; Data in /staging/{net-id}/input/$(dir)
+      # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
-      # load docker image and request nodes with access to staging directory
+      # request Zamanian Lab server
+      Accounting_Group = PathobiologicalSciences_Zamanian
+
+      # load docker image; request execute server with large data staging
       universe = docker
       docker_image = zamanianlab/chtc-rnaseq:latest
-
-      # require execute servers that have large data staging
       Requirements = (Target.HasCHTCStaging == true)
 
       # executable (/home/{net-id}/) and arguments
       executable = $(script)
-      arguments = $(data)
+      arguments = $(dir)
 
-      # log, error, and st output files
-      log = $(data)_$(Cluster)_$(Process).log
-      error = $(data)_$(Cluster)_$(Process).err
-      output = $(data)_$(Cluster)_$(Process).out
+      # log, error, and output files
+      log = $(dir)_$(Cluster)_$(Process).log
+      error = $(dir)_$(Cluster)_$(Process).err
+      output = $(dir)_$(Cluster)_$(Process).out
 
       # transfer files in/out of /home/{net-id}/
       transfer_input_files =
@@ -152,9 +153,9 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       when_to_transfer_output = ON_EXIT
 
       # memory, disk and CPU requests
-      request_cpus = 4
-      request_memory = 32GB
-      request_disk = 20GB
+      request_cpus = 24
+      request_memory = 64GB
+      request_disk = 200GB
 
       # submit 1 job
       queue 1
@@ -163,7 +164,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       ```
     </details>
 
-    The submit script runs the annotated bash script below on the execute server. This pipeline creates `data`, `work`, and `output` dirs in the loaded Docker environment. It transfers the input data from `staging` into `data`, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses `work` for intermediary processing and spits out any files we have marked for retention into `output`, which gets transferred back to `staging`. `data` and `work` are deleted before job completion.
+    The submit script runs the annotated bash script below on the execute server. This pipeline creates `input`, `work`, and `output` dirs in the loaded Docker environment. It transfers the input data from `staging` into `input`, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses `work` for intermediary processing and spits out any files we have marked for retention into `output`, which gets transferred back to `staging`. `input` and `work` are deleted before job completion.
 
     <details>
       <summary>Core_RNAseq-nf.sh (Click to Expand)</summary>
@@ -172,21 +173,21 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
       # set home () and mk dirs
       export HOME=$PWD
-      mkdir data work output
+      mkdir input work output
 
-      # transfer data from staging
-      cp -r /staging/{net-id}/data/$1 data
+      # transfer input data from staging
+      cp -r /staging/{net-id}/input/$1 input
 
       # clone nextflow git repo
       git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
       # run nextflow
-      export NXF_OPTS='-Xms1g -Xmx4g'
+      export NXF_OPTS='-Xms1g -Xmx8g'
       nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1 --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
 
       # rm files you don't want transferred back to /home/{net-id}
       rm -r work
-      rm -r data
+      rm -r input
 
       # mv large output files to staging to avoid their transfer back to /home/{net-id}
       mv output/$1/ /staging/{net-id}/output/
