@@ -732,7 +732,8 @@ smb: \&gt; mget 20200922-p01-NJW_114
 <p><details>
   <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
   <div class="highlight"><pre><span></span># Core_RNAseq-nf.sub
-# Submit scripts (.sub/.sh) in /home/{net-id}/; Data in /staging/{net-id}/input/$(dir)
+# Submit scripts (.sub/.sh) in /home/{net-id}/
+# Input data in /staging/{net-id}/input/$(dir)
 # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
 # request Zamanian Lab server
@@ -752,7 +753,7 @@ log = $(dir)_$(Cluster)_$(Process).log
 error = $(dir)_$(Cluster)_$(Process).err
 output = $(dir)_$(Cluster)_$(Process).out
 
-# transfer files in/out of /home/{net-id}/
+# transfer files in-out of /home/{net-id}/
 transfer_input_files =
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
@@ -798,7 +799,7 @@ mv output/$1/ /staging/{net-id}/output/
 <li>
 <p>Submitting and managing jobs</p>
 <p>Submit job from submit node using <code>condor_submit</code>,</p>
-<p><code>condor_submit Core_RNAseq-nf.sub data=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh</code></p>
+<p><code>condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh</code></p>
 <p><details>
   <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
     <div class="highlight"><pre><span></span># check on job status
