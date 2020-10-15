@@ -127,7 +127,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
       ```
       # Core_RNAseq-nf.sub
-      # Submit scripts (.sub/.sh) in /home/{net-id}/; Data in /staging/{net-id}/input/$(dir)
+      # Submit scripts (.sub/.sh) in /home/{net-id}/
+      # Input data in /staging/{net-id}/input/$(dir)
       # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
       # request Zamanian Lab server
@@ -147,7 +148,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       error = $(dir)_$(Cluster)_$(Process).err
       output = $(dir)_$(Cluster)_$(Process).out
 
-      # transfer files in/out of /home/{net-id}/
+      # transfer files in-out of /home/{net-id}/
       transfer_input_files =
       should_transfer_files = YES
       when_to_transfer_output = ON_EXIT
@@ -192,7 +193,6 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       # mv large output files to staging to avoid their transfer back to /home/{net-id}
       mv output/$1/ /staging/{net-id}/output/
 
-
       ```
     </details>
 
@@ -200,7 +200,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     Submit job from submit node using `condor_submit`,
 
-    `condor_submit Core_RNAseq-nf.sub data=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
+    `condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
 
     <details>
       <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
