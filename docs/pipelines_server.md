@@ -44,7 +44,7 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
       Finder > Go > "Connect to server... >
       smb://research.drive.wisc.edu/mzamanian
 
-      rsync -rltv ~/Desktop/Data/[project] /Volumes/mzamanian/Sequencing/[project]
+      rsync -rltv ~/Desktop/Data/[dir] /Volumes/mzamanian/ImageXpress/raw/
       ```
 
 - SVM Research Data Storage
@@ -64,7 +64,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     - Typical nodes: 20 cores, 128 GB RAM
     - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
-    - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD
+    - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD  
+        [ Maximum request on lab node: CPU = 80; Memory = 500GB, Disk =  3500GB ]
 
 2. Submit nodes
 
@@ -154,9 +155,9 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       when_to_transfer_output = ON_EXIT
 
       # memory, disk and CPU requests
-      request_cpus = 24
-      request_memory = 64GB
-      request_disk = 200GB
+      request_cpus = 40
+      request_memory = 256GB
+      request_disk = 1500GB
 
       # submit 1 job
       queue 1
