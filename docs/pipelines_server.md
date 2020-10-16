@@ -105,12 +105,12 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     # connect to lab ResearchDrive
     smbclient -k //research.drive.wisc.edu/mzamanian
 
-    # navigate to ResearchDrive dir with raw data (example)
-    smb: \> cd /ImageXpress/raw/
-
     # turn off prompting and turn on recursive
     smb: \> prompt
     smb: \> recurse
+
+    # navigate to ResearchDrive dir with raw data (example)
+    smb: \> cd /ImageXpress/raw/
 
     # transfer raw data folder (example)
     smb: \> mget 20200922-p01-NJW_114
