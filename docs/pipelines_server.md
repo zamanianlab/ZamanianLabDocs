@@ -334,17 +334,17 @@ We will user Docker to establish consistent environments (containers) for our es
 
 Before deploying a new pipeline on large datasets, test the pipeline using sub-sampled data. You can test locally with sub-sampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.
 
-First, subsample your data:
+1. First, subsample your data:
   ```
   ...
   ```
 
-Run Docker container locally
+2. Run Docker container locally
   ```
   docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
   ```
 
-Simulate the steps in your submit scripts
+3. Simulate the steps in your submit scripts
   ```
   # set home to working directory
   export HOME=$PWD
@@ -362,4 +362,4 @@ Simulate the steps in your submit scripts
   nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
   ```
 
-Make changes to your GitHub pipeline, `push` those changes to GitHub, `pull` those changes to your local container, and re-run the Nextflow command.
+4. Make changes to your GitHub pipeline, `push` those changes to GitHub, `pull` those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.
