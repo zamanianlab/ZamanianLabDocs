@@ -337,33 +337,33 @@ Before deploying a new pipeline on large datasets, test the pipeline using sub-s
 
 1. First, subsample your data:
 
-  ```
-  ...
-  ```
+    ```
+    ...
+    ```
 
 2. Run Docker container locally
 
-  ```
-  docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
-  ```
+    ```
+    docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
+    ```
 
 3. Simulate the steps in your submit scripts
 
-  ```
-  # set home to working directory
-  export HOME=$PWD
+    ```
+    # set home to working directory
+    export HOME=$PWD
 
-  # make input, work, and output directories for nextflow
-  mkdir input work outputs
+    # make input, work, and output directories for nextflow
+    mkdir input work outputs
 
-  # clone GitHub repo that contains pipeline in development
-  git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+    # clone GitHub repo that contains pipeline in development
+    git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
-  # transfer sub-sampled files from CHTC staging into your input folder
-  scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX/ input
+    # transfer sub-sampled files from CHTC staging into your input folder
+    scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX/ input
 
-  # run nextflow command using chtc-local.config matched to your hardware specs
-  nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
-  ```
+    # run nextflow command using chtc-local.config matched to your hardware specs
+    nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+    ```
 
 4. Make changes to your GitHub pipeline, `push` those changes to GitHub, `pull` those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.
