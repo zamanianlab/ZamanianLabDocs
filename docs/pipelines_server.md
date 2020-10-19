@@ -226,13 +226,13 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 ## 2. Docker
 
-We will user Docker to establish consistent environments (containers) for our established pipelines. We will maintain Docker images on [Docker Hub](https://hub.docker.com/orgs/zamanianlab) under the organization name 'zamanianlab'. These images can be directly loaded from Docker Hub in our CHTC submit scripts. Install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/) and create a Dockerhub account to be associated with our organization Docker Hub (zamanianlab).
+We will user Docker to establish consistent environments (containers) for our established pipelines. We will maintain Docker images on [Docker Hub](https://hub.docker.com/orgs/zamanianlab) under the organization name 'zamanianlab'. These images can be directly loaded from Docker Hub in our CHTC submit scripts. The Dockerfiles used to create these images should be maintained in our [GitHub Docker Repo](https://github.com/zamanianlab/Docker Install). Install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/) and create a Dockerhub account to be associated with our organization Docker Hub (zamanianlab).
 
 ### Building Docker Images
 
 1. Create a lab Docker Hub repo (e.g., zamanianlab/chtc-rnaseq)
 
-2. Create Dockerfile and auxillary (e.g., yaml) files in a folder
+2. Create Dockerfile and auxillary (e.g., yaml) files in a folder with the repo name in the [Docker GitHub repo](https://github.com/zamanianlab/Docker Install).
 
     The Dockerfile provides instructions to build a Docker image. In this case, we are starting with the official miniconda Docker image and then installing necessary conda packages into this image. You can search for existing Docker images on [Docker Hub](https://hub.docker.com/orgs/zamanianlab) to build on, instead of starting from scratch.
 
@@ -288,6 +288,8 @@ We will user Docker to establish consistent environments (containers) for our es
           - muscle=3.8.1551
           - seqtk=1.3
           - raxml=8.2.12
+          - htseq=0.12.4
+          - mirdeep2=2.0.1.2
       ```
     </details>
 
@@ -329,3 +331,35 @@ We will user Docker to establish consistent environments (containers) for our es
     </details>
 
 ### Testing Docker Pipelines
+
+Before deploying a new pipeline on large datasets, test the pipeline using sub-sampled data. You can test locally with sub-sampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.
+
+First, subsample your data:
+  ```
+  ...
+  ```
+
+Run Docker container locally
+  ```
+  docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
+  ```
+
+Simulate the steps in your submit scripts
+  ```
+  # set home to working directory
+  export HOME=$PWD
+
+  # make input, work, and output directories for nextflow
+  mkdir input work outputs
+
+  # clone GitHub repo that contains pipeline in development
+  git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+
+  # transfer sub-sampled files from CHTC staging into your input folder
+  scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX/ input
+
+  # run nextflow command using chtc-local.config matched to your hardware specs
+  nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+  ```
+
+Make changes to your GitHub pipeline, `push` those changes to GitHub, `pull` those changes to your local container, and re-run the Nextflow command.
