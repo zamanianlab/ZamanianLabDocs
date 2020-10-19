@@ -8,7 +8,7 @@ In general, pipelines will be run in three steps:
   - **Pipeline:** files will be processed using established pipelines
   - **Output:** desired outputs will be transferred from the CHTC server to lab storage
 
-## 1. Lab Storage
+## A. Lab Storage
 
 Large data sets (raw and processed) will be stored in locations with reliable backup.
 
@@ -52,7 +52,7 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
     SVM PIs will soon have access to secure and backed-up research data storage through the school, stocked initially with 335 TB of storage capacity. Once this storage solution is in place, we will migrate from UW ResearchDrive to the on-premise storage solution.
 
 
-## 2. Center for High-throughput Computing (CHTC)
+## B. Center for High-throughput Computing (CHTC)
 
 Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://research.cs.wisc.edu/htcondor/) documentation before getting started. Register for an account using this [form](http://chtc.cs.wisc.edu/form.shtml).
 
@@ -224,7 +224,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 4. Transferring output data
 
-## 2. Docker
+
+## 3. Docker
 
 We will user Docker to establish consistent environments (containers) for our established pipelines. We will maintain Docker images on [Docker Hub](https://hub.docker.com/orgs/zamanianlab) under the organization name 'zamanianlab'. These images can be directly loaded from Docker Hub in our CHTC submit scripts. The Dockerfiles used to create these images should be maintained in our [GitHub Docker Repo](https://github.com/zamanianlab/Docker Install). Install [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/) and create a Dockerhub account to be associated with our organization Docker Hub (zamanianlab).
 
@@ -335,16 +336,19 @@ We will user Docker to establish consistent environments (containers) for our es
 Before deploying a new pipeline on large datasets, test the pipeline using sub-sampled data. You can test locally with sub-sampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.
 
 1. First, subsample your data:
+
   ```
   ...
   ```
 
 2. Run Docker container locally
+
   ```
   docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
   ```
 
 3. Simulate the steps in your submit scripts
+
   ```
   # set home to working directory
   export HOME=$PWD
