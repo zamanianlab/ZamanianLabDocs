@@ -896,20 +896,20 @@ ctrl+D to exit
 <h3 id="testing-docker-pipelines">Testing Docker Pipelines</h3>
 <p>Before deploying a new pipeline on large datasets, test the pipeline using sub-sampled data. You can test locally with sub-sampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.</p>
 <ol>
-<li>First, subsample your data:</li>
-</ol>
+<li>
+<p>First, subsample your data:</p>
 <div class="highlight"><pre><span></span><code>...
 </code></pre></div>
 
-<ol>
-<li>Run Docker container locally</li>
-</ol>
+</li>
+<li>
+<p>Run Docker container locally</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
 </code></pre></div>
 
-<ol>
-<li>Simulate the steps in your submit scripts</li>
-</ol>
+</li>
+<li>
+<p>Simulate the steps in your submit scripts</p>
 <div class="highlight"><pre><span></span><code># set home to working directory
 export HOME=$PWD
 
@@ -926,8 +926,10 @@ scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DM
 nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir &quot;191211_AHMMC5DMXX&quot; --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
 </code></pre></div>
 
-<ol>
-<li>Make changes to your GitHub pipeline, <code>push</code> those changes to GitHub, <code>pull</code> those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.</li>
+</li>
+<li>
+<p>Make changes to your GitHub pipeline, <code>push</code> those changes to GitHub, <code>pull</code> those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.</p>
+</li>
 </ol>
                 
               
