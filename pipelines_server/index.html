@@ -801,7 +801,7 @@ mv output/$1/ /staging/$2/output/
 <li>
 <p>Transferring output data</p>
 <p>To transfer your job output folder from the CHTC staging output directory to your local computer.</p>
-<p><code>scp -r {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/output/[dir] [local dir]</code></p>
+<p><code>scp -r {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/output/[dir] .</code></p>
 <p>To transfer your job output directly from the CHTC staging output directory to ResearchDrive.</p>
 <p><details>
 <summary> ResearchDrive -&gt; CHTC transfer (Click to Expand)</summary>
@@ -941,6 +941,8 @@ ctrl+D to exit
 </li>
 <li>
 <p>Simulate the steps in your submit scripts</p>
+<p><details>
+<summary>Running commands in local Docker container (Click to Expand)</summary>
 <div class="highlight"><pre><span></span><code># set home to working directory
 export HOME=$PWD
 
@@ -956,7 +958,7 @@ scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DM
 # run nextflow command using chtc-local.config matched to your hardware specs
 nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir &quot;191211_AHMMC5DMXX&quot; --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
 </code></pre></div>
-
+</details></p>
 </li>
 <li>
 <p>Make changes to your GitHub pipeline, <code>push</code> those changes to GitHub, <code>pull</code> those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.</p>
