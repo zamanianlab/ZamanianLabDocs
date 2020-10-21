@@ -438,11 +438,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-docker" class="md-nav__link">
-    3. Docker
+  <a href="#c-docker" class="md-nav__link">
+    C. Docker
   </a>
   
-    <nav class="md-nav" aria-label="3. Docker">
+    <nav class="md-nav" aria-label="C. Docker">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -546,11 +546,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-docker" class="md-nav__link">
-    3. Docker
+  <a href="#c-docker" class="md-nav__link">
+    C. Docker
   </a>
   
-    <nav class="md-nav" aria-label="3. Docker">
+    <nav class="md-nav" aria-label="C. Docker">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -674,7 +674,7 @@ rsync -rltv ~/Desktop/Data/[dir] /Volumes/mzamanian/ImageXpress/raw/
 <ol>
 <li>
 <p>Staging input data for processing</p>
-<p>Transfer a single folder containing your job input files to the staging data directory. You can run transfer commands from the lab file server or BRC server (sequencing data).</p>
+<p>Transfer a single folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/input/</code></p>
 <p>More typically, you will be <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">transferring directly</a> between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:</p>
 <p><details>
@@ -705,21 +705,20 @@ smb: \&gt; mget 20200922-p01-NJW_114
 <p><details>
   <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
   <div class="highlight"><pre><span></span><code># Core_RNAseq-nf.sub
-# Submit scripts (.sub/.sh) in /home/{net-id}/
 # Input data in /staging/{net-id}/input/$(dir)
-# Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
+# Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX netid=mzamanian script=Core_RNAseq-nf.sh
 
 # request Zamanian Lab server
 Accounting_Group = PathobiologicalSciences_Zamanian
 
 # load docker image; request execute server with large data staging
 universe = docker
-docker_image = zamanianlab/chtc-rnaseq:latest
+docker_image = zamanianlab/chtc-rnaseq:v1
 Requirements = (Target.HasCHTCStaging == true)
 
 # executable (/home/{net-id}/) and arguments
 executable = $(script)
-arguments = $(dir)
+arguments = $(dir) $(netid)
 
 # log, error, and output files
 log = $(dir)_$(Cluster)_$(Process).log
@@ -732,8 +731,8 @@ should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 
 # memory, disk and CPU requests
-request_cpus = 40
-request_memory = 256GB
+request_cpus = 80
+request_memory = 500GB
 request_disk = 1500GB
 
 # submit 1 job
@@ -750,22 +749,31 @@ queue 1
 export HOME=$PWD
 mkdir input work output
 
-# transfer input data from staging
-cp -r /staging/{net-id}/input/$1 input
+# echo core, thread, and memory
+echo &quot;CPU threads: $(grep -c processor /proc/cpuinfo)&quot;
+grep &#39;cpu cores&#39; /proc/cpuinfo | uniq
+echo $(free -g)
+
+# transfer input data from staging ($1 is ${dir} and $2 is ${netid} from args)
+cp -r /staging/$2/input/$1 input
 
 # clone nextflow git repo
 git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
 # run nextflow
 export NXF_OPTS=&#39;-Xms1g -Xmx8g&#39;
-nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1 --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
+nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config \
+  --dir $1 --star --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
 
 # rm files you don&#39;t want transferred back to /home/{net-id}
 rm -r work
 rm -r input
 
-# mv large output files to staging to avoid their transfer back to /home/{net-id}
-mv output/$1/ /staging/{net-id}/output/
+# remove staging output folder if there from previous run
+rm -r /staging/$2/output/$1
+
+# mv large output files to staging output folder; avoid their transfer back to /home/{net-id}
+mv output/$1/ /staging/$2/output/
 </code></pre></div>
 </details></p>
 </li>
@@ -792,9 +800,32 @@ mv output/$1/ /staging/{net-id}/output/
 </li>
 <li>
 <p>Transferring output data</p>
+<p>To transfer your job output folder from the CHTC staging output directory to your local computer.</p>
+<p><code>scp -r {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/output/[dir] [local dir]</code></p>
+<p>To transfer your job output directly from the CHTC staging output directory to ResearchDrive.</p>
+<p><details>
+<summary> ResearchDrive -&gt; CHTC transfer (Click to Expand)</summary>
+<div class="highlight"><pre><span></span><code># log into CHTC staging server and navigate to output folder
+ssh {net-id}@transfer.chtc.wisc.edu
+cd /staging/{net-id}/output/
+
+# connect to lab ResearchDrive
+smbclient -k //research.drive.wisc.edu/mzamanian
+
+# turn off prompting and turn on recursive
+smb: \&gt; prompt
+smb: \&gt; recurse
+
+# navigate to ResearchDrive dir for processed data (example)
+smb: \&gt; cd /ImageXpress/proc/
+
+# transfer output data folder (example)
+smb: \&gt; mput 20200922-p01-NJW_114
+</code></pre></div>
+</details></p>
 </li>
 </ol>
-<h2 id="3-docker">3. Docker</h2>
+<h2 id="c-docker">C. Docker</h2>
 <p>We will user Docker to establish consistent environments (containers) for our established pipelines. We will maintain Docker images on <a href="https://hub.docker.com/orgs/zamanianlab">Docker Hub</a> under the organization name 'zamanianlab'. These images can be directly loaded from Docker Hub in our CHTC submit scripts. The Dockerfiles used to create these images should be maintained in our <a href="https://github.com/zamanianlab/Docker Install">GitHub Docker Repo</a>. Install <a href="https://docs.docker.com/docker-for-mac/install/">Docker Desktop for Mac</a> and create a Dockerhub account to be associated with our organization Docker Hub (zamanianlab).</p>
 <h3 id="building-docker-images">Building Docker Images</h3>
 <ol>
@@ -894,7 +925,7 @@ ctrl+D to exit
 </li>
 </ol>
 <h3 id="testing-docker-pipelines">Testing Docker Pipelines</h3>
-<p>Before deploying a new pipeline on large datasets, test the pipeline using sub-sampled data. You can test locally with sub-sampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.</p>
+<p>Before deploying a new pipeline on large datasets, test the pipeline using subsampled data. You can test locally with subsampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.</p>
 <ol>
 <li>
 <p>First, subsample your data:</p>
