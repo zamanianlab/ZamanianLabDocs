@@ -385,6 +385,8 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
 
 3. Simulate the steps in your submit scripts
 
+    <details>
+    <summary>Running commands in local Docker container (Click to Expand)</summary>
     ```
     # set home to working directory
     export HOME=$PWD
@@ -401,5 +403,6 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
     # run nextflow command using chtc-local.config matched to your hardware specs
     nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
     ```
+    </details>
 
 4. Make changes to your GitHub pipeline, `push` those changes to GitHub, `pull` those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.
