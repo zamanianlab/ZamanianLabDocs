@@ -238,7 +238,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     To transfer your job output directly from the CHTC staging output directory to ResearchDrive.
 
     <details>
-    <summary> ResearchDrive -> CHTC transfer (Click to Expand)</summary>
+    <summary> CHTC -> ResearchDrive transfer (Click to Expand)</summary>
     ```
     # log into CHTC staging server and navigate to output folder
     ssh {net-id}@transfer.chtc.wisc.edu
