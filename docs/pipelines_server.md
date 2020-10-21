@@ -233,7 +233,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     To transfer your job output folder from the CHTC staging output directory to your local computer.
 
-    `scp -r {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/output/[dir] [local dir]`
+    `scp -r {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/output/[dir] .`
 
     To transfer your job output directly from the CHTC staging output directory to ResearchDrive.
 
