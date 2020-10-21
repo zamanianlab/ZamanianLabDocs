@@ -89,7 +89,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. Staging input data for processing
 
-    Transfer a single folder containing your job input files to the staging data directory. You can run transfer commands from the lab file server or BRC server (sequencing data).
+    Transfer a single folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/input/`
 
@@ -128,21 +128,20 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
       ```
       # Core_RNAseq-nf.sub
-      # Submit scripts (.sub/.sh) in /home/{net-id}/
       # Input data in /staging/{net-id}/input/$(dir)
-      # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
+      # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX netid=mzamanian script=Core_RNAseq-nf.sh
 
       # request Zamanian Lab server
       Accounting_Group = PathobiologicalSciences_Zamanian
 
       # load docker image; request execute server with large data staging
       universe = docker
-      docker_image = zamanianlab/chtc-rnaseq:latest
+      docker_image = zamanianlab/chtc-rnaseq:v1
       Requirements = (Target.HasCHTCStaging == true)
 
       # executable (/home/{net-id}/) and arguments
       executable = $(script)
-      arguments = $(dir)
+      arguments = $(dir) $(netid)
 
       # log, error, and output files
       log = $(dir)_$(Cluster)_$(Process).log
@@ -155,8 +154,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       when_to_transfer_output = ON_EXIT
 
       # memory, disk and CPU requests
-      request_cpus = 40
-      request_memory = 256GB
+      request_cpus = 80
+      request_memory = 500GB
       request_disk = 1500GB
 
       # submit 1 job
@@ -177,23 +176,31 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       export HOME=$PWD
       mkdir input work output
 
-      # transfer input data from staging
-      cp -r /staging/{net-id}/input/$1 input
+      # echo core, thread, and memory
+      echo "CPU threads: $(grep -c processor /proc/cpuinfo)"
+      grep 'cpu cores' /proc/cpuinfo | uniq
+      echo $(free -g)
+
+      # transfer input data from staging ($1 is ${dir} and $2 is ${netid} from args)
+      cp -r /staging/$2/input/$1 input
 
       # clone nextflow git repo
       git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
       # run nextflow
       export NXF_OPTS='-Xms1g -Xmx8g'
-      nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1 --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+      nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config \
+        --dir $1 --star --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
 
       # rm files you don't want transferred back to /home/{net-id}
       rm -r work
       rm -r input
 
-      # mv large output files to staging to avoid their transfer back to /home/{net-id}
-      mv output/$1/ /staging/{net-id}/output/
+      # remove staging output folder if there from previous run
+      rm -r /staging/$2/output/$1
 
+      # mv large output files to staging output folder; avoid their transfer back to /home/{net-id}
+      mv output/$1/ /staging/$2/output/
       ```
     </details>
 
@@ -223,6 +230,35 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 
 4. Transferring output data
+
+    To transfer your job output folder from the CHTC staging output directory to your local computer.
+
+    `scp -r {net-id}@transfer.chtc.wisc.edu:/staging/{net-id}/output/[dir] [local dir]`
+
+    To transfer your job output directly from the CHTC staging output directory to ResearchDrive.
+
+    <details>
+    <summary> ResearchDrive -> CHTC transfer (Click to Expand)</summary>
+    ```
+    # log into CHTC staging server and navigate to output folder
+    ssh {net-id}@transfer.chtc.wisc.edu
+    cd /staging/{net-id}/output/
+
+    # connect to lab ResearchDrive
+    smbclient -k //research.drive.wisc.edu/mzamanian
+
+    # turn off prompting and turn on recursive
+    smb: \> prompt
+    smb: \> recurse
+
+    # navigate to ResearchDrive dir for processed data (example)
+    smb: \> cd /ImageXpress/proc/
+
+    # transfer output data folder (example)
+    smb: \> mput 20200922-p01-NJW_114
+
+    ```
+    </details>
 
 
 ## 3. Docker
