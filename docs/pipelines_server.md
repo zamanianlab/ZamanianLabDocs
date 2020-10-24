@@ -27,12 +27,16 @@ Large data sets (raw and processed) will be stored in locations with reliable ba
     |   └── metadata/                         [Experiment metadata]    
     |   └── proc/                             [CHTC-processed data]
     |  
-    └── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+    ├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
     |   └── Bioinformatics Resource Center/   [Sequencing Data]
     |   └── DNA Sequencing Sanger/            [Sanger Data]
     |
-    └── Box/                                  [Box backup]
+    ├── WormViz/                              [WormViz storage]
+    |   └── raw/                              [Raw exported data]
+    |   └── metadata/                         [Experiment metadata]    
+    |   └── proc/                             [CHTC-processed data]
     |
+    ├── Box/                                  [Box backup]
     └── External/                             [External data]
     ```
 
@@ -79,8 +83,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
       ```
       /
-      ├── home/{net-id}/              [initial quota: 20 GB, submit script dir]
-      └── staging/{net-id}/           [initial quota: 200 GB | 1000 files]
+      ├── home/{net-id}/              [quota: 20 GB, submit script dir]
+      └── staging/{net-id}/           [quota: 1 TB | 1000 files]
           └── input/                  [input dir: unprocessed (raw) data]
           └── output/                 [output dir: processed job outputs]
       ```
