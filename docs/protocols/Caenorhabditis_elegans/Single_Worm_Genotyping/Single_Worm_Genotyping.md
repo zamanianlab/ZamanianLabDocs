@@ -26,7 +26,7 @@
 
     a. Take care to not transfer too much bacteria to the lysis buffer when removing worms from the pick. Bacteria will inhibit the downstream PCR reaction. You can watch the pick in the cap through the microscope to make sure the worms come off and to monitor the transfer of bacteria.
 
-    ![Image](img/Picking_into_cap.png)
+    <img src="../img/Picking_into_cap.png" width="300" />
 
 4. Place the caps onto an appropriately labeled strip of tubes. Spin down the worms into the 8-strip tube using the minicentrifuge.
 
