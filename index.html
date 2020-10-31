@@ -404,6 +404,18 @@
 
 
   <li class="md-nav__item">
+    <a href="pipelines_storage/" title="Storage" class="md-nav__link">
+      Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="pipelines_local/" title="Local Pipelines" class="md-nav__link">
       Local Pipelines
     </a>
@@ -424,18 +436,6 @@
         
       </ul>
     </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="editing/" title="Editing" class="md-nav__link">
-      Editing
-    </a>
   </li>
 
     
@@ -501,7 +501,43 @@
 <h2 id="how-to-use-this-guide">How to Use this Guide</h2>
 <p>New lab members should first orient themselves with our <a href="labmanual/">Lab Manual</a> and <a href="comp_overview/">Computational Onboarding</a> documents. All finalized lab protocols are maintained on the <a href="protocols/protocols/">Protocols</a> page. <a href="labsheets/">Lab Sheets</a> provides links to important Google sheets that are maintained by the laboratory. <a href="pipelines_overview/">Pipelines</a> provides more detailed information on how to run established computational (e.g., phenotyping and sequencing) pipelines locally or using available servers. This resource complements and describes our use of other systems in place for lab organization and management (i.e., Quartzy, Benchling, and Box).</p>
 <h2 id="updating">Updating</h2>
-<p>This resource is by nature an open, living, and collaborative document. We are using <a href="https://www.mkdocs.org/">MkDocs</a> as our site generator which uses a simply structured GitHub repository that includes Markdown files as the documentation and a few ancillary files to help in generation. You will need to have your own <a href="https://github.com/">GitHub</a> account and will need to be a member of the <a href="https://github.com/orgs/zamanianlab/dashboard">@zamanianlab</a> organization in order to gain editing privileges. To edit this document, please follow the instructions in the <a href="editing/">Editing</a> page.</p>
+<p>This resource is by nature an open, living, and collaborative document. We are using <a href="https://www.mkdocs.org/">MkDocs</a> as our site generator which uses a simply structured GitHub repository that includes Markdown files as the documentation and a few ancillary files to help in generation. You will need to have your own <a href="https://github.com/">GitHub</a> account and will need to be a member of the <a href="https://github.com/orgs/zamanianlab/dashboard">@zamanianlab</a> organization in order to gain editing privileges. To edit this document, please follow the instructions below.</p>
+<ol>
+<li>
+<p>Install MkDocs and the <a href="https://squidfunk.github.io/mkdocs-material/">Material</a> theme</p>
+<p><code>conda install -c conda-forge mkdocs</code></p>
+<p><code>conda install -c conda-forge mkdocs-material</code></p>
+</li>
+<li>
+<p>Clone the ZamanianLabDocs repo:</p>
+<p><code>git clone https://github.com/zamanianlab/ZamanianLabDocs.git</code></p>
+</li>
+<li>
+<p>Create and edit a Markdown file</p>
+<ul>
+<li>Use previous documentation as a guide</li>
+<li>Save in <code>/docs/</code> with the <code>.md</code> extension<ul>
+<li><strong>NOTE</strong>: if adding/editing a protocol, make a new folder <code>/docs/protocols</code> titled <code>{protocol_name}</code> (without the {}); if adding images, make a new folder called <code>img</code> in <code>/docs/protocols/{protocol_name}</code></li>
+</ul>
+</li>
+<li>Use the <a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/" target="blank">cheatsheet</a> for reference</li>
+<li>Use an online editor (like <a href="http://markdown.pioul.fr/" target="blank">this</a> one) or use <a href="comp_local/">Atom</a> combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension</li>
+</ul>
+</li>
+<li>
+<p>Push to GitHub</p>
+</li>
+<li>
+<p>Build and deploy site</p>
+<p><code>mkdocs build &amp;&amp; mkdocs gh-deploy</code></p>
+</li>
+<li>
+<p>Optional: before deploying with <code>gh-deploy</code>, view the site locally with <code>mkdocs serve</code> and copy/paste <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> into your browser</p>
+</li>
+<li>
+<p>After deploying, check to ensure everything deployed as expected by visiting <a href="http://www.zamanianlab.org/ZamanianLabDocs/">http://www.zamanianlab.org/ZamanianLabDocs/</a></p>
+</li>
+</ol>
                 
               
               

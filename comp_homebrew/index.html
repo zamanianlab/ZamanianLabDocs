@@ -370,6 +370,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../pipelines_storage/" title="Storage" class="md-nav__link">
+      Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../pipelines_local/" title="Local Pipelines" class="md-nav__link">
       Local Pipelines
     </a>
@@ -390,18 +402,6 @@
         
       </ul>
     </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../editing/" title="Editing" class="md-nav__link">
-      Editing
-    </a>
   </li>
 
     
@@ -441,11 +441,11 @@
                 
                 
                 <h1 id="homebrew">Homebrew</h1>
-<p><a href="https://brew.sh">Homebrew</a> is a package manager for macOS. Many of the core software used in bioinformatics and development can be installed using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:</p>
+<p><a href="https://brew.sh">Homebrew</a> is a package manager for macOS. You can install common bioinformatics software using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:</p>
 <div class="highlight"><pre><span></span><code>/usr/bin/ruby -e <span class="s2">&quot;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">&quot;</span>
 </code></pre></div>
 
-<p>Most of the core software used in the Zamanian Lab can be installed via Homebrew. If you need a piece of software, a good first step is to check if it has been implemented in Homebrew and install it from the source only if absolutely necessary. Below is a list of software that we recommend installing right off that bat. Run the following to automatically install these on your machine:</p>
+<p>While most bioinformatics tasks will be run using servers, you may choose to use Homebrew to install bionformatics programs to your local computer to carry out some tasks locally. The following command installs a list of informatics programs to your computer, which should be modified based on your needs.</p>
 <p><div class="highlight"><pre><span></span><code>sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 </code></pre></div>
 <a href="https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/zl_brew.sh">Link</a> to bash installation script that includes common informatics programs and GNU versions of command line tools.</p>

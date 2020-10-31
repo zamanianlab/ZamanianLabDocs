@@ -11,7 +11,7 @@
         <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
       
-        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/editing/">
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/pipelines_storage/">
       
       
         <meta name="author" content="Zamanian Lab">
@@ -21,7 +21,7 @@
     
     
       
-        <title>Editing - Zamanian Lab Documentation</title>
+        <title>Storage - Zamanian Lab Documentation</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#editing-or-adding-new-documentation" class="md-skip">
+        <a href="#lab-storage-pipelines" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Editing
+              Storage
             
           </span>
         </div>
@@ -324,10 +324,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       Pipelines
@@ -350,6 +352,27 @@
     <a href="../pipelines_overview/" title="Overview" class="md-nav__link">
       Overview
     </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Storage" class="md-nav__link md-nav__link--active">
+      Storage
+    </a>
+    
   </li>
 
         
@@ -382,27 +405,6 @@
   </li>
 
     
-      
-      
-      
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Editing" class="md-nav__link md-nav__link--active">
-      Editing
-    </a>
-    
-  </li>
-
-    
   </ul>
 </nav>
                   </div>
@@ -430,7 +432,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/editing.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/pipelines_storage.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -438,43 +440,67 @@
                   
                 
                 
-                <h1 id="editing-or-adding-new-documentation">Editing or Adding New Documentation</h1>
-<ol>
-<li>
-<p>Install MkDocs and the <a href="https://squidfunk.github.io/mkdocs-material/">Material</a> theme</p>
-<p><code>conda install -c conda-forge mkdocs</code></p>
-<p><code>conda install -c conda-forge mkdocs-material</code></p>
-</li>
-<li>
-<p>Clone the ZamanianLabDocs repo:</p>
-<p><code>git clone https://github.com/zamanianlab/ZamanianLabDocs.git</code></p>
-</li>
-<li>
-<p>Create and edit a Markdown file</p>
+                <h1 id="lab-storage-pipelines">Lab Storage Pipelines</h1>
+<p>Large data sets will be stored in locations with reliable backup (ResearchDrive). This includes all high-throughput sequencing and imaging data.</p>
 <ul>
-<li>Use previous documentation as a guide</li>
-<li>Save in <code>/docs/</code> with the <code>.md</code> extension<ul>
-<li><strong>NOTE</strong>: if adding/editing a protocol, make a new folder <code>/docs/protocols</code> titled <code>{protocol_name}</code> (without the {}); if adding images, make a new folder called <code>img</code> in <code>/docs/protocols/{protocol_name}</code></li>
+<li>
+<p>Box (Small Data)</p>
+<div class="highlight"><pre><span></span><code>/
+├── ImageXpress/                          [IX storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── proc/                             [CHTC-processed data]
+|  
+├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+|   └── Bioinformatics Resource Center/   [Sequencing Data]
+|   └── DNA Sequencing Sanger/            [Sanger Data]
+|
+├── WormViz/                              [WormViz storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── proc/                             [CHTC-processed data]
+|
+├── Box/                                  [Box backup]
+└── External/                             [External data]
+</code></pre></div>
+
+</li>
+<li>
+<p>UW ResearchDrive (Large Data)</p>
+<p><a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a> provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="http://www.box.com">Box</a> account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:</p>
+<div class="highlight"><pre><span></span><code>/
+├── ImageXpress/                          [IX storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── proc/                             [CHTC-processed data]
+|  
+├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+|   └── Bioinformatics Resource Center/   [Sequencing Data]
+|   └── DNA Sequencing Sanger/            [Sanger Data]
+|
+├── WormViz/                              [WormViz storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── proc/                             [CHTC-processed data]
+|
+├── Box/                                  [Box backup]
+└── External/                             [External data]
+</code></pre></div>
+
+<p>Instructions can be found for <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998#connect">connecting</a> to and <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998#transferdata">transferring</a> files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of <a href="https://kb.wisc.edu/researchdata/96641">approaches</a>, including simple drag-and-drop or command-line <code>rsync</code> or <code>cp</code>.</p>
+<p>Example on a Mac OS X system:</p>
+<div class="highlight"><pre><span></span><code>Finder &gt; Go &gt; &quot;Connect to server... &gt;
+smb://research.drive.wisc.edu/mzamanian
+
+rsync -rltv ~/Desktop/Data/[dir] /Volumes/mzamanian/ImageXpress/raw/
+</code></pre></div>
+
+</li>
+<li>
+<p>BRC (UW Biotech Center)</p>
+<p>Sequencing data generated by the UW Biotechnology Center is delivered to their BRC servers. These data can be accessed in <a href="https://www.biotech.wisc.edu/services/brc/data-access">numerous ways</a>. Our sequencing data are auto-deposited into ResearchDrive and so directly accessing these files may not be necessary.</p>
+</li>
 </ul>
-</li>
-<li>Use the <a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/" target="blank">cheatsheet</a> for reference</li>
-<li>Use an online editor (like <a href="http://markdown.pioul.fr/" target="blank">this</a> one) or use <a href="../comp_local/">Atom</a> combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension</li>
-</ul>
-</li>
-<li>
-<p>Push to GitHub</p>
-</li>
-<li>
-<p>Build and deploy site</p>
-<p><code>mkdocs build &amp;&amp; mkdocs gh-deploy</code></p>
-</li>
-<li>
-<p>Optional: before deploying with <code>gh-deploy</code>, view the site locally with <code>mkdocs serve</code> and copy/paste <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> into your browser</p>
-</li>
-<li>
-<p>After deploying, check to ensure everything deployed as expected by visiting <a href="http://www.zamanianlab.org/ZamanianLabDocs/">http://www.zamanianlab.org/ZamanianLabDocs/</a></p>
-</li>
-</ol>
                 
               
               
@@ -493,7 +519,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../pipelines_server/" title="Server Pipelines" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../pipelines_overview/" title="Overview" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -502,11 +528,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Server Pipelines
+                Overview
               </div>
             </div>
           </a>
         
+        
+          <a href="../pipelines_local/" title="Local Pipelines" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Local Pipelines
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
         
       </nav>
     </div>
