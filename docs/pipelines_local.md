@@ -24,7 +24,7 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
 
   - Data tidying will be performed in scripts that are separate from those that perform analysis and visualization. Tidy data will be stored in Rds files (space-saving compared to Rda format).
 
-**Tidying Instructions:** These instructions apply to establishing templates for raw tabular (csv) files that are manually generated in the course of assays, and the Rds files generated from tidying all raw data (manually-generated csv or instrument-generated files in various formats). **Pay close attention to column order and case sensitivity**. The purpose of setting common standards is to make manipulation of these data easier across the lab.
+**Tidying instructions:** These instructions apply to establishing templates for raw tabular (csv) files that are manually generated in the course of assays, and the Rds files generated from tidying all raw data (manually-generated csv or instrument-generated files in various formats). **Pay close attention to column order and case sensitivity**. The purpose of setting common standards is to make manipulation of these data easier across the lab.
 
 ***Required column names and entries***
 ```

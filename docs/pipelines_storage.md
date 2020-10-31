@@ -5,8 +5,6 @@ Large data sets will be stored in locations with reliable backup (ResearchDrive)
 
 - Box (Small Data)
 
-
-
     ```
     /
     ├── ImageXpress/                          [IX storage]
