@@ -39,4 +39,4 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
 6. Manage your Python environment using [Miniconda](comp_conda.md).
 
-7. Use [Homebrew](comp_homebrew.md) to install other command-line software.
+7. Use [Homebrew](comp_homebrew.md) to install other command-line software (optional).

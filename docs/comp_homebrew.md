@@ -1,12 +1,12 @@
 # Homebrew
 
-[Homebrew](https://brew.sh) is a package manager for macOS. Many of the core software used in bioinformatics and development can be installed using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:
+[Homebrew](https://brew.sh) is a package manager for macOS. You can install common bioinformatics software using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:
 
 ``` bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Most of the core software used in the Zamanian Lab can be installed via Homebrew. If you need a piece of software, a good first step is to check if it has been implemented in Homebrew and install it from the source only if absolutely necessary. Below is a list of software that we recommend installing right off that bat. Run the following to automatically install these on your machine:
+While most bioinformatics tasks will be run using servers, you may choose to use Homebrew to install bionformatics programs to your local computer to carry out some tasks locally. The following command installs a list of informatics programs to your computer, which should be modified based on your needs.
 
 ``` bash
 sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
