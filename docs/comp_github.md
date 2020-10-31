@@ -6,7 +6,7 @@ Create an account at [GitHub.com](https://www.github.com/) and join the [Zamania
 
 Though GitHub is primarily used for software development, there are in fact many other such use cases. The Zamanian Lab uses GitHub in the following ways:
 
-1. **Code development** - i.e. RNA-seq pipelines, image processing, and other bioinformatics or machine learning pipelines.
+1. **Code development** - i.e. RNA-seq pipelines, image processing, and other bioinformatics or machine learning pipelines. Server-related files, including submission scripts and Docker environments.
 
 2. **Open source publications** - Every publication coming out of our lab will have an associated GitHub repo that includes the data and code used to create all the manuscript figures, allowing reviewers and readers to reproduce all analyses ([Example](https://github.com/zamanianlab/BrugiaChemo-ms)).
 

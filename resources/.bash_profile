@@ -1,7 +1,6 @@
 echo "Sync Profile Loaded"
 
 alias refresh="source ~/.bash_profile"
-#alias git log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Paths
 export PATH=/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH
@@ -14,9 +13,8 @@ alias ls="ls -pG" #show directories
 alias l="ls -lhGgo" #show directories
 alias tarup="tar -zcf"
 alias tardown="tar -zxf"
-
 alias box="cd ~/Box/"
-alias brc6="ssh zamanian@brc6.secure.biotech.wisc.edu"
+alias htc="ssh mzamanian@submit3.chtc.wisc.edu" #replace with your netid
 
 # autojump configuration
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh

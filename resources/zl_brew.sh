@@ -16,6 +16,7 @@ brew install fastqc
 brew install bedtools
 brew install vcftools
 brew install bcftools
+brew install bedops
 brew install SAMtools
 brew install snpeffto
 brew install phylip

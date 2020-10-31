@@ -10,8 +10,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Box Drive](https://www.box.com/resources/downloads/drive) (cloud-based shared file storage)
     - [Cyberduck](https://cyberduck.io/) (SFTP client)
     - [iTerm](https://iterm2.com/) (feature-rich terminal replacement)
-    - [Atom](https://atom.io/) (Versatile GitHub-owned IDE)
-        - Feel free to install this [list of useful packages](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/atom-package-list.txt) using the command `apm install --packages-file {path}/package-list.txt`. The packages in this list will allow you to select text by column using the ⌥ key, "beautify" text and code according to universal syntax rules, highlight all occurrences of a selection, and preview the HTML version of .md files, among others. You can also install [Atom themes](https://atom.io/themes).
+    - [Atom](https://atom.io/) (Versatile IDE with useful [packages](https://atom.io/packages) and [themes](https://atom.io/themes))
     - [XQuartz](https://www.xquartz.org/) (open-source window system on which some apps rely)
     - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS)
     - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
@@ -36,10 +35,8 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
       *NOTE: If you already have a more recent version of R installed, you will need to completely uninstall R and install the correct 3.6.2 version.*
 
-    - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/Setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects.
-
-    - Install the [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment) R package (`devtools::install_github("zamanianlab/ZamanianLabREnvironment")`) to create a consistent, unified environment across machines.
+    - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/R_setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects. This will also install our [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment).
 
 6. Manage your Python environment using [Miniconda](comp_conda.md).
 
-6. Use [Homebrew](comp_homebrew.md) to install other command-line software.
+7. Use [Homebrew](comp_homebrew.md) to install other command-line software.
