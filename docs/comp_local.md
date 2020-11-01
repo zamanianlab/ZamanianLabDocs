@@ -33,7 +33,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 5. Create your R environment:
     - Use [CRAN](https://cloud.r-project.org/bin/macosx/R-4.0.2.pkg) to install or update R to version 4.0.2
 
-      *NOTE: If you already have a more recent version of R installed, you will need to completely uninstall R and install the correct 3.6.2 version.*
+      *NOTE: We will upgrade to new versions of R as a group.*
 
     - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/R_setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects. This will also install our [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment).
 
