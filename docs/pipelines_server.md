@@ -36,17 +36,17 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       ```
       /
       ├── home/{net-id}/                    [quota: 20 GB, submit script dir]
-      └── /staging/groups/zamanian_group/   [quota: 1 TB | 100 files]
+      └── staging/groups/zamanian_group/    [quota: 1 TB | 100 files]
           └── input/                        [input dir: unprocessed (raw) data]
           └── output/                       [output dir: processed job outputs]
-          └── WBP/                          [permanent storage of WBP data]
+          └── WBP.tar.gz                    [permanent storage of WBP data]
       ```
 
 ### Deploying Pipelines
 
 1. Staging input data for processing
 
-    Transfer a single folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).
+    Transfer a single compressed folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
 
@@ -91,7 +91,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       # request Zamanian Lab server
       Accounting_Group = PathobiologicalSciences_Zamanian
 
-      # load docker image; request execute server with large data staging
+      # load docker image; request execute server with staging
       universe = docker
       docker_image = zamanianlab/chtc-rnaseq:v1
       Requirements = (Target.HasCHTCStaging == true)
@@ -144,20 +144,23 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       # clone nextflow git repo
       git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
-      # run nextflow
+      # run nextflow command
       export NXF_OPTS='-Xms1g -Xmx8g'
-      nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config \
-        --dir $1 --star --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+      nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1\
+         --star --qc --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
 
       # rm files you don't want transferred back to /home/{net-id}
-      rm -r work
-      rm -r input
+      rm -r work input
 
-      # remove staging output folder if there from previous run
-      rm -r /staging/groups/zamanian_group/output/$1
+      # tar output folder and delete it
+      cd output && tar -cvf $1.tar $1 && rm -r $1 && cd ..
+
+      # remove staging output tar if there from previous run
+      rm -f /staging/groups/zamanian_group/output/$1.tar
 
       # mv large output files to staging output folder; avoid their transfer back to /home/{net-id}
-      mv output/$1/ /staging/groups/zamanian_group/output/
+      mv output/$1.tar /staging/groups/zamanian_group/output/
+
       ```
     </details>
 

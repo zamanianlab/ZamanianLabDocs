@@ -1,34 +1,12 @@
-# Lab Storage Pipelines
-
-Large data sets will be stored in locations with reliable backup (ResearchDrive). This includes all high-throughput sequencing and imaging data.
-
+# Data Storage
 
 - Box (Small Data)
 
-    ```
-    /
-    ├── ImageXpress/                          [IX storage]
-    |   └── raw/                              [Raw exported data]
-    |   └── metadata/                         [Experiment metadata]    
-    |   └── proc/                             [CHTC-processed data]
-    |  
-    ├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
-    |   └── Bioinformatics Resource Center/   [Sequencing Data]
-    |   └── DNA Sequencing Sanger/            [Sanger Data]
-    |
-    ├── WormViz/                              [WormViz storage]
-    |   └── raw/                              [Raw exported data]
-    |   └── metadata/                         [Experiment metadata]    
-    |   └── proc/                             [CHTC-processed data]
-    |
-    ├── Box/                                  [Box backup]
-    └── External/                             [External data]
-    ```
-
+    Smaller data (e.g., tabular data from instruments) will be stored on Box in the `Data` folder. All data (large and small) will be processed using local or server pipelines to produce small outputs for analysis and plotting. These processed outputs will also be stored on Box.
 
 - UW ResearchDrive (Large Data)
 
-    [ResearchDrive](https://it.wisc.edu/services/researchdrive) provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
+    Large data (e.g., sequencing and high-content imaging) will be stored on [ResearchDrive](https://it.wisc.edu/services/researchdrive), which provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
 
     ```
     /
