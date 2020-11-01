@@ -2,13 +2,13 @@
 
 We organize our data and pipelines as outlined on these pages:
 
-1. [Lab Data Storage](pipelines_storage.md)
+1. [Data Storage](pipelines_storage.md)
 
-    An overview of how we manage large and small data in the lab. We maintain exact rules on how to properly store raw and processed data (file and folder structure and nomenclature).
+    An overview of how we manage large and small data in the lab. We maintain strict file and folder nomenclature rules on how to properly store raw and processed data.
 
 2. [Local Pipelines](pipelines_local.md) (simple local scripts)
 
-    These are pipelines involving common assay and data processing tasks that can be modified and run on local computers. These pipelines have a common structure and are housed in dedicated sub-directories on Box (``~/Box/ZamanianLab/Data``). These include R scripts and pipelines to process instrument output files (e.g., qPCR, EPG, plate reader) or tabular phenotypic assay data.
+    These are pipelines involving common assay and data processing tasks that can be modified and run on local computers. These pipelines have a common structure and are housed in dedicated sub-directories on Box (``~/Box/ZamanianLab/Data``). These include R scripts to process instrument output files, tabular phenotypic assay data, and the outputs of server pipelines.
 
 3. [Server Pipelines](pipelines_server.md) (contain a remote server component)
 

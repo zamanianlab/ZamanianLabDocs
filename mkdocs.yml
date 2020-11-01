@@ -68,6 +68,6 @@ nav:
     - Homebrew:               comp_homebrew.md
   - Pipelines:
     - Overview:               pipelines_overview.md
-    - Storage:                pipelines_storage.md
+    - Data Storage:           pipelines_storage.md
     - Local Pipelines:        pipelines_local.md
     - Server Pipelines:       pipelines_server.md
