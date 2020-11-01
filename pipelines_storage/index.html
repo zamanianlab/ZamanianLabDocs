@@ -21,7 +21,7 @@
     
     
       
-        <title>Storage - Zamanian Lab Documentation</title>
+        <title>Storage - Zamanian Lab Docs</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lab-storage-pipelines" class="md-skip">
+        <a href="#data-storage" class="md-skip">
           Skip to content
         </a>
       
@@ -75,7 +75,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Documentation">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -88,7 +88,7 @@
       
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
-            Zamanian Lab Documentation
+            Zamanian Lab Docs
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
@@ -162,13 +162,13 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo" aria-label="Zamanian Lab Documentation">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    Zamanian Lab Documentation
+    Zamanian Lab Docs
   </label>
   
     <div class="md-nav__source">
@@ -440,34 +440,15 @@
                   
                 
                 
-                <h1 id="lab-storage-pipelines">Lab Storage Pipelines</h1>
-<p>Large data sets will be stored in locations with reliable backup (ResearchDrive). This includes all high-throughput sequencing and imaging data.</p>
+                <h1 id="data-storage">Data Storage</h1>
 <ul>
 <li>
 <p>Box (Small Data)</p>
-<div class="highlight"><pre><span></span><code>/
-├── ImageXpress/                          [IX storage]
-|   └── raw/                              [Raw exported data]
-|   └── metadata/                         [Experiment metadata]    
-|   └── proc/                             [CHTC-processed data]
-|  
-├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
-|   └── Bioinformatics Resource Center/   [Sequencing Data]
-|   └── DNA Sequencing Sanger/            [Sanger Data]
-|
-├── WormViz/                              [WormViz storage]
-|   └── raw/                              [Raw exported data]
-|   └── metadata/                         [Experiment metadata]    
-|   └── proc/                             [CHTC-processed data]
-|
-├── Box/                                  [Box backup]
-└── External/                             [External data]
-</code></pre></div>
-
+<p>Smaller data (e.g., tabular data from instruments) will be stored on Box in the <code>Data</code> folder. All data (large and small) will be processed using local or server pipelines to produce small outputs for analysis and plotting. These processed outputs will also be stored on Box.</p>
 </li>
 <li>
 <p>UW ResearchDrive (Large Data)</p>
-<p><a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a> provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. We will also use ResearchDrive to store imaging and all other large data types. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="http://www.box.com">Box</a> account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:</p>
+<p>Large data (e.g., sequencing and high-content imaging) will be stored on <a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a>, which provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="http://www.box.com">Box</a> account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:</p>
 <div class="highlight"><pre><span></span><code>/
 ├── ImageXpress/                          [IX storage]
 |   └── raw/                              [Raw exported data]

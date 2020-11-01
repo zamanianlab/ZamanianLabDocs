@@ -21,7 +21,7 @@
     
     
       
-        <title>Server Pipelines - Zamanian Lab Documentation</title>
+        <title>Server Pipelines - Zamanian Lab Docs</title>
       
     
     
@@ -75,7 +75,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Documentation">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -88,7 +88,7 @@
       
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
-            Zamanian Lab Documentation
+            Zamanian Lab Docs
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
@@ -162,13 +162,13 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Documentation" class="md-nav__button md-logo" aria-label="Zamanian Lab Documentation">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    Zamanian Lab Documentation
+    Zamanian Lab Docs
   </label>
   
     <div class="md-nav__source">
@@ -610,10 +610,10 @@
 <p>The CHTC does not use a shared file system, but you can request the storage you need for any given job. Each net-id (and our lab as a whole) will is associated with a <code>home</code> folder, where we manage job submission scripts. Our lab also has a shared <code>staging</code> folder, for transfer of large files in and out of the CHTC system.</p>
 <div class="highlight"><pre><span></span><code>/
 ├── home/{net-id}/                    [quota: 20 GB, submit script dir]
-└── /staging/groups/zamanian_group/   [quota: 1 TB | 100 files]
+└── staging/groups/zamanian_group/    [quota: 1 TB | 100 files]
     └── input/                        [input dir: unprocessed (raw) data]
     └── output/                       [output dir: processed job outputs]
-    └── WBP/                          [permanent storage of WBP data]
+    └── WBP.tar.gz                    [permanent storage of WBP data]
 </code></pre></div>
 
 </li>
@@ -622,7 +622,7 @@
 <ol>
 <li>
 <p>Staging input data for processing</p>
-<p>Transfer a single folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).</p>
+<p>Transfer a single compressed folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/</code></p>
 <p>More typically, you will be <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">transferring directly</a> between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:</p>
 <p><details>
@@ -659,7 +659,7 @@ smb: \&gt; mget 20200922-p01-NJW_114
 # request Zamanian Lab server
 Accounting_Group = PathobiologicalSciences_Zamanian
 
-# load docker image; request execute server with large data staging
+# load docker image; request execute server with staging
 universe = docker
 docker_image = zamanianlab/chtc-rnaseq:v1
 Requirements = (Target.HasCHTCStaging == true)
@@ -708,20 +708,22 @@ cp -r /staging/groups/zamanian_group/input/$1 input
 # clone nextflow git repo
 git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
-# run nextflow
+# run nextflow command
 export NXF_OPTS=&#39;-Xms1g -Xmx8g&#39;
-nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config \
-  --dir $1 --star --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
+nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1\
+   --star --qc --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
 
 # rm files you don&#39;t want transferred back to /home/{net-id}
-rm -r work
-rm -r input
+rm -r work input
 
-# remove staging output folder if there from previous run
-rm -r /staging/groups/zamanian_group/output/$1
+# tar output folder and delete it
+cd output &amp;&amp; tar -cvf $1.tar $1 &amp;&amp; rm -r $1 &amp;&amp; cd ..
+
+# remove staging output tar if there from previous run
+rm -f /staging/groups/zamanian_group/output/$1.tar
 
 # mv large output files to staging output folder; avoid their transfer back to /home/{net-id}
-mv output/$1/ /staging/groups/zamanian_group/output/
+mv output/$1.tar /staging/groups/zamanian_group/output/
 </code></pre></div>
 </details></p>
 </li>
