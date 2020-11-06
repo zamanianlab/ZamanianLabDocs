@@ -25,7 +25,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 2. Submit nodes
 
-    Jobs on the CHTC are deployed from submit nodes. You can `ssh` into our assigned submit node (submit2) to run and monitor jobs using your UW net-id and password.
+    Jobs on the CHTC are deployed from submit nodes. You can `ssh` into our assigned submit node (submit2) to run and monitor jobs using your UW net-id and password. 
 
   	`ssh {net-id}@submit2.chtc.wisc.edu`
 
