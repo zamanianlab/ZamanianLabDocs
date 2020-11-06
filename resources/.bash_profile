@@ -4,8 +4,6 @@ alias refresh="source ~/.bash_profile"
 
 # Paths
 export PATH=/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH
-export GIT_PATH="$HOME/GitHub"
-export GIT_DATA="$HOME/Box/GHdata"
 
 # Command Preferences and Shortcuts
 alias h=history
@@ -14,7 +12,8 @@ alias l="ls -lhGgo" #show directories
 alias tarup="tar -zcf"
 alias tardown="tar -zxf"
 alias box="cd ~/Box/"
-alias htc="ssh mzamanian@submit3.chtc.wisc.edu" #replace with your netid
+alias github="cd ~/GitHub/"
+alias htc="ssh mzamanian@submit2.chtc.wisc.edu" #replace with your netid
 
 # autojump configuration
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
