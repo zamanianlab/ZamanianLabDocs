@@ -28,7 +28,6 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [FigTree](https://github.com/rambaut/figtree/releases) (graphical viewer of phylogenetic trees)
     - [4Peaks](https://nucleobytes.com/4peaks/index.html) (editing of sequence trace files)
 
-
 5. Replace your `~/.bash_profile` with the lab `.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
 
 6. Create your R environment:
