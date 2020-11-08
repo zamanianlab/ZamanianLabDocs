@@ -20,7 +20,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Zoom](https://zoom.us/download) (video meeting software)
     - [Paperpile](https://paperpile.com/) (reference management)
 
-3. If the Mac is UW-owned, follow the instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install UW software.
+3. If the Mac is UW-owned, follow these instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install UW-licensed software.
 
 4. Install additional bioinformatics and imaging software:
 
