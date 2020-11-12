@@ -79,13 +79,12 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).
 
-    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/input/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
+    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/groups/zamanian_group/input/` and we move job output files to `/staging/groups/zamanian_group/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
     <details>
       <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
       ```
-      # Core_RNAseq-nf.sub
-      # Input data in /staging/{net-id}/input/$(dir)
+      # Input data in /staging/groups/zamanian_group/input/$(dir)
       # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
       # request Zamanian Lab server
@@ -358,7 +357,7 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
     git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
     # transfer sub-sampled files from CHTC staging into your input folder
-    scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX/ input
+    scp -r mzamanian@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/191211_AHMMC5DMXX/ input
 
     # run nextflow command using chtc-local.config matched to your hardware specs
     nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
