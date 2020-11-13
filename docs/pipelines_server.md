@@ -25,7 +25,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 2. Submit nodes
 
-    Jobs on the CHTC are deployed from submit nodes. You can `ssh` into our assigned submit node (submit2) to run and monitor jobs using your UW net-id and password. 
+    Jobs on the CHTC are deployed from submit nodes. You can `ssh` into our assigned submit node (submit2) to run and monitor jobs using your UW net-id and password.
 
   	`ssh {net-id}@submit2.chtc.wisc.edu`
 
@@ -46,14 +46,10 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. Staging input data for processing
 
-    Transfer a single compressed folder containing your job input files to the staging input directory. You can run transfer commands from your computer or from the BRC server (sequencing data).
-
-    `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
-
-    More typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer a directory from ResearchDrive to the CHTC staging input folder:
+    Most typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer an archived or compressed directory (.tar or .tar.gz) from ResearchDrive to the CHTC staging input folder:
 
     <details>
-    <summary> ResearchDrive -> CHTC transfer (Click to Expand)</summary>
+    <summary> ResearchDrive -> CHTC transfer (interactive)</summary>
     ```
     # log into CHTC staging server and navigate to input folder
     ssh {net-id}@transfer.chtc.wisc.edu
@@ -69,11 +65,21 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     # navigate to ResearchDrive dir with raw data (example)
     smb: \> cd /ImageXpress/raw/
 
-    # transfer raw data folder (example)
-    smb: \> mget 20200922-p01-NJW_114
+    # transfer archived raw data folder (example)
+    smb: \> mget 20200922-p01-NJW_114.tar
 
     ```
     </details>
+
+    To transfer an unarchived folder from ResearchDrive to the CHTC staging input folder and have it archived on arrival:
+
+    `smbclient -k //research.drive.wisc.edu/mzamanian/ -Tc 201105_AHLVWJDSXY.tar "UWBC-Dropbox/Bioinformatics Resource Center/201105_AHLVWJDSXY"`
+
+
+    Rarely, you may have to transfer data from other sources (not ResarchDrive) to CHTC staging input. You can run simple transfer commands from your computer:
+
+    `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
+
 
 2. Creating job submit scripts
 
