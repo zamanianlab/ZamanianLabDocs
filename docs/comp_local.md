@@ -20,23 +20,23 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Zoom](https://zoom.us/download) (video meeting software)
     - [Paperpile](https://paperpile.com/) (reference management)
 
+3. If the Mac is UW-owned, follow these instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install UW-licensed software.
 
-3. Install additional bioinformatics and imaging software:
+4. Install additional bioinformatics and imaging software:
 
     - [Fiji](https://fiji.sc/) (primary software used for image analysis)
     - [FigTree](https://github.com/rambaut/figtree/releases) (graphical viewer of phylogenetic trees)
     - [4Peaks](https://nucleobytes.com/4peaks/index.html) (editing of sequence trace files)
 
+5. Replace your `~/.bash_profile` with the lab `.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
 
-4. Replace your `~/.bash_profile` with the lab `.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
-
-5. Create your R environment:
+6. Create your R environment:
     - Use [CRAN](https://cloud.r-project.org/bin/macosx/R-4.0.2.pkg) to install or update R to version 4.0.2
 
       *NOTE: We will upgrade to new versions of R as a group.*
 
     - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/R_setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects. This will also install our [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment).
 
-6. Manage your Python environment using [Miniconda](comp_conda.md).
+7. Manage your Python environment using [Miniconda](comp_conda.md).
 
-7. Use [Homebrew](comp_homebrew.md) to install other command-line software (optional).
+8. Use [Homebrew](comp_homebrew.md) to install other command-line software (optional).
