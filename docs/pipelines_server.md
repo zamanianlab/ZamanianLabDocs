@@ -75,7 +75,6 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     `smbclient -k //research.drive.wisc.edu/mzamanian/ -Tc 201105_AHLVWJDSXY.tar "UWBC-Dropbox/Bioinformatics Resource Center/201105_AHLVWJDSXY"`
 
-
     Rarely, you may have to transfer data from other sources (not ResarchDrive) to CHTC staging input. You can run simple transfer commands from your computer:
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
