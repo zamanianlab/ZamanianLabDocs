@@ -46,7 +46,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. Staging input data for processing
 
-    Most typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer an archived/compressed (.tar or .tar.gz) or unarchived directories from ResearchDrive to the CHTC staging input folder:
+    In almost all cases, you will be [directly transferring](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) your input data from ResearchDrive to CHTC. To transfer archived/compressed (.tar or .tar.gz) or unarchived directories from ResearchDrive to the CHTC staging input folder:
 
     <details>
     <summary> ResearchDrive -> CHTC transfer of archived folder (interactive)</summary>
@@ -201,11 +201,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 4. Transferring output data
 
-    To transfer your job output folder from the CHTC staging output directory to your local computer.
-
-    `scp -r {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/output/[dir] .`
-
-    To transfer your job output directly from the CHTC staging output directory to ResearchDrive.
+    To transfer your job output folder from the CHTC staging output directory to Research Drive:
 
     <details>
     <summary> CHTC -> ResearchDrive transfer (Click to Expand)</summary>
@@ -229,6 +225,10 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     ```
     </details>
+
+    Output data can also be transferred to your computer directly from the CHTC (as shown in the command below), or from the mounted ResearchDrive if the data have already been moved to ResearchDrive.
+
+    `scp -r {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/output/[dir] .`
 
 
 ## B. Docker
