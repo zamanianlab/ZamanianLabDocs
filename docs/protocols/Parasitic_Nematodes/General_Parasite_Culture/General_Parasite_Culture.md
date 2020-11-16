@@ -13,14 +13,14 @@ Carry out all work in sterile BSC environment and use sterile technique.
 
 *Note:* Make culture media and scale volume as needed. Media can be stored at 4°C for 1 month. Parasites will typically arrive in 50 mL conical tubes. Culture adult parasites for at least 24 hours prior to downstream use.
 
-  | Culture Media Component    | Volume (for 50 mL total)               |
-  |----------------------------|----------------------------------------|
-  |RPMI-1640                   |44 mL                                   |
-  |Pen-Strep (100 U/mL each)   |500 μL of 100X stock (10,000 U/mL each) |
-  |Gentamicin (4 μg/μL)        |500 uL of 100X stock (0.4 mg/μL)        |
-  |FBS (10% v/v)               |5 mL                                    |
+  | Culture Media Component              | Volume (for 50 mL total)               |
+  |--------------------------------------|----------------------------------------|
+  |RPMI-1640                             |44 mL                                   |
+  |Pen-Strep (100 U/mL each)             |500 μL of 100X stock (10,000 U/mL each) |
+  |FBS (10% v/v)                         |5 mL                                    |
+  |Gentamicin (Optional; 4 μg/μL)        |500 uL of 100X stock (0.4 mg/μL)        |
 
-Pre-heat RPMI-1640 for 30 min at 37°C. Thaw FBS, Pen-Strep and Gentamicin at room temperature.
+Pre-heat RPMI-1640 for 30 min at 37°C.
 
 1. Pellet parasites
 

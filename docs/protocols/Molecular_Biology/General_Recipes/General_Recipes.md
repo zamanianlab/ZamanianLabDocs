@@ -1,4 +1,4 @@
-# General ZamanianLab Recipes
+# General Zamanian Lab Recipes
 
 ## LB Miller Broth
 
