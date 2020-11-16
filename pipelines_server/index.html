@@ -622,7 +622,7 @@
 <ol>
 <li>
 <p>Staging input data for processing</p>
-<p>Most typically, you will be <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">transferring directly</a> between ResearchDrive and CHTC. To transfer an archived/compressed (.tar or .tar.gz) or unarchived directories from ResearchDrive to the CHTC staging input folder:</p>
+<p>In almost all cases, you will be <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">directly transferring</a> your input data from ResearchDrive to CHTC. To transfer archived/compressed (.tar or .tar.gz) or unarchived directories from ResearchDrive to the CHTC staging input folder:</p>
 <p><details>
 <summary> ResearchDrive -&gt; CHTC transfer of archived folder (interactive)</summary>
 <div class="highlight"><pre><span></span><code># log into CHTC staging server and navigate to input folder
@@ -758,9 +758,7 @@ mv output/$1.tar /staging/groups/zamanian_group/output/
 </li>
 <li>
 <p>Transferring output data</p>
-<p>To transfer your job output folder from the CHTC staging output directory to your local computer.</p>
-<p><code>scp -r {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/output/[dir] .</code></p>
-<p>To transfer your job output directly from the CHTC staging output directory to ResearchDrive.</p>
+<p>To transfer your job output folder from the CHTC staging output directory to Research Drive:</p>
 <p><details>
 <summary> CHTC -&gt; ResearchDrive transfer (Click to Expand)</summary>
 <div class="highlight"><pre><span></span><code># log into CHTC staging server and navigate to output folder
@@ -781,6 +779,8 @@ smb: \&gt; cd /ImageXpress/proc/
 smb: \&gt; mput 20200922-p01-NJW_114
 </code></pre></div>
 </details></p>
+<p>Output data can also be transferred to your computer directly from the CHTC (as shown in the command below), or from the mounted ResearchDrive if the data have already been moved to ResearchDrive.</p>
+<p><code>scp -r {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/output/[dir] .</code></p>
 </li>
 </ol>
 <h2 id="b-docker">B. Docker</h2>
