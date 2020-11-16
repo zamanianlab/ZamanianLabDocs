@@ -46,10 +46,10 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. Staging input data for processing
 
-    Most typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer an archived or compressed directory (.tar or .tar.gz) from ResearchDrive to the CHTC staging input folder:
+    Most typically, you will be [transferring directly](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) between ResearchDrive and CHTC. To transfer an archived/compressed (.tar or .tar.gz) or unarchived directories from ResearchDrive to the CHTC staging input folder:
 
     <details>
-    <summary> ResearchDrive -> CHTC transfer (interactive)</summary>
+    <summary> ResearchDrive -> CHTC transfer of archived folder (interactive)</summary>
     ```
     # log into CHTC staging server and navigate to input folder
     ssh {net-id}@transfer.chtc.wisc.edu
@@ -71,11 +71,17 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     ```
     </details>
 
-    To transfer an unarchived folder from ResearchDrive to the CHTC staging input folder and have it archived on arrival:
+    <details>
+    <summary> ResearchDrive -> CHTC transfer of unarchived folder (archived on arrival)</summary>
+    ```
+    ssh {net-id}@transfer.chtc.wisc.edu
+    cd /staging/groups/zamanian_group/input/
 
-    `smbclient -k //research.drive.wisc.edu/mzamanian/ -Tc 201105_AHLVWJDSXY.tar "UWBC-Dropbox/Bioinformatics Resource Center/201105_AHLVWJDSXY"`
+    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "UWBC-Dropbox/Bioinformatics Resource Center" -Tc 201105_AHLVWJDSXY.tar "201105_AHLVWJDSXY"
+    ```
+    </details>
 
-    Rarely, you may have to transfer data from other sources (not ResarchDrive) to CHTC staging input. You can run simple transfer commands from your computer:
+    Rarely, you may have to transfer data from other sources (not ResearchDrive) to CHTC staging input. You can run simple transfer commands from your computer:
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
 
