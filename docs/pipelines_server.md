@@ -46,38 +46,21 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. Staging input data for processing
 
-    In almost all cases, you will be [directly transferring](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) your input data from ResearchDrive to CHTC. To transfer archived/compressed (.tar or .tar.gz) or unarchived directories from ResearchDrive to the CHTC staging input folder:
-
-    <details>
-    <summary> ResearchDrive -> CHTC transfer of archived folder (interactive)</summary>
-    ```
-    # log into CHTC staging server and navigate to input folder
-    ssh {net-id}@transfer.chtc.wisc.edu
-    cd /staging/groups/zamanian_group/input/
-
-    # connect to lab ResearchDrive
-    smbclient -k //research.drive.wisc.edu/mzamanian
-
-    # turn off prompting and turn on recursive
-    smb: \> prompt
-    smb: \> recurse
-
-    # navigate to ResearchDrive dir with raw data (example)
-    smb: \> cd /ImageXpress/raw/
-
-    # transfer archived raw data folder (example)
-    smb: \> mget 20200922-p01-NJW_114.tar
-
-    ```
-    </details>
+    In almost all cases, you will be [directly transferring](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.
 
     <details>
     <summary> ResearchDrive -> CHTC transfer of unarchived folder (archived on arrival)</summary>
     ```
+    # Log into transfer server and navigate to staging input dir
     ssh {net-id}@transfer.chtc.wisc.edu
     cd /staging/groups/zamanian_group/input/
 
+    # Example of transferring sequencing data
     smbclient -k //research.drive.wisc.edu/mzamanian/ -D "UWBC-Dropbox/Bioinformatics Resource Center" -Tc 201105_AHLVWJDSXY.tar "201105_AHLVWJDSXY"
+
+    # Example of transferring ImageXpress data
+    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpres/raw" -Tc 20201119-p01-MZ_200.tar "20201119-p01-MZ_200"
+
     ```
     </details>
 
@@ -89,7 +72,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).
 
-    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/{net-id}/input/` and we move job output files to `/staging/{net-id}/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
+    Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/groups/zamanian_group/input/` and we move job output files to `/staging/groups/zamanian_group/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
     <details>
       <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
@@ -149,7 +132,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       echo $(free -g)
 
       # transfer input data from staging ($1 is ${dir} from args)
-      cp -r /staging/groups/zamanian_group/input/$1 input
+      cp -r /staging/groups/zamanian_group/input/$1.tar input
+      cd input && tar -xvf $1.tar && rm $1.tar && mv */*/* $1 && cd ..
 
       # clone nextflow git repo
       git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
@@ -157,7 +141,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
       # run nextflow command
       export NXF_OPTS='-Xms1g -Xmx8g'
       nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1\
-         --star --qc --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+         --star --qc --release "WBPS15" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
 
       # rm files you don't want transferred back to /home/{net-id}
       rm -r work input
@@ -176,9 +160,12 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 3. Submitting and managing jobs
 
-    Submit job from submit node using `condor_submit`,
+    Log into submit2 node and run job using `condor_submit`,
 
-    `condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
+    ```
+    ssh mzamanian@submit2.wisc.edu
+    condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
+    ```
 
     <details>
       <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
@@ -221,7 +208,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     smb: \> cd /ImageXpress/proc/
 
     # transfer output data folder (example)
-    smb: \> mput 20200922-p01-NJW_114
+    smb: \> mput 20201119-p01-MZ_200.tar
 
     ```
     </details>
