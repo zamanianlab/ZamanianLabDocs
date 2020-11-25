@@ -328,7 +328,7 @@ We will user Docker to establish consistent environments (containers) for our es
 
 Before deploying a new pipeline on large datasets, test the pipeline using subsampled data. You can test locally with subsampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.
 
-1. First, subsample your data:
+1. First, subsample your data into a more manageable size:
 
     ```
     ...
@@ -337,7 +337,7 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
 2. Run Docker container locally
 
     ```
-    docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
+    docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
     ```
 
 3. Simulate the steps in your submit scripts
@@ -355,9 +355,11 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
     git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
     # transfer sub-sampled files from CHTC staging into your input folder
-    scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX/ input
+    scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX.tar input
 
-    # run nextflow command using chtc-local.config matched to your hardware specs
+    # run your pipeline commands
+
+    # example of a nextflow command using chtc-local.config matched to your hardware specs
     nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
     ```
     </details>

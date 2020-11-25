@@ -6,7 +6,7 @@
 
 - UW ResearchDrive (Large Data)
 
-    Large data (e.g., sequencing and high-content imaging) will be stored on [ResearchDrive](https://it.wisc.edu/services/researchdrive), which provides 5 TB (expandable) of secure backed-up storage. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
+    Large data (e.g., sequencing and high-content imaging) will be stored on [ResearchDrive](https://it.wisc.edu/services/researchdrive), which provides 15 TB (expandable) of secure storage with off-site backup. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
 
     ```
     /
@@ -45,4 +45,4 @@
 
 - Redundant Storage
 
-    Computers connected to instruments (e.g., imagers and plate readers) will also have physical hard-drives attached to backup all outputs from those instruments, as a backup for ResearchDrive.
+    Computers connected to instruments (e.g., imagers and plate readers) will also have physical hard-drives attached to backup all outputs from those instruments, as a secondary backup for ResearchDrive.
