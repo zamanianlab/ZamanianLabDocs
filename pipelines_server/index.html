@@ -875,14 +875,14 @@ ctrl+D to exit
 <p>Before deploying a new pipeline on large datasets, test the pipeline using subsampled data. You can test locally with subsampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.</p>
 <ol>
 <li>
-<p>First, subsample your data:</p>
+<p>First, subsample your data into a more manageable size:</p>
 <div class="highlight"><pre><span></span><code>...
 </code></pre></div>
 
 </li>
 <li>
 <p>Run Docker container locally</p>
-<div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
+<div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
 </code></pre></div>
 
 </li>
@@ -900,9 +900,11 @@ mkdir input work outputs
 git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
 # transfer sub-sampled files from CHTC staging into your input folder
-scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX/ input
+scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX.tar input
 
-# run nextflow command using chtc-local.config matched to your hardware specs
+# run your pipeline commands
+
+# example of a nextflow command using chtc-local.config matched to your hardware specs
 nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir &quot;191211_AHMMC5DMXX&quot; --release &quot;WBPS14&quot; --species &quot;brugia_malayi&quot; --prjn &quot;PRJNA10729&quot; --rlen &quot;150&quot;
 </code></pre></div>
 </details></p>
