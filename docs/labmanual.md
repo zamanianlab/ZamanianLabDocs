@@ -81,6 +81,7 @@ Lab meetings will be held once a week. Every member of the lab should have an up
 
 I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. Each trainee and I will share a **Google Doc** to keep track of weekly and long-term goals. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
 
+
 ## IV. Lab Tasks
 
 Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: **[Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md)** and **[Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md)**.
