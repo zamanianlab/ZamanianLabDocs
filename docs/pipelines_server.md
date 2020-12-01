@@ -59,7 +59,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     smbclient -k //research.drive.wisc.edu/mzamanian/ -D "UWBC-Dropbox/Bioinformatics Resource Center" -Tc 201105_AHLVWJDSXY.tar "201105_AHLVWJDSXY"
 
     # Example of transferring ImageXpress data
-    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpres/raw" -Tc 20201119-p01-MZ_200.tar "20201119-p01-MZ_200"
+    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpress/raw" -Tc 20201119-p01-MZ_200.tar "20201119-p01-MZ_200"
 
     ```
     </details>
