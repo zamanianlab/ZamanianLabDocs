@@ -1,6 +1,6 @@
 # Schistosome Recipes
 
-## Bge Medium pH 7.2
+## iBge Medium pH 7.2
 
 |Reagent|Amount (per 100 mL)|
 |-------|------|
@@ -8,10 +8,15 @@
 |Lactalbumin hydrolysate|450 mg|
 |Galactose|130 mg|
 |Sterile DI water|68 mL|
-|Fetal Bovine Serum, heat inactivated|10 mL|
 |Gentamicin 50 mg/ml stock (*Optional*)|0.2 mL|
 
-**Note:** Do not freeze Bge Medium
+- Filter sterilize (0.22 um filter) and store at 4C
+
+To prepare cBge medium, add 10 mL of heat inactivated FBS and 1 mL of 100X pen/strep to 89 mL iBge.
+
+- **Note:** iBge is very easily contaminated
+
+**Note:** Do not freeze cBge Medium
 
 **Note:** Bge cells are sensitive to the quality of FBS. Several lots of FBS may have to be screened. It has been known that investigators using Bge cell lines have soon lost it due to the unsuitability of their FBS.
 
@@ -41,7 +46,7 @@
 |Trypsin|50 mg|
 |Hansen's buffered saline|100 mL|
 
-- Filter sterilise (0.22 um filter).
+- Filter sterilize (0.22 um filter).
 
 - Freeze in 10 mL aliquots.
 
