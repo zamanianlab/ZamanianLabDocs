@@ -14,9 +14,13 @@ repo_url:              'https://github.com/zamanianlab/ZamanianLabDocs'
 theme:
   name: material
   language: en
+  icon:
+    logo: material/dna
+  favicon: fontawesome/brands/twitter
   palette:
-    primary: indigo
-    accent: teal
+    - scheme: default
+      primary: blue
+      accent: orange
   font:
     text: Roboto
     code: Roboto Mono
@@ -25,15 +29,14 @@ theme:
   markdown_extensions:
     - admonition
 
-# Customization
+
+# Remove footer
 extra:
-    social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/zamanianlab
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/zamanian_
+  generator: false
 
 markdown_extensions:
+  - attr_list
+  - admonition
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -44,12 +47,15 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
+  - pymdownx.highlight
+  - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.tabbed
 
 extra_javascript:
   - 'javascripts/extra.js'

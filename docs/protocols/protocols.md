@@ -1,13 +1,13 @@
 # Zamanian Lab Protocols
 
-## **Lab Tasks**
+## Lab Tasks
 
 - [Staff Tasks](Tasks/Staff_Tasks/Staff_Tasks.md)
 
 - [Undergraduate Tasks](Tasks/UG_Tasks/UG_Tasks.md)
 
 
-## **Molecular Biology**
+## Molecular Biology
 
 - [General Lab Recipes](Molecular_Biology/General_Recipes/General_Recipes.md)
 
@@ -34,7 +34,7 @@
 - [Sanger Sequencing](Molecular_Biology/Sanger_Sequencing/Sanger_Sequencing.md)
 
 
-## **Mosquito-Stage Parasite Protocols**
+## Mosquito-Stage Parasite Protocols
 
 - [Insectary Operations](Parasitic_Nematodes/Insectary/Insectary.md)
 
@@ -46,7 +46,7 @@
 
 - [*in squito* RNAi](Parasitic_Nematodes/in_squito_RNAi/in_squito_RNAi.md)
 
-## **Parasitic Nematodes**
+## Parasitic Nematodes
 
 - [Parasite Culture](Parasitic_Nematodes/General_Parasite_Culture/General_Parasite_Culture.md)
 
@@ -67,7 +67,7 @@
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
 
 
-## ***Caenorhabditis elegans***
+## *Caenorhabditis elegans*
 
 *Many protocols adapted from the Andersen Lab (NU)*
 
@@ -98,14 +98,14 @@
 - [Plate Pouring: Cholesterol](Caenorhabditis_elegans/PlatePouring_Cholesterol/PlatePouring_Cholesterol.md)
 
 
-## **Microinjection**
+## Microinjection
 
 - [*C. elegans* Microinjection](Microinjection/Ce_Microinjection/Ce_Microinjection.md)
 
 - [Injection Rig Preparation](Microinjection/Injection_Rig_Preparation/Injection_Rig_Preparation.md)
 
 
-## **Schistosome Protocols**
+## Schistosome Protocols
 
 - [Schistosome Recipes](Schistosomes/Schistosome_Recipes/Schistosome_Recipes.md)
 
@@ -118,7 +118,7 @@
 - [*B. glabrata* Infections](Schistosomes/Snail_Infections/Snail_Infections.md)
 
 
-## **Lab Operations**
+## Lab Operations
 
 - [Autoclave Operation](Lab_Operations/Autoclave_Operation/Autoclave_Operation.md)
 
@@ -133,7 +133,7 @@
 - [Connecting CO<sub>2</sub> Tanks](Lab_Operations/Connecting_CO2_Tanks/Connecting_CO2_Tanks.md)
 
 
-## **General**
+## General
 
 - [Label Maker](General/Label_Maker/Label_Maker.md)
 

@@ -1,48 +1,48 @@
 # Data Storage
 
-- Box (Small Data)
+## Box (Small Data)
 
-    Small data (e.g., tabular data from various instruments) will be stored on Box in the `Data` folder. All data (large and small) will be processed using local or server pipelines to produce small outputs for analysis and plotting. These processed outputs will also be stored on Box. Box will be backed up to ResearchDrive once every six months.
+Small data (e.g., tabular data from various instruments) will be stored on Box in the `Data` folder. All data (large and small) will be processed using local or server pipelines to produce small outputs for analysis and plotting. These processed outputs will also be stored on Box. Box will be backed up to ResearchDrive once every three months.
 
-- UW ResearchDrive (Large Data)
+## UW ResearchDrive (Large Data)
 
-    Large data (e.g., sequencing and high-content imaging) will be stored on [ResearchDrive](https://it.wisc.edu/services/researchdrive), which provides 15 TB (expandable) of secure storage with off-site backup. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
+Large data (e.g., sequencing and high-content imaging) will be stored on [ResearchDrive](https://it.wisc.edu/services/researchdrive), which provides 15 TB (expandable) of secure storage with off-site backup. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab [Box](http://www.box.com) account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:
 
-    ```
-    /
-    ├── ImageXpress/                          [IX storage]
-    |   └── raw/                              [Raw exported data]
-    |   └── metadata/                         [Experiment metadata]    
-    |   └── proc/                             [CHTC-processed data]
-    |  
-    ├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
-    |   └── Bioinformatics Resource Center/   [Sequencing Data]
-    |   └── DNA Sequencing Sanger/            [Sanger Data]
-    |
-    ├── WormViz/                              [WormViz storage]
-    |   └── raw/                              [Raw exported data]
-    |   └── metadata/                         [Experiment metadata]    
-    |   └── proc/                             [CHTC-processed data]
-    |
-    ├── Box/                                  [Box backup]
-    └── External/                             [External data]
-    ```
+```
+/
+├── ImageXpress/                          [IX storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── proc/                             [CHTC-processed data]
+|  
+├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+|   └── Bioinformatics Resource Center/   [Sequencing Data]
+|   └── DNA Sequencing Sanger/            [Sanger Data]
+|
+├── WormViz/                              [WormViz storage]
+|   └── raw/                              [Raw exported data]
+|   └── metadata/                         [Experiment metadata]    
+|   └── proc/                             [CHTC-processed data]
+|
+├── Box/                                  [Box backup]
+└── External/                             [External data]
+```
 
-    Instructions can be found for [connecting](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#connect) to and [transferring](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#transferdata) files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of [approaches](https://kb.wisc.edu/researchdata/96641), including simple drag-and-drop or command-line `rsync` or `cp`.
+Instructions can be found for [connecting](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#connect) to and [transferring](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#transferdata) files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of [approaches](https://kb.wisc.edu/researchdata/96641), including simple drag-and-drop or command-line `rsync` or `cp`.
 
-    Example on a Mac OS X system:
+Example on a Mac OS X system:
 
-      ```
-      Finder > Go > "Connect to server... >
-      smb://research.drive.wisc.edu/mzamanian
+  ```
+  Finder > Go > "Connect to server... >
+  smb://research.drive.wisc.edu/mzamanian
 
-      rsync -rltv ~/Desktop/Data/[dir] /Volumes/mzamanian/ImageXpress/raw/
-      ```
+  rsync -rltv ~/Desktop/Data/[dir] /Volumes/mzamanian/ImageXpress/raw/
+  ```
 
-- BRC (UW Biotech Center)
+## BRC (UW Biotech Center)
 
-    Sequencing data generated by the UW Biotechnology Center is delivered to their BRC servers. These data can be accessed in [numerous ways](https://www.biotech.wisc.edu/services/brc/data-access). Our sequencing data are auto-deposited into ResearchDrive and so directly accessing these files may not be necessary.
+Sequencing data generated by the UW Biotechnology Center is delivered to their BRC servers. These data can be accessed in [numerous ways](https://www.biotech.wisc.edu/services/brc/data-access). Our sequencing data are auto-deposited into ResearchDrive and so directly accessing these files may not be necessary.
 
-- Redundant Storage
+## Redundant Storage
 
-    Computers connected to instruments (e.g., imagers and plate readers) will also have physical hard-drives attached to backup all outputs from those instruments, as a secondary backup for ResearchDrive.
+Computers connected to instruments (e.g., imagers and plate readers) will also have physical hard-drives attached to backup all outputs from those instruments, as a secondary backup for ResearchDrive.

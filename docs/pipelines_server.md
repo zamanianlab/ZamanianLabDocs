@@ -50,7 +50,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     <details>
     <summary> ResearchDrive -> CHTC transfer of unarchived folder (archived on arrival)</summary>
-    ```
+    ```bash
     # Log into transfer server and navigate to staging input dir
     ssh {net-id}@transfer.chtc.wisc.edu
     cd /staging/groups/zamanian_group/input/
@@ -74,102 +74,107 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/groups/zamanian_group/input/` and we move job output files to `/staging/groups/zamanian_group/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
-    <details>
-      <summary>Core_RNAseq-nf.sub (Click to Expand)</summary>
-      ```
-      # Core_RNAseq-nf.sub
-      # Input data in /staging/{net-id}/input/$(dir)
-      # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
-
-      # request Zamanian Lab server
-      Accounting_Group = PathobiologicalSciences_Zamanian
-
-      # load docker image; request execute server with staging
-      universe = docker
-      docker_image = zamanianlab/chtc-rnaseq:v1
-      Requirements = (Target.HasCHTCStaging == true)
-
-      # executable (/home/{net-id}/) and arguments
-      executable = $(script)
-      arguments = $(dir)
-
-      # log, error, and output files
-      log = $(dir)_$(Cluster)_$(Process).log
-      error = $(dir)_$(Cluster)_$(Process).err
-      output = $(dir)_$(Cluster)_$(Process).out
-
-      # transfer files in-out of /home/{net-id}/
-      transfer_input_files =
-      should_transfer_files = YES
-      when_to_transfer_output = ON_EXIT
-
-      # memory, disk and CPU requests
-      request_cpus = 80
-      request_memory = 500GB
-      request_disk = 1500GB
-
-      # submit 1 job
-      queue 1
-      ### END
-
-      ```
     </details>
 
     The submit script runs the annotated bash script below on the execute server. This pipeline creates `input`, `work`, and `output` dirs in the loaded Docker environment. It transfers the input data from `staging` into `input`, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses `work` for intermediary processing and spits out any files we have marked for retention into `output`, which gets transferred back to `staging`. `input` and `work` are deleted before job completion.
 
+
     <details>
-      <summary>Core_RNAseq-nf.sh (Click to Expand)</summary>
-      ```
-      #!/bin/bash
+    <summary> Example CHTC job submission scripts (.sub / .sh)</summary>
 
-      # set home () and mk dirs
-      export HOME=$PWD
-      mkdir input work output
+    === "Core_RNAseq-nf.sub"
 
-      # echo core, thread, and memory
-      echo "CPU threads: $(grep -c processor /proc/cpuinfo)"
-      grep 'cpu cores' /proc/cpuinfo | uniq
-      echo $(free -g)
+        ``` linenums="1"
+        # Core_RNAseq-nf.sub
+        # Input data in /staging/{net-id}/input/$(dir)
+        # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
-      # transfer input data from staging ($1 is ${dir} from args)
-      cp -r /staging/groups/zamanian_group/input/$1.tar input
-      cd input && tar -xvf $1.tar && rm $1.tar && mv */*/* $1 && cd ..
+        # request Zamanian Lab server
+        Accounting_Group = PathobiologicalSciences_Zamanian
 
-      # clone nextflow git repo
-      git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+        # load docker image; request execute server with staging
+        universe = docker
+        docker_image = zamanianlab/chtc-rnaseq:v1
+        Requirements = (Target.HasCHTCStaging == true)
 
-      # run nextflow command
-      export NXF_OPTS='-Xms1g -Xmx8g'
-      nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1\
-         --star --qc --release "WBPS15" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+        # executable (/home/{net-id}/) and arguments
+        executable = $(script)
+        arguments = $(dir)
 
-      # rm files you don't want transferred back to /home/{net-id}
-      rm -r work input
+        # log, error, and output files
+        log = $(dir)_$(Cluster)_$(Process).log
+        error = $(dir)_$(Cluster)_$(Process).err
+        output = $(dir)_$(Cluster)_$(Process).out
 
-      # tar output folder and delete it
-      cd output && tar -cvf $1.tar $1 && rm -r $1 && cd ..
+        # transfer files in-out of /home/{net-id}/
+        transfer_input_files =
+        should_transfer_files = YES
+        when_to_transfer_output = ON_EXIT
 
-      # remove staging output tar if there from previous run
-      rm -f /staging/groups/zamanian_group/output/$1.tar
+        # memory, disk and CPU requests
+        request_cpus = 80
+        request_memory = 500GB
+        request_disk = 1500GB
 
-      # mv large output files to staging output folder; avoid their transfer back to /home/{net-id}
-      mv output/$1.tar /staging/groups/zamanian_group/output/
+        # submit 1 job
+        queue 1
+        ### END
+        ```
 
-      ```
+    === "Core_RNAseq-nf.sh"
+
+        ```bash linenums="1"
+        #!/bin/bash
+
+        # set home () and mk dirs
+        export HOME=$PWD
+        mkdir input work output
+
+        # echo core, thread, and memory
+        echo "CPU threads: $(grep -c processor /proc/cpuinfo)"
+        grep 'cpu cores' /proc/cpuinfo | uniq
+        echo $(free -g)
+
+        # transfer input data from staging ($1 is ${dir} from args)
+        cp -r /staging/groups/zamanian_group/input/$1.tar input
+        cd input && tar -xvf $1.tar && rm $1.tar && mv */*/* $1 && cd ..
+
+        # clone nextflow git repo
+        git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+
+        # run nextflow command
+        export NXF_OPTS='-Xms1g -Xmx8g'
+        nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir $1\
+           --star --qc --release "WBPS15" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
+
+        # rm files you don't want transferred back to /home/{net-id}
+        rm -r work input
+
+        # tar output folder and delete it
+        cd output && tar -cvf $1.tar $1 && rm -r $1 && cd ..
+
+        # remove staging output tar if there from previous run
+        rm -f /staging/groups/zamanian_group/output/$1.tar
+
+        # mv large output files to staging output folder; avoid their transfer back to /home/{net-id}
+        mv output/$1.tar /staging/groups/zamanian_group/output/
+
+        ```
     </details>
+
 
 3. Submitting and managing jobs
 
-    Log into submit2 node and run job using `condor_submit`,
+    Log into submit node and submit job,
 
-    ```
-    ssh mzamanian@submit2.wisc.edu
-    condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
-    ```
+    ` ssh {net-id}@submit2.wisc.edu `
+
+    `condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
+
 
     <details>
       <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
-        ```
+        ``` bash
         # check on job status
           condor_q
 
@@ -192,7 +197,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     <details>
     <summary> CHTC -> ResearchDrive transfer (Click to Expand)</summary>
-    ```
+    ``` bash
     # log into CHTC staging server and navigate to output folder
     ssh {net-id}@transfer.chtc.wisc.edu
     cd /staging/groups/zamanian_group/output/
@@ -355,7 +360,7 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
     git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
     # transfer sub-sampled files from CHTC staging into your input folder
-    scp -r mzamanian@transfer.chtc.wisc.edu:/staging/mzamanian/input/191211_AHMMC5DMXX.tar input
+    scp -r {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/subsampled/191211_AHMMC5DMXX.tar input
 
     # run your pipeline commands
 
