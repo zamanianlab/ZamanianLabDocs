@@ -28,18 +28,16 @@ We will hold weekly lab meetings as a springboard for open and critical scientif
 
 My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.
 
-     1. Follow all the rules in this guide for ordering and inventorying items
-     2. Carry out your lab tasks in a timely manner
-     3. Be helpful to others - this is a team effort!
-     4. Keep track of items we are low on and place orders in advance
-     5. Be here during normal work hours so that you can maximize interactions
-     6. Do not borrow things without asking
-     7. Clean up after yourselves and put things back in assigned locations
-     8. Use your own pipettes, tips, and gloves (except where designated)
-     9. Keep your items confined to assigned bench, freezer, and fridge spaces
-     10. Follow all the rules when interacting with other spaces (e.g., the insectary)
-     11. Stay ahead of parasite orders and plan their use accordingly
-     12. Make sure the lab is properly shut down (communicate before leaving)
+     1. Be helpful to others - this is a team effort!
+     2. Carry out your lab tasks in a timely manner.
+     3. Follow all rules for ordering and inventorying items.
+     4. Keep your items confined to assigned bench, freezer, and fridge spaces. Use your own pipettes, tips, and gloves (except where designated).
+     5. Do not borrow things without asking.
+     6. Clean up after yourselves and put things back in assigned locations.
+     7. Be here during normal work hours so that you can maximize interactions
+     8. Follow all rules when interacting with other spaces (e.g., the insectary) or core facilities
+     9. Plan the use of parasites in advance (many weeks)
+     10. Make sure the lab is properly shut down and communicate before leaving
 
 **Lab dress code:** For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   
 
@@ -107,9 +105,14 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
     Rm 229D: microinjection room
     Third floor: offices, gel imaging station, insectary
 
-* **Operations:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor. Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
+* **Space Assignments:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
 
-* **Physical storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
+* **Storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
+
+### D. Lab Operations and Waste Management
+
+Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
+
 
 ## VI. Lab Stocks
 
