@@ -9,7 +9,7 @@ The central ambition of our laboratory is to combine molecular biology, genetics
 
 We look to recruit individuals who share our curiosity and who wish to challenge themselves as they grow their scientific independence. We welcome students and trainees from a variety of backgrounds and with different career ambitions. I take my role as a mentor and advisor very seriously and it is therefore important to me that all members of the lab: (1) remain excited about the science we do, (2) challenge themselves to improve their base of knowledge and technical skills, and (3) engage in meaningful self-reflection about their progress and goals.
 
-**Axioms:** Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
+Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
 
 - **Axiom 1.** Scientific “talent” is distributed equally among different groups, irrespective of geographic, demographic, and economic boundaries.
 
@@ -21,23 +21,23 @@ We look to recruit individuals who share our curiosity and who wish to challenge
 
 ### C. Mentorship
 
-We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language (e.g., R or Python) useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those that are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
+We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language (e.g., R or Python) useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those who are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
 
 
 ### D. Lab Citizenship
 
 My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.
 
-  1. Be helpful to others - this is a team effort!
-  2. Carry out your lab tasks in a timely manner.
-  3. Follow all rules for ordering and inventorying items.
-  4. Keep your items confined to assigned bench, freezer, and fridge spaces. Use your own pipettes, tips, and gloves (except where designated).
-  5. Do not borrow things without asking.
-  6. Clean up after yourselves and put things back in assigned locations.
-  7. Be here during normal work hours so that you can maximize interactions
-  8. Follow all rules when interacting with other spaces (e.g., the insectary) or core facilities
-  9. Plan the use of parasites in advance (many weeks)
-  10. Make sure the lab is properly shut down and communicate before leaving
+    1. Be helpful to others - this is a team effort!
+    2. Carry out your lab tasks in a timely manner.
+    3. Follow rules for ordering and inventorying items.
+    4. Keep your items confined to assigned spaces.
+    5. Do not borrow things without asking.
+    6. Clean up after yourselves and put things back in assigned locations.
+    7. Be here during normal work hours so that you can maximize interactions
+    8. Follow all rules when using facilities or resources outside of our lab.
+    9. Plan the use of parasites many weeks in advance.
+    10. Make sure the lab is properly shut down and communicate before leaving.
 
 *Lab dress code:* For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   
 
@@ -45,7 +45,7 @@ My commitment to your success in research and professional growth is coupled to 
 
 ### A. Slack
 
-All members of the lab will be asked to install [Slack](<http://www.slack.com>) on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<http://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
+All members of the lab will be asked to install **[Slack](<http://www.slack.com>)** on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<http://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
 
 ### B. Google Calendar
 
@@ -59,11 +59,11 @@ All members of the lab should still record the details of their daily research a
 
 ### B. Electronic Lab Notebooks
 
-The laboratory uses [Benchling](<http://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
+The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the [Box Drive](<http://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
+All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
@@ -79,35 +79,28 @@ Lab meetings will be held once a week. Every member of the lab should have an up
 
 I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. Each trainee and I will share a **Google Doc** to keep track of weekly and long-term goals. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
 
-
 ## IV. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md).
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: **[Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md)** and **[Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md)**.
 
 
 ## V. General Lab Organization
 
 ### A. Lab Inventory
 
-The locations of **all reagents and consumables** will be stored on **[Quartzy](<http://www.quartzy.com>)**. Lab members will be expected to return **ALL** items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
+The locations of **all reagents and consumables** will be stored on **[Quartzy](<http://www.quartzy.com>)**. Lab members will be expected to return ALL items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW **[MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>)** system or lab purchasing card. **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy.**
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW **[MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>)** system or lab purchasing card (P-card). **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy.**
 
-* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
+**P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
 
 ### C. Physical Organization
 
-    Rm 235: consumables storage, 4C plate/media storage, liquid N2 stocks
-    Rm 223: parasite and cell culture, plate pouring, glassware, and cleaning
-    Rm 230: molecular biology main lab
-    Rm 229D: microinjection room
-    Third floor: offices, gel imaging station, insectary
+**Space Assignments:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
 
-* **Space Assignments:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
-
-* **Storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
+**Storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
 ### D. Lab Operations and Waste Management
 
@@ -120,7 +113,7 @@ Locations and descriptions of all lab worm strains, plasmids, bacteria, and olig
 
 ### A. Oligo Stocks
 
-Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (**Species**, **Oligo Pairing**, **Molecular Target**, **Amplicon Length**, and **Tm**) within the spreadsheet order form. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
+Use ``IDT_oligos.xls`` in ``/LabOrdering/Oligos/`` to enter oligo details for ordering. Check Quartzy to ensure you are using the next oligo number available. Provide complete information (Species, Oligo Pairing, Molecular Target, Amplicon Length, and Tm) within the spreadsheet order form. All oligo types (DNA primers, gRNAs) should be assigned an ID with the same naming convention. Orders will be placed by a designated lab member.
 
 ```
 Oligo Name: oMZ####
@@ -132,7 +125,7 @@ Storage box labels (-20C): "Oligo Stocks #"
     Location
 ```
 
-**Primers:** Make **100 uM** lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
+**Primers:** Make 100 uM lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
 
 ### B. Plasmids (Lab and Commercial)                
 
@@ -305,3 +298,19 @@ All lab members must take the appropriate safety training before starting any la
 **E-mail both the Bartholomay and Zamanian lab** list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.
 
 Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
+
+## X. Lab Onboarding Checklist
+
+1. Fill out room key and building card access form
+2. Office space, bench, and pipette assignment
+3. Electronic accounts (will use UW email)
+  - Quartzy
+  - Benchling
+  - Box
+  - Google Calendar
+  - Google Group (for shared sheets)
+  - Paperpile
+  - GitHub
+  - CHTC
+4. Take Biosafety Training
+5. Provide photo for lab website
