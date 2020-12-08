@@ -69,6 +69,10 @@
 |      | 0.75 of C  | 1.75 mL                    | 0.03 μg/mL              |
 |      | 0.25 of C  | 2.25 mL                    | 0.01 μg/mL              |
 
+
+
 13. Incubate samples at 90°C to 96°C for 10 minutes, **protected from light.**
 
-14.  Cool to room temperature for 20 minutes, **protected from light.**
+14. Cool to room temperature for 20 minutes, **protected from light.**
+
+15. Transfer
