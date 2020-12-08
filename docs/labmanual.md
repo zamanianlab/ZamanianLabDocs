@@ -17,7 +17,7 @@ Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
 
 - **Axiom 3.** Science is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs.
 
-- **Axiom 4.** Every student deserves to be treated with dignity and respect.
+- **Axiom 4.** Everyone deserves to be treated with dignity and respect.
 
 ### C. Mentorship
 
@@ -301,16 +301,16 @@ Example e-mail: *"I will be performing bulk parasite extractions from infected L
 
 ## X. Lab Onboarding Checklist
 
-1. Fill out room key and building card access form
+1. Room key and building card access form
 2. Office space, bench, and pipette assignment
 3. Electronic accounts (will use UW email)
-  - Quartzy
-  - Benchling
-  - Box
-  - Google Calendar
-  - Google Group (for shared sheets)
-  - Paperpile
-  - GitHub
-  - CHTC
-4. Take Biosafety Training
+    - Quartzy
+    - Benchling
+    - Box
+    - Google Calendar
+    - Google Group (for shared sheets)
+    - Paperpile
+    - GitHub
+    - CHTC
+4. Biosafety Training
 5. Provide photo for lab website
