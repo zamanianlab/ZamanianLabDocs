@@ -28,24 +28,24 @@ We will hold weekly lab meetings as a springboard for open and critical scientif
 
 My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.
 
-     1. Be helpful to others - this is a team effort!
-     2. Carry out your lab tasks in a timely manner.
-     3. Follow all rules for ordering and inventorying items.
-     4. Keep your items confined to assigned bench, freezer, and fridge spaces. Use your own pipettes, tips, and gloves (except where designated).
-     5. Do not borrow things without asking.
-     6. Clean up after yourselves and put things back in assigned locations.
-     7. Be here during normal work hours so that you can maximize interactions
-     8. Follow all rules when interacting with other spaces (e.g., the insectary) or core facilities
-     9. Plan the use of parasites in advance (many weeks)
-     10. Make sure the lab is properly shut down and communicate before leaving
+  1. Be helpful to others - this is a team effort!
+  2. Carry out your lab tasks in a timely manner.
+  3. Follow all rules for ordering and inventorying items.
+  4. Keep your items confined to assigned bench, freezer, and fridge spaces. Use your own pipettes, tips, and gloves (except where designated).
+  5. Do not borrow things without asking.
+  6. Clean up after yourselves and put things back in assigned locations.
+  7. Be here during normal work hours so that you can maximize interactions
+  8. Follow all rules when interacting with other spaces (e.g., the insectary) or core facilities
+  9. Plan the use of parasites in advance (many weeks)
+  10. Make sure the lab is properly shut down and communicate before leaving
 
-**Lab dress code:** For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   
+*Lab dress code:* For your safety, wear long pants or skirts and closed toed shoes, and tie back long hair. Do not wear shorts, short skirts, sandals, loose clothing, or dangling jewelry. Throughout your scientific career, you will be professionally interacting with people from diverse backgrounds and with diverse beliefs. In the interests of maintaining an inclusive and welcoming lab environment, I ask that you refrain from wearing articles of clothing that are likely to be perceived as hostile to another person’s heritage, ethnicity, gender, religious beliefs, or sexuality.   
 
 ## II. Communication and Calendar
 
 ### A. Slack
 
-All members of the lab will be asked to install **[Slack](<http://www.slack.com>)** on their computers and phones and will receive an invitation to join the official lab Slack team **[zamanian-lab.slack.com](<http://zamanian-lab.slack.com>)**. Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
+All members of the lab will be asked to install [Slack](<http://www.slack.com>) on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<http://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
 
 ### B. Google Calendar
 
@@ -59,11 +59,11 @@ All members of the lab should still record the details of their daily research a
 
 ### B. Electronic Lab Notebooks
 
-The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
+The laboratory uses [Benchling](<http://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
+All grad students and postdocs should install the [Box Drive](<http://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
@@ -82,7 +82,7 @@ I will hold weekly one-on-meetings with every graduate student and postdoc, exce
 
 ## IV. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: **[Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md)** and **[Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md)**.
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md).
 
 
 ## V. General Lab Organization
