@@ -15,7 +15,7 @@
       
         <meta name="author" content="Zamanian Lab">
       
-      <link rel="shortcut icon" href="../fontawesome/brands/twitter">
+      <link rel="shortcut icon" href="..">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
     
     
@@ -41,6 +41,8 @@
       
     
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     
       
@@ -607,7 +609,7 @@
 <li>Typical nodes: 20 cores, 128 GB RAM</li>
 <li><a href="http://chtc.cs.wisc.edu/high-memory-jobs.shtml">High-memory nodes</a>: e.g., 80 cores, 4 TB RAM</li>
 <li>Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD<br />
-    [ Maximum request on lab node: CPU = 80; Memory = 500GB, Disk =  3500GB ]</li>
+<em>Maximum request on lab node: CPU = 80; Memory = 500GB, Disk =  3500GB</em></li>
 </ul>
 </li>
 <li>
@@ -617,7 +619,7 @@
 </li>
 <li>
 <p>File system</p>
-<p>The CHTC does not use a shared file system, but you can request the storage you need for any given job. Each net-id (and our lab as a whole) will is associated with a <code>home</code> folder, where we manage job submission scripts. Our lab also has a shared <code>staging</code> folder, for transfer of large files in and out of the CHTC system.</p>
+<p>The CHTC does not use a shared file system, but you can request the storage you need for any given job. Each net-id (and our lab as a whole) is associated with a <code>home</code> folder, where we manage job submission scripts. Our lab also has a shared <code>staging</code> folder, for transfer of large files in and out of the CHTC system.</p>
 <div class="highlight"><pre><span></span><code>/
 ├── home/{net-id}/                    [quota: 20 GB, submit script dir]
 └── staging/groups/zamanian_group/    [quota: 1 TB | 100 files]
@@ -631,7 +633,7 @@
 <ol>
 <li>
 <p>Staging input data for processing</p>
-<p>In almost all cases, you will be <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">directly transferring</a> your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.</p>
+<p>In almost all cases, you will <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">directly transfer</a> your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.</p>
 <p><details>
 <summary> ResearchDrive -&gt; CHTC transfer of unarchived folder (archived on arrival)</summary>
 <div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
@@ -645,14 +647,12 @@ smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;UWBC
 smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/raw&quot;</span> -Tc <span class="m">20201119</span>-p01-MZ_200.tar <span class="s2">&quot;20201119-p01-MZ_200&quot;</span>
 </code></pre></div>
 </details></p>
-<p>Rarely, you may have to transfer data from other sources (not ResearchDrive) to CHTC staging input. You can run simple transfer commands from your computer:</p>
+<p>Rarely, you may have to transfer data from other sources to CHTC staging input. You can run simple transfer commands from your computer:</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/</code></p>
 </li>
 <li>
 <p>Creating job submit scripts</p>
-<p>CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined <a href="https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq">Docker environment</a> and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).</p>
-<p>Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of <code>home</code>. Avoid transferring large files in/out of <code>home</code>! We transfer in our large data through <code>/staging/groups/zamanian_group/input/</code> and we move job output files to <code>/staging/groups/zamanian_group/output/</code> within the job executable script to avoid their transfer to <code>home</code> upon job completion. The only files that should be transferred back to <code>home</code> are small log files.</p>
-</details>
+<p>CHTC uses HTCondor for job scheduling. Submission files should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined <a href="https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq">Docker environment</a> and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location). Other options define log files, resource requirements , and transfer of files in/out of <code>home</code>. Avoid transferring large files in/out of <code>home</code>! We transfer in our large data through <code>/staging/groups/zamanian_group/input/</code> and we move job output files to <code>/staging/groups/zamanian_group/output/</code> within the job executable script to avoid their transfer to <code>home</code> upon job completion. The only files that should be transferred back to <code>home</code> are small log files.</p>
 <p>The submit script runs the annotated bash script below on the execute server. This pipeline creates <code>input</code>, <code>work</code>, and <code>output</code> dirs in the loaded Docker environment. It transfers the input data from <code>staging</code> into <code>input</code>, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses <code>work</code> for intermediary processing and spits out any files we have marked for retention into <code>output</code>, which gets transferred back to <code>staging</code>. <code>input</code> and <code>work</code> are deleted before job completion.</p>
 <p><details>
 <summary> Example CHTC job submission scripts (.sub / .sh)</summary></p>
@@ -875,7 +875,7 @@ RUN \
 &amp;&amp; conda clean -a
 </code></pre></div>
 </details></p>
-<p>yml file containing <code>conda</code> packages to be installed. You can search for packages on <a href="https://anaconda.org/">Anaconda cloud</a>.</p>
+<p>The following yml file lists <code>conda</code> packages to be installed. You can search for packages on <a href="https://anaconda.org/">Anaconda cloud</a>.</p>
 <p><details>
   <summary>conda_env.yml (Click to Expand)</summary>
   <div class="highlight"><pre><span></span><code>conda_env.yaml
@@ -915,14 +915,14 @@ RUN \
 </li>
 <li>
 <p>Build Docker image</p>
-<div class="highlight"><pre><span></span><code>cd [/path/to/Dockerfile]
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span> <span class="o">[</span>/path/to/Dockerfile<span class="o">]</span>
 docker build -t zamanianlab/chtc-rnaseq .
 </code></pre></div>
 </li>
 <li>
 <p>Test Docker image interactively</p>
-<div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
-ctrl+D to exit
+<div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq /bin/bash
+ctrl+D to <span class="nb">exit</span>
 </code></pre></div>
 </li>
 <li>
@@ -931,17 +931,17 @@ ctrl+D to exit
 </code></pre></div>
 <p><details>
   <summary>Some useful Docker commands (Click to Expand)</summary>
-    <div class="highlight"><pre><span></span><code># list docker images
-  docker image ls (= docker images)
+    <div class="highlight"><pre><span></span><code><span class="c1"># list docker images</span>
+  docker image ls <span class="o">(=</span> docker images<span class="o">)</span>
 
-# remove images
-  docker rmi [image]
+<span class="c1"># remove images</span>
+  docker rmi <span class="o">[</span>image<span class="o">]</span>
 
-## remove all docker containers
-# run first because images are attached to containers
-  docker rm -f $(docker ps -a -q)
-# remove every Docker image
-  docker rmi -f $(docker images -q)
+<span class="c1">## remove all docker containers</span>
+<span class="c1"># run first because images are attached to containers</span>
+  docker rm -f <span class="k">$(</span>docker ps -a -q<span class="k">)</span>
+<span class="c1"># remove every Docker image</span>
+  docker rmi -f <span class="k">$(</span>docker images -q<span class="k">)</span>
 </code></pre></div>
 </details></p>
 </li>
@@ -950,13 +950,11 @@ ctrl+D to exit
 <p>Before deploying a new pipeline on large datasets, test the pipeline using subsampled data. You can test locally with subsampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.</p>
 <ol>
 <li>
-<p>First, subsample your data into a more manageable size:</p>
-<div class="highlight"><pre><span></span><code>...
-</code></pre></div>
+<p>First, subsample your data into a more manageable size and store it in the staging <code>subsampled</code> folder.</p>
 </li>
 <li>
 <p>Run Docker container locally</p>
-<div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
+<div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
 </code></pre></div>
 </li>
 <li>
