@@ -42,6 +42,8 @@
     
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     
       
     
@@ -625,6 +627,7 @@
     └── output/                       [output dir: processed job outputs]
     └── WBP.tar.gz                    [permanent storage of WBP data]
 </code></pre></div>
+
 </li>
 </ol>
 <h3 id="deploying-pipelines">Deploying Pipelines</h3>
@@ -653,6 +656,7 @@ smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;Imag
 <p>CHTC uses HTCondor for job scheduling. Submission files (.sub) should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined <a href="https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq">Docker environment</a> and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location).</p>
 <p>Other options define standard log files, resource requirements (cpu, memory, and hard disk), and transfer of files in/out of <code>home</code>. Avoid transferring large files in/out of <code>home</code>! We transfer in our large data through <code>/staging/groups/zamanian_group/input/</code> and we move job output files to <code>/staging/groups/zamanian_group/output/</code> within the job executable script to avoid their transfer to <code>home</code> upon job completion. The only files that should be transferred back to <code>home</code> are small log files.</p>
 </details>
+
 <p>The submit script runs the annotated bash script below on the execute server. This pipeline creates <code>input</code>, <code>work</code>, and <code>output</code> dirs in the loaded Docker environment. It transfers the input data from <code>staging</code> into <code>input</code>, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses <code>work</code> for intermediary processing and spits out any files we have marked for retention into <code>output</code>, which gets transferred back to <code>staging</code>. <code>input</code> and <code>work</code> are deleted before job completion.</p>
 <p><details>
 <summary> Example CHTC job submission scripts (.sub / .sh)</summary></p>
@@ -726,6 +730,7 @@ queue 1
 ### END
 </code></pre></div>
 </td></tr></table>
+
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Core_RNAseq-nf.sh</label><div class="tabbed-content">
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
@@ -797,9 +802,11 @@ rm -f /staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
 mv output/<span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
 </code></pre></div>
 </td></tr></table>
+
 </div>
 </div>
 </details>
+
 </li>
 <li>
 <p>Submitting and managing jobs</p>
@@ -918,17 +925,20 @@ RUN \
 <div class="highlight"><pre><span></span><code>cd [/path/to/Dockerfile]
 docker build -t zamanianlab/chtc-rnaseq .
 </code></pre></div>
+
 </li>
 <li>
 <p>Test Docker image interactively</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
 ctrl+D to exit
 </code></pre></div>
+
 </li>
 <li>
 <p>Push Docker image to Docker Hub</p>
 <div class="highlight"><pre><span></span><code>docker push zamanianlab/chtc-rnaseq
 </code></pre></div>
+
 <p><details>
   <summary>Some useful Docker commands (Click to Expand)</summary>
     <div class="highlight"><pre><span></span><code># list docker images
@@ -953,11 +963,13 @@ ctrl+D to exit
 <p>First, subsample your data into a more manageable size:</p>
 <div class="highlight"><pre><span></span><code>...
 </code></pre></div>
+
 </li>
 <li>
 <p>Run Docker container locally</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
 </code></pre></div>
+
 </li>
 <li>
 <p>Simulate the steps in your submit scripts</p>
