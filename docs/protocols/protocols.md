@@ -1,4 +1,4 @@
-# Zamanian Lab Protocols
+# Lab Protocols
 
 ## Lab Tasks
 

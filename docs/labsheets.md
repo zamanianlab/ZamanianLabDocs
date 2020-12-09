@@ -1,4 +1,4 @@
-# Zamanian Lab Spreadsheets
+# Lab Spreadsheets
 
 Google spreadsheets for internal lab use:
 

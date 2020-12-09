@@ -288,14 +288,14 @@ All lab members must take the appropriate safety training before starting any la
 - Animal-related training for IACUC-approved work
 
     - "Animal User Orientation" ([RARC](<https://www.rarc.wisc.edu/services/training/getting_started.html>))
-    - "Safety for Personnel with Animal Contact" ([EHS](<https://ehs.wisc.edu/animal-safety-training/>))
+    - "Safety for Personnel with Animal Contact" ([EHS](<https://ehs.wisc.edu/training/safety-for-personnel-with-animal-contact/>))
     - "Animal Contact Risk Questionnaire (ACRQ)" ([UHS](<https://www.uhs.wisc.edu/eoh/animal-contact/>))
     - Additional 1-in-1 Training Offered through RARC (e.g., Mouse Training)
 
 - For work with human cell lines and potentially infectious materials
     - "Biosafety 102: Bloodborne Pathogens for Laboratory and Research" ([EHS](<https://ehs.wisc.edu/biosafety-training/>))
 
-**E-mail both the Bartholomay and Zamanian lab** list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.
+*E-mail both the Bartholomay and Zamanian lab* list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.
 
 Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
 
