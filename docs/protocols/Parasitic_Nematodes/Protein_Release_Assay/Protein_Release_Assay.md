@@ -37,42 +37,74 @@
 
 5. Transfer the flow-through to a 3K filter plate on top of a **used** deep well plate (i.e., the original plate from which the flow-through was taken).
 
-6. Centrifuge at 1500 x *g* for 45 min.
+6. Centrifuge at 3000 x *g* for 45 min.
 
 7. Add 500 μL PBS to each well.
 
-8. Centrifuge at 1500 x *g* for 45 min.
+8. Centrifuge at 3000 x *g* for 45 min.
 
-9. Use a p20 pipette to check multiple wells to ensure <10 μL remains in each well. If more than 10 μL remains, perform an additional 20-40 min. spin.
+9. Use a p20 pipette to check multiple wells to ensure <20 μL remains in each well. If more than 10 μL remains, perform an additional 20-40 min. spin. If the liquid continues to have a pink tint, repeat the PBS wash.
 
 ### Protein quantitation
 
-10. Dilute the NanoOrange protein quantitation diluent 10-fold in distilled water.
+10. Thaw the NanoOrange protein quantitation reagent at room temperature and prepare the working solution. Wrap the tubes of working solution with foil.
 
-11. Thaw the NanoOrange protein quantitation reagent at room temperature; dilute 500-fold in diluent from step 10 to create the working solution.
+    - For a single 96-well plate, prepare 20 mL of the working solution by combining 1.996 mL diluent, 17.964 mL of Milli-Q water, and 40 μL of NanoOrange reagent.
 
-    - For example, to prepare 50 mL of 1X NanoOrange® working solution (enough for 20 assays), first pre pare the 1X diluent by mixing 5 mL of the 10X diluent stock with 45 mL of distilled water; next add 100 µL of the NanoOrange® reagent and mix thoroughly. Protect the 1X NanoOrange working solution from light to prevent photodegradation of the NanoOrange dye. For best results, use the working solution within a few hours of its preparation.
+    - For 4 technical replicates of the standard curve, prepare 12 mL of the working solution by combining 1.198 mL diluent, 10.778 mL Milli-Q water, and 24 μL of NanoOrange reagent.
 
-12. Create a standard curve by performing the following dilutions:
+11. Create the standard curve by first preparing a 10 μg/mL stock by diluting 5 μL of the 2 mg/mL stock in 995 μL working solution. Then perform the following dilutions:
 
-| Tube | Volume BSA | Volume 1X Working Solution | Final BSA Concentration |
-|------|------------|----------------------------|-------------------------|
-|      | 0 mL       | 2.5 mL                     | 0 μg/mL                 |
-| A    | 2.5        | 0 mL                       | 10 μg/mL                |
-|      | 1.5 of A   | 1 mL                       | 6 μg/mL                 |
-|      | 0.75 of A  | 1.75 mL                    | 3 μg/mL                 |
-| B    | 0.25 of A  | 2.25 mL                    | 1 μg/mL                 |
-|      | 1.5 of B   | 1 mL                       | 0.6 μg/mL               |
-|      | 0.75 of B  | 1.75 mL                    | 0.3 μg/mL               |
-| C    | 0.25 of B  | 2.25 mL                    | 0.1 μg/mL               |
-|      | 1.50 of C  | 1 mL                       | 0.06 μg/mL              |
-|      | 0.75 of C  | 1.75 mL                    | 0.03 μg/mL              |
-|      | 0.25 of C  | 2.25 mL                    | 0.01 μg/mL              |
+| BSA Volume    | Working Solution Volume    | Final BSA Concentration |
+|---------------|----------------------------|-------------------------|
+| 2000 μL       | 0 μL                       | 10 μg/mL                |
+| 600 μL of 10  | 400 μL                     | 6 μg/mL                 |
+| 300 μL of 10  | 700 μL                     | 3 μg/mL                 |
+| 100 μL of 10  | 900 μL                     | 1 μg/mL                 |
+| 60 μL of 10   | 940 μL                     | 0.6 μg/mL               |
+| 30 μL of 10   | 970 μL                     | 0.3 μg/mL               |
+| 10 μL of 10   | 990 μL                     | 0.1 μg/mL               |
+| 60 μL of 1    | 940 μL                     | 0.06 μg/mL              |
+| 30 μL of 1    | 970 μL                     | 0.03 μg/mL              |
+| 10 μL of 1    | 970 μL                     | 0.01 μg/mL              |
+| 0 μL          | 1000 μL                    | 0 μg/mL                 |
 
+    - **Note:** the working solution is very sensitive to light, so working in the dark is optimal, and standard curve stocks should be protected from the light.
 
+12. Using a multichannel pipette, add 200 μL of the working solution to each well of the 3K filter plate. Gently pipette up and down, and transfer to a 96-well PCR plate. Wrap the plate in foil when complete.
 
-13. Incubate samples at 90°C to 96°C for 10 minutes, **protected from light.**
+13. Place the PCR plate on a thermocycler and incubate at 95°C for 10 min.
 
-14. Cool to room temperature for 20 minutes, **protected from light.**
+14. While incubating, prepare the SpectraMax i3X.
 
-15. Transfer
+    a. Turn on the instrument on the back of the machine.
+
+    b. After the instrument has booted, start the SoftMax Pro software.
+
+    c. Click the plate icon at the top left > Open. Navigate to `Desktop/Custom_Protocols` and open the NW_NanoOrange protocol.
+
+    d. In the Document tab on the left side of the screen, click New Plate to add as many additional plates as necessary.
+
+    e. For each plate, click the plate name on the left, click the template editor icon, and add the unknown samples and/or standards in the proper wells (don't bother filling in sample names for the unknowns).
+
+    f. For the standards, include the proper Standard Value and include all replicates. Set the 0 μg/mL standards as Plate Blanks.
+
+14. Cool the plate at room temperature in the dark for 20 min.
+
+15. Use a multichannel pipette to transfer 180 μL from the PCR plate to a black microplate. Protect from light.
+
+16. Eject the plate stage by pressing the eject icon on the i3X touchscreen. Insert the plate and press the button to load the plate.
+
+17. In SpectraMax, click the green arrowhead icon to run the plate.
+
+18. Examine the standard curve to ensure the assay ran properly. This assay is sensitive from 300 ng/mL to 10 μg/mL in our hands.
+
+19. Export the data by clicking the plate icon on the top left of the screen, Export, Export to XML XLS TXT.
+
+    a. Select a single plate, Raw, and Plate format; click OK.
+
+    b. Navigate to `Desktop/Data/`, create a folder for the date, and name the file in YEARMTDY-p##-INI format (i.e., 20201209-p01-NJW)
+
+20. Save the raw data by clicking the plate icon at the top left of the screen, Save As.
+
+    a. Navigate to the date folder created above. Name the file with the date, and save as a Data Files (*.sda) type.
