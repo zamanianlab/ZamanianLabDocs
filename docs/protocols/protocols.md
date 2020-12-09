@@ -46,6 +46,7 @@
 
 - [*in squito* RNAi](Parasitic_Nematodes/in_squito_RNAi/in_squito_RNAi.md)
 
+
 ## Parasitic Nematodes
 
 - [Parasite Culture](Parasitic_Nematodes/General_Parasite_Culture/General_Parasite_Culture.md)
@@ -65,6 +66,8 @@
 - [Exosome Isolation](Parasitic_Nematodes/Exosome_Isolation/Exosome_Isolation.md)
 
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
+
+- [Protein Release Assay](Parasitic_Nematodes/Protein_Release_Assay/Protein_Release_Assay)
 
 
 ## *Caenorhabditis elegans*
