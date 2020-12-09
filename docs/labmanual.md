@@ -26,7 +26,7 @@ We will hold weekly lab meetings as a springboard for open and critical scientif
 
 ### D. Lab Citizenship
 
-My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment. We expect all members of the lab to be good lab citizens and to follow basic lab rules.
+My commitment to your success in research and professional growth is coupled to certain expectations. I expect all members of the lab to take ownership of their projects. I expect members of the lab to lend their help and expertise to one another and understand that our laboratory is a team with common scientific goals. I expect everyone to display good lab citizenship. We place value in an open, collaborative, and safe scientific environment.
 
     1. Be helpful to others - this is a team effort!
     2. Carry out your lab tasks in a timely manner.
@@ -49,13 +49,13 @@ All members of the lab will be asked to install [Slack](<http://www.slack.com>) 
 
 ### B. Google Calendar
 
-An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar.
+An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar.
 
 ## III. Research Documentation
 
 ### A. Physical Lab Notebooks
 
-All members of the lab should still record the details of their daily research activities in the form of a traditional lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks cannot leave the laboratory and must be turned in at the conclusion of your tenure in the lab.
+All members of the lab should record the details of their daily research activities in the form of a traditional lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks cannot leave the laboratory and must be turned in at the conclusion of your tenure in the lab.
 
 ### B. Electronic Lab Notebooks
 
@@ -63,13 +63,12 @@ The laboratory uses [Benchling](<http://www.benchling.com>) as a shared electron
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the [Box Drive](<http://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
+All grad students and postdocs should install the [Box Drive](<http://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below. The uses of other Box folders are described in subsequent sections.
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
 - ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
 
-The uses of other Box folders are described in subsequent sections.
 
 ## IV. Meetings
 
@@ -102,7 +101,7 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
 
 - **Storage**: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
-## VI. Waste Management
+## VII. Waste Management
 
 1. **Autoclave bag trash:** Remove bag, twist top, and bend over and wrap clear packing tape around the top to seal. The bags go in the MERI bins in the loading dock. Replace autoclave bag with new bag labeled ZAMANIAN LAB.
 
@@ -134,7 +133,7 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
 
 
 
-## VII. Lab Stocks
+## VIII. Lab Stocks
 
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
@@ -236,7 +235,7 @@ Tube Counts: Variable
     Date Frozen
 ```
 
-## VIII. *Caenorhabditis elegans* Strains
+## IX. *Caenorhabditis elegans* Strains
 
 ### A. Strain Creation
 
@@ -263,7 +262,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 
 Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. *Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!* Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
 
-## IX. Parasite and Insectary Operations
+## X. Parasite and Insectary Operations
 
 ### A. Parasite Schedule
 
@@ -301,12 +300,12 @@ Mosquito Carton Labels
   Extraction Date:
 ```
 
-## X. Writing and Reference Management
+## XI. Writing and Reference Management
 
 To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
 
 
-## XI. Lab Safety
+## XII. Lab Safety
 
 All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
 
@@ -330,11 +329,12 @@ All lab members must take the appropriate safety training before starting any la
 
     Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
 
-## XII. Lab Onboarding Checklist
+## XIII. Lab Onboarding Checklist
 
 1. Room key and building card access form
 2. Office space, bench, and pipette assignment
-3. Electronic accounts (will use UW email)
+3. Computer assignment and environment setup
+4. Electronic accounts (will use UW email)
     - Quartzy
     - Benchling
     - Box
@@ -344,5 +344,5 @@ All lab members must take the appropriate safety training before starting any la
     - GitHub
     - CHTC
     - DockerHub
-4. Biosafety Training
-5. Provide photo for lab website
+5. Biosafety Training
+6. Provide photo for lab website
