@@ -67,7 +67,7 @@
 
 - [Chemotaxis Assay](Parasitic_Nematodes/Chemotaxis_Assay/Chemotaxis_Assay.md)
 
-- [Protein Release Assay](Parasitic_Nematodes/Protein_Release_Assay/Protein_Release_Assay)
+- [Protein Release Assay](Parasitic_Nematodes/Protein_Release_Assay/Protein_Release_Assay.md)
 
 
 ## *Caenorhabditis elegans*
