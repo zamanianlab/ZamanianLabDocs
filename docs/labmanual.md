@@ -45,13 +45,13 @@ My commitment to your success in research and professional growth is coupled to 
 
 ### A. Slack
 
-All members of the lab will be asked to install **[Slack](<http://www.slack.com>)** on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<http://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
+All members of the lab will be asked to install [Slack](<http://www.slack.com>) on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<http://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
 
 ### B. Google Calendar
 
 An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar.
 
-## III. Research Documentation and Meetings
+## III. Research Documentation
 
 ### A. Physical Lab Notebooks
 
@@ -59,11 +59,11 @@ All members of the lab should still record the details of their daily research a
 
 ### B. Electronic Lab Notebooks
 
-The laboratory uses **[Benchling](<http://www.benchling.com>)** as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
+The laboratory uses [Benchling](<http://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the **[Box Drive](<http://www.box.com>)** application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. **DO NOT** delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
+All grad students and postdocs should install the [Box Drive](<http://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below:
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
@@ -71,43 +71,70 @@ All grad students and postdocs should install the **[Box Drive](<http://www.box.
 
 The uses of other Box folders are described in subsequent sections.
 
-### D. Lab Meetings
+## IV. Meetings
+
+### A. Lab Meetings
 
 Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` subfolder. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. You should be prepared to present your progress in this short format every week when called upon. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
 
-### E. One-on-One Meetings
+### B. One-on-One Meetings
 
 I will hold weekly one-on-meetings with every graduate student and postdoc, except when I'm traveling or have other commitments that I cannot sideline. You should come prepared with organized summaries of the status of your project(s), to share data you’ve produced, and to outline your next set of planned experiments. Each trainee and I will share a **Google Doc** to keep track of weekly and long-term goals. We will use this time to troubleshoot and constructively dissect these data and plans. This is also an opportunity for us to discuss general issues and your career development goals.
 
-## IV. Lab Tasks
+## V. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: **[Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md)** and **[Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md)**.
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md).
 
 
-## V. General Lab Organization
+## VI. Lab Inventory and Organization
 
 ### A. Lab Inventory
 
-The locations of **all reagents and consumables** will be stored on **[Quartzy](<http://www.quartzy.com>)**. Lab members will be expected to return ALL items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
+The locations of *all reagents and consumables* will be stored on [Quartzy](<http://www.quartzy.com>). Lab members will be expected to return ALL items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW **[MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>)** system or lab purchasing card (P-card). **It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.** Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. **When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy.**
-
-**P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW [MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
 
 ### C. Physical Organization
 
-**Space Assignments:** Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
+- **Space Assignments**: Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
 
-**Storage:** Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
+- **Storage**: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
-### D. Lab Operations and Waste Management
+## VI. Waste Management
 
-Place dirty glassware in assigned sink locations (Rms 223 and 230). Place empty pipette boxes in assigned sink location (Rm 230). Place worm boxes for baking in assigned location (Rm 223). Empty shipping boxes should be placed on the ground outside the lab.
+1. **Autoclave bag trash:** Remove bag, twist top, and bend over and wrap clear packing tape around the top to seal. The bags go in the MERI bins in the loading dock. Replace autoclave bag with new bag labeled ZAMANIAN LAB.
+
+2.	**Gloves:** Non-contaminated gloves go in the blue glove recycling buckets. Full buckets can be emptied into box on the loading dock for recycling. We reuse the blue buckets.
+
+3. **Cardboard benchtop tip boxes:** These boxes are designed for pipette tip trash only. When box is full, tape top closed with clear packing tape. Full tip boxes can be placed by either sink in the labs until there is room to add it to a autoclave bag. They cannot go into the MERI bin unless they are in an autoclave bag. New tip trash boxes can be found assembled on a shelf in 230 or unassembled on the bench in the loading dock.
+
+4. **Uncontaminated serological pipette trash boxes:** There is an empty tip box in each lab room for these. When the box is full, tape closed with clear packing tape and place a green OK to trash sticker on it with name and date filled out. These can then go into large trash bin by elevator. Replace with new box.
+
+5. **Regular floor trash bins:** When full, tie off top and place in large trash bin by elevator. Replace with new bag found in drawer S2 in 223 or on bench in the loading dock.
+
+6. **Liquid bacterial, parasite or blood:** Decontaminate with 10% bleach before washing down the drain.
+
+7. **Empty blue pipette tip boxes:** Boxes are placed in autoclave tub in 230 by sink. The clear plastic in the boxes are recyclable and can go in the blue recycling container by elevator. Colored inserts are also recycled through a program with USA Scientific. Empty colored inserts go in empty pipette tip box in 235 for pick up by USA Scientific.
+
+8. **Glass trash:** Glass that cannot be recycled goes in the cardboard box in 223 by fridge/freezer this includes broken glass as well. Small glass slides and capillary tubes can go in red sharps containers. Full cardboard boxes get taped up with clear packing tape and put in hall outside lab doors with OK to trash green sticker filled out on it. Replacement boxes are in 235. Full red sharps containers get capped and can go in or next to MERI bin on loading dock. New red sharps containers are found on loading dock.
+
+9. **Hazardous liquid waste:** There are very specific containers for Halogenated and non-Halogenated hazardous waste. Please see paperwork and containers next to hood in 230. Some Hazardous waste requires a special pick up from Safety. This can be managed through Kathy.
+
+10. **Worm boxes:** Dirty worm boxes are placed in drying oven in autoclave room for a few days. Clean boxes are found on top of shelving unit in picking room in 230. Boxes should be changed out often.
+
+11.	**Dirty Glassware:** Dirty glassware in 230 goes in tub on cart by the sink. Dirty glassware in 223 goes in or next to sink. Glassware is cleaned in the dishwasher in autoclave room on program #4.
+
+12.	**Empty cardboard boxes:** Empty carboard boxes go on top of blue mixed paper bin by the elevator.
+
+13.	**Packing material:** Some packing material can be recycled (look for recycling triangles). Some packing peanuts dissolve in water. All Styrofoam must go in blue bin in the Animal Science loading dock! Some shipping boxes with Styrofoam inserts can be returned to the company. Fill out flap on box top and place on table behind mailboxes with note for US Mail pickup.
+
+14.	**Empty parasite boxes from UGA FR3:** These need to be sent back via Federal Express ground shipping to address on paper in box.
 
 
-## VI. Lab Stocks
+
+## VII. Lab Stocks
 
 Locations and descriptions of all lab worm strains, plasmids, bacteria, and oligos should be stored and updated on Quartzy and in defined spreadsheets where specified. The following protocols and naming conventions must be followed, and lab members are responsible for checking the lab database to avoid naming conflicts prior to placing any new orders and assigning new names. Bacteria, worm strains, and plasmids procured from external sources and with existing names should retain those names.
 
@@ -125,7 +152,7 @@ Storage box labels (-20C): "Oligo Stocks #"
     Location
 ```
 
-**Primers:** Make 100 uM lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
+- *Primers note:* Make 100 uM lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
 
 ### B. Plasmids (Lab and Commercial)                
 
@@ -149,7 +176,9 @@ Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
     Use (e.g., "gene X RNAi" or "C. elegans transgene")
 ```
 
-Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed. **Plasmids note:** All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
+Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
+
+- *Plasmids note:* All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
 
 ### C. Transformed Bacteria
 
@@ -173,7 +202,7 @@ Tube Counts: 2 copies (-80C) + 1 copy (N2)
 
 ### D. Feeding (*C. elegans*) Bacteria
 
-Boxes specific to each bacteria (e.g., OP50, HB101, NA22) used for *C. elegans* feeding should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
+Boxes specific to each bacteria (e.g., OP50, HB101, NA22) used for *C. elegans* feeding should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. *Replace all bacterial stocks before using up the -80C stock.*
 
 ```
 Storage box labels (-80C):
@@ -192,7 +221,7 @@ Tube Counts: Variable
 
 ### E. Competent Bacteria
 
-Boxes specific to each competent bacteria (DH5a, NE5a, JM109) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. **Replace all bacterial stocks before using up the -80C stock.**
+Boxes specific to each competent bacteria (DH5a, NE5a, JM109) should be stored in the designated area of the -80C, noted with how many tubes of each bacteria per box in Quartzy. *Replace all bacterial stocks before using up the -80C stock.*
 
 ```
 Storage box labels (-80C):
@@ -207,7 +236,7 @@ Tube Counts: Variable
     Date Frozen
 ```
 
-## VII. *Caenorhabditis elegans* Strains
+## VIII. *Caenorhabditis elegans* Strains
 
 ### A. Strain Creation
 
@@ -228,21 +257,21 @@ It is your responsibility to monitor injected lines and select for stable lines 
 **Lab strain designation: ZAM#**  
 **Lab allele designation: maz#**
 
-*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the **C. elegans Strain Database** linked in **[Lab Sheets](labsheets.md)**.
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the `C. elegans Strain Database` linked in [Lab Sheets](labsheets.md).
 
 ### C. Strain Maintenance
 
-Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. **Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!** Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
+Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. *Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!* Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
 
-## VIII. Parasite and Insectary Operations
+## IX. Parasite and Insectary Operations
 
-### A. Parasite Delivery Schedule
+### A. Parasite Schedule
 
-We generate parasites through local infections and receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but **you should have a detailed list of future parasite needs on the spreadsheet**. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the #Parasite_Planning Slack channel.
+We generate parasites through local infections and receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the `Parasite Schedule Sheet` linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the `#Parasite_Planning` Slack channel.
 
 ### B. Storage of General Parasite Materials
 
-General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the **Parasite Tissue and Nucleic Acid Inventory** sheet linked in [Lab Sheets](labsheets.md). The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
+General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the `Parasite Tissue and Nucleic Acid Inventory` sheet linked in [Lab Sheets](labsheets.md). The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
 ```
 * Tube Labels (combine the following into a single string)
@@ -257,10 +286,10 @@ General use (non-experimental) parasite materials should be catalogued and store
 
 The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for insectary operations, filarial parasite infection, and L3 isolation can be found on our [Protocols](protocols/protocols.md) page. Mosquito strains available for parasite infection:
 
-- ***Ae. aegypti LVP*** strain: used for *B. malayi* and *B. pahangi* infections
-- ***Ae. aegypti SD*** strain: used for *D. immitis* infections
+- *Ae. aegypti LVP* strain: used for *B. malayi* and *B. pahangi* infections
+- *Ae. aegypti SD* strain: used for *D. immitis* infections
 
-Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the [Insectary Protocol](protocols/Parasitic_Nematodes/Insectary/Insectary.md) and update the **Parasite Schedule Sheet** linked in [Lab Sheets](labsheets.md) to associate parasite batches with mosquito infections
+Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the [Insectary Protocol](protocols/Parasitic_Nematodes/Insectary/Insectary.md) and update the `Parasite Schedule` sheet linked in [Lab Sheets](labsheets.md) to associate parasite batches with mosquito infections
 
 ```
 Mosquito Carton Labels
@@ -272,12 +301,12 @@ Mosquito Carton Labels
   Extraction Date:
 ```
 
-## IX. Writing and Reference Management
+## X. Writing and Reference Management
 
 To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
 
 
-## X. Lab Safety
+## XI. Lab Safety
 
 All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
 
@@ -295,11 +324,13 @@ All lab members must take the appropriate safety training before starting any la
 - For work with human cell lines and potentially infectious materials
     - "Biosafety 102: Bloodborne Pathogens for Laboratory and Research" ([EHS](<https://ehs.wisc.edu/biosafety-training/>))
 
-*E-mail both the Bartholomay and Zamanian lab* list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.
+- BSL-2 work
 
-Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
+    *E-mail both the Bartholomay and Zamanian lab* list-servs (bartlab at lists.wisc.edu and zamanianlab at lists.wisc.edu) in advance of BSL2 work in the insectary space. Put up BSL-2 signs on doors and include location, time, and reminder for PPE.
 
-## XI. Lab Onboarding Checklist
+    Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
+
+## XII. Lab Onboarding Checklist
 
 1. Room key and building card access form
 2. Office space, bench, and pipette assignment
@@ -312,5 +343,6 @@ Example e-mail: *"I will be performing bulk parasite extractions from infected L
     - Paperpile
     - GitHub
     - CHTC
+    - DockerHub
 4. Biosafety Training
 5. Provide photo for lab website
