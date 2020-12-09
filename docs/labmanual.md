@@ -51,7 +51,7 @@ All members of the lab will be asked to install **[Slack](<http://www.slack.com>
 
 An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar.
 
-## III. Research Documentation
+## III. Research Documentation and Meetings
 
 ### A. Physical Lab Notebooks
 
@@ -207,7 +207,7 @@ Tube Counts: Variable
     Date Frozen
 ```
 
-## VI. *Caenorhabditis elegans* Strains
+## VII. *Caenorhabditis elegans* Strains
 
 ### A. Strain Creation
 
@@ -234,7 +234,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 
 Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. **Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!** Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
 
-## VII. Parasite and Insectary Operations
+## VIII. Parasite and Insectary Operations
 
 ### A. Parasite Delivery Schedule
 
@@ -272,12 +272,12 @@ Mosquito Carton Labels
   Extraction Date:
 ```
 
-## VIII. Writing and Reference Management
+## IX. Writing and Reference Management
 
 To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
 
 
-## IX. Lab Safety
+## X. Lab Safety
 
 All lab members must take the appropriate safety training before starting any lab work and to use appropriate PPE at all times. Lab biosafety protocols and procedures will also be provided in binder and electronic form (``/LabSafety/``). In the event of emergencies involving accident or injury, call 911 to be routed to the campus police.
 
@@ -299,7 +299,7 @@ All lab members must take the appropriate safety training before starting any la
 
 Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (27/11/18). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
 
-## X. Lab Onboarding Checklist
+## XI. Lab Onboarding Checklist
 
 1. Room key and building card access form
 2. Office space, bench, and pipette assignment

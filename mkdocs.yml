@@ -16,7 +16,7 @@ theme:
   language: en
   icon:
     logo: material/dna
-  favicon: fontawesome/brands/twitter
+  favicon:
   palette:
     - scheme: default
       primary: blue
@@ -61,7 +61,7 @@ extra_javascript:
   - 'javascripts/extra.js'
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 extra_css:
-  - 'stylesheets/extra.css'
+  - stylesheets/extra.css
 
 nav:
   - Home:                     index.md
