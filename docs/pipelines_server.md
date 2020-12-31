@@ -13,21 +13,18 @@ In general, pipelines will be run in three steps:
 Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://research.cs.wisc.edu/htcondor/) documentation before getting started. Register for an account using this [form](http://chtc.cs.wisc.edu/form.shtml).
 
 
-### Visual Overview of CHTC Pipeline
-
-<img src="/images/chtc_flowchart.png" width="100%">
+<img src="../images/chtc_flowchart.png" width="100%">
 
 
 ### The HTC System
 
-1. Execute (Compute) Nodes
+1. Execute (Compute) nodes
 
     The CHTC has an extensive set of execute nodes. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
 
     - Typical nodes: 20 cores, 128 GB RAM
     - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
     - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD  
-        *Maximum request on lab node: CPU = 80; Memory = 500GB, Disk =  3500GB*
 
 2. Submit nodes
 
@@ -75,11 +72,11 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     <details>
     <summary> ResearchDrive -> CHTC transfer of unarchived metadata folder (archived on arrival)</summary>
     ```bash
-    # Log into transfer server and navigate to staging input dir
+    # Log into transfer server and navigate to staging metadata dir
     ssh {net-id}@transfer.chtc.wisc.edu
     cd /staging/groups/zamanian_group/metadata/
 
-    # Example of transferring ImageXpress meatadata
+    # Example of transferring ImageXpress metadata
     smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpress/metadata" -Tc 20201118-p01-MZ_172.tar "20201118-p01-MZ_172"
 
     ```
