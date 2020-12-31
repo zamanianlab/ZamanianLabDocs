@@ -627,6 +627,7 @@
     └── output/                       [output dir: processed job outputs]
     └── WBP.tar.gz                    [permanent storage of WBP data]
 </code></pre></div>
+
 </li>
 </ol>
 <h3 id="deploying-pipelines">Deploying Pipelines</h3>
@@ -635,7 +636,7 @@
 <p>Staging input data for processing</p>
 <p>In almost all cases, you will <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">directly transfer</a> your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.</p>
 <p><details>
-<summary> ResearchDrive -&gt; CHTC transfer of unarchived folder (archived on arrival)</summary>
+<summary> ResearchDrive -&gt; CHTC transfer of unarchived raw data folder (archived on arrival)</summary>
 <div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
 ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
 <span class="nb">cd</span> /staging/groups/zamanian_group/input/
@@ -644,7 +645,17 @@ ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.ed
 smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;UWBC-Dropbox/Bioinformatics Resource Center&quot;</span> -Tc 201105_AHLVWJDSXY.tar <span class="s2">&quot;201105_AHLVWJDSXY&quot;</span>
 
 <span class="c1"># Example of transferring ImageXpress data</span>
-smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/raw&quot;</span> -Tc <span class="m">20201119</span>-p01-MZ_200.tar <span class="s2">&quot;20201119-p01-MZ_200&quot;</span>
+smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/raw&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172.tar&quot;</span>
+</code></pre></div>
+</details></p>
+<p><details>
+<summary> ResearchDrive -&gt; CHTC transfer of unarchived metadata folder (archived on arrival)</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
+ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
+<span class="nb">cd</span> /staging/groups/zamanian_group/metadata/
+
+<span class="c1"># Example of transferring ImageXpress meatadata</span>
+smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/metadata&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172&quot;</span>
 </code></pre></div>
 </details></p>
 <p>Rarely, you may have to transfer data from other sources to CHTC staging input. You can run simple transfer commands from your computer:</p>
@@ -726,6 +737,7 @@ queue 1
 ### END
 </code></pre></div>
 </td></tr></table>
+
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Core_RNAseq-nf.sh</label><div class="tabbed-content">
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
@@ -797,15 +809,17 @@ rm -f /staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
 mv output/<span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
 </code></pre></div>
 </td></tr></table>
+
 </div>
 </div>
 </details>
+
 </li>
 <li>
 <p>Submitting and managing jobs</p>
 <p>Log into submit node and submit job,</p>
-<p><code>ssh {net-id}@submit2.wisc.edu</code></p>
-<p><code>condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh</code></p>
+<p><code>ssh {net-id}@submit2.chtc.wisc.edu</code></p>
+<p><code>condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh</code>    </p>
 <p><details>
   <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
     <div class="highlight"><pre><span></span><code><span class="c1"># check on job status</span>
@@ -918,17 +932,20 @@ RUN \
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span> <span class="o">[</span>/path/to/Dockerfile<span class="o">]</span>
 docker build -t zamanianlab/chtc-rnaseq .
 </code></pre></div>
+
 </li>
 <li>
 <p>Test Docker image interactively</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq /bin/bash
 ctrl+D to <span class="nb">exit</span>
 </code></pre></div>
+
 </li>
 <li>
 <p>Push Docker image to Docker Hub</p>
 <div class="highlight"><pre><span></span><code>docker push zamanianlab/chtc-rnaseq
 </code></pre></div>
+
 <p><details>
   <summary>Some useful Docker commands (Click to Expand)</summary>
     <div class="highlight"><pre><span></span><code><span class="c1"># list docker images</span>
@@ -956,6 +973,7 @@ ctrl+D to <span class="nb">exit</span>
 <p>Run Docker container locally</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
 </code></pre></div>
+
 </li>
 <li>
 <p>Simulate the steps in your submit scripts</p>

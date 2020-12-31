@@ -559,6 +559,7 @@
 <p>There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes. We recommend you use Miniconda, which can be installed on macOS using the commands below:</p>
 <div class="highlight"><pre><span></span><code>wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
 </code></pre></div>
+
 <p><code>bash ~/miniconda.sh -p $HOME/miniconda3</code></p>
 <p>These commands will download the miniconda installer, run it, and install it to your <code>$HOME</code> folder by following the prompts. It will also add the path <code>$HOME/miniconda3/bin</code> to your lookup <code>$PATH</code>, which allows you to run conda executables without referring explicitly to their location.</p>
 <h2 id="usage-and-an-example">Usage and an Example</h2>
@@ -573,6 +574,7 @@ dev                      /Users/<span class="nv">$username</span>/miniconda3/env
 test_environment         /Users/<span class="nv">$username</span>/miniconda3/envs/test_environment
 tierpsy                  /Users/<span class="nv">$username</span>/miniconda3/envs/tierpsy
 </code></pre></div>
+
 <p>To activate the <code>test_environment</code> that you just created:</p>
 <p><code>source activate test_environment</code></p>
 <p>Now you are in the virtual environment, using Python 3.5 as a default. You can check to make sure this is the case with <code>python --version</code>.</p>
@@ -584,6 +586,7 @@ tierpsy                  /Users/<span class="nv">$username</span>/miniconda3/env
 <p>You should receive a message reporting the successful installation of the package. You can ensure successful installation by running Python with <code>python</code> and then attempting to load the package with <code>&gt;&gt;&gt; import numpy as np</code>. If the package was successfully loaded, you will get no message. If it was unsuccessful, you will see:</p>
 <div class="highlight"><pre><span></span><code> <span class="ne">ModuleNotFoundError</span><span class="p">:</span> <span class="n">No</span> <span class="n">module</span> <span class="n">named</span> <span class="s1">&#39;numpy&#39;</span>
 </code></pre></div>
+
 <p>To demonstrate the utility of the conda virtual environment, first deactivate the <code>test_environment</code> with <code>source deactivate test_environment</code>. Then repeat the commands <code>python</code> and <code>&gt;&gt;&gt; import numpy as np</code>. If done correctly, you will see that numpy isn't available outside of the <code>test_environment</code>. This way you can keep your base environment clean from unnecessary packages, and you can make sure the packages within a given environment aren't updated unless you explicitly make it so.</p>
 <h2 id="zamanian-lab-environments">Zamanian Lab Environments</h2>
 <p>Whenever we begin a new analysis that will include Python scripts, it is the developer's responsibility to build a conda environment that is suitable for those scripts. Instructions for creating this environment should be included in the README file on the main page of the associated GitHub repo.</p>
