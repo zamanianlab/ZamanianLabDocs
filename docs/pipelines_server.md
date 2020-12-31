@@ -49,7 +49,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     In almost all cases, you will [directly transfer](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.
 
     <details>
-    <summary> ResearchDrive -> CHTC transfer of unarchived folder (archived on arrival)</summary>
+    <summary> ResearchDrive -> CHTC transfer of unarchived raw data folder (archived on arrival)</summary>
     ```bash
     # Log into transfer server and navigate to staging input dir
     ssh {net-id}@transfer.chtc.wisc.edu
@@ -59,7 +59,20 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     smbclient -k //research.drive.wisc.edu/mzamanian/ -D "UWBC-Dropbox/Bioinformatics Resource Center" -Tc 201105_AHLVWJDSXY.tar "201105_AHLVWJDSXY"
 
     # Example of transferring ImageXpress data
-    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpress/raw" -Tc 20201119-p01-MZ_200.tar "20201119-p01-MZ_200"
+    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpress/raw" -Tc 20201118-p01-MZ_172.tar "20201118-p01-MZ_172.tar"
+
+    ```
+    </details>
+
+    <details>
+    <summary> ResearchDrive -> CHTC transfer of unarchived metadata folder (archived on arrival)</summary>
+    ```bash
+    # Log into transfer server and navigate to staging input dir
+    ssh {net-id}@transfer.chtc.wisc.edu
+    cd /staging/groups/zamanian_group/metadata/
+
+    # Example of transferring ImageXpress meatadata
+    smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpress/metadata" -Tc 20201118-p01-MZ_172.tar "20201118-p01-MZ_172"
 
     ```
     </details>
@@ -163,10 +176,9 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     Log into submit node and submit job,
 
-    ` ssh {net-id}@submit2.wisc.edu `
+    `ssh {net-id}@submit2.chtc.wisc.edu`
 
-    `condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`
-
+    `condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`    
 
     <details>
       <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
