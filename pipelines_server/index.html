@@ -427,13 +427,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-overview-of-chtc-pipeline" class="md-nav__link">
-    Visual Overview of CHTC Pipeline
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#the-htc-system" class="md-nav__link">
     The HTC System
   </a>
@@ -535,13 +528,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visual-overview-of-chtc-pipeline" class="md-nav__link">
-    Visual Overview of CHTC Pipeline
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#the-htc-system" class="md-nav__link">
     The HTC System
   </a>
@@ -614,18 +600,16 @@
 </ul>
 <h2 id="a-center-for-high-throughput-computing-chtc">A. Center for High-throughput Computing (CHTC)</h2>
 <p>Consult official <a href="http://chtc.cs.wisc.edu/">CHTC</a> and <a href="https://research.cs.wisc.edu/htcondor/">HTCondor</a> documentation before getting started. Register for an account using this <a href="http://chtc.cs.wisc.edu/form.shtml">form</a>.</p>
-<h3 id="visual-overview-of-chtc-pipeline">Visual Overview of CHTC Pipeline</h3>
-<p><img src="/images/chtc_flowchart.png" width="100%"></p>
+<p><img src="../images/chtc_flowchart.png" width="100%"></p>
 <h3 id="the-htc-system">The HTC System</h3>
 <ol>
 <li>
-<p>Execute (Compute) Nodes</p>
+<p>Execute (Compute) nodes</p>
 <p>The CHTC has an extensive set of execute nodes. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.</p>
 <ul>
 <li>Typical nodes: 20 cores, 128 GB RAM</li>
 <li><a href="http://chtc.cs.wisc.edu/high-memory-jobs.shtml">High-memory nodes</a>: e.g., 80 cores, 4 TB RAM</li>
-<li>Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD<br />
-<em>Maximum request on lab node: CPU = 80; Memory = 500GB, Disk =  3500GB</em></li>
+<li>Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD  </li>
 </ul>
 </li>
 <li>
@@ -666,11 +650,11 @@ smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;Imag
 </details></p>
 <p><details>
 <summary> ResearchDrive -&gt; CHTC transfer of unarchived metadata folder (archived on arrival)</summary>
-<div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging metadata dir</span>
 ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
 <span class="nb">cd</span> /staging/groups/zamanian_group/metadata/
 
-<span class="c1"># Example of transferring ImageXpress meatadata</span>
+<span class="c1"># Example of transferring ImageXpress metadata</span>
 smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/metadata&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172&quot;</span>
 </code></pre></div>
 </details></p>
