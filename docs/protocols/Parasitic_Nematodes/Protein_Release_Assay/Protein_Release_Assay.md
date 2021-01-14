@@ -3,8 +3,8 @@
 ## Materials
 
 - Conditioned media stored at -80°C
-- AcroPrep Advance 0.2 μm Omega 96-well filter plate (VWR, 97052-124)
-- AcroPrep Advance 3K Supor 96-well filter plate (VWR, 89135-696)
+- AcroPrep Advance 0.2 μm Supor 96-well filter plate (VWR, 97052-124)
+- AcroPrep Advance 3K Omega 96-well filter plate (VWR, 89135-696)
 - 96-well deep well plate (VWR, 76210-518)
 - Troughs
 - PBS
@@ -37,11 +37,11 @@
 
 5. Transfer the flow-through to a 3K filter plate on top of a **used** deep well plate (i.e., the original plate from which the flow-through was taken).
 
-6. Centrifuge at 3000 x *g* for 45 min.
+6. Centrifuge at 1500 x *g* for 45 min.
 
 7. Add 500 μL PBS to each well.
 
-8. Centrifuge at 3000 x *g* for 45 min.
+8. Centrifuge at 1500 x *g* for 1 hr.
 
 9. Use a p20 pipette to check multiple wells to ensure <20 μL remains in each well. If more than 10 μL remains, perform an additional 20-40 min. spin. If the liquid continues to have a pink tint, repeat the PBS wash.
 
@@ -66,7 +66,7 @@
 | 10 μL of 10   | 990 μL                     | 0.1 μg/mL               |
 | 60 μL of 1    | 940 μL                     | 0.06 μg/mL              |
 | 30 μL of 1    | 970 μL                     | 0.03 μg/mL              |
-| 10 μL of 1    | 970 μL                     | 0.01 μg/mL              |
+| 10 μL of 1    | 990 μL                     | 0.01 μg/mL              |
 | 0 μL          | 1000 μL                    | 0 μg/mL                 |
 
     - **Note:** the working solution is very sensitive to light, so working in the dark is optimal, and standard curve stocks should be protected from the light.
@@ -97,7 +97,7 @@
 
 17. In SpectraMax, click the green arrowhead icon to run the plate.
 
-18. Examine the standard curve to ensure the assay ran properly. This assay is sensitive from 300 ng/mL to 10 μg/mL in our hands.
+18. Examine the standard curve to ensure the assay ran properly. This assay is sensitive from 30 ng/mL to 10 μg/mL in our hands.
 
 19. Export the data by clicking the plate icon on the top left of the screen, Export, Export to XML XLS TXT.
 
@@ -107,4 +107,4 @@
 
 20. Save the raw data by clicking the plate icon at the top left of the screen, Save As.
 
-    a. Navigate to the date folder created above. Name the file with the date, and save as a Data Files (*.sda) type.
+    a. Navigate to the date folder created above. Name the file with the date and initials, and save as a Data Files (*.sda) type.
