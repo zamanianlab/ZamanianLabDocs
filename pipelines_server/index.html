@@ -16,7 +16,7 @@
         <meta name="author" content="Zamanian Lab">
       
       <link rel="shortcut icon" href="..">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.19753c6b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.21aed14c.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
@@ -627,7 +627,6 @@
     └── output/                       [output dir: processed job outputs]
     └── WBP.tar.gz                    [permanent storage of WBP data]
 </code></pre></div>
-
 </li>
 </ol>
 <h3 id="deploying-pipelines">Deploying Pipelines</h3>
@@ -736,7 +735,6 @@ queue 1
 ### END
 </code></pre></div>
 </td></tr></table>
-
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Core_RNAseq-nf.sh</label><div class="tabbed-content">
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
@@ -808,17 +806,14 @@ rm -f /staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
 mv output/<span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
 </code></pre></div>
 </td></tr></table>
-
 </div>
 </div>
 </details>
-
 <p>Log into submit node to submit a job,</p>
 <div class="highlight"><pre><span></span><code>ssh <span class="o">{</span>net-id<span class="o">}</span>@submit2.chtc.wisc.edu
 
 condor_submit Core_RNAseq-nf.sub <span class="nv">dir</span><span class="o">=</span>191211_AHMMC5DMXX <span class="nv">script</span><span class="o">=</span>Core_RNAseq-nf.sh
 </code></pre></div>
-
 <p><details>
   <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
     <div class="highlight"><pre><span></span><code><span class="c1"># check on job status</span>
@@ -931,20 +926,17 @@ RUN \
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span> <span class="o">[</span>/path/to/Dockerfile<span class="o">]</span>
 docker build -t zamanianlab/chtc-rnaseq .
 </code></pre></div>
-
 </li>
 <li>
 <p>Test Docker image interactively</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq /bin/bash
 ctrl+D to <span class="nb">exit</span>
 </code></pre></div>
-
 </li>
 <li>
 <p>Push Docker image to Docker Hub</p>
 <div class="highlight"><pre><span></span><code>docker push zamanianlab/chtc-rnaseq
 </code></pre></div>
-
 <p><details>
   <summary>Some useful Docker commands (Click to Expand)</summary>
     <div class="highlight"><pre><span></span><code><span class="c1"># list docker images</span>
@@ -972,7 +964,6 @@ ctrl+D to <span class="nb">exit</span>
 <p>Run Docker container locally</p>
 <div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
 </code></pre></div>
-
 </li>
 <li>
 <p>Simulate the steps in your submit scripts</p>
@@ -1067,8 +1058,8 @@ nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config
       
     </div>
     
-      <script src="../assets/javascripts/vendor.0ac82a11.min.js"></script>
-      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
