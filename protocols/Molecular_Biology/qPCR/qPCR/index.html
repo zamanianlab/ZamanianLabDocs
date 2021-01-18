@@ -789,37 +789,26 @@
 <p>Transfer the .txt file to <code>ZamanianLab/Data/qPCR/Name/Date/</code> and copy the <code>primer_optimization.R</code> script to the directory.</p>
 </li>
 <li>
-<p>Once transferred, open the .txt file and manually edit it such that each section defined in [square brackets] is saved into its own file. When naming the files, add the date to the beginning of each file name, followed by an underscore. You should have the following files (file names should be the exact same, otherwise the analysis script won’t work.) Make sure the [words in brackets] are removed from the files so that every line is tab-delimited.</p>
-<p>a. <code>YEARMTDY_results.txt</code></p>
-<p>b. <code>YEARMTDY_melt_region_derivative_data.txt</code></p>
-<p>c. <code>YEARMTDY_melt_region_normalized_data.txt</code></p>
-<p>d. <code>YEARMTDY_melt_region_temperature_data.txt</code></p>
-<p>e. <code>YEARMTDY_amplification_data.txt</code></p>
-<p>f. <code>YEARMTDY_raw_data.txt</code></p>
-<p>g. <code>YEARMTDY_sample_setup.txt</code></p>
+<p>Once transferred, open the .txt file and manually edit it such that each section defined in [square brackets] is saved into its own file. You should have the following files (file names should be the exact same, otherwise the analysis script won’t work.) Make sure the [words in brackets] are removed from the files so that every line is tab-delimited.</p>
+<p>a. <code>results.txt</code></p>
+<p>b. <code>melt_region_derivative_data.txt</code></p>
+<p>c. <code>melt_region_normalized_data.txt</code></p>
+<p>d. <code>melt_region_temperature_data.txt</code></p>
+<p>e. <code>amplification_data.txt</code></p>
+<p>f. <code>raw_data.txt</code></p>
+<p>g. <code>sample_setup.txt</code></p>
 <p>h. For instance, the header of each file should look something like this:</p>
 <p><img alt="Export Data" src="../img/export_data.png" /></p>
 </li>
 <li>
-<p>Open RStudio.</p>
-<p>a. Navigate to File &gt; New Project...</p>
-<p>b. Click Existing Directory.</p>
-<p>c. Click Browse...</p>
-<p>d. Navigate to the directory containing your qPCR data and click Open.</p>
-<p>e. Close RStudio.</p>
-</li>
-<li>
-<p>Open up your Terminal application.</p>
-<p>a. Navigate to your directory by amending the {name} and {date} sections of the command <code>cd ZamanianLab/Data/qPCR/{Name}/{Date}/</code></p>
-<p>b. Run the command <code>Rscript primer_optimzation.R {Date}</code></p>
-<p>c. The script should produce two PDFs, <code>amplification.pdf</code> and <code>melt_curves.pdf</code> and it should print out the best primer concnetration for each sample.</p>
+<p>Use <code>~/Box/ZamanianLab/Data/qPCR/primer_optimization.R</code> to analyze the data.</p>
 </li>
 <li>
 <p>Examine the plot in <code>melt_curves.pdf</code> (left).</p>
 <p>a. The plot should contain 2 columns labeled Derivative and Value; these show the changes in fluorescence emitted at different temperatures during the melting of the last step of the Melt Curve stage.</p>
 <p>b. The plot should also contain a row for every target (i.e., primer set), and each panel should include a line for every well.</p>
 <p>c. Analysis of the melt curves will tell you if your primers are forming primer dimers or are amplifying off-target sequences. In order to continue with the qPCR experiment, your primer should include a single peak in the Derivative plot, corresponding to a single amplicon produced by the reaction. Primer dimers will correspond to peaks at low temperatures, and longer non-off target products will correspond to peaks at higher temperatures.</p>
-<p>d. Negative controls will not have a peak (because there should be no amplification). You will notice from the above plot that the negative controls for GAPDH and OSM-9 were correct, while it appears that there was contamination in the TAX-4 primers (every line contains a peak).</p>
+<p>d. Negative controls will not have a peak (because there should be no amplification). You will notice from the below plot that the negative controls for GAPDH and OSM-9 were correct, while it appears that there was contamination in the TAX-4 primers (every line contains a peak).</p>
 <p><img alt="Plots" src="../img/plots.png" /></p>
 </li>
 <li>
@@ -846,22 +835,7 @@
 as described.</p>
 </li>
 <li>
-<p>Transfer <code>qpcr_analysis.R</code> to the folder containing the data.</p>
-</li>
-<li>
-<p>Open <code>qpcr_analysis.R</code> in RStudio.</p>
-</li>
-<li>
-<p>Run lines 1 - 95 to create <code>amplification.pdf</code> and <code>melt_curves.pdf</code>.</p>
-</li>
-<li>
-<p>Examine the resulting images to check for on-target amplification and proper results for the negative controls.</p>
-</li>
-<li>
-<p>Run lines 100 - 127 to plot the C<sub>T</sub> values for each sample (using the mean from technical replicates).</p>
-</li>
-<li>
-<p>If performing ΔΔC<sub>T</sub> calculations, you will have to manually edit lines 132 - 183.</p>
+<p>Use <code>~/Box/ZamanianLab/Data/qPCR/qpcr_analysis.R</code> to analyze the data.</p>
 </li>
 </ol>
                 
