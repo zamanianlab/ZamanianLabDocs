@@ -82,6 +82,32 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     ```
     </details>
 
+    For ImageXpress data, an entire experiment may include >10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the `input/` and `metadata/` directories of `/staging/groups/zamanian_group/` called `transfer_images.sh` and `transfer_metadata.sh`. These scripts reference the text file `/staging/groups/zamanian_group/plates.txt` and will loop through the plate names, sequentially transferring them from ResearchDrive and archiving them upon arrival. Edit `plates.txt` in the terminal using `vi` or `nano`, or edit the file locally and then upload it to `/staging/groups/zamanian_group/input/` (be sure to include a single plate name on each line with a blank line at the end of the file.) Run `sh transfer_metadata.sh` and `sh transfer_images.sh` to initate the transfers.
+
+    Both of these scripts will require a continuous ssh connection while they transfer. Transferring metadata will only take a few minutes, but transferring multiple plates of images will take several hours. The transfer process can be sent to the background (allowing the user to close the ssh connection) by using the `screen` tool. There are a number of helpful tutorials online, but a few sample commands are shown below.
+
+    <details>
+    <summary> Background transfer using `screen`</summary>
+    ```bash
+    # Log into transfer server and navigate to staging input dir
+    ssh {net-id}@transfer.chtc.wisc.edu
+    cd /staging/groups/zamanian_group/input/
+
+    # Start a screen named 'transfer'
+    screen -S transfer
+
+    # Initiate the transfer
+    sh transfer_images.sh
+
+    # Detach from the screen by pressing Ctrl+a and then d
+    # Reattach to the screen
+    screen -r transfer
+
+    # Close the screen
+    exit
+    ```
+    </details>
+
     Rarely, you may have to transfer data from other sources to CHTC staging input. You can run simple transfer commands from your computer:
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
