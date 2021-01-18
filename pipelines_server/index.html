@@ -657,6 +657,28 @@ ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.ed
 smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/metadata&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172&quot;</span>
 </code></pre></div>
 </details></p>
+<p>For ImageXpress data, an entire experiment may include &gt;10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the <code>input/</code> and <code>metadata/</code> directories of <code>/staging/groups/zamanian_group/</code> called <code>transfer_images.sh</code> and <code>transfer_metadata.sh</code>. These scripts reference the text file <code>/staging/groups/zamanian_group/plates.txt</code> and will loop through the plate names, sequentially transferring them from ResearchDrive and archiving them upon arrival. Edit <code>plates.txt</code> in the terminal using <code>vi</code> or <code>nano</code>, or edit the file locally and then upload it to <code>/staging/groups/zamanian_group/input/</code> (be sure to include a single plate name on each line with a blank line at the end of the file.) Run <code>sh transfer_metadata.sh</code> and <code>sh transfer_images.sh</code> to initate the transfers.</p>
+<p>Both of these scripts will require a continuous ssh connection while they transfer. Transferring metadata will only take a few minutes, but transferring multiple plates of images will take several hours. The transfer process can be sent to the background (allowing the user to close the ssh connection) by using the <code>screen</code> tool. There are a number of helpful tutorials online, but a few sample commands are shown below.</p>
+<p><details>
+<summary> Background transfer using <code>screen</code></summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
+ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
+<span class="nb">cd</span> /staging/groups/zamanian_group/input/
+
+<span class="c1"># Start a screen named &#39;transfer&#39;</span>
+screen -S transfer
+
+<span class="c1"># Initiate the transfer</span>
+sh transfer_images.sh
+
+<span class="c1"># Detach from the screen by pressing Ctrl+a and then d</span>
+<span class="c1"># Reattach to the screen</span>
+screen -r transfer
+
+<span class="c1"># Close the screen</span>
+<span class="nb">exit</span>
+</code></pre></div>
+</details></p>
 <p>Rarely, you may have to transfer data from other sources to CHTC staging input. You can run simple transfer commands from your computer:</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/</code></p>
 </li>
