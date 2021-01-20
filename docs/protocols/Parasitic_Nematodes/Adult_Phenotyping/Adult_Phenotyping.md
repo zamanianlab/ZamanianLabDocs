@@ -14,18 +14,18 @@
 
 ## Equipment
 
-37°C CO<sub>2</sub> incubator
-WormViz
-Eppendorf microcentrifuge
-Sterile BSC
-Eppendorf M4 repeater pipette
-ImageXpress Nano (for quantifying microfilaria release)
+- 37°C CO<sub>2</sub> incubator
+- WormViz
+- Eppendorf microcentrifuge
+- Sterile BSC
+- Eppendorf M4 repeater pipette
+- ImageXpress Nano (for quantifying microfilaria release)
 
 ## Protocol
 
 ### Day 1
 
-1. On day of receipt, prepare 24-well plates with 750 μL complete media per well. Use the recipe from the [general parasits culture protocol](../General_Parasite_Culture/General_Parasite_Culture.md) without gentamicin. Ensure media and plates are warmed prior to parasite arrival.
+1. On day of receipt, prepare 24-well plates with 750 μL complete media per well. Use the recipe from the [general parasite culture protocol](../General_Parasite_Culture/General_Parasite_Culture.md) without gentamicin. Ensure media and plates are warmed prior to parasite arrival.
 
 2. Upon receipt, place the tubes of parasites in the 37°C CO<sub>2</sub> incubator. Parasites typically arrive cold and sluggish but will resume normal motility after 30-60 min. of incubation.
 
