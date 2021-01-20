@@ -69,6 +69,8 @@
 
 - [Protein Release Assay](Parasitic_Nematodes/Protein_Release_Assay/Protein_Release_Assay.md)
 
+- [Adult Phenotyping](Parasitic_Nematodes/Adult_Phenotyping/Adult_Phenotyping.md)
+
 
 ## *Caenorhabditis elegans*
 
