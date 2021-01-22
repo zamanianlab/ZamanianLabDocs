@@ -5,6 +5,7 @@
 - Pen-Strep 10,000U/mL (Thermo 15140122)  
 - Gentamicin 0.4 mg/µL (Sigma G1272-100ML)  
 - FBS (Thermo 16000044)
+- Drug solutions
 - 24-well plates (Corning 3524)
 - 96-well deep well plates (VWR 76210-518)
 - 96-well plates used for ImageXpress (USA Scientific 5665-5180Q)
@@ -31,7 +32,25 @@
 
 3. After parasites have warmed, transfer a single parasite to each well of the prepared 24-well plates. Return the plate to the incubator immediately after it is filled with parasites and note the time.
 
-4. Video the parasites using the WormViz after the parasites have recovered from the transfer and cooling, about 1 hr after being return to the incubator.
+### Day 2 (Time points 0, 0.1, & 1)
+
+1. Prepare new 24-well plates with the media of choice:
+
+    - For most experiments (i.e., drug treatment or RNAi) this will be **incomplete** media (no serum).
+
+    - If drug treatments are planned, prepare wells with 750 μL minus the amount of drug to be added. For example, add 675 μL if a 10X drug dilution is planned.
+
+2. Prepare drug stocks at 10X concentration in RPMI. Keep warm.
+
+3. Transfer parasites to the new plates ~23 hr after the noted time from Day 1 and return the parasites to 37°C to recover for ~1 hr. Keep the old plates with conditioned media from females (for mf quantification); discard the conditioned media from males.
+
+    a. Transfer all the conditioned media from females to labelled 1.5 mL tubes.
+
+    b. Centrifuge the tubes for 5 min at 10,000 *x g*.
+
+    c. Discard 500 μL of the supernatant. Store the remainder (pellet of mf, should be ~200 μL) at 4°C.
+
+4. Record on the WormViz immediately prior to adding drug. All videos are labeled in reference to the day upon which drug is added such that the 24 hr time point is 24 hours after drug addition (not after parasite receipt). Thus, this first video will be the 0 hr time point.
 
     a. Align the WormViz camera and stage to the markings on the pillar.
 
@@ -39,63 +58,43 @@
 
     c. Remove the lid from the plate and ensure well A01 is at the top left of the camera view.
 
-    d. Record the video and back it up to the Seagate external drive and ResearchDrive.
+    d. Record the video
 
-    - Video parameters:
+      - Video parameters:
 
-      - Time = 15 s.
-      - Frame rate =  16 FPS
-      - Format =
-      - Brightness = 1000
-      - Gain = 1000
+        - Time = 15 s.
+        - Frame rate = 16 FPS
+        - Format = 1280 x 960
+        - Brightness = 1000
+        - Gain = 1000
 
-### Day 2
+    e. Immediately after recording, transfer to the BSC and add drug at the desired dilution.
 
-5. Prepare new 24-well plates with the media of choice:
+    f. Immediately record on the WormViz.
 
-    - For most experiments (i.e., drug treatment or RNAi) this will be **incomplete** media (no serum).
+    g. Return to the incubator.
 
-    - If drug treatments are planned, prepare wells with 750 μL minus the amount of drug to be added. For exmample, add 675 μL if a 10X drug dilution is planned.
+    h. Record videos again after 1 hr incubation.
 
-    - Use **complete** media for assay optimization. Using complete media will keep parasites healthier for longer but will negate the ability to quantify protein release.
+### Days 3-4 (Time points 24 & 48)
 
-6. Transfer parasites to the new plates ~23 hr after the noted time from Day 1. Keep the plates with conditioned media from females; discard the conditioned media from males.
-
-7. Record on the WormViz at the 24 hr time point. If adding drug, follow the below steps. If not, return the plates to the incubator.
-
-    a. Immediately after recording, transfer to the BSC and add drug at the desired dilution.
-
-    b. Immediately record on the WormViz.
-
-    c. Return to the incubator.
-
-    d. Record videos again 1 hr after adding drug.
-
-8. Transfer all the conditioned media from females to labelled 1.5 mL tubes.
-
-9. Centrifuge the tubes for 5 min at 10,000 *x g*.
-
-10. Discard 500 μL of the supernatant. Store the remainder (pellet of mf, should be ~200 μL) at 4°C.
-
-### Days 3-5
-
-11. Prepare new 24-well plates with the media of choice. Warm plates at 37°C.
+1. Prepare new 24-well plates with the media of choice. Warm plates at 37°C.
 
     - For drug experiments, make 1X drug in **incomplete** media.
 
-12. Record videos at the 48 hr mark.
+2. Record videos at the 24 hr mark.
 
-13. Transfer parasites to new plates and return them to the incubator. Keep the plates with conditioned media.
+3. Transfer parasites to new plates and return them to the incubator. Keep the plates with conditioned media.
 
-14. Transfer all the conditioned media from females to labelled 1.5 mL tubes.
+4. Transfer all the conditioned media from females to labelled 1.5 mL tubes (**Note:** male conditioned media does not need to be centrifuged).
 
-15. Centrifuge the tubes for 5 min at 10,000 *x g*.
+5. Centrifuge the tubes for 5 min at 10,000 *x g*.
 
-16. Transfer 500 μL of the supernatant to a 96-well deep well plate, cover the plate with foil sealing film, and store at -80°C. Create a Google Spreadsheet with the arrangement of the samples (see [this example](https://docs.google.com/spreadsheets/d/136XA8yCzhY0h7fKNrcppDCZV97jnYLagD5qhwuxPzds/edit?usp=sharing)). Try to fill as much of these wells as possible by using the same plate for consecutive days.
+6. Transfer 500 μL of the supernatant (or conditioned media from males) to a 96-well deep well plate, cover the plate with foil sealing film, and store at -80°C. Create a Google Spreadsheet with the arrangement of the samples (see [this example](https://docs.google.com/spreadsheets/d/136XA8yCzhY0h7fKNrcppDCZV97jnYLagD5qhwuxPzds/edit?usp=sharing)). Try to fill as much of these wells as possible by using the same plate for consecutive days.
 
-17. For female conditioned media, store the pellet at 4°C. Discard the male conditioned media.
+7. For female conditioned media, store the pellet at 4°C. Discard the remaining male conditioned media.
 
-18. Repeat steps 11-18 for the entirety of the experiment.
+8. Repeat steps 1-7 on day 4.
 
 ### Downstream sample processing
 
