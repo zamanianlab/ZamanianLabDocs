@@ -49,9 +49,9 @@
 
 10. Thaw the NanoOrange protein quantitation reagent at room temperature and prepare the working solution. Wrap the tubes of working solution with foil.
 
-    - Prepare at least 220 μL of working solution per sample and standard replicate.
+    - Prepare at least 220 μL of working solution per sample + 11 mL for standards (for instance, `220 uL * 80 samples + 11 mL = 28.6 mL`).
 
-    - Working solution is made by diluting the diluent 1:10 in Milli-Q water, and diluting the NanoOrange reagent 1:500 in the 1X diluent. For example, to get a final volume of ~20 mL, one would combine 2 mL diluent in 18 mL water and add 40 μL NanoOrange reagent.
+    - Working solution is made by diluting the diluent 1:10 in Milli-Q water, and diluting the NanoOrange reagent 1:500 in the 1X diluent. For example, to get a final volume of ~26.8 mL, combine 2.68 mL diluent with 24.12 mL water, then add 53.6 μL NanoOrange reagent.
 
 11. Create the standard curve by first preparing two 10 μg/mL stocks by diluting 5 μL of the 2 mg/mL stock in 995 μL working solution (one of these will be used for the 10 μg/mL standard, the other will be used for the dilutions). Then perform the following dilutions:
 
@@ -71,7 +71,7 @@
 
     - **Note:** the working solution is very sensitive to light, so working in the dark is optimal, and standard curve stocks should be protected from the light.
 
-12. Using a multichannel pipette, add 200 μL of the working solution to each well of the 3K filter plate. Gently pipette up and down, and transfer to a 96-well PCR plate. Wrap the plate in foil when complete.
+12. Using a multichannel pipette, add 200 μL of the working solution to each well of the 3K filter plate. Gently pipette up and down, and transfer to a 96-well PCR plate. Add standards to empty wells of the PCR plate or an additional plate. Standards should be measured in duplicate (or greater).
 
 13. Place the PCR plate on a thermocycler and incubate at 95°C for 10 min.
 

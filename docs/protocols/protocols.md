@@ -112,7 +112,7 @@
 
 ## Schistosome Protocols
 
-- [Schistosome Recipes](Schistosomes/Schistosome_Recipes/Schistosome_Recipes.md)
+- [Schistosome and Snail Recipes](Schistosomes/Schistosome_Recipes/Schistosome_Recipes.md)
 
 - [*B. glabrata* Maintenance](Schistosomes/Snail_Maintenance/Snail_Maintenance.md)
 
