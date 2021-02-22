@@ -12,16 +12,19 @@ In general, pipelines will be run in three steps:
 
 Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://research.cs.wisc.edu/htcondor/) documentation before getting started. Register for an account using this [form](http://chtc.cs.wisc.edu/form.shtml).
 
+
+<img src="../images/chtc_flowchart.png" width="100%">
+
+
 ### The HTC System
 
-1. Compute Nodes
+1. Execute (Compute) nodes
 
-    The CHTC has an extensive set of execute nodes that can be accessed for free. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
+    The CHTC has an extensive set of execute nodes. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
 
     - Typical nodes: 20 cores, 128 GB RAM
     - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
     - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD  
-        *Maximum request on lab node: CPU = 80; Memory = 500GB, Disk =  3500GB*
 
 2. Submit nodes
 
@@ -31,7 +34,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 3. File system
 
-    The CHTC does not use a shared file system, but you can request the storage you need for any given job. Each net-id (and our lab as a whole) is associated with a `home` folder, where we manage job submission scripts. Our lab also has a shared `staging` folder, for transfer of large files in and out of the CHTC system.
+    Each net-id is associated with a `home` folder, where we manage job submission scripts. Our lab also has a shared `staging` folder, for transfer of large files in and out of the CHTC system. The CHTC does not use a shared file system, but you can request the storage you need for any given job.
 
       ```
       /
@@ -42,9 +45,11 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
           └── WBP.tar.gz                    [permanent storage of WBP data]
       ```
 
+
+
 ### Deploying Pipelines
 
-1. Staging input data for processing
+1. **Staging -** transfer input data for processing (ResearchDrive -> CHTC)
 
     In almost all cases, you will [directly transfer](http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml) your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.
 
@@ -67,13 +72,39 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     <details>
     <summary> ResearchDrive -> CHTC transfer of unarchived metadata folder (archived on arrival)</summary>
     ```bash
-    # Log into transfer server and navigate to staging input dir
+    # Log into transfer server and navigate to staging metadata dir
     ssh {net-id}@transfer.chtc.wisc.edu
     cd /staging/groups/zamanian_group/metadata/
 
-    # Example of transferring ImageXpress meatadata
+    # Example of transferring ImageXpress metadata
     smbclient -k //research.drive.wisc.edu/mzamanian/ -D "ImageXpress/metadata" -Tc 20201118-p01-MZ_172.tar "20201118-p01-MZ_172"
 
+    ```
+    </details>
+
+    For ImageXpress data, an entire experiment may include >10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the `input/` and `metadata/` directories of `/staging/groups/zamanian_group/` called `transfer_images.sh` and `transfer_metadata.sh`. These scripts reference the text file `/staging/groups/zamanian_group/plates.txt` and will loop through the plate names, sequentially transferring them from ResearchDrive and archiving them upon arrival. Edit `plates.txt` in the terminal using `vi` or `nano`, or edit the file locally and then upload it to `/staging/groups/zamanian_group/input/` (be sure to include a single plate name on each line with a blank line at the end of the file.) Run `sh transfer_metadata.sh` and `sh transfer_images.sh` to initate the transfers.
+
+    Both of these scripts will require a continuous ssh connection while they transfer. Transferring metadata will only take a few minutes, but transferring multiple plates of images will take several hours. The transfer process can be sent to the background (allowing the user to close the ssh connection) by using the `screen` tool. There are a number of helpful tutorials online, but a few sample commands are shown below.
+
+    <details>
+    <summary> Background transfer using `screen`</summary>
+    ```bash
+    # Log into transfer server and navigate to staging input dir
+    ssh {net-id}@transfer.chtc.wisc.edu
+    cd /staging/groups/zamanian_group/input/
+
+    # Start a screen named 'transfer'
+    screen -S transfer
+
+    # Initiate the transfer
+    sh transfer_images.sh
+
+    # Detach from the screen by pressing Ctrl+a and then d
+    # Reattach to the screen
+    screen -r transfer
+
+    # Close the screen
+    exit
     ```
     </details>
 
@@ -81,12 +112,9 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
 
-2. Creating job submit scripts
+2. **Pipeline -** Submit and manage CHTC jobs
 
-    CHTC uses HTCondor for job scheduling. Submission files should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments (staged data location). Other options define log files, resource requirements , and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/groups/zamanian_group/input/` and we move job output files to `/staging/groups/zamanian_group/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
-
-    The submit script runs the annotated bash script below on the execute server. This pipeline creates `input`, `work`, and `output` dirs in the loaded Docker environment. It transfers the input data from `staging` into `input`, clones a GitHub repo (Nextflow pipeline), and runs a Nextflow command. Nextflow uses `work` for intermediary processing and spits out any files we have marked for retention into `output`, which gets transferred back to `staging`. `input` and `work` are deleted before job completion.
-
+    CHTC uses HTCondor for job scheduling. Submission files should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments on the execute node. Other options define log files, resource requirements , and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/groups/zamanian_group/input/` and we move job output files to `/staging/groups/zamanian_group/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
 
     <details>
     <summary> Example CHTC job submission scripts (.sub / .sh)</summary>
@@ -172,13 +200,13 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     </details>
 
 
-3. Submitting and managing jobs
+    Log into submit node to submit a job,
 
-    Log into submit node and submit job,
+    ```bash
+    ssh {net-id}@submit2.chtc.wisc.edu
 
-    `ssh {net-id}@submit2.chtc.wisc.edu`
-
-    `condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh`    
+    condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
+    ```  
 
     <details>
       <summary>Other useful commands for monitoring and managing jobs (Click to Expand)</summary>
@@ -199,7 +227,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     </details>
 
 
-4. Transferring output data
+3. **Output -** transfer output data (CHTC -> ResearchDrive)
 
     To transfer your job output folder from the CHTC staging output directory to Research Drive:
 

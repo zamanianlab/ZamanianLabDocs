@@ -69,6 +69,8 @@
 
 - [Protein Release Assay](Parasitic_Nematodes/Protein_Release_Assay/Protein_Release_Assay.md)
 
+- [Adult Phenotyping](Parasitic_Nematodes/Adult_Phenotyping/Adult_Phenotyping.md)
+
 
 ## *Caenorhabditis elegans*
 
@@ -110,7 +112,7 @@
 
 ## Schistosome Protocols
 
-- [Schistosome Recipes](Schistosomes/Schistosome_Recipes/Schistosome_Recipes.md)
+- [Schistosome and Snail Recipes](Schistosomes/Schistosome_Recipes/Schistosome_Recipes.md)
 
 - [*B. glabrata* Maintenance](Schistosomes/Snail_Maintenance/Snail_Maintenance.md)
 

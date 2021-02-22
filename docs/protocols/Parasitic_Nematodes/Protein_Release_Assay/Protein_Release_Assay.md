@@ -3,8 +3,8 @@
 ## Materials
 
 - Conditioned media stored at -80°C
-- AcroPrep Advance 0.2 μm Omega 96-well filter plate (VWR, 97052-124)
-- AcroPrep Advance 3K Supor 96-well filter plate (VWR, 89135-696)
+- AcroPrep Advance 0.2 μm Supor 96-well filter plate (VWR, 97052-124)
+- AcroPrep Advance 3K Omega 96-well filter plate (VWR, 89135-696)
 - 96-well deep well plate (VWR, 76210-518)
 - Troughs
 - PBS
@@ -37,11 +37,11 @@
 
 5. Transfer the flow-through to a 3K filter plate on top of a **used** deep well plate (i.e., the original plate from which the flow-through was taken).
 
-6. Centrifuge at 3000 x *g* for 45 min.
+6. Centrifuge at 1500 x *g* for 45 min.
 
 7. Add 500 μL PBS to each well.
 
-8. Centrifuge at 3000 x *g* for 45 min.
+8. Centrifuge at 1500 x *g* for 1 hr.
 
 9. Use a p20 pipette to check multiple wells to ensure <20 μL remains in each well. If more than 10 μL remains, perform an additional 20-40 min. spin. If the liquid continues to have a pink tint, repeat the PBS wash.
 
@@ -49,9 +49,9 @@
 
 10. Thaw the NanoOrange protein quantitation reagent at room temperature and prepare the working solution. Wrap the tubes of working solution with foil.
 
-    - For a single 96-well plate, prepare 20 mL of the working solution by combining 1.996 mL diluent, 17.964 mL of Milli-Q water, and 40 μL of NanoOrange reagent.
+    - Prepare at least 220 μL of working solution per sample + 11 mL for standards (for instance, `220 uL * 80 samples + 11 mL = 28.6 mL`).
 
-    - For 4 technical replicates of the standard curve, prepare 12 mL of the working solution by combining 1.198 mL diluent, 10.778 mL Milli-Q water, and 24 μL of NanoOrange reagent.
+    - Working solution is made by diluting the diluent 1:10 in Milli-Q water, and diluting the NanoOrange reagent 1:500 in the 1X diluent. For example, to get a final volume of ~26.8 mL, combine 2.68 mL diluent with 24.12 mL water, then add 53.6 μL NanoOrange reagent.
 
     - **Note:** It is important that you use at least 3 technical replicates (4 is best) for each concentration of the standard curve. We have seen R<sup>2</sup> values drop to ~0.7 when only using 2 replicates.
 
@@ -68,12 +68,12 @@
 | 10 μL of 10   | 990 μL                     | 0.1 μg/mL               |
 | 60 μL of 1    | 940 μL                     | 0.06 μg/mL              |
 | 30 μL of 1    | 970 μL                     | 0.03 μg/mL              |
-| 10 μL of 1    | 970 μL                     | 0.01 μg/mL              |
+| 10 μL of 1    | 990 μL                     | 0.01 μg/mL              |
 | 0 μL          | 1000 μL                    | 0 μg/mL                 |
 
     - **Note:** the working solution is very sensitive to light, so working in the dark is optimal, and standard curve stocks should be protected from the light.
 
-12. Using a multichannel pipette, add 200 μL of the working solution to each well of the 3K filter plate. Gently pipette up and down, and transfer to a 96-well PCR plate. Wrap the plate in foil when complete.
+12. Using a multichannel pipette, add 200 μL of the working solution to each well of the 3K filter plate. Gently pipette up and down, and transfer to a 96-well PCR plate. Add standards to empty wells of the PCR plate or an additional plate. Standards should be measured in duplicate (or greater).
 
 13. Place the PCR plate on a thermocycler and incubate at 95°C for 10 min.
 
@@ -99,7 +99,7 @@
 
 17. In SpectraMax, click the green arrowhead icon to run the plate.
 
-18. Examine the standard curve to ensure the assay ran properly. This assay is sensitive from 300 ng/mL to 10 μg/mL in our hands.
+18. Examine the standard curve to ensure the assay ran properly. This assay is sensitive from 30 ng/mL to 10 μg/mL in our hands.
 
 19. Export the data by clicking the plate icon on the top left of the screen, Export, Export to XML XLS TXT.
 
@@ -109,4 +109,4 @@
 
 20. Save the raw data by clicking the plate icon at the top left of the screen, Save As.
 
-    a. Navigate to the date folder created above. Name the file with the date, and save as a Data Files (*.sda) type.
+    a. Navigate to the date folder created above. Name the file with the date and initials, and save as a Data Files (*.sda) type.

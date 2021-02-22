@@ -1,4 +1,4 @@
-# Schistosome Recipes
+# Schistosome and Snail Recipes
 
 ## iBge Medium pH 7.2
 
@@ -14,7 +14,7 @@
 
 To prepare cBge medium, add 10 mL of heat inactivated FBS and 1 mL of 100X pen/strep to 89 mL iBge.
 
-- **Note:** iBge is very easily contaminated
+**Note:** iBge is very easily contaminated
 
 **Note:** Do not freeze cBge Medium
 
@@ -36,6 +36,23 @@ To prepare cBge medium, add 10 mL of heat inactivated FBS and 1 mL of 100X pen/s
 |Galactose|0.5 g|
 |Sterile DI water|1 L|
 
+---
+
+## Chernin's Balanced Salt Solution (CBSS)
+
+|Reagent|Amount (per 1 L)|
+|-------|------|
+|NaCl|2.8 g|
+|KCl|0.15 g|
+|Na<sub>2</sub>HPO<sub>4</sub> |0.07 g|
+|MgSO<sub>4</sub> heptahydrate |0.45 g|
+|CaCl<sub>2</sub> dihydrate |0.53 g|
+|NaHCO<sub>3</sub>|0.05 g|
+|Sterile DI water|1 L|
+
+- Filter sterilize (0.22 um filter) and store at 4C
+
+- To make CBSS+, add 1 g each of glucose and trehalose
 
 ---
 

@@ -187,45 +187,27 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
 3. Transfer the .txt file to `ZamanianLab/Data/qPCR/Name/Date/` and copy the `primer_optimization.R` script to the directory.
 
-4. Once transferred, open the .txt file and manually edit it such that each section defined in [square brackets] is saved into its own file. When naming the files, add the date to the beginning of each file name, followed by an underscore. You should have the following files (file names should be the exact same, otherwise the analysis script won’t work.) Make sure the [words in brackets] are removed from the files so that every line is tab-delimited.
+4. Once transferred, open the .txt file and manually edit it such that each section defined in [square brackets] is saved into its own file. You should have the following files (file names should be the exact same, otherwise the analysis script won’t work.) Make sure the [words in brackets] are removed from the files so that every line is tab-delimited.
 
-    a. `YEARMTDY_results.txt`
+    a. `results.txt`
 
-    b. `YEARMTDY_melt_region_derivative_data.txt`
+    b. `melt_region_derivative_data.txt`
 
-    c. `YEARMTDY_melt_region_normalized_data.txt`
+    c. `melt_region_normalized_data.txt`
 
-    d. `YEARMTDY_melt_region_temperature_data.txt`
+    d. `melt_region_temperature_data.txt`
 
-    e. `YEARMTDY_amplification_data.txt`
+    e. `amplification_data.txt`
 
-    f. `YEARMTDY_raw_data.txt`
+    f. `raw_data.txt`
 
-    g. `YEARMTDY_sample_setup.txt`
+    g. `sample_setup.txt`
 
     h. For instance, the header of each file should look something like this:
 
     ![Export Data](img/export_data.png)
 
-5. Open RStudio.
-
-    a. Navigate to File > New Project...
-
-    b. Click Existing Directory.
-
-    c. Click Browse...
-
-    d. Navigate to the directory containing your qPCR data and click Open.
-
-    e. Close RStudio.
-
-6. Open up your Terminal application.
-
-    a. Navigate to your directory by amending the {name} and {date} sections of the command `cd ZamanianLab/Data/qPCR/{Name}/{Date}/`
-
-    b. Run the command `Rscript primer_optimzation.R {Date}`
-
-    c. The script should produce two PDFs, `amplification.pdf` and `melt_curves.pdf` and it should print out the best primer concnetration for each sample.
+5. Use `~/Box/ZamanianLab/Data/qPCR/primer_optimization.R` to analyze the data.
 
 7. Examine the plot in `melt_curves.pdf` (left).
 
@@ -235,7 +217,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
     c. Analysis of the melt curves will tell you if your primers are forming primer dimers or are amplifying off-target sequences. In order to continue with the qPCR experiment, your primer should include a single peak in the Derivative plot, corresponding to a single amplicon produced by the reaction. Primer dimers will correspond to peaks at low temperatures, and longer non-off target products will correspond to peaks at higher temperatures.
 
-    d. Negative controls will not have a peak (because there should be no amplification). You will notice from the above plot that the negative controls for GAPDH and OSM-9 were correct, while it appears that there was contamination in the TAX-4 primers (every line contains a peak).
+    d. Negative controls will not have a peak (because there should be no amplification). You will notice from the below plot that the negative controls for GAPDH and OSM-9 were correct, while it appears that there was contamination in the TAX-4 primers (every line contains a peak).
 
     ![Plots](img/plots.png)
 
@@ -260,14 +242,4 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 1. Follow steps 1 - 4 from **Primer optimization analysis** to export the reaction results
 as described.
 
-2. Transfer `qpcr_analysis.R` to the folder containing the data.
-
-3. Open `qpcr_analysis.R` in RStudio.
-
-4. Run lines 1 - 95 to create `amplification.pdf` and `melt_curves.pdf`.
-
-5. Examine the resulting images to check for on-target amplification and proper results for the negative controls.
-
-6. Run lines 100 - 127 to plot the C<sub>T</sub> values for each sample (using the mean from technical replicates).
-
-7. If performing ΔΔC<sub>T</sub> calculations, you will have to manually edit lines 132 - 183.
+2. Use `~/Box/ZamanianLab/Data/qPCR/qpcr_analysis.R` to analyze the data.
