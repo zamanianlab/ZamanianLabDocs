@@ -11,7 +11,7 @@ Carry out all work in sterile BSC environment and use sterile technique.
 
 ### ***Brugia spp.*** parasites (mf, L3, Adults)
 
-*Note:* Make culture media and scale volume as needed. Media can be stored at 4°C for 1 month. Parasites will typically arrive in 50 mL conical tubes. Culture adult parasites for at least 24 hours prior to downstream use.
+**Note:** Make culture media and scale volume as needed. Media can be stored at 4°C for 1 month. Parasites will typically arrive in 50 mL conical tubes. Culture adult parasites for at least 24 hours prior to downstream use.
 
   | Culture Media Component              | Volume (for 50 mL total)               |
   |--------------------------------------|----------------------------------------|
@@ -26,7 +26,7 @@ Pre-heat RPMI-1640 for 30 min at 37°C.
 
   - To pellet mf, spin in benchtop centrifuge (2,000 x g) for 10 min.
 
-  - To pellet L3 or adults, let settle for 30 min. at room temperature in BSC.
+  - To pellet L3s, transfer parasites to a 15 mL tube and let settle at room temperature.
 
 2. Remove nearly all of the shipping media.
 
@@ -38,11 +38,11 @@ Pre-heat RPMI-1640 for 30 min at 37°C.
 
 4. Place labeled tubes (with caps loosened) or cell culture plates in 37°C + 5% CO<sub>2</sub> incubator.
 
-5. Remove 90% of media every 24 hours and replace with fresh media.
+5. Remove ~90% of media every 24 hours and replace with fresh media.
 
 ### *D. immitis* parasites (L3s, Adults)
 
-*Note:* Make culture media and scale volume as needed. Estimate ~ 4 mL media / adult. Media can be stored at 4°C for 1 month. pH to 7.2 with NaOH droplets or HCl using pH meter. Vacuum filter (0.22 μm filter).
+**Note:** Make culture media and scale volume as needed. Estimate ~4 mL media / adult. Media can be stored at 4°C for 1 month. pH to 7.2 with NaOH droplets or HCl using pH meter. Vacuum filter (0.22 μm filter).
 
   | Culture Media Component  | Volume (for 50 mL total) |
   |------------|-----------|

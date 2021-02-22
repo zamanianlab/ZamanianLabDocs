@@ -53,6 +53,8 @@
 
     - For 4 technical replicates of the standard curve, prepare 12 mL of the working solution by combining 1.198 mL diluent, 10.778 mL Milli-Q water, and 24 μL of NanoOrange reagent.
 
+    - **Note:** It is important that you use at least 3 technical replicates (4 is best) for each concentration of the standard curve. We have seen R<sup>2</sup> values drop to ~0.7 when only using 2 replicates.
+
 11. Create the standard curve by first preparing a 10 μg/mL stock by diluting 5 μL of the 2 mg/mL stock in 995 μL working solution. Then perform the following dilutions:
 
 | BSA Volume    | Working Solution Volume    | Final BSA Concentration |
