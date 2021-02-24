@@ -13,14 +13,29 @@ Carry out all work in sterile BSC environment and use sterile technique.
 
 **Note:** Make culture media and scale volume as needed. Media can be stored at 4°C for 1 month. Parasites will typically arrive in 50 mL conical tubes. Culture adult parasites for at least 24 hours prior to downstream use.
 
-  | Culture Media Component              | Volume (for 50 mL total)               |
-  |--------------------------------------|----------------------------------------|
-  |RPMI-1640                             |44 mL                                   |
-  |Pen-Strep (100 U/mL each)             |500 μL of 100X stock (10,000 U/mL each) |
-  |FBS (10% v/v)                         |5 mL                                    |
-  |Gentamicin (Optional; 4 μg/μL)        |500 uL of 100X stock (0.4 mg/μL)        |
 
-Pre-heat RPMI-1640 for 30 min at 37°C.
+***Recipe for adult and mf media***
+| Culture Media Component       | Volume (for 100 mL total)             |
+|-------------------------------|---------------------------------------|
+|RPMI-1640                      |88 mL                                  |
+|Pen-Strep (100 U/mL each)      |1 mL of 100X stock (10,000 U/mL each)  |
+|FBS (10% v/v)                  |10 mL                                  |
+
+
+***Recipe for L3 media***
+  | Culture Media Component     | Volume (for 100 mL total)             |
+  |-----------------------------|---------------------------------------|
+  |RPMI-1640                    |77.86 mL                               |
+  |Pen-Strep (100 U/mL each)    |1 mL of 100X stock (10,000 U/mL each)  |
+  |FBS (10% v/v)                |10 mL                                  |
+  |Gentamicin (40 μg/μL)        |400 μL of 10 mg/μL stock               |
+  |Fungin (10 μg/μL)            |100 μL of 1000X stock (10 mg/μL)       |
+  |Amphotericin B (2.5 μg/mL)   |1 mL of 100X stock (250 μg/mL)         |
+  |Ciproflaxin (2 μg/ml)        |20 μL of 10 mg/mL                      |
+  |Fortaz (2 μg/mL)             |20 μL of 10 mg/mL                      |
+
+
+|Pre-heat RPMI-1640 for 30 min at 37°C.
 
 1. Pellet parasites
 
