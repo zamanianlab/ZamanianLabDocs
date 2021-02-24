@@ -15,6 +15,7 @@ Carry out all work in sterile BSC environment and use sterile technique.
 
 
 ***Recipe for adult and mf media***
+
 | Culture Media Component       | Volume (for 100 mL total)             |
 |-------------------------------|---------------------------------------|
 |RPMI-1640                      |88 mL                                  |
@@ -23,6 +24,7 @@ Carry out all work in sterile BSC environment and use sterile technique.
 
 
 ***Recipe for L3 media***
+
   | Culture Media Component     | Volume (for 100 mL total)             |
   |-----------------------------|---------------------------------------|
   |RPMI-1640                    |77.86 mL                               |
