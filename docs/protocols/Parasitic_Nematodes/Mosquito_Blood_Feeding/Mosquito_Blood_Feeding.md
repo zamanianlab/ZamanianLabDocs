@@ -45,19 +45,25 @@
 
     - *D. immitis*: 80 – 160 mf / 20 µL
 
+    - *B. malayi*:
+
 8. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed.
 
 ###  Starting with mf in IP fluid
 
-1. Invert the tube in order for mf to be evenly distributed throughout IP fluid.
+1. Invert the tube in order to evenly distribute the mf throughout the IP fluid.
 
-2. Use the concentration printed on the outside of the tube containing the IP fluid. Determine how much volume of IP fluid you will need to get the desired mf concentration for blood feeding by using C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub>.
+2. Add 20 µL of microfilaremic IP fluid to a glass slide and place a coverslip on top. Count the number of mf in the sample on a compound microscope using the pattern described above. This should be done in duplicate.
+
+  **Note:** It may be necessary to dilute the sample if the mf are too numerous to accurately count. A 1:10 dilution can be carried out by adding 20 µL of microfilaremic IP fluid to 180 µL RPMI-1640 medium, mixing, and dispensing 20 µL on a glass slide for quantification.
+
+3. Determine how much volume of IP fluid you will need to get the desired mf concentration for blood feeding by using C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub>. If a 1:10 dilution was used to count the microfilariae, multiply the concentration of mf/20 µL observed in step 2 by 10 to account for the dilution.
 
     **Note:**  The blood feeders used for feeding hold 10 mL of blood. When calculating final volume use 11 mL for 1 mL overage. Multiply this by number of feeders you will need.
 
-3. Add the calculated amount of IP fluid to a 15 mL conical tube. Spin at 900 rpm for 10 min. You should see a pellet of mf at the bottom of the tube. Remove all supernatant without disturbing pellet. Add the final volume of blood you desire (11 mL x the number o feeders).
+4. Add the calculated amount of IP fluid to a 15 mL conical tube. Spin at 900 rpm for 10 min. You should see a pellet of mf at the bottom of the tube. Remove all supernatant without disturbing pellet. Add the final volume of blood you desire (11 mL x the number of feeders).
 
-4. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed.
+5. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed.
 
 ## Assembling **glass** blood feeders and feeding mosquitoes
 
@@ -104,6 +110,8 @@
 
 14. Affix the carton label to the corresponding carton and place blood fed mosquitoes in the insect incubator.
 
+  **Note:** Mosquito cartons blood fed with *B. pahangi* or *B. malayi* must be double contained by placing the fed cartons inside the mesh cage located inside the incubator.
+
 15. Allow the infection to incubate for 14-15 days before you extract L3 from the mosquitoes.
 
 16. Other important notes:
@@ -144,6 +152,8 @@
     <img src="../img/label_example.png" width="200" />
 
 9. When feeding is complete, remove an aliquot of blood to confirm that the microfilariae are still alive and active. Do not separate blood fed from non-blood fed mosquitoes at conclusion of feeding.
+
+    **Note:** Mosquito cartons blood fed with *B. pahangi* or *B. malayi* must be double contained by placing the fed cartons inside the mesh cage located inside the incubator.
 
 10. Allow the infection to incubate for 14-15 days before you extract L3 from the mosquitoes.
 
