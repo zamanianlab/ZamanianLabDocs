@@ -14,7 +14,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [iTerm](https://iterm2.com/) (feature-rich terminal replacement)
     - [Atom](https://atom.io/) (Versatile IDE with useful [packages](https://atom.io/packages) and [themes](https://atom.io/themes))
     - [XQuartz](https://www.xquartz.org/) (open-source window system on which some apps rely)
-    - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS)
+    - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS, can also be isntalled by running `xcode-select --install`)
     - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
     - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
     - [Slack](<http://www.slack.com>) (primary lab communication tool)
