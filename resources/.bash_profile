@@ -7,13 +7,14 @@ export PATH=/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH
 
 # Command Preferences and Shortcuts
 alias h=history
-alias ls="ls -pG" #show directories
-alias l="ls -lhGgo" #show directories
+alias ls="ls -pG" # show directories
+alias l="ls -lhGgo" # show directories
 alias tarup="tar -zcf"
 alias tardown="tar -zxf"
 alias box="cd ~/Box/"
 alias github="cd ~/GitHub/"
-alias htc="ssh mzamanian@submit2.chtc.wisc.edu" #replace with your netid
+alias submit="ssh njwheeler@submit2.chtc.wisc.edu" # replace with your netid
+alias transfer="ssh njwheeler@transfer.chtc.wisc.edu" # replace with your netid
 
 # autojump configuration
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh

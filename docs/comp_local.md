@@ -2,9 +2,11 @@
 
 For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.
 
-1. Update your macOS version to Catalina (v10.15.1)
+1. Update your macOS version to Big Sur (v11.2.2)
 
-2. Install core software:
+2. If the Mac is UW-owned, follow these instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install/update UW-licensed software, including Adobe products, the UW VPN (Cisco Global Protect), Microsoft Office products, and Zoom.
+
+3. Install core software (some of which can be installed/updated via Parallels; instructions for manually installing on a personal computer are linked):
 
     - [Adobe products](https://kb.wisc.edu/69772)
     - [Box Drive](https://www.box.com/resources/downloads/drive) (cloud-based shared file storage)
@@ -20,23 +22,34 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Zoom](https://zoom.us/download) (video meeting software)
     - [Paperpile](https://paperpile.com/) (reference management)
 
-3. If the Mac is UW-owned, follow these instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install UW-licensed software.
-
 4. Install additional bioinformatics and imaging software:
 
     - [Fiji](https://fiji.sc/) (primary software used for image analysis)
     - [FigTree](https://github.com/rambaut/figtree/releases) (graphical viewer of phylogenetic trees)
     - [4Peaks](https://nucleobytes.com/4peaks/index.html) (editing of sequence trace files)
 
-5. Replace your `~/.bash_profile` with the lab `.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
+5. Change the default Shell to `bash` (default on new Mac machines is `zsh`):
 
-6. Create your R environment:
+    - Open System Preferences
+
+    - Click Users & Groups
+
+    - Click the lock icon in the bottom left of the window and unlock with your password
+
+    - Right-click (or hold Control and click) on your username in the left pane and select Advanced Options...
+
+    - Choose `/bin/bash` as the Login shell
+
+6. Add contents of the lab `.bash_profile` to your current `~/.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
+
+7. Create your R environment:
+
     - Use [CRAN](https://cloud.r-project.org/bin/macosx/R-4.0.2.pkg) to install or update R to version 4.0.2
 
       *NOTE: We will upgrade to new versions of R as a group.*
 
-    - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/R_setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects. This will also install our [ZamanianLabREnvironment](https://github.com/zamanianlab/ZamanianLabREnvironment).
+    - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/R_setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects. This will also install our [ZamanianLabThemes](https://github.com/zamanianlab/ZamanianLabThemes).
 
-7. Manage your Python environment using [Miniconda](comp_conda.md).
+8. Manage your Python environment using [Miniconda](comp_conda.md).
 
-8. Use [Homebrew](comp_homebrew.md) to install other command-line software (optional).
+9. Use [Homebrew](comp_homebrew.md) to install other command-line software (optional).

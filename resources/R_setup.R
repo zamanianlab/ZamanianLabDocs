@@ -3,6 +3,7 @@ install.packages("tidyverse")
 #ggplot2, dplyr, tidyr, readr, purrr, tibble, stringr, forcats, lubridate, hms, magrittr...
 
 install.packages("conflicted")
+install.packages("ggtext")
 install.packages("cowplot")
 install.packages("patchwork")
 install.packages("ggpubr")
@@ -33,6 +34,5 @@ BiocManager::install("biomaRt")
 BiocManager::install("topGO")
 BiocManager::install("Rgraphviz")
 
-#install lab environment
-devtools::install_github("zamanianlab/ZamanianLabREnvironment")
-
+#install lab themes
+devtools::install_github("zamanianlab/ZamanianLabThemes")

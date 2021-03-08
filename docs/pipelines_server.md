@@ -32,6 +32,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
   	`ssh {net-id}@submit2.chtc.wisc.edu`
 
+    **Note:** If you correctly updated your `~/.bash_profile` by following the [macOS environment setup instructions](comp_local.md), then you can use the simple `submit` to `ssh` into the node.
+
 3. File system
 
     Each net-id is associated with a `home` folder, where we manage job submission scripts. Our lab also has a shared `staging` folder, for transfer of large files in and out of the CHTC system. The CHTC does not use a shared file system, but you can request the storage you need for any given job.
@@ -81,6 +83,8 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     ```
     </details>
+
+    **Note:** If you correctly updated your `~/.bash_profile` by following the [macOS environment setup instructions](comp_local.md), then you can use the simple `transfer` to `ssh` into the node.
 
     For ImageXpress data, an entire experiment may include >10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the `input/` and `metadata/` directories of `/staging/groups/zamanian_group/` called `transfer_images.sh` and `transfer_metadata.sh`. These scripts reference the text file `/staging/groups/zamanian_group/plates.txt` and will loop through the plate names, sequentially transferring them from ResearchDrive and archiving them upon arrival. Edit `plates.txt` in the terminal using `vi` or `nano`, or edit the file locally and then upload it to `/staging/groups/zamanian_group/input/` (be sure to include a single plate name on each line with a blank line at the end of the file.) Run `sh transfer_metadata.sh` and `sh transfer_images.sh` to initate the transfers.
 
