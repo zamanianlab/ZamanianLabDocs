@@ -638,6 +638,7 @@
 <p>Submit nodes</p>
 <p>Jobs on the CHTC are deployed from submit nodes. You can <code>ssh</code> into our assigned submit node (submit2) to run and monitor jobs using your UW net-id and password.</p>
 <p><code>ssh {net-id}@submit2.chtc.wisc.edu</code></p>
+<p><strong>Note:</strong> If you correctly updated your <code>~/.bash_profile</code> by following the <a href="../comp_local/">macOS environment setup instructions</a>, then you can use the simple <code>submit</code> to <code>ssh</code> into the node.</p>
 </li>
 <li>
 <p>File system</p>
@@ -679,6 +680,7 @@ ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.ed
 smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/metadata&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172&quot;</span>
 </code></pre></div>
 </details></p>
+<p><strong>Note:</strong> If you correctly updated your <code>~/.bash_profile</code> by following the <a href="../comp_local/">macOS environment setup instructions</a>, then you can use the simple <code>transfer</code> to <code>ssh</code> into the node.</p>
 <p>For ImageXpress data, an entire experiment may include &gt;10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the <code>input/</code> and <code>metadata/</code> directories of <code>/staging/groups/zamanian_group/</code> called <code>transfer_images.sh</code> and <code>transfer_metadata.sh</code>. These scripts reference the text file <code>/staging/groups/zamanian_group/plates.txt</code> and will loop through the plate names, sequentially transferring them from ResearchDrive and archiving them upon arrival. Edit <code>plates.txt</code> in the terminal using <code>vi</code> or <code>nano</code>, or edit the file locally and then upload it to <code>/staging/groups/zamanian_group/input/</code> (be sure to include a single plate name on each line with a blank line at the end of the file.) Run <code>sh transfer_metadata.sh</code> and <code>sh transfer_images.sh</code> to initate the transfers.</p>
 <p>Both of these scripts will require a continuous ssh connection while they transfer. Transferring metadata will only take a few minutes, but transferring multiple plates of images will take several hours. The transfer process can be sent to the background (allowing the user to close the ssh connection) by using the <code>screen</code> tool. There are a number of helpful tutorials online, but a few sample commands are shown below.</p>
 <p><details>
