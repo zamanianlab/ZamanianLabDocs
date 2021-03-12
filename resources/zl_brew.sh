@@ -17,27 +17,3 @@ brew install homebrew/core/gzip
 brew install watch
 brew install wdiff --with-gettext
 brew install wget
-
-# bioinformatics
-brew cask install java
-brew cask install homebrew/cask-versions/adoptopenjdk8
-brew tap brewsci/bio
-brew tap brewsci/science
-brew install blast
-brew install trimmomatic
-brew install fastp
-brew install hisat2
-brew install minimap2
-brew install bwa
-brew install igv
-brew install fastx_toolkit
-brew install fastqc
-brew install bedtools
-brew install vcftools
-brew install bcftools
-brew install bedops
-brew install SAMtools
-brew install snpeffto
-brew install phylip
-brew install hmmer
-brew install nextflow

@@ -50,6 +50,6 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
     - Run [Setup.R](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/R_setup.R) to install core lab packages. You are free to to install additional packages that are specific to you and your projects. This will also install our [ZamanianLabThemes](https://github.com/zamanianlab/ZamanianLabThemes).
 
-8. Manage your Python environment using [Miniconda](comp_conda.md).
+8. Use [Homebrew](comp_homebrew.md) to install other command-line tools (you can use Homebrew to install many bioinformatics packages as well).
 
-9. Use [Homebrew](comp_homebrew.md) to install other command-line software (optional).
+9. Manage your Python environment using [Miniconda](comp_conda.md).
