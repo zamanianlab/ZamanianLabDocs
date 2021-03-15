@@ -474,13 +474,12 @@
                 
                 
                 <h1 id="homebrew">Homebrew</h1>
-<p><a href="https://brew.sh">Homebrew</a> is a package manager for macOS. You can install common bioinformatics software using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:</p>
+<p><a href="https://brew.sh">Homebrew</a> is a package manager for macOS. It allows you to install common software and automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:</p>
 <div class="highlight"><pre><span></span><code>/bin/bash -c <span class="s2">&quot;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
 </code></pre></div>
-<p>While most bioinformatics tasks will be run using servers, you may choose to use Homebrew to install bionformatics programs to your local computer to carry out some tasks locally. The following command installs a list of informatics programs to your computer, which should be modified based on your needs.</p>
-<p><div class="highlight"><pre><span></span><code>sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
+<p>One of the main ways we use Homebrew is to maintain a development environment on our macOS's that will be consistent with the Linux OS on our CHTC node. For this reason, we install the GNU version of many command line tools (e.g. grep, sed, awk). After installing Homebrew, download and run <a href="https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/zl_brew.sh">this Bash script</a> to install all of the relevant GNU tools. If you have this GitHub repo cloned in <code>$HOME/GitHub</code>, you can use the following command to install the GNU tools:</p>
+<div class="highlight"><pre><span></span><code>sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 </code></pre></div>
-<a href="https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/zl_brew.sh">Link</a> to bash installation script that includes GNU versions of command line tools.</p>
 <p>You can also install many common bionformatics packages with brew, for example:</p>
 <div class="highlight"><pre><span></span><code>brew install blast
 </code></pre></div>
