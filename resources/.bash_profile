@@ -2,8 +2,8 @@ echo "Sync Profile Loaded"
 
 alias refresh="source ~/.bash_profile"
 
-# Paths
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH
+# GNU bin paths
+export PATH=/usr/local/opt/gnu-which/libexec/gnubin/usr/local/opt/gnu-tar/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/opt/gnu-indent/libexec/gnubin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/binutils/bin:/usr/local/bin:$PATH
 
 # Command Preferences and Shortcuts
 alias h=history

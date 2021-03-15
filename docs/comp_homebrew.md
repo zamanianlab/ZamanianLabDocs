@@ -1,17 +1,16 @@
 # Homebrew
 
-[Homebrew](https://brew.sh) is a package manager for macOS. You can install common bioinformatics software using Homebrew, which automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:
+[Homebrew](https://brew.sh) is a package manager for macOS. It allows you to install common software and automatically determines the necessary configuration for successful installation on your machine. Once installed, Homebrew will also keep a log of software that needs updating and will quickly update all of your installed software with only a few keystrokes. Install Homebrew with the following command:
 
 ``` bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-While most bioinformatics tasks will be run using servers, you may choose to use Homebrew to install bionformatics programs to your local computer to carry out some tasks locally. The following command installs a list of informatics programs to your computer, which should be modified based on your needs.
+One of the main ways we use Homebrew is to maintain a development environment on our macOS's that will be consistent with the Linux OS on our CHTC node. For this reason, we install the GNU version of many command line tools (e.g. grep, sed, awk). After installing Homebrew, download and run [this Bash script](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/zl_brew.sh) to install all of the relevant GNU tools. If you have this GitHub repo cloned in `$HOME/GitHub`, you can use the following command to install the GNU tools:
 
 ``` bash
 sh ~/Github/ZamanianLabDocs/resources/zl_brew.sh
 ```
-[Link](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/zl_brew.sh) to bash installation script that includes GNU versions of command line tools.
 
 You can also install many common bionformatics packages with brew, for example:
 
