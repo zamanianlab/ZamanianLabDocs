@@ -14,9 +14,11 @@ This resource is by nature an open, living, and collaborative document. We are u
 
 1. Install MkDocs and the [Material](https://squidfunk.github.io/mkdocs-material/) theme
 
-      `conda install -c conda-forge mkdocs`
+      `conda install -c conda-forge mkdocs=1.1.2`
 
-      `conda install -c conda-forge mkdocs-material`
+      `conda install -c conda-forge mkdocs-material=6.1.7`
+
+      `conda install -c conda-forge mkdocs-material-extensions=1.0.1`
 
 2. Clone the ZamanianLabDocs repo:
 
