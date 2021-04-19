@@ -1,6 +1,6 @@
 # dsRNA Synthesis for RNAi
 
-**Note**: This protocol assumes you have already cloned a ~400-600 base pair fragment of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGG 3′).
+**Note**: This protocol assumes you have already cloned a ~400-600 base pair fragment of gene target into pGEM-T. Use Primer3 to select primers for initial cloning efforts and use BLAST to check for potential off-target effects. Add T7 overhangs to working primers (5′ TAATACGACTCACTATAGGGAGA 3′).
 
 ## Materials
 
@@ -9,7 +9,7 @@
 
 ## Adding T7 sites and scaling up the T7 template
 
-1. Assemble master mix according to table below (this is for a single T7 reaction, scale as needed).
+1. Assemble master mix according to table below. The table represents a single T7 reaction, scale as needed. (GSP = Gene Specific Primer)
 
     |  Component | Volume |
     |--------------|---------|
@@ -22,7 +22,7 @@
     |Reverse Primer (GSP+T7)| 1 µL |
     |**TOTAL** | 25 µL |
 
-2. Run with the following **Thermal Cycler Parameters**
+2. Run with the following thermocycler parameters.
 
     |  Time  | Temperature | Cycles |
     |--------|-------------|--------|
@@ -37,7 +37,7 @@
 ## Purification and concentration of DNA
 Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
-1. Add 5 volumes of Buffer PB to 1 volume of the PCR reaction and mix.
+1. Add 5 volumes of Buffer PB to 1 volume of the pooled PCR reaction and mix.
 
 2. If total PCR reaction+Buffer exceeds 750 µL, split mixture accordingly and run through column in succession. Discard flow-through after each 750 µL sample has passed through column. (Max of four, 750 µL samples per column)
 
@@ -90,7 +90,7 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 ## dsRNA Purification (cartridge or phenol/chloroform)
 
-**Note:** You can use either the filter cartridges associated with this kit or carry out a phenol/chloroform purification.
+**Note:** You can use either the filter columns associated with this kit or carry out a phenol/chloroform purification. If using the dsRNA to inject infected mosquitoes, use phenol/chloroform.
 
 1. Add the following to the previous 50 µL reaction (scale as needed):
 
@@ -106,34 +106,32 @@ Concentrate the DNA using the Qiagen MinElute PCR Purification Kit
 
 3. Spin at 15,000 x g for 10 min. at 4ºC.
 
-4. Transfer top phase (aqueous) to a new RNase-free tube.
+4. Transfer top phase (aqueous) to a new RNase-free tube. Be very careful not to transfer any interphase or bottom phase; it is better to leave a small bit of aqueous phase than to transfer some interphase.
 
-    - **Note**: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is chloroform. When taking tube out of centrifuge, if the top layer turns slightly opaque, that is a good indication of a successful IVT reaction.
+    - **Note**: If previous reactions were successful, three layers should appear in the tube: the bottom layer is phenol, middle layer are proteins and lipids, and the top layer is aqueous. When taking the tube out of the centrifuge, if the top layer turns slightly opaque, that is a good indication of a successful IVT reaction.
 
 5. To aqueous dsRNA, add ~500 µL isopropanol.
 
-    - Optional: Add 0.1 volume of 3M sodium acetate and 2-3 volumes of cold 100% EtOH.
-
-6. Place tube at -80ºC for 30 min.
+6. Place tube at -80ºC for 30 min to precipitate RNA.
 
 7. Spin at 15,000 x g for 15 min. at 4ºC. You should see pellet after centrifugation (gelatinous blob).
 
 8. Remove supernatant.
 
-9. Wash pellet with ~600 µL cold 70% ethanol.
+9. Add 600 µL cold 70% ethanol and gently pipette the pellet up and down.
 
 10. Spin at 5,000 x g for 5 min. at 4ºC.
 
-    - Optional: Wash again if the pellet appears salty (white instead of clear).
+    - The pellet should appear clear and not white. If the pellet is pale white, a second wash with 70% ethanol can help clean out the salt.
 
 11. Remove ~500 µL of supernatant, briefly spin in the minicentifuge. Use p20 remove as much of the supernatant as possible. Briefly spin in minicentrifuge. Use p2.5 remove the remaining supernatant.
 
 12. You can use the p2.5 tip to move the gelatinous pellet up the side of the tube to facilitate drying and collect any remaining supernatant that is in tube.
 
-13. Air dry, and resuspend in RNase-free water at a volume of 1-2 µg/µL.
+13. Air dry in the BSC for 5-10 min. and resuspend in RNase-free water at a volume of 1-2 µg/µL.
 
-    - **Note:** If pellet is at bottom etching = 100 µg. Visible pellets form when there is 5 µg of dsRNA. When you add water, the pellet will fall into solution and begin to zip around the top of the water until it goes into solution. If it doesn't, this means there may be too much salt in your RNA, or there is no RNA present.
+    - **Note:** If pellet is at bottom etching = 100 µg. Visible pellets form when there is 5 µg of dsRNA. When you add water, the pellet will fall into solution and float until it goes into solution.
 
-14. Make a 1:10 dilution of original product by taking 1 µL dsRNA and 9 µL nuclease-free water. This will be used for a gel and to asses amount and purity of dsRNA using Nanodrop.
+14. Make a 1:10 dilution of original product by taking a 1:10 dilution and measure the concentration and purity with the NanoDrop.
 
-15. Record concentration, date, and initials on tube and store in the appropriate box in the -80ºC.
+15. Record concentration, date, and initials on tube and store in the appropriate box in the -80ºC. Create separate aliquots if necessary.

@@ -6,11 +6,11 @@
 
 ## Protocol
 
-**Note:** Follow the kit protocol, with minor modifications that include the mixing of Oligo dT and Random Hexamer primers. 
+**Note:** Follow the kit protocol, with minor modifications that include the mixing of Oligo dT and Random Hexamer primers.
 
 1. Mix and centrifuge each component of the SuperScript III kit (-20°C Stag-moose).
 
-2. Combine the following reaction in a 0.2 mL PCR tube. For cloning, maximize the total RNA input (8 µL). For qPCR, standardize total RNA input across samples if possible.
+2. Combine the following reaction in a 0.2 mL PCR tube. For cloning, maximize the total RNA input (8 µL). For qPCR, standardize total RNA input across samples.
 
     | Component | Volume |
     |--------------|---------|

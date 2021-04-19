@@ -8,44 +8,45 @@
 - 2.5 inch strainer (B00428M7OI)
 - Porcelain mortar/pestle
 - Ziploc disposable plastic dishes 8oz (top cut off)
-- Gentamicin 100X stock (0.4 mg/µL, Sigma G1272-100ML)
 - Pen-Strep 100X stock (10,000 U/mL)
 - Ice bucket
 
     ![Image1](img/img1.png)
 
 ### Methods
-1. Aliquot 500 mL of RPMI-1640 into two bottles, with equal volume in each (2 x 250 mL). Add 2.5 mL of 100X Pen-Strep stock solution and 2.5 mL of 100X Gentamicin stock. Then separate the RPMI-1640 into 2 separate bottles. Place one bottle in the fridge or on ice to cool and the other in a 37°C incubator.
+1. Make 500 mL RPMI + P/S. Place 250 mL in the fridge and one at 37°C.
 
-2. Cold anesthetize the mosquitoes in the cartons (place the cartons in -20°C refrigerator for about 20-30 s., or until knocked down). You can put up to ~600 mosquitoes in the mortar, so combine the cartons as needed (2 cartons into 1 or 3 cartons into 2). When ready, quickly transfer, at once, all mosquitoes in the carton to the mortar.
+2. Cold anesthetize the mosquitoes in the cartons by placing the cartons in 4°C refrigerator for about 2-4 min., or until knocked down. You can put up to ~600 mosquitoes in the mortar, so combine the cartons as needed. When all mosquitoes are knocked down, quickly transfer all mosquitoes in the carton to the mortar.
+
+    - **Note**: L3 health after extraction is directly related to how long they are cold in the mosquitoes. Be careful not to leave infected mosquitoes in the fridge for too long; it is a good idea to check the carton every 30 s. Note that anesthetized mosquitoes can still cling to the side of the cardboard.
 
     ![Image2](img/img2.png)
 
-3. Using the pestle, gently tap the mosquitoes to disrupt the cuticle (use a tapping motion, not a grinding motion). Do not over tap; more is not better. Gently tap until only a few intact mosquitoes are remaining.
+3. Using the pestle, gently tap the mosquitoes to disrupt the cuticle. Do not grind or over tap; more is not better. Gently tap until only a few intact mosquitoes are remaining.
 
     ![Image3](img/img3.png)
 
-4. Transfer the mosquitoes to the mesh strainer and place the strained into a Ziploc plastic dish containing cold RPMI-1640 (dish should be ~ half full of media). Dip the strainer up and down 3-5 times to remove scales, eggs, etc (the media should appear cloudy). Do not dip too much as you can lose the L3s in the strainer.
+4. Transfer the mosquitoes to the mesh strainer and place the strained into a Ziploc plastic dish containing cold RPMI + P/S + G (dish should be ~ half full of media). Dip the strainer up and down 3-5 times to remove scales, eggs, etc (the media should appear cloudy). Do not dip too much as you can lose the L3s in the strainer.
 
     ![Image4](img/img4.png)
 
-5. Discard the RPMI-1640 and add clean cold RPMI-1640 to the dish (1/2 full) and dip up and down 3-5x to further rinse the L3s in the strainer.
+5. Discard the media and add clean cold RPMI + P/S to the dish (1/2 full) and dip up and down 3-5x to further rinse the L3s in the strainer.
 
-6. Transfer the strainer of L3s to a clean second dish containing warm RPMI-1640 (40-50 mL, enough to cover the L3s) and incubate at 37°C for *Brugia spp.* or 39°C for *Dirofilaria* for 30 min. The incubation time will allow the L3s to migrate out of the strainer and into the warm RPMI-1640.
+6. Transfer the strainer of L3s to a clean second dish containing warm RPMI + P/S (40-50 mL, enough to cover the L3s) and incubate at 37°C for *Brugia spp.* or 39°C for *Dirofilaria* for 30 min. The incubation time will allow the L3s to migrate out of the strainer and into the warm RPMI-1640.
 
     ![Image5](img/img5.png)
 
-7. Remove strainer from dish and transfer all L3s into a Petri dish containing a small amount (~20 mL) of fresh, 37°C RPMI-1640.
+7. Remove strainer from dish and transfer all L3s (which have migrated into the warm media) into a Petri dish containing a small amount (~20 mL) of fresh, warm RPMI + P/S.
 
-8. Count the total number of L3s harvested and from how many mosquitoes crushed, and aliquot L3s as necessary.
+8. Count the total number of L3s harvested and from how many mosquitoes crushed, and aliquot L3s as necessary. L3s should be transferred to [complete L3 media](../General_Parasite_Culture/General_Parasite_Culture.md) for incubation.
 
-9. Once the extractions are complete, rinse and wash all materials used. Dispose of the used plates in the biohazard bin. Do not throw away the sieve or Ziploc dishes. They can be reused.
+9. Once the extractions are complete, rinse and wash all materials used. Dispose of the used plates in the biohazard bin. Do not throw away the sieve or Ziploc dishes.
 
 ## B. Extraction of L3 via Dissections
 ### Materials
 - 1X *Aedes* saline (10X recipe below)  
-- Glass Slides  
-- Dissection Probes  
+- Glass slides  
+- Dissection probes  
 - Disposable transfer pipettes   
 - Heat Block  
 - Bucket of Ice  
@@ -53,18 +54,18 @@
 - Forceps  
 - KimWipes   
 - 1.5 mL Eppendorf tubes   
-- 6 cm Petri dish containing pre-warmed RPMI-1640 + 1% Pen-Strep (v/v)
+- 6 cm Petri dish containing pre-warmed RPMI-1640 + P/S + G (v/v)
 
 ### Methods
 1. Clean and ethanol the work area, stage of dissecting scope, and tools prior to starting the dissections.
 
-2. Turn on the heat block and allow it to warm up to 37°C.
+2. Warm the heat block to 37°C.
 
-3. Aliquot 1X *Aedes* saline into 1.5 mL Eppendorf tubes. Place tubes in warming plate to allow to come to 37°C.
+3. Aliquot 1X *Aedes* saline into 1.5 mL Eppendorf tubes. Place tubes in heat block.
 
-4. Under sterile conditions, aliquot ~10 mL of pre-warmed RPMI-1640 amended with P/S and Gentamicin into a small 6 cm Petri dish. Place the Petri dish on top of the heat block to keep the RPMI-1640 warm.
+4. Under sterile conditions, aliquot ~10 mL of pre-warmed RPMI + P/S into a small 6 cm Petri dish. Place the Petri dish on top of the heat block to keep the media warm.
 
-5. Place a large glass Petri dish lined with filter paper on ice. Cold anesthetize the mosquitoes in the cartons by placing the cartons in 4°C refrigerator until knocked down (~2-3 min). Once knocked down, put mosquitoes on top of the filter paper in the Petri dish and cover with the glass lid.
+5. Place a large glass Petri dish lined with filter paper on ice. Cold anesthetize the mosquitoes as described above and transfer to the dish on ice.
 
 6. Take a clean glass slide and in the center add a puddle of 1X *Aedes* saline using a transfer pipette.
 

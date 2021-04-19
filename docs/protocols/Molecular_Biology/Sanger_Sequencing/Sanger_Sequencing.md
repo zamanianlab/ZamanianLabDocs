@@ -30,7 +30,7 @@ See the [Biotech Center website](https://www.biotech.wisc.edu/services/dnaseq/se
     | Water   | to 20 µL |
     |**Total** | 20 µL   |
 
-    **Note:** 99% of the problems that arise during a sequencing reaction arise from including two primers instead of 1. Remember that a PCR takes 2 primers but a sequencing reaction only takes 1, so you will have 2X as many reactions if you plan to sequence in both directions.
+    **Note:** If a problem arises during sequencing, it is very likely that two primers were inadvertently used instead of 1. A PCR takes 2 primers but a sequencing reaction only takes 1, so you will have 2X as many reactions if you plan to sequence in both directions.
 
 2. Run the following thermocycler program:
 

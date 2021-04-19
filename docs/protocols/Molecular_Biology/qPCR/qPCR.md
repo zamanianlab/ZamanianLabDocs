@@ -9,7 +9,7 @@
 
 ## Preparation
 
-- Two-step qPCR starts with RNA that has been DNase-treated and quantified with NanoDrop. Follow the the RNA extraction protocol for [*C. elegans*](../../Caenorhabditis_elegans/RNA_Extraction/RNA_Extraction.md) or [parasites](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md).
+- Two-step qPCR starts with RNA that has been DNase-treated and quantified with Qubit. Follow the the RNA extraction protocol for [*C. elegans*](../../Caenorhabditis_elegans/RNA_Extraction/RNA_Extraction.md) or [parasites](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md).
 
 - Use the Invitrogen SuperScript III kit to perform first-strand cDNA synthesis.
 
@@ -33,7 +33,7 @@
 
 ### Primer stock dilutions
 
-qPCR primers must be optimized for each new RNA/cDNA template. Primer optimization involves primer dilutions to find the optimal primer concentration for each primer set + template combination. Depending on your experiments, you should probably use the **same stage, non-experimental** cDNA sample that is at the **same concentration** as your experimental samples (the best practice is to include this sample in your cDNA synthesis reaction). The PowerUp SYBR Green Master Mix kit recommends trying 300, 500, and 800 nM final concentrations, but you can add additional (lower) concentrations as well.
+qPCR primers must be optimized for each new RNA/cDNA template. Primer optimization involves primer dilutions to find the optimal primer concentration for each primer set + template combination. Depending on your experiments, you should probably use the **same stage, non-experimental** cDNA sample that is at the **same concentration** as your experimental samples (the best practice is to include this sample in your cDNA synthesis reaction). If you are working with *C. elegans*, then RNA is not as precious, but if you are working with parasites then it is paramount not to waste RNA from experimental samples. The PowerUp SYBR Green Master Mix kit recommends trying 300, 500, and 800 nM final concentrations, but you can add additional (lower) concentrations as well.
 
 ### Reference Genes
 
@@ -62,7 +62,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
     | 10    | **10.00**     | 50      | 2000      |
 
 
-    **Note:** These primer dilutions (750, 1250, and 2000 nM) will achieve intented qPCR reaction concentrations (300, 500, and 800 nM), as shown below. 8 μL of diluted primer stocks from above will be mixed with 2 μL of cDNA and 10 μL of Master Mix (MM) for a final reaction volume of 20 μL. Scale primer volumes above as necessary, depending on the number of reactions you are planning.
+    **Note:** These primer dilutions (750, 1250, and 2000 nM) will achieve the intended qPCR reaction concentrations (300, 500, and 800 nM), as shown below. 8 μL of diluted primer stocks from above will be mixed with 2 μL of cDNA and 10 μL of Master Mix (MM) for a final reaction volume of 20 μL. Scale primer volumes above as necessary, depending on the number of reactions you are planning.
 
     | C<sub>i</sub> (C<sub>f</sub> from above, nM) | V<sub>i</sub> (μL) | V<sub>f</sub> (μL) | C<sub>f</sub> (Primers, nM) |
     |----------------------------------|------------------------------|--------------------------------------|------------------------------|
@@ -77,15 +77,17 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
 1. Design the plate setup on Benchling (example below).
 
-    a. If possible, do not add any reactions to the outer columns or rows to ensure no evaporation (though I have not run into evaporation problems regardless of well location).
+    a. If possible, do not add any reactions to the outer columns or rows to ensure no evaporation (though we have not run into evaporation problems regardless of well location).
 
     b. Keep the same primers next to each other on the plate.
 
     c. Be sure to include no-template negative controls to check for contamination in your primer stocks.
 
+    d. In the table below, there are 3 different transgenic *C. elegans* strains (ZAM13A, ZAM14B, and ZAM17B), 3 different primer sets (329/330, 343/344, and 506/507), and 3 different primer dilutions (300, 500, and 800). The cells are color-coded by primer set.
+
     ![Optimization Setup](img/optimization_setup.png)
 
-2. Dilute an aliquot of the cDNA to 2.5 ng μL so that 2 μL input cDNA will make 5ng/qPCR (or dilute to half of the final mass so that you can add 2 μL to the reaction).
+2. Dilute an aliquot of the cDNA to 2.5 ng/μL so that 2 μL input cDNA will make 5ng/qPCR (or dilute to half of the final mass so that you can add 2 μL to the reaction).
 
 3. Create primer + PowerUp SYBR Green master mixes by adding 10 μL PowerUp SYBR Green * (n + 1) + 8 μL primer dilution * (n + 1) to a single tube (one master mix per primer dilution).
 
@@ -97,7 +99,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
     b. Another strategy for keeping track of pipetting is arranging your pipette tip box such that you know exactly which tip will be the last one to be used.
 
-6. Add 18 μL of the proper master mix to the dot of cDNA and allows the mixture to fall to the bottom of the tube.
+6. Add 18 μL of the proper master mix to the dot of cDNA and allow the mixture to fall to the bottom of the tube.
 
 7. Carefully seal the plate with sealing film.
 
@@ -137,9 +139,9 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
     g. Choose Standard.
 
-6. Click the “Plate Setup” menu (orange arrow).
+6. Click the “Plate Setup” menu.
 
-    a. In the “Define Targets and Samples” tab, add your targets and samples to the appropriate panes. For primer optimization runs, the “Sample Names” should be the different primer dilutions (i.e. 300, 500, and 800).
+    a. In the “Define Targets and Samples” tab, add your targets (the transcript that you are amplifying) and samples (the RNA source) to the appropriate panes. For primer optimization runs, the “Sample Names” should be the different primer dilutions (i.e. 300, 500, and 800).
 
     b. Ignore the “Biological Replicates” pane even if you have biological replicates.
 
@@ -147,7 +149,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
     a. Design the plate in the same arrangement as designed on Benchling. Select a well or range of well and click the boxes next to the proper target and sample.
 
-    b. Note: each experimental sample should also include the “U” task next to the target name. Before defining no-template negative controls in the plate layout (in this case, wells C1 and D1), click the “N” box in the Task section.
+    b. **Note**: each experimental sample should also include the “U” task next to the target name. Before defining no-template negative controls in the plate layout (in this case, wells C1 and D1), click the “N” box in the Task section. The no-template negative control wells will not have a sample label.
 
     ![Plate Layout](img/plate_layout.png)
 
@@ -155,15 +157,15 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
     a. Setup the thermocycler program according to the below screenshot. Changes that need to be made from the default program:
 
-      i. A 2 minute, 50°C hold step needs to be added before the 95° hold step in the Holding Stage.
+        i. A 2 minute, 50°C hold step needs to be added before the 95° hold step in the Holding Stage.
 
-      ii. The 95° hold step should be changed to 2 minutes.
+        ii. The 95° hold step should be changed to 2 minutes.
 
-      iii. Based on your primers, you probably need to add a 3rd step to the Cycling Stage. Adjust the 2nd step to 15 seconds and the annealing temperature validated with the initial PCR used to test the primers on plasmid/cDNA template. Add a 3rd step with a 1 minute, 72°C  extension. Deselect the “Data Collection” icon on the annealing step and select it on the extension step.
+        iii. Based on your primers, you probably need to add a 3rd step to the Cycling Stage. Adjust the 2nd step to 15 seconds and the annealing temperature validated with the initial PCR used to test the primers on plasmid/cDNA template. Add a 3rd step with a 1 minute, 72°C  extension. Deselect the “Data Collection” icon on the annealing step and select it on the extension step.
 
-      iv. Change the Melt Curve Stage from “Step and Hold” to “Continuous.”
+        iv. Change the Melt Curve Stage from “Step and Hold” to “Continuous.”
 
-      v. Change the percentage of the ramp rate to 10%.
+        v. Change the percentage of the ramp rate to 10%.
 
       ![Run Method](img/run_method.png)
 
@@ -175,7 +177,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
 1. After the run is complete, click the Analysis menu.
 
-    a. You can quickly analyze the run in the StepOne program, but the lab also has an R script that allows for more customized analysis.
+    a. You can quickly analyze the run in the StepOne program, but the lab also has an R template that allows for more customized analysis.
 
 2. On the thermocycler computer, click Export
 
@@ -209,7 +211,7 @@ qPCR primers must be optimized for each new RNA/cDNA template. Primer optimizati
 
 5. Use `~/Box/ZamanianLab/Data/qPCR/primer_optimization.R` to analyze the data.
 
-7. Examine the plot in `melt_curves.pdf` (left).
+7. Examine the plot in `melt_curves.pdf` (below, left).
 
     a. The plot should contain 2 columns labeled Derivative and Value; these show the changes in fluorescence emitted at different temperatures during the melting of the last step of the Melt Curve stage.
 
