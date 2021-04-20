@@ -42,6 +42,8 @@
 
 - [Mosquito Carton Assembly](Parasitic_Nematodes/Mosquito_Carton_Assembly/Mosquito_Carton_Assembly.md)
 
+- [L3 Emergence Assay](Parasitic_Nematodes/L3_Emergence_Assay/L3_Emergence_Assay.md)
+
 - [L3 Extraction from Mosquitoes](Parasitic_Nematodes/L3_Extraction/L3_Extraction.md)
 
 - [*in squito* RNAi](Parasitic_Nematodes/in_squito_RNAi/in_squito_RNAi.md)
