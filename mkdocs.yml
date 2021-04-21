@@ -11,18 +11,24 @@ repo_url:              'https://github.com/zamanianlab/ZamanianLabDocs'
 
 # Configuration
 
+extra_javascript:
+  - 'javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - stylesheets/extra_colors.css
+
 theme:
   name: material
   language: en
-  icon:
-    logo: material/dna
-  favicon:
+  logo: images/dna.svg
+  favicon: images/dna.svg
   palette:
-    - scheme: default
-      primary: blue
-      accent: orange
+    scheme: default
+    primary: black
+    accent: red
   font:
-    text: Roboto
+    text: Lato
     code: Roboto Mono
   features:
     - instant
@@ -56,12 +62,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.tabbed
-
-extra_javascript:
-  - 'javascripts/extra.js'
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-extra_css:
-  - stylesheets/extra.css
 
 nav:
   - Home:                     index.md
