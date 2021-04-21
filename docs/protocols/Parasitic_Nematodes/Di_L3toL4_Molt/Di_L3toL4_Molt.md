@@ -1,4 +1,4 @@
-# *In vitro* Culturing of *Dirofilaria immitis* L3 - L4 Molt
+# *In vitro* Culture of *Dirofilaria immitis* L3 - L4 Molt
 
 ## Materials
 - IMDM (Sigma I3390)
@@ -15,7 +15,7 @@
 - 0.22 µm filter (500 mL, example: VWR 10040-436)
 
 ## Protocol
-### Preparation of Culture Media
+### Preparation of culture media
 1. In an autoclaved glass bottle, prepare the following:
 
     Preparing NCTC if using powder form (1/8th the packet). Store at 4°C for up to one month.
@@ -45,11 +45,11 @@
 
 3. Label filtered media with: name of media, volume, date prepared, and initials. Store media at 4°C. Media is good for 1 month post-preparation.
 
-### Extraction of *D. immitis* L3 from Mosquitoes
+### Extraction of *D. immitis* L3 from mosquitoes
 
 Follow this [Protocol](../L3_Extraction/L3_Extraction.md)
 
-### Preparing Parasites and Culture Plates (24-well bulk culture)
+### Preparing parasites and culture plates (24-well bulk culture)
 
 1. Wash infective larvae:
     - Transfer infective larvae in minimal amount of RPMI-1640 to a 1.5 mL microcentrifuge tube.
@@ -72,7 +72,7 @@ well in 24-well plates (total volume = 1 mL). Total of 600 larvae is typically u
 **Note**: A majority of *D. immitis* L3 should molt within the first 2-3 days in culture.
 
 
-### Preparing Parasites and Culture Plates (96-well individual culture)
+### Preparing parasites and culture plates (96-well individual culture)
 
 1. Prepare a 96-well cell culture plate by adding 200 µL of molting culture media per well under sterile conditions.
 

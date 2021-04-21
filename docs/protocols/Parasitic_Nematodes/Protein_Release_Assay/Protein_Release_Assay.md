@@ -71,7 +71,7 @@
 | 10 μL of 1    | 990 μL                     | 0.01 μg/mL              |
 | 0 μL          | 1000 μL                    | 0 μg/mL                 |
 
-    - **Note:** the working solution is very sensitive to light, so working in the dark is optimal, and standard curve stocks should be protected from the light.
+  - **Note:** the working solution is very sensitive to light, so working in the dark is optimal, and standard curve stocks should be protected from the light.
 
 12. Using a multichannel pipette, add 200 μL of the working solution to each well of the 3K filter plate. Gently pipette up and down, and transfer to a 96-well PCR plate. Add standards to empty wells of the PCR plate or an additional plate. Standards should be measured in duplicate (or greater).
 

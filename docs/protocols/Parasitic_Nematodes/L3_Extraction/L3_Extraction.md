@@ -48,13 +48,13 @@
 - Glass slides  
 - Dissection probes  
 - Disposable transfer pipettes   
-- Heat Block  
-- Bucket of Ice  
+- Heat block  
+- Bucket of ice  
 - Glass Petri plate with filter paper   
 - Forceps  
 - KimWipes   
 - 1.5 mL Eppendorf tubes   
-- 6 cm Petri dish containing pre-warmed RPMI-1640 + P/S + G (v/v)
+- 6 cm Petri dish containing pre-warmed RPMI-1640 + P/S
 
 ### Methods
 1. Clean and ethanol the work area, stage of dissecting scope, and tools prior to starting the dissections.
@@ -75,7 +75,7 @@
 
 9. Allow the dissected head and mouthparts to incubate in the saline for a few minutes to allow all the L3 to migrate into saline.
 
-10. Once all L3 are in saline, individually transfer the L3 into the Petri dish containing the warm RPMI-1640 using a small worm hook (dissecting probe that has been curved into a small hook).
+10. Once all L3 are in saline, individually transfer the L3 into the Petri dish containing the warm RPMI-1640 using a small worm hook (dissecting probe that has been curved into a small hook) or a p20 pipette.
 
 11. Once all L3 have been transferred, place the dish of RPMI-1640 containing L3 back on the heat block and wipe off the slide on the glass slide with a Kimwipe. The slide can be reused.
 
