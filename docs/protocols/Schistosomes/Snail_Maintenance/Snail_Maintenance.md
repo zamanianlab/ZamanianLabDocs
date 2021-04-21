@@ -18,7 +18,7 @@
 
 2. Break off two large leaves of lettuce per tank (may need more depending on density of the tank). There are three tanks for each species of snail (BS90 and NMRI), six tanks total. There may be lettuce left over, put lettuce leftovers and put back in bag and in freezer. If the bag is empty, wash it out in the sink and hang to dry. These bags can be re-used.
 
-    **Note:** Coordinate the purchase of lettuce two weeks before finishing existing supply. It is ordered from the Union, and gets delivered to the Hanson loading dock within a few days of placing the order. Cut the lettuce bottom off of each lettuce head. Package one head of lettuce per Ziploc bag. Do this in B7 and then bring up the bags of packaged lettuce to store in the -20ºC freezer in room 311.
+    **Note:** Coordinate the purchase of lettuce two weeks before finishing existing supply. It is ordered from the Union (608-263-7910), and gets delivered to the Hanson loading dock within a few days of placing the order. Cut the lettuce bottom off of each lettuce head. Package one head of lettuce per Ziploc bag. Do this in B7 and then bring up the bags of packaged lettuce to store in the -20ºC freezer in room 311.
 
 3. Shake in a little bit of Tetramin fish food.
 
