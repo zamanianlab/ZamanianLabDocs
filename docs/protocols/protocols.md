@@ -1,5 +1,7 @@
 # Lab Protocols
 
+[High-Throughput Phenotyping](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/) (For internal use)
+
 ## Lab Tasks
 
 - [Staff Tasks](Tasks/Staff_Tasks/Staff_Tasks.md)
