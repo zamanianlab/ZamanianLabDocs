@@ -1,4 +1,4 @@
-# *In vitro* Culture of *Dirofilaria immitis* L3 - L4 Molt
+# In vitro Culture of Dirofilaria immitis L3 - L4 Molt
 
 ## Materials
 - IMDM (Sigma I3390)

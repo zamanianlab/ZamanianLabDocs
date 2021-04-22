@@ -1,4 +1,4 @@
-# *C. elegans* Total RNA Extraction
+# C. elegans Total RNA Extraction
 
 ## Materials
 

@@ -1,4 +1,4 @@
-# *C. elegans* gDNA Extraction
+# C. elegans gDNA Extraction
 
 ## Materials
 

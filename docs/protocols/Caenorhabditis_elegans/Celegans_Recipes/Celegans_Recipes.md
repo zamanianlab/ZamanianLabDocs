@@ -1,4 +1,4 @@
-# Zamanian Lab _C. elegans_ Recipes  
+# Zamanian Lab C. elegans Recipes  
 
 ## M9 Buffer
 

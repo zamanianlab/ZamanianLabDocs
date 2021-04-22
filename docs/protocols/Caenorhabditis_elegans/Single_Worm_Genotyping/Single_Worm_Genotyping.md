@@ -1,4 +1,4 @@
-# *C. elegans* Lysis PCR
+# C. elegans Lysis PCR
 
 ## Materials
 

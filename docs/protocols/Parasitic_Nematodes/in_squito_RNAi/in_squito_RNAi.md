@@ -1,4 +1,4 @@
-# *in squito* RNAi
+# in squito RNAi
 
 **Adapted from the Kimber lab**
 - Original publication in [PLOS Pathogens](https://doi.org/10.1371/journal.ppat.1001239)

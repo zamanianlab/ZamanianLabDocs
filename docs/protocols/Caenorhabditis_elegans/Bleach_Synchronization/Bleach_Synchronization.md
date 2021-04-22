@@ -1,4 +1,4 @@
-# *C. elegans* Bleach Synchronization
+# C. elegans Bleach Synchronization
 
 ## Materials
 
