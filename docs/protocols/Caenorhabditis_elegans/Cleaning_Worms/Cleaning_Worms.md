@@ -22,14 +22,3 @@
     **Note:** If the original contaminated plate is more than a month old, chunk a larger chunk (5 cm<sup>2</sup>) to the new plate to increase the likelihood of transferring live worms. It might take longer (up to 24 hr.) for the worms to crawl from the chunk to the new plate.
 
 3. If there was a lot of contamination, you might want to repeat steps 1 and 2 to allow the worms a second chance to crawl away from the mold.
-
-## Bleach Solution
-Bleach solution should be stored at 4°C.
-
-  | Reagent | Amount Needed |
-  | ------- | :-----------: |
-  | NaOCl (from Fisher, cat #SS290-1) | 2 mL |
-  | 10 M NaOH* | 0.5 mL |
-  | dH<sub>2</sub>O | up to 10 mL |
-
-*can also use 0.2 g NaOH pellets per 10 mL of total bleach solution.
