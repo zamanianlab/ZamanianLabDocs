@@ -53,6 +53,8 @@
 
 ## Parasitic Nematodes
 
+### Filarial nematodes
+
 - [Parasite Culture](Parasitic_Nematodes/General_Parasite_Culture/General_Parasite_Culture.md)
 
 - [*Dirofilaria immits* L3 to L4 Molt](Parasitic_Nematodes/Di_L3toL4_Molt/Di_L3toL4_Molt.md)
@@ -74,6 +76,9 @@
 - [Protein Release Assay](Parasitic_Nematodes/Protein_Release_Assay/Protein_Release_Assay.md)
 
 - [Adult Phenotyping](Parasitic_Nematodes/Adult_Phenotyping/Adult_Phenotyping.md)
+
+### GINs
+
 
 
 ## *Caenorhabditis elegans*
