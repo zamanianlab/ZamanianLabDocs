@@ -1,30 +1,32 @@
 # Zamanian Lab _C. elegans_ Recipes  
 
-## M9 Buffer
+## M9 Buffer (4x Stock)
 
-1. Mix the following to make 1x stock solutions:
+1. Mix the following to make 4x stock solutions:
 
-    | Reagent | Amount for 1L | Amount for 3L |
-    | ------- | :---------------------: | :---------------------: |
-    | KH<sub>2</sub>PO<sub>4| 3 g | 9 g |
-    | Na<sub>2</sub>HPO<sub>4</sub>| 6 g | 18 g |
-    |NaCl | 5 g| 15 g |
-    | dH<sub>2</sub>O| up to 1 L | up to 3 L |
+    | Reagent | Amount for 4L |
+    | ------- | :---------------------: |
+    | KH<sub>2</sub>PO<sub>4| 48 g |
+    | Na<sub>2</sub>HPO<sub>4</sub>| 96 g |
+    | NaCl | 80 g|
+    | MQ H<sub>2</sub>O | up to 4 L |
 
-2. To make 3 L of 1x stock:
+2. To make 4 L of 4x stock:
 
-    a. Measure all reagents into 2.5 L distilled water in a 4 L beaker and fully dissolve. Then bring volume to a total of 3 L in a graduated cylinder.
+    a. Measure all reagents into 3 L water in a 6 L flask and fully dissolve. Then split the volume into two 2-liter graduated cylinders and bring volume of each to 2 L. Combine in 6 L flask and aliquot into 8 500 mL aliquots.
 
 3. Autoclave on liquid cycle for 1 hr. Make sure to loosen the cap only a little to maintain final volume.
 
-4. When the M9 is cool, add: 0.5 mL filter sterilized MgSO<sub>4</sub> 1 M per 500 mL of M9 buffer.
+4. When the M9 is cool, add: 2 mL sterile MgSO<sub>4</sub> 1 M per 500 mL of M9 buffer.
+
+Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in assays.
 
 ---
 ## MgSO<sub>4</sub>, 1 M Solution (for M9, S Medium)
 
 1. To make 500 mL, completely dissolve 123.24 g of MgSO<sub>4</sub> heptahydrate (FW= 246.48) in 450 mL distilled water (from the carboy). Transfer to a graduated cylinder and bring up to the final volume with distilled water.
 
-2. Filter sterilize into a 500 mL filter bottle using the disposable vacuum filtration systems (VWR- 0.22 μM, Rapid Flow Filter, 500 mL).
+2. Autoclave for 1 hr.
 
 ---
 ## Potassium Phosphate Buffer, 1 M pH 6 (for S Basal/Medium, Freezing Solution)
@@ -33,9 +35,9 @@
 
     | Reagent | Amount Needed |
     | ------- | :-----------: |
-    |KH<sub>2</sub>PO<sub>4</sub> | 136.1 g |
+    | KH<sub>2</sub>PO<sub>4</sub> | 136.1 g |
     | KOH | 17.99 g |
-    | dH<sub>2</sub>O | up to 1 L |
+    | MQ H<sub>2</sub>O | up to 1 L |
 
 2. Autoclave for 1 hr. Store in 500 mL aliquots.
 
@@ -48,8 +50,8 @@
     | ------- | :-----------: |
     | NaCl, 5 M | 20 mL |
     | Potassium Phosphate Buffer, 1 M pH 6| 50 mL |
-    |Cholesterol, 5 mg/mL in ethanol | 1 mL |
-    | dH<sub>2</sub>O | 930 mL |
+    | Cholesterol, 5 mg/mL in ethanol | 1 mL |
+    | MQ H<sub>2</sub>O | 930 mL |
 
 2. Autoclave on liquid cycle for 1 hr. (Note that the solution will be cloudy)
 
@@ -68,7 +70,7 @@
     | CaCl<sub>2</sub>, 1 M | 6 mL |
     | MgSO<sub>4</sub>, 1 M | 6 mL |
     | Phosphate Buffer, 1 M | 20 mL |
-    | dH<sub>2</sub>O | 1886 mL |
+    | MQ H<sub>2</sub>O | 1886 mL |
 
 3. Filter sterilize using a 0.22 μm filter in 499.5 mL aliquots.
 
@@ -77,7 +79,7 @@
 ---
 ## Trace Metals Solution (for S Medium)
 
-1. Dissolve 3.06 g Trace Metals Mix (US Biological, cat # N1010) into 1 L of dH<sub>2</sub>O.
+1. Dissolve 3.06 g Trace Metals Mix (US Biological, cat # N1010) into 1 L of MQ H<sub>2</sub>O.
 
   - Stir with heat until completely solubilized.
 
@@ -98,21 +100,21 @@
     | ------- | :-----------: |
     | Citric Acid Monohydrate | 20 g |
     | Tri-potassium Citrate Monohydrate | 293.5 g |
-    | dH<sub>2</sub>O | up to 1 L |
+    | MQ H<sub>2</sub>O | up to 1 L |
 
 2. Autoclave on liquid cycle for 1 hr.
 
 ---
 ## CaCl<sub>2</sub>, 1 M Solution (for S Medium)
 
-1. To make 500 mL, completely dissolve 73.5 g of CaCl<sub>2</sub> dehydrate (FW=147.01) in 450 mL distilled water (from the carboy). Transfer to a graduated cylinder and bring up to final volume.
+1. To make 500 mL, completely dissolve 73.5 g of CaCl<sub>2</sub> dehydrate (FW=147.01) in 450 mL water (from the carboy). Transfer to a graduated cylinder and bring up to final volume.
 
 2. Autoclave for 1 hr.
 
 ---
 ## NaCl, 5 M Solution
 
-1. To make 1 L, completely dissolve 58.44 g of NaCl (FW=58.44) in 900 mL distilled water (from the carboy). Transfer to a graduated cylinder and bring up to final volume. This is stored without sterilizing.
+1. To make 1 L, dissolve 292 g of NaCl (FW=58.44) in 900 mL distilled water (from the carboy). Transfer to a graduated cylinder and slowly bring up to final volume to 1L to achieve complete dissolution. This is stored without sterilizing.
 
 ---
 ## Freezing Solution
@@ -126,7 +128,7 @@
     | Potassium phosphate buffer, 1 M pH 6 | 100 mL |
     | NaCl, 5 M | 40 mL |
     | Glycerol, 100% | 600 mL |
-    | dH<sub>2</sub>O | up to 2 L |
+    | MQ H<sub>2</sub>O | up to 2 L |
 
 2. Divide into 200 mL aliquots in 250 mL glass square bottles.
 
@@ -144,7 +146,7 @@
     | Tryptone | 10 g |
     | Yeast Extract | 5 g |
     | NaCl | 10 g |
-    | dH<sub>2</sub>O | up to 1 L |
+    | MQ H<sub>2</sub>O | up to 1 L |
 
 2. Autoclave on liquid cycle for 1 hr.
 
@@ -166,10 +168,10 @@
     | Reagent | Amount Needed |
     | ------- | :-----------: |
     | Tryptone | 10 g |
-    |Yeast Extract | 5 g |
+    | Yeast Extract | 5 g |
     | NaCl | 10 g |
     | Agar | 15 g |
-    | dH<sub>2</sub>O | up to 1 L |
+    | MQ H<sub>2</sub>O | up to 1 L |
 
 2. Autoclave on liquid cycle for 1 hr.
 
@@ -186,17 +188,27 @@
 5. Make sure to  mix well after adding the antibiotic and then pour.
 
 ---
-## Bleach solution
+## NaOH, 10 M Solution (for Bleach Solution)
 
 1. Mix the following:
 
-    | Reagent  | Amount for 10 mL | Amount for 200 mL |
-    | -------- | :---------------------: | :----------------------: |
-    | NaOCl (from Fisher cat #SS290-1) | 2 mL | 40 mL |
-    | NaOH Pellets* | 0.2 g | 4 g |
-    | dH<sub>2</sub>O | up to 10 mL | up to 200 mL |
+    | Reagent  | Amount for 10 mL |
+    | -------- | :---------------------: |
+    | NaOH  | 4 g |
+    | dH<sub>2</sub>O | up to 10 mL |
 
-    *Note: If using a 10 M NaOH solution, add 0.5 mL to 10 mL Total Bleach Solution*
+Note: Make immediately before making bleach solution.
+
+---
+## Bleach Solution
+
+1. Mix the following:
+
+    | Reagent  | Amount for 100 mL | Amount for 200 mL |
+    | -------- | :---------------------: | :----------------------: |
+    | NaOCl (from Fisher cat #SS290-1) | 20 mL | 40 mL |
+    | 10 M NaOH | 5 mL | 10 mL |
+    | dH<sub>2</sub>O | up to 100 mL | up to 200 mL |
 
 2. Store at 4°C.
 
