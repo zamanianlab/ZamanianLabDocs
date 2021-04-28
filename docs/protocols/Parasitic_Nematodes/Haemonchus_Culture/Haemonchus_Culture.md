@@ -42,4 +42,4 @@
 
 ### Setup of larval development assay
 
-1. 
+1.
