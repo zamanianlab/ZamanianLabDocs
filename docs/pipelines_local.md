@@ -43,4 +43,4 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
 - plate_num
 - cue
 ```
-*Our lab maintains a common [dictionary](link) of full drug names and plot abbreviations.*
+*Our lab maintains a common [dictionary](https://docs.google.com/spreadsheets/d/1_-A3QW2CzlxZGCgrGRkVHnbFrcXyhWBrQ84GenHfMik/edit#gid=0) of full drug names and plot abbreviations.*
