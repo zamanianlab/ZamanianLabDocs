@@ -1,0 +1,785 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
+      
+      
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Caenorhabditis_elegans/Freezing_Worms_Agar/Freezing_Worms_Agar/">
+      
+      
+        <meta name="author" content="Zamanian Lab">
+      
+      <link rel="shortcut icon" href="../../../../images/dna.svg">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Freeze/Thawing Worms - Zamanian Lab Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Lato",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra_colors.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#freezethawing-worms" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
+      
+  <img src="../../../../images/dna.svg" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Zamanian Lab Docs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Freeze/Thawing Worms
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
+      
+  <img src="../../../../images/dna.svg" alt="logo">
+
+    </a>
+    Zamanian Lab Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labmanual/" class="md-nav__link">
+      Lab Manual
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../protocols/" class="md-nav__link">
+      Lab Protocols
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labsheets/" class="md-nav__link">
+      Lab Sheets
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Computational Guide
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Computational Guide" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Computational Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_local/" class="md-nav__link">
+      Local Environment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_github/" class="md-nav__link">
+      GitHub
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_conda/" class="md-nav__link">
+      Conda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_homebrew/" class="md-nav__link">
+      Homebrew
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    <label class="md-nav__link" for="nav-6">
+      Pipelines
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Pipelines" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Pipelines
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_storage/" class="md-nav__link">
+      Data Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_local/" class="md-nav__link">
+      Local Pipelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_server/" class="md-nav__link">
+      Server Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../resources/" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#freezing-worms" class="md-nav__link">
+    Freezing Worms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thawing-and-cleaning-worms" class="md-nav__link">
+    Thawing and Cleaning Worms
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reagent-recipes" class="md-nav__link">
+    Reagent Recipes
+  </a>
+  
+    <nav class="md-nav" aria-label="Reagent Recipes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#m9-different-from-m9-in-lab-recipe-book" class="md-nav__link">
+    M9 (different from M9 in lab recipe book)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#peggys-freezing-solution" class="md-nav__link">
+    Peggy's Freezing Solution
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bleach-solution" class="md-nav__link">
+    Bleach solution
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/Caenorhabditis_elegans/Freezing_Worms_Agar/Freezing_Worms_Agar.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="freezethawing-worms">Freeze/Thawing Worms</h1>
+<p>(Adapted from Judith Kimble's Lab, December 2018)</p>
+<p>This protocol is used to generate and maintain large stocks of common strains (e.g., N2).</p>
+<h2 id="freezing-worms">Freezing Worms</h2>
+<ol>
+<li>
+<p>Pick worms to six 6 cm plates you wish to freeze for each strain.</p>
+</li>
+<li>
+<p>For most strains, 4-6 plates is enough. For sick strains, more plates will result in a higher titter and therefore a better thaw rate.</p>
+</li>
+<li>
+<p>Check the genotype of the strain so you can follow any phenotypes to make sure the animals are correct.</p>
+</li>
+<li>
+<p>Store the plates at the optimal temperature for your strain (20°C for most strains) until the 6 cm plates are starved.</p>
+</li>
+<li>
+<p>The strain is ready to freeze when there is no bacteria on the plate and there are few or no embryos remaining on the plate. Most of the animals should be L1 or L2.</p>
+</li>
+<li>
+<p>Prepare the number of cryovial tubes (Room 223, Shelf 2) with cryo-safe labels (Printed on Label maker) with the appropriate information (e.g. - strain name, date frozen) that you want to freeze. Use "Cryovials Label Template" for printing labels with the correct information.</p>
+</li>
+<li>
+<p>We currently freeze six cryovial tubes per strain: four for our working stocks, one for long-term liquid nitrogen storage and one to use as a test thaw.</p>
+</li>
+<li>
+<p><strong>For freezing transgenic strains the lab creates: freeze five tubes per independent line of that strain. Three for working stocks in the -80°C, one for liquid nitrogen storage, and one to use as a test thaw.</strong></p>
+</li>
+<li>
+<p>When the last tube is thawed, you must re-freeze the strain.</p>
+</li>
+<li>
+<p>Get an ice bucket.</p>
+</li>
+<li>
+<p>Heat the Freezing Buffer (Peggy's recipe) in the microwave very slowly, checking every 30 seconds to see if it is melted. Put it in a 50 degree water bath until ready to use.</p>
+</li>
+<li>
+<p>Loosen the lids of all the cryovials.</p>
+</li>
+<li>
+<p>With a serological pipet, take about 6.5 mL of M9 for six 6 cm plates and dispense on the first six cm plate. Wash the worms off the plate. Using the same serological pipet, continue to wash worms off from all the plates.</p>
+</li>
+<li>
+<p>Put 1 mL of worms and M9 solution in each cryovial. Less volume can be added to the test thaw cryovial but remember how much was added for the addition of the Freezing Buffer step.</p>
+</li>
+<li>
+<p>Put cryovials with worms on ice for 5 min.</p>
+</li>
+<li>
+<p>Start a timer to check elapsed time of worms on ice.</p>
+</li>
+<li>
+<p>Add an equal amount of Freezing Buffer as M9 buffer per tube. This will be 1 mL except maybe for the test thaw tube.</p>
+</li>
+<li>
+<p>Vortex the cryovial.</p>
+</li>
+<li>
+<p>Then put the cryovials back on ice for 5 min. The elapsed time for adding the freezing buffer and vortexing should be about 5-6 min.</p>
+</li>
+<li>
+<p>Place tubes in a 1.5 mL tube styrofoam container in the -80°C.</p>
+<p><img alt="Image" src="../img/StyrofoamRack.png" /></p>
+</li>
+<li>
+<p>Cover the 1.5 mL tube styrofoam container with the lid and secure with a rubber band.</p>
+</li>
+<li>
+<p>Make sure to enter the strain in the "Worms" database in Quartzy.</p>
+</li>
+<li>
+<p>After a week or so, a test thaw can be done. Use the small styrofoam carton in the bottom of the -80°C with a metal block on dry ice to hold your agar frozen worm strains. Take the cryovial that needs to be thawed and place it in the metal block for transport to the bench. Rub the vial between your palm for 2 seconds. Heat a metal spatula in a flame and rotate around the outside of the cryovial until you can get a chunk free to place on a 10 cm plate. Place the chunk on the outer edge of the plate. Keep the melted worms to the outside of the plate as you want them to crawl into the OP50. Put the cryovial back into -80°C along with the metal block. Put the plate at the desired temperature for the worm strain. Check the plate after ~48-72 hr. If you see gravid animals and embryos on the plate, the strain survived the thaw. If you do not see gravid animals and embryos, try freezing the strain again, but start with more 6 cm plates (Step 1). If the strain has a transgenic marker, check to see if the thawed stock still expresses the marker.</p>
+</li>
+<li>
+<p>Move four tubes to the next available position in the Worm Stock Boxes (check Quartzy for the last strain put in position), move one tube to the next available position in the Liquid Nitrogen Stock  boxes (check Quartzy). Put a space in between each strain that you freeze.</p>
+<p><img alt="Image" src="../img/WorkingStockBox.png" /></p>
+</li>
+<li>
+<p>If the strain information is not already in Quartzy, make sure to enter that information (any plasmids/ genotypes of the strain, where we got the strain, if it was lab-made or received from another lab or the CGC, growing temperature, etc.). After the tubes have been to the final Worm Stock and Liquid Nitrogen Stock positions (Step 12), indicate that information for that strain in Quartzy (and how many are in stock).</p>
+</li>
+</ol>
+<h2 id="thawing-and-cleaning-worms">Thawing and Cleaning Worms</h2>
+<ol>
+<li>
+<p>Use the small styrofoam carton in the bottom of the -80°C with a metal block on dry ice to hold your agar frozen worm strains. Take the cryovial that needs to be thawed and place in the metal block for transport to the bench. Rub the vial between palms for 2 seconds. Heath a metal spatula in a flame and rotate around the outside of a cryovial until you can get a chunk free to place on a 10 cm plate. Place the chunk on the outer edge of the plate. Keep the melted worms to the outside of the plate as you want them to crawl into the OP50. Put cryovial back into -80°C along with the metal block.</p>
+</li>
+<li>
+<p>Delete the appropriate tube form the Worm Stock Box database in Quartzy.</p>
+</li>
+<li>
+<p>If there is bacterial contamination:</p>
+</li>
+<li>
+<p>Once there are gravid animals on the 10 cm plate, bleach the animals to clean any bacterial contaminants:</p>
+</li>
+<li>
+<p>Place 15 μL of bleach solution (recipe below) on the edge of a labeled 6 cm plate.</p>
+</li>
+<li>
+<p>Place a minimum of 6 gravid animals into the bleach (10-15 animals is good). The bleach should dissolve the cuticle of the adult worms, releasing the embryos. Leave the plate lid-side up until all the bleach has soaked into the plate. After the bleach has soaked in, move the plate, lid-side down, to the optimal temperature for the worms.</p>
+</li>
+<li>
+<p>After ~24 hr., move L1s from the bleach plate to 4 separate clean, labeled 6 cm plates. You want between 10-20 L1s per plate - the more, the better.</p>
+</li>
+</ol>
+<h2 id="reagent-recipes">Reagent Recipes</h2>
+<h3 id="m9-different-from-m9-in-lab-recipe-book">M9 (different from M9 in lab recipe book)</h3>
+<ol>
+<li>
+<p>Mix the following reagents:</p>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th align="center">Amount Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KH<sub>2</sub>PO<sub>4</sub></td>
+<td align="center">6 g</td>
+</tr>
+<tr>
+<td>Na<sub>2</sub>HPO<sub>4</sub></td>
+<td align="center">12 g</td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td align="center">10 g</td>
+</tr>
+<tr>
+<td>dH<sub>2</sub>O</td>
+<td align="center">up to 2 L</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Autoclave on liquid cycle for 30 min.</p>
+</li>
+<li>
+<p>Make sure the volume is maintained during autoclaving by autoclaving in the large autoclave (the autoclave on the left).</p>
+</li>
+<li>
+<p>When the M9 is cool, add: MgSO<sub>4</sub> 0.5 mL for 500 mL</p>
+</li>
+<li>
+<p>Store in 2 L aliquots.</p>
+</li>
+</ol>
+<h3 id="peggys-freezing-solution">Peggy's Freezing Solution</h3>
+<ol>
+<li>
+<p>Mix the following:</p>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th align="center">Amount Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KH<sub>2</sub>PO<sub>4</sub> ,  1M pH 6</td>
+<td align="center">3 g</td>
+</tr>
+<tr>
+<td>NaCl, 5 M</td>
+<td align="center">5 g</td>
+</tr>
+<tr>
+<td>Na<sub>2</sub>HPO<sub>4</sub>.7H<sub>2</sub>O</td>
+<td align="center">11.3 g</td>
+</tr>
+<tr>
+<td>MgSO<sub>4</sub>, 1 M</td>
+<td align="center">1 mL</td>
+</tr>
+<tr>
+<td>dH<sub>2</sub>O</td>
+<td align="center">up to 1 L</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>In a 1 L flask, add 300 g of glycerol and 4 g of bacto agar.</p>
+</li>
+<li>
+<p>Add about 500 mL M9 solution and stir bar and heat to dissolve the agar.</p>
+</li>
+<li>
+<p>Add M9 to just shy of 1 L and mix.</p>
+</li>
+<li>
+<p>Transfer to a graduated cylinder and bring the volume up to 1 L.</p>
+</li>
+<li>
+<p>Put 200 mL per bottle.</p>
+</li>
+<li>
+<p>Autoclave for 20 min.</p>
+</li>
+</ol>
+<h3 id="bleach-solution">Bleach solution</h3>
+<ol>
+<li>
+<p>Mix the following:</p>
+<table>
+<thead>
+<tr>
+<th>Reagent</th>
+<th align="center">Amount Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NaOCl (from Fisher, cat #SS290-1)</td>
+<td align="center">2 mL</td>
+</tr>
+<tr>
+<td>10 M NaOH</td>
+<td align="center">0.5 mL</td>
+</tr>
+<tr>
+<td>dH<sub>2</sub>O</td>
+<td align="center">up to 10 mL</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p>Store at 4°C.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../../..",
+          features: ['instant'],
+          search: Object.assign({
+            worker: "../../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../../../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
