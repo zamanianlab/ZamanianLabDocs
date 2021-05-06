@@ -55,7 +55,7 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
 
 2. Autoclave on liquid cycle for 1 hr. (Note that the solution will be cloudy)
 ---
-## K Medium
+## K Medium - test
 
 1. Mix the following filter sterilized salts:
 
