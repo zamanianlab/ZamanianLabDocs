@@ -1,0 +1,897 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An internal resource explaining and documenting lab pipelines">
+      
+      
+      
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Molecular_Biology/qPCR/qPCR/">
+      
+      
+        <meta name="author" content="Zamanian Lab">
+      
+      <link rel="shortcut icon" href="../../../../images/dna.svg">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Two-Step qPCR - Zamanian Lab Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Lato",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra_colors.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#two-step-qpcr" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
+      
+  <img src="../../../../images/dna.svg" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Zamanian Lab Docs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Two-Step qPCR
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
+      
+  <img src="../../../../images/dna.svg" alt="logo">
+
+    </a>
+    Zamanian Lab Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zamanianlab/ZamanianLabDocs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labmanual/" class="md-nav__link">
+      Lab Manual
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../protocols/" class="md-nav__link">
+      Lab Protocols
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../labsheets/" class="md-nav__link">
+      Lab Sheets
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Computational Guide
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Computational Guide" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Computational Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_local/" class="md-nav__link">
+      Local Environment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_github/" class="md-nav__link">
+      GitHub
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_conda/" class="md-nav__link">
+      Conda
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../comp_homebrew/" class="md-nav__link">
+      Homebrew
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    <label class="md-nav__link" for="nav-6">
+      Pipelines
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Pipelines" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Pipelines
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_overview/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_storage/" class="md-nav__link">
+      Data Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_local/" class="md-nav__link">
+      Local Pipelines
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../../pipelines_server/" class="md-nav__link">
+      Server Pipelines
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../../resources/" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primer-optimization" class="md-nav__link">
+    Primer optimization
+  </a>
+  
+    <nav class="md-nav" aria-label="Primer optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primer-stock-dilutions" class="md-nav__link">
+    Primer stock dilutions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reference-genes" class="md-nav__link">
+    Reference Genes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primer-stock-dilutions_1" class="md-nav__link">
+    Primer stock dilutions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plate-setup" class="md-nav__link">
+    Plate setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thermocycler-setup" class="md-nav__link">
+    Thermocycler setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primer-optimization-analysis" class="md-nav__link">
+    Primer optimization analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qpcr-with-experimental-samples" class="md-nav__link">
+    qPCR with experimental samples
+  </a>
+  
+    <nav class="md-nav" aria-label="qPCR with experimental samples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qpcr-analysis" class="md-nav__link">
+    qPCR analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/protocols/Molecular_Biology/qPCR/qPCR.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="two-step-qpcr">Two-Step qPCR</h1>
+<h2 id="materials">Materials</h2>
+<ul>
+<li>SuperScript III (Thermo Fisher Scientific 18080051)</li>
+<li>PowerUp SYBR Green MasterMix (Fisher Scientific A25741)</li>
+<li>qPCR sub-skirted plate (MIDSCI AVT3890)</li>
+<li>Thermal sealing film (Excel Scientific TS-RT2RR-100)</li>
+</ul>
+<h2 id="preparation">Preparation</h2>
+<ul>
+<li>
+<p>Two-step qPCR starts with RNA that has been DNase-treated and quantified with Qubit. Follow the the RNA extraction protocol for <a href="../../../Caenorhabditis_elegans/RNA_Extraction/RNA_Extraction/"><em>C. elegans</em></a> or <a href="../../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction/">parasites</a>.</p>
+</li>
+<li>
+<p>Use the Invitrogen SuperScript III kit to perform first-strand cDNA synthesis.</p>
+<ul>
+<li>
+<p>Do not freeze RNA in between extraction and first-strand synthesis; perform synthesis immediately after quantification.</p>
+</li>
+<li>
+<p>Include a non-experimental RNA sample that comes from the same species and stage as your experimental samples (I typically use stock RNA samples from the FR3).</p>
+</li>
+<li>
+<p>If performing relative transcript quantification, be sure to normalize the RNA input based on the Qubit quantification.</p>
+</li>
+<li>
+<p>Use a 1:1 mixture of oligo(dT) and random hexamer primers and create primer and enzyme master mixes to use across all samples.</p>
+</li>
+<li>
+<p>Perform the optional RNase H digestion to remove remaining single-stranded RNAs.</p>
+</li>
+<li>
+<p>Freeze at -20°C until ready for the qPCR.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Before optimizing your primers, validate that they work and produce the expected amplicon length by performing normal PCR on a plasmid template and/or cDNA template.</p>
+</li>
+<li>
+<p>Book the qPCR machine on the morning of the reaction.</p>
+</li>
+</ul>
+<h2 id="primer-optimization">Primer optimization</h2>
+<h3 id="primer-stock-dilutions">Primer stock dilutions</h3>
+<p>qPCR primers must be optimized for each new RNA/cDNA template. Primer optimization involves primer dilutions to find the optimal primer concentration for each primer set + template combination. Depending on your experiments, you should probably use the <strong>same stage, non-experimental</strong> cDNA sample that is at the <strong>same concentration</strong> as your experimental samples (the best practice is to include this sample in your cDNA synthesis reaction). If you are working with <em>C. elegans</em>, then RNA is not as precious, but if you are working with parasites then it is paramount not to waste RNA from experimental samples. The PowerUp SYBR Green Master Mix kit recommends trying 300, 500, and 800 nM final concentrations, but you can add additional (lower) concentrations as well.</p>
+<h3 id="reference-genes">Reference Genes</h3>
+<ul>
+<li>
+<p><em>C. elegans</em> Reference Gene: Y45F10D.4 (<a href="https://link.springer.com/article/10.1186/1471-2199-9-9">Citation</a>)</p>
+<ul>
+<li>
+<p>Lab Primer IDs: oMZ0516/17</p>
+</li>
+<li>
+<p>Expected Ct: 24 from 10 ng of RNA (see figure S10 in Wheeler et al. 2020)</p>
+</li>
+</ul>
+</li>
+<li>
+<p><em>B. malayi</em> Reference Gene: WBGene00225960 (Bm5699) (<a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004311#sec005">Citation</a>)</p>
+<ul>
+<li>
+<p>Lab Primer IDs: oMZ0257/58</p>
+</li>
+<li>
+<p>Expected Ct: ~24 from 10 ng of RNA</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="primer-stock-dilutions_1">Primer stock dilutions</h3>
+<ol>
+<li>
+<p>Mix 20 uL of each of the paired stock qPCR primers (100 μM) and add 160 μL water to achieve final paired stock concentrations of 10 μM.</p>
+</li>
+<li>
+<p>Use the table below to calculate primer dilutions required to achieve final primer concentrations of 300, 500, and 800 nM in your eventual 20 μL qPCR reactions. Dilute the volume of 10 μM primer stock shown below in bold to a final volume of 50 μL in water.</p>
+<table>
+<thead>
+<tr>
+<th>C<sub>i</sub> (Primer Stock, μM)</th>
+<th>V<sub>i</sub> (Primer Stock Input, μL) <br> = C<sub>f</sub> * V<sub>f</sub> / C<sub>i</sub></th>
+<th>V<sub>f</sub> (μL)</th>
+<th>C<sub>f</sub> (nM)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td><strong>3.75</strong></td>
+<td>50</td>
+<td>750</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>6.25</strong></td>
+<td>50</td>
+<td>1250</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>10.00</strong></td>
+<td>50</td>
+<td>2000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> These primer dilutions (750, 1250, and 2000 nM) will achieve the intended qPCR reaction concentrations (300, 500, and 800 nM), as shown below. 8 μL of diluted primer stocks from above will be mixed with 2 μL of cDNA and 10 μL of Master Mix (MM) for a final reaction volume of 20 μL. Scale primer volumes above as necessary, depending on the number of reactions you are planning.</p>
+<table>
+<thead>
+<tr>
+<th>C<sub>i</sub> (C<sub>f</sub> from above, nM)</th>
+<th>V<sub>i</sub> (μL)</th>
+<th>V<sub>f</sub> (μL)</th>
+<th>C<sub>f</sub> (Primers, nM)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>750</td>
+<td><strong>8</strong></td>
+<td>20</td>
+<td>300</td>
+</tr>
+<tr>
+<td>1250</td>
+<td><strong>8</strong></td>
+<td>20</td>
+<td>500</td>
+</tr>
+<tr>
+<td>2000</td>
+<td><strong>8</strong></td>
+<td>20</td>
+<td>800</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<h3 id="plate-setup">Plate setup</h3>
+<p><strong>Note:</strong> Each qPCR reaction should use a minimum of 5 ng RNA/cDNA (10 ng is preferable). If possible, each primer dilution should be run in duplicate. Ideally, use a non-experimental cDNA sample that has the same concentration and is from the same life stage as your experimental samples.</p>
+<ol>
+<li>
+<p>Design the plate setup on Benchling (example below).</p>
+<p>a. If possible, do not add any reactions to the outer columns or rows to ensure no evaporation (though we have not run into evaporation problems regardless of well location).</p>
+<p>b. Keep the same primers next to each other on the plate.</p>
+<p>c. Be sure to include no-template negative controls to check for contamination in your primer stocks.</p>
+<p>d. In the table below, there are 3 different transgenic <em>C. elegans</em> strains (ZAM13A, ZAM14B, and ZAM17B), 3 different primer sets (329/330, 343/344, and 506/507), and 3 different primer dilutions (300, 500, and 800). The cells are color-coded by primer set.</p>
+<p><img alt="Optimization Setup" src="../img/optimization_setup.png" /></p>
+</li>
+<li>
+<p>Dilute an aliquot of the cDNA to 2.5 ng/μL so that 2 μL input cDNA will make 5ng/qPCR (or dilute to half of the final mass so that you can add 2 μL to the reaction).</p>
+</li>
+<li>
+<p>Create primer + PowerUp SYBR Green master mixes by adding 10 μL PowerUp SYBR Green * (n + 1) + 8 μL primer dilution * (n + 1) to a single tube (one master mix per primer dilution).</p>
+</li>
+<li>
+<p>Put a qPCR plate on ice.</p>
+</li>
+<li>
+<p>Pipette 2 μL of the proper cDNA to the <strong>side wall</strong> of the well.</p>
+<p>a. This makes it easier to keep track of which well has had the cDNA added.</p>
+<p>b. Another strategy for keeping track of pipetting is arranging your pipette tip box such that you know exactly which tip will be the last one to be used.</p>
+</li>
+<li>
+<p>Add 18 μL of the proper master mix to the dot of cDNA and allow the mixture to fall to the bottom of the tube.</p>
+</li>
+<li>
+<p>Carefully seal the plate with sealing film.</p>
+</li>
+<li>
+<p>Spin the plate on the plate centrifuge.</p>
+</li>
+<li>
+<p>Examine the bottom of each well to ensure no bubbles remain. If there are bubbles, sharply flick the well until it pops. Respin the plate if necessary.</p>
+</li>
+<li>
+<p>Return the plate to ice and move to the qPCR machine in room 311.</p>
+</li>
+</ol>
+<h3 id="thermocycler-setup">Thermocycler setup</h3>
+<ol>
+<li>
+<p>Touch the screen of the thermocycler to wake it up and press the on/off button to turn it on.</p>
+</li>
+<li>
+<p>Place the qPCR plate in the machine.</p>
+<p><img alt="Thermocycler" src="../img/thermocycler.png" /></p>
+</li>
+<li>
+<p>Begin the StepOne v2.3 program and login as a guest.</p>
+</li>
+<li>
+<p>Click “Advanced Setup, which will open the following screen.</p>
+<p><img alt="Plate Setup2" src="../img/plate_setup2.png" /></p>
+</li>
+<li>
+<p>Fill out the metadata and match the selections shown above.</p>
+<p>a. Experiment name should be the date of the run.</p>
+<p>b. Add your full name as the user name.</p>
+<p>c. Add optional comments, especially if you’re performing multiple runs on a single day.</p>
+<p>d. Choose the StepOnePlus instrument.</p>
+<p>e. Choose Quantitation - Standard Curve (you can perform the ΔΔCT calculation later).</p>
+<p>f. Choose SYBR Green.</p>
+<p>g. Choose Standard.</p>
+</li>
+<li>
+<p>Click the “Plate Setup” menu.</p>
+<p>a. In the “Define Targets and Samples” tab, add your targets (the transcript that you are amplifying) and samples (the RNA source) to the appropriate panes. For primer optimization runs, the “Sample Names” should be the different primer dilutions (i.e. 300, 500, and 800).</p>
+<p>b. Ignore the “Biological Replicates” pane even if you have biological replicates.</p>
+</li>
+<li>
+<p>Click the “Assign Targets and Samples” tab.</p>
+<p>a. Design the plate in the same arrangement as designed on Benchling. Select a well or range of well and click the boxes next to the proper target and sample.</p>
+<p>b. <strong>Note</strong>: each experimental sample should also include the “U” task next to the target name. Before defining no-template negative controls in the plate layout (in this case, wells C1 and D1), click the “N” box in the Task section. The no-template negative control wells will not have a sample label.</p>
+<p><img alt="Plate Layout" src="../img/plate_layout.png" /></p>
+</li>
+<li>
+<p>Click the “Run Method” menu.</p>
+<p>a. Setup the thermocycler program according to the below screenshot. Changes that need to be made from the default program:</p>
+<div class="highlight"><pre><span></span><code>i. A 2 minute, 50°C hold step needs to be added before the 95° hold step in the Holding Stage.
+
+ii. The 95° hold step should be changed to 2 minutes.
+
+iii. Based on your primers, you probably need to add a 3rd step to the Cycling Stage. Adjust the 2nd step to 15 seconds and the annealing temperature validated with the initial PCR used to test the primers on plasmid/cDNA template. Add a 3rd step with a 1 minute, 72°C  extension. Deselect the “Data Collection” icon on the annealing step and select it on the extension step.
+
+iv. Change the Melt Curve Stage from “Step and Hold” to “Continuous.”
+
+v. Change the percentage of the ramp rate to 10%.
+</code></pre></div>
+<p><img alt="Run Method" src="../img/run_method.png" /></p>
+</li>
+<li>
+<p>When finished setting up the run, click “Start Run” (green button).</p>
+</li>
+<li>
+<p>Stay in the room until you confirm that the run has started.</p>
+</li>
+</ol>
+<h3 id="primer-optimization-analysis">Primer optimization analysis</h3>
+<ol>
+<li>
+<p>After the run is complete, click the Analysis menu.</p>
+<p>a. You can quickly analyze the run in the StepOne program, but the lab also has an R template that allows for more customized analysis.</p>
+</li>
+<li>
+<p>On the thermocycler computer, click Export</p>
+<p>a. Chose all data files other than Multicomponent Data.</p>
+<p>b. Export to a .txt file type.</p>
+<p>c. Export to an external flash drive.</p>
+</li>
+<li>
+<p>Transfer the .txt file to <code>ZamanianLab/Data/qPCR/Name/Date/</code> and copy the <code>primer_optimization.R</code> script to the directory.</p>
+</li>
+<li>
+<p>Once transferred, open the .txt file and manually edit it such that each section defined in [square brackets] is saved into its own file. You should have the following files (file names should be the exact same, otherwise the analysis script won’t work.) Make sure the [words in brackets] are removed from the files so that every line is tab-delimited.</p>
+<p>a. <code>results.txt</code></p>
+<p>b. <code>melt_region_derivative_data.txt</code></p>
+<p>c. <code>melt_region_normalized_data.txt</code></p>
+<p>d. <code>melt_region_temperature_data.txt</code></p>
+<p>e. <code>amplification_data.txt</code></p>
+<p>f. <code>raw_data.txt</code></p>
+<p>g. <code>sample_setup.txt</code></p>
+<p>h. For instance, the header of each file should look something like this:</p>
+<p><img alt="Export Data" src="../img/export_data.png" /></p>
+</li>
+<li>
+<p>Use <code>~/Box/ZamanianLab/Data/qPCR/primer_optimization.R</code> to analyze the data.</p>
+</li>
+<li>
+<p>Examine the plot in <code>melt_curves.pdf</code> (below, left).</p>
+<p>a. The plot should contain 2 columns labeled Derivative and Value; these show the changes in fluorescence emitted at different temperatures during the melting of the last step of the Melt Curve stage.</p>
+<p>b. The plot should also contain a row for every target (i.e., primer set), and each panel should include a line for every well.</p>
+<p>c. Analysis of the melt curves will tell you if your primers are forming primer dimers or are amplifying off-target sequences. In order to continue with the qPCR experiment, your primer should include a single peak in the Derivative plot, corresponding to a single amplicon produced by the reaction. Primer dimers will correspond to peaks at low temperatures, and longer non-off target products will correspond to peaks at higher temperatures.</p>
+<p>d. Negative controls will not have a peak (because there should be no amplification). You will notice from the below plot that the negative controls for GAPDH and OSM-9 were correct, while it appears that there was contamination in the TAX-4 primers (every line contains a peak).</p>
+<p><img alt="Plots" src="../img/plots.png" /></p>
+</li>
+<li>
+<p>Examine the plot in <code>amplification.pdf</code> (right).</p>
+<p>a. Again there will be a row for every target and a column for dRn and log10(dRn)</p>
+<p>b. In the dRn column, you should see a label and line marking each of the primer dilutions you included, along with the C<sub>T</sub> value. The dilution with the lowest C<sub>T</sub>, in this case 800 for all primer sets, should be used in qPCR using experimental samples.</p>
+</li>
+</ol>
+<h2 id="qpcr-with-experimental-samples">qPCR with experimental samples</h2>
+<ol>
+<li>
+<p>Based on the results of the primer optimization, create new primer dilutions at the optimized concentrations, this time ensuring you make enough of the qPCR primer stock for all of the reactions (use the tables above).</p>
+</li>
+<li>
+<p>Follow the <strong>Plate setup</strong> and <strong>Thermocycler setup</strong> sections above.</p>
+<p>a. When organizing the plate in <strong>Thermocycler setup</strong> step 6, use your different cDNAs instead of primer dilutions as the Sample Names.</p>
+<p>b. Run the exact same thermocyler program as you ran for primer optimization.</p>
+</li>
+</ol>
+<h3 id="qpcr-analysis">qPCR analysis</h3>
+<ol>
+<li>
+<p>Follow steps 1 - 4 from <strong>Primer optimization analysis</strong> to export the reaction results
+as described.</p>
+</li>
+<li>
+<p>Use <code>~/Box/ZamanianLab/Data/qPCR/qpcr_analysis.R</code> to analyze the data.</p>
+</li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../../..",
+          features: ['instant'],
+          search: Object.assign({
+            worker: "../../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../../../javascripts/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
