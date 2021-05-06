@@ -54,6 +54,24 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
     | MQ H<sub>2</sub>O | 930 mL |
 
 2. Autoclave on liquid cycle for 1 hr. (Note that the solution will be cloudy)
+---
+## K Medium
+
+1. Mix the following filter sterilized salts:
+
+    | Reagent | Amount Needed |
+    | ------- | :-----------: |
+    | NaCl, 5 M | 5.1 mL |
+    | KCl, 1 M | 16 mL |
+    | CaCl<sub>2</sub>, 1 M | 1.5 mL |
+    | MgSO<sub>4</sub>, 1 M | 1.5 mL |
+    | MQ H<sub>2</sub>O | 500 mL |
+
+2. Filter sterilize using a 0.22 μm filter.
+
+3. Add 125 μL of 5mg/mL Cholesterol after filtering.
+
+4. Store at RT for up to 2 weeks.
 
 ---
 ## S Medium
