@@ -1,4 +1,4 @@
-# Haemonchus Culture
+# Gastrointestinal nematode egg purification
 
 **Adapted from the Kotze and Gilleard labs**
 - [Nemabiome protocol](https://www.nemabiome.ca/parasite.html) (sheep tab)
@@ -15,8 +15,6 @@
 
 ## Equipment
 - Benchtop centrifuge
-- Vacuum
-
 
 ## Protocols
 
@@ -28,7 +26,7 @@
 
 3. Flush the trapped eggs to an edge and use a squirt bottle of water to rinse the eggs into a petri dish.
 
-4. Create a sucrose gradient in a 50 mL conical tube by adding 10 mL of 25% sucrose with 10 mL 10% sucrose layered on top.
+4. Create a sucrose gradient in a 50 mL conical tube by adding 10 mL of 10% sucrose followed by 10 mL of 25%.
 
 5. Carefully transfer the egg solution to the sucrose gradient.
 
@@ -39,7 +37,3 @@
 8. Rinse the eggs into a 50 mL conical tube (final volume of 25 mL). Add 25 mL of bleach solution and rotate for 12 minutes.
 
 9. Rinse again on the sieve and resuspend eggs in water + Amphotericin B + tylosin tartare (4500 egg/mL).
-
-### Setup of larval development assay
-
-1.
