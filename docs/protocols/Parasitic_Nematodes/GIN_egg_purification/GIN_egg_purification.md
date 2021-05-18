@@ -7,18 +7,17 @@
 
 ## Materials
 - 13% NaCl solution
-- 250, 75 and 25 μm sieves
+- 300, 180, 106 and 25 μm sieves
 - 10% and 25% sucrose solutions
-- 16.8 mg/L sodium hypochlorite
-- Amphotericin B (25 μg/mL final)
-- Tylosin tartare (800 μg/ml final)
+- 5.65-6% sodium hypochlorite
+- M9
+- 100X Amphotericin B (2.5 μg/mL final)
+- 100X Tylosin tartrate (800 μg/ml final)
 
 ## Equipment
 - Benchtop centrifuge
 
-## Protocols
-
-### Egg purification for larval development assay
+## Protocol
 
 1. Weigh out 24 g of fecal matter and homogenize it in 100 mL of 13% NaCl.
 
@@ -26,14 +25,14 @@
 
 3. Flush the trapped eggs to an edge and use a squirt bottle of water to rinse the eggs into a petri dish.
 
-4. Create a sucrose gradient in a 50 mL conical tube by adding 10 mL of 10% sucrose followed by 10 mL of 25%.
+4. Create a sucrose gradient in a 50 mL conical tube by adding 10 mL of cold 10% sucrose followed by 10 mL of cold 25% (place pipette at the bottom of the tube when adding each layer).
 
 5. Carefully transfer the egg solution to the sucrose gradient.
 
 6. Centrifuge the tubes for 7 min. at 650 x g.
 
-7. The eggs will be at the interface of the gradient. Use a pipette to transfer the eggs to the 25 μm sieve and wash with tap water.
+7. The eggs will be at the interface of the gradient. Use a pipette to transfer the eggs to the 25 μm sieve and wash with water.
 
-8. Rinse the eggs into a 50 mL conical tube (final volume of 25 mL). Add 25 mL of bleach solution and rotate for 12 minutes.
+8. Rinse the eggs into a 50 mL conical tube (final volume of 40 mL water). Add 10 mL of bleach solution and rotate for 10 minutes.
 
-9. Rinse again on the sieve and resuspend eggs in water + Amphotericin B + tylosin tartare (4500 egg/mL).
+9. Rinse again on the sieve and resuspend eggs in M9 + Amphotericin B + tylosin tartrate (2500 egg/mL).
