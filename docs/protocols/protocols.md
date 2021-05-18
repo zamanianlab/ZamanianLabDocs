@@ -79,7 +79,9 @@
 
 ### GINs
 
+- [Egg Purification from Feces](Parasitic_Nematodes/GIN_egg_purification/GIN_egg_purification.md)
 
+- [Modified McMaster's Fecal Egg Count](Parasitic_Nematodes/McMasters_FEC/Modified_McMasters.md)
 
 ## *Caenorhabditis elegans*
 

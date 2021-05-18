@@ -1,9 +1,13 @@
 # Gastrointestinal nematode egg purification
 
 **Adapted from the Kotze and Gilleard labs**
+
 - [Nemabiome protocol](https://www.nemabiome.ca/parasite.html) (sheep tab)
+
 - Example in [Parsitology](https://doi.org/10.1017/S0031182009006386[Opens in a new window])
+
 - Example of the assay in action in [Veterinary Parasitology](https://doi.org/10.1016/j.vetpar.2019.05.008)
+
 
 ## Materials
 - 13% NaCl solution
