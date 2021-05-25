@@ -77,6 +77,8 @@
 
 - [Adult Phenotyping](Parasitic_Nematodes/Adult_Phenotyping/Adult_Phenotyping.md)
 
+- [Microfilariae Purification](Parasitic_Nematodes/PD10_mf_purification/PD10_mf_purification.md)
+
 ### GINs
 
 - [Egg Purification from Feces](Parasitic_Nematodes/GIN_egg_purification/GIN_egg_purification.md)
