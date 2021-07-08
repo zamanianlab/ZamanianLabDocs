@@ -116,6 +116,24 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
     `scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/`
 
+    A final transfer option is Globus. The CHTC has detailed instructions on using Globus to transfer data to/from a personal computer to/from the `staging/` directory. ResearchDrive is also a potential endpoint, see the [KB](https://kb.wisc.edu/researchdata/internal/page.php?id=108855) for further instructions and necessary preparations for initating your first transfer.
+
+    <details>
+    <summary> Globus transfer</summary>
+
+    1. Login to the [Globus web interface](https://app.globus.org/) with your NetID
+    2. If transferring from a personal computer, install and start [Globus Connect Personal](https://www.globus.org/globus-connect-personal).
+    3. If transferring from ResearchDrive, first create a kerberos ticket by running the command `ssh [netid]@doit-rci-00025.doit.wisc.edu`.
+    4. In the web interface, set the view to two panels using the icon on the top right.
+    5. On one side of the interface, click Collection and choose the desired endpoint (`chtc#staging`, `wisc-drive`, or your personal computer).
+    6. Choose the other endpoint for the other side of the interface.
+    7. Type `/staging/groups/zamanian_group/` into the Path box and press Enter (you may be required to login with your NetID again) to access our directory of `chtc#staging` or `/mnt/researchdrive/mzamanian/` for `wisc-drive`.
+    8. Navigate to the desired directories.
+    9. Drag and drop files to transfer them; you will receive an email upon transfer completion.
+    10. Exit the SSH once finished transferring to/from ResearchDrive.
+
+    </details>
+
 2. **Pipeline -** Submit and manage CHTC jobs
 
     CHTC uses HTCondor for job scheduling. Submission files should follow lab conventions and be consistent with the CHTC documentation. An example submit script with annotations is shown below. This submit script (Core_RNAseq-nf.sub) loads a pre-defined [Docker environment](https://hub.docker.com/repository/docker/zamanianlab/chtc-rnaseq) and runs a bash executable script (Core_RNAseq-nf.sh) with defined arguments on the execute node. Other options define log files, resource requirements , and transfer of files in/out of `home`. Avoid transferring large files in/out of `home`! We transfer in our large data through `/staging/groups/zamanian_group/input/` and we move job output files to `/staging/groups/zamanian_group/output/` within the job executable script to avoid their transfer to `home` upon job completion. The only files that should be transferred back to `home` are small log files.
