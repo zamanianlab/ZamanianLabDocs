@@ -9,13 +9,13 @@
 ## Gravity Filtration Protocol
 **Important:** A previously used column contains 0.01% sodium azide in the storage solution. Handle the column and storage solution appropriately with gloves.
 
-1. Remove the microfilariae species-specific PD-10 column from 4°C storage.
+1. Remove the microfilariae species-specific PD-10 column from 4°C storage or retrieve a new column.
 
-2. Remove the top cap and pour off the column storage solution. If the column is new, also cut the sealed end of the column at the notch.
+2. Assemble the column in the adapter and place the setup in a 50 mL conical collection tube. The column and adapter can also be placed in a ring stand clamp with a flask underneath for fluid collection.
 
-3. Assemble the column in the adapter and place the setup in a 50 mL conical collection tube or a beaker.
+3. Remove the top cap and either pour off the column storage if the column is new or allow the liquid to flow through the column if it has been used previously. If the column is new, cut the sealed end of the column at the notch.
 
-4. Equilibrate the column by adding 5 mL RPMI-1640 to the top of the column and allow the liquid to completely enter the packed bed. Repeat the equilibration 5 times or until ~25 mL of RPMI-1640 has been passed through the column. The flow-through can be discarded.
+4. Equilibrate the column by adding 5 mL RPMI-1640 to the top of the column and allow the liquid to completely enter the packed bed. Repeat the equilibration 5 times or until ~25 mL of RPMI-1640 has been passed through the column. **If the flow-through contains sodium azide, it must be collected and added to the sodium azide waste container in the fume hood.**
 
 5. Add up to 1.5 million microfilariae suspended in 2.5 mL of media to the center of the column and allow it to enter the packed bed completely. Discard the flow-through.
 
@@ -25,6 +25,6 @@
 
 8. When no more microfilariae are observed in the flow-through, wash the column and prepare it for storage by adding the RPMI-1640 containing sodium azide to the column in 5 mL aliquots. When 20 mL of the storage solution has flowed through the column, add the remaining 5 mL of storage solution and cap the column.
 
-9. Return the capped column to the 50 mL conical used for storing the column and add a tally mark to the tube to indicate the number of times the column has been used. Then store the column upright at 4°C for future use.
+9. Return the capped column to the 50 mL conical used for storing the column and add a tally mark to the tube to indicate the number of times the column has been used. Then store the column at 4°C for future use.
 
-  **Note:** PD-10 columns can be used up to 3 times using the gravity protocol if stored properly at 4°C with 0.01% sodium azide. Spinning the column in a centrifuge is not encouraged as it will pack the resin bed and inhibit the reusable capabilities of the column.
+  **Note:** PD-10 columns can be used up to 10 times using the gravity protocol if stored properly at 4°C with 0.01% sodium azide. Spinning the column in a centrifuge is not encouraged as it will pack the resin bed and inhibit the reusable capabilities of the column.
