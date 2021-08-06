@@ -329,7 +329,32 @@ All lab members must take the appropriate safety training before starting any la
 
     Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (11/28/20). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
 
-## XIII. Lab Onboarding Checklist
+## XIII. Emergency protocols:
+
+### -80&deg;C Freezer
+
+ 1. **Do not open it** until you are ready to transfer the contents. Notify emergency contacts on freezers by phone.
+
+ 2. Hanson has 2 up right backup -80&deg;C’s in the basement room B37. One right when you walk in and the other off to the right both labeled "back up."
+
+ 3. Use the autoclave bins and any empty styrofoam containers you can get (found in the little cubby at the entrance of room 230) for getting dry ice to keep items cold during transfer. The dry ice is located on the loading dock to the right in tan wheeled bins.
+
+ 4. Fill the bottom of your autoclave bins with the dry ice. Transfer items to the bins before carrying them down to the basement -80&deg;Cs. Take boxes out of the metal racks if there is limited space is in the back up freezers.
+
+ 5. Record on the sheet when you put items in them.   
+
+### -20&deg;C Freezers
+
+  1. If the -20&deg;C breaks down or needs defrosting, temporarily use the Bartholomay Lab freezers in 311 or 322. Both freezers have items in them but our -20&deg;C contents should fit.
+
+  2. Fill our autoclave bins with dry ice (located on the loading dock to the right in tan wheeled bins) to move items between freezers. It may be necessary to remove boxes from racks to fit everything.
+
+### Refrigerators
+
+  If one of our fridges breaks down, transfer the contents in one of our other fridges. 
+
+
+## XIV. Lab Onboarding Checklist
 
 1. Room key and building card access form
 2. Office space, bench, and pipette assignment
