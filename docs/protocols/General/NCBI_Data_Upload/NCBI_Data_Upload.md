@@ -10,23 +10,17 @@
 
     a. Login or sign-up for an NCBI account.
 
-3. If the total size of the files to be uploaded exceeds 10 GB, click FTP Upload under Options to preload data:
+3. Use an SFTP client (e.g., Transmit, CyberDuck) to preload files:
 
-    a. Follow the instructions to preload via command line FTP.
+    a. On the SRA submit page, click the box that says FTP upload.
 
-    b. Use LFTP (if not installed, install via brew install lftp) from either the BRC server or your local machine. For instance:
+    b. In your SFTP client, connect to the server using the provided address, username, and password.
 
-        lftp subftp@ftp-private.ncbi.nlm.nih.gov
+    c. Use the SFTP client to navigate to the provided account folder.
 
-        # enter given passcode.
+    d. Make a new folder with a name that describes the submission (such as `brugia_tissue_rna`).
 
-        cd uploads/nicolas.j.wheeler@gmail.com_yFoD9mjy
-
-        mkdir Bge3_genome
-
-        cd Bge3_genome
-
-        put /home/BIOTECH/zamanian/GHdata/BgeVars/Bge/CA301ANXX.bam
+    e. Drag and drop the sequencing files (in FASTQ or BAM format) into the new directory.
 
 4. Once the preload is complete, click “New submission” on the SRA wizard home page.
 
@@ -34,7 +28,7 @@
 
     ![Submitter](img/submitter.png)
 
-6. Complete the General Info section and click “Continue.” Unless you are updating previous data, you will probably need to select "No" for both the BioProject and BioSample panes. For “Projected release data,” choose a date 10-12 months out if the manuscript is in process of being written. Adjust accordingly based on the current stage of writing.
+6. Complete the General Info section and click “Continue.” Unless you are updating previous data, you will probably need to select "No" for both the BioProject and BioSample panes. For “Projected release data,” choose the date that you plan to release a pre-print and submit to a journal.
 
     ![General](img/general.png)
 
@@ -42,13 +36,13 @@
 
     ![Project Info](img/project_info.png)
 
-8. Complete the BioSample Type section. Consult previous BioSamples for guidance. For example, previously deposited *Biomphalaria glabrata* samples have been designated as “Model organism or animal” (red arrow). To the best of your ability, attempt to maintain consistency with deposited samples from similar sources.
+8. Complete the BioSample Type section. Consult previous BioSamples for guidance. For example, previously deposited *Biomphalaria glabrata* samples have been designated as “Model organism or animal” (red arrow) while our *Brugia malayi* use the "Invertebrate" designation. To the best of your ability, attempt to maintain consistency with deposited samples from similar sources.
 
-9. In the BioSample Attributes section, download the provided Excel file and complete it. To save, click File > Save As... and choose File Format: Tab delimited Text (.txt).
+9. In the BioSample Attributes section, download the provided Excel file and complete it.
 
     ![BioSample Attributes](img/biosample_attributes.png)
 
-10. In the BioSample Attributes section, click “Choose File” and select the previously saved .txt file. Click “Continue” after the file finishes uploading.
+10. In the BioSample Attributes section, click “Choose File” and select the previously saved Excel file. Click “Continue” after the file finishes uploading.
 
 11. Complete the SRA Metadata section. The filenames should match the preloaded filenames.
 
