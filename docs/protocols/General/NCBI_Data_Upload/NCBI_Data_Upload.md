@@ -53,3 +53,5 @@
     ![Files](img/files.png)
 
 13. Ensure everything has been input properly in the Overview section. When satisfied, click finish. You will receive confirmation emails shortly that provide the BioProject and BioSample accession numbers.
+
+14. Save the BioSample Attributes and SRA Metadata XLSX files in `Box/ZamanianLab/SeqLibraries/SRA`
