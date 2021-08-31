@@ -58,7 +58,7 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
 ---
 ## K Medium
 
-1. Mix the following filter sterilized salts:
+1. Mix the following pre-autoclaved salts:
 
     | Reagent | Amount Needed |
     | ------- | :-----------: |
