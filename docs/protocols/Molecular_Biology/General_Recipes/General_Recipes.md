@@ -164,3 +164,16 @@
 3. Adjust pH to 7.5 prior to use (this requires ~ 25 mL of 1M NaOH per liter)
 4. Add 10 mL of filter-sterilized (0.22 um filter) 20% Glucose solution (20 g in 100 mL dH2O) after the media has cooled
 5. Store at room temperature
+
+---
+## 1P2P (1.4% stock solution)
+
+1. Mix the following:
+
+  | Reagent | Amount |
+  |----------|--------|
+  93% 1P2P stock	| 15 ml
+  M9	| 985 ml
+
+2. Be sure to mix well when making stock and before each use
+3. Store at room temperature 
