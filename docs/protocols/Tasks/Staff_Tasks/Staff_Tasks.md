@@ -22,6 +22,15 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **M9 stock replenishment.** Make three 1 L stocks of M9 in glass bottles when running low. Follow the recipe in [_C. elegans_ Recipes](../../Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md). Be sure to autoclave and then add 1 M MgSO<sub>4</sub> once cool.
 
+  - **Parasite Tissue Storage.** Any unused parasites should be frozen every week according to the tissue storage protocol listed in [RNA Extraction](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md). Stored tissue must be inventoried in the [Parasite Tissue and Nucleic Acid Inventory](https://docs.google.com/spreadsheets/d/1wJ3wzHmuTNRc_3RYjan3bp7rbBAsNrVvwJPJLilpmb8/edit#gid=0) spreadsheet and include a cryolabel with the Sample ID. The responsibility of parasite tissue storage will rotate between individuals every 3 months with the following rotation schedule:
+
+  | Rotation | Responsible |
+  | -------------- | ---------------------- |
+  | Jan. - Mar.    | Clair |
+  | Apr. - Jun.    | Katie |
+  | Jul. - Sept.   | Nic   |
+  | Oct. - Dec.    | Kendra |
+
 ## Equipment Maintenance
 
 (See [Equipment Checklist](https://docs.google.com/spreadsheets/d/105wRa2LR-GTH3VU8zLL56xt3Yf_2ar2fpYS3Zfp01bU/edit?usp=sharing))

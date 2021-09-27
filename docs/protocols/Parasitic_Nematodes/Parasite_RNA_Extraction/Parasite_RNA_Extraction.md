@@ -13,23 +13,25 @@
 
 ## Tissue storage
 
-1. Use new filter tips, clean work area in cell culture hood with Eliminase, and procure liquid nitrogen in small tank.
+1. Use new filter tips, clean work area in biosafety cabinet with Eliminase, and procure liquid nitrogen in small tank.
 
-2. Wash sample in nuclease-free media or PBS:
+2. Update the [Parasite Tissue and Nucleic Acid Inventory](https://docs.google.com/spreadsheets/d/1wJ3wzHmuTNRc_3RYjan3bp7rbBAsNrVvwJPJLilpmb8/edit#gid=0) with the tissues being prepared for storage and use cryolabels to label 1.5 mL tubes with the Sample ID.
+
+3. Wash sample in nuclease-free media or PBS:
 
     |Stage| Wash Method | Ideal Quantity|
     |----------------------------|------|----------------------------------------|
-    |mf                          |   Filter mf using SWMP Millipore filters. Wash filter in 1 mL clean PBS or RPMI. Spin at 900 rpm for 10 min.   |500,000                                 |
-    |L3             |Wash L3 in a petri dish or falcon tubes containing clean wash buffer. Transfer L3 into 1.5 mL tubes after wash    |300+ |
-    |Adult              |  Wash Adults in a petri dish or falcon tubes containing clean wash buffer. Transfer Adults into 1.5 mL tubes after wash      | 1-3   |  
+    |mf    |   Use RPMI-1640 and a [PD-10 column](../../Parasitic_Nematodes/PD10_mf_purification/PD10_mf_purification.md) to filter the mf. Titer to ~500,000 mf total and centrifuge at 1,100 rpm for 8 min. or until mf pellet. Transfer pellet to a 1.5 mL tube in 100 uL RPMI-1640. |500,000  |
+    |L3    |Wash L3 in a 15 mL conical tube containing clean RPMI-1640. Centrifuge 1,100 rpm for 8 min. or until L3s pellet. Transfer L3 into 1.5 mL tubes in 100 uL RPMI-1640. |300+ |
+    |Adult |  Wash separated adults in a petri dish containing RPMI-1640. Transfer adults into 1.5 mL tubes in 100 μL RPMI-1640 after wash.      | 1-3   |  
 
-3. Draw off media leaving ~ 100 μL behind. Add 300 μL TRIzol LS, mix by vortex and spin down briefly.
+4. Add 300 μL TRIzol LS.
 
-4. Snap freeze in liquid nitrogen.
+5. Snap freeze in liquid nitrogen.
 
-5. Store at -80°C.
+6. Store at -80°C.
 
-6. **If time allows, perform RNA extraction immediately.**
+ **If time allows, perform RNA extraction immediately.**
 
 
 ## A. RNA extraction and purification
