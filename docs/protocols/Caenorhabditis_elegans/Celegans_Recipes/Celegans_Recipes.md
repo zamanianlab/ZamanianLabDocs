@@ -136,6 +136,13 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
 1. To make 1 L, dissolve 292 g of NaCl (FW=58.44) in 900 mL distilled water (from the carboy). Transfer to a graduated cylinder and slowly bring up to final volume to 1L to achieve complete dissolution. This is stored without sterilizing.
 
 ---
+## KCl, 1M Solution
+
+1. To make 500 mL, completely dissolve 37.28 g of KCl (FW=74.55) in 450 mL distilled Milli-Q water. Transfer to a graduated cylinder and bring up to final volume.
+
+2. Autoclave for 1 hr.
+
+---
 ## Freezing Solution
 
 1. Mix the following:
