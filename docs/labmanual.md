@@ -256,7 +256,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 **Lab strain designation: ZAM#**  
 **Lab allele designation: maz#**
 
-*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the `C. elegans Strain Database` linked in [Lab Sheets](labsheets.md).
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the `C. elegans Strain Database` linked in [Lab Sheets](labsheets.md). The injection mix components and concentrations used to generate the strain as well as any additional notes pertaining to the strain should also be documented in the spreadsheet.
 
 ### C. Strain Maintenance
 
@@ -351,7 +351,7 @@ All lab members must take the appropriate safety training before starting any la
 
 ### Refrigerators
 
-  If one of our fridges breaks down, transfer the contents in one of our other fridges. 
+  If one of our fridges breaks down, transfer the contents in one of our other fridges.
 
 
 ## XIV. Lab Onboarding Checklist
