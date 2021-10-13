@@ -35,6 +35,8 @@
 
 - [Sanger Sequencing](Molecular_Biology/Sanger_Sequencing/Sanger_Sequencing.md)
 
+- [Competent Cells](Molecular_Biology/Chemically_Competent_Cells/competent_cells.md)
+
 
 ## Mosquito-Stage Parasite Protocols
 
