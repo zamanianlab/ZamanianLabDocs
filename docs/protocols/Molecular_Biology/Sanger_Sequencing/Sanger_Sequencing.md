@@ -97,8 +97,8 @@ See the [Biotech Center website](https://www.biotech.wisc.edu/services/dnaseq/se
 
 2. Submit a plasmid sequencing order through [Plasmidsaurus](https://www.plasmidsaurus.com/). You will need to create an account if you do not already have one. Enter the plasmid names in the exact order they will be deposited into the 8-well stripcap tubes. Also include the FedEx tracking number on the order form where indicated.
 
-3. Use the Qubit to measure the concentration of each plasmid and normalize each plasmid to 30 ng/µL with nuclease-free water. Add at least 10 µL of each plasmid to a tube in a 8-well stripcap tube.
+3. Use the Qubit to measure the concentration of each plasmid and normalize each plasmid to 30 ng/µL with nuclease-free water. Add at least 10 µL of each plasmid to a tube in a 8-well stripcap tube. Label the samples by writing the order label on the first tube and the strip number on the second tube of each strip. No additional labeling is necessary.
 
-4. When all plasmids for sequencing are ready and aliquoted into the striptubes, use parafilm to seal the caps and ensure they do not open during transit. Place the striptubes in the FedEx envelope and prepare for pickup.
+4. When all plasmids for sequencing are ready and aliquoted into the strip tubes, use parafilm to seal the caps and ensure they do not open during transit. Place the strip tubes and order sheet in the FedEx envelope and prepare for pickup.
 
-5. Plasmidsaurus will email the results in 3-5 business days. 
+5. Plasmidsaurus will email the results in 3-5 business days.
