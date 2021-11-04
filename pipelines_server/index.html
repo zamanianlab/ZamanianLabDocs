@@ -664,7 +664,27 @@
 <ol>
 <li>
 <p><strong>Staging -</strong> transfer input data for processing (ResearchDrive -&gt; CHTC)</p>
-<p>In almost all cases, you will <a href="http://chtc.cs.wisc.edu/transfer-data-researchdrive.shtml">directly transfer</a> your input data from ResearchDrive to the CHTC staging input folder. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the command below to transfer an unarchived folder on ResearchDrive to CHTC input and have it archived on arrival.</p>
+<p><strong>1A. Globus transfer</strong></p>
+<p>In almost all cases, you will use <a href="https://it.wisc.edu/it-projects/globus-research-data-management-project/">Globus</a> to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=108855">KB</a> for further instructions and necessary preparations for initiating your first transfer.</p>
+<p><details>
+<summary> Globus transfer</summary></p>
+<ol>
+<li>Login to the <a href="https://app.globus.org/">Globus web interface</a> with your NetID</li>
+<li>If transferring from a personal computer, install and start <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a>.</li>
+<li>If transferring from ResearchDrive, first create a kerberos ticket by running the command <code>ssh [netid]@doit-rci-00025.doit.wisc.edu</code>.</li>
+<li>In the web interface, set the view to two panels using the icon on the top right.</li>
+<li>On one side of the interface, click Collection and choose the desired endpoint (<code>chtc#staging</code>, <code>wisc-drive</code>, or your personal computer).</li>
+<li>Choose the other endpoint for the other side of the interface.</li>
+<li>Type <code>/staging/groups/zamanian_group/</code> into the Path box of the <code>chtc#staging</code> collection and press Enter (you may be required to login with your NetID again). Use <code>/mnt/researchdrive/mzamanian/</code> for <code>wisc-drive</code>.</li>
+<li>Navigate to the desired directories.</li>
+<li>Drag and drop files to transfer them; you will receive an email upon transfer completion.</li>
+<li>Exit the SSH once finished transferring to/from ResearchDrive.</li>
+<li>Login to the transfer server and archive the directories in <code>input/</code> and <code>metadata/</code> with teh command <code>tar -c {plate}.tar {plate}</code>.</li>
+<li>Delete the original, unarchived directories.</li>
+</ol>
+</details>
+<p><strong>1B. Direct transfer with smbclient</strong></p>
+<p>It is also possible to transfer via smbclient using the terminal. The following code will also archive the data upon arrival.</p>
 <p><details>
 <summary> ResearchDrive -&gt; CHTC transfer of unarchived raw data folder (archived on arrival)</summary>
 <div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
@@ -713,22 +733,6 @@ screen -r transfer
 </details></p>
 <p>Rarely, you may have to transfer data from other sources to CHTC staging input. You can run simple transfer commands from your computer:</p>
 <p><code>scp [dir] {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/</code></p>
-<p>A final transfer option is Globus. The CHTC has detailed instructions on using Globus to transfer data to/from a personal computer to/from the <code>staging/</code> directory. ResearchDrive is also a potential endpoint, see the <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=108855">KB</a> for further instructions and necessary preparations for initating your first transfer.</p>
-<p><details>
-<summary> Globus transfer</summary></p>
-<ol>
-<li>Login to the <a href="https://app.globus.org/">Globus web interface</a> with your NetID</li>
-<li>If transferring from a personal computer, install and start <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a>.</li>
-<li>If transferring from ResearchDrive, first create a kerberos ticket by running the command <code>ssh [netid]@doit-rci-00025.doit.wisc.edu</code>.</li>
-<li>In the web interface, set the view to two panels using the icon on the top right.</li>
-<li>On one side of the interface, click Collection and choose the desired endpoint (<code>chtc#staging</code>, <code>wisc-drive</code>, or your personal computer).</li>
-<li>Choose the other endpoint for the other side of the interface.</li>
-<li>Type <code>/staging/groups/zamanian_group/</code> into the Path box and press Enter (you may be required to login with your NetID again) to access our directory of <code>chtc#staging</code> or <code>/mnt/researchdrive/mzamanian/</code> for <code>wisc-drive</code>.</li>
-<li>Navigate to the desired directories.</li>
-<li>Drag and drop files to transfer them; you will receive an email upon transfer completion.</li>
-<li>Exit the SSH once finished transferring to/from ResearchDrive.</li>
-</ol>
-</details>
 </li>
 <li>
 <p><strong>Pipeline -</strong> Submit and manage CHTC jobs</p>
