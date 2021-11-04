@@ -53,7 +53,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
 
 1. **Staging -** transfer input data for processing (ResearchDrive -> CHTC)
 
-    **1A. Globus transfer**
+    1A. **Globus transfer**
 
     In almost all cases, you will use [Globus](https://it.wisc.edu/it-projects/globus-research-data-management-project/) to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the [KB](https://kb.wisc.edu/researchdata/internal/page.php?id=108855) for further instructions and necessary preparations for initiating your first transfer.
 
@@ -70,12 +70,12 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     8. Navigate to the desired directories.
     9. Drag and drop files to transfer them; you will receive an email upon transfer completion.
     10. Exit the SSH once finished transferring to/from ResearchDrive.
-    11. Login to the transfer server and archive the directories in `input/` and `metadata/` with teh command `tar -c {plate}.tar {plate}`.
+    11. Login to the transfer server and archive the directories in `input/` and `metadata/` with the command `tar -c {plate}.tar {plate}`.
     12. Delete the original, unarchived directories.
 
     </details>
 
-    **1B. Direct transfer with smbclient**
+    1B. **Command line transfer with smbclient**
 
     It is also possible to transfer via smbclient using the terminal. The following code will also archive the data upon arrival.
 
