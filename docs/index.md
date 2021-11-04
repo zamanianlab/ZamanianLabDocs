@@ -29,7 +29,7 @@ This resource is by nature an open, living, and collaborative document. We are u
     - Save in `/docs/` with the `.md` extension
         - **NOTE**: if adding/editing a protocol, make a new folder `/docs/protocols` titled `{protocol_name}` (without the {}); if adding images, make a new folder called `img` in `/docs/protocols/{protocol_name}`
     - Use the <a href="https://yakworks.github.io/mkdocs-material-components/cheat-sheet/" target="blank">cheatsheet</a> for reference
-    - Use an online editor (like <a href="http://markdown.pioul.fr/" target="blank">this</a> one) or use [Atom](comp_local.md) combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension
+    - Use an online editor (like <a href="https://markdown.pioul.fr/" target="blank">this</a> one) or use [Atom](comp_local.md) combined with the <a href="https://atom.io/packages/markdown-preview-plus" target="blank">Markdown Preview Plus</a> extension
 
 4. Push to GitHub
 
@@ -37,6 +37,6 @@ This resource is by nature an open, living, and collaborative document. We are u
 
       `mkdocs build && mkdocs gh-deploy`
 
-  - Optional: before deploying with `gh-deploy`, view the site locally with `mkdocs serve` and copy/paste <http://127.0.0.1:8000/> into your browser
+  - Optional: before deploying with `gh-deploy`, view the site locally with `mkdocs serve` and copy/paste <https://127.0.0.1:8000/> into your browser
 
-6. After deploying, check to ensure everything deployed as expected by visiting <http://www.zamanianlab.org/ZamanianLabDocs/>
+6. After deploying, check to ensure everything deployed as expected by visiting <https://www.zamanianlab.org/ZamanianLabDocs/>

@@ -1,6 +1,6 @@
 # Server Pipelines
 
-Our lab has access to powerful computing resources and support through the [Center for High-Throughput Computing (CHTC)](http://chtc.cs.wisc.edu/). Our core bioinformatics and image processing pipelines will be deployed through CHTC servers. All pipelines will be maintained on [GitHub](http://www.github.com) and associated with [Docker](http://www.docker.com) environments to ensure reproducibility. Many of our pipelines will use [Nextflow](https://www.nextflow.io/).
+Our lab has access to powerful computing resources and support through the [Center for High-Throughput Computing (CHTC)](https://chtc.cs.wisc.edu/). Our core bioinformatics and image processing pipelines will be deployed through CHTC servers. All pipelines will be maintained on [GitHub](https://www.github.com) and associated with [Docker](https://www.docker.com) environments to ensure reproducibility. Many of our pipelines will use [Nextflow](https://www.nextflow.io/).
 
 In general, pipelines will be run in three steps:
 
@@ -10,7 +10,7 @@ In general, pipelines will be run in three steps:
 
 ## A. Center for High-throughput Computing (CHTC)
 
-Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://research.cs.wisc.edu/htcondor/) documentation before getting started. Register for an account using this [form](http://chtc.cs.wisc.edu/form.shtml).
+Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://research.cs.wisc.edu/htcondor/) documentation before getting started. Register for an account using this [form](https://chtc.cs.wisc.edu/uw-research-computing/form).
 
 
 <img src="../images/chtc_flowchart.png" width="100%">
@@ -23,7 +23,7 @@ Consult official [CHTC](http://chtc.cs.wisc.edu/) and [HTCondor](https://researc
     The CHTC has an extensive set of execute nodes. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
 
     - Typical nodes: 20 cores, 128 GB RAM
-    - [High-memory nodes](http://chtc.cs.wisc.edu/high-memory-jobs.shtml): e.g., 80 cores, 4 TB RAM
+    - [High-memory nodes](https://chtc.cs.wisc.edu/uw-research-computing/high-memory-jobs): e.g., 80 cores, 4 TB RAM
     - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD  
 
 2. Submit nodes

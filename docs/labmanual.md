@@ -45,7 +45,7 @@ My commitment to your success in research and professional growth is coupled to 
 
 ### A. Slack
 
-All members of the lab will be asked to install [Slack](<http://www.slack.com>) on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<http://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
+All members of the lab will be asked to install [Slack](<https://www.slack.com>) on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<https://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
 
 ### B. Google Calendar
 
@@ -59,11 +59,11 @@ All members of the lab should record the details of their daily research activit
 
 ### B. Electronic Lab Notebooks
 
-The laboratory uses [Benchling](<http://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
+The laboratory uses [Benchling](<https://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the [Box Drive](<http://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below. The uses of other Box folders are described in subsequent sections.
+All grad students and postdocs should install the [Box Drive](<https://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below. The uses of other Box folders are described in subsequent sections.
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
@@ -89,7 +89,7 @@ Every member of the lab will be involved in scheduled lab maintenance in some ca
 
 ### A. Lab Inventory
 
-The locations of *all reagents and consumables* will be stored on [Quartzy](<http://www.quartzy.com>). Lab members will be expected to return ALL items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
+The locations of *all reagents and consumables* will be stored on [Quartzy](<https://www.quartzy.com>). Lab members will be expected to return ALL items to their assigned locations after use. It is the responsibility of lab members to make sure the Quartzy inventory is up-to-date. Additional rules are outlined in subsequent sections for inventory of plasmids, bacteria, worm strains, oligos, and parasite materials.
 
 ### B. Lab Ordering
 
@@ -302,7 +302,7 @@ Mosquito Carton Labels
 
 ## XI. Writing and Reference Management
 
-To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<http://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<http://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
+To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<https://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<https://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
 
 
 ## XII. Lab Safety

@@ -17,7 +17,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS, can also be isntalled by running `xcode-select --install`)
     - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
     - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
-    - [Slack](<http://www.slack.com>) (primary lab communication tool)
+    - [Slack](<https://www.slack.com>) (primary lab communication tool)
     - [UW VPN](https://kb.wisc.edu/helpdesk/page.php?id=90370) (VPN for off-campus resource access)
     - [Zoom](https://zoom.us/download) (video meeting software)
     - [Paperpile](https://paperpile.com/) (reference management)
