@@ -664,7 +664,7 @@
 <ol>
 <li>
 <p><strong>Staging -</strong> transfer input data for processing (ResearchDrive -&gt; CHTC)</p>
-<p><strong>1A. Globus transfer</strong></p>
+<p>1A. <strong>Globus transfer</strong></p>
 <p>In almost all cases, you will use <a href="https://it.wisc.edu/it-projects/globus-research-data-management-project/">Globus</a> to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=108855">KB</a> for further instructions and necessary preparations for initiating your first transfer.</p>
 <p><details>
 <summary> Globus transfer</summary></p>
@@ -679,11 +679,11 @@
 <li>Navigate to the desired directories.</li>
 <li>Drag and drop files to transfer them; you will receive an email upon transfer completion.</li>
 <li>Exit the SSH once finished transferring to/from ResearchDrive.</li>
-<li>Login to the transfer server and archive the directories in <code>input/</code> and <code>metadata/</code> with teh command <code>tar -c {plate}.tar {plate}</code>.</li>
+<li>Login to the transfer server and archive the directories in <code>input/</code> and <code>metadata/</code> with the command <code>tar -c {plate}.tar {plate}</code>.</li>
 <li>Delete the original, unarchived directories.</li>
 </ol>
 </details>
-<p><strong>1B. Direct transfer with smbclient</strong></p>
+<p>1B. <strong>Command line transfer with smbclient</strong></p>
 <p>It is also possible to transfer via smbclient using the terminal. The following code will also archive the data upon arrival.</p>
 <p><details>
 <summary> ResearchDrive -&gt; CHTC transfer of unarchived raw data folder (archived on arrival)</summary>
