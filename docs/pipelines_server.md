@@ -70,7 +70,7 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
     8. Navigate to the desired directories.
     9. Drag and drop files to transfer them; you will receive an email upon transfer completion.
     10. Exit the SSH once finished transferring to/from ResearchDrive.
-    11. Login to the transfer server and archive the directories in `input/` and `metadata/` with the command `tar -c {plate}.tar {plate}`.
+    11. Login to the transfer server and archive the directories in `input/` and `metadata/` with the command `tar -cvf {plate}.tar {plate}`.
     12. Delete the original, unarchived directories.
 
     </details>
