@@ -47,7 +47,7 @@
 
     - *B. malayi*:
 
-8. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed.
+8. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed. Additionally, verify mf have recovered (are moving) before feeding; otherwise they may be damaged or dead.  
 
 ###  Starting with mf in IP fluid
 
@@ -63,7 +63,7 @@
 
 4. Add the calculated amount of IP fluid to a 15 mL conical tube. Spin at 900 rpm for 10 min. You should see a pellet of mf at the bottom of the tube. Remove all supernatant without disturbing pellet. Add the final volume of blood you desire (11 mL x the number of feeders).
 
-5. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed.
+5. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed. Additionally, verify mf have recovered (are moving) before feeding; otherwise they may be damaged or dead. 
 
 ## Assembling **glass** blood feeders and feeding mosquitoes
 
