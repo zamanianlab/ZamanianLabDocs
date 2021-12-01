@@ -507,7 +507,9 @@
 <h1 id="wrmxpress-errors">wrmXpress errors</h1>
 <p>So far, not all module combinations have been tested, and there are likely new experimental designs (e.g., wavelength/site combinations)  that may result in bugs without further testing and development. If you run into a bug, please submit an <a href="https://github.com/zamanianlab/wrmXpress/issues">Issue</a> to the wrmXpress repo. An issue template is provided. YAML, .err, .out, and .log files will be required. Debugging will not begin until an adequate Issue has been filed.</p>
 <h1 id="wrmxpress-development">wrmXpress development</h1>
+<h2 id="adding-custom-python-modules">Adding custom Python modules</h2>
 <p>wrmXpress was designed to be extensible by other users. Modules can be developed in Python and invoked on a well-by-well basis. Development of these modules likely requires a strong working knowledge of Python, including image processing libraries such as <a href="https://opencv.org">opencv</a>, <a href="https://scikit-image.org">scikit-image</a>, <a href="https://matplotlib.org">matplotlib</a>, <a href="https://numpy.org">numpy</a>, <a href="https://pillow.readthedocs.io/en/stable/">pillow</a>, and <a href="https://scipy.org">scipy</a>.</p>
+<h2 id="adding-custom-cellprofiler-pipelines">Adding custom CellProfiler pipelines</h2>
 <p>A more immediate option for wrmXpress development that does not require Python expertise is through CellProfiler, which is written in Python but enables pipeline development through a GUI. A few general guidelines will allow for seamless integration of new CellProfiler pipelines into the wrmXpress wrapper.</p>
 <ol>
 <li>
