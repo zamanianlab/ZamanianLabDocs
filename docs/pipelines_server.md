@@ -110,30 +110,38 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
 
     **Note:** If you correctly updated your `~/.bash_profile` by following the [macOS environment setup instructions](comp_local.md), then you can use the simple `transfer` to `ssh` into the node.
 
-    For ImageXpress data, an entire experiment may include >10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the `input/` and `metadata/` directories of `/staging/groups/zamanian_group/` called `transfer_images.sh` and `transfer_metadata.sh`. These scripts reference the text file `/staging/groups/zamanian_group/plates.txt` and will loop through the plate names, sequentially transferring them from ResearchDrive and archiving them upon arrival. Edit `plates.txt` in the terminal using `vi` or `nano`, or edit the file locally and then upload it to `/staging/groups/zamanian_group/input/` (be sure to include a single plate name on each line with a blank line at the end of the file.) Run `sh transfer_metadata.sh` and `sh transfer_images.sh` to initate the transfers.
-
-    Both of these scripts will require a continuous ssh connection while they transfer. Transferring metadata will only take a few minutes, but transferring multiple plates of images will take several hours. The transfer process can be sent to the background (allowing the user to close the ssh connection) by using the `screen` tool. There are a number of helpful tutorials online, but a few sample commands are shown below.
+    For ImageXpress data, an entire experiment may include >10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the `input/` and `metadata/` directories of `/staging/groups/zamanian_group/` to help with batch transfer.
 
     <details>
-    <summary> Background transfer using `screen`</summary>
-    ```bash
-    # Log into transfer server and navigate to staging input dir
-    ssh {net-id}@transfer.chtc.wisc.edu
-    cd /staging/groups/zamanian_group/input/
+    <summary> Batch transfer via custom scripts and `screen` </summary>
 
-    # Start a screen named 'transfer'
-    screen -S transfer
+    === "Instructions"
+        
+        1. Use a terminal text editor (e.g., `vim` or `nano`) to edit the plate list in `/staging/groups/zamanian_group/input/plates.txt`     such that there is a single plate name per line. Also include a blank line at the end of the file.
+        2. Use the commands `sh transfer_images.sh` (from the `input/` directory) and `sh transfer_metadata.sh` (from the `metadata/`     directory) to transfer the images and metadata, respectively.
+        3. Use the `screen` tool to maintain a continuous process in the background, allowing you to close your SSH session.
 
-    # Initiate the transfer
-    sh transfer_images.sh
+    === "Sample `screen` commands"
 
-    # Detach from the screen by pressing Ctrl+a and then d
-    # Reattach to the screen
-    screen -r transfer
+        ```bash
+        # Log into transfer server and navigate to staging input dir
+        ssh {net-id}@transfer.chtc.wisc.edu
+        cd /staging/groups/zamanian_group/input/
 
-    # Close the screen
-    exit
-    ```
+        # Start a screen named 'transfer'
+        screen -S transfer
+
+        # Initiate the transfer
+        sh transfer_images.sh
+
+        # Detach from the screen by pressing Ctrl+a and then d
+        # Reattach to the screen
+        screen -r transfer
+
+        # Close the screen
+        exit
+        ```
+
     </details>
 
     Rarely, you may have to transfer data from other sources to CHTC staging input. You can run simple transfer commands from your computer:
