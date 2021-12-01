@@ -79,4 +79,5 @@ nav:
     - Data Storage:           pipelines_storage.md
     - Local Pipelines:        pipelines_local.md
     - Server Pipelines:       pipelines_server.md
+    - wrmXpress Pipeliens:    pipelines_wrmxpress.md
   - Resources:                resources.md
