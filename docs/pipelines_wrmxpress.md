@@ -40,7 +40,11 @@ So far, not all module combinations have been tested, and there are likely new e
 
 # wrmXpress development
 
+## Adding custom Python modules
+
 wrmXpress was designed to be extensible by other users. Modules can be developed in Python and invoked on a well-by-well basis. Development of these modules likely requires a strong working knowledge of Python, including image processing libraries such as [opencv](https://opencv.org), [scikit-image](https://scikit-image.org), [matplotlib](https://matplotlib.org), [numpy](https://numpy.org), [pillow](https://pillow.readthedocs.io/en/stable/), and [scipy](https://scipy.org).
+
+## Adding custom CellProfiler pipelines
 
 A more immediate option for wrmXpress development that does not require Python expertise is through CellProfiler, which is written in Python but enables pipeline development through a GUI. A few general guidelines will allow for seamless integration of new CellProfiler pipelines into the wrmXpress wrapper.
 
