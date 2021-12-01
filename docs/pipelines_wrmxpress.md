@@ -6,7 +6,7 @@ The following contains a step-by-step protocol that is specific to Zamanian lab 
 
 - For full ImageXpress protocols, see our comprehensive [documentation](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/edit)
 - For generating metadata, see the [Metadata](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/edit#heading=h.uy3cjpbzggv) heading of the documentation
-- For instructions on transfering data and metadata to the CHTC, see the Globus section (1A) of our [Server Pipelines](pipelines_server.md) page
+- For instructions on transferring data and metadata to the CHTC, see the Globus section (1A) of our [Server Pipelines](pipelines_server.md) page
 
 ## Preparing to submit wrmXpress jobs
 
