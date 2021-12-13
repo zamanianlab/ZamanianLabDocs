@@ -71,6 +71,7 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
         9. Drag and drop files to transfer them; you will receive an email upon transfer completion.
         10. Exit the SSH once finished transferring to/from ResearchDrive.
         11. Login to the transfer server and archive the directories in `input/` and `metadata/` with the command `tar -cvf {plate}.tar   {plate}`.
+            To loop this command for several files, use: `for f in *NJW*; do tar -cvf $f.tar $f; done` (use a regular expression that will work for your folders).
         12. Delete the original, unarchived directories.
 
     1B. **Command line transfer with smbclient**
