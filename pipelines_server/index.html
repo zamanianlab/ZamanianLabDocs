@@ -659,7 +659,8 @@
 <li>Navigate to the desired directories.</li>
 <li>Drag and drop files to transfer them; you will receive an email upon transfer completion.</li>
 <li>Exit the SSH once finished transferring to/from ResearchDrive.</li>
-<li>Login to the transfer server and archive the directories in <code>input/</code> and <code>metadata/</code> with the command <code>tar -cvf {plate}.tar   {plate}</code>.</li>
+<li>Login to the transfer server and archive the directories in <code>input/</code> and <code>metadata/</code> with the command <code>tar -cvf {plate}.tar   {plate}</code>.
+    To loop this command for several files, use: <code>for f in *NJW*; do tar -cvf $f.tar $f; done</code> (use a regular expression that will work for your folders).</li>
 <li>Delete the original, unarchived directories.</li>
 </ol>
 </details>
