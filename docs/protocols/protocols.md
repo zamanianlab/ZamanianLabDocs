@@ -89,7 +89,7 @@
 
 ## *Caenorhabditis elegans*
 
-- [Stacks Sensory Assays](Stacks/Stacks.md)
+- [Stacks Sensory Assays](Caenorhabditis_elegans/Stacks/Stacks.md)
 
 *Many protocols adapted from the Andersen Lab (NU)*
 
