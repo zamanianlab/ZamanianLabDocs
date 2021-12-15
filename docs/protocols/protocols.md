@@ -89,6 +89,8 @@
 
 ## *Caenorhabditis elegans*
 
+- [Stacks Sensory Assays](Stacks/Stacks.md)
+
 *Many protocols adapted from the Andersen Lab (NU)*
 
 - [*C. elegans* Recipes](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)

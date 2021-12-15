@@ -14,7 +14,7 @@ Within designated `Box/ZamanianLab/Data/` sub-directory,
     │   │   ├── YYYYMMDD.csv      [raw instrument output or csv data]
     │   │   └── Notes.txt         [assay description and additional details]
     │   └── (assay)_tidy.rds      [tidy/processed data]
-    ├── R/                        [R script folder]
+    ├── code/                     [R script folder]
     │   ├── (assay)_tidy.R        [raw data > (assay)_tidy.rds]
     │   └── (assay)_analysis.R    [template: tidy data > analysis and plots]
     └── plots/                    [plot outputs]
