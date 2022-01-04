@@ -635,7 +635,7 @@
 <p>Each net-id is associated with a <code>home</code> folder, where we manage job submission scripts. Our lab also has a shared <code>staging</code> folder, for transfer of large files in and out of the CHTC system. The CHTC does not use a shared file system, but you can request the storage you need for any given job.</p>
 <div class="highlight"><pre><span></span><code>/
 ├── home/{net-id}/                    [quota: 20 GB, submit script dir]
-└── staging/groups/zamanian_group/    [quota: 1 TB | 100 files]
+└── staging/groups/zamanian_group/    [quota: 1 TB | 100k files]
     └── input/                        [input dir: unprocessed (raw) data]
     └── output/                       [output dir: processed job outputs]
     └── WBP.tar.gz                    [permanent storage of WBP data]
@@ -647,7 +647,7 @@
 <li>
 <p><strong>Staging -</strong> transfer input data for processing (ResearchDrive -&gt; CHTC)</p>
 <p>1A. <strong>Globus transfer</strong></p>
-<p>In almost all cases, you will use <a href="https://it.wisc.edu/it-projects/globus-research-data-management-project/">Globus</a> to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=108855">KB</a> for further instructions and necessary preparations for initiating your first transfer.</p>
+<p>In almost all cases, you will use <a href="https://it.wisc.edu/it-projects/globus-research-data-management-project/">Globus</a> to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=108855">KB</a> for further instructions.</p>
 <details class="example"><summary>Globus transfer</summary><ol>
 <li>Login to the <a href="https://app.globus.org/">Globus web interface</a> with your NetID</li>
 <li>If transferring from a personal computer, install and start <a href="https://www.globus.org/globus-connect- personal">Globus Connect Personal</a>.</li>
@@ -695,22 +695,22 @@ smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;Imag
 </ol>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Sample screen commands</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
 ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
 <span class="nb">cd</span> /staging/groups/zamanian_group/input/
 
@@ -748,40 +748,40 @@ scp <span class="o">[</span><span class="nb">local</span> file<span class="o">]<
 <p><strong>Pipeline -</strong> Submit and manage CHTC jobs</p>
 <p>CHTC uses HTCondor for job scheduling. Submission files should follow lab conventions and be consistent with the CHTC documentation. Two example submit scripts with annotations are shown below. This submit scripts (Core_RNAseq-nf.sub/wrmXpress.sub) load a pre-defined Docker environment and run a bash executable script (Core_RNAseq-nf.sh/wrmXpress.sh) with defined arguments on the execute node. Other options define log files, resource requirements, and transfer of files in/out of <code>home</code>. Large files should not be transferred in/out of <code>home</code>, but you may need to transfer auxiliary files (for example, the parameters YAML file for wrmXpress jobs). We transfer in our large data through <code>/staging/groups/zamanian_group/input/</code> and we move job output files to <code>/staging/groups/zamanian_group/output/</code> within the job executable script to avoid their transfer to <code>home</code> upon job completion. The only files that should be transferred back to <code>home</code> are small log files.</p>
 <details><summary>Example CHTC job submission scripts (.sub / .sh)</summary><div class="tabbed-set" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Core_RNAseq-nf.sub</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code># Core_RNAseq-nf.sub
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code># Core_RNAseq-nf.sub
 # Input data in /staging/{net-id}/input/$(dir)
 # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
@@ -819,40 +819,40 @@ queue 1
 </td></tr></table>
 </div>
 <input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Core_RNAseq-nf.sh</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 
 <span class="c1"># set home () and mk dirs</span>
 <span class="nb">export</span> <span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
@@ -890,42 +890,42 @@ mv output/<span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
 </td></tr></table>
 </div>
 <input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><label for="__tabbed_2_3">wrmXpress.sub</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code># Input data: /staging/groups/zamanian_group/input/${plate}.tar
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code># Input data: /staging/groups/zamanian_group/input/${plate}.tar
 # Parameters: $HOME/${plate}.yml
-# Run: condor_submit wrmXpress.sub script=wrmXpress.sh plate=20211105-p01-EJG_948
+# Run: condor_submit wrmXpress.sub script=wrmXpress.sh
 
 # request Zamanian Lab server
 Accounting_Group = PathobiologicalSciences_Zamanian
@@ -961,48 +961,48 @@ queue plate from plate_list.txt
 </td></tr></table>
 </div>
 <input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><label for="__tabbed_2_4">wrmXpress.sh</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span>
-<span class="normal">35</span>
-<span class="normal">36</span>
-<span class="normal">37</span>
-<span class="normal">38</span>
-<span class="normal">39</span>
-<span class="normal">40</span>
-<span class="normal">41</span>
-<span class="normal">42</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
 
 <span class="c1"># set home () and mk dirs</span>
 <span class="nb">export</span> <span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
@@ -1154,20 +1154,20 @@ RUN \
 </details>
 </li>
 <li>
-<p>Build Docker image</p>
+<p>Build Docker image (provide a version number)</p>
 <div class="highlight"><pre><span></span><code><span class="nb">cd</span> <span class="o">[</span>/path/to/Dockerfile<span class="o">]</span>
-docker build -t zamanianlab/chtc-rnaseq .
+docker build -t zamanianlab/chtc-rnaseq:v4 .
 </code></pre></div>
 </li>
 <li>
 <p>Test Docker image interactively</p>
-<div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq /bin/bash
+<div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq:v4 /bin/bash
 ctrl+D to <span class="nb">exit</span>
 </code></pre></div>
 </li>
 <li>
 <p>Push Docker image to Docker Hub</p>
-<div class="highlight"><pre><span></span><code>docker push zamanianlab/chtc-rnaseq
+<div class="highlight"><pre><span></span><code>docker push zamanianlab/chtc-rnaseq:v4
 </code></pre></div>
 <details><summary>Some useful Docker commands</summary><div class="highlight"><pre><span></span><code><span class="c1"># list docker images</span>
   docker image ls <span class="o">(=</span> docker images<span class="o">)</span>
