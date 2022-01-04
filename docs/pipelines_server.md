@@ -41,7 +41,7 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
       ```
       /
       ├── home/{net-id}/                    [quota: 20 GB, submit script dir]
-      └── staging/groups/zamanian_group/    [quota: 1 TB | 100 files]
+      └── staging/groups/zamanian_group/    [quota: 1 TB | 100k files]
           └── input/                        [input dir: unprocessed (raw) data]
           └── output/                       [output dir: processed job outputs]
           └── WBP.tar.gz                    [permanent storage of WBP data]
@@ -55,8 +55,7 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
 
     1A. **Globus transfer**
 
-    In almost all cases, you will use [Globus](https://it.wisc.edu/it-projects/globus-research-data-management-project/) to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the [KB](https://kb.wisc.edu/researchdata/internal/page.php?id=108855) for further instructions and necessary preparations for initiating your first transfer.
-
+    In almost all cases, you will use [Globus](https://it.wisc.edu/it-projects/globus-research-data-management-project/) to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the [KB](https://kb.wisc.edu/researchdata/internal/page.php?id=108855) for further instructions.
 
     ??? example "Globus transfer"
 
@@ -249,7 +248,7 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
             ```linenums="1"
             # Input data: /staging/groups/zamanian_group/input/${plate}.tar
             # Parameters: $HOME/${plate}.yml
-            # Run: condor_submit wrmXpress.sub script=wrmXpress.sh plate=20211105-p01-EJG_948
+            # Run: condor_submit wrmXpress.sub script=wrmXpress.sh
 
             # request Zamanian Lab server
             Accounting_Group = PathobiologicalSciences_Zamanian
@@ -451,24 +450,24 @@ We will user Docker to establish consistent environments (containers) for our es
             - mirdeep2=2.0.1.2
         ```
 
-3. Build Docker image
+3. Build Docker image (provide a version number)
 
     ```bash
     cd [/path/to/Dockerfile]
-    docker build -t zamanianlab/chtc-rnaseq .
+    docker build -t zamanianlab/chtc-rnaseq:v4 .
     ```
 
 4. Test Docker image interactively
 
     ```bash
-  	docker run -it --rm=TRUE zamanianlab/chtc-rnaseq /bin/bash
+  	docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v4 /bin/bash
   	ctrl+D to exit
     ```
 
 5. Push Docker image to Docker Hub
 
     ```bash
-    docker push zamanianlab/chtc-rnaseq
+    docker push zamanianlab/chtc-rnaseq:v4
     ```
 
     ??? "Some useful Docker commands"
