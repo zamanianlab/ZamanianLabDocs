@@ -60,8 +60,8 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
     ??? example "Globus transfer"
 
         1. Login to the [Globus web interface](https://app.globus.org/) with your NetID
-        2. If transferring from a personal computer, install and start [Globus Connect Personal](https://www.globus.org/globus-connect- personal).
-        3. If transferring from ResearchDrive, first create a kerberos ticket by running the command `ssh [netid]@doit-rci- 00025.doit.wisc.edu`.
+        2. If transferring from a personal computer, install and start [Globus Connect Personal](https://www.globus.org/globus-connect-personal).
+        3. If transferring from ResearchDrive, first create a kerberos ticket by running the command `ssh [netid]@doit-rci-00025.doit.wisc.edu`.
         4. In the web interface, set the view to two panels using the icon on the top right.
         5. On one side of the interface, click Collection and choose the desired endpoint (`chtc#staging`, `wisc-drive`, or your personal   computer).
         6. Choose the other endpoint for the other side of the interface.
