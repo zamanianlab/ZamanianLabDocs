@@ -4,37 +4,37 @@ Adapted from Robyn Tanny December 2013
 
 ## Freezing Protocol
 
-1. Chuck worms to the number of 10 cm plates you wish to freeze for a particular strain.
+1. Pick worms to six 6 cm plates for a particular strain.
 
--  For most strains, one plate is enough. For sick strains, more plates will result in a higher titter and therefore a better thaw rate. Use two places for transgenic strains.
+-  
 
 - Check the genotype of the strain so you can follow any phenotypes to make sure the animals are correct.
 
-2. Store the plates at the optimal temperature for your strain (20°C for most strains) until the 10 cm plate is starved.
+2. Store the plates at the optimal temperature for your strain (20°C for most strains) until the 6 cm plates have no bacteria left on them.
 
 - The strain is ready to freeze when there is no bacteria on the plate and there are few or no embryos remaining on the plate. Most of the animals should be L1, L2, or dauer.
 
-3. Prepare the number of cryovial tubes with cryo-safe labels with the appropriate information (e.g. strain name, date frozen, genotype, genotype, the initials of the person who froze the strain, etc.) that you want to freeze. Use "Cryovials Label Template" for printing labels with the correct information.
+3. Prepare the number of cryovial tubes with cryo-safe labels with the appropriate information (e.g. strain name and date frozen) that you want to freeze. Use "Cryovials Label Template" for printing labels with the correct information.
 
-- We currently freeze five cryovial tubes per strain: four for our working stocks and one for long-term liquid nitrogen storage. You can freeze an extra sixth tube to use as a test thaw if you wish.
+- We currently freeze six cryovial tubes per strain: four for our working stocks and one for long-term liquid nitrogen storage and an extra sixth tube to use as a test thaw.
 
-- **If you want to freeze more than six tubes, you should prepare more than one 10 cm plate per strain.**
+- **If you want to freeze more than six tubes, you should prepare more than six 6 cm plates per strain.
 
-- **For freezing transgenic strains the lab creates, freeze four tubes per independent line of that strain. Two for working stocks in the -80°C, one for liquid nitrogen storage, and one test thaw.**
+
 
 - When the last tube is thawed, you must refreeze the strain.
 
 4. When the strain is ready to be frozen, use a sterile 10 mL serological pipette to aliquot 3 mL of freezing solution (recipe below) into a 15 mL conical tube. Aliquot ~3.5 mL of M9 (recipe below) into a different 15 mL conical tube.
 
-5. Take the lids off all the cryovials.
+5. Loosen the lids on all the cryovials.
 
-6. Wash worms off the plate by pouring the ~3-4 mL of M9 onto the 10 cm plate. Shake/swirl the plate once and then transfer the worms and M9 back to the 15 mL conical. **Do this very quickly as the M9 will soak into the plate.** If you use less than 3 mL of M9, squirt a little more M9 on the plate and transfer the worms to the 15 mL conical. **The final volume in the conical should be 6 mL.**
+6. Wash worms off the plate by pouring the ~3-4 mL of M9 onto one 6 cm plate. Shake/swirl the plate once and then transfer the worms and M9 to the next 6 cm plate until all six plates are washed of worms. **Do this very quickly as the M9 will soak into the plate.** Transfer the worms to the 15 mL conical with the freezing buffer. **The final volume in the conical should be 6 mL.Add more M9 if needed**
 
-- If you are freezing more than one plate for a single strain, use 3 mL of M9 between all the plates.
 
-7. Use a new, sterile, glass pipette to pipette the M9/worm/freezing solution mixture up and down once to mix. Be gentle, and do this slowly as to not introduce bubbles into the mixture.
 
-8. Use the same sterile glass pipette to aliquot 1 mL of the M9/worm/freezing solution mixture into each of the tubes, replace the caps, and place tubes in a 1.5 mL tube styrofoam container in the -80°C.
+7. Use a new, sterile, pipette to pipette the M9/worm/freezing solution mixture up and down once to mix. Be gentle, and do this slowly as to not introduce bubbles into the mixture.
+
+8. Use the same sterile pipette to aliquot 1 mL of the M9/worm/freezing solution mixture into each of the tubes, replace the caps, and place tubes in a 1.5 mL tube styrofoam container in the -80°C.
 
     ![Image](img/StyrofoamRack.png)
 
@@ -48,7 +48,7 @@ Adapted from Robyn Tanny December 2013
 
     ![Image](img/WorkingStockBox.png)
 
-- If you froze a test thaw, empty the contents of the tube onto a 10 cm plate just after the contents melt. Check the plate after ~48-72 hr. If you see gravid animals and embryos on the plate, the strain survived the thaw. If you do not see gravid animals and embryos, try freezing the strain again, but start with more 10 cm plates (step 1). If the strain has a transgenic marker, check to see if the thawed stock still expresses the marker.
+- If you froze a test thaw, empty the contents of the tube onto a 10 cm plate just after the contents melt. Check the plate after ~48-72 hr. If you see gravid animals and embryos on the plate, the strain survived the thaw. If you do not see gravid animals and embryos, try freezing the strain again. If the strain has a transgenic marker, check to see if the thawed stock still expresses the marker.
 
 - As you move the strain into the Working Stock Boxes and the Liquid Nitrogen Stock Boxes, make sure to write down the locations in the Freezer Log (i.e. - write down the information while you are physically moving the strains!).
 
