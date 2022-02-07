@@ -63,7 +63,7 @@
 
 4. Add the calculated amount of IP fluid to a 15 mL conical tube. Spin at 900 rpm for 10 min. You should see a pellet of mf at the bottom of the tube. Remove all supernatant without disturbing pellet. Add the final volume of blood you desire (11 mL x the number of feeders).
 
-5. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed. Additionally, verify mf have recovered (are moving) before feeding; otherwise they may be damaged or dead. 
+5. Re-enumerate the mf in blood in duplicate to verify that it is within target concentration for the designated species (see target concentrations above). If concentration is off, re-calculate dilutions based on the new numbers and add defibrinated sheep's blood as needed. Additionally, verify mf have recovered (are moving) before feeding; otherwise they may be damaged or dead.
 
 ## Assembling **glass** blood feeders and feeding mosquitoes
 
@@ -161,3 +161,12 @@
     - Maintain the sucrose pads on the cartons **daily**. It will be important to communicate with the insectary manager or undergraduates to make sure sucrose pads are moistened every day including on the weekends.
 
     - If you notice an accumulation of dead mosquitoes in the bottom of the carton, suck out the dead mosquitoes, empty the suction device into a plastic container and freeze the container overnight. The mosquitoes can then be placed in the trash the next day after freezing.
+
+## Note about feeding SD Mosquitoes
+
+  These mosquitoes are fragile and the following precautions should be taken to achieve the best yield:
+
+    - SD should be panned out on a Friday and separated/counted on a Thursday
+    - Mosquitoes should not be blood fed on a Wednesday; if mf are arriving on a Wednesday because of a holiday, request they be sent a different week
+    - Only starve mosquitoes for four hours prior to blood feeding
+    - L3s should be extracted on day 13 after blood-feeding
