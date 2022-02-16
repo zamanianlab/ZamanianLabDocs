@@ -494,6 +494,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#fecundity-image-analysis" class="md-nav__link">
+    Fecundity image analysis
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -638,6 +645,40 @@
 <p>For mf pellets stored at 4°C, pipette to mix and transfer 50 μL to a 96-well plate used for the ImageXpress. Image the plate with the <code>microfilaria_count</code> protocol stored in the ImageXpress DB (complete ImageXpress instructions can be found <a href="https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/edit?usp=sharing">here</a>).</p>
 </li>
 </ul>
+<h3 id="fecundity-image-analysis">Fecundity image analysis</h3>
+<ol>
+<li>
+<p>Load the images from the entire plate into ImageJ as a stack.</p>
+</li>
+<li>
+<p>Draw circle ROI and make sure it doesn’t contain the well rim for any images</p>
+</li>
+<li>
+<p>Edit &gt; Clear outside</p>
+</li>
+<li>
+<p>Process &gt; Find edges</p>
+</li>
+<li>
+<p>Image &gt; Adjust &gt; Threshold (dark background, stack histogram) &gt; Apply (unselect everything)</p>
+<ul>
+<li>Manually choose a percentage on the histogram that maximizes segmented objects and minimizes background.</li>
+</ul>
+</li>
+<li>
+<p>Process &gt; Binary &gt; Make binary (unselect everything)</p>
+</li>
+<li>
+<p>Analyze &gt; Set measurements (Only select area &amp; limit to threshold)</p>
+</li>
+<li>
+<p>Image &gt; Stacks &gt; Measure stack</p>
+</li>
+<li>
+<p>Analyze data in R.</p>
+<p><strong>NOTE</strong>: Worms that lay less than 200 mf (160,000 pixels) over the first day of recovery should be removed from all downstream data analysis</p>
+</li>
+</ol>
                 
               
               
