@@ -101,3 +101,27 @@
 - Follow the protocol for [quantifying protein release](../Protein_Release_Assay/Protein_Release_Assay.md).
 
 - For mf pellets stored at 4°C, pipette to mix and transfer 50 μL to a 96-well plate used for the ImageXpress. Image the plate with the `microfilaria_count` protocol stored in the ImageXpress DB (complete ImageXpress instructions can be found [here](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/edit?usp=sharing)).
+
+### Fecundity image analysis
+
+1. Load the images from the entire plate into ImageJ as a stack.
+
+2. Draw circle ROI and make sure it doesn’t contain the well rim for any images
+
+3. Edit > Clear outside
+
+4. Process > Find edges
+
+5. Image > Adjust > Threshold (dark background, stack histogram) > Apply (unselect everything)
+
+    - Manually choose a percentage on the histogram that maximizes segmented objects and minimizes background.
+
+6. Process > Binary > Make binary (unselect everything)
+
+7. Analyze > Set measurements (Only select area & limit to threshold)
+
+8. Image > Stacks > Measure stack
+
+9. Analyze data in R.
+
+    **NOTE**: Worms that lay less than 200 mf (160,000 pixels) over the first day of recovery should be removed from all downstream data analysis
