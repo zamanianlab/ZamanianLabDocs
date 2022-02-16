@@ -21,7 +21,7 @@
 
     |Stage| Timing | Wash Method | Ideal Quantity|
     |----------------------------|------ | ------|----------------------------------------|
-    |mf    | Day of arrival |   Use RPMI-1640 and a [PD-10 column](../../Parasitic_Nematodes/PD10_mf_purification/PD10_mf_purification.md) to filter the mf. Titer to ~500,000 mf total and centrifuge at 1,100 rpm for 8 min. or until mf pellet. Transfer pellet to a 1.5 mL tube in 100 μL nuclease-free water. |500,000  |
+    |mf    | Day of arrival |   Use RPMI-1640 and a [PD-10 column](../mf_filtration/mf_filtration.md) to filter the mf. Titer to ~500,000 mf total and centrifuge at 1,100 rpm for 8 min. or until mf pellet. Transfer pellet to a 1.5 mL tube in 100 μL nuclease-free water. |500,000  |
     |L3   | Day of arrival |Wash L3 in a 15 mL conical tube containing clean RPMI-1640. Allow L3s to pellet by gravity. Transfer L3 into 1.5 mL tubes in 100 μL nuclease-free water. |300+ |
     |Adult | Incubate in fresh complete media at 37°C for 24 hr. prior to freezing. |  Wash separated adults in a petri dish containing RPMI-1640. Transfer adults into 1.5 mL tubes in 100 μL nuclease-free water after wash.      | 1-3   |  
 

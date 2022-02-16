@@ -21,7 +21,8 @@
     c. Add 11 mL of distilled water to the tube to make a 30% w/v solution.
 
     d. Place the undissolved gel solution at 4°C to dissolve completely over the next 2-3 days.
-        i. The gel polymerizes at room temperature, so be careful not to take the gel solution out of the fridge too often, be quick when using the gel solution, and keep the solution on ice while not in the fridge.
+
+    **NOTE:** The gel polymerizes at room temperature, so be careful not to take the gel solution out of the fridge too often, be quick when using the gel solution, and keep the solution on ice while not in the fridge.
 
 2. 5 days in advance to doing the experiment, pick 5 L4s to each of 5 seeded plates.
 
@@ -43,6 +44,8 @@
 
 10. Set up an ice bath at ~12°C and set an aliquot of the gel solution in a conical tube. Allowing the gel to warm >12°C will make it too viscous to work with and having it colder than 12°C will cause greater cold-shock to the worms.
 
+    <img src="../img/ice_bath.jpg" width="50%">
+
 11. In the 1.5 mL tube allow the worms to settle once again and remove all but ~50 µL of water.
 
 12. Cut the tip of a p1000 to increase the bore size, flush the tip with ice-cold water, and use it to add the amount of gel that is needed to reach the desired concentration of worms. Ensure that the final PF-127 concentration is 26-28%.
@@ -53,9 +56,13 @@
 
 14. Obtain 3 6x4 plates and a stack stand.
 
+    <img src="../img/unassembled_stack.jpg" width="50%">
+
 15. Tape the 3 plates tightly together to form a stack and place onto the stack stand. Make sure the plates are flat, do not use plates that have a slight bend.
 
 16. Label the top and bottom side of the stack and which sides or rows will have the attractant and control  
+
+    <img src="../img/assembled_stack.jpg" width="50%">
 
 17. Use the repeater pipette to add 12 µL of the worm-gel mixture into each cell of the stack. Flush the pipette tip with ice-cold water to limit polymerization in the tip.
 
@@ -69,12 +76,18 @@
 
 22. Keeping the stack hydrated is essential, otherwise the gel and worms will desiccate.
 
-23. Place a wet paper towel in the bottom of a bioassay dish, put the stack into the small container, and place the lid over the top.
+    a. Place a wet paper towel in the bottom of a bioassay dish, put the stack into the small container, and place the lid over the top.
 
-24. Four bioassay dishes can fit in the larger square tray. Put the bioassays dishes in the tray, and then add tap water to the tray. Cover the tray with a lid.
+    b. Four bioassay dishes can fit in the larger square tray. Put the bioassays dishes in the tray, and then add tap water to the tray. Cover the tray with a lid.
+
+    <img src="../img/box_arrangement.jpg" width="49%"> <img src="../img/filled_box.jpg" width="49%">
 
 25. Check each well every 15-30 minutes to ensure worms are burrowing.
 
 26. After 1 hour, count and record the number of worms that have reached the attractant and the number of worms that have reached the control. Worms that have reached the cue/control are moving at the interface of the liquid and gel, often thrashing.
 
-27. Store data and notes according to the guidelines in [Local Pipelines](../../pipelines_local.md).
+27. Using a razor blade, slice through the separations of each stack to disassemble the stack.
+
+28. Count the number of worms in each cell of every slice.
+
+29. Store data and notes according to the guidelines in [Local Pipelines](../../../pipelines_local.md).
