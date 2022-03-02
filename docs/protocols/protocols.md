@@ -81,6 +81,8 @@
 
 - [Microfilariae Purification](Parasitic_Nematodes/mf_filtration/mf_filtration.md)
 
+- [Mansonella Diagnostics](Parasitic_Nematodes/Mansonella_Diagnostics/Mansonella_Diagnostics.md)
+
 ### GINs
 
 - [Egg Purification from Feces](Parasitic_Nematodes/GIN_egg_purification/GIN_egg_purification.md)
