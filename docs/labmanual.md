@@ -3,7 +3,7 @@
 ## I. Lab Mission and Philosophy
 
 ### A. Research Mission
-The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth (parasitic worm) biology and our ability to treat globally important human and animal parasitic infections. This includes discovering new drug targets, elucidating mechanisms of drug resistance, and developing new tools for parasite manipulation. Our current work involves the study of mosquito-borne and soil-transmitted nematode parasites, as well as snail (vector) biology in relation to schistosome control. To complement some of our efforts, we exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We strive to place all of our work in the context of a growing appreciation for and understanding of parasite genetic diversity.
+The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth biology and our ability to treat globally important human and animal parasitic infections. Active projects include the study of vector and soil-transmitted helminths in the lab and the field. To complement some of our efforts, we exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We strive to place all of our work in the context of host-pathogen interactions and a growing appreciation for and understanding of parasite genetic diversity.
 
 ### B. Philosophy
 
@@ -21,7 +21,7 @@ Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
 
 ### C. Mentorship
 
-We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language (e.g., R or Python) useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those who are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
+We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those who are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
 
 
 ### D. Lab Citizenship
@@ -53,17 +53,18 @@ An official lab Google calendar will be shared and updated with lab meeting time
 
 ## III. Research Documentation
 
-### A. Physical Lab Notebooks
+### A. Traditional Lab Notebooks
 
-All members of the lab should record the details of their daily research activities in the form of a traditional lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks cannot leave the laboratory and must be turned in at the conclusion of your tenure in the lab.
+All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by [Rocketbook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as backup.
+
 
 ### B. Electronic Lab Notebooks
 
-The laboratory uses [Benchling](<https://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work done and data generated (gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of molecular biology reagents.
+The laboratory uses [Benchling](<https://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology and cloning efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work (including gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of reagents.
 
 ### C. Lab Electronic Storage
 
-All grad students and postdocs should install the [Box Drive](<https://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data, scripts, and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below. The uses of other Box folders are described in subsequent sections.
+All grad students and postdocs should install the [Box Drive](<https://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below. The uses of other Box folders are described in subsequent sections.
 
 - ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., subfolders ``/Gels/``, ``/Sanger/``, ``/qPCR/``), common assays and projects with small data footprints (e.g., subfolders ``/Ce_assays/`` and ``/RNAi_experiments/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
 
@@ -74,7 +75,7 @@ All grad students and postdocs should install the [Box Drive](<https://www.box.c
 
 ### A. Lab Meetings
 
-Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` subfolder. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. You should be prepared to present your progress in this short format every week when called upon. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
+Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` subfolder to present on their assigned days. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
 
 ### B. One-on-One Meetings
 
@@ -93,7 +94,7 @@ The locations of *all reagents and consumables* will be stored on [Quartzy](<htt
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either the UW [MDS](<https://mds.bussvc.wisc.edu/order/shopper_lookup.asp>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
 
 ### C. Physical Organization
 
@@ -105,7 +106,7 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
 
 1. **Autoclave bag trash:** Remove bag, twist top, and bend over and wrap clear packing tape around the top to seal. The bags go in the MERI bins in the loading dock. Replace autoclave bag with new bag labeled ZAMANIAN LAB.
 
-2.	**Gloves:** Non-contaminated gloves go in the blue glove recycling buckets. Full buckets can be emptied into box on the loading dock for recycling. We reuse the blue buckets.
+2. **Gloves:** Non-contaminated gloves go in the blue glove recycling buckets. Full buckets can be emptied into box on the loading dock for recycling. We reuse the blue buckets.
 
 3. **Cardboard benchtop tip boxes:** These boxes are designed for pipette tip trash only. When box is full, tape top closed with clear packing tape. Full tip boxes can be placed by either sink in the labs until there is room to add it to a autoclave bag. They cannot go into the MERI bin unless they are in an autoclave bag. New tip trash boxes can be found assembled on a shelf in 230 or unassembled on the bench in the loading dock.
 
@@ -151,7 +152,7 @@ Storage box labels (-20C): "Oligo Stocks #"
     Location
 ```
 
-- *Primers note:* Make 100 uM lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out.
+- *Primers note:* Make 100 uM lab stocks of each primer oligo and store in Oligo Stocks box (-20C). Add 10*Y (uL) volume to lyophilized primer, where Y is nmol yield to make 100 uM stocks. Keep 10 uM (1:10 of stock) dilutions of primers in your own personal boxes for personal use. Re-order the original stock primer before it runs out if it will be needed in the future.
 
 ### B. Plasmids (Lab and Commercial)                
 
@@ -266,7 +267,7 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Schedule
 
-We generate parasites through local infections and receive regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the `Parasite Schedule Sheet` linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the `#Parasite_Planning` Slack channel.
+We generate parasites through local infections and receive additional regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the `Parasite Schedule Sheet` linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the `#Parasite_Planning` Slack channel.
 
 ### B. Storage of General Parasite Materials
 
@@ -302,7 +303,7 @@ Mosquito Carton Labels
 
 ## XI. Writing and Reference Management
 
-To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<https://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<https://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized within ``/Manuscripts/`` and in a manuscript-specific GitHub project.
+To streamline collaborative writing and/or editing of manuscripts and fellowship applications, lab members should create [Google Docs](<https://docs.google.com>) to share documents with me and others involved in the writing goal. [Paperpile](<https://paperpile.com/>) will be used to manage references. Paperpile is compatible with Google Docs. A lab license will be made available to those who require it. For those who prefer LaTeX over traditional word processing, [OverLeaf](<https://www.overleaf.com>) is also an acceptable alternative to Google Docs. All final data, figures, scripts, and text associated with manuscript submissions should be organized on Box and eventually transferred to a manuscript-specific GitHub project.
 
 
 ## XII. Lab Safety
@@ -329,7 +330,7 @@ All lab members must take the appropriate safety training before starting any la
 
     Example e-mail: *"I will be performing bulk parasite extractions from infected LVP mosquitoes TOMORROW (11/28/20). I will be performing the extractions in the screened-in work space inside the insectary (room 322). The parasites I will be extracting are Brugia pahangi L3s, and are classified as a BSL-2 organism. I will be working from 9:30AM - 12:30 PM, and will have signs posted on the outside of the screened-in area. If you need to enter this area during this time, please mind the PPE requirements specified on the posted BSL-2 signs. If this is a conflict/problem for anybody, please contact me as soon as possible. Thank you."*
 
-## XIII. Emergency protocols:
+## XIII. Emergency Protocols
 
 ### -80&deg;C Freezer
 
@@ -360,14 +361,15 @@ All lab members must take the appropriate safety training before starting any la
 2. Office space, bench, and pipette assignment
 3. Computer assignment and environment setup
 4. Electronic accounts (will use UW email)
-    - Quartzy
-    - Benchling
-    - Box
     - Google Calendar
     - Google Group (for shared sheets)
+    - Quartzy
+    - Box
+    - Benchling
     - Paperpile
     - GitHub
     - CHTC
     - DockerHub
-5. Biosafety Training
-6. Provide photo for lab website
+5. Lab notebook
+6. Biosafety Training
+7. Provide photo for lab website
