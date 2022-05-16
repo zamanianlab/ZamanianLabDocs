@@ -3,7 +3,7 @@
 ## I. Lab Mission and Philosophy
 
 ### A. Research Mission
-The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth biology and our ability to treat globally important human and animal parasitic infections. Active projects include the study of vector and soil-transmitted helminths in the lab and the field. To complement some of our efforts, we exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We strive to place all of our work in the context of host-pathogen interactions and a growing appreciation for and understanding of parasite genetic diversity.
+The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth biology and our ability to treat globally important human and animal parasitic infections. Current lab projects include the study of vector and soil-transmitted helminths at the bench and in disease-endemic settings. To complement some of our efforts, we exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We strive to place all of our work in the broader context of host-pathogen interactions and a growing appreciation for and understanding of parasite genetic diversity and innovation.
 
 ### B. Philosophy
 
@@ -55,7 +55,7 @@ An official lab Google calendar will be shared and updated with lab meeting time
 
 ### A. Traditional Lab Notebooks
 
-All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by [Rocketbook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as backup.
+All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by [RocketBook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as backup.
 
 
 ### B. Electronic Lab Notebooks
