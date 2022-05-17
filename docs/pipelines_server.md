@@ -39,7 +39,6 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
     Each net-id is associated with a `home` folder, where we manage job submission scripts. Our lab also has a shared `staging` folder, for transfer of large files in and out of the CHTC system. The CHTC does not use a shared file system, but you can request the storage you need for any given job.
 
       ```
-      /
       ├── home/{net-id}/                    [quota: 20 GB, submit script dir]
       └── staging/groups/zamanian_group/    [quota: 1 TB | 100k files]
           └── input/                        [input dir: unprocessed (raw) data]

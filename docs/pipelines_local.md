@@ -4,7 +4,7 @@ Simple pipelines are those that are entirely local - they run on a local machine
 
 With few defined exceptions, data and pipelines associated with a specific data type will be stored on the lab Box `Data` folder using a common structure.
 
-Within designated `Box/ZamanianLab/Data/` sub-directory,
+An example structured within a designated Box `/ZamanianLab/Data/` sub-directory,
 
   ```
   {Data Type}/
