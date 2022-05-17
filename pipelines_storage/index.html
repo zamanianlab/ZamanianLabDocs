@@ -552,23 +552,18 @@
                 
                 <h1 id="data-storage">Data Storage</h1>
 <h2 id="box-small-data">Box (Small Data)</h2>
-<p>Small data (e.g., tabular data from various instruments) will be stored on Box in the <code>Data</code> folder. All data (large and small) will be processed using local or server pipelines to produce small outputs for analysis and plotting. These processed outputs will also be stored on Box. Box will be backed up to ResearchDrive once every three months.</p>
+<p>Small data (e.g., tabular data from various instruments) will be stored on Box in the <code>Data</code> folder. All data (large and small) will be processed using local or server pipelines to produce small outputs (or subsets of outputs) that should be stored on Box for downstream analysis and plotting. Box will be backed up to ResearchDrive once every three months.</p>
 <h2 id="uw-researchdrive-large-data">UW ResearchDrive (Large Data)</h2>
-<p>Large data (e.g., sequencing and high-content imaging) will be stored on <a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a>, which provides 15 TB (expandable) of secure storage with off-site backup. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="https://www.box.com">Box</a> account for post-processing, analysis and plotting. Curent ResearchDrive directory structure is shown below:</p>
+<p>Large data (e.g., sequencing and phenotyping) will be stored on <a href="https://it.wisc.edu/services/researchdrive">ResearchDrive</a>, which provides 15 TB (expandable) of secure storage with off-site backup. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=93998">here</a>. Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage. Subsets of outputs will be transferred into our lab <a href="https://www.box.com">Box</a> account for post-processing, analysis and plotting. The current ResearchDrive directory structure is shown below:</p>
 <div class="highlight"><pre><span></span><code>/
-├── ImageXpress/                          [IX storage]
+├── ImageXpress/ (or /WormViz, /i3x ...etc)
 |   └── raw/                              [Raw exported data]
 |   └── metadata/                         [Experiment metadata]    
 |   └── proc/                             [CHTC-processed data]
-|  
+|
 ├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
 |   └── Bioinformatics Resource Center/   [Sequencing Data]
 |   └── DNA Sequencing Sanger/            [Sanger Data]
-|
-├── WormViz/                              [WormViz storage]
-|   └── raw/                              [Raw exported data]
-|   └── metadata/                         [Experiment metadata]    
-|   └── proc/                             [CHTC-processed data]
 |
 ├── Box/                                  [Box backup]
 └── External/                             [External data]
