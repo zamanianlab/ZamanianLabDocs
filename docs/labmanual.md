@@ -3,7 +3,7 @@
 ## I. Lab Mission and Philosophy
 
 ### A. Research Mission
-The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth biology and our ability to treat globally important human and animal parasitic infections. Current lab projects include the study of vector and soil-transmitted helminths at the bench and in disease-endemic settings. To complement some of our efforts, we exploit the experimental tractability of the model nematode *Caenorhabditis elegans*. We strive to place all of our work in the broader context of host-pathogen interactions and a growing appreciation for and understanding of parasite genetic diversity and innovation.
+The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth biology and our ability to treat globally important human and animal parasitic infections. Current lab projects include the study of vector and soil-transmitted helminths at the bench and in disease-endemic settings. To complement some of our efforts, we exploit the experimental tractability of the model nematodes. We strive to place all of our work in the broader context of host-pathogen interactions and a growing appreciation for parasite genetic diversity and innovation.
 
 ### B. Philosophy
 
@@ -21,7 +21,7 @@ Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
 
 ### C. Mentorship
 
-We will hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those who are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
+We hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those who are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
 
 
 ### D. Lab Citizenship
@@ -53,10 +53,9 @@ An official lab Google calendar will be shared and updated with lab meeting time
 
 ## III. Research Documentation
 
-### A. Traditional Lab Notebooks
+### A. Physical Lab Notebooks
 
-All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by [RocketBook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as backup.
-
+All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by [RocketBook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as personal backup.
 
 ### B. Electronic Lab Notebooks
 
@@ -124,7 +123,7 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
 
 10. **Worm boxes:** Dirty worm boxes are placed in drying oven in autoclave room for a few days. Clean boxes are found on top of shelving unit in picking room in 230. Boxes should be changed out often.
 
-11.	**Dirty Glassware:** Dirty glassware in 230 goes in tub on cart by the sink. Dirty glassware in 223 goes in or next to sink. Glassware is cleaned in the dishwasher in autoclave room on program #4.
+11.	**Dirty glassware:** Dirty glassware in 230 goes in tub on cart by the sink. Dirty glassware in 223 goes in or next to sink. Glassware is cleaned in the dishwasher in autoclave room on program #4.
 
 12.	**Empty cardboard boxes:** Empty carboard boxes go on top of blue mixed paper bin by the elevator.
 
@@ -254,7 +253,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 
 ### B. Strain Inventory
 
-**Lab strain designation: ZAM#**  
+**Lab strain designation: ZAM#**
 **Lab allele designation: maz#**
 
 *C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the `C. elegans Strain Database` linked in [Lab Sheets](labsheets.md). The injection mix components and concentrations used to generate the strain as well as any additional notes pertaining to the strain should also be documented in the spreadsheet.
