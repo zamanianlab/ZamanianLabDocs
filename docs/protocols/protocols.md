@@ -91,7 +91,17 @@
 
 ## *Caenorhabditis elegans*
 
+*Phenotyping*
+
 - [Stacks Sensory Assays](Caenorhabditis_elegans/Stacks/Stacks.md)
+
+- [Sensory Ring Aversion](Caenorhabditis_elegans/Ring_Aversion/Ring_Aveersion.md)
+
+- [Aldicarb Paralysis Assay](Caenorhabditis_elegans/Aldicarb_paralysis/Aldicarb_paralysis.md)
+
+- [Screenchip Electropharyngeogram (EPG) Recordings](Caenorhabditis_elegans/EPG_Recordings/EPG_Recordings.md)
+
+- [Manual Pharynx Pump Counting Assay](Caenorhabditis_elegans/Pharyngeal_counting/Pharyngeal_counting.md)
 
 *Many protocols adapted from the Andersen Lab (NU)*
 
