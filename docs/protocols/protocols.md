@@ -89,19 +89,9 @@
 
 - [Modified McMaster's Fecal Egg Count](Parasitic_Nematodes/McMasters_FEC/Modified_McMasters.md)
 
+
 ## *Caenorhabditis elegans*
 
-*Phenotyping*
-
-- [Stacks Sensory Assays](Caenorhabditis_elegans/Stacks/Stacks.md)
-
-- [Sensory Ring Aversion](Caenorhabditis_elegans/Ring_Aversion/Ring_Aveersion.md)
-
-- [Aldicarb Paralysis Assay](Caenorhabditis_elegans/Aldicarb_paralysis/Aldicarb_paralysis.md)
-
-- [Screenchip Electropharyngeogram (EPG) Recordings](Caenorhabditis_elegans/EPG_Recordings/EPG_Recordings.md)
-
-- [Manual Pharynx Pump Counting Assay](Caenorhabditis_elegans/Pharyngeal_counting/Pharyngeal_counting.md)
 
 *Many protocols adapted from the Andersen Lab (NU)*
 
@@ -130,6 +120,18 @@
 - [Plate Pouring: Seeding plates](Caenorhabditis_elegans/PlatePouring_SeedingPlates/PlatePouring_SeedingPlates.md)
 
 - [Plate Pouring: Cholesterol](Caenorhabditis_elegans/PlatePouring_Cholesterol/PlatePouring_Cholesterol.md)
+
+*Phenotyping*
+
+- [Stacks Sensory Assays](Caenorhabditis_elegans/Stacks/Stacks.md)
+
+- [Ring-based Aversion](Caenorhabditis_elegans/Ring_Aversion/Ring_Aversion.md)
+
+- [Aldicarb Paralysis](Caenorhabditis_elegans/Aldicarb_Paralysis/Aldicarb_Paralysis.md)
+
+- [Screenchip Electropharyngeogram (EPG) Recordings](Caenorhabditis_elegans/EPG_Recordings/EPG_Recordings.md)
+
+- [Pharyngeal Pump Counting](Caenorhabditis_elegans/Pharyngeal_Counting/Pharyngeal_Counting.md)
 
 
 ## Microinjection
