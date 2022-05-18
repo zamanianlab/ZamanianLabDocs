@@ -1,21 +1,23 @@
-# Staining microfilariae after filtration
+# Mansonella Diagnostics
 
-## Materials
+## A. Staining Microfilariae after Blood Filtration (Qualitative)
+
+### Materials
 - Glass slides
 - Giemsa stain (Modified Solution, Fluka Analytical 48900)
 - Methanol (Fisher BP1105 4)
 
-**Note:** Follow the [mf_filtration](../mf_filtration/mf_filtration.md) protocol to filter microfilariae from blood.
+**Note:** Follow the [mf Filtration](../mf_filtration/mf_filtration.md) protocol to filter microfilariae from blood.
 
-## Protocol
+### Protocol
 
 1. After filtration, place the filter on a glass slide.
 
-2. Fix dried mf on the filter in 100% methanol for 30-60s.
+2. Fix dried mf on the filter in 100% methanol for 30-60 sec.
 
-    - Wash lightly with H<sub>2</sub>O and let air dry.
+3. Wash lightly with H<sub>2</sub>O and let air dry.
 
-3. Stain with diluted Giemsa (1:20) for 20 min.
+4. Stain with diluted Giemsa (1:20) for 20 min.
 
     - Store at RT.
 
@@ -23,15 +25,16 @@
 
 **Note:** Protocol adapted from the CDC Bench aid for *Brugia spp.* and from  Medeiros *et al* 2018.
 
-# DNA extraction from whole blood
 
-##Materials
+## B. Loop-Mediated Isothermal Amplification (LAMP) Diagnostic
+
+### Materials for DNA Extraction from Whole Blood
 - Quick-DNA 96 plus kit (Zymo D4071)
 - Disposable lab coats
-- water
-- plate foil cover (zymo C2007-4)
+- Sterile H<sub>2</sub>O
+- Plate foil cover (zymo C2007-4)
 
-##Protocol
+### DNA Extraction Protocol
 
 1. Follow the kit protocol for Solid Tissue with the following modifications:
 
@@ -43,71 +46,67 @@
 
 3. Cover the plates with plate foil covers and store DNA at 4 °C overnight or -20 °C for long term storage.
 
-# Loop-Mediated Isothermal Amplification (LAMP) reaction  
-
-##Materials
+### Materials for LAMP Reaction
 - DNA from blood extractions
 - 100 µM stock primers
 - WarmStart Colorimetric LAMP 2x Master Mix (NEB M1804L)
 - 10X GuHCL
 - Sterile H<sub>2</sub>O
 - 96 well plates
-### Primers
-| ***M. perstans***| ***M. ozzardi***|
-|------------------|-----------------|
-FIP (F1c+F2): TGTGAGCACATTTCAGTAAGT-GATGAATCCACTAAATTCWC|FIP (F1c-F2): CGCAAACAGAAGCCCGAAAC-GCTCGCAATTTCATAGTGG|
-BIP (B1+B2c): GGATTCTTTCTAAAAGTTGAG-GATCGATTTCGTTAAAAACAGY|BIP(B1c-B2): CTTGCGCGTAGCATTAGATCC-TCCGAAATGTATACGACAGAT|
-F3: ACAGTTGATTATTTGAAGGTGCTR|F3: GCACGAAATGTTTTTGTACG|
-B3: AYAATGATTATTTYTAAAGAATC|B3: CGTATCACCGTTGATGACG|
-LF: AGACTTGATTACTGTTTGG|LF: AAGCCTAAGCCTAAGCCTGA|
-LB: ACAATTTGGTAATCGCTTAAACTG|LB: GCACATCTTCAATCTCCTCTTGC
+- Primers
 
-**Note** * W= A or T, Y= C or T, R = A or G
-* Higher Sensitivity can be achieved with HPLC purified primers.
+    | ***M. perstans*** | ***M. ozzardi*** |
+    |------------------|-----------------|
+    FIP (F1c+F2): TGTGAGCACATTTCAGTAAGT-GATGAATCCACTAAATTCWC|FIP (F1c-F2): CGCAAACAGAAGCCCGAAAC-GCTCGCAATTTCATAGTGG|
+    BIP (B1+B2c): GGATTCTTTCTAAAAGTTGAG-GATCGATTTCGTTAAAAACAGY|BIP(B1c-B2): CTTGCGCGTAGCATTAGATCC-TCCGAAATGTATACGACAGAT|
+    F3: ACAGTTGATTATTTGAAGGTGCTR|F3: GCACGAAATGTTTTTGTACG|
+    B3: AYAATGATTATTTYTAAAGAATC|B3: CGTATCACCGTTGATGACG|
+    LF: AGACTTGATTACTGTTTGG|LF: AAGCCTAAGCCTAAGCCTGA|
+    LB: ACAATTTGGTAATCGCTTAAACTG|LB: GCACATCTTCAATCTCCTCTTGC
 
-##Protocol
+    **Note** * W= A or T, Y= C or T, R = A or G
+    * Higher Sensitivity can be achieved with HPLC purified primers.
+
+### LAMP Protocol
 
 1. Make a 10x Primer Mix by following the chart below, be cognizant of species:
 
-|Primers|µL of 100 µM stock|
-|-------|-----------------|
-FIP|16 µL
-F3|2 µL
-BIP|16 µL
-B3|2 µL
-LF|4 µL
-LB|4 µL
-H2O|56 µL
-Final Volume|100 µL
+    |Primers|µL of 100 µM stock|
+    |-------|-----------------|
+    FIP|16 µL
+    F3|2 µL
+    BIP|16 µL
+    B3|2 µL
+    LF|4 µL
+    LB|4 µL
+    H2O|56 µL
+    Final Volume|100 µL
 
 2. Assemble 20 µL reactions in 96-well plates.
 
-    -  Add 2 µL of DNA to each well of a 96-well plate.
+    - Add 2 µL of DNA to each well of a 96-well plate.
 
-    - Create a master mix by following the table below, pipette gently to mix.
+    - Create a master mix outlined in table below, pipette gently to mix.
 
-    - Add 18 µL of the master mix the 96-well plate containing the DNA.
+    - Add 18 µL of the master mix to the 96-well plate containing the DNA.
 
-    - Gently mix.   
+    - Gently mix.
 
+    |Reagent |One Reaction| 100 Reactions|
+    |--------|------------------|--------------|
+    WarmStart Colorimetric LAMP 2x Master Mix|10.0 µL| 1 mL
+    10x Primer Mix|2.0 µL| 200 µL
+    10X GuHCL|2.0 µL | 200 µL
+    H<sub>2</sub>O|4 µL | 400 µL
+    Final Volume|18 µL | 1.8 mL|
 
-|Reagent |One Reaction| 100 Reactions|
-|--------|------------------|--------------|
-WarmStart Colorimetric LAMP 2x Master Mix|10.0 µL| 1 mL
-10x Primer Mix|2.0 µL| 200 µL
-10X GuHCL|2.0 µL | 200 µL
-H<sub>2</sub>O|4 µL | 400 µL
-Final Volume|18 µL | 1.8 mL|
-
-**Note:** H<sub>2</sub>O can be used instead of DNA as a non-template control.
+    **Note:** H<sub>2</sub>O can be used instead of DNA as a non-template control.
 
 3. Incubate at 63° for either 30 minutes (*M. ozzardi* ) or 60 minutes (*M. perstans*)
 
-      -  Pink = Negative
+      - Pink = Negative
       - Yellow = Positive
 
-**Note:** Samples can be removed periodically and checked for colour change without affecting the reaction.
+      **Note:** Samples can be removed periodically and checked for color change without affecting the reaction.
 
 4. Image plates after the reaction using the Cytiva ImageQuant 800 and record results.
-
-**Note:** Gain access to the Cytiva ImageQuant 800 by emailing Lyric. 
