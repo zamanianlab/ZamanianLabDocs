@@ -93,9 +93,10 @@ See the [Biotech Center website](https://www.biotech.wisc.edu/services/dnaseq/se
 
 ### Protocol
 
-1. Schedule a parcel pickup with FedEx and affix the parcel label to a FedEx envelope.
+1. Schedule a parcel pickup with FedEx and affix the parcel label to a FedEx envelope or submit the sample via the dropbox at room 318 (across from the Kimble lab) in the Hector F. DeLuca Biochemistry Building (420 Henry Mall).
 
 2. Submit a plasmid sequencing order through [Plasmidsaurus](https://www.plasmidsaurus.com/). You will need to create an account if you do not already have one. Enter the plasmid names in the exact order they will be deposited into the 8-well stripcap tubes. Also include the FedEx tracking number on the order form where indicated.
+  - For dropbox submissions: there will be a small styrofoam box next to the ice maker (should be labeled Plasmidsaurus). Samples get picked up at 1:00 pm on Thursdays and should be labeled with your PI name, your name, and date. Time your drop off so that the samples are not sitting out too long. Include a copy of the submission form with your sample and put an additional copy on Kathy's desk.
 
 3. Use the Qubit to measure the concentration of each plasmid and normalize each plasmid to 30 ng/µL with nuclease-free water. Add at least 10 µL of each plasmid to a tube in a 8-well stripcap tube. Label the samples by writing the order label on the first tube and the strip number on the second tube of each strip. No additional labeling is necessary.
 
