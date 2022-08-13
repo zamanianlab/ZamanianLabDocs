@@ -2,7 +2,7 @@
 
 For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.
 
-1. Update your macOS version to Big Sur (v11.2.2)
+1. Update your macOS version to Monterey (v12.5)
 
 2. If the Mac is UW-owned, follow these instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install/update UW-licensed software, including Adobe products, the UW VPN (Cisco Global Protect), Microsoft Office products, and Zoom.
 
