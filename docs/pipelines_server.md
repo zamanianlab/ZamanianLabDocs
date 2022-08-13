@@ -20,10 +20,11 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
 
 1. Execute (Compute) nodes
 
-    The CHTC has an extensive set of execute nodes. To establish priority access for certain pipelines, our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
+    The CHTC has an extensive set of execute nodes. Our lab has secured a prioritized node that can be accessed on-demand using a designated flag.
 
     - Typical nodes: 20 cores, 128 GB RAM
     - [High-memory nodes](https://chtc.cs.wisc.edu/uw-research-computing/high-memory-jobs): e.g., 80 cores, 4 TB RAM
+    - [GPUs](https://chtc.cs.wisc.edu/uw-research-computing/gpu-lab.html) for machine learning jobs
     - Dedicated lab node: 40 cores (80 hyperthreading), 512 GB RAM, 3.8 TB HD  
 
 2. Submit nodes

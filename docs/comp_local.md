@@ -12,15 +12,15 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Box Drive](https://www.box.com/resources/downloads/drive) (cloud-based shared file storage)
     - [Cyberduck](https://cyberduck.io/) (SFTP client)
     - [iTerm](https://iterm2.com/) (feature-rich terminal replacement)
-    - [Atom](https://atom.io/) (Versatile IDE with useful [packages](https://atom.io/packages) and [themes](https://atom.io/themes))
+    - [Paperpile](https://paperpile.com/) (reference management)
+    - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
+    - [Slack](<https://www.slack.com>) (primary lab communication tool)
+    - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
+    - [UW VPN](https://kb.wisc.edu/helpdesk/page.php?id=90370) (VPN for off-campus resource access)
+    - [Visual Studio Code](https://code.visualstudio.com/) (Versatile IDE for general programming)
     - [XQuartz](https://www.xquartz.org/) (open-source window system on which some apps rely)
     - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS, can also be isntalled by running `xcode-select --install`)
-    - [RStudio](https://rstudio.com/) (IDE for R scripting and plotting)
-    - [Sublime Text](https://www.sublimetext.com/) (lightweight text editor)
-    - [Slack](<https://www.slack.com>) (primary lab communication tool)
-    - [UW VPN](https://kb.wisc.edu/helpdesk/page.php?id=90370) (VPN for off-campus resource access)
     - [Zoom](https://zoom.us/download) (video meeting software)
-    - [Paperpile](https://paperpile.com/) (reference management)
 
 4. Install additional bioinformatics and imaging software:
 
@@ -31,20 +31,16 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 5. Change the default Shell to `bash` (default on new Mac machines is `zsh`):
 
     - Open System Preferences
-
     - Click Users & Groups
-
-    - Click the lock icon in the bottom left of the window and unlock with your password
-
+    - Click bottom-left lock icon and enter password
     - Right-click (or hold Control and click) on your username in the left pane and select Advanced Options...
-
     - Choose `/bin/bash` as the Login shell
 
-6. Add contents of the lab `.bash_profile` to your current `~/.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)).
+6. Add contents of the lab `.bash_profile` to your current `~/.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)). Edit aliases as needed to include your net-id.
 
 7. Create your R environment:
 
-    - Use [CRAN](https://cran.r-project.org/bin/macosx/base/R-4.1.2.pkg) to install or update R to version 4.1.2
+    - Use [CRAN](https://cran.r-project.org/bin/macosx/base/R-4.2.1.pkg) to install or update R to version 4.2.1
 
       *NOTE: We will upgrade to new versions of R as a group.*
 
