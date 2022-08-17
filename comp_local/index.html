@@ -426,7 +426,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../resources/" class="md-nav__link">
+    <a href="../resources.md" class="md-nav__link">
       Resources
     </a>
   </li>
@@ -468,7 +468,7 @@
 <p>For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.</p>
 <ol>
 <li>
-<p>Update your macOS version to Big Sur (v11.2.2)</p>
+<p>Update your macOS version to Monterey (v12.5)</p>
 </li>
 <li>
 <p>If the Mac is UW-owned, follow these instructions to install <a href="https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/">Parallels Mac Management</a>. This will allow you to directly install/update UW-licensed software, including Adobe products, the UW VPN (Cisco Global Protect), Microsoft Office products, and Zoom.</p>
@@ -480,15 +480,15 @@
 <li><a href="https://www.box.com/resources/downloads/drive">Box Drive</a> (cloud-based shared file storage)</li>
 <li><a href="https://cyberduck.io/">Cyberduck</a> (SFTP client)</li>
 <li><a href="https://iterm2.com/">iTerm</a> (feature-rich terminal replacement)</li>
-<li><a href="https://atom.io/">Atom</a> (Versatile IDE with useful <a href="https://atom.io/packages">packages</a> and <a href="https://atom.io/themes">themes</a>)</li>
+<li><a href="https://paperpile.com/">Paperpile</a> (reference management)</li>
+<li><a href="https://rstudio.com/">RStudio</a> (IDE for R scripting and plotting)</li>
+<li><a href="https://www.slack.com">Slack</a> (primary lab communication tool)</li>
+<li><a href="https://www.sublimetext.com/">Sublime Text</a> (lightweight text editor)</li>
+<li><a href="https://kb.wisc.edu/helpdesk/page.php?id=90370">UW VPN</a> (VPN for off-campus resource access)</li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> (Versatile IDE for general programming)</li>
 <li><a href="https://www.xquartz.org/">XQuartz</a> (open-source window system on which some apps rely)</li>
 <li><a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">XCode</a> (command line tools for macOS, can also be isntalled by running <code>xcode-select --install</code>)</li>
-<li><a href="https://rstudio.com/">RStudio</a> (IDE for R scripting and plotting)</li>
-<li><a href="https://www.sublimetext.com/">Sublime Text</a> (lightweight text editor)</li>
-<li><a href="https://www.slack.com">Slack</a> (primary lab communication tool)</li>
-<li><a href="https://kb.wisc.edu/helpdesk/page.php?id=90370">UW VPN</a> (VPN for off-campus resource access)</li>
 <li><a href="https://zoom.us/download">Zoom</a> (video meeting software)</li>
-<li><a href="https://paperpile.com/">Paperpile</a> (reference management)</li>
 </ul>
 </li>
 <li>
@@ -502,30 +502,20 @@
 <li>
 <p>Change the default Shell to <code>bash</code> (default on new Mac machines is <code>zsh</code>):</p>
 <ul>
-<li>
-<p>Open System Preferences</p>
-</li>
-<li>
-<p>Click Users &amp; Groups</p>
-</li>
-<li>
-<p>Click the lock icon in the bottom left of the window and unlock with your password</p>
-</li>
-<li>
-<p>Right-click (or hold Control and click) on your username in the left pane and select Advanced Options...</p>
-</li>
-<li>
-<p>Choose <code>/bin/bash</code> as the Login shell</p>
-</li>
+<li>Open System Preferences</li>
+<li>Click Users &amp; Groups</li>
+<li>Click bottom-left lock icon and enter password</li>
+<li>Right-click (or hold Control and click) on your username in the left pane and select Advanced Options...</li>
+<li>Choose <code>/bin/bash</code> as the Login shell</li>
 </ul>
 </li>
 <li>
-<p>Add contents of the lab <code>.bash_profile</code> to your current <code>~/.bash_profile</code> (direct link: <a href="https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile">.bash_profile</a>).</p>
+<p>Add contents of the lab <code>.bash_profile</code> to your current <code>~/.bash_profile</code> (direct link: <a href="https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile">.bash_profile</a>). Edit aliases as needed to include your net-id.</p>
 </li>
 <li>
 <p>Create your R environment:</p>
 <ul>
-<li>Use <a href="https://cran.r-project.org/bin/macosx/base/R-4.1.2.pkg">CRAN</a> to install or update R to version 4.1.2</li>
+<li>Use <a href="https://cran.r-project.org/bin/macosx/base/R-4.2.1.pkg">CRAN</a> to install or update R to version 4.2.1</li>
 </ul>
 <p><em>NOTE: We will upgrade to new versions of R as a group.</em></p>
 <ul>
