@@ -13,8 +13,8 @@ alias tarup="tar -zcf"
 alias tardown="tar -zxf"
 alias box="cd ~/Box/"
 alias github="cd ~/GitHub/"
-alias submit="ssh njwheeler@submit2.chtc.wisc.edu" # replace with your netid
-alias transfer="ssh njwheeler@transfer.chtc.wisc.edu" # replace with your netid
+alias submit="ssh netid@submit2.chtc.wisc.edu" # replace with your netid
+alias transfer="ssh netid@transfer.chtc.wisc.edu" # replace with your netid
 
 # autojump configuration
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh

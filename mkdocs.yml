@@ -80,4 +80,3 @@ nav:
     - Local Pipelines:        pipelines_local.md
     - Server Pipelines:       pipelines_server.md
     - wrmXpress Pipelines:    pipelines_wrmxpress.md
-  - Resources:                resources.md
