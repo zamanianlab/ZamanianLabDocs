@@ -28,8 +28,8 @@ The items below occur **as needed**. Lab members should warn the assigned person
   | -------------- | ---------------------- |
   | Jan. - Mar.    | Clair |
   | Apr. - Jun.    | Katie |
-  | Jul. - Sept.   | Nic   |
-  | Oct. - Dec.    | Kendra |
+  | Jul. - Sept.   | Kendra  |
+  | Oct. - Dec.    | Elena |
 
 ## Equipment Maintenance
 
@@ -47,13 +47,14 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   | Task | Member Responsible |
   | ---- | ------------------ |
-  | 50x TAE and 1x TAE refill | KD |
-  | 100 bp and 1000 bp ladder reaction | NW |
+  | 50x TAE and 1x TAE refill | Elena |
+  | 100 bp and 1000 bp ladder reaction | CH |
   | Loading dye stocks | KD |
   | dNTP preparation | KD/CH |
-  | M9 stock | CH |
+  | M9 stock | KV |
   | SOC Media | KV |
   | Making competent cells (DH5alpha) | KV |
+  | *E. coli* HB101 concentrated stocks | Elena |
   | Injection setup and needle puller maintenance | KV |
   | Incubator maintenance and CO<sub>2</sub> tank replacement | KV |
   | Water-jacket incubator maintenance | KV |
