@@ -46,7 +46,7 @@
 
   | Task | Member Responsible |
   | :--- | :----------------: |
-  |Wipe benches and analytical balance area | Michelle |
+  | Wipe benches and analytical balance area | All |
   | Clean equipment and microscopes | All |
   | Lab Waste (biohazard/sharps/tips/trash) | Chris |
   | Glass washing and autoclaving | Zane |
@@ -61,4 +61,4 @@
   | 1.5 mL tube refill and autoclaving | Zane |
   | Cartons for mosquito infections | Zane |
   | Needles for mosquito injections | NA |
-  | Mop floors| Michelle|
+

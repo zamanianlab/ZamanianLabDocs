@@ -1,6 +1,7 @@
 # Staff Maintenance Tasks
 
 ## General Lab Upkeep
+All members of the lab are responsible for maintaining the communal lab environment. Shared equipment (scales, microscopes, etc.) should be cleaned after every use and reagents should be properly stored according to the location listed in Quartzy. 
 
 The items below occur **as needed**. Lab members should warn the assigned person several days in advance and write on the white board in Room 223 on the fridge when a duty needs to be completed:
 
@@ -15,6 +16,8 @@ The items below occur **as needed**. Lab members should warn the assigned person
   - **Competent cells.** See the [Competent Bacteria](?) protocol for instructions.
 
   - **SOC.** Make 100 mL of SOC media for lab use. Aliquot into 10 mL units and store at 4°C. See [General Recipes](../../Molecular_Biology/General_Recipes/General_Recipes.md) for instructions.
+
+  - **K medium** Make and filter 1 L stocks **without** cholesterol. Cholesterol should be added to the aliquot prior to use and used within 3 weeks of preparation. 
 
   - **Agarose pads for injections.** Make a large batch of agarose pads (20+) when running low. Follow the protocol in [Microinjection](../../Microinjection/Ce_Microinjection/Ce_Microinjection.md).
 
@@ -43,21 +46,27 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **Liquid N<sub>2</sub> tank upkeep.** The liquid N<sub>2</sub> tank stores our critical backup copies of transgenic worm strains and transformed bacterial stocks. Follow [Liquid N<sub>2</sub> Tank Maintenance](../../Lab_Operations/LiquidN2_Tank_Maintenance/LiquidN2_Tank_Maintenance.md) for maintenance instructions.
 
+  - **Multidrop<sup>TM</sup> Combi Reagent Dispenser Calibration.** The dispensing cassettes must be recalibrated on a monthly basis. Refer to the [Multidrop Dispenser Protocol](https://docs.google.com/document/d/1iQnYxuGLf0xRXZWCztuEwN-OaAR6KQxiqgNJUs8394k/edit) for the calibration protocol. 
+
 ## Task Assignments
 
   | Task | Member Responsible |
   | ---- | ------------------ |
-  | 50x TAE and 1x TAE refill | Elena |
+  | 50x TAE and 1x TAE refill | EGR |
   | 100 bp and 1000 bp ladder reaction | CH |
   | Loading dye stocks | KD |
   | dNTP preparation | KD/CH |
   | M9 stock | KV |
   | SOC Media | KV |
   | Making competent cells (DH5alpha) | KV |
-  | *E. coli* HB101 concentrated stocks | Elena |
+  | *E. coli* HB101 concentrated stocks | EGR |
   | Injection setup and needle puller maintenance | KV |
   | Incubator maintenance and CO<sub>2</sub> tank replacement | KV |
   | Water-jacket incubator maintenance | KV |
   | Worm 2x lysis buffer | KV |
   | Agarose pads | KV |
   | Liquid N<sub>2</sub> tank monitoring | KV |
+  | Sweep and mop lab spaces | LN |
+  | K medium stocks (1 L) | KTR | 
+  | Multidrop monthly calibration | EGR |
+
