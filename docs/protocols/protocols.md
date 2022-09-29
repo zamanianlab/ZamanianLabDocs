@@ -1,6 +1,6 @@
 # Lab Protocols
 
-[High-Throughput Phenotyping](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/) (For internal use)
+[Lab Protocols Google Drive](https://drive.google.com/drive/folders/1NsPzcZk9f1FklRcTja1iDMM96zH7oqz9) (For internal use)
 
 ## Lab Tasks
 

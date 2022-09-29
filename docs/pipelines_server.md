@@ -61,17 +61,16 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
 
         1. Login to the [Globus web interface](https://app.globus.org/) with your NetID
         2. If transferring from a personal computer, install and start [Globus Connect Personal](https://www.globus.org/globus-connect-personal).
-        3. If transferring from ResearchDrive, first create a kerberos ticket by running the command `ssh [netid]@doit-rci-00025.doit.wisc.edu`.
-        4. In the web interface, set the view to two panels using the icon on the top right.
-        5. On one side of the interface, click Collection and choose the desired endpoint (`chtc#staging`, `wisc-drive`, or your personal   computer).
-        6. Choose the other endpoint for the other side of the interface.
-        7. Type `/staging/groups/zamanian_group/` into the Path box of the `chtc#staging` collection and press Enter (you may be required to  login with your NetID   again). Use `/mnt/researchdrive/mzamanian/` for `wisc-drive`.
-        8. Navigate to the desired directories.
-        9. Drag and drop files to transfer them; you will receive an email upon transfer completion.
-        10. Exit the SSH once finished transferring to/from ResearchDrive.
-        11. Login to the transfer server and archive the directories in `input/` and `metadata/` with the command `tar -cvf {plate}.tar   {plate}`.
+        3. In the web interface, set the view to two panels using the icon on the top right.
+        4. On one side of the interface, click Collection and choose the desired endpoint (`chtc#staging`, `wisc-drive-mzamanian`, or your personal computer).
+        5. Choose the other endpoint for the other side of the interface.
+        6. Type `/staging/groups/zamanian_group/` into the Path box of the `chtc#staging` collection and press Enter (you may be required to login with your NetID again).
+        7. Navigate to the desired directories.
+        8. Drag and drop files to transfer them; you will receive an email upon transfer completion.
+        9. Exit the SSH once finished transferring to/from ResearchDrive.
+        10. Login to the transfer server and archive the directories in `input/` and `metadata/` with the command `tar -cvf {plate}.tar {plate}`.
             To loop this command for several files, use: `for f in *NJW*; do tar -cvf $f.tar $f; done` (use a regular expression that will work for your folders).
-        12. Delete the original, unarchived directories.
+        11. Delete the original, unarchived directories.
 
     1B. **Command line transfer with smbclient**
 
@@ -139,7 +138,7 @@ Consult official [CHTC](https://chtc.cs.wisc.edu/) and [HTCondor](https://resear
 
     1C. **Drag-and-drop transfer**
 
-    Transferring input data should be performed with Globus (1A) or background smblient processes (1B). However, smaller files such as metadata or auxiliary parameter files can be moved to the staging directory or one's home directory on the submit2 server with drag-and-drop SFTP clients such as Transmit, CyberDuck, or FileZilla.
+    Transferring input data should be performed with Globus (1A) or background smblient processes (1B). However, smaller files such as metadata or auxiliary parameter files can be moved to the staging directory or one's home directory on the submit server with drag-and-drop SFTP clients such as Transmit, CyberDuck, or FileZilla.
 
     1D. **Command line transfer with `scp`**
 

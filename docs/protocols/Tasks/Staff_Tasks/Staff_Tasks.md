@@ -13,7 +13,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **dNTP stocks preparation.** Combine individual commercial 100 mM dNTP stocks (dATP, dTTP, dCTP, dGTP) to make 10 mM working stock aliquots for lab member personal use. Add 10 μL of each dNTP to 60 μL of dH<sub>2</sub>O to make 100 μL aliquots of 10 mM dNTP working stocks.
 
-  - **Competent cells.** See the [Competent Bacteria](?) protocol for instructions.
+  - **Competent cells.** See the [Competent Bacteria](../../Molecular_Biology/Chemically_Competent_Cells/Competent_Cells.md) protocol for instructions.
 
   - **SOC.** Make 100 mL of SOC media for lab use. Aliquot into 10 mL units and store at 4°C. See [General Recipes](../../Molecular_Biology/General_Recipes/General_Recipes.md) for instructions.
 
@@ -25,7 +25,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **M9 stock replenishment.** Make three 1 L stocks of M9 in glass bottles when running low. Follow the recipe in [_C. elegans_ Recipes](../../Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md). Be sure to autoclave and then add 1 M MgSO<sub>4</sub> once cool.
 
-  - **Parasite Tissue Storage.** Any unused parasites should be frozen every week according to the tissue storage protocol listed in [RNA Extraction](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md). Stored tissue must be inventoried in the [Parasite Tissue and Nucleic Acid Inventory](https://docs.google.com/spreadsheets/d/1wJ3wzHmuTNRc_3RYjan3bp7rbBAsNrVvwJPJLilpmb8/edit#gid=0) spreadsheet and include a cryolabel with the Sample ID. The responsibility of parasite tissue storage will rotate between individuals every 3 months with the following rotation schedule:
+  - **Parasite Tissue Storage.** Any unused parasites should be frozen every week according to the tissue storage protocol listed in [RNA Extraction](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md). Stored tissue must be inventoried in the "Parasite Tissue and Nucleic Acid Inventory" spreadsheet and include a cryolabel with the Sample ID. The responsibility of parasite tissue storage will rotate between individuals every 3 months with the following rotation schedule:
 
   | Rotation | Responsible |
   | -------------- | ---------------------- |
