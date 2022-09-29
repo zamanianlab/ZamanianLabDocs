@@ -13,7 +13,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **dNTP stocks preparation.** Combine individual commercial 100 mM dNTP stocks (dATP, dTTP, dCTP, dGTP) to make 10 mM working stock aliquots for lab member personal use. Add 10 μL of each dNTP to 60 μL of dH<sub>2</sub>O to make 100 μL aliquots of 10 mM dNTP working stocks.
 
-  - **Competent cells.** See the [Competent Bacteria](../../Molecular_Biology/Chemically_Competent_Cells/Competent_Cells.md) protocol for instructions.
+  - **Competent cells.** See the [Competent Bacteria](../../Molecular_Biology/Competent_Cells/Competent_Cells.md) protocol for instructions.
 
   - **SOC.** Make 100 mL of SOC media for lab use. Aliquot into 10 mL units and store at 4°C. See [General Recipes](../../Molecular_Biology/General_Recipes/General_Recipes.md) for instructions.
 

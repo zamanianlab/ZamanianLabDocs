@@ -35,7 +35,7 @@
 
 - [Sanger Sequencing](Molecular_Biology/Sanger_Sequencing/Sanger_Sequencing.md)
 
-- [Competent Cells](Molecular_Biology/Chemically_Competent_Cells/competent_cells.md)
+- [Competent Cells](Molecular_Biology/Competent_Cells/Competent_Cells.md)
 
 
 ## Mosquito-Stage Parasite Protocols
@@ -131,7 +131,7 @@
 
 - [Screenchip Electropharyngeogram (EPG) Recordings](Caenorhabditis_elegans/EPG_Recordings/EPG_Recordings.md)
 
-- [Pharyngeal Pump Counting](Caenorhabditis_elegans/Pharyngeal_Counting/Pharyngeal_Counting.md)
+- [Pharyngeal Pump Counting](Caenorhabditis_elegans/Pharyngeal_Pumping/Pharyngeal_Pumping.md)
 
 
 ## Microinjection
