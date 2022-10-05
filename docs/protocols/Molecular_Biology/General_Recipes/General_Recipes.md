@@ -1,5 +1,18 @@
 # General Zamanian Lab Recipes
 
+## Ampicillin Stock (100 mg/mL)
+1. Mix 2 g of ampicillin powder (Fisher AC611770250) into 20 mL of MilliQ H<sub>2</sub>O
+2. Vortex until the ampicillin is dissolved
+3. Sterilize using a 50 mL syringe filter into a 50 mL conical tube
+4. Aliquot 1 mL of the ampicillin solution into labeled 1.5 mL tubes and store at -20°C
+ 
+- **Note:** Filtering and aliquoting should be performed using sterile techniques in the hood
+ 
+## Kanamycin Stock (50 mg/mL)
+1. Mix 500 mg of kanamycin powder (Fisher AC450810100) into 9 mL of MilliQ H<sub>2</sub>O
+2. Vortex until kanamycin is dissolved
+3. Aliquot 1 mL of the kanamycin solution into labeled 1.5 mL tubes and store at -20°C
+
 ## LB Miller Broth
 
 1. Mix the following:
@@ -9,7 +22,7 @@
     Tryptone | 10 g
     Yeast extract | 5 g
     NaCl | 10 g
-    dH2O | up to 1 L
+    dH<sub>2</sub>O | up to 1 L
 
 2. Autoclave on liquid cycle for 30 min
 3. Add antibiotics after media has cooled (if needed):
@@ -34,7 +47,7 @@
     Yeast extract | 5 g
     Agar | 15 g
     NaCl | 10 g
-    dH2O | up to 1 L
+    dH<sub>2</sub>O | up to 1 L
 
 2. Autoclave on liquid cycle for 30 min
 3. Place media in a 55°C waterbath for 1 hr
@@ -67,7 +80,7 @@
     Tris Base	| 242 g
     EDTA (0.5 M pH 8) | 100 mL
     Glacial Acetic Acid | 57.1 mL
-    dH2O | up to 1 L
+    dH<sub>2</sub>O | up to 1 L
 
 * Be **very careful** when pipetting the glacial acetic acid, as it is very caustic.
 * Use a **GLASS** pipette
@@ -80,7 +93,7 @@
   |----------|--------|
   EDTA, disodium salt	| 93 g
   NaOH pellets | ~ 10 g
-  dH2O | up to 500 mL
+  dH<sub>2</sub>O | up to 500 mL
 
 1. Add EDTA powder to ~450 mL of dH2O while stirring and monitoring pH
 2. Slowly add the NaOH pellets until pH = 8
@@ -95,9 +108,9 @@
   |----------|--------|
   Tris Base | 121.14 g
   HCl | ~ 80-85 mL
-  dH2O | up to 1 L
+  dH<sub>2</sub>O | up to 1 L
 
-1. Dissolve Tris Base in 800 mL dH2O, while monitoring pH.
+1. Dissolve Tris Base in 800 mL dH<sub>2</sub>O, while monitoring pH.
 2. Slowly add HCl until pH = 8
 3. Bring final volume to 1 L
 4. Aliquot 200 mL into 250 mL bottles
@@ -113,7 +126,7 @@
     |----------|--------|--------|
     1M Tris (pH 8) | 5 mL | 2 mL
     0.5M EDTA (pH 8) | 5 mL | 2 mL
-    dH2O | 494 mL | 197.6 mL
+    dH<sub>2</sub>O | 494 mL | 197.6 mL
 
 2. Aliquot 10 mL each into 15 mL conical tubes
 
@@ -158,11 +171,11 @@
     NaCl	| 0.292 g
     KCl	| 0.093 g
     MgSO4	| 1.2 g
-    dH2O	| up to 500 mL
+    dH<sub>2</sub>O	| up to 500 mL
 
 2. Autoclave on liquid cycle for 30 min
 3. Adjust pH to 7.5 prior to use (this requires ~ 25 mL of 1M NaOH per liter)
-4. Add 10 mL of filter-sterilized (0.22 um filter) 20% Glucose solution (20 g in 100 mL dH2O) after the media has cooled
+4. Add 10 mL of filter-sterilized (0.22 um filter) 20% Glucose solution (20 g in 100 mL dH<sub>2</sub>O) after the media has cooled
 5. Store at room temperature
 
 ---
