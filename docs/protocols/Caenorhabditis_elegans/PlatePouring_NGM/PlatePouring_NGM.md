@@ -136,19 +136,26 @@
 
   ![Image](img/PourBoyConfig.png)
 
-  ## Operating the Wheaton Unispense
+## Operating the Wheaton Unispense
 
   1. Things you will need to autoclave before Unispense use:
     - Tubing with glass rods on either end: wrap glass rods in foil, then fold the tubes up and wrap the entire tube up in foil. Place autoclave tape on the wrapping.
     - 1 L sterile millliQ water (for rinsing the tubing after use)
+    
 
   2. Wipe down the working area with 70% ethanol and then spread individual plates out on the table. If you are pouring a large quantity, make stacks up to 7 high.
 
+  ![Image](img/PlateStacking.png)
+
   3. It is very important to ensure the machine is OFF for this step. To set up the tubing, look for the two black marks on the plastic tube and line them up with the edges of the tube slot (as seen below). The side with the shorter distance between the black mark and glass rod should be on the bottom. Make sure the tubing is flush with the side of the machine.
+
+  ![Image](img/TubesInMachine.png)
 
     **Note:** do not take the foil off either glass apparatus during the next step, they must be kept sterile.
 
   4. Next, hook the clear guard on the two red screws with the straight end facing you, and tighten the red screws. Screw the white guard on to hold the tubes in place (see image below for setup).
+
+  ![Image](img/GuardSetUp.png)
 
     **Note:** keep the flasks covered in foil at all times to prevent contamination.
 
@@ -156,9 +163,13 @@
 
   6. Next, carefully, and without touching the glass apparatuses to anything, take the foil off both glass apparatuses and insert them into one of the flasks filled with the plate media. Both apparatuses should be touching the bottom of the flask to ensure no air bubbles are sent through the tubing. Keep the foil on top of the flask to prevent contamination.
 
+  ![Image](img/TubesInFlask.png)
+
   7. Turn on the machine .
 
   8. Press the auto/man button twice. The screen should now say AUTOMATIC. If it says MANUAL, press the button once more so that it says AUTOMATIC. Press start and the tubes will prime. Watch to make sure the ends of the glass apparatuses remain submerged in the media. Watch the top of the glass apparatuses for bubbles. If an air bubble persists, pinch the plastic part of the tube to push out the air bubble.
+
+  ![Image](img/AirBubblePinch.png)
 
   9. Once the tubes are filled and contain no air bubbles, press stop.
 
@@ -173,13 +184,18 @@
     - Holding it here instead of over the middle of the plate avoids bubbles and splashing.
     - If you get air bubbles in the plate, use the edge of the lid to tap the bubbles and pop them if possible.
 
+    ![Image](img/Pouring.png)
+
   14. Throughout the plate pouring procedure, remember to watch the flask to ensure that the media is getting into the tubing even when there is only a small volume of media left in the flask. The glass apparatus should always be on the bottom of the flask. You should hear the click of the glass apparatus on the bottom of the flask. If the opening of the tubing is not completely covered by media, air will get into the tubing, which results in bubbles in the plates. **Plates with bubbles are not usable.**
 
   15. Tip the flask to the side to pour out the last few plates. Stop pouring if there is not enough media left (less than the volume for one plate).
 
+  ![Image](img/PouringStacks.png)
+
   16. If you are pouring multiple flasks, prime each time you switch between flasks. To switch flasks, remove flask from water bath and place on hot plate. Run stirrer for ~10 seconds to homogenize mixture. Take the glass apparatuses out of the old flask and, without touching them on anything, transfer them both to the new flask. Switch the machine back to automatic. Ensure the bottom of the apparatuses are completely submerged in media and run on automatic until no bubbles remain in the tubing.
 
     - If the glass apparatuses touch anything and get contaminated, sterilize them using a Bunsen burner flame before you put them in a new flask, but try to avoid this as much as possible.
+
 
   17. When finished with the last flask, pour the 1 L sterile water into the empty flask. Put the glass apparatus used for pouring into the empty flask as well. Run the machine on automatic for ~3 minutes.
 
@@ -192,16 +208,16 @@
   21. Wrap the two glass apparatuses in foil and then full tubing in foil. Turn off the water bath.
 
 
-  ## Troubleshooting
+## Troubleshooting
 
   1. The agar is cracking
       - this probably means the plates were left out to dry too long
       solution: decrease the drying time
 
-  2. the OP50 is crusty (what we call a skating rink)
+  2. The OP50 is crusty or is a film ("skating rink")
       - this means the plates got too hot while the OP50 was drying
       solution: dry in a cooler area
 
-  3. footballs
+  3. Footballs
       - usually occurs because of problems with the chemicals (1 M KH<sub>2</sub>PO<sub>4</sub>, Cholesterol, 1 M CaCl<sub>2</sub>, and 1 M MgSO<sub>4</sub>)
       solution: make new solutions
