@@ -50,13 +50,13 @@
 
     c. Discard 500 μL of the supernatant. Store the remainder (pellet of mf, should be ~200 μL) at 4°C.
 
-4. Record on the WormViz immediately prior to adding drug. All videos are labeled in reference to the day upon which drug is added such that the 24 hr time point is 24 hours after drug addition (not after parasite receipt). Thus, this first video will be the 0 hr time point.
+4. Record on the WormViz immediately prior to adding drug. All videos are labeled in reference to the day upon which drug is added such that the 24 hr time point is 24 hours after drug addition (not after parasite receipt). Thus, this first video will be the 0 hr time point. Name videos with the same structure as used for the ImageXpress (i.e. yyyymmdd-p##-INT).
 
-    a. Align the WormViz camera and stage to the markings on the pillar.
+    a. Ensure the WormViz camera and stage are aligned to the markings on the pillar.
 
     b. Set the red LEDs to the highest setting.
 
-    c. Remove the lid from the plate and ensure well A01 is at the top left of the camera view.
+    c. Remove the lid from the plate and place in the middle of the green tape outline. Ensure well A01 is at the top left of the camera view.
 
     d. Record the video
 
@@ -75,6 +75,17 @@
     g. Return to the incubator.
 
     h. Record videos again after 1 hr incubation.
+
+    i. Before transferring videos to Research Drive, crop each video in Fiji. 
+        - Open the first .avi file in Fiji.
+        - Image > Adjust > Canvas Size....
+        - Change the parameters to: 
+            - Width: 1220
+            - Height: 820
+            - Position: Center
+        - Click Ok
+        - File > Save As > AVI...
+        - Save to Research Drive Raw folder with the same name
 
 ### Days 3-4 (Time points 24 & 48)
 

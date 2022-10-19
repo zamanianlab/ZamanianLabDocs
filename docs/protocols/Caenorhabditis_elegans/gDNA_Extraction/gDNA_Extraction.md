@@ -2,7 +2,7 @@
 
 ## Materials
 
-- Qiagen DNEasy Kit
+- DNeasy Blood & Tissue Kit (Qiagen, cat# 69504)
 - M9
 - Ice
 - Heat block set to 56°C
@@ -12,9 +12,9 @@
 
 ## Protocol
 
-1. 3-4 days before you plan to extract RNA, chunk to three 10 cm plates per strain/line.
+1. 3-4 days before you plan to extract gDNA, chunk to three 10 cm plates per strain/line.
 
-    a. Monitor plates daily; extract RNA when plates are full of adults and nearly starved.
+    a. Monitor plates daily; extract gDNA when plates are full of adults and nearly starved.
 
 2. When plates are ready, wash worms off of plates and pool by strain/line into 15 mL of M9.
 
@@ -36,7 +36,7 @@
 
 6. Add 180 μl of Buffer ATL and 20 μl of Proteinase K (provided with the kit).
 
-    a. Incubate at 56°C with vortexing. Check the amount of lysis after 1 hour. If you still see worms, continue the incubation. If you see embryos or nothing, proceed to the next step.
+    a. Vortex and incubate at 56°C. Check the amount of lysis after 1 hour. If you still see worms, continue the incubation. If you see embryos or nothing, proceed to the next step.
 
 7. Add 4 μl of RNase A (100 mg/ml).
 
@@ -44,7 +44,7 @@
 
 8. Add 200 μl buffer AL.
 
-    a. Incubate at 56°C with vortexing for 10 minutes.
+    a. Vortex and incubate at 56°C for 10 minutes.
 
 9. Add 200 μl EtOH and vortex to mix. Transfer contents to a labeled spin column in a collection tube.
 

@@ -1,6 +1,6 @@
 # Lab Protocols
 
-[High-Throughput Phenotyping](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/) (For internal use)
+[Lab Protocols Google Drive](https://drive.google.com/drive/folders/1NsPzcZk9f1FklRcTja1iDMM96zH7oqz9) (For internal use)
 
 ## Lab Tasks
 
@@ -35,7 +35,7 @@
 
 - [Sanger Sequencing](Molecular_Biology/Sanger_Sequencing/Sanger_Sequencing.md)
 
-- [Competent Cells](Molecular_Biology/Chemically_Competent_Cells/competent_cells.md)
+- [Competent Cells](Molecular_Biology/Competent_Cells/Competent_Cells.md)
 
 
 ## Mosquito-Stage Parasite Protocols
@@ -131,7 +131,7 @@
 
 - [Screenchip Electropharyngeogram (EPG) Recordings](Caenorhabditis_elegans/EPG_Recordings/EPG_Recordings.md)
 
-- [Pharyngeal Pump Counting](Caenorhabditis_elegans/Pharyngeal_Counting/Pharyngeal_Counting.md)
+- [Pharyngeal Pump Counting](Caenorhabditis_elegans/Pharyngeal_Pumping/Pharyngeal_Pumping.md)
 
 
 ## Microinjection

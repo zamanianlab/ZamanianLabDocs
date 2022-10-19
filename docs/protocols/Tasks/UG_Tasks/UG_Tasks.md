@@ -46,18 +46,19 @@
 
   | Task | Member Responsible |
   | :--- | :----------------: |
-  |Wipe benches and analytical balance area | All |
+  | Wipe benches and analytical balance area | All |
   | Clean equipment and microscopes | All |
   | Lab Waste (biohazard/sharps/tips/trash) | Chris |
-  | Glass washing and autoclaving | Chris |
-  | NGM dry mix preparation | Nic/Elena |
-  | NGM plate pouring and seeding | Chris |
-  | LB-AMP-Xgal-IPTG plate pouring | Chris |
-  | LB liquid media | Chris |
-  | Ethanol/bleach spray bottle refill | Nic/Lenny |
+  | Glass washing and autoclaving | Zane |
+  | NGM dry mix preparation | Zamzam |
+  | NGM plate pouring and seeding | Zane |
+  | LB-AMP-Xgal-IPTG plate pouring | Zane |
+  | LB liquid media | Zane |
+  | Ethanol/bleach spray bottle refill | Sydney |
   | _C. elegans_ incubator cleaning | Kendra/Kathy |
-  | Plate pouring, buffers, and reagents refill | Chris |
-  | Pipette tip refills and autoclaving | Chris |
-  | 1.5 mL tube refill and autoclaving | Chris |
-  | Cartons for mosquito infections | Zamzam/Kendra |
+  | Plate pouring, buffers, and reagents refill | Zane |
+  | Pipette tip refills and autoclaving | Zane |
+  | 1.5 mL tube refill and autoclaving | Zane |
+  | Cartons for mosquito infections | Zane |
   | Needles for mosquito injections | NA |
+
