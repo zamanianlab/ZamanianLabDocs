@@ -103,6 +103,8 @@
 
 - [Cleaning Worms](Caenorhabditis_elegans/Cleaning_Worms/Cleaning_Worms.md)
 
+- [Extrachromosomal Integration](Caenorhabditis_elegans/Extrachromosomal_Integration/Extrachromosomal_Integration.md)
+
 - [Freezing Worms](Caenorhabditis_elegans/Freezing_Worms/Freezing_Worms.md)
 
 - [Freezing Worms in Agar](Caenorhabditis_elegans/Freezing_Worms_Agar/Freezing_Worms_Agar.md)
@@ -121,7 +123,6 @@
 
 - [Plate Pouring: Cholesterol](Caenorhabditis_elegans/PlatePouring_Cholesterol/PlatePouring_Cholesterol.md) 
 
-- [TMP:UV Integration](Caenorhabditis_elegans/TMP:UV_Integration/TMP:UV-Integration-Protocol.md)
 
 *Phenotyping*
 
