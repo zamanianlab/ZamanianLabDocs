@@ -32,6 +32,29 @@
   **Note:** PD-10 columns can be used up to 10 times using the gravity protocol if stored properly at 4°C with 0.01% sodium azide. Spinning the column in a centrifuge is not encouraged as it will pack the resin bed and inhibit the reusable capabilities of the column.
 
 
+## Saponin Hemolysis
+
+### Materials
+- 50 mL conical tubes
+- Sodium chloride 
+- Saponin powder
+- Autoclaved water
+- 100-500 mL glass bottle
+
+### Equipment
+- Water bath (set to 37°C)
+- Scale
+
+### Protocol 
+
+1. Prepare 0.85% sodium chloride, 0.2% saponin solution in autoclaved water. For example, in a glass bottle, combine 100mL autoclaved water with 850 mg sodium chloride and 200 mg saponin. 
+
+2. In a 50 mL conical tube, make a 1:11 mixture of microfilaremic blood and saponin solution. For example, add 4 mL of blood to 44 mL saponin solution and mix by inversion. 
+
+3. Place tube in 37°C water bath for 15 minutes to allow blood cells to lyse. 
+
+4. Filter the solution, by following step 1 from the Filtration from Blood protocol (below), adding the lysis solution to the filter, and following steps 4-6 from the same protocol. 
+
 ## Filtration from Blood
 
 ### Materials
@@ -53,4 +76,4 @@
 
 5. Disconnect the syringe from the filter unit and remove the plunger. Add the syringe back to the filter unit and then fill the syringe with PBS or water to wash the microfilariae collected on the filter within the unit. Push the fluid through with the plunger.
 
-6. Quickly disassemble the filter unit and place the filter unit in RPMI-1640. Gentle vortexing can help release microfilariae from the filter unit although microfilariae loss should be expected.
+6. Quickly disassemble the filter unit and place the filter unit in RPMI-1640. Gentle vortexing can help release microfilariae from the filter unit although microfilariae loss should be expected. Filters can also be incubated in RPMI-1640 at 37°C for 1 hour for more passive separation. 
