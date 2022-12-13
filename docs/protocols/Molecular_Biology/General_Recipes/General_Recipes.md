@@ -164,19 +164,25 @@
 
 1. Mix the following:
 
-    | Reagent | Amount |
-    |----------|--------|
-    Yeast extract	| 2.5 g
-    Tryptone	| 10 g
-    NaCl	| 0.292 g
-    KCl	| 0.093 g
-    MgSO4	| 1.2 g
-    dH<sub>2</sub>O	| up to 500 mL
+    | Reagent | 1 L Stock | 500 mL Stock | 250 mL Stock |
+    |----------|--------|-------------|--------------|
+    Yeast extract	| 5 g | 2.5 g | 1.25 g |
+    Tryptone	| 20 g | 10 g | 5 g |
+    NaCl	| 0.584 g | 0.292 g | 0.146 |
+    KCl	| 0.186 g | 0.093 g | 0.0465 g |
+    MgSO4	| 2.4 g | 1.2 g | 0.6 g |
+    dH<sub>2</sub>O	| up to 1 L | up to 500 mL | up to 250 mL
 
 2. Autoclave on liquid cycle for 30 min
 3. Adjust pH to 7.5 prior to use (this requires ~ 25 mL of 1M NaOH per liter)
-4. Add 10 mL of filter-sterilized (0.22 um filter) 20% Glucose solution (20 g in 100 mL dH<sub>2</sub>O) after the media has cooled
-5. Store at room temperature
+4. Add filter-sterilized (0.22 um filter) 20% Glucose solution (20 g in 100 mL dH<sub>2</sub>O) after the media has cooled:
+
+    | Stock Vol. | 20% Glucose Amount |
+    |------------|--------------------|
+    | 1 L | 20 mL |
+    | 500 mL | 10 mL |
+    | 250 mL | 5 mL|
+5. Store at room temperature or at +4°C.
 
 ---
 ## 1P2P (1.4% stock solution)
