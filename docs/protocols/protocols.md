@@ -103,7 +103,7 @@
 
 - [Cleaning Worms](Caenorhabditis_elegans/Cleaning_Worms/Cleaning_Worms.md)
 
-- [Extrachromosomal Integration](Caenorhabditis_elegans/Extrachromosomal_Integration/Extrachromosomal_Integration.md)
+- [Extrachromosomal Integration](Caenorhabditis_elegans/Extrachromosomal_Integration/extrachromosomal_integration.md)
 
 - [Freezing Worms](Caenorhabditis_elegans/Freezing_Worms/Freezing_Worms.md)
 

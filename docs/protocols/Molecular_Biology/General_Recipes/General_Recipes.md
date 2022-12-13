@@ -182,6 +182,7 @@
     | 1 L | 20 mL |
     | 500 mL | 10 mL |
     | 250 mL | 5 mL|
+    
 5. Store at room temperature or at +4°C.
 
 ---
