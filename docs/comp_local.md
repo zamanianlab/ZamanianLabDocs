@@ -2,11 +2,11 @@
 
 For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.
 
-1. Update your macOS version to Monterey (v12.6)
+1. Update your macOS version to Ventura (v13.0)
 
-2. If the Mac is UW-owned, follow these instructions to install [Parallels Mac Management](https://it.vetmed.wisc.edu/pmm-for-sccm-client-install/). This will allow you to directly install/update UW-licensed software, including Adobe products, the UW VPN (Cisco Global Protect), Microsoft Office products, and Zoom.
+2. If the Mac is UW-owned, follow these instructions to install [WorkSpace One Intelligent Hub](https://it.vetmed.wisc.edu/enrolling-mac-os-with-workspace-one/). This will allow you to directly install/update UW-licensed software, including Adobe products, the UW VPN (Cisco Global Protect), Microsoft Office products, and Zoom.
 
-3. Install core software (some of which can be installed/updated via Parallels; instructions for manually installing on a personal computer are linked):
+3. Install core software (some of which can be installed/updated via Intelligent Hub; instructions for manually installing on a personal computer are linked):
 
     - [Adobe products](https://kb.wisc.edu/69772)
     - [Box Drive](https://www.box.com/resources/downloads/drive) (cloud-based shared file storage)
@@ -40,7 +40,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
 7. Create your R environment:
 
-    - Use [CRAN](https://cran.r-project.org/bin/macosx/base/R-4.2.1.pkg) to install or update R to version 4.2.1
+    - Use [CRAN](https://cran.r-project.org/bin/macosx/base/R-4.2.1.pkg) to install or update R to version 4.2.2
 
       *NOTE: We will upgrade to new versions of R as a group.*
 
