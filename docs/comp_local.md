@@ -40,7 +40,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
 
 7. Create your R environment:
 
-    - Use [CRAN](https://cran.r-project.org/bin/macosx/base/R-4.2.1.pkg) to install or update R to version 4.2.2
+    - Use [CRAN](https://cran.r-project.org/bin/macosx/base/R-4.2.2.pkg) to install or update R to version 4.2.2
 
       *NOTE: We will upgrade to new versions of R as a group.*
 
