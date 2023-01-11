@@ -33,7 +33,7 @@
 
     <img src="../img/mf_counting.png" width="300" />
 
-6. Calculate the mf concentration in the microfilaremic blood stock.
+6. Repeat steps 2-5 three times. Take the average of the three mf counts and calculate the mf concentration in the microfilaremic blood stock.
 
 7. In a 15 mL or 50 mL conical tube, dilute the microfilaremic blood with Defibrinated Sheep's Blood to the desired blood feeding concentration. Use C<sub>1</sub>V<sub>1</sub>=C<sub>2</sub>V<sub>2</sub> to calculate how much microfilaremic blood and how much control blood to add to the conical tube.
 
@@ -41,9 +41,9 @@
 
   - Appropriate concentrations for blood feeding:
 
-    - *B. pahangi*: 120 – 160 mf / 20 µL
+    - *B. pahangi*: 100 - 120 mf / 20 µL
 
-    - *D. immitis*: 80 – 160 mf / 20 µL
+    - *D. immitis*: 90 - 120 mf / 20 µL
 
     - *B. malayi*:
 

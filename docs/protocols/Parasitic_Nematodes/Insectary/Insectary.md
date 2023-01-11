@@ -16,7 +16,7 @@ This document describes insectary operations for the maintenance and infection o
 - Standard mosquito orders are filled in the following quantities (can be adjusted according to your experimental needs):
 
     - Small carton: 50 female LVP or 50 female AaSD
-    - Large carton: 1 carton/150 female LVP each or 4 cartons/350 female AaSD each
+    - Large carton: 1 carton/350 female LVP each or 4 cartons/350 female AaSD each
 
 - You are responsible for maintaining the sucrose pads and monitoring the adult mosquito death for your cartons throughout the duration of use.
 
@@ -30,19 +30,19 @@ This document describes insectary operations for the maintenance and infection o
   |1-3 (Thursday-Saturday)|Monitor larvae growth, feed double-ground food twice daily or PRN|
   |4-7 (Sunday-Wednesday) |Monitor larvae growth, feed once ground food twice daily or PRN|
   |8 (Thursday)           |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
-  |9-11 (Friday-Sunday)   |Adult mosquitoes emerge 2-3 days after pupation|
-  |12- (Monday-)          |Monitor adult health, survival, and refresh sucrose pads daily|
+  |9-12 (Friday-Monday)   |Adult mosquitoes emerge 2-3 days after pupation|
+  |13- (Tuesday-)          |Bloodfeed, monitor adult health, survival, and refresh sucrose pads daily|
 
 ### Overview of *Aedes aegypti* (AaSD) Schedule
 
   |Day                    |Task                    |
   |-----------------------|------------------------|
-  |0 (Thursday)           |Hatch and pan out larvae|
-  |1-3 (Friday-Sunday)    |Monitor larvae growth, feed double-ground food twice daily or PRN|
-  |4-5 (Monday-Tuesday)   |Monitor larvae growth, feed once ground food twice daily or PRN|
-  |6 (Wednesday)          |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
-  |7-9 (Thursday-Saturday)|Adult mosquitoes emerge 2-3 days after pupation|
-  |10- (Sunday-)          |Monitor adult health, survival, and refresh sucrose pads daily|
+  |0 (Friday)           |Hatch and pan out larvae|
+  |1-3 (Saturday-Monday)    |Monitor larvae growth, feed double-ground food twice daily or PRN|
+  |4-5 (Tuesday-Wednesday)   |Monitor larvae growth, feed once ground food twice daily or PRN|
+  |6 (Thursday)          |Prepare cartons and sucrose pads, separate pupae, fill mosquito orders|
+  |7-10 (Friday-Monday)|Adult mosquitoes emerge 2-3 days after pupation|
+  |11- (Tuesday-)          |Bloodfeed, monitor adult health, survival, and refresh sucrose pads daily|
 
 ## I. Collection of Egg Sheets
 
@@ -232,7 +232,7 @@ This document describes insectary operations for the maintenance and infection o
 
 2. Count out pupae into plastic dish or small mosquito carton.
 
-    **Note:** ~50 pupae for both species go in small cartons. 150 LVP pupae or 350 AaSD pupae go into the large cartons.
+    **Note:** ~50 pupae for both species go in small cartons. 350 LVP pupae or 350 AaSD pupae go into the large cartons.
 
 3. Place the plastic dish in a large mosquito carton or place a piece of mesh over a small carton and place a lid (rim of lid with the center removed) over the mesh.
 
@@ -291,9 +291,9 @@ This document describes insectary operations for the maintenance and infection o
 
 **Starving Mosquitoes for Blood Feeding**
 
-- Starve colony cages and LVP cartons 24 hours in advance. Do not starve more than 24 hr., they will die.
+- Starve colony cages and LVP cartons 2 hr. prior to feeding. 
 
-- Starve AaSD experimental cartons less than 12 hr. prior to feeding. AaSD tend to die easily if starved too long.
+- Starve AaSD experimental cartons 2 hr. prior to feeding. AaSD tend to die easily if starved too long.
 
 **Blood Feeding Experimental (Parasite) Mosquito Cartons**
 
