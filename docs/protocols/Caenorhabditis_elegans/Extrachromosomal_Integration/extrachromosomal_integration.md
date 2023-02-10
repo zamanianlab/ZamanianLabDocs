@@ -14,9 +14,7 @@
   - OP50 in liquid culture
 
 ##  Mutagenesis and integration
-
-### Day 1:
-
+<b><u>Day 1 </b></u> 
 1. In 380 µL M9, add 40 L4 worms to be integrated in a 1.5 mL microcentrifuge tube (do 2 tubes due to death of worms). Add 20 µL 3 mg/mL TMP (trimethylpsoralen in DMSO) to each 1.5 mL microcentrifuge tube **in the dark** as TMP is light sensitive.
 
 2. Wrap 1.5 mL microcentrifuge tubes in foil and incubate at RT for 15 min.
@@ -34,31 +32,31 @@
 
 5. Spin down about 10 mL *E. coli* OP50, remove all but 1 mL of liquid, and re-suspend. Add 1 mL of this concentrated *E. coli* OP50 to the plates, cover in foil, and incubate at 15°C overnight.
 
-  ### Day 2:
+<b><u>Day 2 </b></u> 
 
 6. Pick 1 surviving transgenic worm per 6 cm plate (pick to about 25 plates). Number the plates 1-25 to keep track of the original parent. Incubate at 20°C.
 
-  ### Day 3:
+<b><u>Day 3 </b></u> 
 
 7. Transfer the same original parent worm onto a new numbered 1-25 6 cm plate and incubate at 20°C. 
 
-  ### Day 4:
+<b><u>Day 4 </b></u> 
 
 8. Transfer the same original parent worm onto a new numbered 1-25 6 cm plate and incubate at 20°C.
 
-  ### Day 5:
+<b><u>Day 5 </b></u> 
 
 9. Pick 100-120 6 cm plates with 2 transgenic worms per numbered 1-25 6 cm plate from the 75 plates picked over the last 3 days. There will be some death of worms so you may not have 75 plates anymore, just pick from what you have left.
 
-  ### Day 8:
+<b><u>Day 8 </b></u> 
 
 10. From each of the 100-120 plates from step 9, pick 2 transgenic worms to individual 6 cm plates (you should end up with about 250 plates). 
 
-  ### Day 11:
+<b><u>Day 11 </b></u> 
 
 11. Score each plate for 100% integration of the transgenic marker.
 
-  ### Day 12:
+<b><u>Day 12 </b></u> 
 
 12. Score each plate for 100% integration of the transgenic marker.
 
