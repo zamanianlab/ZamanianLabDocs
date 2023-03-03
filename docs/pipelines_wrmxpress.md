@@ -4,8 +4,8 @@ We have developed a software suite that analyzes worm imaging data generated on 
 
 The following contains a step-by-step protocol that is specific to Zamanian lab analytical pipelines deployed at the [Center for High-Throughput Computing (CHTC)](https://chtc.cs.wisc.edu/). Prerequisites include generating and exporting imaging data to Research Drive, transferring it to the `input/` directory of `staging/` on the CHTC, as well as uploading experimental metadata to the `metadata/` directory of `staging/`. The following links may be helpful:
 
-- For full ImageXpress protocols, see our comprehensive [documentation](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/edit)
-- For generating metadata, see the [Metadata](https://docs.google.com/document/d/1CLaqODDSfTY-3CK3ORyoiqtW7k7MVlBo8bqKmZStuCs/edit#heading=h.uy3cjpbzggv) heading of the documentation
+- For full ImageXpress protocols, see our comprehensive [documentation](https://docs.google.com/document/d/1Gn4Ns4rJpdXaT5ZUF95xJILb24OojShKfQ0yHgHRQaM/edit#heading=h.s6zsphc56jc)
+- For generating metadata, see the [Metadata](https://docs.google.com/document/d/1wxpg-AwJdTZxYi0eYovo2m6eeYbGn_KHd9zKrpYAeSA/edit#heading=h.uy3cjpbzggv) heading of the documentation
 - For instructions on transferring data and metadata to the CHTC, see the Globus section (1A) of our [Server Pipelines](pipelines_server.md) page
 
 ## Preparing to submit wrmXpress jobs
