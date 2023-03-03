@@ -46,7 +46,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **Liquid N<sub>2</sub> tank upkeep.** The liquid N<sub>2</sub> tank stores our critical backup copies of transgenic worm strains and transformed bacterial stocks. Follow [Liquid N<sub>2</sub> Tank Maintenance](../../Lab_Operations/LiquidN2_Tank_Maintenance/LiquidN2_Tank_Maintenance.md) for maintenance instructions.
 
-  - **Multidrop<sup>TM</sup> Combi Reagent Dispenser Calibration.** The dispensing cassettes must be recalibrated on a monthly basis. Refer to the [Multidrop Dispenser Protocol](https://docs.google.com/document/d/1iQnYxuGLf0xRXZWCztuEwN-OaAR6KQxiqgNJUs8394k/edit) for the calibration protocol. 
+  - **Multidrop<sup>TM</sup> Combi Reagent Dispenser Calibration.** The dispensing cassettes must be recalibrated on a monthly basis. Refer to the [Multidrop Dispenser Protocol](https://docs.google.com/document/d/1iQnYxuGLf0xRXZWCztuEwN-OaAR6KQxiqgNJUs8394k/edit#heading=h.rdss0vih7smd) for the calibration protocol. 
 
   - **AquaMax Plate Washer Cleaning.** Refer to the [Cleaning protocols](https://docs.google.com/document/d/1GAdTAL4nCAhQKjOBjS8UwrUXJue6KJppFMVvZMPcC6o/edit#heading=h.dk8xs0se0sxc) for instructions on the different types of cleaning (water and AquaMax cleaning solution). 
 
