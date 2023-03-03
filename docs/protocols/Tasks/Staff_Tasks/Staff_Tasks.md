@@ -48,6 +48,8 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **Multidrop<sup>TM</sup> Combi Reagent Dispenser Calibration.** The dispensing cassettes must be recalibrated on a monthly basis. Refer to the [Multidrop Dispenser Protocol](https://docs.google.com/document/d/1iQnYxuGLf0xRXZWCztuEwN-OaAR6KQxiqgNJUs8394k/edit) for the calibration protocol. 
 
+  - **AquaMax Plate Washer Cleaning.** Refer to the [Cleaning protocols](https://docs.google.com/document/d/1GAdTAL4nCAhQKjOBjS8UwrUXJue6KJppFMVvZMPcC6o/edit#heading=h.dk8xs0se0sxc) for instructions on the different types of cleaning (water and AquaMax cleaning solution). 
+
 ## Task Assignments
 
   | Task | Member Responsible |
