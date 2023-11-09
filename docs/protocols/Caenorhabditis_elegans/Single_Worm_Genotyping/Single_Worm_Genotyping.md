@@ -28,7 +28,7 @@
 
     <img src="../img/Picking_into_cap.png" width="300" />
 
-4. Place the caps onto an appropriately labeled strip of tubes. Spin down the worms into the 8-strip tube using the minicentrifuge.
+4. Place the caps onto an appropriately labeled strip of tubes. Spin down the worms into the 8-strip tube using the minicentrifuge. Double check that the worms made it to the bottom of the tubes and are not stuck on the tube walls or cap.
 
 5. Turn on the thermocycler.
 

@@ -6,7 +6,7 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
 
     | Reagent              | Amount    |       
     |----------------------|-----------|       
-    | 10x CutSmart Buffer  | 20 μL     |       
+    | 10x rCutSmart Buffer  | 20 μL     |       
     | pPSU1                | 50 μg     |       
     | pPSU2                | 40 μg     |       
     | 20 units/μL EcoRV-HF | 4 μL      |       
@@ -14,7 +14,7 @@ This protocol yields 2.5 mL of 100 bp and 1 kb ladder, each. Scale accordingly.
 
     | Reagent              | Amount    |
     |----------------------|-----------|
-    | 10x CutSmart Buffer  | 20 μL     |
+    | 10x rCutSmart Buffer  | 20 μL     |
     | pPSU1                | 50 μg     |
     | pPSU2                | 40 μg     |
     | 20 units/μL PstI-HF  | 4 μL      |

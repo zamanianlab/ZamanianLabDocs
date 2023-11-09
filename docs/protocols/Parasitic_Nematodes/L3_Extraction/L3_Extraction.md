@@ -89,12 +89,12 @@ This 10X stock solution will need to be diluted to 1X with sterile ddH<sub>2</su
 
 1. Dissolve the reagents below in ~100 mL of ddH<sub>2</sub>O.
 
-| Reagent | Amount | Final Concentration |
-| ------- | :----: | :-----------------: |
-| NaCl | 9.0 g | 150 mM |
-| CaCl<sub>2</sub> | 0.2 g | 1 mM |
-| KCl | 0.2 g | 2 mM |
-| NaHCO<sub>3</sub> | 0.1 g | 1 mM|
+    | Reagent | Amount | Final Concentration |
+    | ------- | :----: | :-----------------: |
+    | NaCl | 9.0 g | 150 mM |
+    | CaCl<sub>2</sub> | 0.2 g | 1 mM |
+    | KCl | 0.2 g | 2 mM |
+    | NaHCO<sub>3</sub> | 0.1 g | 1 mM|
 
 2. Adjust the pH of the solution to pH 7.0.
 
