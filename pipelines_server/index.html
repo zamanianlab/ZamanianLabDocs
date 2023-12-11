@@ -16,7 +16,7 @@
         <meta name="author" content="Zamanian Lab">
       
       <link rel="shortcut icon" href="../images/dna.svg">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-6.1.7">
     
     
       
@@ -82,7 +82,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
+    <a href="https://zamanianlab.org/ZamanianLabDocs/" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
       
   <img src="../images/dna.svg" alt="logo">
 
@@ -138,7 +138,7 @@
     
       <div class="md-header-nav__source">
         
-<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source">
+<a href="https://github.com/zamanianlab/ZamanianLabDocs" title="Go to repository" class="md-source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
@@ -168,7 +168,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://zamanianlab.org/ZamanianLabDocs" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
+    <a href="https://zamanianlab.org/ZamanianLabDocs/" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
       
   <img src="../images/dna.svg" alt="logo">
 
@@ -178,7 +178,7 @@
   
     <div class="md-nav__source">
       
-<a href="https://github.com/zamanianlab/ZamanianLabDocs/" title="Go to repository" class="md-source">
+<a href="https://github.com/zamanianlab/ZamanianLabDocs" title="Go to repository" class="md-source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
@@ -636,7 +636,9 @@
 <p><strong>Staging -</strong> transfer input data for processing (ResearchDrive -&gt; CHTC)</p>
 <p>1A. <strong>Globus transfer</strong></p>
 <p>In almost all cases, you will use <a href="https://it.wisc.edu/it-projects/globus-research-data-management-project/">Globus</a> to transfer your input data from ResearchDrive to the CHTC staging input folder. Globus is the fastest and most secure transfer method, and allows for transfer from any file system that has a Globus endpoint installed. Most raw data on ResearchDrive is unarchived and uncompressed. However, our pipelines expect a single archived folder (.tar) as input and will deliver a single archived folder as output. Use the workflow below to transfer an unarchived folder on ResearchDrive to CHTC input and archive it after arrival. See the <a href="https://kb.wisc.edu/researchdata/internal/page.php?id=108855">KB</a> for further instructions.</p>
-<details class="example"><summary>Globus transfer</summary><ol>
+<details class="example">
+<summary>Globus transfer</summary>
+<ol>
 <li>Login to the <a href="https://app.globus.org/">Globus web interface</a> with your NetID</li>
 <li>If transferring from a personal computer, install and start <a href="https://www.globus.org/globus-connect-personal">Globus Connect Personal</a>.</li>
 <li>In the web interface, set the view to two panels using the icon on the top right.</li>
@@ -653,28 +655,34 @@
 </details>
 <p>1B. <strong>Command line transfer with smbclient</strong></p>
 <p>It is also possible to transfer via smbclient using the terminal. The following code will also archive the data upon arrival.</p>
-<details><summary>ResearchDrive -&gt; CHTC transfer of unarchived raw data folder (archived on arrival)</summary><div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
-ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
-<span class="nb">cd</span> /staging/groups/zamanian_group/input/
+<details>
+<summary>ResearchDrive -&gt; CHTC transfer of unarchived raw data folder (archived on arrival)</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
+ssh<span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
+<span class="nb">cd</span><span class="w"> </span>/staging/groups/zamanian_group/input/
 
 <span class="c1"># Example of transferring sequencing data</span>
-smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;UWBC-Dropbox/Bioinformatics Resource Center&quot;</span> -Tc 201105_AHLVWJDSXY.tar <span class="s2">&quot;201105_AHLVWJDSXY&quot;</span>
+smbclient<span class="w"> </span>-k<span class="w"> </span>//research.drive.wisc.edu/mzamanian/<span class="w"> </span>-D<span class="w"> </span><span class="s2">&quot;UWBC-Dropbox/Bioinformatics Resource Center&quot;</span><span class="w"> </span>-Tc<span class="w"> </span>201105_AHLVWJDSXY.tar<span class="w"> </span><span class="s2">&quot;201105_AHLVWJDSXY&quot;</span>
 
 <span class="c1"># Example of transferring ImageXpress data</span>
-smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/raw&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172.tar&quot;</span>
+smbclient<span class="w"> </span>-k<span class="w"> </span>//research.drive.wisc.edu/mzamanian/<span class="w"> </span>-D<span class="w"> </span><span class="s2">&quot;ImageXpress/raw&quot;</span><span class="w"> </span>-Tc<span class="w"> </span><span class="m">20201118</span>-p01-MZ_172.tar<span class="w"> </span><span class="s2">&quot;20201118-p01-MZ_172.tar&quot;</span>
 </code></pre></div>
 </details>
-<details><summary>ResearchDrive -&gt; CHTC transfer of unarchived metadata folder (archived on arrival)</summary><div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging metadata dir</span>
-ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
-<span class="nb">cd</span> /staging/groups/zamanian_group/metadata/
+<details>
+<summary>ResearchDrive -&gt; CHTC transfer of unarchived metadata folder (archived on arrival)</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging metadata dir</span>
+ssh<span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
+<span class="nb">cd</span><span class="w"> </span>/staging/groups/zamanian_group/metadata/
 
 <span class="c1"># Example of transferring ImageXpress metadata</span>
-smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;ImageXpress/metadata&quot;</span> -Tc <span class="m">20201118</span>-p01-MZ_172.tar <span class="s2">&quot;20201118-p01-MZ_172&quot;</span>
+smbclient<span class="w"> </span>-k<span class="w"> </span>//research.drive.wisc.edu/mzamanian/<span class="w"> </span>-D<span class="w"> </span><span class="s2">&quot;ImageXpress/metadata&quot;</span><span class="w"> </span>-Tc<span class="w"> </span><span class="m">20201118</span>-p01-MZ_172.tar<span class="w"> </span><span class="s2">&quot;20201118-p01-MZ_172&quot;</span>
 </code></pre></div>
 </details>
 <p><strong>Note:</strong> If you correctly updated your <code>~/.bash_profile</code> by following the <a href="../comp_local/">macOS environment setup instructions</a>, then you can use the simple <code>transfer</code> to <code>ssh</code> into the node.</p>
 <p>For ImageXpress data, an entire experiment may include &gt;10 plates that will take hours to days to transfer. To facilitate batch transfers, we have included two scripts in the <code>input/</code> and <code>metadata/</code> directories of <code>/staging/groups/zamanian_group/</code> to help with batch transfer.</p>
-<details><summary>Batch transfer via custom scripts and <code>screen</code></summary><div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Instructions</label><div class="tabbed-content">
+<details>
+<summary>Batch transfer via custom scripts and <code>screen</code></summary>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Instructions</label><div class="tabbed-content">
 <ol>
 <li>Use a terminal text editor (e.g., <code>vim</code> or <code>nano</code>) to edit the plate list in <code>/staging/groups/zamanian_group/input/plates.txt</code> such that there is a    single plate name per line. Also include a blank line at the end of the file.</li>
 <li>Use the commands <code>sh transfer_images.sh</code> (from the <code>input/</code> directory) and <code>sh transfer_metadata.sh</code> (from the <code>metadata/</code> directory) to transfer the images and metadata, respectively.</li>
@@ -682,7 +690,7 @@ smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;Imag
 </ol>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Sample screen commands</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -697,24 +705,23 @@ smbclient -k //research.drive.wisc.edu/mzamanian/ -D <span class="s2">&quot;Imag
 <span class="normal">13</span>
 <span class="normal">14</span>
 <span class="normal">15</span>
-<span class="normal">16</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
-ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
-<span class="nb">cd</span> /staging/groups/zamanian_group/input/
+<span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Log into transfer server and navigate to staging input dir</span>
+ssh<span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
+<span class="nb">cd</span><span class="w"> </span>/staging/groups/zamanian_group/input/
 
 <span class="c1"># Start a screen named &#39;transfer&#39;</span>
-screen -S transfer
+screen<span class="w"> </span>-S<span class="w"> </span>transfer
 
 <span class="c1"># Initiate the transfer</span>
-sh transfer_images.sh
+sh<span class="w"> </span>transfer_images.sh
 
 <span class="c1"># Detach from the screen by pressing Ctrl+a and then d</span>
 <span class="c1"># Reattach to the screen</span>
-screen -r transfer
+screen<span class="w"> </span>-r<span class="w"> </span>transfer
 
 <span class="c1"># Close the screen</span>
 <span class="nb">exit</span>
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 </div>
 </div>
 </details>
@@ -723,19 +730,23 @@ screen -r transfer
 <p>1D. <strong>Command line transfer with <code>scp</code></strong></p>
 <p>A final option for transfer of small files is via the <code>scp</code> command:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># transfer to staging</span>
-scp <span class="o">[</span><span class="nb">local</span> file<span class="o">]</span> <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/
+scp<span class="w"> </span><span class="o">[</span><span class="nb">local</span><span class="w"> </span>file<span class="o">]</span><span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/input/
 
 <span class="c1"># transfer to home</span>
-scp <span class="o">[</span><span class="nb">local</span> file<span class="o">]</span> <span class="o">{</span>net-id<span class="o">}</span>@submit2.chtc.wisc.edu:/home/<span class="o">{</span>net-id<span class="o">}</span>
+scp<span class="w"> </span><span class="o">[</span><span class="nb">local</span><span class="w"> </span>file<span class="o">]</span><span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@submit2.chtc.wisc.edu:/home/<span class="o">{</span>net-id<span class="o">}</span>
 </code></pre></div>
-<details class="danger" open="open"><summary>Warning!</summary><p>Do not use options 1C or 1D for the transfer of many files or large files &gt;100 MB, as these methods are unstable and can be unpredictable. For batch transfer or transfer of large files, the recommended method is Globus (1A).</p>
+<details class="danger" open="open">
+<summary>Warning!</summary>
+<p>Do not use options 1C or 1D for the transfer of many files or large files &gt;100 MB, as these methods are unstable and can be unpredictable. For batch transfer or transfer of large files, the recommended method is Globus (1A).</p>
 </details>
 </li>
 <li>
 <p><strong>Pipeline -</strong> Submit and manage CHTC jobs</p>
 <p>CHTC uses HTCondor for job scheduling. Submission files should follow lab conventions and be consistent with the CHTC documentation. Two example submit scripts with annotations are shown below. This submit scripts (Core_RNAseq-nf.sub/wrmXpress.sub) load a pre-defined Docker environment and run a bash executable script (Core_RNAseq-nf.sh/wrmXpress.sh) with defined arguments on the execute node. Other options define log files, resource requirements, and transfer of files in/out of <code>home</code>. Large files should not be transferred in/out of <code>home</code>, but you may need to transfer auxiliary files (for example, the parameters YAML file for wrmXpress jobs). We transfer in our large data through <code>/staging/groups/zamanian_group/input/</code> and we move job output files to <code>/staging/groups/zamanian_group/output/</code> within the job executable script to avoid their transfer to <code>home</code> upon job completion. The only files that should be transferred back to <code>home</code> are small log files.</p>
-<details><summary>Example CHTC job submission scripts (.sub / .sh)</summary><div class="tabbed-set" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Core_RNAseq-nf.sub</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<details>
+<summary>Example CHTC job submission scripts (.sub / .sh)</summary>
+<div class="tabbed-set" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Core_RNAseq-nf.sub</label><div class="tabbed-content">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -768,7 +779,7 @@ scp <span class="o">[</span><span class="nb">local</span> file<span class="o">]<
 <span class="normal">31</span>
 <span class="normal">32</span>
 <span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code># Core_RNAseq-nf.sub
+<span class="normal">34</span></pre></div></td><td class="code"><div><pre><span></span><code># Core_RNAseq-nf.sub
 # Input data in /staging/{net-id}/input/$(dir)
 # Run: condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
@@ -802,11 +813,10 @@ request_disk = 1500GB
 # submit 1 job
 queue 1
 ### END
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 </div>
 <input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Core_RNAseq-nf.sh</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -839,45 +849,44 @@ queue 1
 <span class="normal">31</span>
 <span class="normal">32</span>
 <span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="normal">34</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="ch">#!/bin/bash</span>
 
 <span class="c1"># set home () and mk dirs</span>
-<span class="nb">export</span> <span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
-mkdir input work output
+<span class="nb">export</span><span class="w"> </span><span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
+mkdir<span class="w"> </span>input<span class="w"> </span>work<span class="w"> </span>output
 
 <span class="c1"># echo core, thread, and memory</span>
-<span class="nb">echo</span> <span class="s2">&quot;CPU threads: </span><span class="k">$(</span>grep -c processor /proc/cpuinfo<span class="k">)</span><span class="s2">&quot;</span>
-grep <span class="s1">&#39;cpu cores&#39;</span> /proc/cpuinfo <span class="p">|</span> uniq
-<span class="nb">echo</span> <span class="k">$(</span>free -g<span class="k">)</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;CPU threads: </span><span class="k">$(</span>grep<span class="w"> </span>-c<span class="w"> </span>processor<span class="w"> </span>/proc/cpuinfo<span class="k">)</span><span class="s2">&quot;</span>
+grep<span class="w"> </span><span class="s1">&#39;cpu cores&#39;</span><span class="w"> </span>/proc/cpuinfo<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq
+<span class="nb">echo</span><span class="w"> </span><span class="k">$(</span>free<span class="w"> </span>-g<span class="k">)</span>
 
 <span class="c1"># transfer input data from staging ($1 is ${dir} from args)</span>
-cp -r /staging/groups/zamanian_group/input/<span class="nv">$1</span>.tar input
-<span class="nb">cd</span> input <span class="o">&amp;&amp;</span> tar -xvf <span class="nv">$1</span>.tar <span class="o">&amp;&amp;</span> rm <span class="nv">$1</span>.tar <span class="o">&amp;&amp;</span> mv */*/* <span class="nv">$1</span> <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ..
+cp<span class="w"> </span>-r<span class="w"> </span>/staging/groups/zamanian_group/input/<span class="nv">$1</span>.tar<span class="w"> </span>input
+<span class="nb">cd</span><span class="w"> </span>input<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>tar<span class="w"> </span>-xvf<span class="w"> </span><span class="nv">$1</span>.tar<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span><span class="nv">$1</span>.tar<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mv<span class="w"> </span>*/*/*<span class="w"> </span><span class="nv">$1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>..
 
 <span class="c1"># clone nextflow git repo</span>
-git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/zamanianlab/Core_RNAseq-nf.git
 
 <span class="c1"># run nextflow command</span>
-<span class="nb">export</span> <span class="nv">NXF_OPTS</span><span class="o">=</span><span class="s1">&#39;-Xms1g -Xmx8g&#39;</span>
-nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc.config --dir <span class="nv">$1</span><span class="se">\</span>
-   --star --qc --release <span class="s2">&quot;WBPS15&quot;</span> --species <span class="s2">&quot;brugia_malayi&quot;</span> --prjn <span class="s2">&quot;PRJNA10729&quot;</span> --rlen <span class="s2">&quot;150&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">NXF_OPTS</span><span class="o">=</span><span class="s1">&#39;-Xms1g -Xmx8g&#39;</span>
+nextflow<span class="w"> </span>run<span class="w"> </span>Core_RNAseq-nf/WB-pe.nf<span class="w"> </span>-w<span class="w"> </span>work<span class="w"> </span>-c<span class="w"> </span>Core_RNAseq-nf/chtc.config<span class="w"> </span>--dir<span class="w"> </span><span class="nv">$1</span><span class="se">\</span>
+<span class="w">   </span>--star<span class="w"> </span>--qc<span class="w"> </span>--release<span class="w"> </span><span class="s2">&quot;WBPS15&quot;</span><span class="w"> </span>--species<span class="w"> </span><span class="s2">&quot;brugia_malayi&quot;</span><span class="w"> </span>--prjn<span class="w"> </span><span class="s2">&quot;PRJNA10729&quot;</span><span class="w"> </span>--rlen<span class="w"> </span><span class="s2">&quot;150&quot;</span>
 
 <span class="c1"># rm files you don&#39;t want transferred back to /home/{net-id}</span>
-rm -r work input
+rm<span class="w"> </span>-r<span class="w"> </span>work<span class="w"> </span>input
 
 <span class="c1"># tar output folder and delete it</span>
-<span class="nb">cd</span> output <span class="o">&amp;&amp;</span> tar -cvf <span class="nv">$1</span>.tar <span class="nv">$1</span> <span class="o">&amp;&amp;</span> rm -r <span class="nv">$1</span> <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ..
+<span class="nb">cd</span><span class="w"> </span>output<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>tar<span class="w"> </span>-cvf<span class="w"> </span><span class="nv">$1</span>.tar<span class="w"> </span><span class="nv">$1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-r<span class="w"> </span><span class="nv">$1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>..
 
 <span class="c1"># remove staging output tar if there from previous run</span>
-rm -f /staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
+rm<span class="w"> </span>-f<span class="w"> </span>/staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
 
 <span class="c1"># mv large output files to staging output folder; avoid their transfer back to /home/{net-id}</span>
-mv output/<span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
-</code></pre></div>
-</td></tr></table>
+mv<span class="w"> </span>output/<span class="nv">$1</span>.tar<span class="w"> </span>/staging/groups/zamanian_group/output/
+</code></pre></div></td></tr></table></div>
 </div>
 <input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><label for="__tabbed_2_3">wrmXpress.sub</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -910,7 +919,7 @@ mv output/<span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
 <span class="normal">31</span>
 <span class="normal">32</span>
 <span class="normal">33</span>
-<span class="normal">34</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code># Input data: /staging/groups/zamanian_group/input/${plate}.tar
+<span class="normal">34</span></pre></div></td><td class="code"><div><pre><span></span><code># Input data: /staging/groups/zamanian_group/input/${plate}.tar
 # Parameters: $HOME/${plate}.yml
 # Run: condor_submit wrmXpress.sub script=wrmXpress.sh
 
@@ -944,11 +953,10 @@ request_disk = 10GB
 # submit a job for each directory in plate_list.txt
 queue plate from plate_list.txt
 ### END
-</code></pre></div>
-</td></tr></table>
+</code></pre></div></td></tr></table></div>
 </div>
 <input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><label for="__tabbed_2_4">wrmXpress.sh</label><div class="tabbed-content">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
 <span class="normal"> 4</span>
@@ -989,92 +997,95 @@ queue plate from plate_list.txt
 <span class="normal">39</span>
 <span class="normal">40</span>
 <span class="normal">41</span>
-<span class="normal">42</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="normal">42</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="ch">#!/bin/bash</span>
 
 <span class="c1"># set home () and mk dirs</span>
-<span class="nb">export</span> <span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
-mkdir input
-mkdir metadata
-mkdir output/
-mkdir work/
+<span class="nb">export</span><span class="w"> </span><span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
+mkdir<span class="w"> </span>input
+mkdir<span class="w"> </span>metadata
+mkdir<span class="w"> </span>output/
+mkdir<span class="w"> </span>work/
 
-git clone https://github.com/zamanianlab/wrmXpress.git
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/zamanianlab/wrmXpress.git
 
 <span class="c1"># echo core, thread, and memory</span>
-<span class="nb">echo</span> <span class="s2">&quot;CPU threads: </span><span class="k">$(</span>grep -c processor /proc/cpuinfo<span class="k">)</span><span class="s2">&quot;</span>
-grep <span class="s1">&#39;cpu cores&#39;</span> /proc/cpuinfo <span class="p">|</span> uniq
-<span class="nb">echo</span> <span class="k">$(</span>free -g<span class="k">)</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;CPU threads: </span><span class="k">$(</span>grep<span class="w"> </span>-c<span class="w"> </span>processor<span class="w"> </span>/proc/cpuinfo<span class="k">)</span><span class="s2">&quot;</span>
+grep<span class="w"> </span><span class="s1">&#39;cpu cores&#39;</span><span class="w"> </span>/proc/cpuinfo<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq
+<span class="nb">echo</span><span class="w"> </span><span class="k">$(</span>free<span class="w"> </span>-g<span class="k">)</span>
 
 <span class="c1"># transfer and decompress input data from staging ($1 is ${dir} from args)</span>
-tar -xf /staging/groups/zamanian_group/input/<span class="nv">$1</span>.tar -C input/
+tar<span class="w"> </span>-xf<span class="w"> </span>/staging/groups/zamanian_group/input/<span class="nv">$1</span>.tar<span class="w"> </span>-C<span class="w"> </span>input/
 
 <span class="c1"># deprecated</span>
 <span class="c1"># cp -r /staging/groups/zamanian_group/input/$1.tar input</span>
 <span class="c1"># cd $input &amp;&amp; tar --strip-components 5 -xvf $1.tar &amp;&amp; cd $HOME</span>
 
 <span class="c1"># transfer and decompress metadata from staging ($1 is ${dir} from args)</span>
-tar -xf /staging/groups/zamanian_group/metadata/<span class="nv">$1</span>.tar -C metadata
+tar<span class="w"> </span>-xf<span class="w"> </span>/staging/groups/zamanian_group/metadata/<span class="nv">$1</span>.tar<span class="w"> </span>-C<span class="w"> </span>metadata
 
 <span class="c1"># deprecated</span>
 <span class="c1"># cd metadata &amp;&amp; tar -xvf $1.tar &amp;&amp; rm $1.tar &amp;&amp; mv */*/* $1 &amp;&amp; cd $HOME</span>
 
 <span class="c1"># run the wrapper</span>
-python Core_imgproc/wrapper.py <span class="nv">$1</span>.yml <span class="nv">$1</span>
+python<span class="w"> </span>Core_imgproc/wrapper.py<span class="w"> </span><span class="nv">$1</span>.yml<span class="w"> </span><span class="nv">$1</span>
 
 <span class="c1"># tar output folder and delete it</span>
-mv output <span class="nv">$1</span>
-mv <span class="nv">$1</span>.yml <span class="nv">$1</span>
-tar -cvf <span class="nv">$1</span>.tar <span class="nv">$1</span> <span class="o">&amp;&amp;</span> rm -r <span class="nv">$1</span>
+mv<span class="w"> </span>output<span class="w"> </span><span class="nv">$1</span>
+mv<span class="w"> </span><span class="nv">$1</span>.yml<span class="w"> </span><span class="nv">$1</span>
+tar<span class="w"> </span>-cvf<span class="w"> </span><span class="nv">$1</span>.tar<span class="w"> </span><span class="nv">$1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span>-r<span class="w"> </span><span class="nv">$1</span>
 
 <span class="c1"># remove staging output tar if there from previous run</span>
-rm -f /staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
+rm<span class="w"> </span>-f<span class="w"> </span>/staging/groups/zamanian_group/output/<span class="nv">$1</span>.tar
 
 <span class="c1"># mv large output files to staging output folder; avoid their transfer back to /home/{net-id}</span>
-mv <span class="nv">$1</span>.tar /staging/groups/zamanian_group/output/
-</code></pre></div>
-</td></tr></table>
+mv<span class="w"> </span><span class="nv">$1</span>.tar<span class="w"> </span>/staging/groups/zamanian_group/output/
+</code></pre></div></td></tr></table></div>
 </div>
 </div>
 </details>
 <p>Log into submit node to submit a job,</p>
-<div class="highlight"><pre><span></span><code>ssh <span class="o">{</span>net-id<span class="o">}</span>@submit2.chtc.wisc.edu
+<div class="highlight"><pre><span></span><code>ssh<span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@submit2.chtc.wisc.edu
 
-condor_submit Core_RNAseq-nf.sub <span class="nv">dir</span><span class="o">=</span>191211_AHMMC5DMXX <span class="nv">script</span><span class="o">=</span>Core_RNAseq-nf.sh
+condor_submit<span class="w"> </span>Core_RNAseq-nf.sub<span class="w"> </span><span class="nv">dir</span><span class="o">=</span>191211_AHMMC5DMXX<span class="w"> </span><span class="nv">script</span><span class="o">=</span>Core_RNAseq-nf.sh
 </code></pre></div>
-<details><summary>Other useful commands for monitoring and managing jobs</summary><div class="highlight"><pre><span></span><code><span class="c1"># check on job status</span>
-  condor_q
+<details>
+<summary>Other useful commands for monitoring and managing jobs</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># check on job status</span>
+<span class="w">  </span>condor_q
 
 <span class="c1"># remove a specific job</span>
-  condor_rm <span class="o">[</span>job id<span class="o">]</span>
+<span class="w">  </span>condor_rm<span class="w"> </span><span class="o">[</span>job<span class="w"> </span>id<span class="o">]</span>
 
 <span class="c1"># remove all jobs for user</span>
-  condor_rm <span class="nv">$USER</span>
+<span class="w">  </span>condor_rm<span class="w"> </span><span class="nv">$USER</span>
 
 <span class="c1"># interative shell to running job on remote machine</span>
-  condor_ssh_to_job <span class="o">[</span>job id<span class="o">]</span>
-  <span class="nb">exit</span>
+<span class="w">  </span>condor_ssh_to_job<span class="w"> </span><span class="o">[</span>job<span class="w"> </span>id<span class="o">]</span>
+<span class="w">  </span><span class="nb">exit</span>
 </code></pre></div>
 </details>
 </li>
 <li>
 <p><strong>Output -</strong> transfer output data (CHTC -&gt; ResearchDrive)</p>
 <p>To transfer your job output folder from the CHTC staging output directory to Research Drive, it is easist to use an SFTP client (e.g., CyberDuck, Transmit, FileZilla) to transfer the tar files to your local computer, and then from your local computer to ResearchDrive. It also possible to use the command line:</p>
-<details><summary>CHTC -&gt; ResearchDrive transfer with smbclient</summary><div class="highlight"><pre><span></span><code><span class="c1"># log into CHTC staging server and navigate to output folder</span>
-ssh <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
-<span class="nb">cd</span> /staging/groups/zamanian_group/output/
+<details>
+<summary>CHTC -&gt; ResearchDrive transfer with smbclient</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># log into CHTC staging server and navigate to output folder</span>
+ssh<span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu
+<span class="nb">cd</span><span class="w"> </span>/staging/groups/zamanian_group/output/
 
 <span class="c1"># connect to lab ResearchDrive</span>
-smbclient -k //research.drive.wisc.edu/mzamanian
+smbclient<span class="w"> </span>-k<span class="w"> </span>//research.drive.wisc.edu/mzamanian
 
 <span class="c1"># turn off prompting and turn on recursive</span>
-smb: <span class="se">\&gt;</span> prompt
-smb: <span class="se">\&gt;</span> recurse
+smb:<span class="w"> </span><span class="se">\&gt;</span><span class="w"> </span>prompt
+smb:<span class="w"> </span><span class="se">\&gt;</span><span class="w"> </span>recurse
 
 <span class="c1"># navigate to ResearchDrive dir for processed data (example)</span>
-smb: <span class="se">\&gt;</span> <span class="nb">cd</span> /ImageXpress/proc/
+smb:<span class="w"> </span><span class="se">\&gt;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/ImageXpress/proc/
 
 <span class="c1"># transfer output data folder (example)</span>
-smb: <span class="se">\&gt;</span> mput <span class="m">20201119</span>-p01-MZ_200.tar
+smb:<span class="w"> </span><span class="se">\&gt;</span><span class="w"> </span>mput<span class="w"> </span><span class="m">20201119</span>-p01-MZ_200.tar
 </code></pre></div>
 </details>
 <p>Output data can also be transferred to your computer directly from the CHTC (as shown in the command below), or from the mounted ResearchDrive if the data have already been moved to ResearchDrive.</p>
@@ -1091,7 +1102,9 @@ smb: <span class="se">\&gt;</span> mput <span class="m">20201119</span>-p01-MZ_2
 <li>
 <p>Create Dockerfile and auxillary (e.g., yaml) files in a folder with the repo name in the <a href="https://github.com/zamanianlab/Docker Install">Docker GitHub repo</a>.</p>
 <p>The Dockerfile provides instructions to build a Docker image. In this case, we are starting with the official miniconda Docker image and then installing necessary conda packages into this image. You can search for existing Docker images on <a href="https://hub.docker.com/orgs/zamanianlab">Docker Hub</a> to build on, instead of starting from scratch.</p>
-<details><summary>Dockerfile</summary><div class="highlight"><pre><span></span><code>FROM continuumio/miniconda3
+<details>
+<summary>Dockerfile</summary>
+<div class="highlight"><pre><span></span><code>FROM continuumio/miniconda3
 MAINTAINER mzamanian@wisc.edu
 
 # install (nf tracing)
@@ -1105,7 +1118,9 @@ RUN \
 </code></pre></div>
 </details>
 <p>The following yml file lists <code>conda</code> packages to be installed. You can search for packages on <a href="https://anaconda.org/">Anaconda cloud</a>.</p>
-<details><summary>conda_env.yml</summary><div class="highlight"><pre><span></span><code>conda_env.yaml
+<details>
+<summary>conda_env.yml</summary>
+<div class="highlight"><pre><span></span><code>conda_env.yaml
   name: rnaseq-nf
 
   channels:
@@ -1142,31 +1157,33 @@ RUN \
 </li>
 <li>
 <p>Build Docker image (provide a version number)</p>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span> <span class="o">[</span>/path/to/Dockerfile<span class="o">]</span>
-docker build -t zamanianlab/chtc-rnaseq:v4 .
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span><span class="o">[</span>/path/to/Dockerfile<span class="o">]</span>
+docker<span class="w"> </span>build<span class="w"> </span>-t<span class="w"> </span>zamanianlab/chtc-rnaseq:v4<span class="w"> </span>.
 </code></pre></div>
 </li>
 <li>
 <p>Test Docker image interactively</p>
-<div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq:v4 /bin/bash
-ctrl+D to <span class="nb">exit</span>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>--rm<span class="o">=</span>TRUE<span class="w"> </span>zamanianlab/chtc-rnaseq:v4<span class="w"> </span>/bin/bash
+ctrl+D<span class="w"> </span>to<span class="w"> </span><span class="nb">exit</span>
 </code></pre></div>
 </li>
 <li>
 <p>Push Docker image to Docker Hub</p>
-<div class="highlight"><pre><span></span><code>docker push zamanianlab/chtc-rnaseq:v4
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>push<span class="w"> </span>zamanianlab/chtc-rnaseq:v4
 </code></pre></div>
-<details><summary>Some useful Docker commands</summary><div class="highlight"><pre><span></span><code><span class="c1"># list docker images</span>
-  docker image ls <span class="o">(=</span> docker images<span class="o">)</span>
+<details>
+<summary>Some useful Docker commands</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># list docker images</span>
+<span class="w">  </span>docker<span class="w"> </span>image<span class="w"> </span>ls<span class="w"> </span><span class="o">(=</span><span class="w"> </span>docker<span class="w"> </span>images<span class="o">)</span>
 
 <span class="c1"># remove images</span>
-  docker rmi <span class="o">[</span>image<span class="o">]</span>
+<span class="w">  </span>docker<span class="w"> </span>rmi<span class="w"> </span><span class="o">[</span>image<span class="o">]</span>
 
 <span class="c1">## remove all docker containers</span>
 <span class="c1"># run first because images are attached to containers</span>
-  docker rm -f <span class="k">$(</span>docker ps -a -q<span class="k">)</span>
+<span class="w">  </span>docker<span class="w"> </span>rm<span class="w"> </span>-f<span class="w"> </span><span class="k">$(</span>docker<span class="w"> </span>ps<span class="w"> </span>-a<span class="w"> </span>-q<span class="k">)</span>
 <span class="c1"># remove every Docker image</span>
-  docker rmi -f <span class="k">$(</span>docker images -q<span class="k">)</span>
+<span class="w">  </span>docker<span class="w"> </span>rmi<span class="w"> </span>-f<span class="w"> </span><span class="k">$(</span>docker<span class="w"> </span>images<span class="w"> </span>-q<span class="k">)</span>
 </code></pre></div>
 </details>
 </li>
@@ -1179,27 +1196,29 @@ ctrl+D to <span class="nb">exit</span>
 </li>
 <li>
 <p>Run Docker container locally</p>
-<div class="highlight"><pre><span></span><code>docker run -it --rm<span class="o">=</span>TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>--rm<span class="o">=</span>TRUE<span class="w"> </span>zamanianlab/chtc-rnaseq:v2<span class="w"> </span>/bin/bash
 </code></pre></div>
 </li>
 <li>
 <p>Simulate the steps in your submit scripts</p>
-<details><summary>Running commands in local Docker container</summary><div class="highlight"><pre><span></span><code><span class="c1"># set home to working directory</span>
-<span class="nb">export</span> <span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
+<details>
+<summary>Running commands in local Docker container</summary>
+<div class="highlight"><pre><span></span><code><span class="c1"># set home to working directory</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">HOME</span><span class="o">=</span><span class="nv">$PWD</span>
 
 <span class="c1"># make input, work, and output directories for nextflow</span>
-mkdir input work outputs
+mkdir<span class="w"> </span>input<span class="w"> </span>work<span class="w"> </span>outputs
 
 <span class="c1"># clone GitHub repo that contains pipeline in development</span>
-git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/zamanianlab/Core_RNAseq-nf.git
 
 <span class="c1"># transfer sub-sampled files from CHTC staging into your input folder</span>
-scp -r <span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/subsampled/191211_AHMMC5DMXX.tar input
+scp<span class="w"> </span>-r<span class="w"> </span><span class="o">{</span>net-id<span class="o">}</span>@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/subsampled/191211_AHMMC5DMXX.tar<span class="w"> </span>input
 
 <span class="c1"># run your pipeline commands</span>
 
 <span class="c1"># example of a nextflow command using chtc-local.config matched to your hardware specs</span>
-nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir <span class="s2">&quot;191211_AHMMC5DMXX&quot;</span> --release <span class="s2">&quot;WBPS14&quot;</span> --species <span class="s2">&quot;brugia_malayi&quot;</span> --prjn <span class="s2">&quot;PRJNA10729&quot;</span> --rlen <span class="s2">&quot;150&quot;</span>
+nextflow<span class="w"> </span>run<span class="w"> </span>Core_RNAseq-nf/WB-pe.nf<span class="w"> </span>-w<span class="w"> </span>work<span class="w"> </span>-c<span class="w"> </span>Core_RNAseq-nf/chtc-local.config<span class="w"> </span>--dir<span class="w"> </span><span class="s2">&quot;191211_AHMMC5DMXX&quot;</span><span class="w"> </span>--release<span class="w"> </span><span class="s2">&quot;WBPS14&quot;</span><span class="w"> </span>--species<span class="w"> </span><span class="s2">&quot;brugia_malayi&quot;</span><span class="w"> </span>--prjn<span class="w"> </span><span class="s2">&quot;PRJNA10729&quot;</span><span class="w"> </span>--rlen<span class="w"> </span><span class="s2">&quot;150&quot;</span>
 </code></pre></div>
 </details>
 </li>
@@ -1274,7 +1293,7 @@ nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config
     </div>
     
       <script src="../assets/javascripts/vendor.0ac82a11.min.js"></script>
-      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
