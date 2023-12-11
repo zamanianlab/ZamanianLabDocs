@@ -2,7 +2,7 @@
 
 Google spreadsheets for internal lab use are maintained on a lab-shared [Google Drive](<https://drive.google.com/drive/folders/1x6U3__hcuY5SoOeOGb6smwJ8SKDYo8Mb>):
 
-- [Parasite Schedule Sheet](<https://docs.google.com/spreadsheets/d/16yUU1Txpzcw1dZT_WL744iHOB2Hhw9VGVYesPc-pgiQ/edit?usp=sharing>)
+- [Parasite Schedule Sheet](<https://docs.google.com/spreadsheets/d/1ERK2Ebl8ssI0OykOSq0UF82gM8rBGEHjr_4z6UMH-1M/edit?usp=sharing>)
 
 - [Lab Oligos](<https://docs.google.com/spreadsheets/d/1NSmFylj-zFmxIAGf-wN1Qklb2PrDiTXaMoXzU9moWPY/edit?usp=sharing>)
 
