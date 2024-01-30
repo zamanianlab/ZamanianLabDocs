@@ -45,7 +45,7 @@
     |----------|--------|
     Tryptone | 10 g
     Yeast extract | 5 g
-    Agar | 15 g
+    Bacto Agar | 15 g
     NaCl | 10 g
     dH<sub>2</sub>O | up to 1 L
 
