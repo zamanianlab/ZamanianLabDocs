@@ -9,14 +9,20 @@
         <meta name="description" content="An internal resource explaining and documenting lab pipelines">
       
       
+        <meta name="author" content="Zamanian Lab">
+      
       
         <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/labmanual/">
       
       
-        <meta name="author" content="Zamanian Lab">
+        <link rel="prev" href="..">
       
-      <link rel="shortcut icon" href="../images/dna.svg">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-6.1.7">
+      
+        <link rel="next" href="../protocols/protocols/">
+      
+      
+      <link rel="icon" href="../images/dna.svg">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
     
     
       
@@ -24,32 +30,35 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.19753c6b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#000000">
-        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
-    
+      
+
+
     
     
       
-        
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Lato",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
-      
     
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
     
     
       <link rel="stylesheet" href="../stylesheets/extra_colors.css">
     
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+
+    
     
     
   </head>
@@ -61,8 +70,8 @@
     
     
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
-      
   
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -78,57 +87,75 @@
       
     </div>
     
+    
       
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://zamanianlab.org/ZamanianLabDocs/" title="Zamanian Lab Docs" class="md-header-nav__button md-logo" aria-label="Zamanian Lab Docs">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Zamanian Lab Docs" class="md-header__button md-logo" aria-label="Zamanian Lab Docs" data-md-component="logo">
       
   <img src="../images/dna.svg" alt="logo">
 
     </a>
-    <label class="md-header-nav__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header-nav__title" data-md-component="header-title">
+    <label class="md-header__button md-icon" for="__drawer">
       
-        <div class="md-header-nav__ellipsis">
-          <span class="md-header-nav__topic md-ellipsis">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
             Zamanian Lab Docs
           </span>
-          <span class="md-header-nav__topic md-ellipsis">
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
             
               Lab Manual
             
           </span>
         </div>
-      
+      </div>
     </div>
     
-      <label class="md-header-nav__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
       
-<div class="md-search" data-md-component="search" role="dialog">
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -136,12 +163,11 @@
 </div>
     
     
-      <div class="md-header-nav__source">
-        
-<a href="https://github.com/zamanianlab/ZamanianLabDocs" title="Go to repository" class="md-source">
+      <div class="md-header__source">
+        <a href="https://github.com/zamanianlab/ZamanianLabDocs" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     zamanianlab/ZamanianLabDocs
@@ -150,25 +176,31 @@
       </div>
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
         
+          
+        
       
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
             
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
 
+
+
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://zamanianlab.org/ZamanianLabDocs/" title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs">
+    <a href=".." title="Zamanian Lab Docs" class="md-nav__button md-logo" aria-label="Zamanian Lab Docs" data-md-component="logo">
       
   <img src="../images/dna.svg" alt="logo">
 
@@ -177,11 +209,10 @@
   </label>
   
     <div class="md-nav__source">
-      
-<a href="https://github.com/zamanianlab/ZamanianLabDocs" title="Go to repository" class="md-source">
+      <a href="https://github.com/zamanianlab/ZamanianLabDocs" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     zamanianlab/ZamanianLabDocs
@@ -193,41 +224,65 @@
     
       
       
-      
-
-
-  <li class="md-nav__item">
-    <a href=".." class="md-nav__link">
-      Home
-    </a>
-  </li>
-
-    
-      
-      
-      
-
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
   
 
+      </a>
+    </li>
+  
 
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
       
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Lab Manual
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
-      Lab Manual
-    </a>
-    
       
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lab Manual
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Lab Manual
+  </span>
+  
+
+      </a>
+      
+        
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
@@ -237,11 +292,13 @@
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#i-lab-mission-and-philosophy" class="md-nav__link">
-    I. Lab Mission and Philosophy
+    <span class="md-ellipsis">
+      I. Lab Mission and Philosophy
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="I. Lab Mission and Philosophy">
@@ -249,28 +306,36 @@
         
           <li class="md-nav__item">
   <a href="#a-research-mission" class="md-nav__link">
-    A. Research Mission
+    <span class="md-ellipsis">
+      A. Research Mission
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-philosophy" class="md-nav__link">
-    B. Philosophy
+    <span class="md-ellipsis">
+      B. Philosophy
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-mentorship" class="md-nav__link">
-    C. Mentorship
+    <span class="md-ellipsis">
+      C. Mentorship
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#d-lab-citizenship" class="md-nav__link">
-    D. Lab Citizenship
+    <span class="md-ellipsis">
+      D. Lab Citizenship
+    </span>
   </a>
   
 </li>
@@ -282,7 +347,9 @@
       
         <li class="md-nav__item">
   <a href="#ii-communication-and-calendar" class="md-nav__link">
-    II. Communication and Calendar
+    <span class="md-ellipsis">
+      II. Communication and Calendar
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="II. Communication and Calendar">
@@ -290,14 +357,18 @@
         
           <li class="md-nav__item">
   <a href="#a-slack" class="md-nav__link">
-    A. Slack
+    <span class="md-ellipsis">
+      A. Slack
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-google-calendar" class="md-nav__link">
-    B. Google Calendar
+  <a href="#b-google-calendar-and-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      B. Google Calendar and Group
+    </span>
   </a>
   
 </li>
@@ -309,7 +380,9 @@
       
         <li class="md-nav__item">
   <a href="#iii-research-documentation" class="md-nav__link">
-    III. Research Documentation
+    <span class="md-ellipsis">
+      III. Research Documentation
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="III. Research Documentation">
@@ -317,21 +390,27 @@
         
           <li class="md-nav__item">
   <a href="#a-physical-lab-notebooks" class="md-nav__link">
-    A. Physical Lab Notebooks
+    <span class="md-ellipsis">
+      A. Physical Lab Notebooks
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-electronic-lab-notebooks" class="md-nav__link">
-    B. Electronic Lab Notebooks
+    <span class="md-ellipsis">
+      B. Electronic Lab Notebooks
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-lab-electronic-storage" class="md-nav__link">
-    C. Lab Electronic Storage
+    <span class="md-ellipsis">
+      C. Lab Electronic Storage
+    </span>
   </a>
   
 </li>
@@ -343,7 +422,9 @@
       
         <li class="md-nav__item">
   <a href="#iv-meetings" class="md-nav__link">
-    IV. Meetings
+    <span class="md-ellipsis">
+      IV. Meetings
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="IV. Meetings">
@@ -351,14 +432,18 @@
         
           <li class="md-nav__item">
   <a href="#a-lab-meetings" class="md-nav__link">
-    A. Lab Meetings
+    <span class="md-ellipsis">
+      A. Lab Meetings
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-one-on-one-meetings" class="md-nav__link">
-    B. One-on-One Meetings
+    <span class="md-ellipsis">
+      B. One-on-One Meetings
+    </span>
   </a>
   
 </li>
@@ -370,14 +455,18 @@
       
         <li class="md-nav__item">
   <a href="#v-lab-tasks" class="md-nav__link">
-    V. Lab Tasks
+    <span class="md-ellipsis">
+      V. Lab Tasks
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#vi-lab-inventory-and-organization" class="md-nav__link">
-    VI. Lab Inventory and Organization
+    <span class="md-ellipsis">
+      VI. Lab Inventory and Organization
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="VI. Lab Inventory and Organization">
@@ -385,21 +474,27 @@
         
           <li class="md-nav__item">
   <a href="#a-lab-inventory" class="md-nav__link">
-    A. Lab Inventory
+    <span class="md-ellipsis">
+      A. Lab Inventory
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-lab-ordering" class="md-nav__link">
-    B. Lab Ordering
+    <span class="md-ellipsis">
+      B. Lab Ordering
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-physical-organization" class="md-nav__link">
-    C. Physical Organization
+    <span class="md-ellipsis">
+      C. Physical Organization
+    </span>
   </a>
   
 </li>
@@ -411,14 +506,18 @@
       
         <li class="md-nav__item">
   <a href="#vii-waste-management" class="md-nav__link">
-    VII. Waste Management
+    <span class="md-ellipsis">
+      VII. Waste Management
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#viii-lab-stocks" class="md-nav__link">
-    VIII. Lab Stocks
+    <span class="md-ellipsis">
+      VIII. Lab Stocks
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="VIII. Lab Stocks">
@@ -426,35 +525,45 @@
         
           <li class="md-nav__item">
   <a href="#a-oligo-stocks" class="md-nav__link">
-    A. Oligo Stocks
+    <span class="md-ellipsis">
+      A. Oligo Stocks
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-plasmids-lab-and-commercial" class="md-nav__link">
-    B. Plasmids (Lab and Commercial)
+    <span class="md-ellipsis">
+      B. Plasmids (Lab and Commercial)
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-transformed-bacteria" class="md-nav__link">
-    C. Transformed Bacteria
+    <span class="md-ellipsis">
+      C. Transformed Bacteria
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#d-feeding-c-elegans-bacteria" class="md-nav__link">
-    D. Feeding (C. elegans) Bacteria
+    <span class="md-ellipsis">
+      D. Feeding (C. elegans) Bacteria
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#e-competent-bacteria" class="md-nav__link">
-    E. Competent Bacteria
+    <span class="md-ellipsis">
+      E. Competent Bacteria
+    </span>
   </a>
   
 </li>
@@ -466,7 +575,9 @@
       
         <li class="md-nav__item">
   <a href="#ix-caenorhabditis-elegans-strains" class="md-nav__link">
-    IX. Caenorhabditis elegans Strains
+    <span class="md-ellipsis">
+      IX. Caenorhabditis elegans Strains
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="IX. Caenorhabditis elegans Strains">
@@ -474,21 +585,27 @@
         
           <li class="md-nav__item">
   <a href="#a-strain-creation" class="md-nav__link">
-    A. Strain Creation
+    <span class="md-ellipsis">
+      A. Strain Creation
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-strain-inventory" class="md-nav__link">
-    B. Strain Inventory
+    <span class="md-ellipsis">
+      B. Strain Inventory
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-strain-maintenance" class="md-nav__link">
-    C. Strain Maintenance
+    <span class="md-ellipsis">
+      C. Strain Maintenance
+    </span>
   </a>
   
 </li>
@@ -500,7 +617,9 @@
       
         <li class="md-nav__item">
   <a href="#x-parasite-and-insectary-operations" class="md-nav__link">
-    X. Parasite and Insectary Operations
+    <span class="md-ellipsis">
+      X. Parasite and Insectary Operations
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="X. Parasite and Insectary Operations">
@@ -508,21 +627,27 @@
         
           <li class="md-nav__item">
   <a href="#a-parasite-schedule" class="md-nav__link">
-    A. Parasite Schedule
+    <span class="md-ellipsis">
+      A. Parasite Schedule
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-storage-of-general-parasite-materials" class="md-nav__link">
-    B. Storage of General Parasite Materials
+    <span class="md-ellipsis">
+      B. Storage of General Parasite Materials
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-parasite-infections-insectary" class="md-nav__link">
-    C. Parasite Infections (Insectary)
+    <span class="md-ellipsis">
+      C. Parasite Infections (Insectary)
+    </span>
   </a>
   
 </li>
@@ -534,21 +659,27 @@
       
         <li class="md-nav__item">
   <a href="#xi-writing-and-reference-management" class="md-nav__link">
-    XI. Writing and Reference Management
+    <span class="md-ellipsis">
+      XI. Writing and Reference Management
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#xii-lab-safety" class="md-nav__link">
-    XII. Lab Safety
+    <span class="md-ellipsis">
+      XII. Lab Safety
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#xiii-emergency-protocols" class="md-nav__link">
-    XIII. Emergency Protocols
+    <span class="md-ellipsis">
+      XIII. Emergency Protocols
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="XIII. Emergency Protocols">
@@ -556,21 +687,27 @@
         
           <li class="md-nav__item">
   <a href="#-80c-freezer" class="md-nav__link">
-    -80&deg;C Freezer
+    <span class="md-ellipsis">
+      -80&deg;C Freezer
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#-20c-freezers" class="md-nav__link">
-    -20&deg;C Freezers
+    <span class="md-ellipsis">
+      -20&deg;C Freezers
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#refrigerators" class="md-nav__link">
-    Refrigerators
+    <span class="md-ellipsis">
+      Refrigerators
+    </span>
   </a>
   
 </li>
@@ -582,7 +719,9 @@
       
         <li class="md-nav__item">
   <a href="#xiv-lab-onboarding-checklist" class="md-nav__link">
-    XIV. Lab Onboarding Checklist
+    <span class="md-ellipsis">
+      XIV. Lab Onboarding Checklist
+    </span>
   </a>
   
 </li>
@@ -590,202 +729,343 @@
     </ul>
   
 </nav>
-    
-  </li>
-
-    
       
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../protocols/protocols/" class="md-nav__link">
-      Lab Protocols
-    </a>
-  </li>
+    </li>
+  
 
     
       
       
-      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protocols/protocols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../labsheets/" class="md-nav__link">
-      Lab Sheets
-    </a>
-  </li>
+      </a>
+    </li>
+  
 
     
       
       
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
-    <label class="md-nav__link" for="nav-5">
-      Computational Guide
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Computational Guide" data-md-level="1">
-      <label class="md-nav__title" for="nav-5">
-        <span class="md-nav__icon md-icon"></span>
-        Computational Guide
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../labgdrive/" class="md-nav__link">
         
-        
-          
-          
-          
+  
+  <span class="md-ellipsis">
+    GDrive
+  </span>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../comp_overview/" class="md-nav__link">
-      Overview
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../comp_local/" class="md-nav__link">
-      Local Environment
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../comp_github/" class="md-nav__link">
-      GitHub
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../comp_conda/" class="md-nav__link">
-      Conda
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../comp_homebrew/" class="md-nav__link">
-      Homebrew
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
+      </a>
+    </li>
+  
 
     
       
       
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
+  
+  
+  
+  
     
-    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
-    <label class="md-nav__link" for="nav-6">
-      Pipelines
-      <span class="md-nav__icon md-icon"></span>
-    </label>
-    <nav class="md-nav" aria-label="Pipelines" data-md-level="1">
-      <label class="md-nav__title" for="nav-6">
-        <span class="md-nav__icon md-icon"></span>
-        Pipelines
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../pipelines_overview/" class="md-nav__link">
-      Overview
-    </a>
-  </li>
-
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          
-          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Computational Guide
+  </span>
+  
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Computational Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comp_overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
 
-  <li class="md-nav__item">
-    <a href="../pipelines_storage/" class="md-nav__link">
-      Data Storage
-    </a>
-  </li>
+      </a>
+    </li>
+  
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comp_local/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Local Environment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comp_github/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GitHub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comp_conda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comp_homebrew/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Homebrew
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          
-          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pipelines
+  </span>
+  
 
-
-  <li class="md-nav__item">
-    <a href="../pipelines_local/" class="md-nav__link">
-      Local Pipelines
-    </a>
-  </li>
-
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../pipelines_server/" class="md-nav__link">
-      Server Pipelines
-    </a>
-  </li>
-
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pipelines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_overview/" class="md-nav__link">
         
-          
-          
-          
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
 
+      </a>
+    </li>
+  
 
-  <li class="md-nav__item">
-    <a href="../pipelines_wrmxpress/" class="md-nav__link">
-      wrmXpress Pipelines
-    </a>
-  </li>
-
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_storage/" class="md-nav__link">
         
-      </ul>
-    </nav>
-  </li>
+  
+  <span class="md-ellipsis">
+    Data Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_local/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Local Pipelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_server/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Server Pipelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_wrmxpress/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    wrmXpress Pipelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
 
     
   </ul>
@@ -795,11 +1075,14 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
@@ -809,11 +1092,13 @@
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
-    <ul class="md-nav__list" data-md-scrollfix>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
   <a href="#i-lab-mission-and-philosophy" class="md-nav__link">
-    I. Lab Mission and Philosophy
+    <span class="md-ellipsis">
+      I. Lab Mission and Philosophy
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="I. Lab Mission and Philosophy">
@@ -821,28 +1106,36 @@
         
           <li class="md-nav__item">
   <a href="#a-research-mission" class="md-nav__link">
-    A. Research Mission
+    <span class="md-ellipsis">
+      A. Research Mission
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-philosophy" class="md-nav__link">
-    B. Philosophy
+    <span class="md-ellipsis">
+      B. Philosophy
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-mentorship" class="md-nav__link">
-    C. Mentorship
+    <span class="md-ellipsis">
+      C. Mentorship
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#d-lab-citizenship" class="md-nav__link">
-    D. Lab Citizenship
+    <span class="md-ellipsis">
+      D. Lab Citizenship
+    </span>
   </a>
   
 </li>
@@ -854,7 +1147,9 @@
       
         <li class="md-nav__item">
   <a href="#ii-communication-and-calendar" class="md-nav__link">
-    II. Communication and Calendar
+    <span class="md-ellipsis">
+      II. Communication and Calendar
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="II. Communication and Calendar">
@@ -862,14 +1157,18 @@
         
           <li class="md-nav__item">
   <a href="#a-slack" class="md-nav__link">
-    A. Slack
+    <span class="md-ellipsis">
+      A. Slack
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-google-calendar" class="md-nav__link">
-    B. Google Calendar
+  <a href="#b-google-calendar-and-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      B. Google Calendar and Group
+    </span>
   </a>
   
 </li>
@@ -881,7 +1180,9 @@
       
         <li class="md-nav__item">
   <a href="#iii-research-documentation" class="md-nav__link">
-    III. Research Documentation
+    <span class="md-ellipsis">
+      III. Research Documentation
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="III. Research Documentation">
@@ -889,21 +1190,27 @@
         
           <li class="md-nav__item">
   <a href="#a-physical-lab-notebooks" class="md-nav__link">
-    A. Physical Lab Notebooks
+    <span class="md-ellipsis">
+      A. Physical Lab Notebooks
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-electronic-lab-notebooks" class="md-nav__link">
-    B. Electronic Lab Notebooks
+    <span class="md-ellipsis">
+      B. Electronic Lab Notebooks
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-lab-electronic-storage" class="md-nav__link">
-    C. Lab Electronic Storage
+    <span class="md-ellipsis">
+      C. Lab Electronic Storage
+    </span>
   </a>
   
 </li>
@@ -915,7 +1222,9 @@
       
         <li class="md-nav__item">
   <a href="#iv-meetings" class="md-nav__link">
-    IV. Meetings
+    <span class="md-ellipsis">
+      IV. Meetings
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="IV. Meetings">
@@ -923,14 +1232,18 @@
         
           <li class="md-nav__item">
   <a href="#a-lab-meetings" class="md-nav__link">
-    A. Lab Meetings
+    <span class="md-ellipsis">
+      A. Lab Meetings
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-one-on-one-meetings" class="md-nav__link">
-    B. One-on-One Meetings
+    <span class="md-ellipsis">
+      B. One-on-One Meetings
+    </span>
   </a>
   
 </li>
@@ -942,14 +1255,18 @@
       
         <li class="md-nav__item">
   <a href="#v-lab-tasks" class="md-nav__link">
-    V. Lab Tasks
+    <span class="md-ellipsis">
+      V. Lab Tasks
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#vi-lab-inventory-and-organization" class="md-nav__link">
-    VI. Lab Inventory and Organization
+    <span class="md-ellipsis">
+      VI. Lab Inventory and Organization
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="VI. Lab Inventory and Organization">
@@ -957,21 +1274,27 @@
         
           <li class="md-nav__item">
   <a href="#a-lab-inventory" class="md-nav__link">
-    A. Lab Inventory
+    <span class="md-ellipsis">
+      A. Lab Inventory
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-lab-ordering" class="md-nav__link">
-    B. Lab Ordering
+    <span class="md-ellipsis">
+      B. Lab Ordering
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-physical-organization" class="md-nav__link">
-    C. Physical Organization
+    <span class="md-ellipsis">
+      C. Physical Organization
+    </span>
   </a>
   
 </li>
@@ -983,14 +1306,18 @@
       
         <li class="md-nav__item">
   <a href="#vii-waste-management" class="md-nav__link">
-    VII. Waste Management
+    <span class="md-ellipsis">
+      VII. Waste Management
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#viii-lab-stocks" class="md-nav__link">
-    VIII. Lab Stocks
+    <span class="md-ellipsis">
+      VIII. Lab Stocks
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="VIII. Lab Stocks">
@@ -998,35 +1325,45 @@
         
           <li class="md-nav__item">
   <a href="#a-oligo-stocks" class="md-nav__link">
-    A. Oligo Stocks
+    <span class="md-ellipsis">
+      A. Oligo Stocks
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-plasmids-lab-and-commercial" class="md-nav__link">
-    B. Plasmids (Lab and Commercial)
+    <span class="md-ellipsis">
+      B. Plasmids (Lab and Commercial)
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-transformed-bacteria" class="md-nav__link">
-    C. Transformed Bacteria
+    <span class="md-ellipsis">
+      C. Transformed Bacteria
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#d-feeding-c-elegans-bacteria" class="md-nav__link">
-    D. Feeding (C. elegans) Bacteria
+    <span class="md-ellipsis">
+      D. Feeding (C. elegans) Bacteria
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#e-competent-bacteria" class="md-nav__link">
-    E. Competent Bacteria
+    <span class="md-ellipsis">
+      E. Competent Bacteria
+    </span>
   </a>
   
 </li>
@@ -1038,7 +1375,9 @@
       
         <li class="md-nav__item">
   <a href="#ix-caenorhabditis-elegans-strains" class="md-nav__link">
-    IX. Caenorhabditis elegans Strains
+    <span class="md-ellipsis">
+      IX. Caenorhabditis elegans Strains
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="IX. Caenorhabditis elegans Strains">
@@ -1046,21 +1385,27 @@
         
           <li class="md-nav__item">
   <a href="#a-strain-creation" class="md-nav__link">
-    A. Strain Creation
+    <span class="md-ellipsis">
+      A. Strain Creation
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-strain-inventory" class="md-nav__link">
-    B. Strain Inventory
+    <span class="md-ellipsis">
+      B. Strain Inventory
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-strain-maintenance" class="md-nav__link">
-    C. Strain Maintenance
+    <span class="md-ellipsis">
+      C. Strain Maintenance
+    </span>
   </a>
   
 </li>
@@ -1072,7 +1417,9 @@
       
         <li class="md-nav__item">
   <a href="#x-parasite-and-insectary-operations" class="md-nav__link">
-    X. Parasite and Insectary Operations
+    <span class="md-ellipsis">
+      X. Parasite and Insectary Operations
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="X. Parasite and Insectary Operations">
@@ -1080,21 +1427,27 @@
         
           <li class="md-nav__item">
   <a href="#a-parasite-schedule" class="md-nav__link">
-    A. Parasite Schedule
+    <span class="md-ellipsis">
+      A. Parasite Schedule
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#b-storage-of-general-parasite-materials" class="md-nav__link">
-    B. Storage of General Parasite Materials
+    <span class="md-ellipsis">
+      B. Storage of General Parasite Materials
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#c-parasite-infections-insectary" class="md-nav__link">
-    C. Parasite Infections (Insectary)
+    <span class="md-ellipsis">
+      C. Parasite Infections (Insectary)
+    </span>
   </a>
   
 </li>
@@ -1106,21 +1459,27 @@
       
         <li class="md-nav__item">
   <a href="#xi-writing-and-reference-management" class="md-nav__link">
-    XI. Writing and Reference Management
+    <span class="md-ellipsis">
+      XI. Writing and Reference Management
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#xii-lab-safety" class="md-nav__link">
-    XII. Lab Safety
+    <span class="md-ellipsis">
+      XII. Lab Safety
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#xiii-emergency-protocols" class="md-nav__link">
-    XIII. Emergency Protocols
+    <span class="md-ellipsis">
+      XIII. Emergency Protocols
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="XIII. Emergency Protocols">
@@ -1128,21 +1487,27 @@
         
           <li class="md-nav__item">
   <a href="#-80c-freezer" class="md-nav__link">
-    -80&deg;C Freezer
+    <span class="md-ellipsis">
+      -80&deg;C Freezer
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#-20c-freezers" class="md-nav__link">
-    -20&deg;C Freezers
+    <span class="md-ellipsis">
+      -20&deg;C Freezers
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#refrigerators" class="md-nav__link">
-    Refrigerators
+    <span class="md-ellipsis">
+      Refrigerators
+    </span>
   </a>
   
 </li>
@@ -1154,7 +1519,9 @@
       
         <li class="md-nav__item">
   <a href="#xiv-lab-onboarding-checklist" class="md-nav__link">
-    XIV. Lab Onboarding Checklist
+    <span class="md-ellipsis">
+      XIV. Lab Onboarding Checklist
+    </span>
   </a>
   
 </li>
@@ -1167,16 +1534,17 @@
               </div>
             
           
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-                  <a href="https://github.com/zamanianlab/ZamanianLabDocs/edit/master/docs/labmanual.md" title="Edit this page" class="md-content__button md-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-                  </a>
-                
-                
-                <h1 id="zamanian-lab-manual-v-20">Zamanian Lab Manual v 2.0</h1>
+                  
+
+  
+  
+
+
+<h1 id="zamanian-lab-manual-v-20">Zamanian Lab Manual v 2.0</h1>
 <h2 id="i-lab-mission-and-philosophy">I. Lab Mission and Philosophy</h2>
 <h3 id="a-research-mission">A. Research Mission</h3>
 <p>The central ambition of our laboratory is to combine molecular biology, genetics, and computational approaches to improve our understanding of helminth biology and our ability to treat globally important human and animal parasitic infections. Current lab projects include the study of vector and soil-transmitted helminths at the bench and in disease-endemic settings. To complement some of our efforts, we exploit the experimental tractability of the model nematodes. We strive to place all of our work in the broader context of host-pathogen interactions and a growing appreciation for parasite genetic diversity and innovation.</p>
@@ -1216,11 +1584,11 @@
 <h2 id="ii-communication-and-calendar">II. Communication and Calendar</h2>
 <h3 id="a-slack">A. Slack</h3>
 <p>All members of the lab will be asked to install <a href="https://www.slack.com">Slack</a> on their computers and phones and will receive an invitation to join the official lab Slack team <a href="https://zamanian-lab.slack.com">zamanian-lab.slack.com</a>. Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.</p>
-<h3 id="b-google-calendar">B. Google Calendar</h3>
-<p>An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar.</p>
+<h3 id="b-google-calendar-and-group">B. Google Calendar and Group</h3>
+<p>An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar. You will also be added to the lab Google Group which will provide you access to lab GDrive docs and sheets.</p>
 <h2 id="iii-research-documentation">III. Research Documentation</h2>
 <h3 id="a-physical-lab-notebooks">A. Physical Lab Notebooks</h3>
-<p>All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by <a href="https://www.rocketbook.com">RocketBook</a> as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (<code>/RocketBook/</code>) and to your Google Drive account as personal backup.</p>
+<p>All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have adopted reusable notebooks by <a href="https://www.rocketbook.com">RocketBook</a> as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (<code>/RocketBook/</code>) and to your Google Drive account as personal backup.</p>
 <h3 id="b-electronic-lab-notebooks">B. Electronic Lab Notebooks</h3>
 <p>The laboratory uses <a href="https://www.benchling.com">Benchling</a> as a shared electronic lab notebook (ELN) and central repository for all molecular biology and cloning efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work (including gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of reagents.</p>
 <h3 id="c-lab-electronic-storage">C. Lab Electronic Storage</h3>
@@ -1251,7 +1619,7 @@
 <p><strong>Space Assignments</strong>: Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.</p>
 </li>
 <li>
-<p><strong>Storage</strong>: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, <em>C. elegans</em> strain stocks, and parasite materials across lab freezers.</p>
+<p><strong>Storage</strong>: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, <em>C. elegans</em> strain stocks, and parasite materials across lab freezers.</p>
 </li>
 </ul>
 <h2 id="vii-waste-management">VII. Waste Management</h2>
@@ -1394,14 +1762,14 @@ Tube Counts: Variable
 <h3 id="b-strain-inventory">B. Strain Inventory</h3>
 <p><strong>Lab strain designation: ZAM#</strong>
 <strong>Lab allele designation: maz#</strong></p>
-<p><em>C. elegans</em> strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the <code>C. elegans Strain Database</code> linked in <a href="../labsheets/">Lab Sheets</a>. The injection mix components and concentrations used to generate the strain as well as any additional notes pertaining to the strain should also be documented in the spreadsheet.</p>
+<p><em>C. elegans</em> strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the <code>C. elegans Strain Database</code> linked in <a href="labsheets.md">Lab Sheets</a>. The injection mix components and concentrations used to generate the strain as well as any additional notes pertaining to the strain should also be documented in the spreadsheet.</p>
 <h3 id="c-strain-maintenance">C. Strain Maintenance</h3>
 <p>Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. <em>Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!</em> Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.</p>
 <h2 id="x-parasite-and-insectary-operations">X. Parasite and Insectary Operations</h2>
 <h3 id="a-parasite-schedule">A. Parasite Schedule</h3>
-<p>We generate parasites through local infections and receive additional regular shipments of filarial parasites (<em>B. malayi</em>, <em>B. pahangi</em>, and <em>D. immitis</em>) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the <code>Parasite Schedule Sheet</code> linked in <a href="../labsheets/">Lab Sheets</a>. Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the <code>#Parasite_Planning</code> Slack channel.</p>
+<p>We generate parasites through local infections and receive additional regular shipments of filarial parasites (<em>B. malayi</em>, <em>B. pahangi</em>, and <em>D. immitis</em>) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the <code>Parasite Schedule Sheet</code> linked in <a href="labsheets.md">Lab Sheets</a>. Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the <code>#Parasite_Planning</code> Slack channel.</p>
 <h3 id="b-storage-of-general-parasite-materials">B. Storage of General Parasite Materials</h3>
-<p>General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for <em>B. malayi</em>, <em>B. pahangi, and D. immitis</em> tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the <code>Parasite Tissue and Nucleic Acid Inventory</code> sheet linked in <a href="../labsheets/">Lab Sheets</a>. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.</p>
+<p>General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for <em>B. malayi</em>, <em>B. pahangi, and D. immitis</em> tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the <code>Parasite Tissue and Nucleic Acid Inventory</code> sheet linked in <a href="labsheets.md">Lab Sheets</a>. The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.</p>
 <div class="highlight"><pre><span></span><code>* Tube Labels (combine the following into a single string)
   1) Species (First letter of genus + first letter of species)
   2) Date (YYYYMMDD)
@@ -1415,7 +1783,7 @@ Tube Counts: Variable
 <li><em>Ae. aegypti LVP</em> strain: used for <em>B. malayi</em> and <em>B. pahangi</em> infections</li>
 <li><em>Ae. aegypti SD</em> strain: used for <em>D. immitis</em> infections</li>
 </ul>
-<p>Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the <a href="../protocols/Parasitic_Nematodes/Insectary/Insectary/">Insectary Protocol</a> and update the <code>Parasite Schedule</code> sheet linked in <a href="../labsheets/">Lab Sheets</a> to associate parasite batches with mosquito infections</p>
+<p>Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the <a href="../protocols/Parasitic_Nematodes/Insectary/Insectary/">Insectary Protocol</a> and update the <code>Parasite Schedule</code> sheet linked in <a href="labsheets.md">Lab Sheets</a> to associate parasite batches with mosquito infections</p>
 <div class="highlight"><pre><span></span><code>Mosquito Carton Labels
   Mosquito spp.:
   Parasite spp.:
@@ -1507,84 +1875,51 @@ Tube Counts: Variable
 <li>Biosafety Training</li>
 <li>Provide photo for lab website</li>
 </ol>
-                
-              
-              
-                
 
 
-              
-            </article>
-          </div>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
       </main>
       
-        
-<footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-          <a href=".." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-            </div>
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Home
-              </div>
-            </div>
-          </a>
-        
-        
-          <a href="../protocols/protocols/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Lab Protocols
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
+        <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-      </div>
+      <div class="md-copyright">
+  
+  
+</div>
       
     </div>
   </div>
 </footer>
       
     </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
     
-      <script src="../assets/javascripts/vendor.0ac82a11.min.js"></script>
-      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing"}</script>
-      
-      <script>
-        app = initialize({
-          base: "..",
-          features: ['instant'],
-          search: Object.assign({
-            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
-          }, typeof search !== "undefined" && search)
-        })
-      </script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["instant"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
         <script src="../javascripts/extra.js"></script>
       
