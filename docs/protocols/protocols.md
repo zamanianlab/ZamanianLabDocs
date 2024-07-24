@@ -1,6 +1,6 @@
 # Lab Protocols
 
-[Lab Protocols Google Drive](https://drive.google.com/drive/folders/1NsPzcZk9f1FklRcTja1iDMM96zH7oqz9) (For internal use)
+Internal protocols maintained on [Google Drive](https://drive.google.com/drive/folders/1NsPzcZk9f1FklRcTja1iDMM96zH7oqz9).
 
 ## Lab Tasks
 
@@ -91,9 +91,6 @@
 
 
 ## *Caenorhabditis elegans*
-
-
-*Many protocols adapted from the Andersen Lab (NU)*
 
 - [*C. elegans* Recipes](Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md)
 

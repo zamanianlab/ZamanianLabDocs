@@ -1,12 +1,10 @@
 # conda
 
-[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software. We will also be using it to manage our Python environments. Conda will make it easy to invoke different Python versions as needed for different tasks.
-
-conda has several features that make it a powerful tool, but the main feature we will be using is the ability to create virtual environments and install packages to that specific environment. Normally, when you install a piece of software, it is available to run from any directory on your machine. This is good for some software, but sometimes a developer will encourage you to update the software, which inevitably breaks your code. Virtual environments are one solution to this problem. In these cases, instead of installing software to the entire machine, you install it only in a contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
+[conda](https://conda.io/docs/) is used for "package, dependency and environment managing" that is cross platform and enables reproducibility of old code, even when some packages and dependencies have been updated in the meantime. conda can be used for any language and can even act as a manager for bioinformatic software. We will also be using it to manage our Python environments. Conda will make it easy to invoke different Python versions as needed for different tasks. Instead of installing software to the entire machine, you install it only in a contained environment. Below are instructions on installing and setting up conda, and a representative example of how virtual environments work.
 
 ## Installation
 
-There are two flavors of conda - Anaconda and Miniconda. Anaconda is 3 GB and contains quite a few packages and features that are unnecessary for our purposes. We recommend you use Miniconda, which can be installed on macOS using the commands below:
+There are two flavors of conda - Anaconda and Miniconda. We recommend you use the more lightweight Miniconda, which can be installed on macOS using the commands below:
 
 ``` bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ~/miniconda.sh
@@ -18,9 +16,9 @@ These commands will download the miniconda installer, run it, and install it to 
 
 ## Usage and an Example
 
-Now that conda is installed, let's look at how virtual environments work. First, let's create a new environment that uses Python 3.5:
+Now that conda is installed, let's look at how virtual environments work. First, let's create a new environment that uses Python 3.9:
 
-`conda create --name test_environment python=3.5`
+`conda create --name test_environment python=3.9`
 
 The environment has now been created. You can see a list of all the environments that you have ever created with `conda env list`.
 
@@ -32,14 +30,13 @@ Here is a list of current environments on my machine (* marks current environmen
 base                  *  /Users/$username/miniconda3
 dev                      /Users/$username/miniconda3/envs/dev
 test_environment         /Users/$username/miniconda3/envs/test_environment
-tierpsy                  /Users/$username/miniconda3/envs/tierpsy
 ```
 
 To activate the `test_environment` that you just created:
 
 `source activate test_environment`
 
-Now you are in the virtual environment, using Python 3.5 as a default. You can check to make sure this is the case with `python --version`.
+Now you are in the virtual environment, using Python 3.9 as a default. You can check to make sure this is the case with `python --version`.
 
 You can also see the path to your environment's Python with `which python`.
 
@@ -56,8 +53,6 @@ You should receive a message reporting the successful installation of the packag
 ```python
  ModuleNotFoundError: No module named 'numpy'
 ```
-
-To demonstrate the utility of the conda virtual environment, first deactivate the `test_environment` with `source deactivate test_environment`. Then repeat the commands `python` and `>>> import numpy as np`. If done correctly, you will see that numpy isn't available outside of the `test_environment`. This way you can keep your base environment clean from unnecessary packages, and you can make sure the packages within a given environment aren't updated unless you explicitly make it so.
 
 ## Zamanian Lab Environments
 

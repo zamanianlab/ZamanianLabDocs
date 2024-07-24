@@ -47,15 +47,15 @@ My commitment to your success in research and professional growth is coupled to 
 
 All members of the lab will be asked to install [Slack](<https://www.slack.com>) on their computers and phones and will receive an invitation to join the official lab Slack team [zamanian-lab.slack.com](<https://zamanian-lab.slack.com>). Slack will provide a basis for rapid individual and group communication on all research and lab-related matters.
 
-### B. Google Calendar
+### B. Google Calendar and Group
 
-An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar.
+An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar. You will also be added to the lab Google Group which will provide you access to lab GDrive docs and sheets.
 
 ## III. Research Documentation
 
 ### A. Physical Lab Notebooks
 
-All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have recently adopted reusable notebooks by [RocketBook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as personal backup.
+All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have adopted reusable notebooks by [RocketBook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as personal backup.
 
 ### B. Electronic Lab Notebooks
 
@@ -99,7 +99,7 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
 
 - **Space Assignments**: Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
 
-- **Storage**: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage of materials related to individual experiments. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
+- **Storage**: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
 ## VII. Waste Management
 

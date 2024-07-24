@@ -66,8 +66,8 @@ markdown_extensions:
 nav:
   - Home:                     index.md
   - Lab Manual:               labmanual.md
-  - Lab Protocols:            'protocols/protocols.md'
-  - Lab Sheets:               labsheets.md
+  - Protocols:            'protocols/protocols.md'
+  - GDrive:                labgdrive.md
   - Computational Guide:
     - Overview:               comp_overview.md
     - Local Environment:      comp_local.md
