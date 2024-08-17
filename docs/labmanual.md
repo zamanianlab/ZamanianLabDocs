@@ -61,13 +61,9 @@ All members of the lab should record the details of their daily research activit
 
 The laboratory uses [Benchling](<https://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology and cloning efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work (including gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of reagents.
 
-### C. Lab Electronic Storage
+### C. Box Storage
 
-All grad students and postdocs should install the [Box Drive](<https://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data and documents. *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. The primary storage folders are described below. The uses of other Box folders are described in subsequent sections.
-
-- ``/Data/`` This folder should be used to neatly preserve original files and raw data output from various lab and campus instruments (e.g., ``/qPCR/``), common assays and projects with small data footprints (e.g., ``/Ce_assays/``), as well as minimally processed 'big' data outputs (e.g., subfolder ``/RNAseq/``). Other subfolders will be created to represent different project-specific data types where necessary, with strict guidelines for file nomenclature. These folders have clear organization and naming conventions that need to followed.
-
-- ``/LabMembers/`` Individual lab folders are provided for members of the lab to store their research-related documents. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses.
+All grad students and postdocs should install the [Box Drive](<https://www.box.com>) application and receive an invitation to edit the ZamanianLab shared Box folder. All students and staff of the University of Wisconsin-Madison receive Box cloud storage at no cost through their university e-mail accounts. The shared folder will be used to store important lab data and documents (lightweight storage). *DO NOT* delete shared folders while your local computer is set to sync as this will delete data across all devices. Do not use spaces in file names, unnecessarily long file names, or vague file naming systems that obscure contents. Individual lab folders are provided for members of the lab to store their research-related documents in ``/LabMembers/``. These individual folders should be used to preserve processed data, protocols in the process of optimization, writing (manuscripts, fellowships, and grants), and any computer programs or scripts written to carry out preliminary analyses. The uses of other Box folders are described in other sections. See Computational Guide and Pipelines for descriptions of other storage resources.
 
 
 ## IV. Meetings
@@ -93,11 +89,11 @@ The locations of *all reagents and consumables* will be stored on [Quartzy](<htt
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` for the lab manager to process.
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` to facilitate processing.
 
 ### C. Physical Organization
 
-- **Space Assignments**: Benches and Pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
+- **Space Assignments**: Benches and pipettes will be assigned to each grad student and postdoc. Undergraduates should only use the spaces and pipettes of their lab mentor.
 
 - **Storage**: Each graduate student and postdoc will have their own rack spaces in the -20C and -80C freezers for personal storage. Each person is responsible for maintaining proper labeling and notes of their stored items. There are designated storage spaces for lab and commercial plasmids, various bacterials stocks, *C. elegans* strain stocks, and parasite materials across lab freezers.
 
@@ -177,7 +173,7 @@ Tube Counts: 1 copy (-80C) + 1 or more copies (-20C)
 
 Use the stock(s) in -20C for all molecular biology purposes. When -20C stocks have been depleted, transfer the backup stock from -80C to -20C, and inoculate liquid media with the frozen bacterial stock to replace the plasmid stock in -80C. All intermediary vectors using for cloning that are unlikely to be used for other purposes should be stored in personal boxes until no longer needed.
 
-- *Plasmids note:* All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```.
+- *Plasmids note:* All completed (inventoried) plasmid sequences should be deposited into the designated lab plasmid Benchling project. Additionally, plasmid sequences and image maps should be exported to the Box folder ```/LabInventory/Plasmid_Export/```. 
 
 ### C. Transformed Bacteria
 
@@ -243,7 +239,7 @@ Only the lab manager (Kathy) is allowed to use the microinjection apparatus to c
 
     1. Coordinate with Kathy at least two weeks in advance
     2. Provide necessary background strain for injection (if not N2)
-    3. Provide injection mixes in the Plasmids box in the top freezer in room 223
+    3. Provide injection mixes in the Plasmids box in the top freezer in room 2961.
       - Mark the tube with the date and all plasmids included in the mix
       - Including any fluorescent or phenotypic marker that should be followed
     4. Provide all required information in the inventory spreadsheet (see below)
@@ -260,7 +256,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 
 ### C. Strain Maintenance
 
-Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. *Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!* Request chunks or frozen strains from the lab manager with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 230 whiteboard with the strains you are actively maintaining. Boxes should be baked before using them to propagate new strains.
+Maintain strains in your assigned areas of the 15/20C incubators, or above your bench if incubating at ambient temperature. Use assigned colors to label your plate boxes. Wrap old plates and dispose of contaminated plates regularly. *Your contaminated plates (bacteria, fungi, or mites) can jeopardize the experiments of others!* Request chunks or frozen strains with adequate notice. Strains should be re-thawed or chunked at least once every six months to avoid mutation accumulation. Update the Rm 2961 whiteboard with the strains you are actively maintaining. Boxes should be baked before use to propagate new strains.
 
 ## X. Parasite and Insectary Operations
 
@@ -335,7 +331,7 @@ All lab members must take the appropriate safety training before starting any la
 
  1. **Do not open it** until you are ready to transfer the contents. Notify emergency contacts on freezers by phone.
 
- 2. Hanson has 2 up right backup -80&deg;C’s in the basement room B37. One right when you walk in and the other off to the right both labeled "back up."
+ 2. SVM North has one backup -80&deg;C’s immediately outside of the freezer bay.
 
  3. Use the autoclave bins and any empty styrofoam containers you can get (found in the little cubby at the entrance of room 230) for getting dry ice to keep items cold during transfer. The dry ice is located on the loading dock to the right in tan wheeled bins.
 
