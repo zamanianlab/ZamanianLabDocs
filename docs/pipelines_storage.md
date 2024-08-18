@@ -2,52 +2,60 @@
 
 ## Box (Small Data)
 
-Small data (e.g., tabular data from various instruments) should stored on Box alongside code for analysis. All data (large and small) will be processed using local or server pipelines to produce small outputs (or subsets of outputs) that should be stored on Box for downstream analysis and plotting. Box will be backed up to ResearchDrive once every three months.
+Box will be used for storage of small data (e.g., tabular data) alongside code for analysis. Data (large and small) processed into small outputs using local or server pipelines should be stored on Box for downstream analysis and plotting. Box will be backed up to ResearchDrive once every six months.
 
 ## UW ResearchDrive (Large Data)
 
-Large data (e.g., sequencing and imaging) will be stored on [ResearchDrive](https://it.wisc.edu/services/researchdrive), which provides 25 TB (expandable) of secure storage with off-site backup. Lab members will have access to the lab ResearchDrive using their UW net-id and password. Our sequencing data from the BRC is automatically moved into ResearchDrive. General instructions on how to connect to and transfer data in and out of ResearchDrive are provided [here](https://kb.wisc.edu/researchdata/internal/page.php?id=93998). Data will be transferred from ResearchDrive to the CHTC for pipeline-based processing. Outputs will be transferred from the CHTC back to ResearchDrive for long-term storage and [Box](https://www.box.com) for post-processing, analysis and plotting. The current ResearchDrive directory structure is shown below:
+[UW ResearchDrive](https://it.wisc.edu/services/researchdrive) provides 25 TB (expandable) of secure storage with off-site backup. We will use this resource to store large data (e.g., sequencing and imaging), as well as backups of Box. Data from the biotech center (BRC) is automatically moved into ResearchDrive.
 
-```
-/
-├── ImageXpress/ (or /WormViz, /i3x ...etc)
-|   └── raw/                              [Raw exported data]
-|   └── metadata/                         [Experiment metadata]    
-|   └── proc/                             [CHTC-processed data]
-|
-├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
-|   └── Bioinformatics Resource Center/   [Sequencing Data]
-|   └── DNA Sequencing Sanger/            [Sanger Data]
-|
-├── Box/                                  [Box backup]
-└── External/                             [External data]
-```
+??? "ResearchDrive file structure"
 
-Instructions can be found for [connecting](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#connect) to and [transferring](https://kb.wisc.edu/researchdata/internal/page.php?id=93998#transferdata) files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of [approaches](https://kb.wisc.edu/researchdata/96641), including simple drag-and-drop or command-line `rsync` or `cp`.
+    ```bash
+    ├── ImageXpress/ (or /WormViz ...etc)
+    |   └── raw/                              [Raw exported data]
+    |   └── metadata/                         [Experiment metadata]    
+    |   └── proc/                             [CHTC-processed data]
+    |
+    ├── UWBC-Dropbox/                         [Auto-deposited data from the UWBC]
+    |
+    ├── Box_backups/                          [Recent Box backups]
+    └── External/                             [External large data]
 
-To connect to the lab UW Research Drive, follow the instructions below and login with your UW net-id and password.
+    ```
 
-  ```
-  Mac: Finder "Connect to server" > smb://research.drive.wisc.edu/mzamanian
+Data can be transferred from ResearchDrive to the CHTC for pipeline-based processing and outputs can be transferred from the CHTC back to ResearchDrive for long-term storage and [Box](https://www.box.com) for post-processing, analysis and plotting. [Instructions](https://kb.wisc.edu/researchdata/internal/page.php?id=93998) can be found for connecting to and transferring files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of approaches, including simple drag-and-drop into the mounted drive, command-line (`rsync` or `cp`), or Globus.
 
-  rsync -rltv ~/Desktop/Data/[dir] /Volumes/mzamanian/ImageXpress/raw/
-  ```
+??? "Instructions for mounting the UW Research Drive on Mac and PC (as R drive)"
 
-## SVM L Drive (UW SVM)
+    ```bash
+    # Mac
+    Finder "Connect to server" > smb://research.drive.wisc.edu/mzamanian
 
-To connect to the lab SVM L Drive, follow the instructions below and login with your UW net-id and password.
+    # PC
+    mount smb:\\research.drive.wisc.edu\mzamanian as "R:" drive 
+    create shortcut on Desktop
 
-  ```
-  Mac: Finder "Connect to server" > smb://svm-files.ad.wisc.edu/ZamanianLab
+    ```
 
-  PC: mount as L: drive (smb:\\svm-files.ad.wisc.edu\ZamanianLab)
-  ```
 
-## UW S3 Storage
+## UW SVM L Drive (Scratch)
 
-UW S3 storage will be used for archival storage. UW RD and L drive 
+The SVM L Drive can be used as both personal 'scratch' space and for temporary or medium-term storage of outputs from SVM instruments. This drive will not be backed up. Anything required for publications should eventually be moved to ResearchDrive (large data) or Box (small data).
 
-## BRC (UW Biotech Center)
+??? "Instructions for mounting the SVM L Drive on Mac and PC (as L drive)"
 
-Sequencing data generated by the UW Biotechnology Center is delivered to the BRC servers. These data can be accessed in [numerous ways](https://www.biotech.wisc.edu/services/brc/data-access). Our sequencing data are auto-deposited into ResearchDrive and so directly accessing these files may not be necessary.
+    ```bash
+    # Mac
+    Finder "Connect to server" > smb://svm-files.ad.wisc.edu/ZamanianLab
+
+    # PC
+    mount smb:\\svm-files.ad.wisc.edu\ZamanianLab as "L:" drive 
+    create shortcut on Desktop
+
+    ```
+
+
+## UW S3 Storage (Archival)
+
+[UW S3 storage](https://kb.wisc.edu/researchdata/news.php?id=13447) provides 50 TB (expandable) for archival storage. The PI will archive all publishable data from Research Drive (including Box backups) to UW S3 storage after publication. These data can be retrieved by the PI and made available on UW ResearchDrive if needed.
 
