@@ -5,7 +5,7 @@ This resource provides documentation for general wet lab and dry lab organizatio
 
 ## How to Use this Guide
 
-New lab members should first orient themselves with our [Lab Manual](labmanual.md) and [Computational Guide](comp_overview.md) documents. Many finalized lab protocols are maintained on the [Protocols](protocols/protocols.md) page. [Pipelines](pipelines_overview.md) provides detailed information on local and server-based computational pipelines. [Lab GDrive](labdgrive.md) provides links to Google docs and sheets that are maintained by the laboratory.
+New lab members should first orient themselves with our [Lab Manual](labmanual.md) and [Computational Guide](comp_overview.md) documents. Many finalized lab protocols are maintained on the [Protocols](protocols/protocols.md) page. [Pipelines](pipelines_overview.md) provides detailed information on local and server-based computational pipelines. [Lab GDrive](labgdrive.md) provides links to Google docs and sheets that are maintained by the laboratory.
 
 
 ## Updating

@@ -71,12 +71,13 @@ nav:
   - Computational Guide:
     - Overview:               comp_overview.md
     - Local Environment:      comp_local.md
+    - Data Storage:           comp_storage.md
     - GitHub:                 comp_github.md
     - Conda:                  comp_conda.md
     - Homebrew:               comp_homebrew.md
   - Pipelines:
     - Overview:               pipelines_overview.md
-    - Data Storage:           pipelines_storage.md
     - Local Pipelines:        pipelines_local.md
     - Server Pipelines:       pipelines_server.md
+    - Docker:                 pipelines_docker.md
     - wrmXpress Pipelines:    pipelines_wrmxpress.md

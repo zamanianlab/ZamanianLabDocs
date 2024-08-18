@@ -2,7 +2,7 @@
 
 For the most part, the Zamanian lab requires use of macOS on personal computers. The following is a guide for setting up one's local machine for in order to unify machines across the lab.
 
-1. Update your macOS version to Ventura (v13.0)
+1. Update your macOS version to Sonoma (v14.0)
 
 2. If the Mac is UW-owned, follow these instructions to install [WorkSpace One Intelligent Hub](https://it.vetmed.wisc.edu/enrolling-mac-os-with-workspace-one/). This will allow you to directly install/update UW-licensed software, including Adobe products, the UW VPN (Cisco Global Protect), Microsoft Office products, and Zoom.
 
@@ -19,7 +19,7 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [UW VPN](https://kb.wisc.edu/helpdesk/page.php?id=90370) (VPN for off-campus resource access)
     - [Visual Studio Code](https://code.visualstudio.com/) (Versatile IDE for general programming)
     - [XQuartz](https://www.xquartz.org/) (open-source window system on which some apps rely)
-    - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS, can also be isntalled by running `xcode-select --install`)
+    - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) (command line tools for macOS, can also be installed by running `xcode-select --install`)
     - [Zoom](https://zoom.us/download) (video meeting software)
 
 4. Install additional bioinformatics and imaging software:
@@ -27,13 +27,13 @@ For the most part, the Zamanian lab requires use of macOS on personal computers.
     - [Fiji](https://fiji.sc/) (primary software used for image analysis)
     - [FigTree](https://github.com/rambaut/figtree/releases) (graphical viewer of phylogenetic trees)
     - [4Peaks](https://nucleobytes.com/4peaks/index.html) (editing of sequence trace files)
+    - [Jalview](https://www.jalview.org/) (multiple sequence alignment viewer)
 
 5. Change the default Shell to `bash` (default on new Mac machines is `zsh`):
 
-    - Open System Preferences
-    - Click Users & Groups
+    - System Preferences → Users & Groups
     - Click bottom-left lock icon and enter password
-    - Right-click (or hold Control and click) on your username in the left pane and select Advanced Options...
+    - Right-click on your username in the left pane and select Advanced Options
     - Choose `/bin/bash` as the Login shell
 
 6. Add contents of the lab `.bash_profile` to your current `~/.bash_profile` (direct link: [.bash_profile](https://raw.githubusercontent.com/zamanianlab/ZamanianLabDocs/master/resources/.bash_profile)). Edit aliases as needed to include your net-id.

@@ -6,7 +6,7 @@ Box will be used for storage of small data (e.g., tabular data) alongside code f
 
 ## UW ResearchDrive (Large Data)
 
-[UW ResearchDrive](https://it.wisc.edu/services/researchdrive) provides 25 TB (expandable) of secure storage with off-site backup. We will use this resource to store large data (e.g., sequencing and imaging), as well as backups of Box. Data from the biotech center (BRC) is automatically moved into ResearchDrive.
+[UW ResearchDrive](https://it.wisc.edu/services/researchdrive) provides 25 TB of expandable secure storage with off-site backup. We will use this resource to store large data (e.g., sequencing and imaging), as well as backups of Box. Data from the biotech center (BRC) is automatically moved into ResearchDrive.
 
 ??? "ResearchDrive file structure"
 
@@ -40,7 +40,7 @@ Data can be transferred from ResearchDrive to the CHTC for pipeline-based proces
 
 ## UW SVM L Drive (Scratch)
 
-The SVM L Drive can be used as both personal 'scratch' space and for temporary or medium-term storage of outputs from SVM instruments. This drive will not be backed up. Anything required for publications should eventually be moved to ResearchDrive (large data) or Box (small data).
+The SVM L Drive can be mounted ([Mac](https://it.vetmed.wisc.edu/drive-map-new-l-drive-zamanianlab-mac-os/) or [PC](https://it.vetmed.wisc.edu/drive-map-new-l-drive-zamanianlab/)) used as both personal 'scratch' space and for temporary or medium-term storage of outputs from SVM instruments. This drive will not be backed up. Anything required for publications should eventually be moved to ResearchDrive (large data) or Box (small data).
 
 ??? "Instructions for mounting the SVM L Drive on Mac and PC (as L drive)"
 
@@ -57,5 +57,5 @@ The SVM L Drive can be used as both personal 'scratch' space and for temporary o
 
 ## UW S3 Storage (Archival)
 
-[UW S3 storage](https://kb.wisc.edu/researchdata/news.php?id=13447) provides 50 TB (expandable) for archival storage. The PI will archive all publishable data from Research Drive (including Box backups) to UW S3 storage after publication. These data can be retrieved by the PI and made available on UW ResearchDrive if needed.
+[UW S3 storage](https://kb.wisc.edu/researchdata/news.php?id=13447) provides 50 TB of expandable archival storage. The PI will archive all publishable data from Research Drive (including Box backups) to UW S3 storage after publication. These data can be retrieved by the PI and made available on UW ResearchDrive if needed.
 
