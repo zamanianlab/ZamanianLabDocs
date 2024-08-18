@@ -382,6 +382,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../../comp_storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../../comp_github/" class="md-nav__link">
         
   
@@ -508,27 +529,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../pipelines_storage/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Data Storage
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../../../pipelines_local/" class="md-nav__link">
         
   
@@ -555,6 +555,27 @@
   
   <span class="md-ellipsis">
     Server Pipelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pipelines_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
   </span>
   
 
@@ -670,6 +691,7 @@
 
 
 <h1 id="c-elegans-lysis-pcr">C. elegans Lysis PCR</h1>
+<p>Lysis reactions for PCR input are most reliable when they are used immediately after lysing in the thermocycler. Plan accordingly to avoid prolonged incubation in the thermocycler or storage on ice/+4°C as this may inhibit PCR.</p>
 <h2 id="materials">Materials</h2>
 <ul>
 <li>2X Lysis Buffer</li>
@@ -698,18 +720,16 @@
 <p><img src="../img/Picking_into_cap.png" width="300" /></p>
 </li>
 <li>
-<p>Place the caps onto an appropriately labeled strip of tubes. Spin down the worms into the 8-strip tube using the minicentrifuge. Double check that the worms made it to the bottom of the tubes and are not stuck on the tube walls or cap.</p>
+<p>Place the caps onto an appropriately labeled strip tube. Spin down the worms into the 8-strip tube using the minicentrifuge. Double check that the worms made it to the bottom of the tubes and are not stuck on the tube walls or in caps.</p>
 </li>
 <li>
-<p>Turn on the thermocycler.</p>
+<p>Replace the flat 8-tube strip caps with domed 8-tube strip caps. This helps maintain proper temperature control of the sample in the SimpliAmp thermal cycler.</p>
 </li>
 <li>
-<p>While the thermocycler is preheating, place your strip tubes into the frost in the -80°C freezer.</p>
+<p>Place strip tube(s) in frost accumulated in the -80°C freezer and freeze for approx. 10 min.</p>
 </li>
 <li>
-<p>Run the following program on a thermocycler (Lid set to 105°C):</p>
-</li>
-</ol>
+<p>Preheat the thermocycler with the following program (Lid set to 105°C):</p>
 <table>
 <thead>
 <tr>
@@ -736,27 +756,27 @@
 </tr>
 </tbody>
 </table>
-<ol>
+<p><strong>Note:</strong> Individual PCR tubes can and should be placed in each corner of the thermocycler heat block to ensure thorough and even heating across all samples.</p>
+</li>
 <li>
-<p>When there is ~20 minutes left on the lysis, assemble your PCR master mix on ice according to the table below:</p>
+<p>When there is ~20 minutes left on the lysis, assemble your PCR master mix on ice. The master mix recipe will vary depending on the Taq polymerase being used in the PCR reaction. A sample table for GoTaq polymerase (Promega, Cat#M3001/M3005)</p>
 <p>a. Make enough master mix for the number of reactions you need plus 1 additional reaction (e.g. if you need to complete 8 reactions, make enough master mix for 9 reactions)</p>
-<p>b. If using a polymerase other than GoTaq DNA polymerase, confirm the reagent volumes, concentrations, and cycling parameters for the specific polymerase being used.</p>
 </li>
 </ol>
 <table>
 <thead>
 <tr>
 <th>Constituent</th>
-<th>Stock</th>
-<th style="text-align: center;">Volume Per Rxn</th>
-<th>Final</th>
+<th>[Stock]</th>
+<th style="text-align: center;">Volume Per 20 μL Rxn</th>
+<th>[Final]</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Nuclease-free H<sub>2</sub>O</td>
 <td>-</td>
-<td style="text-align: center;">9.4 μL</td>
+<td style="text-align: center;">9.5 μL</td>
 <td>-</td>
 </tr>
 <tr>
@@ -785,9 +805,9 @@
 </tr>
 <tr>
 <td>GoTaq Polymerase</td>
-<td>-</td>
-<td style="text-align: center;">0.2 μL</td>
-<td>-</td>
+<td>5units/μL</td>
+<td style="text-align: center;">0.1 μL</td>
+<td>0.5units</td>
 </tr>
 <tr>
 <td><strong>TOTAL</strong></td>
@@ -802,10 +822,14 @@
 <p>Add 18 μL of master mix to each tube and keep on ice until the lysis is completed.</p>
 </li>
 <li>
-<p>When the lysis reaction is complete, add 2 μL of the lysis to each corresponding PCR tube containing master mix. Keep the reactions on ice until the thermocycler is preheated.</p>
+<p>When the lysis reaction is complete, gently mix and centrifuge the strip tube(s) to pull the contents to the bottom of the tube. Return the rxns to ice.</p>
 </li>
 <li>
-<p>Run the following program on a thermocycler:</p>
+<p>Add 2 μL of the lysis rxn to each corresponding PCR tube containing master mix. Keep the reactions on ice until the thermocycler is preheated.</p>
+<p><strong>Note</strong>: Do NOT pool the lysis rxns prior to using as template for the master mix. This may increase the likelihood of PCR inhibition.</p>
+</li>
+<li>
+<p>Thermocycler parameters may differ depending on the Taq polymerase used in the master mix. Run the following program on a thermocycler for Promega GoTaq polymerase:</p>
 </li>
 </ol>
 <table>
@@ -842,12 +866,15 @@
 <p><sup>1</sup> Annealing temperature is primer pair specific and must be modified accordingly.</p>
 <p><sup>2</sup> An extension time of 1 min/kb is recommended. Cycling parameters may need to be adjusted depending on the length of the target being amplified.</p>
 <h3 id="recipe-for-2x-lysis-buffer">Recipe for 2X Lysis Buffer</h3>
+<ol>
+<li>
+<p>Combine the following ingredients to a 100mL bottle:</p>
 <table>
 <thead>
 <tr>
 <th>Constituent</th>
 <th>Amount</th>
-<th>Final</th>
+<th>[Final]</th>
 </tr>
 </thead>
 <tbody>
@@ -857,7 +884,7 @@
 <td>100 mM</td>
 </tr>
 <tr>
-<td>Tris (pH 8.2)</td>
+<td>Tris-HCl (pH 8.2)<sup>1</sup></td>
 <td>0.24 g</td>
 <td>20 mM</td>
 </tr>
@@ -867,12 +894,12 @@
 <td>5 mM</td>
 </tr>
 <tr>
-<td>IGEPAL</td>
+<td>IGEPAL<sup>2</sup></td>
 <td>900 μL</td>
 <td>0.9%</td>
 </tr>
 <tr>
-<td>Tween 20</td>
+<td>Tween 20<sup>2</sup></td>
 <td>900 μL</td>
 <td>0.9%</td>
 </tr>
@@ -881,16 +908,23 @@
 <td>20 mg</td>
 <td>0.02%</td>
 </tr>
+<tr>
+<td>Water</td>
+<td>Q.S to 100 mL</td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<ul>
-<li>
-<p>Add water to 100 mL</p>
+<p><sup>1</sup> pH is critical to the success of the lysis rxn and downstream PCR. A Tris-HCl pH 8 solution can be added to a final concentration of 20 mM in the final volumne of 100 mL OR powder Tris-HCl can be used but the pH of the final solution will need to be adjusted.</p>
+<p><sup>2</sup> Tween 20 and IGEPAL are difficult to pipette, so you may choose to make a 50% solution in water and double the input amount.</p>
 </li>
 <li>
-<p><strong>Note</strong>: Tween 20 and IGEPAL are difficult to pipette, so you may choose to make a 50% solution in water and double the input amount.</p>
+<p>Add a small stir bar to the bottle and mix with <strong>low</strong>, gentle heat until the gelatin is completely dissovled into the solution. </p>
 </li>
-</ul>
+<li>
+<p>Aliquot the 2X lysis buffer into 15 mL conical tubes each containing ~10 mL and store at -20°C. Please include the date (MM/DD/YY) of preparation on the tubes.</p>
+</li>
+</ol>
 
 
 

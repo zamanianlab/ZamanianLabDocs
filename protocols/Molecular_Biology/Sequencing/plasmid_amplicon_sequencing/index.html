@@ -12,7 +12,7 @@
         <meta name="author" content="Zamanian Lab">
       
       
-        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Caenorhabditis_elegans/RNA_Extraction/RNA_Extraction/">
+        <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/protocols/Molecular_Biology/Sequencing/plasmid_amplicon_sequencing/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>C. elegans Total RNA Extraction - Zamanian Lab Docs</title>
+        <title>Plasmid and Amplicon Sequencing - Zamanian Lab Docs</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#c-elegans-total-rna-extraction" class="md-skip">
+        <a href="#plasmid-and-amplicon-sequencing" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              C. elegans Total RNA Extraction
+              Plasmid and Amplicon Sequencing
             
           </span>
         </div>
@@ -640,6 +640,25 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#uw-biotech-center-sequencing" class="md-nav__link">
+    <span class="md-ellipsis">
+      UW Biotech Center Sequencing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plasmidsaurus-sequencing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plasmidsaurus Sequencing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plasmidsaurus Sequencing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#materials" class="md-nav__link">
     <span class="md-ellipsis">
       Materials
@@ -647,22 +666,18 @@
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#washing-and-freeze-cracking-worms" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#protocol" class="md-nav__link">
     <span class="md-ellipsis">
-      Washing and Freeze-Cracking Worms
+      Protocol
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#rna-isolation-from-trizol-samples" class="md-nav__link">
-    <span class="md-ellipsis">
-      RNA Isolation from Trizol Samples
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -684,135 +699,58 @@
   
 
 
-<h1 id="c-elegans-total-rna-extraction">C. elegans Total RNA Extraction</h1>
-<h2 id="materials">Materials</h2>
+<h1 id="plasmid-and-amplicon-sequencing">Plasmid and Amplicon Sequencing</h1>
+<p>In addition to sequencing technologies available at the Biotech Center on campus, full-length plasmid and amplicon sequencing is available through <a href="https://www.plasmidsaurus.com/">Plasmidsaurus</a> (see directions below).</p>
+<h2 id="uw-biotech-center-sequencing">UW Biotech Center Sequencing</h2>
+<p><strong>Note:</strong> An account with the UWBC Requester Portal is required to submit any samples to campus sequencing services. Access to the portal can be requested by emailing <u><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#101;&#120;&#116;&#103;&#101;&#110;&#45;&#115;&#101;&#113;&#64;&#98;&#105;&#111;&#116;&#101;&#99;&#104;&#46;&#119;&#105;&#115;&#99;&#46;&#101;&#100;&#117;">&#110;&#101;&#120;&#116;&#103;&#101;&#110;&#45;&#115;&#101;&#113;&#64;&#98;&#105;&#111;&#116;&#101;&#99;&#104;&#46;&#119;&#105;&#115;&#99;&#46;&#101;&#100;&#117;</a></u> or by following the instructions posted <a href="https://dnaseq.biotech.wisc.edu/submission/">here</a>.</p>
+<p>The UW Biotech Center's <a href="https://uw-biotech-center.my.site.com/guidelines/s/">Interactive Submission Guideline</a> provides application-specific instructions for all sample types. Please follow these sample preparation, naming, labeling, and submission guidelines to properly submit samples for long-read plasmid or amplicon sequencing services. </p>
+<h2 id="plasmidsaurus-sequencing">Plasmidsaurus Sequencing</h2>
+<h3 id="materials">Materials</h3>
 <ul>
-<li>M9</li>
-<li>RNase-free water</li>
-<li>Trizol</li>
-<li>Ice</li>
-<li>Liquid N2</li>
-<li>Heat block set to 37°C</li>
-<li>Vortexer</li>
-<li>RNase-free 1.5 mL tubes</li>
-<li>Eliminase or RNase Zap</li>
-<li>Chloroform</li>
-<li>Cold isopropanol</li>
-<li>75% ethanol</li>
-<li>TE buffer (optional)</li>
-<li>Centrifuge cooled to 4°C</li>
+<li>8-well strip tubes</li>
+<li>parafilm</li>
+<li>50 mL conical tube</li>
+<li>plasmids/amplicons (&gt;10 µL at 30 ng/µL)</li>
 </ul>
-<h2 id="washing-and-freeze-cracking-worms">Washing and Freeze-Cracking Worms</h2>
+<h3 id="protocol">Protocol</h3>
 <ol>
 <li>
-<p>Grow up desired number of 10 cm plates for eventual RNA extraction. As a general estimate, each 10 cm plate of adult worms yields at least 10 μg of RNA. Scale accordingly across strains.</p>
-<p><strong>Example schedule for bleach-synchronized population</strong></p>
-<ul>
-<li><strong>D1</strong> pick 3 x 6 cm plates (5 worms/plate)</li>
-<li><strong>D4</strong> pick 3 x 10 cm plates (30-50 worms/plate)</li>
-<li><strong>D8</strong> Bleach gravid population from 10 cm plates (&lt; 6 plates per tube). Expect ~5k embryos per 10 cm plate.</li>
-<li><strong>D8</strong> Combine, titer, and plate out 2k embryos per plate on 6 x 10 cm plates. You can usually plate out twice as many 10 cm plates as went into the bleach.</li>
-<li>
-<p>Monitor plates closely until intended developmental milestone(s) are reached.</p>
-<div class="highlight"><pre><span></span><code>N2 estimates
-0 hrs (L1, not plated - straight from tubes)
-28 hrs (L2)
-35 hrs (L3)
-48 hrs (L4)
-60 hrs (Young Adults)
-70 hrs (Adults)
-</code></pre></div>
-</li>
-</ul>
-<p><strong>Alternatively,</strong> can chunk 3-6 x 10 cm plates and bleach gravid population (continue with D8 above).</p>
-<p><strong>For mixed population,</strong> can chunk 3-6 x 10 cm plates and monitor until intended developmental milestone(s) are reached.    </p>
+<p>Use the Qubit to measure the concentration of each plasmid/amplicon and normalize each to 30 ng/µL with nuclease-free water. Add at least 10 µL of each plasmid to a tube in a 8-well strip tube. Label the samples by writing the order label on the first tube and the strip number on the second tube of each strip. No additional labeling is necessary. Refer to the Plasmidsaurus <a href="https://plasmidsaurus.com/shipping_instructions">guildelines</a> for any clarifications. </p>
 </li>
 <li>
-<p>When plates are ready, wash worms off of plates with M9 and pool by strain into nearly-filled 15 mL tubes of M9.</p>
+<p>When all samples for sequencing are ready and aliquoted into the strip tube(s), use parafilm to seal the caps and ensure they do not open during transit. Place the strip tube(s) in a 50 mL conical tube and add a copy of the sample submission form and your samples to a ziploc bag.</p>
 </li>
 <li>
-<p>Let settle on ice for 1 hour and aspirate off M9.</p>
+<p>Submit a plasmid sequencing order through <a href="https://www.plasmidsaurus.com/">Plasmidsaurus</a>. You will need to create an account if you do not already have one. Enter the plasmid names in the exact order they were deposited into the 8-well strip tubes. </p>
 </li>
 <li>
-<p>Add 5 mL of fresh M9.</p>
-<p>a. Let settle on ice for ~15 minutes.</p>
-<p>b. Aspirate off M9.</p>
-<p>c. Transfer worms to a 1.5 mL tube.</p>
+<p>Free Plasmidsaurus submission dropboxes are located throughout campus at the following locations:</p>
+<table>
+<thead>
+<tr>
+<th>Building</th>
+<th>Address</th>
+<th>Pick-up Day/Time</th>
+<th>Dropbox ID#</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HF DeLuca Biochemical Laboratories Building</td>
+<td>433 Babcock Drive</td>
+<td>M-F 2:30 pm</td>
+<td>65</td>
+<td>Small styrofoam box next to the ice maker labeled "Plasmidsaurus"</td>
+</tr>
+</tbody>
+</table>
 </li>
 <li>
-<p>Add 1 mL M9.</p>
-<p>a. Spin on minicentrifuge or let settle on ice.</p>
-<p>b. Aspirate off M9.</p>
+<p>Time your sample drop-off so that the samples are not sitting out at RT for too long. Include a copy of the submission form with your sample and put an additional physical copy on Kathy's desk and the digital receipt in the pcard receipts folder on Box.</p>
 </li>
 <li>
-<p>Add 1 mL Trizol.</p>
-</li>
-<li>
-<p>Flash-freeze each tube by dropping the tubes bottom first into liquid nitrogen, remove with a ladle or forceps.</p>
-</li>
-<li>
-<p>Thaw tubes in a heat block set to 37°C.</p>
-</li>
-<li>
-<p><em>Repeat steps 7-8 four additional times.</em></p>
-</li>
-<li>
-<p>After the final thaw, vortex at 3200 for 30 seconds, then rest for 30 seconds.</p>
-</li>
-<li>
-<p><em>Repeat step 10 four additional times.</em></p>
-<p><strong>Note:</strong> Some debris may remain if isolating from eggs or processing mixed population; these will not interfere with RNA extraction yield or purity.</p>
-</li>
-</ol>
-<p><strong>Optional: store samples at -80°C or continue with protocol</strong></p>
-<hr />
-<h2 id="rna-isolation-from-trizol-samples">RNA Isolation from Trizol Samples</h2>
-<ol>
-<li>
-<p>Prior to RNA extraction, wipe down your working space, pipettes, and gloves with Eliminase or RNase Zap.</p>
-<p><strong>Note:</strong> Ensure that your gloves remain RNase-free; if you touch a contaminated surface (i.e. skin, hair, other lab equipment) or breath on the gloves, they are no longer RNase-free. This procedure has been performed on personal bench tops, but the BSC will provide further sterility if RNA degradation or RNase contamination is a fear.</p>
-</li>
-<li>
-<p>Add 200 μL chloroform per 1 mL Trizol.</p>
-<p>a. Shake vigorously for 15 seconds.</p>
-<p>b. Incubate at room temperature for 3 minutes.</p>
-<p>c. Centrifuge at 12,000 x g for 15 minutes at 4°C.</p>
-<p>d. Transfer the upper aqueous phase to a new, labelled RNase-free tube.</p>
-<p><strong>Note:</strong> be very careful not to transfer any material from the interphase or lower organic phase; if you do, you will see the contamination in the 260:230 values measured by the NanoDrop. It is best to leave some aqueous phase behind in order to decrease the likelihood of transferring contaminants.</p>
-</li>
-<li>
-<p>Add 500 μL cold isopropanol per 1 mL Trizol.</p>
-<p>a. Mix by inverting tubes 6 times.</p>
-<p>b. Incubate at room temperature for 10 minutes.</p>
-<p><strong>Note:</strong> RNA yield may be increased by incubation at -20°C overnight; this step also provides a convenient pause point if necessary.</p>
-<p>c. Centrifuge at 12,000 x g for 10 minutes at 4°C; you should see a white or clear RNA pellet if you started with enough worms.</p>
-<p>d. Carefully remove supernatant; it is fine to leave some isopropanol behind (~5-10 μL) and remove it in the ensuing wash.</p>
-</li>
-<li>
-<p>Add 1 mL cold 75% ethanol per 1 mL Trizol.</p>
-<p>a. Pulse vortex.</p>
-<p>b. Centrifuge at 7,500 x g for 5 minutes at 4°C.</p>
-<p>c. Remove the majority of the supernatant with a P1000; remove the remaining with a P20, being careful not to aspirate the RNA pellet but removing all the ethanol.</p>
-<p>d. Allow to air dry (with caps open) for 10 minutes in the BSC, ensure all ethanol is removed/evaporated.</p>
-</li>
-<li>
-<p>Resuspend in 20-50 μL of TE buffer or RNase-free water by gently pipetting the pellet up and down.</p>
-<p><strong>Note:</strong> 2-3 chunked plates should result in the extraction of 30-80 μg of RNA, depending on strain; choose your resuspension volume according to your desired final concentration.</p>
-</li>
-<li>
-<p>Measure concentration and purity on the NanoDrop.</p>
-<p><strong>Note:</strong> This protocol should results in <strong>very pure</strong> RNA, with 260:280 and 260:230 values ~ 1.9-2.2.</p>
-</li>
-<li>
-<p>Optional, remove contaminating genomic DNA with the Turbo DNA-Free kit.</p>
-<p><strong>Note:</strong> DNase treatment is required if planning on performing qPCR, and is strongly suggested in all other cases, especially if the 260:280 values from the NanoDrop reading was &lt;2.</p>
-</li>
-<li>
-<p>Perform a 1:5 dilution with a 1 μL sample and measure the concentration with Qubit RNA BR.</p>
-<p><strong>Note:</strong> the linear range of the RNA BR assay is 1-1000 ng/μL, so use NanoDrop estimates to calculate the appropriate sample dilution. If performing qPCR or other quantitative measurements, the Qubit assay is significantly more reliable than the NanoDrop, and any downstream calculations should incorporate the Qubit measurement.</p>
-</li>
-<li>
-<p>Dilute to a desired final concentration, aliquot if necessary, and store at -80°C.</p>
+<p>Plasmidsaurus will email the results usually within 24 hrs. Please transfer the results to Box &gt; Data &gt; Plasmidsaurus in a folder labeled with the submission date.</p>
 </li>
 </ol>
 

@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://zamanianlab.org/ZamanianLabDocs/pipelines_local/">
       
       
-        <link rel="prev" href="../pipelines_storage/">
+        <link rel="prev" href="../pipelines_overview/">
       
       
         <link rel="next" href="../pipelines_server/">
@@ -386,6 +386,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../comp_storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../comp_github/" class="md-nav__link">
         
   
@@ -511,27 +532,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../pipelines_storage/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Data Storage
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -571,6 +571,27 @@
   
   <span class="md-ellipsis">
     Server Pipelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
   </span>
   
 
@@ -645,9 +666,8 @@
 
 
 <h1 id="local-pipelines">Local Pipelines</h1>
-<p>Simple pipelines are those that are entirely local - they run on a local machine and access data on that same machine. The vast majority of these pipelines will consist of 1-3 R scripts with intermediary Rds files. Simple pipelines will not have version control and thus will not use GitHub, but they may often be collaborative. For this reason there are few standard practices that we will employ, as outlined below.</p>
-<p>With few defined exceptions, data and pipelines associated with a specific data type will be stored on the lab Box <code>Data</code> folder using a common structure.</p>
-<p>An example structured within a designated Box <code>/ZamanianLab/Data/</code> sub-directory,</p>
+<p>Simple pipelines are those that are entirely local - they run on a local machine and access data on that same machine. The vast majority of these pipelines will consist of R scripts with intermediary Rds files. Simple pipelines will not have version control and thus will not use GitHub, but they may often be collaborative. For this reason there are few standard practices that we will employ, as outlined below.Processed (small) data and pipelines should be organized and stored lab Box <code>Data</code> folder using a common structure.</p>
+<p>An example structured within a designated Box <code>/ZamanianLab/LabMembers/{Name}/{Project}</code> sub-directory,</p>
 <div class="highlight"><pre><span></span><code>{Data Type}/
   ├── Master_summary.csv        [date, experimenter, other descriptive columns]
   ├── data/                     [data organized by day]
@@ -669,19 +689,16 @@
 </li>
 </ul>
 <p><strong>Tidying instructions:</strong> These instructions apply to establishing templates for raw tabular (csv) files that are manually generated in the course of assays, and the Rds files generated from tidying all raw data (manually-generated csv or instrument-generated files in various formats). <strong>Pay close attention to column order and case sensitivity</strong>. The purpose of setting common standards is to make manipulation of these data easier across the lab.</p>
-<p><strong><em>Required column names and entries</em></strong>
+<p><strong><em>Example column names and entries</em></strong>
 <div class="highlight"><pre><span></span><code>- date [YYYY-MM-DD]
 - species [e.g., Cel, Bma, Bpa, Dim]
 - strain [e.g., N2 for Cel, NA or gene_id(dsRNA) for parasites]
 - stage [Embryo, mf, L1, L2, L3, L4, AM, AF, Adult]
 - experimenter [e.g., KJG]
-</code></pre></div></p>
-<p><strong><em>Assay-specific column examples</em></strong>
-<div class="highlight"><pre><span></span><code>- treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
+- treatment [e.g., one_drug: Ivermectin, two drugs: Serotonin_Ivermectin]
 - conc [e.g., one conc: 5uM, two conc: 5uM_10uM]
 - worm_num
 - plate_num
-- cue
 </code></pre></div>
 <em>Our lab maintains a common <a href="https://docs.google.com/spreadsheets/d/1_-A3QW2CzlxZGCgrGRkVHnbFrcXyhWBrQ84GenHfMik/edit#gid=0">dictionary</a> of full drug names and plot abbreviations.</em></p>
 

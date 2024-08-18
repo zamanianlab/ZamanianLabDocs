@@ -18,7 +18,7 @@
         <link rel="prev" href="../comp_homebrew/">
       
       
-        <link rel="next" href="../pipelines_storage/">
+        <link rel="next" href="../pipelines_local/">
       
       
       <link rel="icon" href="../images/dna.svg">
@@ -386,6 +386,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../comp_storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Storage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../comp_github/" class="md-nav__link">
         
   
@@ -524,27 +545,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../pipelines_storage/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Data Storage
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../pipelines_local/" class="md-nav__link">
         
   
@@ -571,6 +571,27 @@
   
   <span class="md-ellipsis">
     Server Pipelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pipelines_docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker
   </span>
   
 
@@ -648,16 +669,12 @@
 <p>We organize our data and pipelines as outlined on these pages:</p>
 <ol>
 <li>
-<p><a href="../pipelines_storage/">Data Storage</a></p>
-<p>An overview of how we manage large and small data in the lab. We maintain strict file and folder nomenclature rules on how to properly store raw and processed data.</p>
-</li>
-<li>
 <p><a href="../pipelines_local/">Local Pipelines</a> (simple local scripts)</p>
-<p>These are pipelines involving common assay and data processing or post-processing tasks that can be modified and run on local computers. These pipelines have a common structure and are housed in dedicated sub-directories on Box (<code>/ZamanianLab/Data</code>). These include R scripts to process instrument output files, tabular phenotypic assay data, and the outputs of server pipelines.</p>
+<p>Pipelines involving assay and data processing or post-processing tasks that can be modified and run on local computers. These pipelines have a common structure and are housed on Box (e.g., <code>/ZamanianLab/LabMembers/{Name}/{Project}</code>) and typically include R scripts to process instrument output files, tabular assay data, and the outputs of server pipelines. Project folders will be transferred to a dedicated GitHub repo upon publication of a given project.</p>
 </li>
 <li>
 <p><a href="../pipelines_server/">Server Pipelines</a> (contain a remote server component)</p>
-<p>These are pipelines that tap into the computational power of remote servers, typically involving larger datasets and more complex processing. These include image processing, sequencing, and comparative genomics pipelines.</p>
+<p>Pipelines that tap into the computational power of remote servers, typically involving larger datasets and more complex processing. These currently include image processing, sequencing, and comparative genomics pipelines.</p>
 </li>
 </ol>
 
