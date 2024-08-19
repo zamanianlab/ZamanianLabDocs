@@ -2,7 +2,7 @@
 
 ## Box (Small Data)
 
-Box will be used for storage of small data (e.g., tabular data) alongside code for analysis. Data (large and small) processed into small outputs using local or server pipelines should be stored on Box for downstream analysis and plotting. Box will be backed up to ResearchDrive once every six months.
+Box will be used for storage of small data (e.g., tabular data) alongside code for analysis. Data (large and small) processed into small outputs using local or server pipelines should be stored on Box for downstream analysis and plotting. Box will be backed up to ResearchDrive once every six months. Other uses for Box are outlined in the Lab Manual.
 
 ## UW ResearchDrive (Large Data)
 
@@ -23,7 +23,7 @@ Box will be used for storage of small data (e.g., tabular data) alongside code f
 
     ```
 
-Data can be transferred from ResearchDrive to the CHTC for pipeline-based processing and outputs can be transferred from the CHTC back to ResearchDrive for long-term storage and [Box](https://www.box.com) for post-processing, analysis and plotting. [Instructions](https://kb.wisc.edu/researchdata/internal/page.php?id=93998) can be found for connecting to and transferring files in and out of ResearchDrive. Files can be transferred into the mounted ResearchDrive using a number of approaches, including simple drag-and-drop into the mounted drive, command-line (`rsync` or `cp`), or Globus.
+Data can be transferred from ResearchDrive to the CHTC for pipeline-based processing and outputs can be transferred from the CHTC back to ResearchDrive for long-term storage and [Box](https://www.box.com) for post-processing, analysis and plotting. [Instructions](https://kb.wisc.edu/researchdata/internal/page.php?id=93998) can be found for connecting to and transferring files in and out of ResearchDrive. Files can be transferred to and from ResearchDrive using a number of approaches, including simple drag-and-drop into the mounted drive, Globus, or via the command-line (`rsync` or `cp`).
 
 ??? "Instructions for mounting the UW Research Drive on Mac and PC (as R drive)"
 

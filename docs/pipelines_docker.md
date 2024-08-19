@@ -99,20 +99,23 @@ We will user Docker to establish consistent environments (containers) for common
           docker rmi -f $(docker images -q)
         ```
 
-### Testing Docker Pipelines
+### Testing and Using Docker Pipelines Locally
 
-Before deploying a new pipeline on large datasets, test the pipeline using subsampled data. You can test locally with subsampled data, on the CHTC server with subsampled data, and finally, run the pipeline on the CHTC server with your full dataset. An example is provided below, using RNAseq data.
+You may want to test a pipeline or Docker environment locally using subsampled data before pushing to GitHub/Dockerhub for deployment on CHTC with large datasets.
 
-1. First, subsample your data into a more manageable size and store it in the staging `subsampled` folder.
+1. Run Docker container (established or in development) locally
 
+    ??? "Running a Docker container (with or without local file mounting)"
 
-2. Run Docker container locally
+        ```bash
+          # example with no access to folders on your computer
+          docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
 
-    ```bash
-    docker run -it --rm=TRUE zamanianlab/chtc-rnaseq:v2 /bin/bash
-    ```
+          # example that mounts a local folder (~/Desktop/wrmxpress_dev) in Docker (mapped to /home)
+          docker run -it -v ~/Desktop/wrmxpress_dev:/home --rm=TRUE zamanianlab/wrmxpress /bin/bash
+        ```
 
-3. Simulate the steps in your submit scripts
+2. Simulate the steps in your submit scripts
 
     ??? "Running commands in local Docker container"
 
@@ -126,13 +129,16 @@ Before deploying a new pipeline on large datasets, test the pipeline using subsa
         # clone GitHub repo that contains pipeline in development
         git clone https://github.com/zamanianlab/Core_RNAseq-nf.git
 
-        # transfer sub-sampled files from CHTC staging into your input folder
+        # option A: access files through a locally mounted drive
+
+        # option B: transfer sub-sampled files from CHTC staging or elsewhere into your input folder
         scp -r {net-id}@transfer.chtc.wisc.edu:/staging/groups/zamanian_group/subsampled/191211_AHMMC5DMXX.tar input
 
-        # run your pipeline commands
-
-        # example of a nextflow command using chtc-local.config matched to your hardware specs
+        # run your pipeline commands, example nextflow command (chtc-local.config modified for local hardware specs)
         nextflow run Core_RNAseq-nf/WB-pe.nf -w work -c Core_RNAseq-nf/chtc-local.config --dir "191211_AHMMC5DMXX" --release "WBPS14" --species "brugia_malayi" --prjn "PRJNA10729" --rlen "150"
         ```
 
-4. Make changes to your GitHub pipeline, `push` those changes to GitHub, `pull` those changes to your local container, and re-run the Nextflow command until the pipeline is behaving as expected.
+3. Make changes to your GitHub pipeline and/or Docker environment and re-run commands until the pipeline is behaving as expected.
+
+4. `push` final changes to GitHub and/or Dockerhub
+

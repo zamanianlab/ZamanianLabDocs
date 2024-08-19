@@ -356,7 +356,7 @@ condor_submit Core_RNAseq-nf.sub dir=191211_AHMMC5DMXX script=Core_RNAseq-nf.sh
 
 ### 3. Output (CHTC &rarr; ResearchDrive)
 
-To transfer your job output folder from the CHTC staging output directory to ResearchDrive or your desktop, it is easiesst to use Globus or an SFTP client (e.g., CyberDuck). It also possible to use the command line to transfer outputs to ResearchDrive or your desktop.
+To transfer your job output folder from the CHTC staging output directory to ResearchDrive or your desktop, it is easiest to use Globus or an SFTP client (e.g., CyberDuck). It also possible to use the command line to transfer outputs to ResearchDrive or your desktop.
 
 ??? "CHTC -> ResearchDrive transfer with smbclient"
     ``` bash
