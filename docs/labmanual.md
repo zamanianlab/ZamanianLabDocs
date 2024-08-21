@@ -49,7 +49,7 @@ All members of the lab will be asked to install [Slack](<https://www.slack.com>)
 
 ### B. Google Calendar and Group
 
-An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar. You will also be added to the lab Google Group which will provide you access to lab GDrive docs and sheets.
+An official lab Google calendar will be shared and updated with lab meeting times, relevant departmental and university events, and one-on-one meeting times. Lab members who will be out of town should notify me in advance and mark those dates on the lab calendar so that other lab members are aware should anything arise. Approved vacation days and other time off should also be entered into the lab calendar. You will also be added to the lab Google Group which will provide you access to [Lab GDrive](labgdrive.md) docs and sheets.
 
 ## III. Research Documentation
 
@@ -70,7 +70,7 @@ All grad students and postdocs should install the [Box Drive](<https://www.box.c
 
 ### A. Lab Meetings
 
-Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` subfolder to present on their assigned days. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
+Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` Box subfolder to present on their assigned days. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
 
 ### B. One-on-One Meetings
 
@@ -78,7 +78,7 @@ I will hold weekly one-on-meetings with every graduate student and postdoc, exce
 
 ## V. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff: [Undergrad Tasks](protocols/Tasks/UG_Tasks/UG_Tasks.md) and [Staff Tasks](protocols/Tasks/Staff_Tasks/Staff_Tasks.md).
+Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff. Task assignments are outlined in the [Lab GDrive](labgdrive.md).
 
 
 ## VI. Lab Inventory and Organization
@@ -89,7 +89,7 @@ The locations of *all reagents and consumables* will be stored on [Quartzy](<htt
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCARD_receipts`` to facilitate processing.
+Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCard_receipts`` to facilitate processing. Amazon orders will be placed by the PI.
 
 ### C. Physical Organization
 
@@ -126,7 +126,6 @@ Lab order requests should be made through Quartzy. Lab orders can be placed afte
 13.	**Packing material:** Some packing material can be recycled (look for recycling triangles). Some packing peanuts dissolve in water. All Styrofoam must go in blue bin in the Animal Science loading dock! Some shipping boxes with Styrofoam inserts can be returned to the company. Fill out flap on box top and place on table behind mailboxes with note for US Mail pickup.
 
 14.	**Empty parasite boxes from UGA FR3:** These need to be sent back via Federal Express ground shipping to address on paper in box.
-
 
 
 ## VIII. Lab Stocks
@@ -252,7 +251,7 @@ It is your responsibility to monitor injected lines and select for stable lines 
 **Lab strain designation: ZAM#**
 **Lab allele designation: maz#**
 
-*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the `C. elegans Strain Database` linked in [Lab Sheets](labsheets.md). The injection mix components and concentrations used to generate the strain as well as any additional notes pertaining to the strain should also be documented in the spreadsheet.
+*C. elegans* strains we receive from CGC, as gifts from other labs, or that we create in the lab will be frozen by the lab manager. Five tubes will be frozen at once, with one of those tubes frozen in the Liquid Nitrogen Tank. Strains must be associated with COMPLETE genotypic information (e.g., Transgenes, Alleles, Strain Background) on Quartzy AND in the `C. elegans Strain Database` linked in the [Lab GDrive](labgdrive.md). The injection mix components and concentrations used to generate the strain as well as any additional notes pertaining to the strain should also be documented in the spreadsheet.
 
 ### C. Strain Maintenance
 
@@ -262,11 +261,11 @@ Maintain strains in your assigned areas of the 15/20C incubators, or above your 
 
 ### A. Parasite Schedule
 
-We generate parasites through local infections and receive additional regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the `Parasite Schedule Sheet` linked in [Lab Sheets](labsheets.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) in the `#Parasite_Planning` Slack channel.
+We generate parasites through local infections and receive additional regular shipments of filarial parasites (*B. malayi*, *B. pahangi*, and *D. immitis*) from the NIH FR3 repository and schistosome-infected mice from the NIH SR3 repository. The Lab Manager will place external orders for many months ahead and the expected scheduling of all parasite stage and materials will be updated on the `Parasite Schedule Sheet` linked in the [Lab GDrive](labgdrive.md). Keep track of both local and external parasite orders. Shipments do not always arrive as expected, but you should have a detailed list of future parasite needs on the spreadsheet. I will send out a FedEx confirmation once I receive it (typically one day in advance) on Slack.
 
 ### B. Storage of General Parasite Materials
 
-General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the `Parasite Tissue and Nucleic Acid Inventory` sheet linked in [Lab Sheets](labsheets.md). The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
+General use (non-experimental) parasite materials should be catalogued and stored in designated racks/boxes. There are individual boxes for *B. malayi*, *B. pahangi, and D. immitis* tissues and RNA in the -80C freezer. There is a single box for storage of parasite gDNA in the -20C freezer. The contents of all samples in these boxes should be inventoried for each species in the appropriate tab of the `Parasite Tissue and Nucleic Acid Inventory` sheet linked in the [Lab GDrive](labgdrive.md). The spreadsheet should be immediately updated after placing any new tubes in these boxes. This catalog of materials allows us to plan qPCR, RNA-seq and other experiments.
 
 ```
 * Tube Labels (combine the following into a single string)
@@ -279,12 +278,12 @@ General use (non-experimental) parasite materials should be catalogued and store
 
 ### C. Parasite Infections (Insectary)
 
-The Bartholomay Lab insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs. Detailed protocols for insectary operations, filarial parasite infection, and L3 isolation can be found on our [Protocols](protocols/protocols.md) page. Mosquito strains available for parasite infection:
+The insectary is a powerful resource that comes with major responsibilities. All members of the lab should follow established safety protocols and basic lab etiquette when using this space. No member of the lab should carry out insectary operations and procedures without approval from both PIs (Bartholomay and Zamanian). Detailed protocols for insectary operations, filarial parasite infection, and L3 isolation can be found on our [Protocols](protocols/protocols.md) page. Mosquito strains available for parasite infection:
 
 - *Ae. aegypti LVP* strain: used for *B. malayi* and *B. pahangi* infections
 - *Ae. aegypti SD* strain: used for *D. immitis* infections
 
-Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the [Insectary Protocol](protocols/Parasitic_Nematodes/Insectary/Insectary.md) and update the `Parasite Schedule` sheet linked in [Lab Sheets](labsheets.md) to associate parasite batches with mosquito infections
+Strains must be ordered in advance for infection, accounting for potential die offs and typical L3 yields. Place Orders as instructed in the [Insectary Protocol](protocols/Parasitic_Nematodes/Insectary/Insectary.md) and update the `Parasite Schedule` sheet linked in the [Lab GDrive](labgdrive.md) to associate parasite batches with mosquito infections
 
 ```
 Mosquito Carton Labels
@@ -329,15 +328,15 @@ All lab members must take the appropriate safety training before starting any la
 
 ### -80&deg;C Freezer
 
- 1. **Do not open it** until you are ready to transfer the contents. Notify emergency contacts on freezers by phone.
+ 1. **Do not open freezers** until you are ready to transfer the contents. Notify emergency freezer contacts by phone.
 
  2. SVM North has one backup -80&deg;C’s immediately outside of the freezer bay.
 
- 3. Use the autoclave bins and any empty styrofoam containers you can get (found in the little cubby at the entrance of room 230) for getting dry ice to keep items cold during transfer. The dry ice is located on the loading dock to the right in tan wheeled bins.
+ 3. Use the autoclave bins or empty styrofoam containers to collect dry ice and to keep items cold during transfer. The dry ice is located in the corridor outside of the freezer bay.
 
- 4. Fill the bottom of your autoclave bins with the dry ice. Transfer items to the bins before carrying them down to the basement -80&deg;Cs. Take boxes out of the metal racks if there is limited space is in the back up freezers.
+ 4. Fill the bottom of your autoclave bins with the dry ice. Transfer items to the bins before carrying to the backup -80&deg;Cs. Take boxes out of the metal racks if there is limited space.
 
- 5. Record on the sheet when you put items in them.   
+ 5. Record the date you transferred items on the backup freezer sheet.
 
 ### -20&deg;C Freezers
 
@@ -347,7 +346,7 @@ All lab members must take the appropriate safety training before starting any la
 
 ### Refrigerators
 
-  If one of our fridges breaks down, transfer the contents in one of our other fridges.
+  If one of our fridges breaks down, transfer the contents to one of our other fridges.
 
 
 ## XIV. Lab Onboarding Checklist
@@ -356,15 +355,14 @@ All lab members must take the appropriate safety training before starting any la
 2. Office space, bench, and pipette assignment
 3. Computer assignment and environment setup
 4. Electronic accounts (will use UW email)
-    - Google Calendar
-    - Google Group (for shared sheets)
+    - Google Group/Calendar (for shared sheets)
     - Quartzy
     - Box
     - Benchling
     - Paperpile
     - GitHub
     - CHTC
-    - DockerHub
-5. Lab notebook
+    - DockerHub (if needed)
+5. Lab notebook (Rocketbook)
 6. Biosafety Training
 7. Provide photo for lab website
