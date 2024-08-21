@@ -89,7 +89,7 @@ The locations of *all reagents and consumables* will be stored on [Quartzy](<htt
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. Lab orders can be placed after review and approval. Orders can be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCard_receipts`` to facilitate processing. Amazon orders will be placed by the PI.
+Lab order requests should be made through Quartzy. After approval, lab orders will be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCard_receipts`` to facilitate processing. Amazon orders will be placed by the PI.
 
 ### C. Physical Organization
 
@@ -328,7 +328,7 @@ All lab members must take the appropriate safety training before starting any la
 
 ### -80&deg;C Freezer
 
- 1. **Do not open freezers** until you are ready to transfer the contents. Notify emergency freezer contacts by phone.
+ 1. **Do not open freezers** until you are ready to transfer contents. Notify emergency freezer contacts by phone.
 
  2. SVM North has one backup -80&deg;C’s immediately outside of the freezer bay.
 
@@ -356,10 +356,10 @@ All lab members must take the appropriate safety training before starting any la
 3. Computer assignment and environment setup
 4. Electronic accounts (will use UW email)
     - Google Group/Calendar (for shared sheets)
-    - Quartzy
     - Box
     - Benchling
     - Paperpile
+    - Quartzy (shared account)
     - GitHub
     - CHTC
     - DockerHub (if needed)
