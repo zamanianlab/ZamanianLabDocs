@@ -44,21 +44,3 @@
 
   - **Pull needles for mosquito injections** Follow the instructions outlined in [_C. elegans_ Microinjection](../../Microinjection/Ce_Microinjection/Ce_Microinjection.md).
 
-  | Task | Member Responsible |
-  | :--- | :----------------: |
-  | Wipe benches and analytical balance area | All |
-  | Clean equipment and microscopes | All |
-  | Lab Waste (biohazard/sharps/tips/trash) | Chris |
-  | Glass washing and autoclaving | Zane |
-  | NGM dry mix preparation | Zamzam |
-  | NGM plate pouring and seeding | Zane |
-  | LB-AMP-Xgal-IPTG plate pouring | Zane |
-  | LB liquid media | Zane |
-  | Ethanol/bleach spray bottle refill | Sydney |
-  | _C. elegans_ incubator cleaning | Kendra/Kathy |
-  | Plate pouring, buffers, and reagents refill | Zane |
-  | Pipette tip refills and autoclaving | Zane |
-  | 1.5 mL tube refill and autoclaving | Zane |
-  | Cartons for mosquito infections | Zane |
-  | Needles for mosquito injections | NA |
-

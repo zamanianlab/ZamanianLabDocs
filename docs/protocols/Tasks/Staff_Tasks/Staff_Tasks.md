@@ -27,12 +27,6 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **Parasite Tissue Storage.** Any unused parasites should be frozen every week according to the tissue storage protocol listed in [RNA Extraction](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md). Stored tissue must be inventoried in the "Parasite Tissue and Nucleic Acid Inventory" spreadsheet and include a cryolabel with the Sample ID. The responsibility of parasite tissue storage will rotate between individuals every 3 months with the following rotation schedule:
 
-  | Rotation | Responsible |
-  | -------------- | ---------------------- |
-  | Jan. - Mar.    | Clair |
-  | Apr. - Jun.    | Katie |
-  | Jul. - Sept.   | Kendra  |
-  | Oct. - Dec.    | Elena |
 
 ## Equipment Maintenance
 
@@ -50,25 +44,5 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **AquaMax Plate Washer Cleaning.** Refer to the [Cleaning protocols](https://docs.google.com/document/d/1GAdTAL4nCAhQKjOBjS8UwrUXJue6KJppFMVvZMPcC6o/edit#heading=h.dk8xs0se0sxc) for instructions on the different types of cleaning (water and AquaMax cleaning solution). 
 
-## Task Assignments
 
-  | Task | Member Responsible |
-  | ---- | ------------------ |
-  | 50x TAE and 1x TAE refill | EGR |
-  | 100 bp and 1000 bp ladder reaction | CH |
-  | Loading dye stocks | KD |
-  | dNTP preparation | KD/CH |
-  | M9 stock | KV |
-  | SOC Media | KV |
-  | Making competent cells (DH5alpha) | KV |
-  | *E. coli* HB101 concentrated stocks | EGR |
-  | Injection setup and needle puller maintenance | KV |
-  | Incubator maintenance and CO<sub>2</sub> tank replacement | KV |
-  | Water-jacket incubator maintenance | KV |
-  | Worm 2x lysis buffer | KV |
-  | Agarose pads | KV |
-  | Liquid N<sub>2</sub> tank monitoring | KV |
-  | Sweep and mop lab spaces | LN |
-  | K medium stocks (1 L) | KTR | 
-  | Multidrop monthly calibration | EGR |
 
