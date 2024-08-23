@@ -16,7 +16,6 @@ This resource is by nature an open, living, and collaborative document. We are u
     ```
     conda create --name labdocs python=3.9
     conda activate labdocs
-    conda install pip
     pip install mkdocs
     pip install mkdocs-material
     ```
