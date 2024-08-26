@@ -1,4 +1,4 @@
-# Zamanian Lab Manual v 2.0
+# Zamanian Lab Manual v 3.0
 
 ## I. Lab Mission and Philosophy
 
@@ -22,7 +22,6 @@ Borrowing from Federico Ardila-Mantilla, we build our lab upon these axioms:
 ### C. Mentorship
 
 We hold weekly lab meetings as a springboard for open and critical scientific exchange. I will also schedule regular individual meetings with every member of the lab so that we can discuss research progress and whatever else that may arise. Career development is a multi-faceted endeavor. Where I am positioned to do so, I will identify or help create opportunities that relate to the career aspirations of individual lab members. I will work with trainees to help them hone their scientific writing and communication skills. This will occur through the drafting of manuscripts, as well as the attendance of relevant conferences. Once lab members have a firm grasp of their primary research projects, I will often encourage them to move out of their comfort zones. For many, this may mean achieving fluency in a programming language useful to their research and future. Lab members should also seek to make use of the expertise of the broader lab and university community. In general, your resources should include a wide network of peers and mentors. Foster relationships with others in your same position and those who are willing to offer advice. It is critical in science to foster your own support network of people you trust, are inspired by, and that have expertise you don’t yet have.
-
 
 ### D. Lab Citizenship
 
@@ -55,11 +54,11 @@ An official lab Google calendar will be shared and updated with lab meeting time
 
 ### A. Physical Lab Notebooks
 
-All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. This is a requirement for federally-funded research. Lab notebooks must be turned in at the conclusion of your tenure in the lab. We have adopted reusable notebooks by [RocketBook](<https://www.rocketbook.com>) as our official lab notebook system. You will be issued a RocketBook and will be expected to use this to document your daily experimental activities. This will require installing the RocketBook app on your phone and associating an account with your official university e-mail address. You should regularly take images and export your notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as personal backup.
+All members of the lab should record the details of their daily research activities in the form of a lab notebook with dated entries. Lab notebooks must be turned in at the conclusion of your tenure in the lab. You have the option of using permanent lab notebooks or reusable notebooks by [RocketBook](<https://www.rocketbook.com>) to document your daily experimental activities. If you choose the RocketBook option, install the app on your phone and associate the account with your official university e-mail address. You should regularly take images and export your RocketBook notes to your dedicated folder on the lab Box (``/RocketBook/``) and to your Google Drive account as personal backup.
 
 ### B. Electronic Lab Notebooks
 
-The laboratory uses [Benchling](<https://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology and cloning efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work (including gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of reagents.
+The laboratory uses [Benchling](<https://www.benchling.com>) as a shared electronic lab notebook (ELN) and central repository for all molecular biology and cloning efforts. Lab members will receive an invitation to join the ZamanianLab Benchling organization page. Electronic summaries of work (including gels and printouts) should be regularly annotated and recorded into your defined Benchling lab notebook project space. This means that your electronic notes should include the minimal set of notes required to repeat any molecular biology experiment that you have performed. Do not let too much time elapse before you convert your physical notes into electronic form, as it is easier to clear up ambiguities when experiments are fresh in memory. This should develop into a habit. Benchling also provides tools for the planning of molecular cloning tasks and the design of reagents. Our lab plasmid inventory can also be found on Benchling.
 
 ### C. Box Storage
 
@@ -70,7 +69,7 @@ All grad students and postdocs should install the [Box Drive](<https://www.box.c
 
 ### A. Lab Meetings
 
-Lab meetings will be held once a week. Every member of the lab should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` Box subfolder to present on their assigned days. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism.
+Lab meetings will be held once a week to discuss general lab matters and for one person to present their work. Everyone presenting in the rotation schedule should have an updated presentation file (dated ``YYYYMMDD``) in their personal ``/LabMeetings/`` Box subfolder to present on their assigned days. This presentation should contain your overall project goals, divided into sub-aims, as well as data and timelines for specific experiments completed and planned for the coming weeks. This is a space for all members of the lab to contribute to troubleshooting and to engage in constructive and healthy scientific criticism. We will also keep 'flex' spots in our lab meeting rotation for volunteer driven journal or code club activities.
 
 ### B. One-on-One Meetings
 
@@ -78,7 +77,7 @@ I will hold weekly one-on-meetings with every graduate student and postdoc, exce
 
 ## V. Lab Tasks
 
-Every member of the lab will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff. Task assignments are outlined in the [Lab GDrive](labgdrive.md).
+Every lab member will be involved in scheduled lab maintenance in some capacity. This will include things like defined cleaning activities and making common buffers and reagents. Roles are divided between undergraduates and other lab staff. Task assignments are outlined in the [Lab GDrive](labgdrive.md).
 
 
 ## VI. Lab Inventory and Organization
@@ -89,7 +88,7 @@ The locations of *all reagents and consumables* will be stored on [Quartzy](<htt
 
 ### B. Lab Ordering
 
-Lab order requests should be made through Quartzy. After approval, lab orders will be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCard_receipts`` to facilitate processing. Amazon orders will be placed by the PI.
+Lab order requests should be made through the lab Quartzy account. Add your initials to the Notes section of any order you submit. After approval, orders will be placed using either [ShopUW+](<https://solutions.sciquest.com/apps/Router/SAMLAuth/UWisconsin>) system or the lab purchasing card (P-card). *It is the responsibility of every member of the lab to communicate when we are nearing the end of necessary supplies or reagents so that orders can be placed in a timely manner.* Except for routine items (e.g., tips, tubes, and gloves), you should message the PI on Slack prior to placing an order on Quartzy to receive approval. Each request should be associated with a funding source in the Quartzy order form. Orders will be fulfilled on designated days of each week. *When items arrive, they should be immediately marked as received, physically dated, and associated with a location on Quartzy!* **P-card ordering:** Items will occasionally have to be ordered with the lab P-card. P-cards are also often used for conference registration. I expect lab trainees to process these orders and to place a pdf receipt (appropriately named) of their order in ``/LabOrdering/PCard_receipts`` to facilitate processing. Amazon orders will be placed by the PI.
 
 ### C. Physical Organization
 
@@ -359,9 +358,9 @@ All lab members must take the appropriate safety training before starting any la
     - Box
     - Benchling
     - Paperpile
-    - Quartzy (shared account)
     - GitHub
     - CHTC
+    - Quartzy (shared account)
     - DockerHub (if needed)
 5. Lab notebook (Rocketbook)
 6. Biosafety Training

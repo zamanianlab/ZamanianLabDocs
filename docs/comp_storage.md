@@ -57,5 +57,5 @@ The SVM L Drive can be mounted ([Mac](https://it.vetmed.wisc.edu/drive-map-new-l
 
 ## UW S3 Storage (Archival)
 
-[UW S3 storage](https://kb.wisc.edu/researchdata/news.php?id=13447) provides 50 TB of expandable archival storage. The PI will archive all publishable data from Research Drive (including Box backups) to UW S3 storage after publication. These data can be retrieved by the PI and made available on UW ResearchDrive if needed.
+[UW S3 storage](https://kb.wisc.edu/researchdata/news.php?id=13447) provides 50 TB of expandable archival storage. The PI will archive all publishable data from Research Drive (including Box backups) to UW S3 storage after publication. Lab Google Drive folders will be backed up to S3 on an annual basis. S3 can be retrieved by the PI and made available on UW ResearchDrive if needed.
 
