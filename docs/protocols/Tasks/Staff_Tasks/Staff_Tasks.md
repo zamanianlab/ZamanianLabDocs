@@ -23,7 +23,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **Worm 2x lysis buffer.** This needs to be made rarely, in large batches and frozen. See [_C. elegans_ Recipes](../../Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md).
 
-  - **M9 stock replenishment.** Make three 1 L stocks of M9 in glass bottles when running low. Follow the recipe in [_C. elegans_ Recipes](../../Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md). Be sure to autoclave and then add 1 M MgSO<sub>4</sub> once cool.
+  - **M9 stock replenishment.** Make 4X stock solutions of M9. Follow the recipe in [_C. elegans_ Recipes](../../Caenorhabditis_elegans/Celegans_Recipes/Celegans_Recipes.md). Be sure to autoclave and then add 1 M MgSO<sub>4</sub> once cool.
 
   - **Parasite Tissue Storage.** Any unused parasites should be frozen every week according to the tissue storage protocol listed in [RNA Extraction](../../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md). Stored tissue must be inventoried in the "Parasite Tissue and Nucleic Acid Inventory" spreadsheet and include a cryolabel with the Sample ID. The responsibility of parasite tissue storage will rotate between individuals every 3 months with the following rotation schedule:
 

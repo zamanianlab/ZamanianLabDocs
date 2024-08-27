@@ -98,33 +98,31 @@ Lab order requests should be made through the lab Quartzy account. Add your init
 
 ## VII. Waste Management
 
-1. **Autoclave bag trash:** Remove bag, twist top, and bend over and wrap clear packing tape around the top to seal. The bags go in the MERI bins in the loading dock. Replace autoclave bag with new bag labeled ZAMANIAN LAB.
+- **Autoclave bag trash:** Remove bag, twist top, bend over and wrap clear packing tape around the top to seal. Autoclave bags should be placed in the Rm 2934 MERI bins. Replace autoclave bag with new bag labeled 'Zamanian Lab'.
 
-2. **Gloves:** Non-contaminated gloves go in the blue glove recycling buckets. Full buckets can be emptied into box on the loading dock for recycling. We reuse the blue buckets.
+- **Gloves:** Non-contaminated gloves go in the blue glove recycling buckets. Full buckets can be emptied into the designated loading dock box for recycling. We reuse the blue buckets.
 
-3. **Cardboard benchtop tip boxes:** These boxes are designed for pipette tip trash only. When box is full, tape top closed with clear packing tape. Full tip boxes can be placed by either sink in the labs until there is room to add it to a autoclave bag. They cannot go into the MERI bin unless they are in an autoclave bag. New tip trash boxes can be found assembled on a shelf in 230 or unassembled on the bench in the loading dock.
+- **Cardboard benchtop tip boxes:** These boxes are designed for pipette tip trash only. When box is full, tape top closed with clear packing tape. Full tip boxes can be placed by either sink in the labs until there is room to add it to a autoclave bag. They cannot go into the MERI bin unless they are in an autoclave bag. New tip trash boxes can be found assembled on a shelf in Rm 2961 or unassembled in Rm 2934.
 
-4. **Uncontaminated serological pipette trash boxes:** There is an empty tip box in each lab room for these. When the box is full, tape closed with clear packing tape and place a green OK to trash sticker on it with name and date filled out. These can then go into large trash bin by elevator. Replace with new box.
+- **Uncontaminated serological pipette trash boxes:** There is an empty tip box in each lab room for these. When the box is full, tape closed with clear packing tape and place a green 'OK to trash sticker' on it with name and date filled out. These can then go into or next to our trash bins in the lab. Replace with new box.
 
-5. **Regular floor trash bins:** When full, tie off top and place in large trash bin by elevator. Replace with new bag found in drawer S2 in 223 or on bench in the loading dock.
+- **Liquid biosamples:** Decontaminate bioliquids (parasite, bacteria, cells, blood/serum, stool) with 10% bleach before washing down the drain.
 
-6. **Liquid bacterial, parasite or blood:** Decontaminate with 10% bleach before washing down the drain.
+- **Empty blue pipette tip boxes:** Boxes can be found in the cabinet above the plate reader in Rm 2961. The clear plastic in the boxes are recyclable and should be placed in the blue recycling container in the lab. 
 
-7. **Empty blue pipette tip boxes:** Boxes are placed in autoclave tub in 230 by sink. The clear plastic in the boxes are recyclable and can go in the blue recycling container by elevator. Colored inserts are also recycled through a program with USA Scientific. Empty colored inserts go in empty pipette tip box in 235 for pick up by USA Scientific.
+- **Glass trash:** Glass that cannot be recycled (including broken glass) goes in the cardboard box in Rm 2963. Small glass slides and capillary tubes can go in red sharps containers. Full red sharps containers get capped and can go in or next to MERI bin in Rm 2934. New red sharps containers will be ordered as needed.
 
-8. **Glass trash:** Glass that cannot be recycled goes in the cardboard box in 223 by fridge/freezer this includes broken glass as well. Small glass slides and capillary tubes can go in red sharps containers. Full cardboard boxes get taped up with clear packing tape and put in hall outside lab doors with OK to trash green sticker filled out on it. Replacement boxes are in 235. Full red sharps containers get capped and can go in or next to MERI bin on loading dock. New red sharps containers are found on loading dock.
+- **Hazardous liquid waste:** There are very specific containers for Halogenated and non-Halogenated hazardous waste. Please see paperwork and containers under the hood in Rm 2935. Some Hazardous waste requires a special pick up from Safety. This can be managed through Kathy.
 
-9. **Hazardous liquid waste:** There are very specific containers for Halogenated and non-Halogenated hazardous waste. Please see paperwork and containers next to hood in 230. Some Hazardous waste requires a special pick up from Safety. This can be managed through Kathy.
+- **Worm boxes:** Dirty worm boxes are placed in on shelf labeled 'dirty worm boxes' in Rm 2935. Clean boxes are found on top of shelving unit in Rm 2935. Boxes should be changed out often.
 
-10. **Worm boxes:** Dirty worm boxes are placed in drying oven in autoclave room for a few days. Clean boxes are found on top of shelving unit in picking room in 230. Boxes should be changed out often.
+- **Dirty glassware:** Dirty glassware in Rm 2961 should be placed in the tub on the cart under the dishware cabinet. Dirty glassware in Rms 4206 and 4210 goes in or next to the sink. Glassware is cleaned in the dishwasher found in the autoclave room. You will need to be trained to use the glassware in order to access the dishwasher calendar for scheduling.
 
-11.	**Dirty glassware:** Dirty glassware in 230 goes in tub on cart by the sink. Dirty glassware in 223 goes in or next to sink. Glassware is cleaned in the dishwasher in autoclave room on program #4.
+- **Empty cardboard boxes:** Empty carboard boxes should be flattened and placed outside of the lab.
 
-12.	**Empty cardboard boxes:** Empty carboard boxes go on top of blue mixed paper bin by the elevator.
+- **Packing material:** Some packing material can be recycled (look for recycling triangles). Some packing peanuts dissolve in water. All Styrofoam must go in blue bin in the SVM N hallway! Some shipping boxes with Styrofoam inserts can be returned to the company. Fill out the flap on box top and place on table behind mailboxes with note for US Mail pickup.
 
-13.	**Packing material:** Some packing material can be recycled (look for recycling triangles). Some packing peanuts dissolve in water. All Styrofoam must go in blue bin in the Animal Science loading dock! Some shipping boxes with Styrofoam inserts can be returned to the company. Fill out flap on box top and place on table behind mailboxes with note for US Mail pickup.
-
-14.	**Empty parasite boxes from UGA FR3:** These need to be sent back via Federal Express ground shipping to address on paper in box.
+- **Empty parasite boxes from UGA FR3:** These need to be sent back via Federal Express ground shipping to address on paper in box.
 
 
 ## VIII. Lab Stocks
@@ -337,16 +335,11 @@ All lab members must take the appropriate safety training before starting any la
 
  5. Record the date you transferred items on the backup freezer sheet.
 
-### -20&deg;C Freezers
+### -20&deg;C Freezers and Refrigerators
 
-  1. If the -20&deg;C breaks down or needs defrosting, temporarily use the Bartholomay Lab freezers in 311 or 322. Both freezers have items in them but our -20&deg;C contents should fit.
+ - If the -20&deg;C breaks down or needs defrosting, coordinate with another SVM N lab for temporary storage space. We can also use a backup -20&deg;C in Hanson if needed. Fill our autoclave bins with dry ice (located in the hallway outside of Rm 2936) to move items between freezers. It may be necessary to remove boxes from racks to fit everything.
 
-  2. Fill our autoclave bins with dry ice (located on the loading dock to the right in tan wheeled bins) to move items between freezers. It may be necessary to remove boxes from racks to fit everything.
-
-### Refrigerators
-
-  If one of our fridges breaks down, transfer the contents to one of our other fridges.
-
+- If one of our fridges breaks down, transfer the contents to another lab fridge.
 
 ## XIV. Lab Onboarding Checklist
 
@@ -364,4 +357,4 @@ All lab members must take the appropriate safety training before starting any la
     - DockerHub (if needed)
 5. Lab notebook (Rocketbook)
 6. Biosafety Training
-7. Provide photo for lab website
+7. Photo for lab website
