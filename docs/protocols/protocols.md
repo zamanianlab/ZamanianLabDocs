@@ -4,9 +4,7 @@ Internal protocols maintained on [Google Drive](https://drive.google.com/drive/f
 
 ## Lab Tasks
 
-- [Staff Tasks](Tasks/Staff_Tasks/Staff_Tasks.md)
-
-- [Undergraduate Tasks](Tasks/UG_Tasks/UG_Tasks.md)
+- [Task List](Tasks/Task_List.md)
 
 
 ## Molecular Biology
