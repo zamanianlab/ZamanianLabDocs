@@ -13,7 +13,7 @@
 
 2. To make 4 L of 4x stock:
 
-    a. Measure all reagents into 3 L water in a 6 L flask and fully dissolve. Then split the volume into two 2-liter graduated cylinders and bring volume of each to 2 L. Combine in 6 L flask and aliquot into 8 500 mL aliquots.
+    a. Measure all reagents into 3 L milliQ water in a 6 L flask and fully dissolve. Then split the volume into two 2-liter graduated cylinders and bring volume of each to 2 L. Combine in 6 L flask and aliquot into 8 500 mL aliquots.
 
 3. Autoclave on liquid cycle for 1 hr. Make sure to loosen the cap only a little to maintain final volume.
 
@@ -24,7 +24,7 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
 ---
 ## MgSO<sub>4</sub>, 1 M Solution (for M9, S Medium)
 
-1. To make 500 mL, completely dissolve 123.24 g of MgSO<sub>4</sub> heptahydrate (FW= 246.48) in 450 mL distilled water (from the carboy). Transfer to a graduated cylinder and bring up to the final volume with distilled water.
+1. To make 500 mL, completely dissolve 123.24 g of MgSO<sub>4</sub> heptahydrate (FW= 246.48) in 450 mL milliQ water (from the carboy). Transfer to a graduated cylinder and bring up to the final volume with water.
 
 2. Autoclave for 1 hr.
 
@@ -126,19 +126,19 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
 ---
 ## CaCl<sub>2</sub>, 1 M Solution (for S Medium)
 
-1. To make 500 mL, completely dissolve 73.5 g of CaCl<sub>2</sub> dehydrate (FW=147.01) in 450 mL water (from the carboy). Transfer to a graduated cylinder and bring up to final volume.
+1. To make 500 mL, completely dissolve 73.5 g of CaCl<sub>2</sub> dehydrate (FW=147.01) in 450 mL milliQ water (from the carboy). Transfer to a graduated cylinder and bring up to final volume.
 
 2. Autoclave for 1 hr.
 
 ---
 ## NaCl, 5 M Solution
 
-1. To make 1 L, dissolve 292 g of NaCl (FW=58.44) in 900 mL distilled water (from the carboy). Transfer to a graduated cylinder and slowly bring up to final volume to 1L to achieve complete dissolution. This is stored without sterilizing.
+1. To make 1 L, dissolve 292 g of NaCl (FW=58.44) in 900 mL milliQ water (from the carboy). Transfer to a graduated cylinder and slowly bring up to final volume to 1L to achieve complete dissolution. This is stored without sterilizing.
 
 ---
 ## KCl, 1M Solution
 
-1. To make 500 mL, completely dissolve 37.28 g of KCl (FW=74.55) in 450 mL distilled Milli-Q water. Transfer to a graduated cylinder and bring up to final volume.
+1. To make 500 mL, completely dissolve 37.28 g of KCl (FW=74.55) in 450 mL milliQ water. Transfer to a graduated cylinder and bring up to final volume.
 
 2. Autoclave for 1 hr.
 
@@ -221,7 +221,7 @@ Note: use autoclaved 2 L water bottles (1500 mLs) to dilute to 1x for use in ass
     | Reagent  | Amount for 10 mL |
     | -------- | :---------------------: |
     | NaOH  | 4 g |
-    | dH<sub>2</sub>O | up to 10 mL |
+    | MQ H<sub>2</sub>O | up to 10 mL |
 
 Note: Make immediately before making bleach solution.
 
@@ -234,7 +234,7 @@ Note: Make immediately before making bleach solution.
     | -------- | :---------------------: | :----------------------: |
     | NaOCl (from Fisher cat #SS290-1) | 20 mL | 40 mL |
     | 10 M NaOH | 5 mL | 10 mL |
-    | dH<sub>2</sub>O | up to 100 mL | up to 200 mL |
+    | MQ H<sub>2</sub>O | up to 100 mL | up to 200 mL |
 
 2. Store at 4°C.
 
