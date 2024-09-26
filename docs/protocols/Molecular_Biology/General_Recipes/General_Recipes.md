@@ -141,7 +141,7 @@
     Orange G dye | 45 mg
     30% Glycerol (filter sterilized) | 10.0 mL
 
-2. Aliquot 1 mL each into pre-labeled 1.7 mL tubes and store at room temperature in labeled box. Additional tubes can be stored at -20°C.
+2. Aliquot 1 mL each into pre-labeled 1.5 mL tubes and store at room temperature in labeled box. Additional tubes can be stored at -20°C.
 
 
 ---
