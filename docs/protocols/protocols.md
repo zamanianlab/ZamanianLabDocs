@@ -23,15 +23,11 @@ Internal protocols maintained on [Google Drive](https://drive.google.com/drive/f
 
 - [NEB HiFi Assembly](Molecular_Biology/NEB_HiFi_Assembly/NEB_HiFi_Assembly.md)
 
-  [RETIRED PROTOCOL Partial Digest (Molecular_Biology/Partial_Digest/Partial_Digest.md)]: #
-
 - [qPCR](Molecular_Biology/qPCR/qPCR.md)
 
 - [cDNA Synthesis](Molecular_Biology/RNA_to_cDNA/RNA_to_cDNA.md)
 
 - [dsRNA Synthesis](Molecular_Biology/RNAi_dsRNA_Synthesis/RNAi_dsRNA_Synthesis.md)
-
-  [RETIRED PROTOCOL Sanger Sequencing (Molecular_Biology/Sanger_Sequencing/Sanger_Sequencing.md)]: #
 
 - [Competent Cells](Molecular_Biology/Competent_Cells/Competent_Cells.md)
 
