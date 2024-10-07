@@ -6,6 +6,7 @@
 - Safelock Tubes (Eppendorf, #022600044)
 - Qiagen Stainless Steel 5 mm Beads (#69989)
 - Nuclease-free Water
+- Autoclaved MilliQ water
 - Zymo Direct-zol RNA Miniprep (#R2051) (for option A)
 - 100% Molecular Grade Ethanol (for option A)
 - Chloroform (for option B)
@@ -13,23 +14,27 @@
 
 ## Tissue storage
 
-1. Use new filter tips, clean work area in biosafety cabinet with Eliminase, and procure liquid nitrogen in small tank.
+1. Treat working area with Eliminase or RNase Zap, acquire nuclease-free filtered tips, and  procure liquid nitrogen or dry ice.
 
-2. Update the [Parasite Tissue and Nucleic Acid Inventory](https://docs.google.com/spreadsheets/d/1wJ3wzHmuTNRc_3RYjan3bp7rbBAsNrVvwJPJLilpmb8/edit#gid=0) with the tissues being prepared for storage and use cryolabels to label 1.5 mL tubes with the Sample ID.
+2. Update the [Parasite Tissue and Nucleic Acid Inventory](https://docs.google.com/spreadsheets/d/1wJ3wzHmuTNRc_3RYjan3bp7rbBAsNrVvwJPJLilpmb8/edit#gid=0) with the tissues being prepared for storage and use cryolabels to label 1.5 mL tubes with the Sample ID. Be sure to include a lid label with stage and T###.
 
-3. Wash sample in nuclease-free media or PBS:
+3. Prepare the tissue samples according to stage:
 
-    |Stage| Timing | Wash Method | Ideal Quantity|
-    |----------------------------|------ | ------|----------------------------------------|
-    |mf    | Day of arrival |   Use RPMI-1640 and a [PD-10 column](../mf_filtration/mf_filtration.md) to filter the mf. Titer to ~500,000 mf total and centrifuge at 1,100 rpm for 8 min. or until mf pellet. Transfer pellet to a 1.5 mL tube in 100 μL nuclease-free water. |500,000  |
-    |L3   | Day of arrival |Wash L3 in a 15 mL conical tube containing clean RPMI-1640. Allow L3s to pellet by gravity. Transfer L3 into 1.5 mL tubes in 100 μL nuclease-free water. |300+ |
-    |Adult | Incubate in fresh complete media at 37°C for 24 hr. prior to freezing. |  Wash separated adults in a petri dish containing RPMI-1640. Transfer adults into 1.5 mL tubes in 100 μL nuclease-free water after wash.      | 1-3   |  
+    |Stage | Wash Method | Ideal Quantity|
+    |----------------------------| ------|----------------------------------------|
+    |mf    |   Use RPMI-1640 and a [PD-10 column](../mf_filtration/mf_filtration.md) to filter the mf. Wash once with nuclease-free water (MilliQ). | 1 - 3 Million |
+    |L3   | Wash L3 in a 15 mL conical tube using a small volume of nuclease-free water (MilliQ). Allow L3s to pellet by gravity.  |300+ |
+    |Adult | Wash adult parasite cluster in a petri dish containing nuclease-free water (MilliQ).   | 30-50<sup>1</sup>    |  
 
-4. Add 300 μL TRIzol LS.
+    <sup>1</sup> Per TRIzol LS protocol, 50-100 mg tissue is recommended per 750 µL reagent. 
 
-5. Snap freeze in liquid nitrogen.
+4. Transfer washed parasites to a nuclease-free 1.5 mL microcentrifuge tube, pellet the parasites, and remove as much of the supernatant as possible (100 µL max residual). 
 
-6. Store at -80°C.
+5. Add 300 μL TRIzol LS.
+
+6. Snap freeze in liquid nitrogen or dry ice. 
+
+7. Store at -80°C in the Parasite Tissue storage box.
 
  **If time allows, perform RNA extraction immediately.**
 
