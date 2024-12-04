@@ -83,7 +83,7 @@ Internal protocols maintained on [Google Drive](https://drive.google.com/drive/f
 
 - [Modified McMaster's Fecal Egg Count](Parasitic_Nematodes/McMasters_FEC/Modified_McMasters.md)
 
-- [*H. contortus* L3 Ex-sheathing](Parasitic_nematodes/HcL3_Ex-Sheathing/HcL3_Ex-sheathing.md)
+- [*H. contortus* L3 Ex-sheathing](Parasitic_Nematodes/HcL3_Ex-Sheathing/HcL3_Ex-sheathing.md)
 
 ## *Caenorhabditis elegans*
 
