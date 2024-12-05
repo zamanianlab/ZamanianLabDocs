@@ -109,6 +109,6 @@ well in 24-well plates (total volume = 1 mL). Total of 600 larvae is typically u
 
 8. While waiting for the L3's to settle, add pre-warmed molting media to a 10 or 6 cm petri dish.
 
-9. Transfer the L3's to the petri dish.
+9. Transfer the L3's to the petri dish and keep in an incubator at 37°C +5% CO2.
    - Allow the L3's to molt to L4's for 5 days.
    - Monitor the L3's daily under a dissecting microscope and change the media every two days by following the wash steps above.
