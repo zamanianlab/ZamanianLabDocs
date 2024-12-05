@@ -83,3 +83,32 @@ well in 24-well plates (total volume = 1 mL). Total of 600 larvae is typically u
 4. Place plate containing individually cultured L3 at 37°C with 5% CO2
 
 5. L3 molting should be monitored daily using a compound scope at 40x-200x total magnification.
+
+## L3-L4 Molt (in bulk)
+
+### Materials:
+- 100 mL molting media
+- 10 or 6 cm petri dish
+- 50 mL conical tube
+- 1.5 mL Eppendorf tube
+
+### Protocol:
+1. Once L3's have been isolated and transferred to a 50 mL conical tube, allow them to settle for 1 hr at 37°C.
+
+2. Aspirate to ~3 mL of the supernatant without disturbing the settled L3's.
+
+3. Using a p1000 pipette, transfer 1 mL of the settled L3's to a 1.5 mL Eppendorf tube.
+
+4. Allow the L3 to settle for 5 min at 37°C. 
+
+5. Aspirate the supernatant without disturbing the settled L3's.
+
+6. Add 1 mL of pre-warmed molting media.
+
+7. Repeat steps 4-6 for a total of 3 times to wash the L3's.
+
+8. While waiting for the L3's to settle, add pre-warmed molting media to a 10 or 6 cm petri dish.
+
+9. Transfer the L3's to the petri dish.
+   - Allow the L3's to molt to L4's for 5 days.
+   - Monitor the L3's daily under a dissecting microscope and change the media every two days by following the wash steps above.
