@@ -77,3 +77,52 @@
 5. Disconnect the syringe from the filter unit and remove the plunger. Add the syringe back to the filter unit and then fill the syringe with PBS or water to wash the microfilariae collected on the filter within the unit. Push the fluid through with the plunger.
 
 6. Quickly disassemble the filter unit and place the filter unit in RPMI-1640. Gentle vortexing can help release microfilariae from the filter unit although microfilariae loss should be expected. Filters can also be incubated in RPMI-1640 at 37°C for 1 hour for more passive separation. 
+
+## Filtration from Blood (current)
+
+Protocol from Zoetis adapted for the Zamanian Lab 
+
+### Materials 
+- ULTRA-WARE Glass 90 mm Microfiltration Assembly 
+- Isopore 5 µm 90 mm membrane filters 
+- Forceps
+- 1000 mL glass flask with vacuum attachment
+- Rubber hosing
+- Corning Cell Culture Flask with 0.2 µm Vented Cap 
+- Corning 150 mL Storage Bottle 
+- 10 cm cell culture dish 
+- RPMI with P/S and FBS (complete media) 
+- 2% Sodium Bicarbonate Solution or 1X PBS
+- Stopcock grease 
+
+### Protocol
+
+1. Before filtration, create the RPMI media and 2% sodium bicarbonate solution. 
+   - For the RPMI, add 25 mL of FBS and 5 mL of P/S to 500 mL of RPMI
+   - Keep this media in a 10 cm dish in the incubator at 37°C for at least 30 min before filtration. 
+   - For the 2% sodium bicarbonate solution, add 20 g of solid sodium bicarbonate to 1000 mL of Millipore/DI water. 
+   - Keep this media in the incubator at 37°C for at least 1 hr before filtration.
+   - If the filtered mf will be stained downstream, use 1X PBS for the filtration step and resuspend the mf in RPMI without FBS. The sodium bicarbonate solution may interfere with the success of the staining.
+
+2. Assemble the ULTRA-WARE glass 90 mm microfiltration assembly unit with the 1000 mL glass flask and rubber hosing. Add the isopore membrane filter in between the two pieces of ULTRA-WARE glassware. Connect the hose to a vacuum. 
+   - When assembling be sure to add stopcock grease to the outer rim of the two pieces of glassware that connect to prevent leaking. 
+   - The grease must be spread on the very edges because you want to minimize the amount of grease that can possibly get onto the isopore membrane filter. 
+   - When adding the isopore membrane filter, use sterile forceps that have been cleaned with ethanol to take out of the package and handle the filter. 
+   - Make sure the filter is centered, lays flat on the glassware, and has little bubbles or wrinkles. 
+   - Do not touch the filter with anything other than the forceps. 
+
+3. Once the glassware, filter, and hosing are set up, slowly turn on the vacuum and pour over 20-50 mL of sodium bicarbonate solution to wet the filter. 
+
+4. Make a 1:1 dilution with the mf in blood and the sodium bicarbonate solution (or PBS) in the corning 150 mL storage bottle or a 50 mL conical tube depending on the amount of blood you have. 
+
+5. Once the dilution is made and the membrane filter is wetted, pour over the dilution and slowly turn on the vacuum. 
+   - Be sure to look carefully at the filter when the vacuum is on and that the filter does not become too dried out. 
+   - Add more sodium bicarbonate solution or PBS to further rinse the blood out of the filter.
+
+6. When the filter looks free of blood, take apart the top glass piece of the assembly unit, remove the filter, and invert it into the 10 cm dish with the complete or incomplete RPMI media. Place in the 37°C incubator.
+   - When taking the filter off, it should not be completely dry but there should not be too much sodium bicarbonate left on the filter. Otherwise, when taking the filter off there will be leakage and loss of mf. 
+   - In the dish, the media must be covering the filter completely.
+
+7. Let the filter sit in the media for about 5 minutes to allow the mf to settle and come off the filter. 
+
+8. Transfer the mf in media to a corning cell culture flask with
