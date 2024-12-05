@@ -125,4 +125,15 @@ Protocol from Zoetis adapted for the Zamanian Lab
 
 7. Let the filter sit in the media for about 5 minutes to allow the mf to settle and come off the filter. 
 
-8. Transfer the mf in media to a corning cell culture flask with
+8. Transfer the mf in media to a corning cell culture flask with a 0.2 µm Vented Cap and store in the 37°C incubator until needed for assays.
+   - The mf are viable for up to 2 weeks after filtering
+
+9. To clean the assembly unit:
+   - Unclamp and remove the top piece of the unit. 
+   - Use a paper towel to wipe off all stopcock grease.
+   - Remove the filter piece and run under DI water to clear as much blood from it
+   - Discard the blood in the collection flask in a bleach bucket and reattach the vacuum hose to it.
+   - Put the filter piece back onto the collection flask and run the vacuum to draw out the water still trapped in the filter. Do 2 more washes and vacuuming of the filter.
+   - Use the bleach squirt bottle to wash any other spattered blood that may be on the glassware into the bleach bucket. 
+   - Glassware can be set on a paper towel next to the sink to air dry. 
+
