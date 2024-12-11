@@ -47,7 +47,7 @@ The items below occur **as needed**. Lab members should warn the assigned person
 
   - **Parasite Tissue Storage.** Any unused parasites should be frozen every week according to the tissue storage protocol listed in [RNA Extraction](../Parasitic_Nematodes/Parasite_RNA_Extraction/Parasite_RNA_Extraction.md). Stored tissue must be inventoried in the "Parasite Tissue and Nucleic Acid Inventory" spreadsheet and include a cryolabel with the Sample ID.
 
-  - **Glass washing and autoclaving.** This is very important. Refer to [Glass/Plastic Washing](../Lab_Operations/Washing_Protocols/Washing_Protocols.md) and [Autoclave Operation](../../Lab_Operations/Autoclave_Operation/Autoclave_Operation.md) for instructions.
+  - **Glass washing and autoclaving.** This is very important. Refer to [Glass/Plastic Washing](../Lab_Operations/Washing_Protocols/Washing_Protocols.md) and [Autoclave Operation](../Lab_Operations/Autoclave_Operation/Autoclave_Operation.md) for instructions.
 
   - **Cleaning equipment.** Wipe equipment in the lab with a Kimwipe lightly sprayed with 70% ethanol. This includes the heat block, microcentrifuges (outside and inside the machine), microscope glass stages, Qubit exterior, and thermal cycler exteriors. Be gentle and do not spray ethanol directly onto any electronics or equipment - remember these are very expensive machines and we want them to last a long time.
 
