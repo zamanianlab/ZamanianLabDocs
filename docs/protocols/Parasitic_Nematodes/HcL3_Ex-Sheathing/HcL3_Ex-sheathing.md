@@ -1,7 +1,5 @@
 # Haemonchus contortus L3 Ex-Sheathing
 
-Adapted from Zoetis for the Zamanian Lab
-
 ## Glucose Tyrodes Recipe
 
 | Culture Media Component | Volume/Mass (for ~500 mL total) |
